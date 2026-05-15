@@ -146,7 +146,7 @@
         "promo_subtitle": "The Griffin & Co Difference",
         "promo_heading": "Ready to design your own {{ collection.title }}?",
         "promo_button_text": "Book Consultation",
-        "promo_text": "<p>Looking for more bespoke {{ collection.title }}? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
+        "promo_text": "<p>Looking for bespoke {{ collection.title }}? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
         "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
