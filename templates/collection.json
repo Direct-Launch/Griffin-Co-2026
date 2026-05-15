@@ -61,6 +61,60 @@
         "colors": "accent"
       }
     },
+    "text_adverts_with_icon_xwmiBi": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_FJXz36": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "truck",
+            "title": "<strong>Step 1</strong>",
+            "text": "<p>Select a Setting</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_kKpce4": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "exchange",
+            "title": "<strong>Step 2</strong>",
+            "text": "<p>Select a Diamond</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_zaE4g4": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "globe",
+            "title": "<strong>Step 3</strong>",
+            "text": "<p>Complete Ring</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_FJXz36",
+        "text_advert_kKpce4",
+        "text_advert_zaE4g4"
+      ],
+      "disabled": true,
+      "name": "t:sections.text-adverts-with-icon.name",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "product-grid": {
       "type": "template--collection",
       "settings": {
@@ -152,6 +206,7 @@
   "order": [
     "collection-header-spotlight",
     "image_with_text_JUyzah",
+    "text_adverts_with_icon_xwmiBi",
     "product-grid",
     "image_with_text_TNiGrG",
     "rich_text_6VeUNi"
