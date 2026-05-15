@@ -143,11 +143,43 @@
         "highlight_button_borders": false,
         "show_promo_block": true,
         "promo_image": "shopify://shop_images/Bespoke_Experience.jpg",
-        "promo_subtitle": "The Griffin & Co Difference",
+        "promo_subtitle": "Create Your Own",
         "promo_heading": "Ready to design your own {{ collection.title }}?",
         "promo_button_text": "Book Consultation",
         "promo_text": "<p>Looking for bespoke {{ collection.title }}? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
         "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
+      }
+    },
+    "template_product_recently_viewed_TFp99e": {
+      "type": "template--product--recently-viewed",
+      "name": "t:sections.template--product--recently-viewed.presets.name",
+      "settings": {
+        "title": "Recently viewed products",
+        "description": "",
+        "section_header_alignment": "center",
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "colors": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
       }
     },
     "image_with_text_TNiGrG": {
@@ -173,6 +205,66 @@
         "section-width": "full",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "faq_with_image_g6dkd4": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_T6VXfG": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "About us",
+            "open_by_default": false,
+            "text": "<p>Place some content here to describe this topic.</p>",
+            "page": ""
+          }
+        },
+        "accordion_wCbMex": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "About us",
+            "open_by_default": false,
+            "text": "<p>Place some content here to describe this topic.</p>",
+            "page": ""
+          }
+        },
+        "accordion_k7RUJi": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "About us",
+            "open_by_default": false,
+            "text": "<p>Place some content here to describe this topic.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_T6VXfG",
+        "accordion_wCbMex",
+        "accordion_k7RUJi"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Share your story",
+        "section_description": "",
+        "section_header_alignment": "center",
+        "faq_icon": "plus_minus",
+        "accordion_image": "shopify://shop_images/Headshot-102.jpg",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "left",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#FFFFFF",
         "colors": "light"
       }
     },
@@ -207,38 +299,6 @@
         "section_padding_top": 60,
         "section_padding_bottom": 30,
         "colors": "white"
-      }
-    },
-    "template_product_recently_viewed_TFp99e": {
-      "type": "template--product--recently-viewed",
-      "name": "t:sections.template--product--recently-viewed.presets.name",
-      "settings": {
-        "title": "Recently viewed products",
-        "description": "",
-        "section_header_alignment": "center",
-        "layout_style": "slider",
-        "products_to_show": 8,
-        "grid-desktop": 4,
-        "grid-mobile": "2",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "show_highlight": false,
-        "highlight_position": "bottom",
-        "highlight_icon": "heart",
-        "highlight_heading": "Why we love it",
-        "highlight_reference": "",
-        "highlight_text_color": "rgba(0,0,0,0)",
-        "highlight_background_color": "rgba(0,0,0,0)",
-        "highlight_alignment": "left",
-        "highlight_font_size": "medium",
-        "highlight_show_border": true,
-        "highlight_collapsible_tab": true,
-        "highlight_open_close_icon": "plus_minus",
-        "highlight_button_borders": false,
-        "colors": "light",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff"
       }
     },
     "faq_etdXHm": {
@@ -295,9 +355,10 @@
     "image_with_text_JUyzah",
     "text_adverts_with_icon_xwmiBi",
     "product-grid",
-    "image_with_text_TNiGrG",
-    "rich_text_6VeUNi",
     "template_product_recently_viewed_TFp99e",
+    "image_with_text_TNiGrG",
+    "faq_with_image_g6dkd4",
+    "rich_text_6VeUNi",
     "faq_etdXHm"
   ]
 }
