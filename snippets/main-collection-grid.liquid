@@ -5,6 +5,69 @@
 
 {% paginate collection.products by display-total-collection-products-total %}
 
+  <style>
+    /* Minimalist Layout Adjustments */
+    #CollectionProductGrid .product-grid--wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -20px;
+    }
+    #CollectionProductGrid .product-grid--wrapper .grid__item {
+      padding-left: 20px;
+      padding-bottom: 40px;
+    }
+    
+    @media (min-width: 768px) {
+      #CollectionProductGrid .product-grid--wrapper {
+        margin-left: -40px;
+      }
+      #CollectionProductGrid .product-grid--wrapper .grid__item {
+        padding-left: 40px;
+        padding-bottom: 80px;
+      }
+    }
+
+    /* Minimalist Pagination Overrides */
+    .pagination {
+      border-top: 1px solid #e5e7eb;
+      padding-top: 40px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .pagination .page,
+    .pagination .next,
+    .pagination .prev {
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      margin: 0 4px;
+      font-size: 12px !important;
+      color: #6b7280 !important;
+      border: 1px solid transparent !important;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      background: transparent !important;
+    }
+    .pagination .page:not(.current):hover,
+    .pagination .next:hover,
+    .pagination .prev:hover {
+      border-color: #d1d5db !important;
+      color: #111827 !important;
+    }
+    .pagination .page.current {
+      border-color: #111827 !important;
+      background-color: #111827 !important;
+      color: #fff !important;
+    }
+    .pagination .next,
+    .pagination .prev {
+      border-color: #e5e7eb !important;
+    }
+  </style>
+
   {% capture paginate_style %}
     {% if paginate.pages > 1 %}
       {% if pagination_options == 'pagination_infinite_scrolling' %}
