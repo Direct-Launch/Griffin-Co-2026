@@ -157,15 +157,15 @@
                   
                   <div style="position: relative; z-index: 10; display: flex; flex-direction: column; align-items: center;">
                     {% if section.settings.promo_subtitle != blank %}
-                      <span style="font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: #fff; margin-bottom: 12px; display: block;">{{ section.settings.promo_subtitle }}</span>
+                      <span style="font-size: 10px; font-weight: 500; text-transform: uppercase; letter-spacing: 0.1em; color: #fff; margin-bottom: 12px; display: block;">{{ section.settings.promo_subtitle }}</span>
                     {% endif %}
                     
                     {% if section.settings.promo_heading != blank %}
-                      <h4 style="font-size: 32px; font-family: var(--heading-font-stack); font-weight: 400; color: #fff; margin-bottom: 16px; line-height: 1.2;">{{ section.settings.promo_heading }}</h4>
+                      <h4 style="font-family: var(--heading-font-stack); font-weight: 400; color: #fff; margin-bottom: 16px; line-height: 1.2;">{{ section.settings.promo_heading }}</h4>
                     {% endif %}
                     
                     {% if section.settings.promo_text != blank %}
-                      <div class="promo-rich-text rte" style="color: #fff; font-size: 14px; margin-bottom: 24px; line-height: 1.6; max-width: 450px;">
+                      <div class="promo-rich-text rte" style="color: #fff; margin-bottom: 24px; line-height: 1.6; max-width: 450px;">
                         {{ section.settings.promo_text }}
                       </div>
                     {% endif %}
