@@ -162,6 +162,9 @@
         "section_header_alignment": "left",
         "image_style": "square",
         "image_size": 300,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "images_per_row_mobile": 1,
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "color_scheme": "white"
@@ -584,7 +587,7 @@
             "star_and_reviewer_name_color": "#ffdda6",
             "drop_shadow_color": "#004225",
             "overlay_and_background_color": "#004225",
-            "content_color": "#F9F9F9",
+            "content_color": "#f9f9f9",
             "header_text": "From our customers",
             "show_average_rating": true
           }
@@ -627,7 +630,7 @@
             "star_and_reviewer_name_color": "#ffdda6",
             "drop_shadow_color": "#004225",
             "overlay_and_background_color": "#004225",
-            "content_color": "#F9F9F9",
+            "content_color": "#f9f9f9",
             "header_text": "From our customers",
             "show_average_rating": true
           }
