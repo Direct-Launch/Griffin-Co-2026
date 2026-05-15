@@ -5,6 +5,69 @@
 
 {% paginate collection.products by display-total-collection-products-total %}
 
+  <style>
+    /* Minimalist Layout Adjustments */
+    #CollectionProductGrid .product-grid--wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: -20px;
+    }
+    #CollectionProductGrid .product-grid--wrapper .grid__item {
+      padding-left: 20px;
+      padding-bottom: 40px;
+    }
+    
+    @media (min-width: 768px) {
+      #CollectionProductGrid .product-grid--wrapper {
+        margin-left: -40px;
+      }
+      #CollectionProductGrid .product-grid--wrapper .grid__item {
+        padding-left: 40px;
+        padding-bottom: 80px;
+      }
+    }
+
+    /* Minimalist Pagination Overrides */
+    .pagination {
+      border-top: 1px solid #e5e7eb;
+      padding-top: 40px;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .pagination .page,
+    .pagination .next,
+    .pagination .prev {
+      display: inline-flex !important;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px;
+      margin: 0 4px;
+      font-size: 12px !important;
+      color: #6b7280 !important;
+      border: 1px solid transparent !important;
+      border-radius: 2px;
+      transition: all 0.3s ease;
+      text-decoration: none;
+      background: transparent !important;
+    }
+    .pagination .page:not(.current):hover,
+    .pagination .next:hover,
+    .pagination .prev:hover {
+      border-color: #d1d5db !important;
+      color: #111827 !important;
+    }
+    .pagination .page.current {
+      border-color: #111827 !important;
+      background-color: #111827 !important;
+      color: #fff !important;
+    }
+    .pagination .next,
+    .pagination .prev {
+      border-color: #e5e7eb !important;
+    }
+  </style>
+
   {% capture paginate_style %}
     {% if paginate.pages > 1 %}
       {% if pagination_options == 'pagination_infinite_scrolling' %}
@@ -70,6 +133,36 @@
           id="template--collection"
         >
           {% for product in collection.products %}
+            
+            <!-- Injected Promo Box for Second Row -->
+            {% if section.settings.show_promo_block and forloop.index0 == desktop_products_per_row %}
+              <div class="grid__item {{ grid_item_width }} show-on-scroll">
+                <div class="h-full w-full relative overflow-hidden rounded-sm group flex flex-col justify-center items-center text-center p-8" style="min-height: 400px; background-color: #1a1a1a;">
+                  {% if section.settings.promo_image != blank %}
+                    <img src="{{ section.settings.promo_image | image_url: width: 600 }}" alt="{{ section.settings.promo_heading | escape }}" class="absolute inset-0 w-full h-full object-cover z-0 opacity-60 group-hover:opacity-50 transition-opacity duration-500" loading="lazy">
+                  {% else %}
+                    <div class="absolute inset-0 w-full h-full bg-gray-900 z-0 opacity-60"></div>
+                  {% endif %}
+                  
+                  <div class="relative z-10 flex flex-col items-center">
+                    {% if section.settings.promo_heading != blank %}
+                      <h3 class="text-2xl md:text-3xl font-serif font-normal text-white mb-4" style="font-family: var(--heading-font-stack); letter-spacing: 0.02em;">{{ section.settings.promo_heading }}</h3>
+                    {% else %}
+                      <h3 class="text-2xl md:text-3xl font-serif font-normal text-white mb-4" style="font-family: var(--heading-font-stack);">Ready to design your own?</h3>
+                    {% endif %}
+                    
+                    {% if section.settings.promo_text != blank %}
+                      <p class="text-sm text-gray-200 mb-6 leading-relaxed">{{ section.settings.promo_text }}</p>
+                    {% endif %}
+                    
+                    <a href="{{ section.settings.promo_button_link | default: '#' }}" class="inline-block border border-white text-white py-3 px-6 text-xs uppercase tracking-widest font-semibold hover:bg-white hover:text-black transition-colors duration-300">
+                      {{ section.settings.promo_button_text | default: 'Book Consultation' }}
+                    </a>
+                  </div>
+                </div>
+              </div>
+            {% endif %}
+
             <div class="grid__item {{ grid_item_width }} show-on-scroll">
               {%- liquid
                 assign loading = 'lazy'
