@@ -594,7 +594,7 @@
         "richtext_3DPRKz": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Design your own bespoke engagement ring, wedding ring, eternity ring, custom ring, or family heirloom and transform your ideas into reality.<br/><br/>We specialise in made-to-order gemstone engagement rings. Whether you recreate one of our classic designs or bring your own vision to life, our craftsmen will work with you to create something truly personal.</p>",
+            "text": "<p>Easily design your perfect engagement ring, wedding band or any bespoke jewellery. </p><p>We offer expert guidance through in-person consultations at our Showroom or via our Home Visit service. Create a ring as unique as your love story.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -602,8 +602,8 @@
         "button_yUVifg": {
           "type": "button",
           "settings": {
-            "button_link": "/",
-            "button_text": "Get in touch",
+            "button_link": "shopify://pages/bespoke-jewellery-designs",
+            "button_text": "Start Designing",
             "buttons_style": "filled",
             "override_button_colors": true,
             "button_background_color": "#f1f1ef",
