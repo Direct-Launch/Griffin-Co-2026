@@ -9,6 +9,50 @@
  */
 {
   "sections": {
+    "hero_slideshow_EYLHTY": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "image_dQmyck": {
+          "type": "image",
+          "settings": {
+            "title": "Modern Fine Jewellers in Chichester.",
+            "text": "From bespoke engagement rings to expert restoration. Experience the art of fine jewellery on South Street.",
+            "first_button_link": "shopify://collections",
+            "first_button_label": "View All Jewellery",
+            "second_button_link": "shopify://pages/jewellery-services",
+            "second_button_label": "Our Services",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "button-background": "#ffffff",
+            "button-text": "#FFFFFF",
+            "image": "shopify://shop_images/Shop_Front.webp",
+            "text_position": "bottom_left",
+            "desktop-caption-heading-size": "h1",
+            "desktop-caption-body-text-size": 130,
+            "mobile_text_position": "bottom",
+            "mobile-caption-heading-size": "h3-mobile",
+            "mobile-caption-body-text-size": 130,
+            "caption-text": "#ffffff",
+            "image_overlay": "#000000",
+            "image_overlay_opacity": 20
+          }
+        }
+      },
+      "block_order": [
+        "image_dQmyck"
+      ],
+      "name": "Hero - Slideshow",
+      "settings": {
+        "desktop_height": "extra_large",
+        "mobile_height": "full_screen",
+        "slide_navigation_style": "arrows",
+        "slide_transition_delay": 7,
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "background_color": "#004225"
+      }
+    },
     "slideshow_VRzMnz": {
       "type": "slideshow",
       "blocks": {
@@ -42,6 +86,7 @@
       "block_order": [
         "image_MBJVnF"
       ],
+      "disabled": true,
       "name": "Hero Section",
       "settings": {
         "desktop_height": "extra_large",
@@ -1669,6 +1714,7 @@
     }
   },
   "order": [
+    "hero_slideshow_EYLHTY",
     "slideshow_VRzMnz",
     "scrolling_banner_JwcXYw",
     "collage_yeezDc",
