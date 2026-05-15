@@ -120,7 +120,7 @@
       "settings": {
         "products-per-page": 6,
         "desktop-products-per-row": 4,
-        "mobile-products-per-row": "1",
+        "mobile-products-per-row": "2",
         "pagination_options": "pagination_default",
         "desktop_position": "topbar",
         "enable_sorting": true,
@@ -143,10 +143,10 @@
         "highlight_button_borders": false,
         "show_promo_block": true,
         "promo_image": "shopify://shop_images/bespoke-drawing.webp",
-        "promo_heading": "Ready to design your own?",
-        "promo_text": "Work with our expert designers to bring your vision to life.",
+        "promo_subtitle": "The Griffin & Co Difference",
+        "promo_heading": "Ready to design your own {{ collection.title }}?",
         "promo_button_text": "Book Consultation",
-        "promo_button_link": ""
+        "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
     "image_with_text_TNiGrG": {
