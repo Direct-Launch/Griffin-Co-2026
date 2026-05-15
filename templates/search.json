@@ -18,7 +18,7 @@
         "enable_filtering": true,
         "show_swatch_filter_labels": true,
         "desktop-results-per-row": 4,
-        "mobile-results-per-row": "1"
+        "mobile-results-per-row": "2"
       }
     }
   },
