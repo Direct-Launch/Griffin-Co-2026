@@ -16,6 +16,10 @@
       {% liquid 
         assign has_content = ''
         for block in section.blocks
+          if block.settings.link_image == blank
+            continue
+          endif
+
           if block.settings.link_text != blank
             assign has_content = has_content | append: ' has-content' | append: ','
           else
@@ -26,6 +30,11 @@
 
       <ul class="visual-navigation__list{% if request.visual_preview_mode %} visual-navigation__list--no-wrap{% endif %}{% if has_content contains 'has-content' %} visual-navigation__list--has-content{% endif %}">
         {% for block in section.blocks %}
+          
+          {% if block.settings.link_image == blank %}
+            {% continue %}
+          {% endif %}
+
           <li 
             class="visual-navigation__list-item block-radius-clip block-{{ block.id }} {% if section.settings.image_style == 'circle' %} visual-navigation__list-item--circle{% endif %}"
             style="width: {{ section.settings.image_size }}px;"
