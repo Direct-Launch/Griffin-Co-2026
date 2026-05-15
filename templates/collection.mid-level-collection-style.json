@@ -61,27 +61,6 @@
         "colors": "accent"
       }
     },
-    "navigation_banner_QcqJBE": {
-      "type": "navigation-banner",
-      "disabled": true,
-      "name": "t:sections.blog--navigation-banner.presets.name",
-      "settings": {
-        "title": "Shop by {{ collection.title }} Design:",
-        "description": "",
-        "section_header_alignment": "left",
-        "banner_linklist": "earrings",
-        "collection_list": [],
-        "buttons_style": "outlined",
-        "override_button_colors": false,
-        "nav_background_color": "#E68819",
-        "nav_text_color": "#FFFFFF",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "layout_style": "grid",
-        "navigation_position": "left",
-        "colors": "white"
-      }
-    },
     "visual_navigation_banner_7dCHG9": {
       "type": "visual-navigation-banner",
       "blocks": {
@@ -315,40 +294,6 @@
         "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
-    "rich_text_6VeUNi": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wnQMWW": {
-          "type": "heading",
-          "settings": {
-            "heading": "More about the collection...",
-            "heading--text-size": "h5",
-            "heading_bottom_spacing": 20
-          }
-        },
-        "richtext_NxtGdn": {
-          "type": "richtext",
-          "settings": {
-            "text": "{{ collection.description }}",
-            "text_size": 100,
-            "text_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "heading_wnQMWW",
-        "richtext_NxtGdn"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_width": "full-width",
-        "text_alignment_desktop": "left",
-        "text_alignment_mobile": "left",
-        "section_padding_top": 60,
-        "section_padding_bottom": 30,
-        "colors": "white"
-      }
-    },
     "template_product_recently_viewed_pj3jzT": {
       "type": "template--product--recently-viewed",
       "name": "t:sections.template--product--recently-viewed.presets.name",
@@ -493,11 +438,9 @@
   "order": [
     "collection-header-spotlight",
     "image_with_text_CYA9px",
-    "navigation_banner_QcqJBE",
     "visual_navigation_banner_7dCHG9",
     "gallery_slideshow_HBNrWV",
     "product-grid",
-    "rich_text_6VeUNi",
     "template_product_recently_viewed_pj3jzT",
     "faq_with_image_GTcyqy",
     "faq_kqyrJn"
