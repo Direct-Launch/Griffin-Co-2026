@@ -15,10 +15,14 @@
     {% if section.blocks.size > 0 %}
       {% liquid 
         assign has_content = ''
+        assign valid_blocks_count = 0
+
         for block in section.blocks
           if block.settings.link_image == blank
             continue
           endif
+
+          assign valid_blocks_count = valid_blocks_count | plus: 1
 
           if block.settings.link_text != blank
             assign has_content = has_content | append: ' has-content' | append: ','
@@ -26,9 +30,49 @@
             assign has_content = has_content | append: ' no-content' | append: ','
           endif
         endfor
+
+        assign layout_mobile = section.settings.layout_style_mobile | default: 'slider'
+        assign has_slider = false
+        if layout_mobile == 'slider' and valid_blocks_count > 0
+          assign has_slider = true
+        endif
       %}
 
-      <ul class="visual-navigation__list{% if request.visual_preview_mode %} visual-navigation__list--no-wrap{% endif %}{% if has_content contains 'has-content' %} visual-navigation__list--has-content{% endif %}">
+      {% if has_slider %}
+        <safe-load-scripts class="hidden">
+          <script src="{{ 'component-content-grid-slider.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="content-grid-slider"></script>
+        </safe-load-scripts>
+      {% endif %}
+
+      <style>
+        {% if has_slider %}
+          @media (max-width: 767px) {
+            .section-{{ section.id }} .visual-navigation__list {
+              flex-wrap: nowrap !important;
+            }
+          }
+        {% endif %}
+      </style>
+
+      {% if has_slider %}
+        <content-grid-slider
+          data-grid-slider-wrapper
+          data-section-id="{{ section.id }}"
+          data-desktop-only="false"
+          data-mobile-only="true"
+          data-slides-per-view-mobile="{{ section.settings.images_per_row_mobile | default: '3' }}"
+          data-slides-per-view-desktop="6"
+          data-peek-desktop-enabled="false"
+          data-peek-mobile-enabled="{% if section.settings.navigation_mobile == 'peek' %}true{% else %}false{% endif %}"
+          data-pagination-overlay-enabled="false"
+          data-remove-spacing="false"
+          data-grid-spacing-desktop="15"
+          data-grid-spacing-mobile="10"
+        >
+          <div class="content-grid__slider swiper disable-desktop" data-animate-overflow-container>
+      {% endif %}
+
+      <ul class="visual-navigation__list{% if request.visual_preview_mode %} visual-navigation__list--no-wrap{% endif %}{% if has_content contains 'has-content' %} visual-navigation__list--has-content{% endif %}{% if has_slider %} swiper-wrapper{% endif %}">
         {% for block in section.blocks %}
           
           {% if block.settings.link_image == blank %}
@@ -36,8 +80,7 @@
           {% endif %}
 
           <li 
-            class="visual-navigation__list-item block-radius-clip block-{{ block.id }} {% if section.settings.image_style == 'circle' %} visual-navigation__list-item--circle{% endif %}"
-            style="width: {{ section.settings.image_size }}px;"
+            class="visual-navigation__list-item block-radius-clip block-{{ block.id }} {% if section.settings.image_style == 'circle' %} visual-navigation__list-item--circle{% endif %}{% if has_slider %} swiper-slide{% endif %}"
             data-animate
             data-animate-order="{% render 'block-animation-offset', 
               title: section.settings.title, 
@@ -47,9 +90,18 @@
             {{ block.shopify_attributes }}
           >
             <style>
+              @media (min-width: 768px) {
+                .section-{{ section.id }} .block-{{ block.id }}.visual-navigation__list-item {
+                  width: {{ section.settings.image_size }}px;
+                }
+              }
               .section-{{ section.id }} .block-{{ block.id }}.visual-navigation__list-item img {
                 width: {{ section.settings.image_size }}px;
                 height: {{ section.settings.image_size }}px;
+                margin: 0 auto;
+              }
+              .section-{{ section.id }} .block-{{ block.id }}.visual-navigation__list-item .visual-navigation__text {
+                text-align: center;
               }
             </style>
             {% if block.settings.link_url != blank %}
@@ -92,6 +144,15 @@
           </li>
         {% endfor %}
       </ul>
+
+      {% if has_slider %}
+          {% if section.settings.navigation_mobile == 'dots' %}
+            <div class="swiper-pagination" style="position: relative; margin-top: 15px;"></div>
+          {% endif %}
+        </div>
+      </content-grid-slider>
+      {% endif %}
+
     {% endif %}
 
   </div>
@@ -150,6 +211,53 @@
       "unit": "px",
       "label": "t:all.Image_size",
       "default": 100
+    },
+    {
+      "type": "header",
+      "content": "t:all.Mobile"
+    },
+    {
+      "type": "radio",
+      "id": "layout_style_mobile",
+      "label": "t:all.Style",
+      "options": [
+        {
+          "value": "grid",
+          "label": "t:all.Grid"
+        },
+        {
+          "value": "slider",
+          "label": "t:all.Slider"
+        }
+      ],
+      "default": "slider"
+    },
+    {
+      "type": "select",
+      "id": "navigation_mobile",
+      "label": "Mobile Navigation Style",
+      "options": [
+        {
+          "value": "peek",
+          "label": "Peek"
+        },
+        {
+          "value": "dots",
+          "label": "Dots"
+        }
+      ],
+      "default": "peek",
+      "visible_if": "{{ section.settings.layout_style_mobile == 'slider' }}"
+    },
+    {
+      "type": "range",
+      "id": "images_per_row_mobile",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "label": "Items per row",
+      "default": 3,
+      "visible_if": "{{ section.settings.layout_style_mobile == 'slider' }}"
     },
     {
       "type": "header",
