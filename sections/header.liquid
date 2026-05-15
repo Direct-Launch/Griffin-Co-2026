@@ -249,7 +249,7 @@ Testing Cypress integration
     {% if section.settings.show_booking_button %}
       <li>
         <a href="{{ section.settings.booking_button_link }}" class="booking-button standalone-icon--wrapper" aria-label="{{ section.settings.booking_button_text }}">
-          {% if section.settings.show_icons %}
+          {% if section.settings.show_icons and section.settings.booking_button_icon != 'none' %}
             {% render 'theme-icon', icon: section.settings.booking_button_icon, iconSize: 20 %}
           {% endif %}
           <span class="booking-button-text">{{ section.settings.booking_button_text }}</span>
@@ -304,7 +304,6 @@ Testing Cypress integration
   
   .site-header__links .booking-button-text {
     font-size: 11px;
-    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     white-space: nowrap;
@@ -1362,13 +1361,21 @@ Testing Cypress integration
       "label": "Button Icon",
       "default": "book",
       "options": [
+        { "value": "none", "label": "None" },
         { "value": "book", "label": "Book" },
         { "value": "clock", "label": "Clock" },
         { "value": "home-smile", "label": "Home" },
         { "value": "service", "label": "Service" },
         { "value": "store", "label": "Store" },
         { "value": "star", "label": "Star" },
-        { "value": "heart", "label": "Heart" }
+        { "value": "star-filled", "label": "Star Filled" },
+        { "value": "heart", "label": "Heart" },
+        { "value": "phone", "label": "Phone" },
+        { "value": "mail", "label": "Mail" },
+        { "value": "chat", "label": "Chat" },
+        { "value": "map-pin", "label": "Map Pin" },
+        { "value": "clipboard", "label": "Clipboard" },
+        { "value": "crown", "label": "Crown" }
       ]
     },
     {
