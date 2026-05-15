@@ -521,7 +521,7 @@
         "show_currency_selector_mobile": true,
         "show_locale_selector_mobile": true,
         "show_booking_button": true,
-        "booking_button_icon": "star",
+        "booking_button_icon": "none",
         "booking_button_text": "Book An Appointment",
         "booking_button_link": "shopify://pages/schedule-an-appointment",
         "booking_button_bg_color": "#004225",
