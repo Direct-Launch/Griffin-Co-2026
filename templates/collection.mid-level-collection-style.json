@@ -39,9 +39,9 @@
       "name": "Hero - Image with text",
       "settings": {
         "image": "{{ collection.image }}",
-        "layout": "left",
+        "layout": "right",
         "title": "{{ collection.title }}.",
-        "text": "{{ collection.description }}",
+        "text": "<p>{{ collection.description }}</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "text_overlapping_image": false,
@@ -53,7 +53,7 @@
         "button_label": "",
         "buttons_style": "filled",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section-width": "full",
         "section_padding_top": 0,
@@ -159,9 +159,9 @@
       "settings": {
         "title": "Shop by {{ collection.title }} Design:",
         "description": "",
-        "section_header_alignment": "center",
-        "image_style": "circle",
-        "image_size": 100,
+        "section_header_alignment": "left",
+        "image_style": "square",
+        "image_size": 300,
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "color_scheme": "white"
