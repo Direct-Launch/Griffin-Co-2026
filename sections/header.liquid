@@ -247,9 +247,19 @@ Testing Cypress integration
     {% endif %}
     
     {% if section.settings.show_booking_button %}
-      <li class="header-booking-button-wrapper ml-4">
-        <a href="{{ section.settings.booking_button_link }}" class="btn btn--primary header-booking-button" style="background-color: {{ section.settings.booking_button_bg_color }}; color: {{ section.settings.booking_button_text_color }};">
-          {{ section.settings.booking_button_text }}
+      <li>
+        <a href="{{ section.settings.booking_button_link }}" class="booking-button standalone-icon--wrapper" aria-label="{{ section.settings.booking_button_text }}">
+          {% if section.settings.show_icons %}
+            <span class="icon-fallback-text">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
+                <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
+                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm1-3v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V1h-1v1a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V1z"/>
+              </svg>
+              <span class="fallback-text">{{ section.settings.booking_button_text }}</span>
+            </span>
+          {% else %}
+            <span class="header--supporting-text">{{ section.settings.booking_button_text }}</span>
+          {% endif %}
         </a>
       </li>
     {% endif %}
@@ -289,17 +299,7 @@ Testing Cypress integration
     display: inline;
   }
 
-  /* Booking Button Styles */
-  .header-booking-button {
-    padding: 8px 16px;
-    font-size: 0.85em;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
-    border-radius: 2px;
-    white-space: nowrap;
-  }
-  
+  /* Booking Button Styles for Mobile Drawer */
   .mobile-nav-booking-button {
     display: block;
     width: 100%;
@@ -988,7 +988,7 @@ Testing Cypress integration
 
     <div class="site-header__wrapper site-header__wrapper--logo-{{ section.settings.logo-placement }} site-header__wrapper--{% if top_links != blank %}with{% else %}without{% endif %}-menu">
       <div class="site-header__wrapper__left">
-        {% if section.settings.logo-placement == 'left' or section.settings.logo-placement == 'above' %}
+        {% if section.settings.logo-placement == 'left' %}
           {{ header_logos }}
         {% elsif section.settings.logo-placement == 'center' and site_nav != blank %}
           {{ site_nav }}
@@ -998,7 +998,7 @@ Testing Cypress integration
       <div class="site-header__wrapper__center">
         {% if section.settings.logo-placement == 'left' and site_nav != blank %}
           {{ site_nav }}
-        {% elsif section.settings.logo-placement == 'center' %}
+        {% elsif section.settings.logo-placement == 'center' or section.settings.logo-placement == 'above' %}
           {{ header_logos }}
         {% endif %}
       </div>
