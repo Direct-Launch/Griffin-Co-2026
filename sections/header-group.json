@@ -139,6 +139,13 @@
             "icon": "shopify://shop_images/Radiant.png"
           }
         },
+        "menu_icon_yGFpYE": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Solitaire",
+            "icon": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp"
+          }
+        },
         "content_fEtH3D": {
           "type": "content",
           "settings": {
@@ -368,6 +375,7 @@
         "menu_icon_Mx67ej",
         "menu_icon_7TT3BD",
         "menu_icon_N83E7t",
+        "menu_icon_yGFpYE",
         "content_fEtH3D",
         "content_qFcwEJ",
         "content_Y6HWL9",
