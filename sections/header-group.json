@@ -530,17 +530,17 @@
         "show_locale_selector": false,
         "show_icons": true,
         "enable_search": true,
-        "cart-style": "shopping-cart",
+        "cart-style": "shopping-bag",
         "cart_count": true,
         "show_offers_drawer": true,
         "offers_drawer_icon": "gift",
-        "offers_drawer_icon_color": "#f2bd35",
+        "offers_drawer_icon_color": "#004225",
         "offers_drawer_color_override": false,
         "offers_drawer_show_tooltip": true,
-        "offers_drawer_tooltip_test_mode": false,
-        "offers_drawer_tooltip_text": "Don't miss this week's offers!",
-        "offers_drawer_tooltip_text_color": "#ffffff",
-        "offers_drawer_tooltip_background_color": "#f2bd35",
+        "offers_drawer_tooltip_test_mode": true,
+        "offers_drawer_tooltip_text": "See our promotions",
+        "offers_drawer_tooltip_text_color": "#242424",
+        "offers_drawer_tooltip_background_color": "#f9f1e9",
         "overlay_opacity": 0
       }
     }
