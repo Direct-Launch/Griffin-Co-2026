@@ -596,7 +596,7 @@
       ],
       "name": "t:sections.faq.presets.name",
       "settings": {
-        "title": "Frequently asked questions About {{ collection.title }}",
+        "title": "Frequently asked questions About {{ collection.title }}.",
         "description": "<p>Can’t find the answers you'r looking for? Our team is on hand from Tuesday to Saturday, 9:30am - 5pm.</p>",
         "section_header_alignment": "center",
         "faq_icon": "plus_minus",
@@ -604,6 +604,78 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
+      }
+    },
+    "image_with_text_overlay_UC8XAh": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_pUgHVz": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready For The Next Step?",
+            "font_size_desktop": "h6",
+            "font_size_mobile": "h6-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "heading_tP4JJ7": {
+          "type": "heading",
+          "settings": {
+            "title": "Schedule an in-store or at home consultation",
+            "font_size_desktop": "h3",
+            "font_size_mobile": "h4-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_f9dPTc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One-off {{ collection.title }} made especially for you. Book an in-store or at home appointment to browse all of our {{ collection.title }}, Jewellery, Diamonds and Gemstones.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_LQPQLC": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://pages/schedule-an-appointment",
+            "first_button_label": "Book an Appointment",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#E68819",
+            "buttons_text": "#FFFFFF",
+            "buttons_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_pUgHVz",
+        "heading_tP4JJ7",
+        "text_f9dPTc",
+        "button_LQPQLC"
+      ],
+      "name": "Book an Appointment CTA",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Interior_1.webp",
+        "height_desktop": "550px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#242424",
+        "caption_bg_color": "#ffffff",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 30
       }
     }
   },
@@ -618,6 +690,7 @@
     "template_product_recently_viewed_pj3jzT",
     "faq_with_image_GTcyqy",
     "17788657635f2a3767",
-    "faq_kqyrJn"
+    "faq_kqyrJn",
+    "image_with_text_overlay_UC8XAh"
   ]
 }
