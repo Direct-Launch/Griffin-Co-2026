@@ -292,6 +292,7 @@
         "heading_wnQMWW",
         "richtext_NxtGdn"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width",
         "text_alignment_desktop": "left",
