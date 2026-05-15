@@ -251,10 +251,7 @@ Testing Cypress integration
         <a href="{{ section.settings.booking_button_link }}" class="booking-button standalone-icon--wrapper" aria-label="{{ section.settings.booking_button_text }}">
           {% if section.settings.show_icons %}
             <span class="icon-fallback-text">
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
-                <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z"/>
-                <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5M1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1zm1-3v2a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V1h-1v1a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V1z"/>
-              </svg>
+                  <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg"{% unless widthUnset %} width="{{ iconWidth }}" height="{{ iconHeight }}"{% endunless %}{% if iconClasses %} class="{{ iconClasses }}"{% endif %}{% if iconAttributes %} {{ iconAttributes }}{% endif %}><path d="M1.66602 14.5531V3.15736C1.66602 2.76202 1.8221 2.38288 2.09993 2.10334C2.37776 1.82379 2.75458 1.66675 3.1475 1.66675H13.5179C13.9108 1.66675 14.2876 1.82379 14.5654 2.10334C14.8433 2.38288 14.9993 2.76202 14.9993 3.15736V10.6104C14.9993 11.0057 14.8433 11.3849 14.5654 11.6644C14.2876 11.944 13.9108 12.101 13.5179 12.101H5.34083C5.11878 12.101 4.89958 12.1513 4.69943 12.248C4.49929 12.3448 4.32331 12.4856 4.18453 12.66L2.45787 14.8318C2.40041 14.9043 2.32198 14.957 2.23345 14.9826C2.14492 15.0083 2.05065 15.0056 1.96369 14.975C1.87673 14.9444 1.80137 14.8873 1.74804 14.8117C1.69471 14.7362 1.66605 14.6458 1.66602 14.5531Z" stroke="{{ iconColor }}" stroke-width="1"/><path d="M18.332 7.32397V17.8863C18.332 17.979 18.3033 18.0694 18.25 18.145C18.1967 18.2206 18.1213 18.2777 18.0344 18.3083C17.9474 18.3389 17.8531 18.3416 17.7646 18.3159C17.6761 18.2902 17.5976 18.2375 17.5402 18.1651L15.8135 15.9933C15.6747 15.8189 15.4988 15.6781 15.2986 15.5813C15.0985 15.4846 14.8793 15.4343 14.6572 15.4343H6.48018" stroke="{{ iconColor }}" stroke-width="1" stroke-linecap="round"/></svg>
               <span class="fallback-text">{{ section.settings.booking_button_text }}</span>
             </span>
           {% else %}
