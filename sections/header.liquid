@@ -250,13 +250,9 @@ Testing Cypress integration
       <li>
         <a href="{{ section.settings.booking_button_link }}" class="booking-button standalone-icon--wrapper" aria-label="{{ section.settings.booking_button_text }}">
           {% if section.settings.show_icons %}
-            <span class="icon-fallback-text">
-              {% render 'theme-icon', icon: 'book', iconSize: 20 %}
-              <span class="fallback-text">{{ section.settings.booking_button_text }}</span>
-            </span>
-          {% else %}
-            <span class="header--supporting-text">{{ section.settings.booking_button_text }}</span>
+            {% render 'theme-icon', icon: section.settings.booking_button_icon, iconSize: 20 %}
           {% endif %}
+          <span class="booking-button-text">{{ section.settings.booking_button_text }}</span>
         </a>
       </li>
     {% endif %}
@@ -296,6 +292,24 @@ Testing Cypress integration
     display: inline;
   }
 
+  /* Desktop Booking Button Styles */
+  .site-header__links .booking-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    text-decoration: none;
+    background: transparent !important;
+    color: inherit;
+  }
+  
+  .site-header__links .booking-button-text {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+  }
+
   /* Booking Button Styles for Mobile Drawer */
   .mobile-nav-booking-button {
     display: block;
@@ -304,7 +318,6 @@ Testing Cypress integration
     padding: 12px 16px;
     margin-top: 15px;
     margin-bottom: 15px;
-    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
     border-radius: 2px;
@@ -1344,6 +1357,21 @@ Testing Cypress integration
       "default": true
     },
     {
+      "type": "select",
+      "id": "booking_button_icon",
+      "label": "Button Icon",
+      "default": "book",
+      "options": [
+        { "value": "book", "label": "Book" },
+        { "value": "clock", "label": "Clock" },
+        { "value": "home-smile", "label": "Home" },
+        { "value": "service", "label": "Service" },
+        { "value": "store", "label": "Store" },
+        { "value": "star", "label": "Star" },
+        { "value": "heart", "label": "Heart" }
+      ]
+    },
+    {
       "type": "text",
       "id": "booking_button_text",
       "label": "Button Text",
@@ -1357,13 +1385,13 @@ Testing Cypress integration
     {
       "type": "color",
       "id": "booking_button_bg_color",
-      "label": "Button Background Color",
+      "label": "Mobile Button Background Color",
       "default": "#1a1a1a"
     },
     {
       "type": "color",
       "id": "booking_button_text_color",
-      "label": "Button Text Color",
+      "label": "Mobile Button Text Color",
       "default": "#ffffff"
     },
     {
