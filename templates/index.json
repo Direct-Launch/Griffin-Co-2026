@@ -231,7 +231,7 @@
         "text_dynamic_edcJ8d": {
           "type": "text_dynamic",
           "settings": {
-            "text_dynamic": "engagement ring, wedding ring, eternity ring, custom ring, Family Heirloom",
+            "text_dynamic": "engagement ring., wedding ring., eternity ring., custom ring., Family Heirloom.",
             "animation_timing": 2000,
             "rotation_interval": 5000,
             "text_color": "rgba(0,0,0,0)"
