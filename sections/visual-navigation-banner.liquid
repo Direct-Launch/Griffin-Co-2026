@@ -32,9 +32,16 @@
         endfor
 
         assign layout_mobile = section.settings.layout_style_mobile | default: 'slider'
+        assign images_per_row_mobile = section.settings.images_per_row_mobile | default: '1'
+        
         assign has_slider = false
         if layout_mobile == 'slider' and valid_blocks_count > 0
           assign has_slider = true
+        endif
+
+        assign overlay_pagination = false
+        if images_per_row_mobile == "1" and section.settings.navigation_mobile == 'dots' and has_slider
+          assign overlay_pagination = true
         endif
       %}
 
@@ -45,6 +52,14 @@
       {% endif %}
 
       <style>
+        .section-{{ section.id }} .visual-navigation__text {
+          text-align: {{ section.settings.text_alignment_mobile }};
+        }
+        @media (min-width: 768px) {
+          .section-{{ section.id }} .visual-navigation__text {
+            text-align: center;
+          }
+        }
         {% if has_slider %}
           @media (max-width: 767px) {
             .section-{{ section.id }} .visual-navigation__list {
@@ -60,11 +75,11 @@
           data-section-id="{{ section.id }}"
           data-desktop-only="false"
           data-mobile-only="true"
-          data-slides-per-view-mobile="{{ section.settings.images_per_row_mobile | default: '3' }}"
+          data-slides-per-view-mobile="{{ images_per_row_mobile }}"
           data-slides-per-view-desktop="6"
           data-peek-desktop-enabled="false"
           data-peek-mobile-enabled="{% if section.settings.navigation_mobile == 'peek' %}true{% else %}false{% endif %}"
-          data-pagination-overlay-enabled="false"
+          data-pagination-overlay-enabled="{{ overlay_pagination }}"
           data-remove-spacing="false"
           data-grid-spacing-desktop="15"
           data-grid-spacing-mobile="10"
@@ -98,10 +113,18 @@
               .section-{{ section.id }} .block-{{ block.id }}.visual-navigation__list-item img {
                 width: {{ section.settings.image_size }}px;
                 height: {{ section.settings.image_size }}px;
-                margin: 0 auto;
+                {% if section.settings.text_alignment_mobile == 'left' %}
+                  margin: 0;
+                {% elsif section.settings.text_alignment_mobile == 'right' %}
+                  margin: 0 0 0 auto;
+                {% else %}
+                  margin: 0 auto;
+                {% endif %}
               }
-              .section-{{ section.id }} .block-{{ block.id }}.visual-navigation__list-item .visual-navigation__text {
-                text-align: center;
+              @media (min-width: 768px) {
+                .section-{{ section.id }} .block-{{ block.id }}.visual-navigation__list-item img {
+                  margin: 0 auto;
+                }
               }
             </style>
             {% if block.settings.link_url != blank %}
@@ -147,7 +170,7 @@
 
       {% if has_slider %}
           {% if section.settings.navigation_mobile == 'dots' %}
-            <div class="swiper-pagination" style="position: relative; margin-top: 15px;"></div>
+            <div class="swiper-pagination{% if overlay_pagination %} swiper-pagination--overlay{% endif %}" style="position: relative; margin-top: 15px;"></div>
           {% endif %}
         </div>
       </content-grid-slider>
@@ -250,14 +273,31 @@
       "visible_if": "{{ section.settings.layout_style_mobile == 'slider' }}"
     },
     {
-      "type": "range",
+      "type": "select",
       "id": "images_per_row_mobile",
-      "min": 1,
-      "max": 5,
-      "step": 1,
       "label": "Items per row",
-      "default": 3,
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        },
+        {
+          "value": "3",
+          "label": "3"
+        }
+      ],
+      "default": "1",
       "visible_if": "{{ section.settings.layout_style_mobile == 'slider' }}"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment_mobile",
+      "label": "Mobile Text Alignment",
+      "default": "center"
     },
     {
       "type": "header",
