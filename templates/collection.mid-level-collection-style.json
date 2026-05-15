@@ -368,8 +368,8 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Share your story",
-        "section_description": "",
+        "section_title": "Discover Our Exquisite {{ collection.title }}",
+        "section_description": "<p>{{ collection.metafields.custom.sub_title.value }}</p>",
         "section_header_alignment": "center",
         "faq_icon": "plus_minus",
         "accordion_image": "shopify://shop_images/Headshot-102.jpg",
@@ -396,40 +396,60 @@
         "tab_content_eXpUrU": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
+            "question": "{{ collection.metafields.custom.question_1.value }}",
             "open_by_default": false,
-            "text": "<p>Here you can place an explanation or answer to the question.</p>",
+            "text": "{{ collection.metafields.custom.answer_1 | metafield_tag }}",
             "page": ""
           }
         },
-        "tab_content_mkVXgT": {
+        "tab_content_BBHWQF": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
+            "question": "{{ collection.metafields.custom.question_2.value }}",
             "open_by_default": false,
-            "text": "<p>Here you can place an explanation or answer to the question.</p>",
+            "text": "{{ collection.metafields.custom.answer_2 | metafield_tag }}",
             "page": ""
           }
         },
-        "tab_content_GpeEgw": {
+        "tab_content_9jFeT7": {
           "type": "tab_content",
           "settings": {
-            "question": "Place your question or heading here",
+            "question": "{{ collection.metafields.custom.question_3.value }}",
             "open_by_default": false,
-            "text": "<p>Here you can place an explanation or answer to the question.</p>",
+            "text": "{{ collection.metafields.custom.answer_3 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_content_cDkCmX": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.question_4.value }}",
+            "open_by_default": false,
+            "text": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_content_r8ELxt": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.question_5.value }}",
+            "open_by_default": false,
+            "text": "{{ collection.metafields.custom.answer_5 | metafield_tag }}",
             "page": ""
           }
         }
       },
       "block_order": [
         "tab_content_eXpUrU",
-        "tab_content_mkVXgT",
-        "tab_content_GpeEgw"
+        "tab_content_BBHWQF",
+        "tab_content_9jFeT7",
+        "tab_content_cDkCmX",
+        "tab_content_r8ELxt"
       ],
       "name": "t:sections.faq.presets.name",
       "settings": {
-        "title": "Frequently asked questions",
-        "description": "",
+        "title": "Frequently asked questions About {{ collection.title }}",
+        "description": "<p>Can’t find the answers you'r looking for? Our team is on hand from Tuesday to Saturday, 9:30am - 5pm.</p>",
         "section_header_alignment": "center",
         "faq_icon": "plus_minus",
         "section_width": "content",
