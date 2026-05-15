@@ -233,6 +233,54 @@
         "button_background_color": "#E68819",
         "button_text_color": "#ffffff"
       }
+    },
+    "faq_etdXHm": {
+      "type": "faq",
+      "blocks": {
+        "tab_content_7qJ6xi": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "open_by_default": false,
+            "text": "<p>Here you can place an explanation or answer to the question.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_WzBf6M": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "open_by_default": false,
+            "text": "<p>Here you can place an explanation or answer to the question.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_3t3nyk": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "open_by_default": false,
+            "text": "<p>Here you can place an explanation or answer to the question.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_7qJ6xi",
+        "tab_content_WzBf6M",
+        "tab_content_3t3nyk"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "title": "Frequently asked questions",
+        "description": "",
+        "section_header_alignment": "center",
+        "faq_icon": "plus_minus",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
     }
   },
   "order": [
@@ -242,6 +290,7 @@
     "product-grid",
     "image_with_text_TNiGrG",
     "rich_text_6VeUNi",
-    "template_product_recently_viewed_TFp99e"
+    "template_product_recently_viewed_TFp99e",
+    "faq_etdXHm"
   ]
 }
