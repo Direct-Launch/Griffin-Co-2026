@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "wrapper": "div.collection-wrapper.wrapper",
   "sections": {
@@ -5,17 +14,17 @@
       "type": "collection-header",
       "settings": {
         "show_breadcrumbs": true,
-        "show_title": true,
+        "show_title": false,
         "show_description": false,
         "show_image_desktop": false,
         "min_height_desktop": "original",
         "content_position": "left",
         "caption_width_desktop": 70,
-        "show_image_mobile": true,
+        "show_image_mobile": false,
         "min_height_mobile": "original",
         "content_position_mobile": "bottom_center",
-        "enable_parallax": true,
-        "enable_fade": true,
+        "enable_parallax": false,
+        "enable_fade": false,
         "section_width": "content",
         "section_margin_top": 60,
         "section_margin_bottom": 10,
@@ -25,13 +34,40 @@
         "image_overlay_opacity": 26
       }
     },
+    "image_with_text_CYA9px": {
+      "type": "image-with-text",
+      "name": "Hero Section",
+      "settings": {
+        "image": "{{ collection.image }}",
+        "layout": "right",
+        "title": "{{ collection.title }}",
+        "text": "{{ collection.description }}",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h2",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "accent"
+      }
+    },
     "gallery_slideshow_HBNrWV": {
       "type": "gallery-slideshow",
       "blocks": {
         "image_iaKdtL": {
           "type": "image",
           "settings": {
-            "link": "\/",
+            "link": "/",
             "button_label": "",
             "subheading": "",
             "title": "Trilogy",
@@ -43,7 +79,7 @@
         "image_WRepBV": {
           "type": "image",
           "settings": {
-            "link": "\/",
+            "link": "/",
             "button_label": "",
             "subheading": "",
             "title": "Halo",
@@ -55,7 +91,7 @@
         "image_DphxiE": {
           "type": "image",
           "settings": {
-            "link": "\/",
+            "link": "/",
             "button_label": "",
             "subheading": "",
             "title": "Solitaire",
@@ -67,7 +103,7 @@
         "image_QLPqXr": {
           "type": "image",
           "settings": {
-            "link": "\/",
+            "link": "/",
             "button_label": "",
             "subheading": "",
             "title": "Cluster",
@@ -79,7 +115,7 @@
         "image_UcgR9h": {
           "type": "image",
           "settings": {
-            "link": "\/",
+            "link": "/",
             "button_label": "",
             "subheading": "",
             "title": "Art deco",
@@ -91,7 +127,7 @@
         "image_m48iEx": {
           "type": "image",
           "settings": {
-            "link": "\/",
+            "link": "/",
             "button_label": "",
             "subheading": "",
             "title": "Toi et moi",
@@ -103,7 +139,7 @@
         "image_x8n4bn": {
           "type": "image",
           "settings": {
-            "link": "\/",
+            "link": "/",
             "button_label": "",
             "subheading": "",
             "title": "Dainty",
@@ -151,11 +187,11 @@
     "product-grid": {
       "type": "template--collection",
       "settings": {
-        "products-per-page": 10,
+        "products-per-page": 6,
         "desktop-products-per-row": 4,
-        "mobile-products-per-row": "1",
+        "mobile-products-per-row": "2",
         "pagination_options": "pagination_default",
-        "desktop_position": "sidebar",
+        "desktop_position": "topbar",
         "enable_sorting": true,
         "enable_filtering": true,
         "enable_collection_title": false,
@@ -173,7 +209,14 @@
         "highlight_show_border": true,
         "highlight_collapsible_tab": true,
         "highlight_open_close_icon": "plus_minus",
-        "highlight_button_borders": false
+        "highlight_button_borders": false,
+        "show_promo_block": true,
+        "promo_image": "shopify://shop_images/Bespoke_Experience.jpg",
+        "promo_subtitle": "Create Your Own",
+        "promo_heading": "Ready to design your own {{ collection.title }}?",
+        "promo_button_text": "Book Consultation",
+        "promo_text": "<p>Looking for bespoke {{ collection.title }}? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
+        "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
     "rich_text_6VeUNi": {
@@ -200,6 +243,7 @@
         "heading_wnQMWW",
         "richtext_NxtGdn"
       ],
+      "disabled": true,
       "settings": {
         "section_width": "full-width",
         "text_alignment_desktop": "left",
@@ -212,6 +256,7 @@
   },
   "order": [
     "collection-header-spotlight",
+    "image_with_text_CYA9px",
     "gallery_slideshow_HBNrWV",
     "product-grid",
     "rich_text_6VeUNi"
