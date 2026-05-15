@@ -418,6 +418,13 @@
             "overlay_text_color_promo_5": "#ffffff"
           }
         },
+        "menu_icon_4NC83M": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Sterling Silver",
+            "icon": "shopify://shop_images/Sterling_Silver_16ae307d-7cdc-4695-a5cc-4441ecdde67f.png"
+          }
+        },
         "content_z9ENGN": {
           "type": "content",
           "name": "About - Mega menu",
@@ -492,6 +499,7 @@
         "content_FHykMA",
         "content_Y6HWL9",
         "content_qFcwEJ",
+        "menu_icon_4NC83M",
         "content_z9ENGN"
       ],
       "settings": {
