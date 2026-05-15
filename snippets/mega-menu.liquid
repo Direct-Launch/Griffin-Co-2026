@@ -78,8 +78,8 @@
   }
   
   .mega-menu-icon-small {
-    width: 32px;
-    height: 32px;
+    width: 150px;
+    height: 40px;
     margin-right: 6px;
   }
 
@@ -116,10 +116,10 @@
         <li class="dropdown-submenu nav-link-animated--custom" aria-haspopup="true">
           <div class="inner">
             <p class="h4 mega-menu-link--title">
-              <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_link.url }}">
-                {% if sub_icon_url != blank %}
+                              {% if sub_icon_url != blank %}
                   <img src="{{ sub_icon_url }}" alt="" class="mega-menu-icon" loading="lazy">
                 {% endif %}
+              <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_link.url }}">
                 {{ sub_link.title | escape }}
               </a>
             </p>
@@ -138,10 +138,10 @@
                   endfor
                 -%}
                 <li>
-                  <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_sub_link.url }}">
-                    {% if sub_sub_icon_url != blank %}
+                                      {% if sub_sub_icon_url != blank %}
                       <img src="{{ sub_sub_icon_url }}" alt="" class="mega-menu-icon mega-menu-icon-small" loading="lazy">
                     {% endif %}
+                  <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_sub_link.url }}">
                     {{ sub_sub_link.title | escape }}
                   </a>
                 </li>
