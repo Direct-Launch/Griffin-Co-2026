@@ -76,6 +76,13 @@
             "overlay_text_color_promo_5": "#ffffff"
           }
         },
+        "menu_icon_mUHP3D": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Round Brilliant",
+            "icon": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp"
+          }
+        },
         "content_fEtH3D": {
           "type": "content",
           "settings": {
@@ -296,6 +303,7 @@
       },
       "block_order": [
         "content_z7qXaR",
+        "menu_icon_mUHP3D",
         "content_fEtH3D",
         "content_qFcwEJ",
         "content_Y6HWL9",

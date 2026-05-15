@@ -403,7 +403,7 @@
         "text_DpX8dt"
       ],
       "settings": {
-        "image_desktop": "shopify://shop_images/Jewellery_Repair_Service.jpg",
+        "image_desktop": "shopify://shop_images/Bespoke_Engagement_Ring_Design_4cc764dc-f7f3-4254-8f6c-c76e10e702eb.jpg",
         "height_desktop": "450px",
         "text_position_desktop": "left",
         "text_alignment_desktop": "left",
@@ -424,7 +424,7 @@
     },
     "custom_liquid_YyxgnC": {
       "type": "custom-liquid",
-      "name": "t:sections.advanced-layout--custom-liquid.name",
+      "name": "Reviews",
       "settings": {
         "title": "Our Customer Reviews",
         "description": "",
@@ -565,8 +565,8 @@
           "type": "text_dynamic",
           "settings": {
             "text_dynamic": "engagement ring, wedding ring, eternity ring, custom ring, Family Heirloom",
-            "animation_timing": 400,
-            "rotation_interval": 4300,
+            "animation_timing": 2000,
+            "rotation_interval": 5000,
             "text_color": "rgba(0,0,0,0)"
           }
         }
