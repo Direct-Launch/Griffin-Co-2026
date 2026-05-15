@@ -143,7 +143,7 @@
         "highlight_button_borders": false,
         "show_promo_block": true,
         "promo_image": "shopify://shop_images/Bespoke_Experience.jpg",
-        "promo_subtitle": "The Griffin & Co Difference",
+        "promo_subtitle": "Create Your Own",
         "promo_heading": "Ready to design your own {{ collection.title }}?",
         "promo_button_text": "Book Consultation",
         "promo_text": "<p>Looking for bespoke {{ collection.title }}? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
