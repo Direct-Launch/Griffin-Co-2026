@@ -262,11 +262,15 @@ Testing Cypress integration
   /* Custom styling for mobile mega menu icons */
   .mobile-menu-icon {
     display: inline-block;
-    width: 32px;
-    height: 32px;
+    width: 24px;
+    height: 24px;
     object-fit: contain;
     vertical-align: middle;
     margin-right: 12px;
+  }
+  .mobile-menu-icon--small {
+    width: 20px;
+    height: 20px;
   }
   .mobile-nav__link.with-icon {
     display: inline-flex;
@@ -304,44 +308,28 @@ Testing Cypress integration
           {% liquid 
             assign link-title = link.title | strip | downcase
             assign is-mega-menu = false
-
-            assign show_first_promo_image = false
-            assign show_second_promo_image = false
-            assign show_third_promo_image = false
-            assign show_fourth_promo_image = false
-            assign show_fifth_promo_image = false
+            assign current_mega_block = blank
  
             for block in section.blocks
               if block.type == 'content'
-                if block.settings.show_promo_1_in_mobile_drawer == true and block.settings.mega_image_1
-                  assign show_first_promo_image = true
-                endif
-
-                if block.settings.show_promo_2_in_mobile_drawer == true and block.settings.mega_image_2
-                  assign show_second_promo_image = true
-                endif
-
-                if block.settings.show_promo_3_in_mobile_drawer == true and block.settings.mega_image_3
-                  assign show_third_promo_image = true
-                endif
-
-                if block.settings.show_promo_4_in_mobile_drawer == true and block.settings.mega_image_4
-                  assign show_fourth_promo_image = true
-                endif
-
-                if block.settings.show_promo_5_in_mobile_drawer == true and block.settings.mega_image_5
-                  assign show_fifth_promo_image = true
-                endif
-
                 assign block-title = block.settings.mega-menu | strip | downcase
                 if block-title == link-title
-                  if show_first_promo_image == true or show_second_promo_image == true or show_third_promo_image == true or show_fourth_promo_image == true or show_fifth_promo_image == true
-                    assign is-mega-menu = true
-                  endif
+                  assign is-mega-menu = true
+                  assign current_mega_block = block
+                  break
                 endif
               endif
             endfor
+
+            assign show_mobile_links = true
+            assign show_mobile_promos = false
+
+            if is-mega-menu
+              assign show_mobile_links = current_mega_block.settings.show_mega_menu_links_mobile
+              assign show_mobile_promos = current_mega_block.settings.show_mega_menu_promos_mobile
+            endif
           %}
+          
           {% if link.links != blank %}
             <li class="mobile-nav__item top-level{% if link.active %} mobile-nav__item--active{% endif %}{% if is-mega-menu %} mega-menu--mobile{% endif %}" aria-haspopup="true">
               <div class="mobile-nav__has-sublist">
@@ -355,8 +343,9 @@ Testing Cypress integration
                   </button>
                 </div>
               </div>
+              
               <ul class="mobile-nav__sublist">
-                {% if section.settings.show_mega_menu_links_mobile %}
+                {% if show_mobile_links %}
                   {% for sub_link in link.links %}
                     {%- liquid
                       assign sub_icon_url = blank
@@ -364,8 +353,9 @@ Testing Cypress integration
                       for icon_block in section.blocks
                         if icon_block.type == 'menu_icon'
                           assign target_down = icon_block.settings.title | downcase | strip
-                          if target_down == sub_title_down
-                            assign sub_icon_url = icon_block.settings.icon | image_url: width: 48
+                          if target_down == sub_title_down and icon_block.settings.icon != blank
+                            assign sub_icon_url = icon_block.settings.icon | image_url: width: 64
+                            break
                           endif
                         endif
                       endfor
@@ -398,8 +388,9 @@ Testing Cypress integration
                               for icon_block in section.blocks
                                 if icon_block.type == 'menu_icon'
                                   assign target_down = icon_block.settings.title | downcase | strip
-                                  if target_down == sub_sub_title_down
-                                    assign sub_sub_icon_url = icon_block.settings.icon | image_url: width: 40
+                                  if target_down == sub_sub_title_down and icon_block.settings.icon != blank
+                                    assign sub_sub_icon_url = icon_block.settings.icon | image_url: width: 64
+                                    break
                                   endif
                                 endif
                               endfor
@@ -407,7 +398,7 @@ Testing Cypress integration
                             <li class="mobile-nav__item">
                               <a href="{{ sub_sub_link.url }}" class="mobile-nav__link{% if sub_sub_icon_url != blank %} with-icon{% endif %}">
                                 {% if sub_sub_icon_url != blank %}
-                                  <img src="{{ sub_sub_icon_url }}" alt="" class="mobile-menu-icon" loading="lazy">
+                                  <img src="{{ sub_sub_icon_url }}" alt="" class="mobile-menu-icon mobile-menu-icon--small" loading="lazy">
                                 {% endif %}
                                 {{ sub_sub_link.title | escape }}
                               </a>
@@ -428,211 +419,116 @@ Testing Cypress integration
                   {% endfor %}
                 {% endif %}
 
-                {% if is-mega-menu and section.settings.show_mega_menu_promos_mobile %}
+                {% if is-mega-menu and show_mobile_promos %}
                   <ul class="mobile-promo--block">
-                    {% for block in section.blocks %}
-                      {% if block.type == 'content' %}
-                        {% liquid
-                          assign link-title = link.title | strip | downcase
-                          assign block-title = block.settings.mega-menu | strip | downcase
-
-                          assign image_1_stretch = false
-                          assign crop_setting_1 = block.settings.image_1_aspect_ratio
-                          if crop_setting_1 == "square"
-                            assign image_1_crop = "aspect-ratio--square"
-                            assign image_1_stretch = true
-                          elsif crop_setting_1 == "tall"
-                            assign image_1_crop = "aspect-ratio--tall"
-                            assign image_1_stretch = true
-                          elsif crop_setting_1 == "wide"
-                            assign image_1_crop = "aspect-ratio--wide"
-                            assign image_1_stretch = true
-                          else
-                            assign image_1_crop = false
-                            assign image_1_stretch = false
-                          endif
-
-                          assign image_2_stretch = false
-                          assign crop_setting_2 = block.settings.image_2_aspect_ratio
-                          if crop_setting_2 == "square"
-                            assign image_2_crop = "aspect-ratio--square"
-                            assign image_2_stretch = true
-                          elsif crop_setting_2 == "tall"
-                            assign image_2_crop = "aspect-ratio--tall"
-                            assign image_2_stretch = true
-                          elsif crop_setting_2 == "wide"
-                            assign image_2_crop = "aspect-ratio--wide"
-                            assign image_2_stretch = true
-                          else
-                            assign image_2_crop = false
-                            assign image_2_stretch = false
-                          endif
-
-                          assign image_3_stretch = false
-                          assign crop_setting_3 = block.settings.image_3_aspect_ratio
-                          if crop_setting_3 == "square"
-                            assign image_3_crop = "aspect-ratio--square"
-                            assign image_3_stretch = true
-                          elsif crop_setting_3 == "tall"
-                            assign image_3_crop = "aspect-ratio--tall"
-                            assign image_3_stretch = true
-                          elsif crop_setting_3 == "wide"
-                            assign image_3_crop = "aspect-ratio--wide"
-                            assign image_3_stretch = true
-                          else
-                            assign image_3_crop = false
-                            assign image_3_stretch = false
-                          endif
-
-                          assign image_4_stretch = false
-                          assign crop_setting_4 = block.settings.image_4_aspect_ratio
-                          if crop_setting_4 == "square"
-                            assign image_4_crop = "aspect-ratio--square"
-                            assign image_4_stretch = true
-                          elsif crop_setting_4 == "tall"
-                            assign image_4_crop = "aspect-ratio--tall"
-                            assign image_4_stretch = true
-                          elsif crop_setting_4 == "wide"
-                            assign image_4_crop = "aspect-ratio--wide"
-                            assign image_4_stretch = true
-                          else
-                            assign image_4_crop = false
-                            assign image_4_stretch = false
-                          endif
-
-                          assign image_5_stretch = false
-                          assign crop_setting_5 = block.settings.image_5_aspect_ratio
-                          if crop_setting_5 == "square"
-                            assign image_5_crop = "aspect-ratio--square"
-                            assign image_5_stretch = true
-                          elsif crop_setting_5 == "tall"
-                            assign image_5_crop = "aspect-ratio--tall"
-                            assign image_5_stretch = true
-                          elsif crop_setting_5 == "wide"
-                            assign image_5_crop = "aspect-ratio--wide"
-                            assign image_5_stretch = true
-                          else
-                            assign image_5_crop = false
-                            assign image_5_stretch = false
-                          endif
-
-                          assign first_promo_has_text = false
-                          if block.settings.mega_image_header_1 != blank or block.settings.mega_image_subheader_1 != blank
-                            assign first_promo_has_text = true
-                          endif
-
-                          assign second_promo_has_text = false
-                          if block.settings.mega_image_header_2 != blank or block.settings.mega_image_subheader_2 != blank
-                            assign second_promo_has_text = true
-                          endif
-
-                          assign third_promo_has_text = false
-                          if block.settings.mega_image_header_3 != blank or block.settings.mega_image_subheader_3 != blank
-                            assign third_promo_has_text = true
-                          endif
-
-                          assign fourth_promo_has_text = false
-                          if block.settings.mega_image_header_4 != blank or block.settings.mega_image_subheader_4 != blank
-                            assign fourth_promo_has_text = true
-                          endif
-
-                          assign fifth_promo_has_text = false
-                          if block.settings.mega_image_header_5 != blank or block.settings.mega_image_subheader_5 != blank
-                            assign fifth_promo_has_text = true
-                          endif
-                        %}
-
-                        {% style %}
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-1 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_1.rgba }}) !important;
-                          }
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-2 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_2.rgba }}) !important;
-                          }
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-3 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_3.rgba }}) !important;
-                          }
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-4 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_4.rgba }}) !important;
-                          }
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-5 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_5.rgba }}) !important;
-                          }
-                        {% endstyle %}
-  
-                        {% if link-title == block-title %}
-                          {% if block.settings.mega_image_1 and block.settings.show_promo_1_in_mobile_drawer %}
-                            {% render 'mega-menu-promo-card', 
-                              promo_wrapper_classes: "mobile-nav__item",
-                              promo_block_id: block.id,
-                              promo_img: block.settings.mega_image_1,
-                              promo_img_crop: block.settings.image_1_aspect_ratio,
-                              promo_text_overlay: block.settings.overlay_text_on_image_promo_1,
-                              promo_text_heading: block.settings.mega_image_header_1,
-                              promo_text_subheading: block.settings.mega_image_subheader_1,
-                              promo_text_color: block.settings.overlay_text_color_promo_1,
-                              promo_link: block.settings.mega_image_link_1
-                            %}
-                          {% endif %}
-                            
-                          {% if block.settings.mega_image_2 and block.settings.show_promo_2_in_mobile_drawer %}
-                            {% render 'mega-menu-promo-card', 
-                              promo_wrapper_classes: "mobile-nav__item",
-                              promo_block_id: block.id,
-                              promo_img: block.settings.mega_image_2,
-                              promo_img_crop: block.settings.image_2_aspect_ratio,
-                              promo_text_overlay: block.settings.overlay_text_on_image_promo_2,
-                              promo_text_heading: block.settings.mega_image_header_2,
-                              promo_text_subheading: block.settings.mega_image_subheader_2,
-                              promo_text_color: block.settings.overlay_text_color_promo_2,
-                              promo_link: block.settings.mega_image_link_2
-                            %}
-                          {% endif %}
-
-                          {% if block.settings.mega_image_3 and block.settings.show_promo_3_in_mobile_drawer %}
-                            {% render 'mega-menu-promo-card', 
-                              promo_wrapper_classes: "mobile-nav__item",
-                              promo_block_id: block.id,
-                              promo_img: block.settings.mega_image_3,
-                              promo_img_crop: block.settings.image_3_aspect_ratio,
-                              promo_text_overlay: block.settings.overlay_text_on_image_promo_3,
-                              promo_text_heading: block.settings.mega_image_header_3,
-                              promo_text_subheading: block.settings.mega_image_subheader_3,
-                              promo_text_color: block.settings.overlay_text_color_promo_3,
-                              promo_link: block.settings.mega_image_link_3
-                            %}
-                          {% endif %}
-
-                          {% if block.settings.mega_image_4 and block.settings.show_promo_4_in_mobile_drawer %}
-                            {% render 'mega-menu-promo-card', 
-                              promo_wrapper_classes: "mobile-nav__item",
-                              promo_block_id: block.id,
-                              promo_img: block.settings.mega_image_4,
-                              promo_img_crop: block.settings.image_4_aspect_ratio,
-                              promo_text_overlay: block.settings.overlay_text_on_image_promo_4,
-                              promo_text_heading: block.settings.mega_image_header_4,
-                              promo_text_subheading: block.settings.mega_image_subheader_4,
-                              promo_text_color: block.settings.overlay_text_color_promo_4,
-                              promo_link: block.settings.mega_image_link_4
-                            %}
-                          {% endif %}
-
-                          {% if block.settings.mega_image_5 and block.settings.show_promo_5_in_mobile_drawer %}
-                            {% render 'mega-menu-promo-card', 
-                              promo_wrapper_classes: "mobile-nav__item",
-                              promo_block_id: block.id,
-                              promo_img: block.settings.mega_image_5,
-                              promo_img_crop: block.settings.image_5_aspect_ratio,
-                              promo_text_overlay: block.settings.overlay_text_on_image_promo_5,
-                              promo_text_heading: block.settings.mega_image_header_5,
-                              promo_text_subheading: block.settings.mega_image_subheader_5,
-                              promo_text_color: block.settings.overlay_text_color_promo_5,
-                              promo_link: block.settings.mega_image_link_5
-                            %}
-                          {% endif %}
-                        {% endif %}
+                    {% assign block = current_mega_block %}
+                    
+                    {% assign has_any_promo = false %}
+                    {% for i in (1..5) %}
+                      {% assign mega_image_key = 'mega_image_' | append: i %}
+                      {% if block.settings[mega_image_key] != blank %}
+                         {% assign has_any_promo = true %}
                       {% endif %}
                     {% endfor %}
+
+                    {% if has_any_promo == false %}
+                      <li class="mobile-nav__item">
+                        <p class="mega-menu--empty" {% unless request.design_mode %}style="visibility:hidden;"{% endunless %}>
+                          {{ 'layout.header.mega_menu_empty' | t }}
+                        </p>
+                      </li>
+                    {% else %}
+                      {% for i in (1..5) %}
+                        {% assign mega_image_key = 'mega_image_' | append: i %}
+                        {% assign show_promo_key = 'show_promo_' | append: i | append: '_in_mobile_drawer' %}
+                        
+                        {% if block.settings[mega_image_key] != blank and block.settings[show_promo_key] %}
+                          {% assign crop_setting_key = 'image_' | append: i | append: '_aspect_ratio' %}
+                          {% assign header_key = 'mega_image_header_' | append: i %}
+                          {% assign subheader_key = 'mega_image_subheader_' | append: i %}
+                          {% assign overlay_text_key = 'overlay_text_on_image_promo_' | append: i %}
+                          {% assign link_key = 'mega_image_link_' | append: i %}
+                          {% assign text_color_key = 'overlay_text_color_promo_' | append: i %}
+
+                          {% liquid
+                            assign image_stretch = false
+                            assign crop_setting = block.settings[crop_setting_key]
+                            if crop_setting == "square"
+                              assign image_crop = "aspect-ratio--square"
+                              assign image_stretch = true
+                            elsif crop_setting == "tall"
+                              assign image_crop = "aspect-ratio--tall"
+                              assign image_stretch = true
+                            elsif crop_setting == "wide"
+                              assign image_crop = "aspect-ratio--wide"
+                              assign image_stretch = true
+                            else
+                              assign image_crop = false
+                              assign image_stretch = false
+                            endif
+
+                            assign promo_has_text = false
+                            if block.settings[header_key] != blank or block.settings[subheader_key] != blank
+                              assign promo_has_text = true
+                            endif
+                          %}
+
+                          {% style %}
+                            .block-id-{{ block.id }} .overlay-text-on-image-promo-{{ i }} {
+                              color: rgba({{ block.settings[text_color_key].rgba }});
+                            }
+                          {% endstyle %}
+
+                          <li class="mobile-nav__item block-id-{{ block.id }}">
+                            <div class="inner mega-menu--image-wrapper">
+                              <div class="mega-menu--image{% if block.settings[overlay_text_key] %} overlay--enabled{% endif %}{% if promo_has_text %} has-promo-text{% endif %}">
+                                {% if block.settings[link_key] %}
+                                  <a class="mega-menu-promo--image{% if image_crop %} mega-menu-aspect-ratio {{ image_crop }}{% endif %}" href="{{ block.settings[link_key] }}">
+                                {% else %}
+                                  <div class="mega-menu-promo--image{% if image_crop %} mega-menu-aspect-ratio {{ image_crop }}{% endif %}">
+                                {% endif %}
+                                
+                                {% capture img_props %}style="max-width: {{ block.settings[mega_image_key].width }}px"{% endcapture %}
+                                {% render 'responsive-image', image: block.settings[mega_image_key], allow_stretch: image_stretch, props: img_props %}
+                                
+                                {% if block.settings[link_key] %}
+                                  </a>
+                                {% else %}
+                                  </div>
+                                {% endif %}
+                       
+                                <div class="mega-menu--text">
+                                  {% if block.settings[header_key] != blank %}
+                                    <p class="h4 mega-menu--image-title{% if block.settings[subheader_key] != blank %} has-padding{% endif %}{% if block.settings[overlay_text_key] %} overlay-text-on-image-promo-{{ i }}{% else %} default-menu-drawer-text-color{% endif %}">
+                                      {% if block.settings[link_key] %}
+                                        <a href="{{ block.settings[link_key] }}" class="{% if block.settings[overlay_text_key] %} overlay-text-on-image-promo-{{ i }}{% else %} default-menu-drawer-text-color{% endif %}">
+                                      {% endif %}
+                                      {{ block.settings[header_key] }}
+                                      {% if block.settings[link_key] %}
+                                        </a>
+                                      {% endif %}
+                                    </p>
+                                  {% endif %}
+                                  
+                                  {% if block.settings[subheader_key] != blank %}
+                                    <p class="h5 mega-menu--image-subtitle{% if block.settings[overlay_text_key] %} overlay-text-on-image-promo-{{ i }}{% else %} default-menu-drawer-text-color{% endif %}">
+                                      {% if block.settings[link_key] %}
+                                        <a href="{{ block.settings[link_key] }}" class="{% if block.settings[overlay_text_key] %} overlay-text-on-image-promo-{{ i }}{% else %} default-menu-drawer-text-color{% endif %}">
+                                      {% endif %}
+                                      {{ block.settings[subheader_key] }}
+                                      {% if block.settings[link_key] %}
+                                        </a>
+                                      {% endif %}
+                                    </p>
+                                  {% endif %}
+                                </div>
+
+                              </div>
+                            </div>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+                    {% endif %}
                   </ul>
                 {% endif %}
               </ul>
@@ -653,384 +549,118 @@ Testing Cypress integration
                 </div>
 
                 <ul class="mobile-nav__sublist">
-                  <ul class="mobile-promo--block">
-                    {% for block in section.blocks %}
-                      {% if block.type == 'content' %}
-                        {% liquid
-                          assign link-title = link.title | strip | downcase
-                          assign block-title = block.settings.mega-menu | strip | downcase
-
-                          assign image_1_stretch = false
-                          assign crop_setting_1 = block.settings.image_1_aspect_ratio
-                          if crop_setting_1 == "square"
-                            assign image_1_crop = "aspect-ratio--square"
-                            assign image_1_stretch = true
-                          elsif crop_setting_1 == "tall"
-                            assign image_1_crop = "aspect-ratio--tall"
-                            assign image_1_stretch = true
-                          elsif crop_setting_1 == "wide"
-                            assign image_1_crop = "aspect-ratio--wide"
-                            assign image_1_stretch = true
-                          else
-                            assign image_1_crop = false
-                            assign image_1_stretch = false
-                          endif
-
-                          assign image_2_stretch = false
-                          assign crop_setting_2 = block.settings.image_2_aspect_ratio
-                          if crop_setting_2 == "square"
-                            assign image_2_crop = "aspect-ratio--square"
-                            assign image_2_stretch = true
-                          elsif crop_setting_2 == "tall"
-                            assign image_2_crop = "aspect-ratio--tall"
-                            assign image_2_stretch = true
-                          elsif crop_setting_2 == "wide"
-                            assign image_2_crop = "aspect-ratio--wide"
-                            assign image_2_stretch = true
-                          else
-                            assign image_2_crop = false
-                            assign image_2_stretch = false
-                          endif
-
-                          assign image_3_stretch = false
-                          assign crop_setting_3 = block.settings.image_3_aspect_ratio
-                          if crop_setting_3 == "square"
-                            assign image_3_crop = "aspect-ratio--square"
-                            assign image_3_stretch = true
-                          elsif crop_setting_3 == "tall"
-                            assign image_3_crop = "aspect-ratio--tall"
-                            assign image_3_stretch = true
-                          elsif crop_setting_3 == "wide"
-                            assign image_3_crop = "aspect-ratio--wide"
-                            assign image_3_stretch = true
-                          else
-                            assign image_3_crop = false
-                            assign image_3_stretch = false
-                          endif
-
-                          assign image_4_stretch = false
-                          assign crop_setting_4 = block.settings.image_4_aspect_ratio
-                          if crop_setting_4 == "square"
-                            assign image_4_crop = "aspect-ratio--square"
-                            assign image_4_stretch = true
-                          elsif crop_setting_4 == "tall"
-                            assign image_4_crop = "aspect-ratio--tall"
-                            assign image_4_stretch = true
-                          elsif crop_setting_4 == "wide"
-                            assign image_4_crop = "aspect-ratio--wide"
-                            assign image_4_stretch = true
-                          else
-                            assign image_4_crop = false
-                            assign image_4_stretch = false
-                          endif
-
-                          assign image_5_stretch = false
-                          assign crop_setting_5 = block.settings.image_5_aspect_ratio
-                          if crop_setting_5 == "square"
-                            assign image_5_crop = "aspect-ratio--square"
-                            assign image_5_stretch = true
-                          elsif crop_setting_5 == "tall"
-                            assign image_5_crop = "aspect-ratio--tall"
-                            assign image_5_stretch = true
-                          elsif crop_setting_5 == "wide"
-                            assign image_5_crop = "aspect-ratio--wide"
-                            assign image_5_stretch = true
-                          else
-                            assign image_5_crop = false
-                            assign image_5_stretch = false
-                          endif
-
-                          assign first_promo_has_text = false
-                          if block.settings.mega_image_header_1 != blank or block.settings.mega_image_subheader_1 != blank
-                            assign first_promo_has_text = true
-                          endif
-
-                          assign second_promo_has_text = false
-                          if block.settings.mega_image_header_2 != blank or block.settings.mega_image_subheader_2 != blank
-                            assign second_promo_has_text = true
-                          endif
-
-                          assign third_promo_has_text = false
-                          if block.settings.mega_image_header_3 != blank or block.settings.mega_image_subheader_3 != blank
-                            assign third_promo_has_text = true
-                          endif
-
-                          assign fourth_promo_has_text = false
-                          if block.settings.mega_image_header_4 != blank or block.settings.mega_image_subheader_4 != blank
-                            assign fourth_promo_has_text = true
-                          endif
-
-                          assign fifth_promo_has_text = false
-                          if block.settings.mega_image_header_5 != blank or block.settings.mega_image_subheader_5 != blank
-                            assign fifth_promo_has_text = true
-                          endif
-                        %}
-
-                        {% style %}
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-1 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_1.rgba }});
-                          }
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-2 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_2.rgba }});
-                          }
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-3 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_3.rgba }});
-                          }
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-4 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_4.rgba }});
-                          }
-                          .block-id-{{ block.id }} .overlay-text-on-image-promo-5 {
-                            color: rgba({{ block.settings.overlay_text_color_promo_5.rgba }});
-                          }
-                        {% endstyle %}
-
-                        {% if link-title == block-title %}
-                          {% if block.settings.mega_image_1 == blank and block.settings.mega_image_2 == blank and block.settings.mega_image_3 == blank and block.settings.mega_image_4 == blank and block.settings.mega_image_5 == blank %}
-                            <li class="mobile-nav__item {% if sub_link.active %} mobile-nav__item--active{% endif %}">
-                              <p class="mega-menu--empty" {% unless request.design_mode %}style="visibility:hidden;"{% endunless %}>
-                                {{ 'layout.header.mega_menu_empty' | t }}
-                              </p>
-                            </li>
-                          {% else %}
-                            {% if block.settings.mega_image_1 and block.settings.show_promo_1_in_mobile_drawer %}
-                              <li class="mobile-nav__item block-id-{{ block.id }}">
-                                <div class="inner mega-menu--image-wrapper">
-                                  <div class="mega-menu--image{% if block.settings.overlay_text_on_image_promo_1 %} overlay--enabled{% endif %}{% if first_promo_has_text %} has-promo-text{% endif %}">
-                                    {% if block.settings.mega_image_link_1 %}
-                                      <a class="mega-menu-promo--image{% if image_1_crop %} mega-menu-aspect-ratio {{ image_1_crop }}{% endif %}" href="{{ block.settings.mega_image_link_1 }}">
-                                    {% else %}
-                                      <div class="mega-menu-promo--image{% if image_1_crop %} mega-menu-aspect-ratio {{ image_1_crop }}{% endif %}">
-                                    {% endif %}
-                                    {% capture img_props %}style="max-width: {{ block.settings.mega_image_1.width }}px"{% endcapture %}
-                           
-                                    {% render 'responsive-image', image: block.settings.mega_image_1, allow_stretch: image_1_stretch, props: img_props %}
-                                    {% if block.settings.mega_image_link_1 %}
-                                      </a>
-                                    {% else %}
-                                      </div>
-                                    {% endif %}
-                           
-                                    <div class="mega-menu--text">
-                                      {% if block.settings.mega_image_header_1 %}
-                                        <p class="h4 mega-menu--image-title{% if block.settings.mega_image_subheader_1 != blank %} has-padding{% endif %}{% if block.settings.overlay_text_on_image_promo_1 %} overlay-text-on-image-promo-1{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_1 %}
-                                            <a href="{{ block.settings.mega_image_link_1 }}" class="{% if block.settings.overlay_text_on_image_promo_1 %} overlay-text-on-image-promo-1{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_header_1 }}
-                                          {% if block.settings.mega_image_link_1 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                      {% if block.settings.mega_image_subheader_1 %}
-                                        <p class="h5 mega-menu--image-subtitle{% if block.settings.overlay_text_on_image_promo_1 %} overlay-text-on-image-promo-1{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_1 %}
-                                            <a href="{{ block.settings.mega_image_link_1 }}" class="{% if block.settings.overlay_text_on_image_promo_1 %} overlay-text-on-image-promo-1{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_subheader_1 }}
-                                          {% if block.settings.mega_image_link_1 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                            {% endif %}
-                             
-                            {% if block.settings.mega_image_2 and block.settings.show_promo_2_in_mobile_drawer %}
-                              <li class="mobile-nav__item block-id-{{ block.id }}">
-                                <div class="inner mega-menu--image-wrapper">
-                                  <div class="mega-menu--image{% if block.settings.overlay_text_on_image_promo_2 %} overlay--enabled{% endif %}{% if second_promo_has_text %} has-promo-text{% endif %}">
-                                    {% if block.settings.mega_image_link_2 %}
-                                      <a class="mega-menu-promo--image{% if image_2_crop %} mega-menu-aspect-ratio {{ image_2_crop }}{% endif %}" href="{{ block.settings.mega_image_link_2 }}">
-                                    {% else %}
-                                      <div class="mega-menu-promo--image{% if image_2_crop %} mega-menu-aspect-ratio {{ image_2_crop }}{% endif %}">
-                                    {% endif %}
-                                    {% capture img_props %}style="max-width: {{ block.settings.mega_image_2.width }}px"{% endcapture %}
-                           
-                                    {% render 'responsive-image', image: block.settings.mega_image_2, allow_stretch: image_2_stretch, props: img_props %}
-                                    {% if block.settings.mega_image_link_2 %}
-                                      </a>
-                                    {% else %}
-                                      </div>
-                                    {% endif %}
-                           
-                                    <div class="mega-menu--text">
-                                      {% if block.settings.mega_image_header_2 %}
-                                        <p class="h4 mega-menu--image-title{% if block.settings.mega_image_subheader_2 != blank %} has-padding{% endif %}{% if block.settings.overlay_text_on_image_promo_2 %} overlay-text-on-image-promo-2{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_2 %}
-                                            <a href="{{ block.settings.mega_image_link_2 }}" class="{% if block.settings.overlay_text_on_image_promo_2 %} overlay-text-on-image-promo-2{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_header_2 }}
-                                          {% if block.settings.mega_image_link_2 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                      {% if block.settings.mega_image_subheader_2 %}
-                                        <p class="h5 mega-menu--image-subtitle{% if block.settings.overlay_text_on_image_promo_2 %} overlay-text-on-image-promo-2{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_2 %}
-                                            <a href="{{ block.settings.mega_image_link_2 }}" class="{% if block.settings.overlay_text_on_image_promo_2 %} overlay-text-on-image-promo-2{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_subheader_2 }}
-                                          {% if block.settings.mega_image_link_2 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                            {% endif %}
-
-                            {% if block.settings.mega_image_3 and block.settings.show_promo_3_in_mobile_drawer %}
-                              <li class="mobile-nav__item block-id-{{ block.id }}">
-                                <div class="inner mega-menu--image-wrapper">
-                                  <div class="mega-menu--image{% if block.settings.overlay_text_on_image_promo_3 %} overlay--enabled{% endif %}{% if third_promo_has_text %} has-promo-text{% endif %}">
-                                    {% if block.settings.mega_image_link_3 %}
-                                      <a class="mega-menu-promo--image{% if image_3_crop %} mega-menu-aspect-ratio {{ image_3_crop }}{% endif %}" href="{{ block.settings.mega_image_link_3 }}">
-                                    {% else %}
-                                      <div class="mega-menu-promo--image{% if image_3_crop %} mega-menu-aspect-ratio {{ image_3_crop }}{% endif %}">
-                                    {% endif %}
-                                    {% capture img_props %}style="max-width: {{ block.settings.mega_image_3.width }}px"{% endcapture %}
-                           
-                                    {% render 'responsive-image', image: block.settings.mega_image_3, allow_stretch: image_3_stretch, props: img_props %}
-                                    {% if block.settings.mega_image_link_3 %}
-                                      </a>
-                                    {% else %}
-                                      </div>
-                                    {% endif %}
-                           
-                                    <div class="mega-menu--text">
-                                      {% if block.settings.mega_image_header_3 %}
-                                        <p class="h4 mega-menu--image-title{% if block.settings.mega_image_subheader_3 != blank %} has-padding{% endif %}{% if block.settings.overlay_text_on_image_promo_3 %} overlay-text-on-image-promo-3{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_3 %}
-                                            <a href="{{ block.settings.mega_image_link_3 }}" class="{% if block.settings.overlay_text_on_image_promo_3 %} overlay-text-on-image-promo-3{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_header_3 }}
-                                          {% if block.settings.mega_image_link_3 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                      {% if block.settings.mega_image_subheader_3 %}
-                                        <p class="h5 mega-menu--image-subtitle{% if block.settings.overlay_text_on_image_promo_3 %} overlay-text-on-image-promo-3{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_3 %}
-                                            <a href="{{ block.settings.mega_image_link_3 }}" class="{% if block.settings.overlay_text_on_image_promo_3 %} overlay-text-on-image-promo-3{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_subheader_3 }}
-                                          {% if block.settings.mega_image_link_3 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                            {% endif %}
-
-                            {% if block.settings.mega_image_4 and block.settings.show_promo_4_in_mobile_drawer %}
-                              <li class="mobile-nav__item block-id-{{ block.id }}">
-                                <div class="inner mega-menu--image-wrapper">
-                                  <div class="mega-menu--image{% if block.settings.overlay_text_on_image_promo_4 %} overlay--enabled{% endif %}{% if fourth_promo_has_text %} has-promo-text{% endif %}">
-                                    {% if block.settings.mega_image_link_4 %}
-                                      <a class="mega-menu-promo--image{% if image_4_crop %} mega-menu-aspect-ratio {{ image_4_crop }}{% endif %}" href="{{ block.settings.mega_image_link_4 }}">
-                                    {% else %}
-                                      <div class="mega-menu-promo--image{% if image_4_crop %} mega-menu-aspect-ratio {{ image_4_crop }}{% endif %}">
-                                    {% endif %}
-                                    {% capture img_props %}style="max-width: {{ block.settings.mega_image_4.width }}px"{% endcapture %}
-                           
-                                    {% render 'responsive-image', image: block.settings.mega_image_4, allow_stretch: image_4_stretch, props: img_props %}
-                                    {% if block.settings.mega_image_link_4 %}
-                                      </a>
-                                    {% else %}
-                                      </div>
-                                    {% endif %}
-                           
-                                    <div class="mega-menu--text">
-                                      {% if block.settings.mega_image_header_4 %}
-                                        <p class="h4 mega-menu--image-title{% if block.settings.mega_image_subheader_4 != blank %} has-padding{% endif %}{% if block.settings.overlay_text_on_image_promo_4 %} overlay-text-on-image-promo-4{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_4 %}
-                                            <a href="{{ block.settings.mega_image_link_4 }}" class="{% if block.settings.overlay_text_on_image_promo_4 %} overlay-text-on-image-promo-4{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_header_4 }}
-                                          {% if block.settings.mega_image_link_4 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                      {% if block.settings.mega_image_subheader_4 %}
-                                        <p class="h5 mega-menu--image-subtitle{% if block.settings.overlay_text_on_image_promo_4 %} overlay-text-on-image-promo-4{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_4 %}
-                                            <a href="{{ block.settings.mega_image_link_4 }}" class="{% if block.settings.overlay_text_on_image_promo_4 %} overlay-text-on-image-promo-4{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_subheader_4 }}
-                                          {% if block.settings.mega_image_link_4 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                            {% endif %}
-
-                            {% if block.settings.mega_image_5 and block.settings.show_promo_5_in_mobile_drawer %}
-                              <li class="mobile-nav__item block-id-{{ block.id }}">
-                                <div class="inner mega-menu--image-wrapper">
-                                  <div class="mega-menu--image{% if block.settings.overlay_text_on_image_promo_5 %} overlay--enabled{% endif %}{% if fifth_promo_has_text %} has-promo-text{% endif %}">
-                                    {% if block.settings.mega_image_link_5 %}
-                                      <a class="mega-menu-promo--image{% if image_5_crop %} mega-menu-aspect-ratio {{ image_5_crop }}{% endif %}" href="{{ block.settings.mega_image_link_5 }}">
-                                    {% else %}
-                                      <div class="mega-menu-promo--image{% if image_5_crop %} mega-menu-aspect-ratio {{ image_5_crop }}{% endif %}">
-                                    {% endif %}
-                                    {% capture img_props %}style="max-width: {{ block.settings.mega_image_5.width }}px"{% endcapture %}
-                           
-                                    {% render 'responsive-image', image: block.settings.mega_image_5, allow_stretch: image_5_stretch, props: img_props %}
-                                    {% if block.settings.mega_image_link_5 %}
-                                      </a>
-                                    {% else %}
-                                      </div>
-                                    {% endif %}
-                           
-                                    <div class="mega-menu--text">
-                                      {% if block.settings.mega_image_header_5 %}
-                                        <p class="h4 mega-menu--image-title{% if block.settings.mega_image_subheader_5 != blank %} has-padding{% endif %}{% if block.settings.overlay_text_on_image_promo_5 %} overlay-text-on-image-promo-5{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_5 %}
-                                            <a href="{{ block.settings.mega_image_link_5 }}" class="{% if block.settings.overlay_text_on_image_promo_5 %} overlay-text-on-image-promo-5{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_header_5 }}
-                                          {% if block.settings.mega_image_link_5 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                      {% if block.settings.mega_image_subheader_5 %}
-                                        <p class="h5 mega-menu--image-subtitle{% if block.settings.overlay_text_on_image_promo_5 %} overlay-text-on-image-promo-5{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% if block.settings.mega_image_link_5 %}
-                                            <a href="{{ block.settings.mega_image_link_5 }}" class="{% if block.settings.overlay_text_on_image_promo_5 %} overlay-text-on-image-promo-5{% else %} default-menu-drawer-text-color{% endif %}">
-                                          {% endif %}
-                                          {{ block.settings.mega_image_subheader_5 }}
-                                          {% if block.settings.mega_image_link_5 %}
-                                            </a>
-                                          {% endif %}
-                                        </p>
-                                      {% endif %}
-                                    </div>
-                                  </div>
-                                </div>
-                              </li>
-                            {% endif %}
-                          {% endif %}
+                  {% if show_mobile_promos %}
+                    <ul class="mobile-promo--block">
+                      {% assign block = current_mega_block %}
+                      
+                      {% assign has_any_promo = false %}
+                      {% for i in (1..5) %}
+                        {% assign mega_image_key = 'mega_image_' | append: i %}
+                        {% if block.settings[mega_image_key] != blank %}
+                           {% assign has_any_promo = true %}
                         {% endif %}
+                      {% endfor %}
+
+                      {% if has_any_promo == false %}
+                        <li class="mobile-nav__item">
+                          <p class="mega-menu--empty" {% unless request.design_mode %}style="visibility:hidden;"{% endunless %}>
+                            {{ 'layout.header.mega_menu_empty' | t }}
+                          </p>
+                        </li>
+                      {% else %}
+                        {% for i in (1..5) %}
+                          {% assign mega_image_key = 'mega_image_' | append: i %}
+                          {% assign show_promo_key = 'show_promo_' | append: i | append: '_in_mobile_drawer' %}
+                          
+                          {% if block.settings[mega_image_key] != blank and block.settings[show_promo_key] %}
+                            {% assign crop_setting_key = 'image_' | append: i | append: '_aspect_ratio' %}
+                            {% assign header_key = 'mega_image_header_' | append: i %}
+                            {% assign subheader_key = 'mega_image_subheader_' | append: i %}
+                            {% assign overlay_text_key = 'overlay_text_on_image_promo_' | append: i %}
+                            {% assign link_key = 'mega_image_link_' | append: i %}
+                            {% assign text_color_key = 'overlay_text_color_promo_' | append: i %}
+
+                            {% liquid
+                              assign image_stretch = false
+                              assign crop_setting = block.settings[crop_setting_key]
+                              if crop_setting == "square"
+                                assign image_crop = "aspect-ratio--square"
+                                assign image_stretch = true
+                              elsif crop_setting == "tall"
+                                assign image_crop = "aspect-ratio--tall"
+                                assign image_stretch = true
+                              elsif crop_setting == "wide"
+                                assign image_crop = "aspect-ratio--wide"
+                                assign image_stretch = true
+                              else
+                                assign image_crop = false
+                                assign image_stretch = false
+                              endif
+
+                              assign promo_has_text = false
+                              if block.settings[header_key] != blank or block.settings[subheader_key] != blank
+                                assign promo_has_text = true
+                              endif
+                            %}
+
+                            {% style %}
+                              .block-id-{{ block.id }} .overlay-text-on-image-promo-{{ i }} {
+                                color: rgba({{ block.settings[text_color_key].rgba }});
+                              }
+                            {% endstyle %}
+
+                            <li class="mobile-nav__item block-id-{{ block.id }}">
+                              <div class="inner mega-menu--image-wrapper">
+                                <div class="mega-menu--image{% if block.settings[overlay_text_key] %} overlay--enabled{% endif %}{% if promo_has_text %} has-promo-text{% endif %}">
+                                  {% if block.settings[link_key] %}
+                                    <a class="mega-menu-promo--image{% if image_crop %} mega-menu-aspect-ratio {{ image_crop }}{% endif %}" href="{{ block.settings[link_key] }}">
+                                  {% else %}
+                                    <div class="mega-menu-promo--image{% if image_crop %} mega-menu-aspect-ratio {{ image_crop }}{% endif %}">
+                                  {% endif %}
+                                  
+                                  {% capture img_props %}style="max-width: {{ block.settings[mega_image_key].width }}px"{% endcapture %}
+                                  {% render 'responsive-image', image: block.settings[mega_image_key], allow_stretch: image_stretch, props: img_props %}
+                                  
+                                  {% if block.settings[link_key] %}
+                                    </a>
+                                  {% else %}
+                                    </div>
+                                  {% endif %}
+                         
+                                  <div class="mega-menu--text">
+                                    {% if block.settings[header_key] != blank %}
+                                      <p class="h4 mega-menu--image-title{% if block.settings[subheader_key] != blank %} has-padding{% endif %}{% if block.settings[overlay_text_key] %} overlay-text-on-image-promo-{{ i }}{% else %} default-menu-drawer-text-color{% endif %}">
+                                        {% if block.settings[link_key] %}
+                                          <a href="{{ block.settings[link_key] }}" class="{% if block.settings[overlay_text_key] %} overlay-text-on-image-promo-{{ i }}{% else %} default-menu-drawer-text-color{% endif %}">
+                                        {% endif %}
+                                        {{ block.settings[header_key] }}
+                                        {% if block.settings[link_key] %}
+                                          </a>
+                                        {% endif %}
+                                      </p>
+                                    {% endif %}
+                                    
+                                    {% if block.settings[subheader_key] != blank %}
+                                      <p class="h5 mega-menu--image-subtitle{% if block.settings[overlay_text_key] %} overlay-text-on-image-promo-{{ i }}{% else %} default-menu-drawer-text-color{% endif %}">
+                                        {% if block.settings[link_key] %}
+                                          <a href="{{ block.settings[link_key] }}" class="{% if block.settings[overlay_text_key] %} overlay-text-on-image-promo-{{ i }}{% else %} default-menu-drawer-text-color{% endif %}">
+                                        {% endif %}
+                                        {{ block.settings[subheader_key] }}
+                                        {% if block.settings[link_key] %}
+                                          </a>
+                                        {% endif %}
+                                      </p>
+                                    {% endif %}
+                                  </div>
+
+                                </div>
+                              </div>
+                            </li>
+                          {% endif %}
+                        {% endfor %}
                       {% endif %}
-                    {% endfor %}
-                  </ul>
+                    </ul>
+                  {% endif %}
                 </ul>
               {% else %}
                 <a href="{{ link.url }}" class="mobile-nav__link">{{ link.title }}</a>
@@ -1625,18 +1255,6 @@ Testing Cypress integration
     },
     {
       "type": "checkbox",
-      "id": "show_mega_menu_links_mobile",
-      "label": "Show Level 2/3 links in Mobile Mega Menu",
-      "default": true
-    },
-    {
-      "type": "checkbox",
-      "id": "show_mega_menu_promos_mobile",
-      "label": "Show Promotion Images in Mobile Mega Menu",
-      "default": true
-    },
-    {
-      "type": "checkbox",
       "id": "mobile_social_icons",
       "label": "t:sections.header.settings.mobile_navigation.show_social_media_icons.label",
       "info": "t:all.To_choose_which_icons_to_display_go_to_Theme_settings__Social_media_",
@@ -1908,6 +1526,22 @@ Testing Cypress integration
           "type": "text",
           "label": "t:all.Menu_item",
           "info": "t:sections.header.blocks.content.settings.mega-menu.info"
+        },
+        {
+          "type": "header",
+          "content": "Mobile Settings"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mega_menu_links_mobile",
+          "label": "Show Level 2/3 links in Mobile Menu",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mega_menu_promos_mobile",
+          "label": "Show Promotion Images in Mobile Menu",
+          "default": true
         },
         {
           "type": "header",
