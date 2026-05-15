@@ -272,10 +272,13 @@ Testing Cypress integration
     width: 20px;
     height: 20px;
   }
-  .mobile-nav__link.with-icon,
-  .mega-menu-link-with-icon {
+  .mobile-nav__link-wrapper,
+  .mega-menu-link-wrapper {
     display: inline-flex;
     align-items: center;
+  }
+  .mobile-nav__link.with-icon {
+    display: inline;
   }
 {% endstyle %}
 
@@ -362,12 +365,14 @@ Testing Cypress integration
                     {% if sub_link.levels > 0 %}
                       <li class="mobile-nav__item {% if sub_link.active %} mobile-nav__item--active{% endif %}">
                         <div class="mobile-nav__has-sublist">
-                          <a href="{{ sub_link.url }}" class="mobile-nav__link{% if sub_icon_url != blank %} with-icon{% endif %}">
+                          <div class="mobile-nav__link-wrapper">
                             {% if sub_icon_url != blank %}
                               <img src="{{ sub_icon_url }}" alt="" class="mobile-menu-icon" loading="lazy">
                             {% endif %}
-                            {{ sub_link.title | escape }}
-                          </a>
+                            <a href="{{ sub_link.url }}" class="mobile-nav__link{% if sub_icon_url != blank %} with-icon{% endif %}">
+                              {{ sub_link.title | escape }}
+                            </a>
+                          </div>
                           <div class="mobile-nav__toggle">
                             <button type="button" class="icon-fallback-text mobile-nav__toggle-open standalone-icon--wrapper touch-target icon-no-padding" name="{{ 'cart.general.see_more' | t }}">
                               {% render 'theme-icon', icon: 'plus', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
@@ -395,24 +400,28 @@ Testing Cypress integration
                               endfor
                             -%}
                             <li class="mobile-nav__item">
-                              <a href="{{ sub_sub_link.url }}" class="mobile-nav__link{% if sub_sub_icon_url != blank %} with-icon{% endif %}">
+                              <div class="mobile-nav__link-wrapper">
                                 {% if sub_sub_icon_url != blank %}
                                   <img src="{{ sub_sub_icon_url }}" alt="" class="mobile-menu-icon mobile-menu-icon--small" loading="lazy">
                                 {% endif %}
-                                {{ sub_sub_link.title | escape }}
-                              </a>
+                                <a href="{{ sub_sub_link.url }}" class="mobile-nav__link{% if sub_sub_icon_url != blank %} with-icon{% endif %}">
+                                  {{ sub_sub_link.title | escape }}
+                                </a>
+                              </div>
                             </li>
                           {% endfor %}
                         </ul>
                       </li>
                     {% else %}
                       <li class="mobile-nav__item{% if sub_link.active %} mobile-nav__item--active{% endif %}">
-                        <a href="{{ sub_link.url }}" class="mobile-nav__link{% if sub_icon_url != blank %} with-icon{% endif %}">
+                        <div class="mobile-nav__link-wrapper">
                           {% if sub_icon_url != blank %}
                             <img src="{{ sub_icon_url }}" alt="" class="mobile-menu-icon" loading="lazy">
                           {% endif %}
-                          {{ sub_link.title | escape }}
-                        </a>
+                          <a href="{{ sub_link.url }}" class="mobile-nav__link{% if sub_icon_url != blank %} with-icon{% endif %}">
+                            {{ sub_link.title | escape }}
+                          </a>
+                        </div>
                       </li>
                     {% endif %}
                   {% endfor %}
@@ -552,7 +561,9 @@ Testing Cypress integration
                   {% if current_mega_block.settings.show_mega_menu_links_mobile %}
                     {% for sub_link in link.links %}
                       <li class="mobile-nav__item">
-                        <a href="{{ sub_link.url }}" class="mobile-nav__link">{{ sub_link.title | escape }}</a>
+                        <div class="mobile-nav__link-wrapper">
+                          <a href="{{ sub_link.url }}" class="mobile-nav__link">{{ sub_link.title | escape }}</a>
+                        </div>
                       </li>
                     {% endfor %}
                   {% endif %}
