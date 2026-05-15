@@ -161,7 +161,7 @@
         "description": "",
         "section_header_alignment": "left",
         "image_style": "square",
-        "image_size": 200,
+        "image_size": 300,
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "color_scheme": "white"
