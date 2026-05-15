@@ -38,7 +38,7 @@
       "type": "image-with-text",
       "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
-        "image": "{{ collection.image }}",
+        "image": "shopify://shop_images/Headshot-102.jpg",
         "layout": "right",
         "title": "{{ collection.title }}",
         "text": "{{ collection.description }}",
