@@ -478,7 +478,7 @@
             "show_product_name": true,
             "hide_arrows_mobile": true,
             "arrows_position": "sides",
-            "max_width": 1300,
+            "max_width": 1600,
             "corner_styling": "square",
             "header_text_color": "#242424",
             "text_color": "#242424",
