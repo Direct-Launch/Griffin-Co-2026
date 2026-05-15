@@ -140,7 +140,13 @@
         "highlight_show_border": true,
         "highlight_collapsible_tab": true,
         "highlight_open_close_icon": "plus_minus",
-        "highlight_button_borders": false
+        "highlight_button_borders": false,
+        "show_promo_block": true,
+        "promo_image": "shopify://shop_images/bespoke-drawing.webp",
+        "promo_heading": "Ready to design your own?",
+        "promo_text": "Work with our expert designers to bring your vision to life.",
+        "promo_button_text": "Book Consultation",
+        "promo_button_link": ""
       }
     },
     "image_with_text_TNiGrG": {
