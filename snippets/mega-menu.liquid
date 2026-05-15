@@ -76,24 +76,33 @@
     align-items: center;
     gap: 12px;
   }
-  
+
   .mega-menu-icon {
     width: 32px;
     height: 32px;
     object-fit: contain;
     flex-shrink: 0;
   }
-  
+
   /* Make sub-sub links closer together like the screenshot */
   .mega-menu--links .menu-link li {
       margin-bottom: 8px;
   }
 {% endstyle %}
 
-<div class="mega-menu-block{% if link.links.size == 0 and promo_count == 0 %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}" data-mega-menu-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+<div
+  class="mega-menu-block{% if link.links.size == 0 and promo_count == 0 %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}"
+  data-mega-menu-block-id="{{ block.id }}"
+  {{ block.shopify_attributes }}
+>
   {% if link.links.size == 0 %}
     {% if promo_count == 0 %}
-      <p class="mega-menu--empty" {% unless request.design_mode %}style="visibility:hidden;"{% endunless %}>
+      <p
+        class="mega-menu--empty"
+        {% unless request.design_mode %}
+          style="visibility:hidden;"
+        {% endunless %}
+      >
         {{ 'layout.header.mega_menu_empty' | t }}
       </p>
     {% endif %}
@@ -117,10 +126,10 @@
         <li class="dropdown-submenu nav-link-animated--custom" aria-haspopup="true">
           <div class="inner">
             <p class="h4 mega-menu-link--title">
+              {% if sub_icon_url != blank %}
+                <img src="{{ sub_icon_url }}" alt="" class="mega-menu-icon" loading="lazy">
+              {% endif %}
               <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_link.url }}">
-                {% if sub_icon_url != blank %}
-                  <img src="{{ sub_icon_url }}" alt="" class="mega-menu-icon" loading="lazy">
-                {% endif %}
                 {{ sub_link.title | escape }}
               </a>
             </p>
@@ -139,10 +148,10 @@
                   endfor
                 -%}
                 <li>
+                  {% if sub_sub_icon_url != blank %}
+                    <img src="{{ sub_sub_icon_url }}" alt="" class="mega-menu-icon" loading="lazy">
+                  {% endif %}
                   <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_sub_link.url }}">
-                    {% if sub_sub_icon_url != blank %}
-                      <img src="{{ sub_sub_icon_url }}" alt="" class="mega-menu-icon" loading="lazy">
-                    {% endif %}
                     {{ sub_sub_link.title | escape }}
                   </a>
                 </li>
@@ -167,8 +176,8 @@
 
         {% if block.settings[mega_image_key] != blank %}
           <div>
-            {% render 'mega-menu-promo-card', 
-              promo_wrapper_classes: "dropdown-submenu",
+            {% render 'mega-menu-promo-card',
+              promo_wrapper_classes: 'dropdown-submenu',
               promo_block_id: block.id,
               promo_wrapper_attr: "aria-haspopup='true'",
               promo_img: block.settings[mega_image_key],
