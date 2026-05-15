@@ -1,0 +1,403 @@
+{%- liquid
+  comment
+    Private theme block for service list columns
+    Only available in service-list section
+  endcomment
+
+  assign has_background = false
+  if block.settings.background_color != 'rgba(0,0,0,0)' and block.settings.background_color != blank
+    assign has_background = true
+  endif
+
+  assign has_custom_text_color = false
+  if block.settings.text_color != 'rgba(0,0,0,0)' and block.settings.text_color != blank
+    assign has_custom_text_color = true
+  endif
+-%}
+
+{% comment %} Button color overrides {% endcomment %}
+{% if block.settings.override_button_colors and block.settings.button_text != blank %}
+  {% render 'button-color-overrides',
+    id: block.id,
+    style: block.settings.buttons_style,
+    text_color: block.settings.button_text_color,
+    background_color: block.settings.button_background_color
+  %}
+{% endif %}
+
+<div
+  class="shopify-block service-list__column swiper-slide block-{{ block.id }}{% if has_background %} service-list__column--with-background block-radius{% endif %}"
+  data-block-id="{{ block.id }}"
+  {{ block.shopify_attributes }}
+>
+  <div
+    class="service-list__column-content"
+    {% if has_background or has_custom_text_color %} style="{% if has_background %}background-color: {{ block.settings.background_color }};{% endif %}{% if has_custom_text_color %} color: {{ block.settings.text_color }}; --border-color: {{ block.settings.text_color | color_modify: 'alpha', 0.25 }}; --custom-text-color: {{ block.settings.text_color }}; --custom-text-color-transparent50: {{ block.settings.text_color | color_modify: 'alpha', 0.5 }};{% endif %}"{% endif %}
+  >
+    {% comment %} Service category icon and header container {% endcomment %}
+    <div class="service-list__header-container">
+      {% liquid
+        assign icon = block.settings.icon
+        assign custom_icon = false
+        if block.settings.custom_icon
+          assign icon = block.settings.custom_icon
+          assign custom_icon = true
+        endif
+      %}
+      
+      {% if icon != 'none' %}
+        <div class="service-list__icon"{% if has_custom_text_color %} style="color: {{ block.settings.text_color }};"{% endif %}>
+          {% if custom_icon %}
+            {% render 'responsive-image', image: icon, class: 'service-list__custom-icon' %}
+          {% else %}
+            {% render 'theme-icon', icon: icon %}
+          {% endif %}
+        </div>
+      {% endif %}
+      
+      {% comment %} Service category {% endcomment %}
+      {% if block.settings.title != blank %}
+        <div class="service-list__header h5 h4-mobile">{{ block.settings.title }}</div>
+      {% endif %}
+    </div>
+    
+    {% comment %} Service list {% endcomment %}
+    <div class="service-list__items {% if has_custom_text_color %}text-link-animated-custom-color{% else %}text-link-animated{% endif %}">
+      {% content_for 'blocks' %}
+    </div>
+    
+    {% comment %} Column button {% endcomment %}
+    {% if block.settings.button_text != blank %}
+      {% render 'dynamic-section-button',
+        id: block.id,
+        link: block.settings.button_link,
+        label: block.settings.button_text,
+        style: block.settings.buttons_style,
+        div_classes: 'service-list__column-button'
+      %}
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "t:blocks.service-column.name",
+  "tag": null,
+  "settings": [
+    {
+      "type": "select",
+      "id": "icon",
+      "label": "t:all.Icon",
+      "default": "none",
+      "options": [
+        {
+          "value": "none",
+          "label": "t:all.None"
+        },
+        {
+          "value": "arrow-right-circle",
+          "label": "t:all.Arrow_circle"
+        },
+        {
+          "value": "book",
+          "label": "t:all.Book"
+        },
+        {
+          "value": "cake",
+          "label": "t:all.Cake"
+        },
+        {
+          "value": "car",
+          "label": "t:all.Car"
+        },
+        {
+          "value": "multi-bubble",
+          "label": "t:all.Chat"
+        },
+        {
+          "value": "chat",
+          "label": "t:all.Chat_bubble"
+        },
+        {
+          "value": "chat-smile",
+          "label": "t:all.Chat_bubble_with_smile"
+        },
+        {
+          "value": "check-circle",
+          "label": "t:all.Check_circle"
+        },
+        {
+          "value": "clock",
+          "label": "t:all.Clock"
+        },
+        {
+          "value": "xmark-circle",
+          "label": "t:all.Cross"
+        },
+        {
+          "value": "crown",
+          "label": "t:all.Crown"
+        },
+        {
+          "value": "cup",
+          "label": "t:all.Cup"
+        },
+        {
+          "value": "service",
+          "label": "t:all.Customer_service"
+        },
+        {
+          "value": "delivery-truck",
+          "label": "t:all.Delivery"
+        },
+        {
+          "value": "leaf",
+          "label": "t:all.Eco"
+        },
+        {
+          "value": "mail",
+          "label": "t:all.Email"
+        },
+        {
+          "value": "exchange",
+          "label": "t:all.Exchange"
+        },
+        {
+          "value": "fire-flame",
+          "label": "t:all.Fire"
+        },
+        {
+          "value": "flag",
+          "label": "t:all.Flag"
+        },
+        {
+          "value": "gift",
+          "label": "t:all.Gift"
+        },
+        {
+          "value": "globe",
+          "label": "t:all.Globe"
+        },
+        {
+          "value": "handbag",
+          "label": "t:all.Handbag"
+        },
+        {
+          "value": "heart",
+          "label": "t:all.Heart"
+        },
+        {
+          "value": "help-circle",
+          "label": "t:all.Help_circle"
+        },
+        {
+          "value": "home-smile",
+          "label": "t:all.Home_with_smile"
+        },
+        {
+          "value": "info",
+          "label": "t:all.Info"
+        },
+        {
+          "value": "map-pin",
+          "label": "t:all.Map_pin"
+        },
+        {
+          "value": "measuring_tape",
+          "label": "t:all.Measuring_tape"
+        },
+        {
+          "value": "moon",
+          "label": "t:all.Moon"
+        },
+        {
+          "value": "phone",
+          "label": "t:all.Phone"
+        },
+        {
+          "value": "plus-circle",
+          "label": "t:all.Plus_circle"
+        },
+        {
+          "value": "price-tag",
+          "label": "t:all.Price_tag"
+        },
+        {
+          "value": "question-answer",
+          "label": "t:all.Question_and_answer"
+        },
+        {
+          "value": "quote",
+          "label": "t:all.Quote"
+        },
+        {
+          "value": "recycle",
+          "label": "t:all.Recycle"
+        },
+        {
+          "value": "restaurant",
+          "label": "t:all.Restaurant"
+        },
+        {
+          "value": "emoji",
+          "label": "t:all.Smiley"
+        },
+        {
+          "value": "sparks",
+          "label": "t:all.Sparks"
+        },
+        {
+          "value": "star",
+          "label": "t:all.Star"
+        },
+        {
+          "value": "store",
+          "label": "t:all.Store"
+        },
+        {
+          "value": "sun",
+          "label": "t:all.Sun"
+        },
+        {
+          "value": "takeaway",
+          "label": "t:all.Takeaway"
+        },
+        {
+          "value": "trophy",
+          "label": "t:all.Trophy"
+        },
+        {
+          "value": "truck",
+          "label": "t:all.Truck"
+        },
+        {
+          "value": "umbrella",
+          "label": "t:all.Umbrella"
+        },
+        {
+          "value": "wallet",
+          "label": "t:all.Wallet"
+        },
+        {
+          "value": "warning-circle",
+          "label": "t:all.Warning_circle"
+        }
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "custom_icon",
+      "label": "t:all.Custom_icon",
+      "info": "t:all.Aspect_ratio_of_1_1_recommended"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:all.Heading",
+      "default": "Service list"
+    },
+    {
+      "type": "header",
+      "content": "t:all.Button"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:all.Link"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "t:all.Button_label",
+      "info": "t:all.Required_to_show_the_button"
+    },
+    {
+      "type": "select",
+      "id": "buttons_style",
+      "label": "t:all.button_style",
+      "default": "filled",
+      "options": [
+        {
+          "value": "filled",
+          "label": "t:all.Filled"
+        },
+        {
+          "value": "outlined",
+          "label": "t:all.Outlined"
+        },
+        {
+          "value": "underlined",
+          "label": "t:all.underlined"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "override_button_colors",
+      "label": "t:all.Button_color_override",
+      "default": false,
+      "info": "t:all.Button_color_override_info"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "t:all.Primary_color",
+      "default": "#E68819",
+      "visible_if": "{{ block.settings.override_button_colors == true }}"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "t:all.Secondary_color",
+      "default": "#ffffff",
+      "info": "t:all.Secondary_button_color_info",
+      "visible_if": "{{ block.settings.override_button_colors == true }}"
+    },
+    {
+      "type": "header",
+      "content": "t:all.Color"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "t:all.Background"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "t:all.Text"
+    }
+  ],
+  "blocks": [{"type": "_service-item"}],
+  "presets": [
+    {
+      "name": "t:blocks.service-column.name",
+      "settings": {
+        "icon": "star",
+        "title": "Service category",
+        "button_text": "View all",
+        "button_link": "\/",
+        "buttons_style": "underlined"
+      },
+      "blocks": [
+        {
+          "type": "_service-item",
+          "settings": {
+            "title": "Service name",
+            "price": "£15.00",
+            "description": "<p>Describe your service.</p>"
+          }
+        },
+        {
+          "type": "_service-item",
+          "settings": {
+            "title": "Service name",
+            "price": "£25.00",
+            "description": "<p>Describe your service.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

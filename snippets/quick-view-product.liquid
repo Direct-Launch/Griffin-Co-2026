@@ -1,0 +1,234 @@
+{% comment %}
+  Renders a stripped-down version of the product page for the quick view drawer. 
+
+  Accepts:
+  - product: The product object.
+  - section: The section object.
+
+  Usage:
+    {% render 'quick-view-product', product: product, section: section, gallery_style: style %}
+{% endcomment %}
+
+{{ 'template-product.min.css' | asset_url | stylesheet_tag }}
+
+<safe-load-scripts class="hidden">
+  <script src="{{ 'component-product-details.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="product-form-information"></script>
+</safe-load-scripts>
+
+{% liquid 
+  assign section_id = 'quick-view-product-' | append: section.id 
+  assign spacing_classes = 'product-form-block'
+  assign current_variant = product.selected_or_first_available_variant
+  assign options_block = section.blocks | where: "type", "options" | first
+  assign trust_block = section.blocks | where: "type", "trust_badges" | first
+
+  assign hide_out_of_stock_variants = options_block.settings.hide_out_of_stock_variants
+
+  assign on_sale = false
+  if current_variant.compare_at_price > current_variant.price
+    assign on_sale = true
+  endif
+
+  assign wrap_product = false
+  if settings.giftwrap_product_selector != blank
+    assign wrap_product = all_products[settings.giftwrap_product_selector]
+  endif
+
+  assign product_description_width = ''
+  assign product_image_width = ''
+
+  case section.settings.image_size
+    when 'small'
+      assign product_description_width = 'large--seven-twelfths' 
+      assign product_image_width = 'large--five-twelfths' 
+    when 'medium'
+      assign product_description_width = 'large--six-twelfths' 
+      assign product_image_width = 'large--six-twelfths' 
+    when 'large'
+      assign product_description_width = 'large--five-twelfths' 
+      assign product_image_width = 'large--seven-twelfths' 
+  endcase
+
+  comment
+    Desktop media style
+  endcomment
+  assign desktop_media_style = section.settings.image-display
+  
+  if product.media.size < 2
+    comment 
+      No thumbnails 
+    endcomment
+    assign desktop_media_style = 'grid'
+  endif
+
+  comment
+    Mobile media style
+  endcomment
+  assign mobile_media_style = section.settings.image_display_mobile
+
+  comment 
+    Check for combined listings
+  endcomment
+
+  assign is_combined_listing = false
+  for option in product.options_with_values
+    for value in option.values
+      if value.product_url != blank
+        assign is_combined_listing = true
+        break
+      endif
+    endfor
+  endfor
+
+  comment 
+    Login to order
+  endcomment
+
+  assign login_to_order = false
+
+  if settings.login_to_order and customer == blank
+    for tag in product.tags
+      assign formatted_tag = tag | downcase | replace: ' ', ''
+      if formatted_tag == 'b2b' or formatted_tag == 'wholesale'
+        assign login_to_order = true
+        break
+      endif
+    endfor
+  endif
+%}
+
+
+<div data-quick-view-product class="product-section quick-view-product">
+  <div class="product-single-wrapper">
+    <div
+      class="product-single{% if section.settings.media_position == "right" %} product-media--right{% endif %}{% if options_block.settings.variant_style == 'dropdowns' %} variant-dropdown-enabled{% else %} variant-swatches-enabled{% endif %}{% if section.settings.enable_sticky %} product-sticky-wrapper{% endif %}"
+      data-product-content-wrapper
+      data-section-id="{{ section_id }}"
+    >
+      {% liquid 
+        assign show_only_variant_media = section.settings.show_only_variant_media
+        assign media_sources = product.media | map: 'src'
+        assign variant_images = product.images | where: 'attached_to_variant?', true
+        assign variant_image_positions = variant_images | map: 'position'
+
+        if product.has_only_default_variant or variant_images.size == 0
+          assign show_only_variant_media = false
+        endif
+
+        # puts the first-image positions in ascending order
+        assign variant_first_positions = variant_image_positions | sort
+
+        # position of the variant the shopper is currently looking at
+        assign start_index = product.selected_or_first_available_variant.featured_media.position
+
+        # default: assume this variant runs right to the end of the list
+        assign end_index = product.media.size
+
+        # walk the list to find the *next* first-image position
+        for pos in variant_first_positions
+          if pos > start_index
+            assign end_index = pos | minus: 1
+            break
+          endif
+        endfor
+
+        if show_only_variant_media and variant_images.size > 0
+          assign media_sources = ''
+          for media in product.media
+            unless media.position < start_index or media.position > end_index
+              assign media_sources = media_sources | append: media.src
+            endunless
+          endfor
+        endif
+      %}
+
+      {% comment %} ============ PRODUCT MEDIA ============ {% endcomment %}
+      <div data-product-media-wrapper data-media-sources="{{ media_sources }}" class="{{ product_image_width }} context mobile--no-top-margin{% if section.settings.enable_sticky %} product-sticky{% endif %}">
+        {% comment %} ==== DESKTOP MEDIA ==== {% endcomment %}
+        {% liquid 
+          assign media_type = desktop_media_style
+          assign has_pagination = false
+          if desktop_media_style == 'paginated'
+            assign has_pagination = true
+          endif
+        %}
+
+        {% if desktop_media_style == 'grid' %}
+          {% comment %} GRID {% endcomment %} 
+          {% render 'product-media-grid', product: product, section: section, type: media_type, is_quick_view: true, onboarding: false %}
+        {% else %}
+          {% comment %} THUMBNAILS / SLIDER {% endcomment %}
+          {% render 'product-media', id: 'productMediaDesktop', product: product, section: section, device: 'desktop', type: media_type, has_pagination: has_pagination, is_quick_view: true, onboarding: false, section_id: section_id, hide_out_of_stock_variants: hide_out_of_stock_variants %}
+        {% endif %}
+
+        {% comment %} ==== MOBILE MEDIA ==== {% endcomment %}
+        {% comment %} PAGINATED / SLIDER {% endcomment %}
+        {% liquid 
+          assign media_type = mobile_media_style
+          assign has_pagination = false
+          assign peep_enabled = false
+          if mobile_media_style == 'paginated'
+            assign has_pagination = true
+          endif
+
+          if mobile_media_style == 'slider' and product.media.size > 1
+            assign peep_enabled = true
+          endif
+        %}
+
+        {% render 'product-media', id: 'productMediaMobile', product: product, section: section, device: 'mobile', type: media_type, has_pagination: has_pagination, enable_peep: peep_enabled, is_quick_view: true, section_id: section_id, hide_out_of_stock_variants: hide_out_of_stock_variants %}
+      </div>
+
+      {% comment %} ============ PRODUCT INFORMATION ============ {% endcomment %}
+      <product-details 
+        data-url="{{ product.url }}"
+        data-quick-view="true"
+        data-enable-url-update="false" 
+        data-section-id="{{ section_id }}"
+        data-original-section-id="{{ section.id }}"
+        data-is-combined-listing="{{ is_combined_listing }}"
+        data-show-only-variant-media="{{ show_only_variant_media }}"
+        data-gift-wrap-prop="{{ 'products.general.giftwrap_label' | t | escape }}"
+        class="product-form-wrapper {{ product_description_width }}{% if section.settings.enable_sticky %} product-sticky{% endif %}"
+      >
+        {%- assign product_form_id = 'quick-view-product-form-' | append: section_id | append: '-' | append: product.id -%}
+
+        {% comment %} ============ PRIMARY PRODUCT DETAILS (FIRST COLUMN) ============ {% endcomment %}
+        {% render 'product-details-primary',
+          product: product,
+          section: section,
+          current_variant: current_variant,
+          login_to_order: login_to_order,
+          on_sale: on_sale,
+          variant_compare_at_price: variant_compare_at_price,
+          hide_out_of_stock_variants: hide_out_of_stock_variants,
+          options_block: options_block,
+          trust_block: trust_block,
+          wrap_product: wrap_product,
+          full_width: true,
+          product_form_id: product_form_id,
+          section_id: section_id,
+          is_quick_view: true
+        %}
+
+        {% comment %} ============ SECONDARY PRODUCT DETAILS (SECOND COLUMN) ============ {% endcomment %}
+        {% render 'product-details-secondary',
+          product: product,
+          section: section,
+          current_variant: current_variant,
+          login_to_order: login_to_order,
+          on_sale: on_sale,
+          variant_compare_at_price: variant_compare_at_price,
+          hide_out_of_stock_variants: hide_out_of_stock_variants,
+          options_block: options_block,
+          trust_block: trust_block,
+          wrap_product: wrap_product,
+          full_width: true,
+          product_form_id: product_form_id,
+          section_id: section_id,
+          is_quick_view: true
+        %}
+      </product-details>
+    </div>
+  </div>
+</div>

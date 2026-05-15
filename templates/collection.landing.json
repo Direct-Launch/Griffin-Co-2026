@@ -1,0 +1,354 @@
+{
+  "wrapper": "div.collection-wrapper.wrapper",
+  "sections": {
+    "9b772cf1-fabe-4a84-acdd-c66fe0137ece": {
+      "type": "collage",
+      "blocks": {
+        "template--15009848393818__9b772cf1-fabe-4a84-acdd-c66fe0137ece-image-1": {
+          "type": "image",
+          "settings": {
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "{{ collection.title }}",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#262428",
+            "button_color": "#e6e5e7",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "template--15009848393818__9b772cf1-fabe-4a84-acdd-c66fe0137ece-image-1"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 0,
+        "width_1": "1",
+        "height_1": "6",
+        "width_2": "3",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "gallery_slideshow_NYBjD7": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_kFKKPW": {
+          "type": "image",
+          "settings": {
+            "link": "\/",
+            "button_label": "Shirts",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#35382e",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VHN69F": {
+          "type": "image",
+          "settings": {
+            "link": "\/",
+            "button_label": "Shirt dresses",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LyFCWq": {
+          "type": "image",
+          "settings": {
+            "link": "\/",
+            "button_label": "Flower girl dresses",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_QU6LnF": {
+          "type": "image",
+          "settings": {
+            "link": "\/",
+            "button_label": "Camisoles",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MaNP8U": {
+          "type": "image",
+          "settings": {
+            "link": "\/",
+            "button_label": "Shorts",
+            "subheading": "",
+            "title": "",
+            "text_color": "#35382e",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_RLWiAf": {
+          "type": "image",
+          "settings": {
+            "link": "\/",
+            "button_label": "Robes",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_h6z9Vt": {
+          "type": "image",
+          "settings": {
+            "link": "\/",
+            "button_label": "Accessories",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yTge6G": {
+          "type": "image",
+          "settings": {
+            "link": "\/",
+            "button_label": "Gift card",
+            "subheading": "",
+            "title": "",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_kFKKPW",
+        "image_VHN69F",
+        "image_LyFCWq",
+        "image_QU6LnF",
+        "image_MaNP8U",
+        "image_RLWiAf",
+        "image_h6z9Vt",
+        "image_yTge6G"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "image_shape": "tall",
+        "layout_style_desktop": "grid",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 4,
+        "text_position_desktop": "bottom_center",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "2",
+        "text_position_mobile": "bottom_center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 6,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "product-grid": {
+      "type": "template--collection",
+      "settings": {
+        "products-per-page": 4,
+        "desktop-products-per-row": 4,
+        "mobile-products-per-row": "2",
+        "pagination_options": "pagination_infinite_scrolling",
+        "desktop_position": "topbar",
+        "enable_sorting": true,
+        "enable_filtering": true,
+        "enable_collection_title": false,
+        "enable_collection_description": false,
+        "show_swatch_filter_labels": true,
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false
+      }
+    },
+    "f49bf5c4-f964-411b-abe8-ca29dd994b1a": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "template--15009848393818__f49bf5c4-f964-411b-abe8-ca29dd994b1a-image_and_text-1": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "COMMITMENT TO SUSTAINABILITY",
+            "text": "<p>We meticulously select eco-friendly materials, and work with ethical production partners.<\/p>",
+            "button_link": "\/",
+            "button_text": "LEARN MORE"
+          }
+        },
+        "b44a2054-f6ba-4b8b-8270-eda7a82b9bbe": {
+          "type": "video_and_text",
+          "settings": {
+            "video_alt_text": "",
+            "grid_video_size": "square",
+            "heading": "DESIGN AND FABRIC",
+            "text": "<p>High quality and comfortable to wear for extended periods of time. Including silk, satin, or lace to provide a luxurious look.<\/p>",
+            "button_link": "\/",
+            "button_text": "LEARN MORE"
+          }
+        },
+        "6ee28d48-cfa2-4986-bb57-9ba3f1bdb751": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "CUSTOM EMBROIDERY",
+            "text": "<p>We offer custom embroidery on our robes, shirt dresses and shirts. Add a touch of sophistication and glamour to your item.<\/p>",
+            "button_link": "\/",
+            "button_text": "SHOP NOW"
+          }
+        },
+        "c47dddc0-826d-411b-8509-e7108bbc6d5f": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "SIZING",
+            "text": "<p>We love our loungewear relaxed and generous fitting. We offer a range of sizes to fit every body type.<\/p>",
+            "button_link": "\/",
+            "button_text": "LEARN MORE"
+          }
+        }
+      },
+      "block_order": [
+        "template--15009848393818__f49bf5c4-f964-411b-abe8-ca29dd994b1a-image_and_text-1",
+        "b44a2054-f6ba-4b8b-8270-eda7a82b9bbe",
+        "6ee28d48-cfa2-4986-bb57-9ba3f1bdb751",
+        "c47dddc0-826d-411b-8509-e7108bbc6d5f"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "0198ff04-9e37-4c87-bf0b-f9a35bfd4e95": {
+      "type": "interactive-menu",
+      "blocks": {
+        "template--15009848393818__0198ff04-9e37-4c87-bf0b-f9a35bfd4e95-menu_item-2": {
+          "type": "menu_item",
+          "settings": {
+            "menu_item_text": "THE ADELINE",
+            "menu_item_link": "\/",
+            "menu_item_color": "#ffffff"
+          }
+        },
+        "template--15009848393818__0198ff04-9e37-4c87-bf0b-f9a35bfd4e95-menu_item-1": {
+          "type": "menu_item",
+          "settings": {
+            "menu_item_text": "THE ANOUK",
+            "menu_item_link": "\/",
+            "menu_item_color": "#ffffff"
+          }
+        },
+        "template--15009848393818__0198ff04-9e37-4c87-bf0b-f9a35bfd4e95-menu_item-3": {
+          "type": "menu_item",
+          "settings": {
+            "menu_item_text": "THE OPHELIA",
+            "menu_item_link": "\/",
+            "menu_item_color": "#ffffff"
+          }
+        },
+        "e04152ab-5548-463f-ba5b-e51275e11ddd": {
+          "type": "menu_item",
+          "settings": {
+            "menu_item_text": "THE ISABELLE",
+            "menu_item_link": "\/",
+            "menu_item_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "template--15009848393818__0198ff04-9e37-4c87-bf0b-f9a35bfd4e95-menu_item-2",
+        "template--15009848393818__0198ff04-9e37-4c87-bf0b-f9a35bfd4e95-menu_item-1",
+        "template--15009848393818__0198ff04-9e37-4c87-bf0b-f9a35bfd4e95-menu_item-3",
+        "e04152ab-5548-463f-ba5b-e51275e11ddd"
+      ],
+      "settings": {
+        "min_height": "40vw",
+        "alignment_desktop": "center",
+        "menu_position": "center",
+        "alignment_mobile": "center",
+        "menu_item_size": "h3",
+        "menu_item_size_mobile": "h3-mobile",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "menu_items_color": "#ffffff",
+        "colors": "dark"
+      }
+    }
+  },
+  "order": [
+    "9b772cf1-fabe-4a84-acdd-c66fe0137ece",
+    "gallery_slideshow_NYBjD7",
+    "product-grid",
+    "f49bf5c4-f964-411b-abe8-ca29dd994b1a",
+    "0198ff04-9e37-4c87-bf0b-f9a35bfd4e95"
+  ]
+}

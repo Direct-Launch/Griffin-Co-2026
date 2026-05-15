@@ -1,0 +1,60 @@
+{%- liquid
+  comment
+    Private theme block for service list items
+    Only available as nested block in service-column
+  endcomment
+-%}
+
+{% if block.settings.title != blank or block.settings.price != blank or block.settings.description != blank %}
+  <div class="service-list__item" {{ block.shopify_attributes }}>
+    <div class="service-list__item-content">
+      {% if block.settings.title != blank or block.settings.price != blank %}
+        <div class="service-list__item-header">
+          {% if block.settings.title != blank or block.settings.price != blank %}
+            <div class="service-list__item-title">{{ block.settings.title }}</div>
+          {% endif %}
+          {% if block.settings.price != blank %}
+            <div class="service-list__item-price">{{ block.settings.price }}</div>
+          {% endif %}
+        </div>
+      {% endif %}
+      
+      {% if block.settings.description != blank %}
+        <div class="service-list__item-description rte">{{ block.settings.description }}</div>
+      {% endif %}
+    </div>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "t:blocks.service-item.name",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "t:all.Title",
+      "default": "Service name"
+    },
+    {
+      "type": "text",
+      "id": "price",
+      "label": "t:all.Price",
+      "default": "£4.99"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "t:all.Description",
+      "default": "<p>Describe your service.</p>"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:blocks.service-item.name",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}

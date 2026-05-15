@@ -1,0 +1,341 @@
+{{ 'section-announcement-bar.min.css' | asset_url | stylesheet_tag }}
+
+{%- if section.blocks.size > 0 -%}
+  <safe-load-scripts class="hidden">
+    <script src="{{ 'component-announcement-bar.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="component-announcement-bar"></script>
+  </safe-load-scripts>
+
+  {% liquid 
+    assign announcement_text_color = 'rgba(' | append: section.settings.text_color.rgba | append: ')'
+    assign announcement_text_color_transparent50 = 'color-mix(in srgb, ' | append: announcement_text_color | append: ', transparent 50%)'
+  %}
+
+  {%- style -%}
+    #shopify-section-{{ section.id }} .announcement_bar {
+      {%- if section.settings.background_color != blank -%}
+        --announcement-bar-background: {{ section.settings.background_color }};
+      {%- endif -%}
+      {%- if section.settings.text_color != blank -%}
+        --announcement-bar-text: {{ section.settings.text_color }};
+      {%- endif -%}
+    }
+
+    .announcement_bar__item.text-link-animated a {
+      color: {{ announcement_text_color }};
+      background: linear-gradient(to top, {{ announcement_text_color_transparent50 }} 0, {{ announcement_text_color_transparent50 }} 0), linear-gradient(to top, currentColor 0, currentColor 0);
+      background-size: 100% 1px, 0 1px;
+      background-position: 100% 100%, 0 100%;
+      background-repeat: no-repeat;
+    }
+
+    .announcement_bar__item.text-link-animated a:hover {
+      background-size: 0 1px, 100% 1px;
+    }
+  {%- endstyle -%}
+
+  <announcement-bar class="announcement_bar wrapper-spacing--h{% if section.blocks.size > 1 %} has-multiple-slides{% endif %}" data-wetheme-section-type="announcement-bar" data-wetheme-section-id="{{ section.id }}" data-section-id="{{ section.id }}" data-auto-scroll-speed="{{ section.settings.auto_scroll_speed }}">
+    <div class="splide" aria-label="{{ 'sections.announcement-bar.name' | t }}">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {%- for block in section.blocks -%}
+            <li class="splide__slide announcement_bar__item text-link-animated" data-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+              {%- if block.settings.icon != 'none' or block.settings.custom_icon != blank -%}
+                <span class="announcement_bar__item__icon icon-{{ block.settings.icon }}">
+                  {%- if block.settings.custom_icon -%}
+                    <img src="{{ block.settings.custom_icon | image_url: width: 20 }}" alt="" loading="lazy">
+                  {%- else -%}
+                    {%- render 'theme-icon', icon: block.settings.icon -%}
+                  {%- endif -%}
+                </span>
+              {%- endif -%}
+              {{ block.settings.announcement_text }}
+            </li>
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  </announcement-bar>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "t:sections.announcement-bar.name",
+  "settings": [
+    {
+      "type": "range",
+      "id": "auto_scroll_speed",
+      "label": "t:sections.announcement-bar.settings.auto_scroll_speed.label",
+      "min": 0.1,
+      "max": 2,
+      "step": 0.1,
+      "default": 0.5
+    },
+    {
+      "type": "header",
+      "content": "t:all.Color"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "t:all.Background_color",
+      "default": "#404040"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "t:all.Text_color",
+      "default": "#F8F8F8"
+    }
+  ],
+    "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "t:all.Icon",
+          "default": "none",
+          "options": [
+            {
+              "value": "none",
+              "label": "t:all.None"
+            },
+            {
+              "value": "arrow-right-circle",
+              "label": "t:all.Arrow_circle"
+            },
+            {
+              "value": "book",
+              "label": "t:all.Book"
+            },
+            {
+              "value": "cake",
+              "label": "t:all.Cake"
+            },
+            {
+              "value": "car",
+              "label": "t:all.Car"
+            },
+            {
+              "value": "multi-bubble",
+              "label": "t:all.Chat"
+            },
+            {
+              "value": "chat",
+              "label": "t:all.Chat_bubble"
+            },
+            {
+              "value": "chat-smile",
+              "label": "t:all.Chat_bubble_with_smile"
+            },
+            {
+              "value": "check-circle",
+              "label": "t:all.Check_circle"
+            },
+            {
+              "value": "clock",
+              "label": "t:all.Clock"
+            },
+            {
+              "value": "xmark-circle",
+              "label": "t:all.Cross"
+            },
+            {
+              "value": "crown",
+              "label": "t:all.Crown"
+            },
+            {
+              "value": "cup",
+              "label": "t:all.Cup"
+            },
+            {
+              "value": "service",
+              "label": "t:all.Customer_service"
+            },
+            {
+              "value": "delivery-truck",
+              "label": "t:all.Delivery"
+            },
+            {
+              "value": "leaf",
+              "label": "t:all.Eco"
+            },
+            {
+              "value": "mail",
+              "label": "t:all.Email"
+            },
+            {
+              "value": "exchange",
+              "label": "t:all.Exchange"
+            },
+            {
+              "value": "fire-flame",
+              "label": "t:all.Fire"
+            },
+            {
+              "value": "flag",
+              "label": "t:all.Flag"
+            },
+            {
+              "value": "gift",
+              "label": "t:all.Gift"
+            },
+            {
+              "value": "globe",
+              "label": "t:all.Globe"
+            },
+            {
+              "value": "handbag",
+              "label": "t:all.Handbag"
+            },
+            {
+              "value": "heart",
+              "label": "t:all.Heart"
+            },
+            {
+              "value": "help-circle",
+              "label": "t:all.Help_circle"
+            },
+            {
+              "value": "home-smile",
+              "label": "t:all.Home_with_smile"
+            },
+            {
+              "value": "info",
+              "label": "t:all.Info"
+            },
+            {
+              "value": "map-pin",
+              "label": "t:all.Map_pin"
+            },
+            {
+              "value": "measuring_tape",
+              "label": "t:all.Measuring_tape"
+            },
+            {
+              "value": "moon",
+              "label": "t:all.Moon"
+            },
+            {
+              "value": "phone",
+              "label": "t:all.Phone"
+            },
+            {
+              "value": "plus-circle",
+              "label": "t:all.Plus_circle"
+            },
+            {
+              "value": "price-tag",
+              "label": "t:all.Price_tag"
+            },
+            {
+              "value": "question-answer",
+              "label": "t:all.Question_and_answer"
+            },
+            {
+              "value": "quote",
+              "label": "t:all.Quote"
+            },
+            {
+              "value": "recycle",
+              "label": "t:all.Recycle"
+            },
+            {
+              "value": "restaurant",
+              "label": "t:all.Restaurant"
+            },
+            {
+              "value": "emoji",
+              "label": "t:all.Smiley"
+            },
+            {
+              "value": "sparks",
+              "label": "t:all.Sparks"
+            },
+            {
+              "value": "star",
+              "label": "t:all.Star"
+            },
+            {
+              "value": "store",
+              "label": "t:all.Store"
+            },
+            {
+              "value": "sun",
+              "label": "t:all.Sun"
+            },
+            {
+              "value": "takeaway",
+              "label": "t:all.Takeaway"
+            },
+            {
+              "value": "trophy",
+              "label": "t:all.Trophy"
+            },
+            {
+              "value": "truck",
+              "label": "t:all.Truck"
+            },
+            {
+              "value": "umbrella",
+              "label": "t:all.Umbrella"
+            },
+            {
+              "value": "wallet",
+              "label": "t:all.Wallet"
+            },
+            {
+              "value": "warning-circle",
+              "label": "t:all.Warning_circle"
+            }
+          ]
+        },
+        {
+          "type": "image_picker",
+          "id": "custom_icon",
+          "label": "t:all.Custom_icon",
+          "info": "t:all.Aspect_ratio_of_1_1_recommended"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "announcement_text",
+          "label": "t:all.Text",
+          "default": "Announce something here"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.announcement-bar.presets.name",
+      "blocks": [
+        {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Announce something here"
+          }
+        },
+        {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Promote a collection"
+          }
+        },
+        {
+          "type": "announcement",
+          "settings": {
+            "announcement_text": "Sale now on"
+          }
+        }
+      ]
+    }
+  ],
+  "enabled_on": {
+    "groups": [
+      "header"
+    ]
+  }
+}
+{% endschema %}

@@ -1,0 +1,18 @@
+{
+  "sections": {
+    "main": {
+      "type": "template--collections-list",
+      "settings": {
+        "banner-image-size": "20vh",
+        "parallax": true,
+        "show_options": "all",
+        "selected_collections": [],
+        "layout": "grid",
+        "items_per_row": 4
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "sections": {
+    "image_with_text_slideshow_bmzrQP": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "image_and_text_hkVpDR": {
+          "type": "image_and_text",
+          "settings": {
+            "subheading": "FEATURED",
+            "heading": "How to Choose a Wedding Ring",
+            "text": "<p>So you have the engagement ring of your dreams and now you’ve embarked on the journey of planning your big day.<\/p>",
+            "page": "",
+            "slide_link": "\/",
+            "first_button_link": "\/",
+            "first_button_label": "Read more",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "underlined",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "left",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "#e6e6e4"
+          }
+        },
+        "image_and_text_qeJ9Ab": {
+          "type": "image_and_text",
+          "settings": {
+            "subheading": "FEATURED",
+            "heading": "The Gemstones and Metals You Should Avoid for Your Engagement Ring",
+            "text": "<p>Creating the perfect engagement ring is an exciting journey, and our years of experience help you get the perfect ring for you.<\/p>",
+            "page": "",
+            "slide_link": "\/",
+            "first_button_link": "",
+            "first_button_label": "Read more",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "underlined",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "left",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "#e6e6e4"
+          }
+        },
+        "image_and_text_hnV9J4": {
+          "type": "image_and_text",
+          "settings": {
+            "subheading": "FEATURED",
+            "heading": "What Is a Placeholder Ring and Why You Might Need One",
+            "text": "<p>If you're searching for the perfect engagement ring and have come across the idea of a placeholder ring.<\/p>",
+            "page": "",
+            "slide_link": "\/",
+            "first_button_link": "",
+            "first_button_label": "Read more",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "underlined",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "left",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "#e6e6e4"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_hkVpDR",
+        "image_and_text_qeJ9Ab",
+        "image_and_text_hnV9J4"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "heading_font_size_desktop": "h4",
+        "text_font_size_desktop": 100,
+        "heading_font_size_mobile": "h4-mobile",
+        "text_font_size_mobile": 100,
+        "image_size": "medium",
+        "image_shape": "wide",
+        "hover_navigation_desktop": "right",
+        "section_width": "full-width",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white",
+        "override_navigation_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "blog_header_zqNdpU": {
+      "type": "blog-header",
+      "settings": {
+        "heading_font_size": "h3",
+        "heading_font_size_mobile": "h3-mobile",
+        "section_padding_top": 60,
+        "section_padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "template--blog",
+      "settings": {
+        "show_image": true,
+        "image_shape": "natural",
+        "show_tags": true,
+        "blog_show_date": true,
+        "show_author_name": false,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h5-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "show_sidebar": true,
+        "show_sidebar_newsletter": true,
+        "newsletter_heading": "<h4>Sign up for more<\/h4>",
+        "newsletter_description": "<p>Keep uptodate with the latest ring inspiration.<\/p>",
+        "newsletter_color_scheme": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_recent_posts": true,
+        "show_popular_articles_image": true,
+        "image_aspect_ratio": "wide",
+        "show_sidebar_dates": true,
+        "popular_article_1": "",
+        "popular_article_2": "",
+        "sidebar_image_shape": "original",
+        "blog-sidebar-link": "",
+        "blog-sidebar-description": "",
+        "show_blog_tags": true,
+        "show_social_icons": true,
+        "posts_to_show": 9,
+        "posts_per_row": 3
+      }
+    }
+  },
+  "order": [
+    "image_with_text_slideshow_bmzrQP",
+    "blog_header_zqNdpU",
+    "main"
+  ]
+}
