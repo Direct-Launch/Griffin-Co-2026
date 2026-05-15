@@ -68,7 +68,7 @@
         "desktop-products-per-row": 4,
         "mobile-products-per-row": "1",
         "pagination_options": "pagination_default",
-        "desktop_position": "sidebar",
+        "desktop_position": "topbar",
         "enable_sorting": true,
         "enable_filtering": true,
         "enable_collection_title": false,
@@ -87,6 +87,32 @@
         "highlight_collapsible_tab": true,
         "highlight_open_close_icon": "plus_minus",
         "highlight_button_borders": false
+      }
+    },
+    "image_with_text_TNiGrG": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "layout": "left",
+        "title": "Image with text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
       }
     },
     "rich_text_6VeUNi": {
@@ -127,6 +153,7 @@
     "collection-header-spotlight",
     "image_with_text_JUyzah",
     "product-grid",
+    "image_with_text_TNiGrG",
     "rich_text_6VeUNi"
   ]
 }
