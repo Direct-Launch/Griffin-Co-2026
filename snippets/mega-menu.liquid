@@ -1,138 +1,185 @@
 {% comment %}
-  Renders a mega menu or a standard dropdown.
   Accepts:
-  - link: {Object} The current top-level Link object.
-  - blocks: {Array} The section.blocks from the header.
+    - mega_menu_block: The mega menu block object (required)
+    - link: The navigation link object (required)
+
+  Usage:
+    {% render 'mega-menu', mega_menu_block: mega-menu-block, link: link %}
 {% endcomment %}
 
-{%- liquid
-  assign has_mega_menu = false
-  assign promo_block = null
-  assign current_title = link.title | downcase | strip
+{% liquid
+  assign block = mega_menu_block
 
-  for block in blocks
-    if block.type == 'mega_menu'
-      assign target_title = block.settings.menu_item | downcase | strip
-      if target_title == current_title
-        assign has_mega_menu = true
-        assign promo_block = block
-        break
-      endif
+  assign promo_count = 0
+  if block.settings.mega_image_1 != blank
+    assign promo_count = promo_count | plus: 1
+  endif
+  if block.settings.mega_image_2 != blank
+    assign promo_count = promo_count | plus: 1
+  endif
+  if block.settings.mega_image_3 != blank
+    assign promo_count = promo_count | plus: 1
+  endif
+  if block.settings.mega_image_4 != blank
+    assign promo_count = promo_count | plus: 1
+  endif
+  if block.settings.mega_image_5 != blank
+    assign promo_count = promo_count | plus: 1
+  endif
+
+  assign block_grid_cols = '1fr'
+  assign links_grid_cols = 'repeat(5, 1fr)'
+
+  if link.links.size > 0 and promo_count >= 2
+    assign block_grid_cols = '1fr 1fr'
+    if promo_count > 2
+      assign block_grid_cols = '1fr 1.5fr'
     endif
-  endfor
--%}
+    assign links_grid_cols = 'repeat(3, 1fr)'
+  elsif link.links.size > 0 and promo_count == 1
+    assign block_grid_cols = '2fr 1fr'
+    assign links_grid_cols = 'repeat(4, 1fr)'
+  elsif link.links.size == 0 and promo_count > 0
+    assign block_grid_cols = 'repeat(5, 1fr)'
+  endif
+%}
 
-{% if link.links != blank %}
-  {% if has_mega_menu %}
-    <!-- Mega Menu Panel -->
-    <div class="mega-menu absolute top-full left-0 w-full bg-white border-t border-b border-gray-200 shadow-xl opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-      <div class="container mx-auto px-6 py-10 max-w-[1400px]">
-        <div class="flex flex-col lg:flex-row gap-12">
-          
-          <!-- Left: Link Columns -->
-          <div class="flex-grow grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-            {% for childlink in link.links %}
-              <div class="mega-menu__column">
-                
+{% style %}
+  [data-mega-menu-block-id="{{ block.id }}"] {
+    grid-template-columns: {{ block_grid_cols }};
+  }
+
+  [data-mega-menu-block-id="{{ block.id }}"] .mega-menu--links {
+    grid-template-columns: {{ links_grid_cols }};
+  }
+
+  [data-mega-menu-block-id="{{ block.id }}"] .mega-menu--promos {
+    display: grid;
+    grid-template-columns: repeat({{ promo_count | at_least: 1 }}, 1fr);
+    gap: 20px;
+  }
+
+  {% for i in (1..5) %}
+    {% assign color_key = 'overlay_text_color_promo_' | append: i %}
+    .mega-menu-block .block-id-{{ block.id }} .overlay-text-on-image-promo-{{ i }},
+    .mega-menu-block .block-id-{{ block.id }} .overlay-text-on-image-promo-{{ i }} a:hover {
+      color: rgba({{ block.settings[color_key].rgba }}) !important;
+    }
+  {% endfor %}
+
+  .mega-menu-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    vertical-align: middle;
+    margin-right: 8px;
+  }
+  
+  .mega-menu-icon-small {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+  }
+
+  .mega-menu-link-with-icon {
+    display: inline-flex;
+    align-items: center;
+  }
+{% endstyle %}
+
+<div class="mega-menu-block{% if link.links.size == 0 and promo_count == 0 %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}" data-mega-menu-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+  {% if link.links.size == 0 %}
+    {% if promo_count == 0 %}
+      <p class="mega-menu--empty" {% unless request.design_mode %}style="visibility:hidden;"{% endunless %}>
+        {{ 'layout.header.mega_menu_empty' | t }}
+      </p>
+    {% endif %}
+  {% endif %}
+
+  {% if link.links.size > 0 %}
+    <div class="mega-menu--links">
+      {% for sub_link in link.links %}
+        {%- liquid
+          assign sub_icon_url = blank
+          assign sub_title_down = sub_link.title | downcase | strip
+          for icon_block in section.blocks
+            if icon_block.type == 'menu_icon'
+              assign target_down = icon_block.settings.title | downcase | strip
+              if target_down == sub_title_down
+                assign sub_icon_url = icon_block.settings.icon | image_url: width: 48
+              endif
+            endif
+          endfor
+        -%}
+        <li class="dropdown-submenu nav-link-animated--custom" aria-haspopup="true">
+          <div class="inner">
+            <p class="h4 mega-menu-link--title">
+              <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_link.url }}">
+                {% if sub_icon_url != blank %}
+                  <img src="{{ sub_icon_url }}" alt="" class="mega-menu-icon" loading="lazy">
+                {% endif %}
+                {{ sub_link.title | escape }}
+              </a>
+            </p>
+            <ul class="menu-link">
+              {% for sub_sub_link in sub_link.links %}
                 {%- liquid
-                  assign child_icon = null
-                  assign child_title = childlink.title | downcase | strip
-                  for block in blocks
-                    if block.type == 'menu_icon'
-                      assign icon_target = block.settings.link_title | downcase | strip
-                      if icon_target == child_title
-                        assign child_icon = block.settings.icon_image
-                        break
+                  assign sub_sub_icon_url = blank
+                  assign sub_sub_title_down = sub_sub_link.title | downcase | strip
+                  for icon_block in section.blocks
+                    if icon_block.type == 'menu_icon'
+                      assign target_down = icon_block.settings.title | downcase | strip
+                      if target_down == sub_sub_title_down
+                        assign sub_sub_icon_url = icon_block.settings.icon | image_url: width: 40
                       endif
                     endif
                   endfor
                 -%}
-                
-                <!-- Level 2 Link -->
-                <a href="{{ childlink.url }}" class="flex items-center gap-3 font-semibold text-gray-900 uppercase tracking-widest text-xs mb-5 hover:text-gray-500 transition">
-                  {% if child_icon != blank %}
-                    <img src="{{ child_icon | image_url: width: 40 }}" alt="" class="w-6 h-6 object-contain" loading="lazy">
-                  {% endif %}
-                  {{ childlink.title | escape }}
-                </a>
-                
-                <!-- Level 3 Links -->
-                {% if childlink.links != blank %}
-                  <ul class="space-y-4">
-                    {% for grandchildlink in childlink.links %}
-                      {%- liquid
-                        assign grandchild_icon = null
-                        assign grandchild_title = grandchildlink.title | downcase | strip
-                        for block in blocks
-                          if block.type == 'menu_icon'
-                            assign icon_target = block.settings.link_title | downcase | strip
-                            if icon_target == grandchild_title
-                              assign grandchild_icon = block.settings.icon_image
-                              break
-                            endif
-                          endif
-                        endfor
-                      -%}
-                      <li>
-                        <a href="{{ grandchildlink.url }}" class="flex items-center gap-3 text-gray-600 hover:text-gray-900 transition text-sm">
-                          {% if grandchild_icon != blank %}
-                            <img src="{{ grandchild_icon | image_url: width: 40 }}" alt="" class="w-5 h-5 object-contain" loading="lazy">
-                          {% endif %}
-                          {{ grandchildlink.title | escape }}
-                        </a>
-                      </li>
-                    {% endfor %}
-                  </ul>
-                {% endif %}
-
-              </div>
-            {% endfor %}
+                <li>
+                  <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_sub_link.url }}">
+                    {% if sub_sub_icon_url != blank %}
+                      <img src="{{ sub_sub_icon_url }}" alt="" class="mega-menu-icon mega-menu-icon-small" loading="lazy">
+                    {% endif %}
+                    {{ sub_sub_link.title | escape }}
+                  </a>
+                </li>
+              {% endfor %}
+            </ul>
           </div>
-
-          <!-- Right: Promotions Panel (Up to 5) -->
-          <div class="flex-shrink-0 lg:max-w-[50%] flex gap-6 overflow-x-auto pb-4 lg:pb-0 scrollbar-hide">
-            {% for i in (1..5) %}
-              {% assign img_key = 'promo_' | append: i | append: '_image' %}
-              {% assign heading_key = 'promo_' | append: i | append: '_heading' %}
-              {% assign text_key = 'promo_' | append: i | append: '_text' %}
-              {% assign link_key = 'promo_' | append: i | append: '_link' %}
-              
-              {% assign promo_img = promo_block.settings[img_key] %}
-              {% assign promo_heading = promo_block.settings[heading_key] %}
-              {% assign promo_text = promo_block.settings[text_key] %}
-              {% assign promo_link = promo_block.settings[link_key] %}
-              
-              {% if promo_img != blank or promo_heading != blank %}
-                <a href="{{ promo_link | default: '#' }}" class="group block w-48 lg:w-56 flex-shrink-0">
-                  {% if promo_img != blank %}
-                    <div class="aspect-[4/5] bg-gray-100 rounded-sm overflow-hidden mb-4">
-                      <img src="{{ promo_img | image_url: width: 500 }}" alt="{{ promo_img.alt | escape }}" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" loading="lazy">
-                    </div>
-                  {% endif %}
-                  {% if promo_heading != blank %}
-                    <h4 class="font-medium text-sm text-gray-900 group-hover:underline mb-1">{{ promo_heading | escape }}</h4>
-                  {% endif %}
-                  {% if promo_text != blank %}
-                    <p class="text-xs text-gray-500 leading-relaxed">{{ promo_text | escape }}</p>
-                  {% endif %}
-                </a>
-              {% endif %}
-            {% endfor %}
-          </div>
-
-        </div>
-      </div>
-    </div>
-  {% else %}
-    <!-- Standard Dropdown (If no mega menu block targets this link) -->
-    <ul class="absolute top-full left-0 min-w-[220px] bg-white border border-gray-100 shadow-lg py-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-      {% for childlink in link.links %}
-        <li>
-          <a href="{{ childlink.url }}" class="block px-6 py-2.5 text-sm text-gray-600 hover:text-gray-900 hover:bg-gray-50 transition">
-            {{ childlink.title | escape }}
-          </a>
         </li>
       {% endfor %}
-    </ul>
+    </div>
   {% endif %}
-{% endif %}
+
+  {% if promo_count > 0 %}
+    <div class="mega-menu--promos">
+      {% for i in (1..5) %}
+        {% assign mega_image_key = 'mega_image_' | append: i %}
+        {% assign aspect_ratio_key = 'image_' | append: i | append: '_aspect_ratio' %}
+        {% assign overlay_text_key = 'overlay_text_on_image_promo_' | append: i %}
+        {% assign header_key = 'mega_image_header_' | append: i %}
+        {% assign subheader_key = 'mega_image_subheader_' | append: i %}
+        {% assign text_color_key = 'overlay_text_color_promo_' | append: i %}
+        {% assign link_key = 'mega_image_link_' | append: i %}
+
+        {% if block.settings[mega_image_key] != blank %}
+          <div>
+            {% render 'mega-menu-promo-card', 
+              promo_wrapper_classes: "dropdown-submenu",
+              promo_block_id: block.id,
+              promo_wrapper_attr: "aria-haspopup='true'",
+              promo_img: block.settings[mega_image_key],
+              promo_img_crop: block.settings[aspect_ratio_key],
+              promo_text_overlay: block.settings[overlay_text_key],
+              promo_text_heading: block.settings[header_key],
+              promo_text_subheading: block.settings[subheader_key],
+              promo_text_color: block.settings[text_color_key],
+              promo_link: block.settings[link_key]
+            %}
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
