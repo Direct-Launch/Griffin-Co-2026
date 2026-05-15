@@ -39,6 +39,7 @@
           "name": "Engagement Rings - Mega menu",
           "settings": {
             "mega-menu": "Engagement Rings",
+            "show_mega_menu_links_desktop": true,
             "show_mega_menu_links_mobile": true,
             "show_mega_menu_promos_mobile": true,
             "mega_image_1": "shopify://shop_images/Bespoke_Designs_Landscape.png",
@@ -203,6 +204,7 @@
           "name": "Wedding Rings - Mega menu",
           "settings": {
             "mega-menu": "Wedding Rings",
+            "show_mega_menu_links_desktop": true,
             "show_mega_menu_links_mobile": true,
             "show_mega_menu_promos_mobile": true,
             "mega_image_1": "shopify://shop_images/Men_s_Wedding_Bands.jpg",
@@ -243,11 +245,40 @@
             "overlay_text_color_promo_5": "#ffffff"
           }
         },
+        "menu_icon_Pth3pg": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Classic Wedding Bands",
+            "icon": "shopify://shop_images/d-shape-wedding-band-ebony-jewellery-466225.jpg"
+          }
+        },
+        "menu_icon_i8Rbjw": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Diamond Set Bands",
+            "icon": "shopify://shop_images/w224_ah.jpg"
+          }
+        },
+        "menu_icon_eMmctf": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Shaped & Contour Rings",
+            "icon": "shopify://shop_images/SR5519_LG-YG_9_WG_0.jpg"
+          }
+        },
+        "menu_icon_ykzM7x": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Eternity Rings",
+            "icon": "shopify://shop_images/w220_ah.jpg"
+          }
+        },
         "content_FHykMA": {
           "type": "content",
           "name": "Bespoke - Mega menu",
           "settings": {
             "mega-menu": "Bespoke",
+            "show_mega_menu_links_desktop": true,
             "show_mega_menu_links_mobile": true,
             "show_mega_menu_promos_mobile": false,
             "mega_image_1": "shopify://shop_images/Engagement_Rings_17.webp",
@@ -296,6 +327,7 @@
           "name": "Services - Mega menu",
           "settings": {
             "mega-menu": "Services",
+            "show_mega_menu_links_desktop": true,
             "show_mega_menu_links_mobile": true,
             "show_mega_menu_promos_mobile": true,
             "mega_image_1": "shopify://shop_images/Our_Remodelling_Process.png",
@@ -345,6 +377,7 @@
           "name": "Jewellery - Mega menu",
           "settings": {
             "mega-menu": "Jewellery",
+            "show_mega_menu_links_desktop": true,
             "show_mega_menu_links_mobile": true,
             "show_mega_menu_promos_mobile": true,
             "mega_image_1": "shopify://shop_images/Diamond_Jewellery.png",
@@ -390,6 +423,7 @@
           "name": "About - Mega menu",
           "settings": {
             "mega-menu": "About Us",
+            "show_mega_menu_links_desktop": true,
             "show_mega_menu_links_mobile": true,
             "show_mega_menu_promos_mobile": true,
             "mega_image_1": "shopify://shop_images/Our_Showroom_Header.png",
@@ -451,6 +485,10 @@
         "menu_icon_DDyzNW",
         "menu_icon_epzQ8w",
         "content_fEtH3D",
+        "menu_icon_Pth3pg",
+        "menu_icon_i8Rbjw",
+        "menu_icon_eMmctf",
+        "menu_icon_ykzM7x",
         "content_FHykMA",
         "content_Y6HWL9",
         "content_qFcwEJ",
