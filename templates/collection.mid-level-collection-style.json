@@ -432,6 +432,7 @@
         "accordion_pdCHqy",
         "accordion_XpXya3"
       ],
+      "disabled": true,
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
         "section_title": "Discover Our Exquisite {{ collection.title }}",
@@ -689,8 +690,8 @@
     "1778864481e2fbb2e6",
     "template_product_recently_viewed_pj3jzT",
     "faq_with_image_GTcyqy",
+    "image_with_text_overlay_UC8XAh",
     "17788657635f2a3767",
-    "faq_kqyrJn",
-    "image_with_text_overlay_UC8XAh"
+    "faq_kqyrJn"
   ]
 }
