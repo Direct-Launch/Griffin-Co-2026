@@ -325,7 +325,7 @@
           "name": "Services - Mega menu",
           "settings": {
             "mega-menu": "Services",
-            "show_mega_menu_links_desktop": true,
+            "show_mega_menu_links_desktop": false,
             "show_mega_menu_links_mobile": true,
             "show_mega_menu_promos_mobile": true,
             "mega_image_1": "shopify://shop_images/Our_Remodelling_Process.png",
