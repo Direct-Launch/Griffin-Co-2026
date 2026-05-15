@@ -36,6 +36,7 @@
       "blocks": {
         "content_z7qXaR": {
           "type": "content",
+          "name": "Engagement Rings - Mega menu",
           "settings": {
             "mega-menu": "Engagement Rings",
             "show_mega_menu_links_mobile": true,
@@ -150,6 +151,7 @@
         },
         "content_fEtH3D": {
           "type": "content",
+          "name": "Wedding Rings - Mega menu",
           "settings": {
             "mega-menu": "Wedding Rings",
             "show_mega_menu_links_mobile": true,
@@ -192,52 +194,9 @@
             "overlay_text_color_promo_5": "#ffffff"
           }
         },
-        "content_qFcwEJ": {
-          "type": "content",
-          "settings": {
-            "mega-menu": "Jewellery",
-            "show_mega_menu_links_mobile": true,
-            "show_mega_menu_promos_mobile": true,
-            "mega_image_1": "shopify://shop_images/Diamond_Jewellery.png",
-            "image_1_aspect_ratio": "natural",
-            "mega_image_link_1": "",
-            "mega_image_header_1": "",
-            "mega_image_subheader_1": "",
-            "show_promo_1_in_mobile_drawer": true,
-            "overlay_text_on_image_promo_1": true,
-            "overlay_text_color_promo_1": "#ffffff",
-            "image_2_aspect_ratio": "square",
-            "mega_image_link_2": "",
-            "mega_image_header_2": "",
-            "mega_image_subheader_2": "",
-            "show_promo_2_in_mobile_drawer": true,
-            "overlay_text_on_image_promo_2": true,
-            "overlay_text_color_promo_2": "#ffffff",
-            "image_3_aspect_ratio": "square",
-            "mega_image_link_3": "",
-            "mega_image_header_3": "",
-            "mega_image_subheader_3": "",
-            "show_promo_3_in_mobile_drawer": true,
-            "overlay_text_on_image_promo_3": true,
-            "overlay_text_color_promo_3": "#ffffff",
-            "image_4_aspect_ratio": "square",
-            "mega_image_link_4": "",
-            "mega_image_header_4": "",
-            "mega_image_subheader_4": "",
-            "show_promo_4_in_mobile_drawer": true,
-            "overlay_text_on_image_promo_4": true,
-            "overlay_text_color_promo_4": "#ffffff",
-            "image_5_aspect_ratio": "square",
-            "mega_image_link_5": "",
-            "mega_image_header_5": "",
-            "mega_image_subheader_5": "",
-            "show_promo_5_in_mobile_drawer": true,
-            "overlay_text_on_image_promo_5": true,
-            "overlay_text_color_promo_5": "#ffffff"
-          }
-        },
         "content_FHykMA": {
           "type": "content",
+          "name": "Bespoke - Mega menu",
           "settings": {
             "mega-menu": "Bespoke",
             "show_mega_menu_links_mobile": true,
@@ -285,6 +244,7 @@
         },
         "content_Y6HWL9": {
           "type": "content",
+          "name": "Services - Mega menu",
           "settings": {
             "mega-menu": "Services",
             "show_mega_menu_links_mobile": true,
@@ -331,8 +291,54 @@
             "overlay_text_color_promo_5": "#ffffff"
           }
         },
+        "content_qFcwEJ": {
+          "type": "content",
+          "name": "Jewellery - Mega menu",
+          "settings": {
+            "mega-menu": "Jewellery",
+            "show_mega_menu_links_mobile": true,
+            "show_mega_menu_promos_mobile": true,
+            "mega_image_1": "shopify://shop_images/Diamond_Jewellery.png",
+            "image_1_aspect_ratio": "natural",
+            "mega_image_link_1": "",
+            "mega_image_header_1": "",
+            "mega_image_subheader_1": "",
+            "show_promo_1_in_mobile_drawer": true,
+            "overlay_text_on_image_promo_1": true,
+            "overlay_text_color_promo_1": "#ffffff",
+            "image_2_aspect_ratio": "square",
+            "mega_image_link_2": "",
+            "mega_image_header_2": "",
+            "mega_image_subheader_2": "",
+            "show_promo_2_in_mobile_drawer": true,
+            "overlay_text_on_image_promo_2": true,
+            "overlay_text_color_promo_2": "#ffffff",
+            "image_3_aspect_ratio": "square",
+            "mega_image_link_3": "",
+            "mega_image_header_3": "",
+            "mega_image_subheader_3": "",
+            "show_promo_3_in_mobile_drawer": true,
+            "overlay_text_on_image_promo_3": true,
+            "overlay_text_color_promo_3": "#ffffff",
+            "image_4_aspect_ratio": "square",
+            "mega_image_link_4": "",
+            "mega_image_header_4": "",
+            "mega_image_subheader_4": "",
+            "show_promo_4_in_mobile_drawer": true,
+            "overlay_text_on_image_promo_4": true,
+            "overlay_text_color_promo_4": "#ffffff",
+            "image_5_aspect_ratio": "square",
+            "mega_image_link_5": "",
+            "mega_image_header_5": "",
+            "mega_image_subheader_5": "",
+            "show_promo_5_in_mobile_drawer": true,
+            "overlay_text_on_image_promo_5": true,
+            "overlay_text_color_promo_5": "#ffffff"
+          }
+        },
         "content_z9ENGN": {
           "type": "content",
+          "name": "About - Mega menu",
           "settings": {
             "mega-menu": "About Us",
             "show_mega_menu_links_mobile": true,
@@ -389,9 +395,9 @@
         "menu_icon_N83E7t",
         "menu_icon_yGFpYE",
         "content_fEtH3D",
-        "content_qFcwEJ",
         "content_FHykMA",
         "content_Y6HWL9",
+        "content_qFcwEJ",
         "content_z9ENGN"
       ],
       "settings": {
