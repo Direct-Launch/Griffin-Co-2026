@@ -17,7 +17,7 @@
         "announcement_3B6WFW": {
           "type": "announcement",
           "settings": {
-            "icon": "question-answer",
+            "icon": "none",
             "announcement_text": "<a href=\"/pages/schedule-an-appointment\" title=\"Schedule an Appointment\">Book a Private Consultation Today</a>"
           }
         }

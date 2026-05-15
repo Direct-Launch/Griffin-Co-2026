@@ -1,1 +1,230 @@
-{"type":"footer","name":"Footer","sections":{"map_JBYVn7":{"type":"map","name":"t:sections.store-information--map.presets.name","settings":{"map_address":"Griffin & Co Fine Jewellery","api_key":"AIzaSyD9xQJ59dnwGxTb_snAHPkZqa_ZfDKdYCQ","background_image":"shopify:\/\/shop_images\/Footer_Banner_2.png","layout":"left","text_alignment":"center","heading":"VISIT US TODAY","address":"<p><strong>64 South Street, Chichester, <\/strong><\/p><p><strong>West Sussex, PO19 1EE<\/strong><\/p><p><br\/><strong>Showroom Opening Times<\/strong><\/p><p>Tue - Sat, 9:30am - 5:00pm<\/p><p>Sun - Mon, Closed<\/p>","button_text":"Get directions","buttons_style":"filled","override_button_colors":false,"button_background_color":"#e68819","button_text_color":"#ffffff","section_width":"full","section_padding_top":0,"section_padding_bottom":0,"colors":"light"}},"image_with_text_overlay_8rMCwn":{"type":"image-with-text-overlay","blocks":{"heading_Q4H6mb":{"type":"heading","settings":{"title":"VISIT US TODAY","font_size_desktop":"h1","font_size_mobile":"h2-mobile","heading_bottom_spacing":25}},"text_NYVUzN":{"type":"text","settings":{"text":"<p>64 South Street, Chichester, West Sussex, PO19 1EE<\/p>","font_size_desktop":130,"font_size_mobile":120,"text_bottom_spacing":20}},"text_with_icon_MUeNz6":{"type":"text_with_icon","settings":{"icon":"clock","text":"Tue - Sat, 9:30am - 5:00pm","link":"","text_with_icon_bottom_spacing":10}},"text_with_icon_P9N9c7":{"type":"text_with_icon","settings":{"icon":"clock","text":"Sun - Mon, Closed","link":"","text_with_icon_bottom_spacing":20}},"text_with_icon_ptwjMW":{"type":"text_with_icon","settings":{"icon":"mail","text":"contact@griffinfinejewellery.com","link":"mailto:contact@griffinfinejewellery.com","text_with_icon_bottom_spacing":20}},"text_with_icon_RazPjM":{"type":"text_with_icon","settings":{"icon":"phone","text":"01243 380024","link":"tel:01243 380024","text_with_icon_bottom_spacing":20}},"button_xqg9an":{"type":"button","settings":{"first_button_link":"#","first_button_label":"Get directions","second_button_link":"shopify:\/\/pages\/schedule-an-appointment","second_button_label":"Schedule an Appointment","buttons_style":"underlined","override_button_colors":true,"buttons_background":"#ffffff","buttons_text":"#ffffff","buttons_bottom_spacing":0}}},"block_order":["heading_Q4H6mb","text_NYVUzN","text_with_icon_MUeNz6","text_with_icon_P9N9c7","text_with_icon_ptwjMW","text_with_icon_RazPjM","button_xqg9an"],"disabled":true,"name":"Visit Us","settings":{"image_desktop":"shopify:\/\/shop_images\/Footer_Banner_2.png","height_desktop":"550px","text_position_desktop":"center","text_alignment_desktop":"center","caption_width_desktop":50,"image_mobile":"shopify:\/\/shop_images\/Footer_Banner_2_-_Mobile.png","height_mobile":"400px","text_position_mobile":"center","text_alignment_mobile":"center","section_link":"","animation_style":"parallax","section_width":"full","section_margin_top":0,"section_margin_bottom":0,"text_color":"#ffffff","caption_bg_color":"rgba(0,0,0,0)","image_overlay_color":"#503425","image_overlay_opacity":30}},"newsletter_Nz4hfQ":{"type":"newsletter","settings":{"newsletter_heading":"Join our Mailing List for 10% Off.","newsletter_description":"<p>Get 10% off your first order when you sign up to our mailing list!<\/p>","desktop-heading-size":"h4","desktop-text-size":100,"mobile-heading-size":"h4-mobile","mobile-text-size":100,"textAlignment":"left","section_padding_top":60,"section_padding_bottom":0,"colors":"light"}},"footer-main":{"type":"footer-main","blocks":{"brand_information_TBwk3n":{"type":"brand_information","settings":{"image_width":200,"link":"","title":"Griffin & Co Jewellery","richtext":"<p>Chichester's destination for fine jewellery, bespoke design, and expert craftsmanship. Located on South Street.<\/p>"}},"social_WmLbFb":{"type":"social","settings":{"social_title":"Get connected"}},"menu_TfFRar":{"type":"menu","disabled":true,"settings":{"menu_title":"Services","footer_linklist":"jewellery-services"}},"5c637888-418b-4cc8-baea-a83083df2e8c":{"type":"menu","settings":{"menu_title":"About Us","footer_linklist":"about-us"}},"menu":{"type":"menu","settings":{"menu_title":"Legal","footer_linklist":"policy-menu"}}},"block_order":["brand_information_TBwk3n","social_WmLbFb","menu_TfFRar","5c637888-418b-4cc8-baea-a83083df2e8c","menu"],"settings":{"alignment":"left","alignment_mobile":"center","heading_font_size":"h6","heading_font_size_mobile":"h5-mobile","color_scheme":"light"}},"footer-bottom":{"type":"footer-bottom","settings":{"show_methods_of_payment":true,"center_content_on_desktop":false,"footer_text":"<p>Company Registration No.<a href=\"https:\/\/find-and-update.company-information.service.gov.uk\/company\/16128038\" target=\"_blank\" title=\"https:\/\/find-and-update.company-information.service.gov.uk\/company\/16128038\"><strong>16128038<\/strong><\/a>| Partnered with <a href=\"https:\/\/ebonyjewellery.com\/\" target=\"_blank\" title=\"Ebony Jewellers in Chichester\"><strong>Ebony Jewellers <\/strong><\/a>| Website by <a href=\"https:\/\/directlaunch.co.uk\/\" target=\"_blank\" title=\"https:\/\/directlaunch.co.uk\/\"><strong>Direct Launch<\/strong><\/a><\/p>","show_currency_selector":true,"show_locale_selector":false,"color_scheme":"light"}}},"order":["map_JBYVn7","image_with_text_overlay_8rMCwn","newsletter_Nz4hfQ","footer-main","footer-bottom"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "map_JBYVn7": {
+      "type": "map",
+      "name": "t:sections.store-information--map.presets.name",
+      "settings": {
+        "map_address": "Griffin & Co Fine Jewellery",
+        "api_key": "AIzaSyD9xQJ59dnwGxTb_snAHPkZqa_ZfDKdYCQ",
+        "background_image": "shopify://shop_images/Footer_Banner_2.png",
+        "layout": "left",
+        "text_alignment": "center",
+        "heading": "VISIT US TODAY.",
+        "address": "<p><strong>64 South Street, Chichester, </strong></p><p><strong>West Sussex, PO19 1EE</strong></p><p><br/><strong>Showroom Opening Times</strong></p><p>Tue - Sat, 9:30am - 5:00pm</p><p>Sun - Mon, Closed</p>",
+        "button_text": "Get directions",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "image_with_text_overlay_8rMCwn": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_Q4H6mb": {
+          "type": "heading",
+          "settings": {
+            "title": "VISIT US TODAY",
+            "font_size_desktop": "h1",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_NYVUzN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>64 South Street, Chichester, West Sussex, PO19 1EE</p>",
+            "font_size_desktop": 130,
+            "font_size_mobile": 120,
+            "text_bottom_spacing": 20
+          }
+        },
+        "text_with_icon_MUeNz6": {
+          "type": "text_with_icon",
+          "settings": {
+            "icon": "clock",
+            "text": "Tue - Sat, 9:30am - 5:00pm",
+            "link": "",
+            "text_with_icon_bottom_spacing": 10
+          }
+        },
+        "text_with_icon_P9N9c7": {
+          "type": "text_with_icon",
+          "settings": {
+            "icon": "clock",
+            "text": "Sun - Mon, Closed",
+            "link": "",
+            "text_with_icon_bottom_spacing": 20
+          }
+        },
+        "text_with_icon_ptwjMW": {
+          "type": "text_with_icon",
+          "settings": {
+            "icon": "mail",
+            "text": "contact@griffinfinejewellery.com",
+            "link": "mailto:contact@griffinfinejewellery.com",
+            "text_with_icon_bottom_spacing": 20
+          }
+        },
+        "text_with_icon_RazPjM": {
+          "type": "text_with_icon",
+          "settings": {
+            "icon": "phone",
+            "text": "01243 380024",
+            "link": "tel:01243 380024",
+            "text_with_icon_bottom_spacing": 20
+          }
+        },
+        "button_xqg9an": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "#",
+            "first_button_label": "Get directions",
+            "second_button_link": "shopify://pages/schedule-an-appointment",
+            "second_button_label": "Schedule an Appointment",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_Q4H6mb",
+        "text_NYVUzN",
+        "text_with_icon_MUeNz6",
+        "text_with_icon_P9N9c7",
+        "text_with_icon_ptwjMW",
+        "text_with_icon_RazPjM",
+        "button_xqg9an"
+      ],
+      "disabled": true,
+      "name": "Visit Us",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Footer_Banner_2.png",
+        "height_desktop": "550px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "image_mobile": "shopify://shop_images/Footer_Banner_2_-_Mobile.png",
+        "height_mobile": "400px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#503425",
+        "image_overlay_opacity": 30
+      }
+    },
+    "newsletter_Nz4hfQ": {
+      "type": "newsletter",
+      "settings": {
+        "newsletter_heading": "Join our Mailing List for 10% Off.",
+        "newsletter_description": "<p>Get 10% off your first order when you sign up to our mailing list!</p>",
+        "desktop-heading-size": "h4",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h4-mobile",
+        "mobile-text-size": 100,
+        "textAlignment": "left",
+        "section_padding_top": 60,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "footer-main": {
+      "type": "footer-main",
+      "blocks": {
+        "brand_information_TBwk3n": {
+          "type": "brand_information",
+          "settings": {
+            "image_width": 200,
+            "link": "",
+            "title": "Griffin & Co Jewellery",
+            "richtext": "<p>Chichester's destination for fine jewellery, bespoke design, and expert craftsmanship. Located on South Street.</p>"
+          }
+        },
+        "social_WmLbFb": {
+          "type": "social",
+          "settings": {
+            "social_title": "Get connected"
+          }
+        },
+        "menu_TfFRar": {
+          "type": "menu",
+          "disabled": true,
+          "settings": {
+            "menu_title": "Services",
+            "footer_linklist": "jewellery-services"
+          }
+        },
+        "5c637888-418b-4cc8-baea-a83083df2e8c": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "About Us",
+            "footer_linklist": "about-us"
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu_title": "Legal",
+            "footer_linklist": "policy-menu"
+          }
+        }
+      },
+      "block_order": [
+        "brand_information_TBwk3n",
+        "social_WmLbFb",
+        "menu_TfFRar",
+        "5c637888-418b-4cc8-baea-a83083df2e8c",
+        "menu"
+      ],
+      "settings": {
+        "alignment": "left",
+        "alignment_mobile": "center",
+        "heading_font_size": "h6",
+        "heading_font_size_mobile": "h5-mobile",
+        "color_scheme": "light"
+      }
+    },
+    "footer-bottom": {
+      "type": "footer-bottom",
+      "settings": {
+        "show_methods_of_payment": true,
+        "center_content_on_desktop": false,
+        "footer_text": "<p>Company Registration No.<a href=\"https://find-and-update.company-information.service.gov.uk/company/16128038\" target=\"_blank\" title=\"https://find-and-update.company-information.service.gov.uk/company/16128038\"><strong>16128038</strong></a>| Partnered with <a href=\"https://ebonyjewellery.com/\" target=\"_blank\" title=\"Ebony Jewellers in Chichester\"><strong>Ebony Jewellers </strong></a>| Website by <a href=\"https://directlaunch.co.uk/\" target=\"_blank\" title=\"https://directlaunch.co.uk/\"><strong>Direct Launch</strong></a></p>",
+        "show_currency_selector": true,
+        "show_locale_selector": false,
+        "color_scheme": "light"
+      }
+    }
+  },
+  "order": [
+    "map_JBYVn7",
+    "image_with_text_overlay_8rMCwn",
+    "newsletter_Nz4hfQ",
+    "footer-main",
+    "footer-bottom"
+  ]
+}
