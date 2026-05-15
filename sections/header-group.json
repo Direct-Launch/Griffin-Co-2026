@@ -80,13 +80,63 @@
           "type": "menu_icon",
           "settings": {
             "title": "Round Brilliant",
-            "icon": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp"
+            "icon": "shopify://shop_images/Round_Brilliant.png"
+          }
+        },
+        "menu_icon_3pwk6E": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Oval",
+            "icon": "shopify://shop_images/Oval.png"
+          }
+        },
+        "menu_icon_kmbBzW": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Cushion",
+            "icon": "shopify://shop_images/Cushion.png"
+          }
+        },
+        "menu_icon_pgNQ8h": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Pear",
+            "icon": "shopify://shop_images/Pear.png"
+          }
+        },
+        "menu_icon_c4PYf3": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Princess",
+            "icon": "shopify://shop_images/Princess.png"
+          }
+        },
+        "menu_icon_8ffw8T": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Emerald Cut",
+            "icon": "shopify://shop_images/Emerald.png"
           }
         },
         "menu_icon_Mx67ej": {
           "type": "menu_icon",
           "settings": {
-            "title": ""
+            "title": "Marquise",
+            "icon": "shopify://shop_images/Marquise.png"
+          }
+        },
+        "menu_icon_7TT3BD": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Baguette",
+            "icon": "shopify://shop_images/Baguette.png"
+          }
+        },
+        "menu_icon_N83E7t": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Radiant",
+            "icon": "shopify://shop_images/Radiant.png"
           }
         },
         "content_fEtH3D": {
@@ -310,7 +360,14 @@
       "block_order": [
         "content_z7qXaR",
         "menu_icon_mUHP3D",
+        "menu_icon_3pwk6E",
+        "menu_icon_kmbBzW",
+        "menu_icon_pgNQ8h",
+        "menu_icon_c4PYf3",
+        "menu_icon_8ffw8T",
         "menu_icon_Mx67ej",
+        "menu_icon_7TT3BD",
+        "menu_icon_N83E7t",
         "content_fEtH3D",
         "content_qFcwEJ",
         "content_Y6HWL9",
@@ -332,6 +389,8 @@
         "logo_padding": 20,
         "main_linklist": "main-menu-updated-3",
         "dropdown_alignment": "left",
+        "show_mega_menu_links_mobile": true,
+        "show_mega_menu_promos_mobile": true,
         "mobile_social_icons": true,
         "show_currency_selector_mobile": true,
         "show_locale_selector_mobile": true,
