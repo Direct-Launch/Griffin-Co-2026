@@ -1,12 +1,12 @@
 {{ 'template-collection.min.css' | asset_url | stylesheet_tag: preload: true }}
 
-{%-liquid 
+{%- liquid
   assign filtering_enabled = false
   if section.settings.enable_filtering or section.settings.enable_sorting
     if collection.all_products_count > 1
       assign filtering_enabled = true
     endif
-  endif 
+  endif
 
   assign header_enabled = false
   if section.settings.enable_collection_description and collection.description != blank
@@ -19,11 +19,10 @@
 
 <section class="shopify-section wrapper-spacing--v--template wrapper-spacing--h">
   <div class="width--content collection_grid{% if filtering_enabled or header_enabled %} filtering_enabled--{{ section.settings.desktop_position }}{% endif %}">
-
     {% unless filtering_enabled == false and header_enabled == false %}
-      {% render 'main-collection-filtering-sorting', 
-        collection: collection, 
-        classes: "grid-area--filtering",
+      {% render 'main-collection-filtering-sorting',
+        collection: collection,
+        classes: 'grid-area--filtering',
         desktop_position: section.settings.desktop_position,
         enable_collection_title: section.settings.enable_collection_title,
         enable_collection_description: section.settings.enable_collection_description,
@@ -33,11 +32,11 @@
     {% endunless %}
 
     {% render 'main-collection-grid',
-      classes: "grid-area--collection",
+      classes: 'grid-area--collection',
       blocks: section.blocks,
-      desktop_products_per_row: section.settings.desktop-products-per-row,
-      mobile_products_per_row: section.settings.mobile-products-per-row,
-      products_per_page: section.settings.products-per-page,
+      desktop_products_per_row: section.settings['desktop-products-per-row'],
+      mobile_products_per_row: section.settings['mobile-products-per-row'],
+      products_per_page: section.settings['products-per-page'],
       pagination_options: section.settings.pagination_options,
       show_highlight: section.settings.show_highlight,
       highlight_position: section.settings.highlight_position,
@@ -54,7 +53,6 @@
       highlight_open_close_icon: section.settings.highlight_open_close_icon,
       highlight_button_borders: section.settings.highlight_button_borders
     %}
-
   </div>
 </section>
 
@@ -210,7 +208,7 @@
         },
         {
           "value": "below_quick_view",
-          "label" : "t:all.Highlight_position_below_quick_view"
+          "label": "t:all.Highlight_position_below_quick_view"
         }
       ],
       "default": "bottom",
@@ -518,6 +516,44 @@
       "info": "t:all.Highlight_button_borders_info",
       "default": false,
       "visible_if": "{{ section.settings.highlight_collapsible_tab and section.settings.show_highlight }}"
+    },
+    {
+      "type": "header",
+      "content": "Grid Promotion Box"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_promo_block",
+      "label": "Show Promotion Box in Grid",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "promo_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "text",
+      "id": "promo_heading",
+      "label": "Heading",
+      "default": "Ready to design your own?"
+    },
+    {
+      "type": "textarea",
+      "id": "promo_text",
+      "label": "Text",
+      "default": "Work with our expert designers to bring your vision to life."
+    },
+    {
+      "type": "text",
+      "id": "promo_button_text",
+      "label": "Button Text",
+      "default": "Book Consultation"
+    },
+    {
+      "type": "url",
+      "id": "promo_button_link",
+      "label": "Button Link"
     }
   ]
 }
