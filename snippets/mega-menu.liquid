@@ -27,10 +27,15 @@
     assign promo_count = promo_count | plus: 1
   endif
 
+  assign show_desktop_links = block.settings.show_mega_menu_links_desktop
+  if show_desktop_links == nil
+    assign show_desktop_links = true
+  endif
+
   assign block_grid_cols = '1fr'
   assign links_grid_cols = 'repeat(5, 1fr)'
 
-  if link.links.size > 0
+  if link.links.size > 0 and show_desktop_links
     if promo_count == 1
       assign block_grid_cols = '2fr 1fr'
       assign links_grid_cols = 'repeat(4, 1fr)'
@@ -41,7 +46,7 @@
       assign block_grid_cols = '1fr 1fr'
       assign links_grid_cols = 'repeat(2, 1fr)'
     endif
-  elsif link.links.size == 0 and promo_count > 0
+  elsif (link.links.size == 0 or show_desktop_links == false) and promo_count > 0
     assign block_grid_cols = '1fr'
   endif
 %}
@@ -58,7 +63,7 @@
   [data-mega-menu-block-id="{{ block.id }}"] .mega-menu--promos {
     display: grid;
     grid-template-columns: repeat({{ promo_count | at_least: 1 }}, 1fr);
-    gap: 30px;
+    gap: 20px;
     width: 100%;
   }
 
@@ -70,45 +75,47 @@
     }
   {% endfor %}
 
-  /* Custom Icon Styles based on screenshot */
-  .mega-menu-link-with-icon {
-    display: inline-flex;
+  /* Flexbox Vertical Alignment for Icons */
+  .mega-menu-link-wrapper {
+    display: flex;
     align-items: center;
     gap: 12px;
   }
-
-  .mega-menu-icon {
-    width: 32px;
-    height: 32px;
-    object-fit: contain;
-    flex-shrink: 0;
+  
+  .mega-menu-link-wrapper p.mega-menu-link--title {
+    margin-bottom: 0 !important; /* Forces the text to stay perfectly centered with the image */
+    line-height: 1.2;
   }
 
-  /* Make sub-sub links closer together like the screenshot */
+  .mega-menu-icon {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    display: block;
+    flex-shrink: 0;
+  }
+  
+  .mega-menu-icon--small {
+    width: 22px;
+    height: 22px;
+  }
+
   .mega-menu--links .menu-link li {
-      margin-bottom: 8px;
+    margin-bottom: 12px;
   }
 {% endstyle %}
 
-<div
-  class="mega-menu-block{% if link.links.size == 0 and promo_count == 0 %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}"
-  data-mega-menu-block-id="{{ block.id }}"
-  {{ block.shopify_attributes }}
->
-  {% if link.links.size == 0 %}
+<div class="mega-menu-block{% if (link.links.size == 0 or show_desktop_links == false) and promo_count == 0 %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}" data-mega-menu-block-id="{{ block.id }}" {{ block.shopify_attributes }}>
+  
+  {% if (link.links.size == 0 or show_desktop_links == false) %}
     {% if promo_count == 0 %}
-      <p
-        class="mega-menu--empty"
-        {% unless request.design_mode %}
-          style="visibility:hidden;"
-        {% endunless %}
-      >
+      <p class="mega-menu--empty" {% unless request.design_mode %}style="visibility:hidden;"{% endunless %}>
         {{ 'layout.header.mega_menu_empty' | t }}
       </p>
     {% endif %}
   {% endif %}
 
-  {% if link.links.size > 0 %}
+  {% if link.links.size > 0 and show_desktop_links %}
     <div class="mega-menu--links">
       {% for sub_link in link.links %}
         {%- liquid
@@ -117,23 +124,26 @@
           for icon_block in section.blocks
             if icon_block.type == 'menu_icon'
               assign target_down = icon_block.settings.title | downcase | strip
-              if target_down == sub_title_down
+              if target_down == sub_title_down and icon_block.settings.icon != blank
                 assign sub_icon_url = icon_block.settings.icon | image_url: width: 64
+                break
               endif
             endif
           endfor
         -%}
         <li class="dropdown-submenu nav-link-animated--custom" aria-haspopup="true">
           <div class="inner">
-            <p class="h4 mega-menu-link--title">
+            
+            <!-- Flex Wrapper for Level 2 -->
+            <div class="mega-menu-link-wrapper" style="margin-bottom: 15px;">
               {% if sub_icon_url != blank %}
                 <img src="{{ sub_icon_url }}" alt="" class="mega-menu-icon" loading="lazy">
               {% endif %}
-              <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_link.url }}">
-                              
-                {{ sub_link.title | escape }}
-              </a>
-            </p>
+              <p class="h4 mega-menu-link--title">
+                <a class="animated-link--item" href="{{ sub_link.url }}">{{ sub_link.title | escape }}</a>
+              </p>
+            </div>
+
             <ul class="menu-link">
               {% for sub_sub_link in sub_link.links %}
                 {%- liquid
@@ -142,23 +152,25 @@
                   for icon_block in section.blocks
                     if icon_block.type == 'menu_icon'
                       assign target_down = icon_block.settings.title | downcase | strip
-                      if target_down == sub_sub_title_down
+                      if target_down == sub_sub_title_down and icon_block.settings.icon != blank
                         assign sub_sub_icon_url = icon_block.settings.icon | image_url: width: 64
+                        break
                       endif
                     endif
                   endfor
                 -%}
                 <li>
-                  {% if sub_sub_icon_url != blank %}
-                    <img src="{{ sub_sub_icon_url }}" alt="" class="mega-menu-icon" loading="lazy">
-                  {% endif %}
-                  <a class="animated-link--item mega-menu-link-with-icon" href="{{ sub_sub_link.url }}">
-                                      
-                    {{ sub_sub_link.title | escape }}
-                  </a>
+                  <!-- Flex Wrapper for Level 3 -->
+                  <div class="mega-menu-link-wrapper">
+                    {% if sub_sub_icon_url != blank %}
+                      <img src="{{ sub_sub_icon_url }}" alt="" class="mega-menu-icon mega-menu-icon--small" loading="lazy">
+                    {% endif %}
+                    <a class="animated-link--item" href="{{ sub_sub_link.url }}">{{ sub_sub_link.title | escape }}</a>
+                  </div>
                 </li>
               {% endfor %}
             </ul>
+
           </div>
         </li>
       {% endfor %}
@@ -178,8 +190,8 @@
 
         {% if block.settings[mega_image_key] != blank %}
           <div>
-            {% render 'mega-menu-promo-card',
-              promo_wrapper_classes: 'dropdown-submenu',
+            {% render 'mega-menu-promo-card', 
+              promo_wrapper_classes: "dropdown-submenu",
               promo_block_id: block.id,
               promo_wrapper_attr: "aria-haspopup='true'",
               promo_img: block.settings[mega_image_key],
