@@ -40,7 +40,7 @@
     assign block_grid_cols = '2fr 1fr'
     assign links_grid_cols = 'repeat(4, 1fr)'
   elsif link.links.size == 0 and promo_count > 0
-    assign block_grid_cols = 'repeat(5, 1fr)'
+    assign block_grid_cols = '1fr'
   endif
 %}
 
@@ -57,6 +57,7 @@
     display: grid;
     grid-template-columns: repeat({{ promo_count | at_least: 1 }}, 1fr);
     gap: 20px;
+    width: 100%;
   }
 
   {% for i in (1..5) %}
