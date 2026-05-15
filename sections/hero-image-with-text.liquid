@@ -60,6 +60,21 @@
       text-align: {{ section.settings.text_alignment }} !important;
     }
   }
+
+  {% unless section.settings.show_image_mobile %}
+    @media (max-width: 767px) {
+      [data-wetheme-section-id="{{ section.id }}"] .homepage-content--image {
+        display: none !important;
+      }
+      [data-wetheme-section-id="{{ section.id }}"].feature-row--overlapping .feature_row__image_wrapper {
+        position: relative !important;
+        top: auto !important;
+        transform: none !important;
+        width: 100% !important;
+        margin: 0 !important;
+      }
+    }
+  {% endunless %}
 </style>
 
 <div
@@ -284,6 +299,12 @@
     {
       "type": "header",
       "content": "t:all.Mobile"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_image_mobile",
+      "label": "Show image on mobile",
+      "default": true
     },
     {
       "type": "select",
