@@ -28,6 +28,20 @@
           {% assign image_overlay_color = 'rgba(' | append: block.settings.image_overlay.rgba | append: ')' %}
           {% assign image_overlay_opacity = 100 | minus: block.settings.image_overlay_opacity %}
 
+          {% assign desktop_align = 'center' %}
+          {% if block.settings.text_position contains 'left' %}
+            {% assign desktop_align = 'left' %}
+          {% elsif block.settings.text_position contains 'right' %}
+            {% assign desktop_align = 'right' %}
+          {% endif %}
+
+          {% assign mobile_align = 'center' %}
+          {% if block.settings.mobile_text_position contains 'left' %}
+            {% assign mobile_align = 'left' %}
+          {% elsif block.settings.mobile_text_position contains 'right' %}
+            {% assign mobile_align = 'right' %}
+          {% endif %}
+
           <style>
             {% comment %} Image overlay {% endcomment %}
             .slider-section--{{ section.id }} .block-section--{{ block.id }} .slideshow-image-overlay {
@@ -46,6 +60,18 @@
                 color: rgba({{ block.settings.caption-text.rgba }});
               }
             {% endif %}
+
+            .slider-section--{{ section.id }} .block-section--{{ block.id }} .sitewide--title-wrapper,
+            .slider-section--{{ section.id }} .block-section--{{ block.id }} .homepage-sections--title {
+              text-align: {{ mobile_align }} !important;
+            }
+            
+            @media (min-width: 768px) {
+              .slider-section--{{ section.id }} .block-section--{{ block.id }} .sitewide--title-wrapper,
+              .slider-section--{{ section.id }} .block-section--{{ block.id }} .homepage-sections--title {
+                text-align: {{ desktop_align }} !important;
+              }
+            }
 
             @media (max-width: 1024px) {
               .slider-section--{{ section.id }} .block-section--{{ block.id }} .slideshow-title,
