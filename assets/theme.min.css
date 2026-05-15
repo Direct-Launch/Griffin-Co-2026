@@ -9836,7 +9836,7 @@ a.mega-menu-promo-wrapper:hover+.mega-menu-promo-text--wrapper .mega-menu-promo-
     font-family: var(--body-font-stack);
     font-weight: var(--body-font-weight);
     font-style: var(--body-font-style);
-    font-size: var(--base-font-size);
+    font-size: var(--header-font-size-px);
     text-transform: none;
     padding-bottom: 12px;
     line-height: 1.4
