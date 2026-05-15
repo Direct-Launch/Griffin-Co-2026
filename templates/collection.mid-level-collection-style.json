@@ -67,50 +67,54 @@
         "navigation_link_Gg7AVg": {
           "type": "navigation_link",
           "settings": {
-            "link_image": "shopify://shop_images/Earrings_Lab_Diamonds.png",
-            "link_text": "Stud Earrings",
-            "link_url": "",
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_1.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_1.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_1.value }}",
             "text_color": "rgba(0,0,0,0)"
           }
         },
         "navigation_link_AnYX9w": {
           "type": "navigation_link",
           "settings": {
-            "link_image": "{{ collection.metafields.custom.mobile_large_image.value }}",
-            "link_text": "{{ collection.metafields.custom.title.value }}",
-            "link_url": "",
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_2.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_2.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_2.value }}",
             "text_color": "rgba(0,0,0,0)"
           }
         },
         "navigation_link_pQWcmR": {
           "type": "navigation_link",
           "settings": {
-            "link_text": "",
-            "link_url": "",
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_3.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_3.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_3.value }}",
             "text_color": "rgba(0,0,0,0)"
           }
         },
         "navigation_link_ULXRNB": {
           "type": "navigation_link",
           "settings": {
-            "link_text": "",
-            "link_url": "",
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_4.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_4.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_4.value }}",
             "text_color": "rgba(0,0,0,0)"
           }
         },
         "navigation_link_cHXqNK": {
           "type": "navigation_link",
           "settings": {
-            "link_text": "",
-            "link_url": "",
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_5.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_5.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_5.value }}",
             "text_color": "rgba(0,0,0,0)"
           }
         },
         "navigation_link_3GQaUc": {
           "type": "navigation_link",
           "settings": {
-            "link_text": "",
-            "link_url": "",
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_6.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_6.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_6.value }}",
             "text_color": "rgba(0,0,0,0)"
           }
         }
@@ -322,7 +326,7 @@
         "highlight_button_borders": false,
         "colors": "white",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff"
       }
     },
