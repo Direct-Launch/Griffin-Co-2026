@@ -28,6 +28,20 @@
   endif
 %}
 
+<style>
+  [data-wetheme-section-id="{{ section.id }}"] .sitewide--title-wrapper,
+  [data-wetheme-section-id="{{ section.id }}"] .homepage-sections--title {
+    text-align: {{ section.settings.text_alignment_mobile }} !important;
+  }
+  
+  @media (min-width: 768px) {
+    [data-wetheme-section-id="{{ section.id }}"] .sitewide--title-wrapper,
+    [data-wetheme-section-id="{{ section.id }}"] .homepage-sections--title {
+      text-align: {{ section.settings.text_alignment }} !important;
+    }
+  }
+</style>
+
 <div
   class="wrapper-spacing--v{% unless section_width == 'full' %} wrapper-spacing--h{% endunless %} {% unless section_width == 'content' %}{{ color_scheme }}{% endunless %} image-with-text__container{% unless section.settings.text_overlapping_image %} feature-row--no-overlapping{% else %} feature-row--overlapping{% endunless %}"
   data-wetheme-section-type="image--image-with-text" 
