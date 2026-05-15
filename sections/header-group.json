@@ -146,7 +146,56 @@
           "type": "menu_icon",
           "settings": {
             "title": "Solitaire",
-            "icon": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp"
+            "icon": "shopify://shop_images/Solitaire.png"
+          }
+        },
+        "menu_icon_chiEAt": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Three-Stone",
+            "icon": "shopify://shop_images/Three-Stone.png"
+          }
+        },
+        "menu_icon_BEwmXV": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Cluster",
+            "icon": "shopify://shop_images/SL8948_YG__YG_0.jpg"
+          }
+        },
+        "menu_icon_9URJY9": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Halo",
+            "icon": "shopify://shop_images/HARB29WG_4.jpg"
+          }
+        },
+        "menu_icon_HjFQYY": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Yellow Gold",
+            "icon": "shopify://shop_images/Yellow_Gold_93b897bd-2837-4c10-b45b-fd653e78f5aa.png"
+          }
+        },
+        "menu_icon_3dfqzR": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "White Gold",
+            "icon": "shopify://shop_images/White_Gold_d35bde97-fc52-4130-bde5-9776785a9883.png"
+          }
+        },
+        "menu_icon_DDyzNW": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Rose Gold",
+            "icon": "shopify://shop_images/Rose_Gold_9f38f866-611f-4dca-86c6-382a002be974.png"
+          }
+        },
+        "menu_icon_epzQ8w": {
+          "type": "menu_icon",
+          "settings": {
+            "title": "Platinum",
+            "icon": "shopify://shop_images/Platinum_cb40328f-b3d7-4e5b-b0e4-3bfda1d7a993.png"
           }
         },
         "content_fEtH3D": {
@@ -394,6 +443,13 @@
         "menu_icon_7TT3BD",
         "menu_icon_N83E7t",
         "menu_icon_yGFpYE",
+        "menu_icon_chiEAt",
+        "menu_icon_BEwmXV",
+        "menu_icon_9URJY9",
+        "menu_icon_HjFQYY",
+        "menu_icon_3dfqzR",
+        "menu_icon_DDyzNW",
+        "menu_icon_epzQ8w",
         "content_fEtH3D",
         "content_FHykMA",
         "content_Y6HWL9",
