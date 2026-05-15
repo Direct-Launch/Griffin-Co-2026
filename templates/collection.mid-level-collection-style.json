@@ -529,13 +529,13 @@
       "custom_css": [
         ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
         ".jdgm-testimonials-carousel {margin-top: 50px;}",
-        ".jdgm-title {font-size: 24px; font-family: var(--body-font-stack);}"
+        ".jdgm-title {font-size: 24px; font-weight: 500; font-family: var(--body-font-stack);}"
       ],
       "name": "Reviews",
       "settings": {
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "include_margins": true
+        "include_margins": false
       }
     },
     "faq_kqyrJn": {
