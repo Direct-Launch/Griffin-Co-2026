@@ -34,6 +34,33 @@
         "image_overlay_opacity": 26
       }
     },
+    "hero_image_with_text_y6wMXR": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "{{ collection.image }}",
+        "layout": "left",
+        "title": "{{ collection.title }}.",
+        "text": "{{ collection.description }}",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h2",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
     "image_with_text_CYA9px": {
       "type": "image-with-text",
       "name": "Hero Section",
@@ -41,7 +68,7 @@
         "image": "{{ collection.image }}",
         "layout": "right",
         "title": "{{ collection.title }}.",
-        "text": "{{ collection.description }}",
+        "text": "<p>{{ collection.description }}</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "text_overlapping_image": false,
@@ -457,6 +484,78 @@
         "colors": "light"
       }
     },
+    "image_with_text_overlay_UC8XAh": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_pUgHVz": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready For The Next Step?",
+            "font_size_desktop": "h6",
+            "font_size_mobile": "h6-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "heading_tP4JJ7": {
+          "type": "heading",
+          "settings": {
+            "title": "Schedule an in-store or at home consultation",
+            "font_size_desktop": "h3",
+            "font_size_mobile": "h4-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_f9dPTc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One-off {{ collection.title }} made especially for you. Book an in-store or at home appointment to browse all of our {{ collection.title }}, Jewellery, Diamonds and Gemstones.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_LQPQLC": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://pages/schedule-an-appointment",
+            "first_button_label": "Book an Appointment",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#e68819",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_pUgHVz",
+        "heading_tP4JJ7",
+        "text_f9dPTc",
+        "button_LQPQLC"
+      ],
+      "name": "Book an Appointment CTA",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Interior_1.webp",
+        "height_desktop": "550px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#242424",
+        "caption_bg_color": "#ffffff",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 30
+      }
+    },
     "17788657635f2a3767": {
       "type": "apps",
       "blocks": {
@@ -483,7 +582,7 @@
             "corner_styling": "square",
             "header_text_color": "#242424",
             "text_color": "#242424",
-            "card_color": "#F9F9F9",
+            "card_color": "#f9f9f9",
             "stars_color": "#ffdda6",
             "arrows_color": "#004225",
             "transition_speed": 5,
@@ -606,82 +705,11 @@
         "section_padding_bottom": 72,
         "colors": "white"
       }
-    },
-    "image_with_text_overlay_UC8XAh": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_pUgHVz": {
-          "type": "heading",
-          "settings": {
-            "title": "Ready For The Next Step?",
-            "font_size_desktop": "h6",
-            "font_size_mobile": "h6-mobile",
-            "heading_bottom_spacing": 25
-          }
-        },
-        "heading_tP4JJ7": {
-          "type": "heading",
-          "settings": {
-            "title": "Schedule an in-store or at home consultation",
-            "font_size_desktop": "h3",
-            "font_size_mobile": "h4-mobile",
-            "heading_bottom_spacing": 25
-          }
-        },
-        "text_f9dPTc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>One-off {{ collection.title }} made especially for you. Book an in-store or at home appointment to browse all of our {{ collection.title }}, Jewellery, Diamonds and Gemstones.</p>",
-            "font_size_desktop": 100,
-            "font_size_mobile": 100,
-            "text_bottom_spacing": 20
-          }
-        },
-        "button_LQPQLC": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "shopify://pages/schedule-an-appointment",
-            "first_button_label": "Book an Appointment",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "buttons_background": "#E68819",
-            "buttons_text": "#FFFFFF",
-            "buttons_bottom_spacing": 0
-          }
-        }
-      },
-      "block_order": [
-        "heading_pUgHVz",
-        "heading_tP4JJ7",
-        "text_f9dPTc",
-        "button_LQPQLC"
-      ],
-      "name": "Book an Appointment CTA",
-      "settings": {
-        "image_desktop": "shopify://shop_images/Interior_1.webp",
-        "height_desktop": "550px",
-        "text_position_desktop": "center",
-        "text_alignment_desktop": "center",
-        "caption_width_desktop": 50,
-        "height_mobile": "500px",
-        "text_position_mobile": "center",
-        "text_alignment_mobile": "center",
-        "section_link": "",
-        "animation_style": "parallax",
-        "section_width": "full",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "text_color": "#242424",
-        "caption_bg_color": "#ffffff",
-        "image_overlay_color": "#242424",
-        "image_overlay_opacity": 30
-      }
     }
   },
   "order": [
     "collection-header-spotlight",
+    "hero_image_with_text_y6wMXR",
     "image_with_text_CYA9px",
     "visual_navigation_banner_7dCHG9",
     "gallery_slideshow_HBNrWV",
