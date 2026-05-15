@@ -61,6 +61,101 @@
         "colors": "accent"
       }
     },
+    "navigation_banner_QcqJBE": {
+      "type": "navigation-banner",
+      "disabled": true,
+      "name": "t:sections.blog--navigation-banner.presets.name",
+      "settings": {
+        "title": "Shop by {{ collection.title }} Design:",
+        "description": "",
+        "section_header_alignment": "left",
+        "banner_linklist": "earrings",
+        "collection_list": [],
+        "buttons_style": "outlined",
+        "override_button_colors": false,
+        "nav_background_color": "#E68819",
+        "nav_text_color": "#FFFFFF",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "layout_style": "grid",
+        "navigation_position": "left",
+        "colors": "white"
+      }
+    },
+    "visual_navigation_banner_7dCHG9": {
+      "type": "visual-navigation-banner",
+      "blocks": {
+        "navigation_link_Gg7AVg": {
+          "type": "navigation_link",
+          "settings": {
+            "link_image": "shopify://shop_images/Earrings_Lab_Diamonds.png",
+            "link_text": "Stud Earrings",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_AnYX9w": {
+          "type": "navigation_link",
+          "settings": {
+            "link_image": "{{ collection.metafields.custom.mobile_large_image.value }}",
+            "link_text": "{{ collection.metafields.custom.title.value }}",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_pQWcmR": {
+          "type": "navigation_link",
+          "settings": {
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_ULXRNB": {
+          "type": "navigation_link",
+          "settings": {
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_cHXqNK": {
+          "type": "navigation_link",
+          "settings": {
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_3GQaUc": {
+          "type": "navigation_link",
+          "settings": {
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "navigation_link_Gg7AVg",
+        "navigation_link_AnYX9w",
+        "navigation_link_pQWcmR",
+        "navigation_link_ULXRNB",
+        "navigation_link_cHXqNK",
+        "navigation_link_3GQaUc"
+      ],
+      "name": "t:sections.visual-navigation-banner.presets.name",
+      "settings": {
+        "title": "Shop by {{ collection.title }} Design:",
+        "description": "",
+        "section_header_alignment": "center",
+        "image_style": "circle",
+        "image_size": 100,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "color_scheme": "white"
+      }
+    },
     "gallery_slideshow_HBNrWV": {
       "type": "gallery-slideshow",
       "blocks": {
@@ -158,6 +253,7 @@
         "image_m48iEx",
         "image_x8n4bn"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "description": "",
@@ -397,6 +493,8 @@
   "order": [
     "collection-header-spotlight",
     "image_with_text_CYA9px",
+    "navigation_banner_QcqJBE",
+    "visual_navigation_banner_7dCHG9",
     "gallery_slideshow_HBNrWV",
     "product-grid",
     "rich_text_6VeUNi",
