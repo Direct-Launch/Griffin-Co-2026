@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "wrapper": "div.collection-wrapper.wrapper",
   "sections": {
@@ -5,7 +14,7 @@
       "type": "collection-header",
       "settings": {
         "show_breadcrumbs": true,
-        "show_title": true,
+        "show_title": false,
         "show_description": false,
         "show_image_desktop": false,
         "min_height_desktop": "original",
@@ -23,6 +32,33 @@
         "caption_bg_color": "rgba(0,0,0,0)",
         "image_overlay_color": "#242424",
         "image_overlay_opacity": 26
+      }
+    },
+    "image_with_text_JUyzah": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "{{ collection.image }}",
+        "layout": "left",
+        "title": "{{ collection.title }}",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "accent"
       }
     },
     "product-grid": {
@@ -89,6 +125,7 @@
   },
   "order": [
     "collection-header-spotlight",
+    "image_with_text_JUyzah",
     "product-grid",
     "rich_text_6VeUNi"
   ]
