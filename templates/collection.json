@@ -201,6 +201,38 @@
         "section_padding_bottom": 30,
         "colors": "white"
       }
+    },
+    "template_product_recently_viewed_TFp99e": {
+      "type": "template--product--recently-viewed",
+      "name": "t:sections.template--product--recently-viewed.presets.name",
+      "settings": {
+        "title": "Recently viewed products",
+        "description": "",
+        "section_header_alignment": "center",
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "colors": "light",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -209,6 +241,7 @@
     "text_adverts_with_icon_xwmiBi",
     "product-grid",
     "image_with_text_TNiGrG",
-    "rich_text_6VeUNi"
+    "rich_text_6VeUNi",
+    "template_product_recently_viewed_TFp99e"
   ]
 }
