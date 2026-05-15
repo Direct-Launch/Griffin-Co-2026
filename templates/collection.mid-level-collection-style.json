@@ -63,6 +63,7 @@
     },
     "image_with_text_CYA9px": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "Hero Section",
       "settings": {
         "image": "{{ collection.image }}",
