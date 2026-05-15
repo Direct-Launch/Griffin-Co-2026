@@ -298,6 +298,37 @@
         "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
+    "1778864481e2fbb2e6": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_wnAGaQ": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_wnAGaQ"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
+    },
     "template_product_recently_viewed_pj3jzT": {
       "type": "template--product--recently-viewed",
       "name": "t:sections.template--product--recently-viewed.presets.name",
@@ -465,6 +496,7 @@
     "visual_navigation_banner_7dCHG9",
     "gallery_slideshow_HBNrWV",
     "product-grid",
+    "1778864481e2fbb2e6",
     "template_product_recently_viewed_pj3jzT",
     "faq_with_image_GTcyqy",
     "faq_kqyrJn"
