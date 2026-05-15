@@ -252,6 +252,146 @@
         "section_padding_bottom": 30,
         "colors": "white"
       }
+    },
+    "template_product_recently_viewed_pj3jzT": {
+      "type": "template--product--recently-viewed",
+      "name": "t:sections.template--product--recently-viewed.presets.name",
+      "settings": {
+        "title": "Recently viewed products",
+        "description": "",
+        "section_header_alignment": "center",
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "colors": "white",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "faq_with_image_GTcyqy": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_nGjUaa": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "About us",
+            "open_by_default": false,
+            "text": "<p>Place some content here to describe this topic.</p>",
+            "page": ""
+          }
+        },
+        "accordion_pdCHqy": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "About us",
+            "open_by_default": false,
+            "text": "<p>Place some content here to describe this topic.</p>",
+            "page": ""
+          }
+        },
+        "accordion_XpXya3": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "About us",
+            "open_by_default": false,
+            "text": "<p>Place some content here to describe this topic.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_nGjUaa",
+        "accordion_pdCHqy",
+        "accordion_XpXya3"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Share your story",
+        "section_description": "",
+        "section_header_alignment": "center",
+        "faq_icon": "plus_minus",
+        "accordion_image": "shopify://shop_images/Headshot-102.jpg",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "left",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "colors": "light"
+      }
+    },
+    "faq_kqyrJn": {
+      "type": "faq",
+      "blocks": {
+        "tab_content_eXpUrU": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "open_by_default": false,
+            "text": "<p>Here you can place an explanation or answer to the question.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_mkVXgT": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "open_by_default": false,
+            "text": "<p>Here you can place an explanation or answer to the question.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_GpeEgw": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Place your question or heading here",
+            "open_by_default": false,
+            "text": "<p>Here you can place an explanation or answer to the question.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_eXpUrU",
+        "tab_content_mkVXgT",
+        "tab_content_GpeEgw"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "title": "Frequently asked questions",
+        "description": "",
+        "section_header_alignment": "center",
+        "faq_icon": "plus_minus",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
     }
   },
   "order": [
@@ -259,6 +399,9 @@
     "image_with_text_CYA9px",
     "gallery_slideshow_HBNrWV",
     "product-grid",
-    "rich_text_6VeUNi"
+    "rich_text_6VeUNi",
+    "template_product_recently_viewed_pj3jzT",
+    "faq_with_image_GTcyqy",
+    "faq_kqyrJn"
   ]
 }
