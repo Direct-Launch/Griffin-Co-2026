@@ -246,7 +246,7 @@
         "media_position": "left",
         "image_size": "large",
         "image_shape": "original",
-        "show_only_variant_media": false,
+        "show_only_variant_media": true,
         "image-display": "grid",
         "thumbnail_position": "left",
         "image_display_mobile": "slider",
