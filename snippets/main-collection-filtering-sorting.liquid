@@ -28,7 +28,7 @@ Accepts:
     --filter-font-family: var(--body-font-stack);
     --filter-font-style: var(--body-font-style);
     --filter-font-weight: var(--body-font-weight);
-    --filter-body-font-size: var(--body-font-size);
+    --filter-body-font-size: calc(var(--body-font-size)-2px);
     --filter-base-font-size: var(--base-font-size);
     --filter-body-font-size-12-em: var(--body-font-size-12-to-em);
     --filter-background-color: var(--color-primary-background);
@@ -523,6 +523,7 @@ Accepts:
   .facets__summary {
     padding: .6rem 36px .6rem 0.8rem;
     font-size: var(--filter-body-font-size);
+    transform: uppercase;
     color: var(--filter-text-color-mobile);
   }
 
