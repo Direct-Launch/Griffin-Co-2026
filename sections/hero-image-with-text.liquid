@@ -34,6 +34,26 @@
     text-align: {{ section.settings.text_alignment_mobile }} !important;
   }
   
+  /* Force 3:2 Image Aspect Ratio */
+  [data-wetheme-section-id="{{ section.id }}"] .img {
+    aspect-ratio: 3 / 2;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  [data-wetheme-section-id="{{ section.id }}"] .img .responsive-image-wrapper,
+  [data-wetheme-section-id="{{ section.id }}"] .img img,
+  [data-wetheme-section-id="{{ section.id }}"] .img svg {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    padding-top: 0 !important; /* Overrides native theme responsive image padding */
+  }
+  
   @media (min-width: 768px) {
     [data-wetheme-section-id="{{ section.id }}"] .sitewide--title-wrapper,
     [data-wetheme-section-id="{{ section.id }}"] .homepage-sections--title {
