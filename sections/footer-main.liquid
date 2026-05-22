@@ -1,8 +1,29 @@
+<style>
+  details.mobile-footer-accordion summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+  }
+  details.mobile-footer-accordion summary::-webkit-details-marker {
+    display: none;
+  }
+  details.mobile-footer-accordion[open] summary .footer-accordion-icon {
+    transform: scaleY(-1);
+  }
+  .footer-accordion-icon {
+    transition: transform 0.2s ease;
+    display: flex;
+    align-items: center;
+  }
+</style>
+
 <footer
   class="footer-main {{ section.settings.color_scheme }} flex-full color-scheme--{{ section.settings.color_scheme }} site-footer{% if template contains 'product' %}{% if settings.related_products_enable %}{% else %} product-sticker-stop{% endif %}{% endif %} footer-alignment--{{ section.settings.alignment }} footer-alignment-mobile--{{ section.settings.alignment_mobile }}"
   data-wetheme-section-type="footer-main" data-wetheme-section-id="{{ section.id }}"
 >
-	<div 
+  <div 
     class="footer-main--inner wrapper-spacing--h"
     style="grid-template-columns: repeat({{ section.blocks.size }}, 1fr);"
   >
@@ -22,29 +43,57 @@
 
             {% assign menu = linklists[block.settings.footer_linklist] %}
             <div class="links-footer{% if forloop.first %} border-none padding-none{% endif %}" {{ block.shopify_attributes }}>
-              {% unless block.settings.menu_title == "" %}
-                <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">{{ block.settings.menu_title | escape }}</div>
-              {% endunless %}
-              {% if menu.links.size > 0 %}
-                <ul class="footer-content nav-link-animated">
-                  {% for link in menu.links %}
-                    {% if link.links != blank %}
-                      <li>
-                        <a href="{{ link.url }}" class="footer--has-dropdown-title"><span class="animated-underline">{{ link.title }}</span></a>
-                        <ul class="footer--level-2">
-                          {% for sub_link in link.links %}
-                            <li><a href="{{ sub_link.url }}"><span class="animated-underline">{{ sub_link.title | escape }}</span></a></li>
-                          {% endfor %}
-                        </ul>
-                      </li>
-                    {% else %}
-                      <li>
-                        <a href="{{ link.url }}"><span class="animated-underline">{{ link.title }}</span></a>
-                      </li>
-                    {% endif %}
-                  {% endfor %}
-                </ul>
-              {% endif %}
+              
+              {% capture menu_list_html %}
+                {% if menu.links.size > 0 %}
+                  <ul class="footer-content nav-link-animated">
+                    {% for link in menu.links %}
+                      {% if link.links != blank %}
+                        <li>
+                          <a href="{{ link.url }}" class="footer--has-dropdown-title"><span class="animated-underline">{{ link.title }}</span></a>
+                          <ul class="footer--level-2">
+                            {% for sub_link in link.links %}
+                              <li><a href="{{ sub_link.url }}"><span class="animated-underline">{{ sub_link.title | escape }}</span></a></li>
+                            {% endfor %}
+                          </ul>
+                        </li>
+                      {% else %}
+                        <li>
+                          <a href="{{ link.url }}"><span class="animated-underline">{{ link.title }}</span></a>
+                        </li>
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                {% endif %}
+              {% endcapture %}
+
+              <!-- Desktop View -->
+              <div class="medium-down--hide">
+                {% unless block.settings.menu_title == "" %}
+                  <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">{{ block.settings.menu_title | escape }}</div>
+                {% endunless %}
+                {{ menu_list_html }}
+              </div>
+
+              <!-- Mobile View (Accordion) -->
+              <div class="large--hide">
+                {% if block.settings.menu_title != "" %}
+                  <details class="mobile-footer-accordion">
+                    <summary class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
+                      {{ block.settings.menu_title | escape }}
+                      <span class="footer-accordion-icon">
+                        {% render 'theme-icon', icon: 'chevron_down' %}
+                      </span>
+                    </summary>
+                    <div style="padding-top: 16px; padding-bottom: 8px;">
+                      {{ menu_list_html }}
+                    </div>
+                  </details>
+                {% else %}
+                  {{ menu_list_html }}
+                {% endif %}
+              </div>
+
             </div>
 
           {% when 'text' %}
@@ -69,7 +118,7 @@
             {% endif %}
           </div>
 
-				{% when 'image' %}
+        {% when 'image' %}
 
           <div class="image-footer{% if forloop.first %} border-none padding-none{% endif %}" {{ block.shopify_attributes }}>
             {% if block.settings.image != blank %}
