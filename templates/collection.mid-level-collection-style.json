@@ -545,7 +545,7 @@
       "settings": {
         "image_desktop": "shopify://shop_images/Interior_1.webp",
         "height_desktop": "550px",
-        "text_position_desktop": "center",
+        "text_position_desktop": "left",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 50,
         "height_mobile": "500px",
