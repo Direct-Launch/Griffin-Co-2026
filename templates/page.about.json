@@ -1,11 +1,49 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "hero_image_with_text_WhYVdG": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Showroom_8.webp",
+        "layout": "left",
+        "title": "Our Showroom & Team",
+        "text": "<p><strong>About 64 South Street</strong></p><p></p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "accent"
+      }
+    },
     "image_with_text_a9zBUW": {
       "type": "image-with-text",
+      "disabled": true,
       "settings": {
         "layout": "left",
         "title": "Welcome to Venetia",
-        "text": "<p>\"Our mission is to redefine the jewellery industry from its core, pushing boundaries, and welcoming a new era of technology focused craftsmanship.<br\/><br\/>Witness the evolution of fine jewellery as we challenge norms and embrace diversity, fresh designs, rare gemstones, and revolutionary techniques.<\/p><p>In an environment that harbours inclusivity and progression, every customer is valued, cherished and empowered.\"<br\/><br\/><em>- Jessica Flinn<\/em><\/p>",
+        "text": "<p>\"Our mission is to redefine the jewellery industry from its core, pushing boundaries, and welcoming a new era of technology focused craftsmanship.<br/><br/>Witness the evolution of fine jewellery as we challenge norms and embrace diversity, fresh designs, rare gemstones, and revolutionary techniques.</p><p>In an environment that harbours inclusivity and progression, every customer is valued, cherished and empowered.\"<br/><br/><em>- Jessica Flinn</em></p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
@@ -33,7 +71,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Your Ring, Your Rules",
-            "text": "<p>At Jessica Flinn we do fine jewellery differently, and we encourage you to do so too. Don't get bogged down by tradition, or what the jewellery industry tells you to wear. Choose a gemstone and design that represents who you are as an individual, and find a piece that tells your story.<\/p>",
+            "text": "<p>At Jessica Flinn we do fine jewellery differently, and we encourage you to do so too. Don't get bogged down by tradition, or what the jewellery industry tells you to wear. Choose a gemstone and design that represents who you are as an individual, and find a piece that tells your story.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -43,7 +81,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Ethical & Traceable",
-            "text": "<p>We believe that the journey of our jewellery from earth to hand should benefit everyone along the way. From the mines and cutting houses to our designers to setters, our process is ethical. We always ensure our supply chain meets our criteria and have even visited our suppliers in India and Sri Lanka to ensure they match our ethical standards.<\/p>",
+            "text": "<p>We believe that the journey of our jewellery from earth to hand should benefit everyone along the way. From the mines and cutting houses to our designers to setters, our process is ethical. We always ensure our supply chain meets our criteria and have even visited our suppliers in India and Sri Lanka to ensure they match our ethical standards.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -53,7 +91,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Inclusive. Always",
-            "text": "<p>Our motto is simple: whoever you are, whoever you love, and whatever you are celebrating, <em>everyone<\/em> is welcome at Jessica Flinn. Our commitment extends to people of all backgrounds, including POC, members of the LGBTQIA+ community, those with disabilities, and anyone facing marginalisation.<\/p>",
+            "text": "<p>Our motto is simple: whoever you are, whoever you love, and whatever you are celebrating, <em>everyone</em> is welcome at Jessica Flinn. Our commitment extends to people of all backgrounds, including POC, members of the LGBTQIA+ community, those with disabilities, and anyone facing marginalisation.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -94,7 +132,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Creating Forever Rings",
-            "text": "<p>Fine jewellery should tell your story for generations to come. We pride ourselves on creating pieces that will stand the test of time. It's for this very reason we only work with the strongest gemstones, and the highest quality metals. <\/p><p>The way our pieces are designed, cast and set are done so with with longevity in mind. They're called <em>forever rings<\/em> for this reason.<\/p>",
+            "text": "<p>Fine jewellery should tell your story for generations to come. We pride ourselves on creating pieces that will stand the test of time. It's for this very reason we only work with the strongest gemstones, and the highest quality metals. </p><p>The way our pieces are designed, cast and set are done so with with longevity in mind. They're called <em>forever rings</em> for this reason.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -104,7 +142,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Supporting British Industry",
-            "text": "<p>As a growing jewellery brand, we could bring production in-house. However, we actively support the British jewellery industry by working with master craftspeople and small family-run businesses.<\/p><p>Not only does this ensure that each ring passes through the hands of some of the UK's finest jewellers, we're also investing in the future of the industry.<\/p>",
+            "text": "<p>As a growing jewellery brand, we could bring production in-house. However, we actively support the British jewellery industry by working with master craftspeople and small family-run businesses.</p><p>Not only does this ensure that each ring passes through the hands of some of the UK's finest jewellers, we're also investing in the future of the industry.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -114,7 +152,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Guiding, Not Selling",
-            "text": "<p>Our role is simple; we're here to help you find or create your perfect ring or piece of fine jewellery. There's no hard selling. We use our knowledge and expertise to guide you on your jewellery journey.<\/p><p>When you can't find what your searching for, our designers will interpret <em>your<\/em> brief to create something unique with our <a href=\"\/collections\/all\" title=\"Made to Order Wedding & Eternity Rings\"><span style=\"text-decoration:underline\">bespoke and custom packages<\/span><\/a>. It's an important decision, and one we are here to support. <\/p>",
+            "text": "<p>Our role is simple; we're here to help you find or create your perfect ring or piece of fine jewellery. There's no hard selling. We use our knowledge and expertise to guide you on your jewellery journey.</p><p>When you can't find what your searching for, our designers will interpret <em>your</em> brief to create something unique with our <a href=\"/collections/all\" title=\"Made to Order Wedding & Eternity Rings\"><span style=\"text-decoration:underline\">bespoke and custom packages</span></a>. It's an important decision, and one we are here to support. </p>",
             "button_link": "",
             "button_text": ""
           }
@@ -155,7 +193,7 @@
           "settings": {
             "subheading": "It all begins with",
             "heading": "gemstones",
-            "text": "<p>We always begin with the fundamental element of every design: the gemstone. Responsibly sourced from our extensive network of reputable suppliers worldwide, our expertise lies in <a href=\"\/collections\/all\" title=\"Salt & Pepper Diamond Engagement Rings\">salt and pepper diamonds<\/a>, <a href=\"\/collections\/all\" title=\"Lab Grown Diamond Engagement Rings\">lab-grown diamonds<\/a>, <a href=\"\/collections\/all\" title=\"Sapphire Engagement Rings\">teal and blue sapphires<\/a>, as well as an array of vibrant <a href=\"\/collections\/all\" title=\"Tourmaline Engagement Rings\">tourmalines<\/a>.<\/p><p><br\/>Each one is assessed and selected by our team to ensure it meets our quality standards and to ensure it's perfect for your forever ring.<\/p>",
+            "text": "<p>We always begin with the fundamental element of every design: the gemstone. Responsibly sourced from our extensive network of reputable suppliers worldwide, our expertise lies in <a href=\"/collections/all\" title=\"Salt & Pepper Diamond Engagement Rings\">salt and pepper diamonds</a>, <a href=\"/collections/all\" title=\"Lab Grown Diamond Engagement Rings\">lab-grown diamonds</a>, <a href=\"/collections/all\" title=\"Sapphire Engagement Rings\">teal and blue sapphires</a>, as well as an array of vibrant <a href=\"/collections/all\" title=\"Tourmaline Engagement Rings\">tourmalines</a>.</p><p><br/>Each one is assessed and selected by our team to ensure it meets our quality standards and to ensure it's perfect for your forever ring.</p>",
             "page": "",
             "slide_link": "",
             "first_button_link": "",
@@ -180,7 +218,7 @@
           "settings": {
             "subheading": "Designing and creating",
             "heading": "Our jewellery",
-            "text": "<p>When creating a new design, whether it's for our collections or a bespoke project, we work outwards from the gemstone, taking inspiration from nature, architecture and the art world. From giving tradition a little twist, to throwing the whole rule book of the window, every piece we make is created to stand the test of time and to tell your story for generations.<\/p>",
+            "text": "<p>When creating a new design, whether it's for our collections or a bespoke project, we work outwards from the gemstone, taking inspiration from nature, architecture and the art world. From giving tradition a little twist, to throwing the whole rule book of the window, every piece we make is created to stand the test of time and to tell your story for generations.</p>",
             "page": "",
             "slide_link": "",
             "first_button_link": "",
@@ -240,7 +278,7 @@
         "text_NGUAVW": {
           "type": "text",
           "settings": {
-            "text": "<p>We wouldn't exist without our network of suppliers. From the USA to Sri Lanka, and London's Hatton Garden to India's gemstone cutting capital, our suppliers are chosen and vetted by us to ensure their values align with our own.<\/p>",
+            "text": "<p>We wouldn't exist without our network of suppliers. From the USA to Sri Lanka, and London's Hatton Garden to India's gemstone cutting capital, our suppliers are chosen and vetted by us to ensure their values align with our own.</p>",
             "font_size_desktop": 110,
             "font_size_mobile": 110,
             "text_bottom_spacing": 0
@@ -278,7 +316,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Sourcing Gemstones",
-            "text": "<p>We source salt and pepper diamonds, sapphires, lab grown diamonds, mined diamonds and tourmalines from suppliers across the globe. Sapphires sourced in Sri Lanka are typically cut in Sri Lanka, however Montana Sapphires and Australian Sapphires can be cut in their country of origin, or in India's expert cutting facilities. <\/p><p><br\/>Diamonds are mined in many countries including Botswana, Canada, Angola and South Africa. Tourmalines are found in Brazil, Kenya, Madagascar, Namibia and more. Both often find their way to Surat in India, the world capital of cutting-edge gemstone cutting technology, to be cut and polished.<\/p>",
+            "text": "<p>We source salt and pepper diamonds, sapphires, lab grown diamonds, mined diamonds and tourmalines from suppliers across the globe. Sapphires sourced in Sri Lanka are typically cut in Sri Lanka, however Montana Sapphires and Australian Sapphires can be cut in their country of origin, or in India's expert cutting facilities. </p><p><br/>Diamonds are mined in many countries including Botswana, Canada, Angola and South Africa. Tourmalines are found in Brazil, Kenya, Madagascar, Namibia and more. Both often find their way to Surat in India, the world capital of cutting-edge gemstone cutting technology, to be cut and polished.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -288,7 +326,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Casting & Metals",
-            "text": "<p>Most of our rings are cast at a state of the art facility. Using CAD (Computer Aided Design) technology, we're able to create 3D models of your piece so that it can be printed and cast to our exact specification.<br\/><\/p><p>Our suppliers use recycled gold, which is all classed as 'chain of custody', meaning that it's journey from earth to hand is ethical and fair. Platinum recycling is much less common place, although our supplier is working on this, with much of the platinum used in our pieces mined in South Africa.<br\/><\/p><p>We choose these suppliers due to their advanced facilities, and exceptional working conditions for their staff<\/p>",
+            "text": "<p>Most of our rings are cast at a state of the art facility. Using CAD (Computer Aided Design) technology, we're able to create 3D models of your piece so that it can be printed and cast to our exact specification.<br/></p><p>Our suppliers use recycled gold, which is all classed as 'chain of custody', meaning that it's journey from earth to hand is ethical and fair. Platinum recycling is much less common place, although our supplier is working on this, with much of the platinum used in our pieces mined in South Africa.<br/></p><p>We choose these suppliers due to their advanced facilities, and exceptional working conditions for their staff</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -298,7 +336,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Setting, Polishing & Repairs",
-            "text": "<p>All of our centre stone setting, resizing and repairs are done by our trusted gemstone setter, Dimitar, and his team in London's Hatton Garden. <br\/><\/p><p>Dimitar trained in Bulgaria before moving to London to expand his skills. Learning from the best jewellers in the heart of London's jewellery quarter, he quickly gained a reputation for his exceptional craftsmanship. <br\/><\/p><p>We're incredibly lucky to work with Dimitar and his team. It allows us to invest in the future of the industry, and ensures each piece passes through the hands of one of the UK's finest craftspeople.<\/p>",
+            "text": "<p>All of our centre stone setting, resizing and repairs are done by our trusted gemstone setter, Dimitar, and his team in London's Hatton Garden. <br/></p><p>Dimitar trained in Bulgaria before moving to London to expand his skills. Learning from the best jewellers in the heart of London's jewellery quarter, he quickly gained a reputation for his exceptional craftsmanship. <br/></p><p>We're incredibly lucky to work with Dimitar and his team. It allows us to invest in the future of the industry, and ensures each piece passes through the hands of one of the UK's finest craftspeople.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -333,6 +371,7 @@
     }
   },
   "order": [
+    "hero_image_with_text_WhYVdG",
     "image_with_text_a9zBUW",
     "template_product_info_columns_9YTFAr",
     "template_product_info_columns_6YhcwR",
