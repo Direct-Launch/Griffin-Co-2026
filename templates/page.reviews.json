@@ -179,6 +179,122 @@
         "colors": "white"
       }
     },
+    "1779458612eb4e6252": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_c8y7E9": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": false,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "5_star",
+            "max_reviews": 30,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "text",
+            "card_height": "extra_tall",
+            "text_size": "extra_small",
+            "stars_size": "small",
+            "arrows_position": "sides",
+            "max_width": 1300,
+            "corner_styling": "square",
+            "quote_marks_style": "serif",
+            "card_color": "#f8f8f8",
+            "stars_and_quote_marks_color": "#ffdda6",
+            "text_color": "#ffffff",
+            "arrows_color": "#ffffff",
+            "show_border": false,
+            "border_color": "#e8e8e8",
+            "show_drop_shadow": false,
+            "transition_speed": 5,
+            "header_text": "Client Stories",
+            "show_average_rating": true
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_c8y7E9"
+      ],
+      "custom_css": [
+        ".jdgm-star {color: #ffdda6 !important;}",
+        ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
+        "div {background: #004225;}",
+        ".jdgm-testimonials-carousel {margin-top: 50px;}",
+        ".jdgm-title {font-size: 24px; font-family: var(--body-font-stack);}"
+      ],
+      "name": "Reviews",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "template_product_info_columns_78cWpW": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_fPBpnx": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/google-business.png",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "",
+            "button_link": "https://g.page/r/CTw2KpQPST6MEAE/review",
+            "button_text": "Write a review"
+          }
+        },
+        "image_and_text_QVDzGn": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/trustpilot.png",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "",
+            "button_link": "https://uk.trustpilot.com/review/griffinfinejewellery.com",
+            "button_text": "Write a review"
+          }
+        },
+        "image_and_text_PgBg63": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/yell.png",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "",
+            "button_link": "https://www.yell.com/biz/griffin-and-co-fine-jewellery-chichester-3818817/",
+            "button_text": "Write a review"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_fPBpnx",
+        "image_and_text_QVDzGn",
+        "image_and_text_PgBg63"
+      ],
+      "name": "Share your experience",
+      "settings": {
+        "title": "Share Your Experience.",
+        "description": "<p>Help us continue to provide the exceptional service you expect.<br/>We welcome all feedback, from reviews of a recent purchase to suggestions for improvement.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "collage_Jn3TKc": {
       "type": "collage",
       "blocks": {
@@ -506,57 +622,6 @@
         "section_padding_bottom": 0,
         "colors": "white"
       }
-    },
-    "1779458612eb4e6252": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_testimonials_carousel_c8y7E9": {
-          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "show_sample_reviews": false,
-            "reviews_selection": "all",
-            "products": [],
-            "star_rating": "5_star",
-            "max_reviews": 30,
-            "quote_marks_size": "small",
-            "product_name_text_size": "small",
-            "verified_badge_style": "text",
-            "card_height": "extra_tall",
-            "text_size": "extra_small",
-            "stars_size": "small",
-            "arrows_position": "sides",
-            "max_width": 1300,
-            "corner_styling": "square",
-            "quote_marks_style": "serif",
-            "card_color": "#f8f8f8",
-            "stars_and_quote_marks_color": "#ffdda6",
-            "text_color": "#ffffff",
-            "arrows_color": "#ffffff",
-            "show_border": false,
-            "border_color": "#e8e8e8",
-            "show_drop_shadow": false,
-            "transition_speed": 5,
-            "header_text": "Client Stories",
-            "show_average_rating": true
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_testimonials_carousel_c8y7E9"
-      ],
-      "custom_css": [
-        ".jdgm-star {color: #ffdda6 !important;}",
-        ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
-        "div {background: #004225;}",
-        ".jdgm-testimonials-carousel {margin-top: 50px;}",
-        ".jdgm-title {font-size: 24px; font-family: var(--body-font-stack);}"
-      ],
-      "name": "Reviews",
-      "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -565,6 +630,7 @@
     "blog_posts_iGBJaJ",
     "rich_text_PW3XpP",
     "1779458612eb4e6252",
+    "template_product_info_columns_78cWpW",
     "collage_Jn3TKc",
     "057a50d5-3fee-4ea2-a832-2d38f47b959a",
     "faq_K3AkYN",
