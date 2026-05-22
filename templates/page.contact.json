@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/map.svg",
             "grid_image_size": "square",
             "heading": "Visit Us",
-            "text": "<p>64 South Street, Chichester, PO19 1EE</p>",
+            "text": "<p>Find our showroom in Chichester.</p><p>64 South Street, Chichester, PO19 1EE</p>",
             "button_link": "https://maps.app.goo.gl/hr1VHw7UVAicUUaG8",
             "button_text": "Get Directions"
           }
@@ -79,7 +79,7 @@
         "vertical_alignment": "top",
         "text_alignment": "center",
         "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
+        "slider_height_mobile": "consistent",
         "section_width": "full",
         "section_padding_top": 60,
         "section_padding_bottom": 60,
