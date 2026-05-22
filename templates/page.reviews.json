@@ -105,11 +105,11 @@
       ],
       "name": "t:sections.blog-posts.name",
       "settings": {
-        "title": "From the blog",
+        "title": "Recent Bespoke Commissions",
         "description": "",
         "section_header_alignment": "center",
         "media_source": "metafields",
-        "custom_media_ratio": "square",
+        "custom_media_ratio": "4_5",
         "show_image": true,
         "image_shape": "natural",
         "post_limit": 8,
