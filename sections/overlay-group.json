@@ -1,1 +1,115 @@
-{"type":"custom.overlay","name":"Overlay","sections":{"offers-drawer":{"type":"offers-drawer","blocks":{"offer-0":{"type":"offer","settings":{"image_position":"left","title":"10% off fine jewellery","description":"<p>Even if you're not ready to pop the big question we've got an amazing 10% off our fine jewellery so you can treat that loved one this Valentines day.<\/p>","discount_code":"","show_countdown":false,"end_date":"","end_time":"","show_timer_labels":false,"timer_expiry_action":"leave_at_zero","link":"\/","button_label":""}},"offer_4xNYhH":{"type":"offer","settings":{"image_position":"left","title":"£200 off - Harper","description":"<p>Our ring of the week this week is the Harper ring with a salt and pepper diamond.<br\/><br\/><em>Was £2990 now £2790<\/em><\/p>","discount_code":"","show_countdown":false,"end_date":"","end_time":"","show_timer_labels":true,"timer_expiry_action":"leave_at_zero","link":"\/","button_label":""}},"offer_fAifFK":{"type":"offer","settings":{"image":"shopify:\/\/shop_images\/Jewellery_Sets_efd1063e-5ef8-42ab-b20a-7781c3c09f77.png","image_position":"above","title":"Upto 20% Off Jewellery Sets","description":"<p>Provide additional details about the offer you're running.<\/p>","discount_code":"","show_countdown":false,"end_date":"","end_time":"","show_timer_labels":true,"timer_expiry_action":"leave_at_zero","link":"shopify:\/\/collections\/jewellery-sets","button_label":"Shop now"}}},"block_order":["offer-0","offer_4xNYhH","offer_fAifFK"],"settings":{"show_icon":true,"title":"Our Promotions","description":"","override_heading_font_size":false,"heading_font_size":24,"empty_message":"There are currently no active offers, but check back soon for new deals!","suggested_collections":["jewellery-sets"],"buttons_style":"filled"}},"video_popup_7NUUqh":{"type":"video-popup","disabled":true,"settings":{"url":"","video_alt_text":"","shape":"circle","size":"medium","expanded_video_shape":"circle","expanded_video_size":"medium","enable_test_mode":false,"link":"\/","button_label":"Learn more about us","color_scheme":"dark","override_button_colors":true,"button_background_color":"#f9f9fb","button_text_color":"#242424","show_on":"all_pages","show_on_exit_intent":false,"show_after":5,"frequency":30,"disable_for_account_holders":true,"desktop_position":"bottom_left"}}},"order":["offers-drawer","video_popup_7NUUqh"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "custom.overlay",
+  "name": "Overlay",
+  "sections": {
+    "offers-drawer": {
+      "type": "offers-drawer",
+      "blocks": {
+        "offer-0": {
+          "type": "offer",
+          "settings": {
+            "image_position": "left",
+            "title": "10% off fine jewellery",
+            "description": "<p>Join our newsletter today and receive a special <strong>10% discount code </strong>for your next purchase.</p>",
+            "discount_code": "",
+            "show_countdown": false,
+            "end_date": "",
+            "end_time": "",
+            "show_timer_labels": false,
+            "timer_expiry_action": "leave_at_zero",
+            "link": "shopify://pages/newsletter-sign-up",
+            "button_label": "Sign Up"
+          }
+        },
+        "offer_4xNYhH": {
+          "type": "offer",
+          "settings": {
+            "image_position": "left",
+            "title": "£200 off - Harper",
+            "description": "<p>Our ring of the week this week is the Harper ring with a salt and pepper diamond.<br/><br/><em>Was £2990 now £2790</em></p>",
+            "discount_code": "",
+            "show_countdown": false,
+            "end_date": "",
+            "end_time": "",
+            "show_timer_labels": true,
+            "timer_expiry_action": "leave_at_zero",
+            "link": "/",
+            "button_label": ""
+          }
+        },
+        "offer_fAifFK": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify://shop_images/Jewellery_Sets_efd1063e-5ef8-42ab-b20a-7781c3c09f77.png",
+            "image_position": "above",
+            "title": "Upto 20% Off Jewellery Sets",
+            "description": "<p>Provide additional details about the offer you're running.</p>",
+            "discount_code": "",
+            "show_countdown": false,
+            "end_date": "",
+            "end_time": "",
+            "show_timer_labels": true,
+            "timer_expiry_action": "leave_at_zero",
+            "link": "shopify://collections/jewellery-sets",
+            "button_label": "Shop now"
+          }
+        }
+      },
+      "block_order": [
+        "offer-0",
+        "offer_4xNYhH",
+        "offer_fAifFK"
+      ],
+      "settings": {
+        "show_icon": true,
+        "title": "Our Promotions",
+        "description": "",
+        "override_heading_font_size": false,
+        "heading_font_size": 24,
+        "empty_message": "There are currently no active offers, but check back soon for new deals!",
+        "suggested_collections": [
+          "jewellery-sets"
+        ],
+        "buttons_style": "filled"
+      }
+    },
+    "video_popup_7NUUqh": {
+      "type": "video-popup",
+      "disabled": true,
+      "settings": {
+        "url": "",
+        "video_alt_text": "",
+        "shape": "circle",
+        "size": "medium",
+        "expanded_video_shape": "circle",
+        "expanded_video_size": "medium",
+        "enable_test_mode": false,
+        "link": "/",
+        "button_label": "Learn more about us",
+        "color_scheme": "dark",
+        "override_button_colors": true,
+        "button_background_color": "#f9f9fb",
+        "button_text_color": "#242424",
+        "show_on": "all_pages",
+        "show_on_exit_intent": false,
+        "show_after": 5,
+        "frequency": 30,
+        "disable_for_account_holders": true,
+        "desktop_position": "bottom_left"
+      }
+    }
+  },
+  "order": [
+    "offers-drawer",
+    "video_popup_7NUUqh"
+  ]
+}
