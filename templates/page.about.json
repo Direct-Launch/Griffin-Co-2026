@@ -15,8 +15,8 @@
       "settings": {
         "image": "shopify://shop_images/Showroom_8.webp",
         "layout": "left",
-        "title": "Our Showroom & Team",
-        "text": "<p><strong>About 64 South Street</strong></p><p></p>",
+        "title": "Our Showroom & The Team",
+        "text": "<p><strong>About 64 South Street</strong></p><p>Visit our showroom at 64 South Street to meet our renowned experts and enjoy a private consultation.<br/><br/>Our Boutique & Showroom is open Tuesday to Saturday and by appointment.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
