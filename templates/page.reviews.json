@@ -1,0 +1,428 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "template_product_info_columns_xgDFLF": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_NVR8j8": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/map.svg",
+            "grid_image_size": "square",
+            "heading": "Visit Us",
+            "text": "<p>Find our showroom in Chichester.</p><p>64 South Street, Chichester, PO19 1EE</p>",
+            "button_link": "https://maps.app.goo.gl/hr1VHw7UVAicUUaG8",
+            "button_text": "Get Directions"
+          }
+        },
+        "image_and_text_bUNrKj": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/mail.svg",
+            "grid_image_size": "square",
+            "heading": "Email",
+            "text": "<p>You can contact any member of our sales and design team via our email inbox. </p>",
+            "button_link": "mailto:contact@griffinfinejewellery.com",
+            "button_text": "contact@griffinfinejewellery.com"
+          }
+        },
+        "image_and_text_eyKxnA": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/phone.svg",
+            "grid_image_size": "natural",
+            "heading": "Phone",
+            "text": "<p>If you need to call us, our phone is available Tue - Sat 9:30am - 5:00pm.</p>",
+            "button_link": "tel:01243 380024",
+            "button_text": "01243 380024"
+          }
+        },
+        "image_and_text_XjaXpx": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/message-circle-check.svg",
+            "grid_image_size": "square",
+            "heading": "Messenger",
+            "text": "<p>You can also use the chat function on our website, or WhatsApp, Facebook & Instagram messenger.</p>",
+            "button_link": "https://www.instagram.com/griffinandcofinejewellery/",
+            "button_text": "@griffinandcofinejewellery"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_NVR8j8",
+        "image_and_text_bUNrKj",
+        "image_and_text_eyKxnA",
+        "image_and_text_XjaXpx"
+      ],
+      "name": "Contact Options",
+      "settings": {
+        "title": "Get in touch.",
+        "description": "<p>How to contact us</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 50,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "consistent",
+        "section_width": "full",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "collage_Jn3TKc": {
+      "type": "collage",
+      "blocks": {
+        "image_MTE3cy": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "heading_size": "h5",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_Lj3cap": {
+          "type": "text",
+          "settings": {
+            "heading": "Book an Appointment",
+            "heading_size": "h5",
+            "heading_size_mobile": "h4-mobile",
+            "text": "There are so many ways to work with us. We've created a Design Your Own tool so you can create your own ring on our website.  <br><br>\n\nAnd if you can't see what you're looking for, you can work with us in-person at our showroom or at your home to create a bespoke ring.",
+            "url": "",
+            "button_label": "Schedule an Appointment Now",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "text_alignment": "left",
+            "background_color": "#004225",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_MTE3cy",
+        "text_Lj3cap"
+      ],
+      "name": "Book an Appointment",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "section_width": "content",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "width_1": "2",
+        "height_1": "3",
+        "width_2": "2",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "057a50d5-3fee-4ea2-a832-2d38f47b959a": {
+      "type": "contact-form",
+      "blocks": {
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-0": {
+          "type": "name_input",
+          "settings": {
+            "required": true,
+            "input_width": "partial"
+          }
+        },
+        "f03adfd7-1474-4f7a-a28a-c0c1430bd42d": {
+          "type": "tel_input",
+          "settings": {
+            "required": false,
+            "input_width": "partial"
+          }
+        },
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-1": {
+          "type": "email_input",
+          "settings": {
+            "required": true,
+            "input_width": "full"
+          }
+        },
+        "dropdown_pQBMTp": {
+          "type": "dropdown",
+          "settings": {
+            "label_text": "What can we help with?",
+            "hint_text": "",
+            "dropdown_options": "Bespoke Design, Repairs, Remodelling, Home Visit, Products, Orders, Other",
+            "required": false,
+            "input_width": "partial"
+          }
+        },
+        "fbb2a872-0770-4f56-913c-b7853e33a9c0": {
+          "type": "custom_input",
+          "settings": {
+            "placeholder": "Order / repair number",
+            "required": false,
+            "input_width": "partial"
+          }
+        },
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-3": {
+          "type": "message_input",
+          "settings": {
+            "required": false,
+            "input_width": "full"
+          }
+        }
+      },
+      "block_order": [
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-0",
+        "f03adfd7-1474-4f7a-a28a-c0c1430bd42d",
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-1",
+        "dropdown_pQBMTp",
+        "fbb2a872-0770-4f56-913c-b7853e33a9c0",
+        "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-3"
+      ],
+      "settings": {
+        "title": "Send Us a Message.",
+        "description": "<p>Ask us anything! We're here to help.</p>",
+        "section_header_alignment": "left",
+        "form_width": "content",
+        "section_padding_top": 60,
+        "section_padding_bottom": 60,
+        "section_color_scheme": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "faq_K3AkYN": {
+      "type": "faq",
+      "blocks": {
+        "tab_content_K3gYWL": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do I need an appointment to visit the showroom?",
+            "open_by_default": false,
+            "text": "<p>You are always welcome to browse our showroom without an appointment. However, if you would like to discuss a bespoke design, view engagement rings, or speak to our repair specialists, we highly recommend booking a consultation to ensure a dedicated jeweller is available to assist you.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_D79G6Y": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How long does a bespoke jewellery commission take?",
+            "open_by_default": false,
+            "text": "<p>A bespoke piece typically takes between 4 to 6 weeks to craft from the moment the final design is approved. This timeline can vary slightly depending on the complexity of the piece and the sourcing of specific gemstones.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_N9dmTB": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you buy old or scrap gold?",
+            "open_by_default": false,
+            "text": "<p>Unfortunately we don't buy gold at Griffin & Co, however we would recommend visiting our sister business, <a href=\"https://www.ebonyjewellery.com/\" target=\"_blank\" title=\"https://www.ebonyjewellery.com/\">Ebony Jewellers </a>who offer competitive rates for your scrap gold, which can be exchanged for cash or used as credit towards a new purchase, repair, or a remodelling project.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_K3gYWL",
+        "tab_content_D79G6Y",
+        "tab_content_N9dmTB"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "title": "Frequently asked questions",
+        "description": "",
+        "section_header_alignment": "center",
+        "faq_icon": "plus_minus",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "slideshow_xVNwDT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_tNwiRe": {
+          "type": "image",
+          "settings": {
+            "title": "",
+            "text": "",
+            "first_button_link": "",
+            "first_button_label": "",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/Interior_3.webp",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": "h1",
+            "desktop-caption-body-text-size": 100,
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": "h2-mobile",
+            "mobile-caption-body-text-size": 100,
+            "caption-text": "#ffffff",
+            "image_overlay": "#000000",
+            "image_overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_tNwiRe"
+      ],
+      "name": "t:sections.image--slideshow.presets.name",
+      "settings": {
+        "desktop_height": "medium",
+        "mobile_height": "extra_large",
+        "slide_navigation_style": "bars",
+        "slide_transition_delay": 5,
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "background_color": "#000000"
+      }
+    },
+    "custom_liquid_gP4nfa": {
+      "type": "custom-liquid",
+      "name": "Reviews",
+      "settings": {
+        "title": "Our Customer Reviews.",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<!-- Start of Judge.me code --> \n  <div class='jdgm-carousel-wrapper'> \n    {% assign jm_metafields = shop.metafields.judgeme %} \n    <div class='jdgm-carousel-title-and-link'> \n      <h4 style=\"text-align: center;\">Rated Excellent</h4>\n      <span class='jdgm-all-reviews-rating-wrapper' href='javascript:void(0)'> \n        <span style='display:block' data-score='{{ jm_metafields.all_reviews_rating }}' class='jdgm-all-reviews-rating' aria-label='{{ jm_metafields.all_reviews_rating }} stars' tabindex='0' role='img'></span> \n\n        <span style='display: block' class='jdgm-carousel-number-of-reviews' data-number-of-reviews='{{ jm_metafields.all_reviews_count }}'> \nfrom {{ shop.metafields.judgeme.all_reviews_count }} reviews </span>\n<br>\n <a href=\"https://griffinfinejewellery.com/pages/reviews\" class=\"dynamic-section-button--sections--27356412215572__map_JBYVn7 btn homepage-featured-box-btn map_section__directions-btn\" target=\"_blank\" data-animate=\"\" data-animate-order=\"5\">\n      \n\n      See All Reviews\n    </a> \n      </span> \n    </div> \n    {{ jm_metafields.featured_carousel }} \n  </div> \n<!-- End of Judge.me code -->\n\n<style>\n.jdgm-line-clamp {\n-webkit-line-clamp: 5 !important;\n}\n</style>",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_JcHCBW": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_8dtVVq": {
+          "type": "text",
+          "settings": {
+            "heading": "Baffin's Lane Car Park",
+            "text": "<p><strong>2 min walk</strong></p><p>The closest option to our showroom. Ideal for quick visits, collections, and shorter consultations.<br/></p>",
+            "button_link": "https://maps.app.goo.gl/xBcirZPkY87GaU9X8",
+            "button_text": "Postcode: PO19 1UA"
+          }
+        },
+        "text_e3MtGb": {
+          "type": "text",
+          "settings": {
+            "heading": "South Pallant Car Park",
+            "text": "<p><strong>3 min walk</strong></p><p>A short walk up South Street. A great alternative if Baffin's Lane is full.</p>",
+            "button_link": "https://maps.app.goo.gl/DEeBAPNMs8s4TrqL9",
+            "button_text": "Postcode: PO19 1SU"
+          }
+        },
+        "text_ggi8Qm": {
+          "type": "text",
+          "settings": {
+            "heading": "Avenue de Chartres",
+            "text": "<p><strong>6 min walk</strong></p><p>A larger multi-storey car park perfect for longer stays if you are planning to spend the day in Chichester.<br/><br/></p>",
+            "button_link": "https://maps.app.goo.gl/f6dTgCL4JJkwGhj96",
+            "button_text": "Postcode: PO19 1EA"
+          }
+        }
+      },
+      "block_order": [
+        "text_8dtVVq",
+        "text_e3MtGb",
+        "text_ggi8Qm"
+      ],
+      "name": "Nearby Parking",
+      "settings": {
+        "title": "Nearby Parking.",
+        "description": "<p>We are conveniently located on South Street in the heart of Chichester. While the street itself is pedestrian-friendly, there are several excellent parking options just a short walk away.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "f9008be2-cc52-4777-becc-c975f680a054": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_address": "Visit us (Appointment Only):Room 1, Cybor House1 Tapton House RoadSheffieldS10 5BYShowroom Opening Times:Wednesday: 1:00pm–8:00pmFriday: 10:00am–5:30pmSaturday: 10:00am–5:30pm",
+        "api_key": "",
+        "layout": "right",
+        "text_alignment": "left",
+        "heading": "Our store",
+        "address": "<p>Visit us (Appointment Only):<br/>Room 1, Cybor House<br/>1 Tapton House Road<br/>Sheffield<br/>S10 5BY</p><p><br/><strong>Showroom opening times</strong><br/>Wednesday: 1:00pm–8:00pm<br/>Friday: 10:00am–5:30pm<br/>Saturday: 10:00am–5:30pm</p>",
+        "button_text": "Get directions",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "template_product_info_columns_xgDFLF",
+    "collage_Jn3TKc",
+    "057a50d5-3fee-4ea2-a832-2d38f47b959a",
+    "faq_K3AkYN",
+    "slideshow_xVNwDT",
+    "custom_liquid_gP4nfa",
+    "template_product_info_columns_JcHCBW",
+    "f9008be2-cc52-4777-becc-c975f680a054"
+  ]
+}
