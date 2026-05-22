@@ -230,6 +230,55 @@
         "include_margins": true
       }
     },
+    "blog_posts_NAQXhh": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_4wEjh8": {
+          "type": "blog",
+          "settings": {
+            "blog": "engagement-stories"
+          }
+        }
+      },
+      "block_order": [
+        "blog_4wEjh8"
+      ],
+      "name": "t:sections.blog-posts.name",
+      "settings": {
+        "title": "They said yes!",
+        "description": "<p>Read our proposal engagement ring stories from our happy customers.</p>",
+        "section_header_alignment": "center",
+        "show_image": true,
+        "image_shape": "natural",
+        "post_limit": 8,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": false,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "grid",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 4,
+        "layout_style_mobile": "grid",
+        "navigation_mobile": "dots",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_78cWpW": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -636,6 +685,7 @@
     "blog_posts_iGBJaJ",
     "rich_text_PW3XpP",
     "1779458612eb4e6252",
+    "blog_posts_NAQXhh",
     "template_product_info_columns_78cWpW",
     "collage_Jn3TKc",
     "057a50d5-3fee-4ea2-a832-2d38f47b959a",
