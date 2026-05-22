@@ -792,7 +792,7 @@
       "settings": {
         "title": "Frequently asked questions About {{ collection.title }}.",
         "description": "<p>Can’t find the answers you'r looking for? Our team is on hand from Tuesday to Saturday, 9:30am - 5pm.</p>",
-        "section_header_alignment": "left",
+        "section_header_alignment": "center",
         "faq_icon": "plus_minus",
         "section_width": "content",
         "section_padding_top": 72,
