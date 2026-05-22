@@ -90,6 +90,55 @@
         "include_margins": true
       }
     },
+    "blog_posts_iGBJaJ": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_M9Yf8b": {
+          "type": "blog",
+          "settings": {
+            "blog": "bespoke-rings"
+          }
+        }
+      },
+      "block_order": [
+        "blog_M9Yf8b"
+      ],
+      "name": "t:sections.blog-posts.name",
+      "settings": {
+        "title": "From the blog",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_image": true,
+        "image_shape": "natural",
+        "post_limit": 4,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": false,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_xgDFLF": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -499,6 +548,7 @@
   "order": [
     "hero_image_with_text_7dWLgW",
     "1779455200bc79dc47",
+    "blog_posts_iGBJaJ",
     "template_product_info_columns_xgDFLF",
     "collage_Jn3TKc",
     "057a50d5-3fee-4ea2-a832-2d38f47b959a",

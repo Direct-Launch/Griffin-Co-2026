@@ -1,6 +1,54 @@
 {{ 'section-content-grid.min.css' | asset_url | stylesheet_tag }}
 {{ 'section-blog-posts.min.css' | asset_url | stylesheet_tag }}
 
+<style>
+  /* Custom Media Override Styles for Metafield Videos/Images */
+  .custom-blog-media-wrapper.has-custom-media .blog-post-card .blog-post-card__image-wrap {
+    display: none !important; /* Hide the theme's default image if custom media exists */
+  }
+  .custom-media-override {
+    margin-bottom: 12px;
+  }
+  .custom-media-override .blog-post-card__image {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-color: #f4f4f4;
+  }
+  .custom-media-override video, 
+  .custom-media-override img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    display: block;
+  }
+  /* Enforce aspect ratios on custom media */
+  .custom-media-override .blog-post-card__image--aspect-ratio--tall { aspect-ratio: 2 / 3; }
+  .custom-media-override .blog-post-card__image--aspect-ratio--wide { aspect-ratio: 4 / 3; }
+  .custom-media-override .blog-post-card__image--aspect-ratio--square { aspect-ratio: 1 / 1; }
+  .custom-media-override .blog-post-card__image--aspect-ratio--circle { aspect-ratio: 1 / 1; border-radius: 50%; }
+  
+  .ai-blog-video-control-btn {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  .ai-blog-video-control-btn:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+</style>
+
 {%-  liquid
   if section.settings.section_width == 'content'
     assign content_width = true
@@ -65,9 +113,9 @@
 {% endif %}
 
 <div
-	class="content-grid--{{ section.id }} blog-posts-section wrapper-spacing--v wrapper-spacing--h content-align--{{ section.settings.section_header_alignment }}{% unless content_width %} color-scheme--{{ section.settings.colors }}{% endunless %}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}"
+  class="content-grid--{{ section.id }} blog-posts-section wrapper-spacing--v wrapper-spacing--h content-align--{{ section.settings.section_header_alignment }}{% unless content_width %} color-scheme--{{ section.settings.colors }}{% endunless %}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}"
   data-wetheme-section-type="blog-posts"
-	data-wetheme-section-id="{{ section.id }}"
+  data-wetheme-section-id="{{ section.id }}"
   style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px; --columns-desktop: {{ grid_columns_desktop }}; --columns-mobile: 1; --overlay-pagination-offset: 0px;"
 >
   <div {% if content_width %}class="width--content{% unless background_matches %} wrapper-spacing--v--content wrapper-spacing--h--content{% endunless %} color-scheme--{{ section.settings.colors }}"{% endif %}>
@@ -127,6 +175,9 @@
                     assign blog_post_handle = posts_block.settings[blog_post_setting_id]
                     assign blog_post = articles[blog_post_handle]
                   endif
+                  
+                  assign slider_video = blog_post.metafields.custom.slider_video.value
+                  assign article_image = blog_post.metafields.custom.image.value | default: blog_post.metafields.custom.image
                 -%}
 
                 <div
@@ -145,25 +196,59 @@
                   {% endif %}
                   {{ posts_block.shopify_attributes }}
                 >
-                  {% render 'blog-post-card',
-                    post: blog_post,
-                    show_date: section.settings.blog_show_date,
-                    show_image: section.settings.show_image,
-                    show_excerpt: section.settings.show_excerpt,
-                    show_read_more: section.settings.show_read_more,
-                    image_shape: section.settings.image_shape,
-                    show_tags: section.settings.show_tags,
-                    heading_font: section.settings.heading_font,
-                    heading_font_size: section.settings.heading_font_size,
-                    heading_font_size_mobile: section.settings.heading_font_size_mobile,
-                    body_font_size: section.settings.body_font_size,
-                    alignment: section.settings.alignment,
-                    show_author: section.settings.show_author,
-                    show_reading_time: section.settings.show_reading_time,
-                    show_comment_count: section.settings.show_comment_count,
-                    button_style: section.settings.buttons_style,
-                    button_id: section.id
-                  %}
+                  
+                  <div class="custom-blog-media-wrapper {% if slider_video != blank or article_image != blank %}has-custom-media{% endif %}">
+                    {% if slider_video != blank or article_image != blank %}
+                      <div class="blog-post-card__image-wrap custom-media-override" style="position: relative;">
+                        <a href="{{ blog_post.url }}" style="display: block;">
+                          <div class="blog-post-card__image blog-post-card__image--aspect-ratio--{{ section.settings.image_shape }}">
+                            {% if slider_video != blank %}
+                              <video playsinline autoplay muted loop preload="metadata" webkit-playsinline data-video>
+                                {% for source in slider_video.sources %}
+                                  <source src="{{ source.url }}" type="{{ source.mime_type }}">
+                                {% endfor %}
+                              </video>
+                            {% elsif article_image != blank %}
+                              <img src="{{ article_image | image_url: width: 800 }}" alt="{{ article_image.alt | escape }}" loading="lazy">
+                            {% endif %}
+                          </div>
+                        </a>
+                        {% if slider_video != blank %}
+                          <div class="ai-blog-video-controls" style="position: absolute; bottom: 10px; right: 10px; display: flex; gap: 8px; z-index: 2;">
+                            <button class="ai-blog-video-control-btn" data-play-pause aria-label="Play/Pause video">
+                              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-pause-icon><rect x="6" y="4" width="4" height="16"></rect><rect x="14" y="4" width="4" height="16"></rect></svg>
+                              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" data-play-icon style="display: none;"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                            </button>
+                            <button class="ai-blog-video-control-btn" data-mute-unmute aria-label="Mute/Unmute video">
+                              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-mute-icon><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><line x1="23" y1="9" x2="17" y2="15"></line><line x1="17" y1="9" x2="23" y2="15"></line></svg>
+                              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-unmute-icon style="display: none;"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+                            </button>
+                          </div>
+                        {% endif %}
+                      </div>
+                    {% endif %}
+
+                    {% render 'blog-post-card',
+                      post: blog_post,
+                      show_date: section.settings.blog_show_date,
+                      show_image: section.settings.show_image,
+                      show_excerpt: section.settings.show_excerpt,
+                      show_read_more: section.settings.show_read_more,
+                      image_shape: section.settings.image_shape,
+                      show_tags: section.settings.show_tags,
+                      heading_font: section.settings.heading_font,
+                      heading_font_size: section.settings.heading_font_size,
+                      heading_font_size_mobile: section.settings.heading_font_size_mobile,
+                      body_font_size: section.settings.body_font_size,
+                      alignment: section.settings.alignment,
+                      show_author: section.settings.show_author,
+                      show_reading_time: section.settings.show_reading_time,
+                      show_comment_count: section.settings.show_comment_count,
+                      button_style: section.settings.buttons_style,
+                      button_id: section.id
+                    %}
+                  </div>
+
                 </div>
               {% endfor %}
             </div>
@@ -178,12 +263,77 @@
   </div>
 </div>
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const section = document.querySelector('[data-wetheme-section-id="{{ section.id }}"]');
+    if (!section) return;
+
+    // Autoplay logic safely initializing
+    const videos = section.querySelectorAll('[data-video]');
+    videos.forEach(video => {
+      video.muted = true;
+      const playPromise = video.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(e => console.log('Autoplay prevented', e));
+      }
+    });
+
+    // Control logic
+    const wrappers = section.querySelectorAll('.custom-blog-media-wrapper');
+    wrappers.forEach(wrapper => {
+      const video = wrapper.querySelector('[data-video]');
+      if (!video) return;
+
+      const playPauseBtn = wrapper.querySelector('[data-play-pause]');
+      const muteUnmuteBtn = wrapper.querySelector('[data-mute-unmute]');
+      const playIcon = wrapper.querySelector('[data-play-icon]');
+      const pauseIcon = wrapper.querySelector('[data-pause-icon]');
+      const muteIcon = wrapper.querySelector('[data-mute-icon]');
+      const unmuteIcon = wrapper.querySelector('[data-unmute-icon]');
+
+      if (playPauseBtn) {
+        playPauseBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (video.paused) {
+            video.play();
+            playIcon.style.display = 'none';
+            pauseIcon.style.display = 'block';
+          } else {
+            video.pause();
+            playIcon.style.display = 'block';
+            pauseIcon.style.display = 'none';
+          }
+        });
+      }
+
+      if (muteUnmuteBtn) {
+        muteUnmuteBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (video.muted) {
+            video.muted = false;
+            muteIcon.style.display = 'none';
+            unmuteIcon.style.display = 'block';
+          } else {
+            video.muted = true;
+            muteIcon.style.display = 'block';
+            unmuteIcon.style.display = 'none';
+          }
+        });
+      }
+    });
+  });
+</script>
+
 {% schema %}
 {
   "name": "t:sections.blog-posts.name",
   "class": "section--blog-posts",
   "max_blocks": 1,
   "settings": [
+    {
+      "type": "paragraph",
+      "content": "Add custom metafields to your blog articles: 'custom.slider_video' (file type) for videos and 'custom.image' for custom thumbnail images. Videos will take priority over images."
+    },
     {
       "type": "header",
       "content": "t:all.Heading"
@@ -385,8 +535,7 @@
           "value": "underlined",
           "label": "t:all.underlined"
         }
-      ],
-      "visible_if": "{{ section.settings.show_read_more }}"
+      ]
     },
     {
       "type": "checkbox",
