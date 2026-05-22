@@ -9,6 +9,34 @@
  */
 {
   "sections": {
+    "hero_image_with_text_7dWLgW": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Cabinets_4.webp",
+        "layout": "left",
+        "title": "Read & Leave Us a Review",
+        "text": "<p><strong>Customer Testimonials</strong></p><p>At Griffin & Co., we are dedicated to providing a memorable and enjoyable shopping experience.<br/></p><p>We value your feedback and are committed to ensuring your complete satisfaction.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h4",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h4-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
     "template_product_info_columns_xgDFLF": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -416,6 +444,7 @@
     }
   },
   "order": [
+    "hero_image_with_text_7dWLgW",
     "template_product_info_columns_xgDFLF",
     "collage_Jn3TKc",
     "057a50d5-3fee-4ea2-a832-2d38f47b959a",
