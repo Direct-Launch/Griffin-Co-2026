@@ -2,7 +2,7 @@
   details.mobile-footer-accordion summary {
     display: flex;
     justify-content: space-between;
-    align-items: left;
+    align-items: center;
     list-style: none;
     cursor: pointer;
   }
@@ -15,11 +15,14 @@
   .footer-accordion-icon {
     transition: transform 0.2s ease;
     display: flex;
-    align-items: left;
+    align-items: center;
   }
-  .detailed-underline {
-  text-align: left;
-}
+  .mobile-footer-accordion-content {
+    text-align: left !important;
+  }
+  .mobile-footer-accordion-content ul {
+    align-items: flex-start !important;
+  }
 </style>
 
 <footer
@@ -88,12 +91,14 @@
                         {% render 'theme-icon', icon: 'chevron_down' %}
                       </span>
                     </summary>
-                    <div style="padding-top: 16px; padding-bottom: 8px;">
+                    <div class="mobile-footer-accordion-content" style="padding-top: 16px; padding-bottom: 8px;">
                       {{ menu_list_html }}
                     </div>
                   </details>
                 {% else %}
-                  {{ menu_list_html }}
+                  <div class="mobile-footer-accordion-content">
+                    {{ menu_list_html }}
+                  </div>
                 {% endif %}
               </div>
 
