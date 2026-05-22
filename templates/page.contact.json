@@ -15,12 +15,12 @@
         "image_and_text_NVR8j8": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/mail.svg",
+            "image": "shopify://shop_images/map.svg",
             "grid_image_size": "square",
-            "heading": "Email",
-            "text": "<p>You can contact any member of our sales and design team via our email inbox. </p>",
-            "button_link": "mailto:contact@griffinfinejewellery.com",
-            "button_text": "contact@griffinfinejewellery.com"
+            "heading": "Visit Us",
+            "text": "<p>64 South Street, Chichester, PO19 1EE</p>",
+            "button_link": "https://maps.app.goo.gl/hr1VHw7UVAicUUaG8",
+            "button_text": "Get Directions"
           }
         },
         "image_and_text_bUNrKj": {
