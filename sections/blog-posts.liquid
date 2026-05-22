@@ -18,14 +18,20 @@
   .custom-media-override video, 
   .custom-media-override img {
     width: 100%; 
-    height: 100%; 
+    height: auto; 
     object-fit: cover;
+    display: block;
+  }
+  /* When a specific shape is selected, absolute position the media to fill the ratio */
+  .custom-media-override .blog-post-card__image:not(.blog-post-card__image--aspect-ratio--natural) video,
+  .custom-media-override .blog-post-card__image:not(.blog-post-card__image--aspect-ratio--natural) img {
     position: absolute; 
     top: 0; 
     left: 0;
-    display: block;
+    height: 100%;
   }
-  /* Enforce aspect ratios on custom media */
+
+  /* Enforce aspect ratios on custom media containers */
   .custom-media-override .blog-post-card__image--aspect-ratio--tall { aspect-ratio: 2 / 3; }
   .custom-media-override .blog-post-card__image--aspect-ratio--wide { aspect-ratio: 4 / 3; }
   .custom-media-override .blog-post-card__image--aspect-ratio--square { aspect-ratio: 1 / 1; }
@@ -211,9 +217,14 @@
                           <div class="blog-post-card__image blog-post-card__image--aspect-ratio--{{ section.settings.image_shape }}">
                             {% if slider_video != blank %}
                               <video playsinline autoplay muted loop preload="metadata" webkit-playsinline data-video>
-                                {% for source in slider_video.sources %}
-                                  <source src="{{ source.url }}" type="{{ source.mime_type }}">
-                                {% endfor %}
+                                {% if slider_video.sources %}
+                                  {% for source in slider_video.sources %}
+                                    <source src="{{ source.url }}" type="{{ source.mime_type }}">
+                                  {% endfor %}
+                                {% else %}
+                                  {% assign video_url = slider_video.url | default: slider_video %}
+                                  <source src="{{ video_url }}" type="video/mp4">
+                                {% endif %}
                               </video>
                             {% elsif article_image != blank %}
                               <img src="{{ article_image | image_url: width: 800 }}" alt="{{ article_image.alt | escape }}" loading="lazy">
