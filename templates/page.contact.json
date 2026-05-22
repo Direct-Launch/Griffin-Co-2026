@@ -278,8 +278,8 @@
             "second_button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
-            "button-background": "#E68819",
-            "button-text": "#FFFFFF",
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
             "image": "shopify://shop_images/Interior_3.webp",
             "text_position": "center_left",
             "desktop-caption-heading-size": "h1",
@@ -387,6 +387,20 @@
         "section_padding_bottom": 0,
         "colors": "white"
       }
+    },
+    "custom_liquid_gP4nfa": {
+      "type": "custom-liquid",
+      "name": "t:sections.advanced-layout--custom-liquid.name",
+      "settings": {
+        "title": "Our Customer Reviews.",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<!-- Start of Judge.me code --> \n  <div class='jdgm-carousel-wrapper'> \n    {% assign jm_metafields = shop.metafields.judgeme %} \n    <div class='jdgm-carousel-title-and-link'> \n      <h4 style=\"text-align: center;\">Rated Excellent</h4>\n      <span class='jdgm-all-reviews-rating-wrapper' href='javascript:void(0)'> \n        <span style='display:block' data-score='{{ jm_metafields.all_reviews_rating }}' class='jdgm-all-reviews-rating' aria-label='{{ jm_metafields.all_reviews_rating }} stars' tabindex='0' role='img'></span> \n\n        <span style='display: block' class='jdgm-carousel-number-of-reviews' data-number-of-reviews='{{ jm_metafields.all_reviews_count }}'> \nfrom {{ shop.metafields.judgeme.all_reviews_count }} reviews </span>\n<br>\n <a href=\"https://griffinfinejewellery.com/pages/reviews\" class=\"dynamic-section-button--sections--27356412215572__map_JBYVn7 btn homepage-featured-box-btn map_section__directions-btn\" target=\"_blank\" data-animate=\"\" data-animate-order=\"5\">\n      \n\n      See All Reviews\n    </a> \n      </span> \n    </div> \n    {{ jm_metafields.featured_carousel }} \n  </div> \n<!-- End of Judge.me code -->\n\n<style>\n.jdgm-line-clamp {\n-webkit-line-clamp: 5 !important;\n}\n</style>",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
     }
   },
   "order": [
@@ -394,6 +408,7 @@
     "collage_Jn3TKc",
     "057a50d5-3fee-4ea2-a832-2d38f47b959a",
     "faq_K3AkYN",
+    "custom_liquid_gP4nfa",
     "slideshow_xVNwDT",
     "template_product_info_columns_JcHCBW",
     "f9008be2-cc52-4777-becc-c975f680a054"
