@@ -63,7 +63,7 @@
             "show_product_name": true,
             "hide_arrows_mobile": true,
             "arrows_position": "sides",
-            "max_width": 1300,
+            "max_width": 1600,
             "corner_styling": "square",
             "header_text_color": "#000000",
             "text_color": "#000000",
@@ -87,7 +87,7 @@
       "settings": {
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "include_margins": false
+        "include_margins": true
       }
     },
     "blog_posts_iGBJaJ": {
