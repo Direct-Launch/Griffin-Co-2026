@@ -113,7 +113,7 @@
         "image_shape": "natural",
         "post_limit": 4,
         "show_tags": false,
-        "blog_show_date": true,
+        "blog_show_date": false,
         "show_author": false,
         "show_reading_time": false,
         "show_comment_count": false,

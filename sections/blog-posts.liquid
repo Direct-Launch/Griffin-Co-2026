@@ -18,24 +18,18 @@
   .custom-media-override video, 
   .custom-media-override img {
     width: 100%; 
-    height: auto; 
+    height: 100%; 
     object-fit: cover;
     display: block;
-  }
-  /* When a specific shape is selected, absolute position the media to fill the ratio */
-  .custom-media-override .blog-post-card__image:not(.blog-post-card__image--aspect-ratio--natural) video,
-  .custom-media-override .blog-post-card__image:not(.blog-post-card__image--aspect-ratio--natural) img {
     position: absolute; 
     top: 0; 
     left: 0;
-    height: 100%;
   }
 
   /* Enforce aspect ratios on custom media containers */
-  .custom-media-override .blog-post-card__image--aspect-ratio--tall { aspect-ratio: 2 / 3; }
-  .custom-media-override .blog-post-card__image--aspect-ratio--wide { aspect-ratio: 4 / 3; }
-  .custom-media-override .blog-post-card__image--aspect-ratio--square { aspect-ratio: 1 / 1; }
-  .custom-media-override .blog-post-card__image--aspect-ratio--circle { aspect-ratio: 1 / 1; border-radius: 50%; }
+  .custom-media-override .custom-ratio--square { aspect-ratio: 1 / 1; }
+  .custom-media-override .custom-ratio--4_3 { aspect-ratio: 4 / 3; }
+  .custom-media-override .custom-ratio--4_5 { aspect-ratio: 4 / 5; }
   
   .ai-blog-video-control-btn {
     width: 36px;
@@ -214,7 +208,7 @@
                     {% if use_custom_media %}
                       <div class="blog-post-card__image-wrap custom-media-override" style="position: relative;">
                         <a href="{{ blog_post.url }}" style="display: block;">
-                          <div class="blog-post-card__image blog-post-card__image--aspect-ratio--{{ section.settings.image_shape }}">
+                          <div class="blog-post-card__image custom-ratio--{{ section.settings.custom_media_ratio }}">
                             {% if slider_video != blank %}
                               <video playsinline autoplay muted loop preload="metadata" webkit-playsinline data-video>
                                 {% if slider_video.sources %}
@@ -392,6 +386,27 @@
           "label": "Custom Metafields (Video/Image)"
         }
       ]
+    },
+    {
+      "type": "select",
+      "id": "custom_media_ratio",
+      "label": "Custom media aspect ratio",
+      "default": "square",
+      "options": [
+        {
+          "value": "square",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "4_3",
+          "label": "Landscape (4:3)"
+        },
+        {
+          "value": "4_5",
+          "label": "Portrait (4:5)"
+        }
+      ],
+      "visible_if": "{{ section.settings.media_source == 'metafields' }}"
     },
     {
       "type": "checkbox",
