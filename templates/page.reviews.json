@@ -87,7 +87,7 @@
       "settings": {
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "include_margins": true
+        "include_margins": false
       }
     },
     "blog_posts_iGBJaJ": {
@@ -341,6 +341,7 @@
         "image_MTE3cy",
         "text_Lj3cap"
       ],
+      "disabled": true,
       "name": "Book an Appointment",
       "settings": {
         "title": "",
@@ -424,6 +425,7 @@
         "fbb2a872-0770-4f56-913c-b7853e33a9c0",
         "template--14753984643142__057a50d5-3fee-4ea2-a832-2d38f47b959a-16788945317184afd8-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Send Us a Message.",
         "description": "<p>Ask us anything! We're here to help.</p>",
@@ -473,6 +475,7 @@
         "tab_content_D79G6Y",
         "tab_content_N9dmTB"
       ],
+      "disabled": true,
       "name": "t:sections.faq.presets.name",
       "settings": {
         "title": "Frequently asked questions",
@@ -517,6 +520,7 @@
       "block_order": [
         "image_tNwiRe"
       ],
+      "disabled": true,
       "name": "t:sections.image--slideshow.presets.name",
       "settings": {
         "desktop_height": "medium",
@@ -531,6 +535,7 @@
     },
     "custom_liquid_gP4nfa": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Reviews",
       "settings": {
         "title": "Our Customer Reviews.",
@@ -579,6 +584,7 @@
         "text_e3MtGb",
         "text_ggi8Qm"
       ],
+      "disabled": true,
       "name": "Nearby Parking",
       "settings": {
         "title": "Nearby Parking.",
