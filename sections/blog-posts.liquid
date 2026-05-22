@@ -178,6 +178,13 @@
                   
                   assign slider_video = blog_post.metafields.custom.slider_video.value
                   assign article_image = blog_post.metafields.custom.image.value | default: blog_post.metafields.custom.image
+
+                  assign use_custom_media = false
+                  if section.settings.media_source == 'metafields'
+                    if slider_video != blank or article_image != blank
+                      assign use_custom_media = true
+                    endif
+                  endif
                 -%}
 
                 <div
@@ -197,8 +204,8 @@
                   {{ posts_block.shopify_attributes }}
                 >
                   
-                  <div class="custom-blog-media-wrapper {% if slider_video != blank or article_image != blank %}has-custom-media{% endif %}">
-                    {% if slider_video != blank or article_image != blank %}
+                  <div class="custom-blog-media-wrapper {% if use_custom_media %}has-custom-media{% endif %}">
+                    {% if use_custom_media %}
                       <div class="blog-post-card__image-wrap custom-media-override" style="position: relative;">
                         <a href="{{ blog_post.url }}" style="display: block;">
                           <div class="blog-post-card__image blog-post-card__image--aspect-ratio--{{ section.settings.image_shape }}">
@@ -358,6 +365,22 @@
     {
       "type": "header",
       "content": "t:all.Image"
+    },
+    {
+      "type": "select",
+      "id": "media_source",
+      "label": "Media source",
+      "default": "metafields",
+      "options": [
+        {
+          "value": "original",
+          "label": "Original thumbnail"
+        },
+        {
+          "value": "metafields",
+          "label": "Custom Metafields (Video/Image)"
+        }
+      ]
     },
     {
       "type": "checkbox",
