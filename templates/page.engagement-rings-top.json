@@ -255,7 +255,7 @@
         "text_position_mobile": "bottom_left",
         "buttons_style": "filled",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section_width": "full",
         "remove_spacing": false,
@@ -286,7 +286,7 @@
         "highlight_open_close_icon": "plus_minus",
         "highlight_button_borders": false,
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "show_view_all": false,
         "button_position": "below_products",
@@ -301,95 +301,16 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_J4Dp7X": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_MjRteG": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_qEjR3A": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_7TJTdw": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_FJRnj7": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_MjRteG",
-        "image_and_text_qEjR3A",
-        "image_and_text_7TJTdw",
-        "image_and_text_FJRnj7"
-      ],
-      "name": "t:sections.template--product--info-columns.presets.name",
-      "settings": {
-        "title": "Info columns",
-        "description": "<p>Emphasise your messaging</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#E68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "peek",
-        "columns_per_row_mobile": "1",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "template_product_info_columns_bqDXjC": {
       "type": "template--product--info-columns",
       "blocks": {
         "image_and_text_a8i7yL": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
             "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "heading": "Book a Chichester Consultation.",
+            "text": "<p>For those who prefer a tactile experience, join us in our <strong>Chichester</strong> showroom (or request a Private Home Visit). Sit down with our master goldsmiths, view diamonds under magnification, and sketch your design over a glass of champagne.</p>",
             "button_link": "",
             "button_text": "Learn more"
           }
@@ -397,9 +318,10 @@
         "image_and_text_f8wUpF": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
             "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "heading": "Design Your Ring Online.",
+            "text": "<p>Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen. Select your ideal GIA-certified diamond, choose your setting, and watch your future heirloom come to life in breathtaking 3D detail.</p>",
             "button_link": "",
             "button_text": "Learn more"
           }
@@ -418,8 +340,9 @@
         "override_border_radius": false,
         "buttons_style": "underlined",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
         "hover_navigation_desktop": "left-and-right",
         "columns_per_row": 2,
         "vertical_alignment": "top",
@@ -571,6 +494,7 @@
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
         "hover_navigation_desktop": "left-and-right",
         "columns_per_row": 4,
         "vertical_alignment": "top",
@@ -627,7 +551,7 @@
       "block_order": [
         "blog_MNjAkY"
       ],
-      "name": "t:sections.blog-posts.name",
+      "name": "Examples of Bespoke Rings",
       "settings": {
         "title": "Examples of our Bespoke Rings.",
         "description": "<p>Our Design Portfolio of Rings</p>",
@@ -651,7 +575,7 @@
         "alignment": "left",
         "buttons_style": "underlined",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "layout_style_desktop": "slider",
         "hover_navigation_desktop": "left-and-right",
@@ -660,74 +584,6 @@
         "layout_style_mobile": "slider",
         "navigation_mobile": "dots",
         "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "template_product_info_columns_yMVLqX": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_cTwq7e": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp",
-            "grid_image_size": "natural",
-            "heading": "Solitaire",
-            "text": "<p>Timeless elegance, defined by a single, breathtaking stone</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_rAeFfx": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Trilogy_a9103382-4c75-46a1-bfa6-8bdd4ffbd193.webp",
-            "grid_image_size": "natural",
-            "heading": "Three-Stone",
-            "text": "<p>Representing your past, present, and future together.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_8L6D3t": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Halo_56c53608-703d-48ea-839b-9d7c53ad11c4.avif",
-            "grid_image_size": "natural",
-            "heading": "Halo",
-            "text": "<p>A dazzling frame of diamonds to amplify your center stone's brilliance.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_cTwq7e",
-        "image_and_text_rAeFfx",
-        "image_and_text_8L6D3t"
-      ],
-      "name": "t:sections.template--product--info-columns.presets.name",
-      "settings": {
-        "title": "Popular Engagement Ring Styles.",
-        "description": "<p>Emphasise your messaging</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "peek",
-        "columns_per_row_mobile": "1",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
@@ -816,6 +672,204 @@
         "include_margins": true
       }
     },
+    "template_product_info_columns_yMVLqX": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_cTwq7e": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp",
+            "grid_image_size": "natural",
+            "heading": "Solitaire",
+            "text": "<p>Timeless elegance, defined by a single, breathtaking stone</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_rAeFfx": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Trilogy_a9103382-4c75-46a1-bfa6-8bdd4ffbd193.webp",
+            "grid_image_size": "natural",
+            "heading": "Three-Stone",
+            "text": "<p>Representing your past, present, and future together.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_8L6D3t": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Halo_56c53608-703d-48ea-839b-9d7c53ad11c4.avif",
+            "grid_image_size": "natural",
+            "heading": "Halo",
+            "text": "<p>A dazzling frame of diamonds to amplify your center stone's brilliance.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_cTwq7e",
+        "image_and_text_rAeFfx",
+        "image_and_text_8L6D3t"
+      ],
+      "name": "t:sections.template--product--info-columns.presets.name",
+      "settings": {
+        "title": "Popular Engagement Ring Styles.",
+        "description": "<p>Emphasise your messaging</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 75,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_J4Dp7X": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_MjRteG": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
+            "grid_image_size": "square",
+            "heading": "Round Brilliant",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_qEjR3A": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
+            "grid_image_size": "square",
+            "heading": "Round Brilliant",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_7TJTdw": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
+            "grid_image_size": "square",
+            "heading": "Round Brilliant",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_FJRnj7": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
+            "grid_image_size": "square",
+            "heading": "Round Brilliant",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_LEH8dL": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
+            "grid_image_size": "square",
+            "heading": "Round Brilliant",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_83BzPq": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
+            "grid_image_size": "square",
+            "heading": "Round Brilliant",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_WrjBJP": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
+            "grid_image_size": "square",
+            "heading": "Round Brilliant",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_GP7JkH": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
+            "grid_image_size": "square",
+            "heading": "Round Brilliant",
+            "text": "",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_MjRteG",
+        "image_and_text_qEjR3A",
+        "image_and_text_7TJTdw",
+        "image_and_text_FJRnj7",
+        "image_and_text_LEH8dL",
+        "image_and_text_83BzPq",
+        "image_and_text_WrjBJP",
+        "image_and_text_GP7JkH"
+      ],
+      "name": "Diamond Cuts",
+      "settings": {
+        "title": "Explore Diamonds by Shape.",
+        "description": "<p>Emphasise your messaging</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 75,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 9,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "blog_posts_BVWqKG": {
       "type": "blog-posts",
       "blocks": {
@@ -853,7 +907,7 @@
         "alignment": "left",
         "buttons_style": "underlined",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "layout_style_desktop": "grid",
         "hover_navigation_desktop": "left-and-right",
@@ -954,15 +1008,15 @@
     "rich_text_ManT8J",
     "gallery_slideshow_YDbVni",
     "featured_collection_bictmq",
-    "template_product_info_columns_J4Dp7X",
     "template_product_info_columns_bqDXjC",
     "collage_pBk4bc",
     "template_product_info_columns_ARxq4X",
     "custom_html_zbhNGz",
     "blog_posts_RHqVAD",
-    "template_product_info_columns_yMVLqX",
     "1780059503e4e28014",
     "17787619721046fdd6",
+    "template_product_info_columns_yMVLqX",
+    "template_product_info_columns_J4Dp7X",
     "blog_posts_BVWqKG",
     "faq_with_image_m73Xra"
   ]
