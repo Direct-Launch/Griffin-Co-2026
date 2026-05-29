@@ -367,7 +367,7 @@
         "text_position_desktop": "left",
         "text_alignment_desktop": "left",
         "caption_width_desktop": 50,
-        "height_mobile": "original",
+        "height_mobile": "100vh",
         "text_position_mobile": "center",
         "text_alignment_mobile": "center",
         "section_link": "",
@@ -393,12 +393,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         },
         "image_gnxx8p": {
@@ -410,12 +410,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         },
         "image_bP9AQP": {
@@ -427,12 +427,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         },
         "image_xhYymq": {
@@ -444,12 +444,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         }
       },
@@ -487,12 +487,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         },
         "image_G34cz3": {
@@ -504,12 +504,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         },
         "image_zaP8Dh": {
@@ -521,12 +521,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         },
         "image_gKMpP4": {
@@ -538,12 +538,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         }
       },
@@ -581,12 +581,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         },
         "image_KDieaa": {
@@ -598,12 +598,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         },
         "image_MHccpc": {
@@ -615,12 +615,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         },
         "image_DKW96X": {
@@ -632,12 +632,12 @@
             "title": "",
             "overlay-btn-text": "",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff",
             "show-gradient-overlay": false,
             "overlay_color": "#242424",
             "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
+            "overlay_font_color": "#ffffff"
           }
         }
       },
