@@ -312,96 +312,55 @@
             "heading": "Round Brilliant",
             "text": "",
             "button_link": "",
-            "button_text": "Learn more"
+            "button_text": ""
           }
         },
-        "image_and_text_JgR34V": {
+        "image_and_text_qEjR3A": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
             "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "heading": "Round Brilliant",
+            "text": "",
             "button_link": "",
-            "button_text": "Learn more"
+            "button_text": ""
           }
         },
-        "image_and_text_MMrrcX": {
+        "image_and_text_7TJTdw": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
             "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "heading": "Round Brilliant",
+            "text": "",
             "button_link": "",
-            "button_text": "Learn more"
+            "button_text": ""
           }
         },
-        "image_and_text_L36UMB": {
+        "image_and_text_FJRnj7": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
             "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "heading": "Round Brilliant",
+            "text": "",
             "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_eemCfp": {
-          "type": "image_and_text",
-          "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_k4dyTa": {
-          "type": "image_and_text",
-          "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_gfFQGj": {
-          "type": "image_and_text",
-          "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_YMpTzh": {
-          "type": "image_and_text",
-          "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
+            "button_text": ""
           }
         }
       },
       "block_order": [
         "image_and_text_MjRteG",
-        "image_and_text_JgR34V",
-        "image_and_text_MMrrcX",
-        "image_and_text_L36UMB",
-        "image_and_text_eemCfp",
-        "image_and_text_k4dyTa",
-        "image_and_text_gfFQGj",
-        "image_and_text_YMpTzh"
+        "image_and_text_qEjR3A",
+        "image_and_text_7TJTdw",
+        "image_and_text_FJRnj7"
       ],
       "name": "t:sections.template--product--info-columns.presets.name",
       "settings": {
         "title": "Info columns",
         "description": "<p>Emphasise your messaging</p>",
         "section_header_alignment": "center",
-        "maximum_width": 500,
+        "maximum_width": 75,
         "override_border_radius": false,
         "buttons_style": "underlined",
         "override_button_colors": false,
