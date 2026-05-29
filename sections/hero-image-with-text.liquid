@@ -29,7 +29,7 @@
 %}
 
 <div
-  class="wrapper-spacing--v{% unless section_width == 'full' %} wrapper-spacing--h{% endunless %} {% unless section_width == 'content' %}{{ color_scheme }}{% endunless %} image-with-text__container{% unless section.settings.text_overlapping_image %} feature-row--no-overlapping{% else %} feature-row--overlapping{% endunless %}"
+  class="wrapper-spacing--v{% unless section_width == 'full' %} wrapper-spacing--h{% endunless %} {% unless section_width == 'content' %}{{ color_scheme }}{% endunless %} image-with-text__container{% unless section.settings.text_overlapping_image %} feature-row--no-overlapping{% else %} feature-row--overlapping{% endunless %}{% unless section.settings.show_image_mobile %} hide-image-on-mobile{% endunless %}"
   data-wetheme-section-type="image--image-with-text" 
   data-wetheme-section-id="{{ section.id }}"
   style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
@@ -63,7 +63,7 @@
       {{ image_layout }}
 
       <div class="feature_row__image_wrapper{% if section.settings.text_overlapping_image %} homepage-featured-content-box{% else %} medium--one-half large--one-half{% endif %}">
-        {% if section.settings.title != blank or section.settings.text != blank or section.settings.button_label != blank %}
+        {% if section.settings.title != blank or section.settings.text != blank or section.settings.button_label_1 != blank or section.settings.button_label_2 != blank %}
 
           {% unless section.settings.text_overlapping_image %}
             <div class="no-overlap-content-box">
@@ -85,30 +85,64 @@
                 {% assign animation_order = animation_order | plus: 1 %}
               {% endif %}
 
-              {% if section.settings.button_label != blank %}
-                {% if section.settings.override_button_colors %}
-                  {% render 'button-color-overrides',
-                    id: section.id,
-                    style: section.settings.buttons_style,
-                    text_color: section.settings.button_text_color,
-                    background_color: section.settings.button_background_color
-                  %}
-                {% endif %}
+              {% if section.settings.button_label_1 != blank or section.settings.button_label_2 != blank %}
+                <div class="hero-buttons-wrapper">
+                  
+                  {% if section.settings.button_label_1 != blank %}
+                    {% assign btn1_id = section.id | append: '-btn-1' %}
+                    {% if section.settings.override_button_colors_1 %}
+                      {% render 'button-color-overrides',
+                        id: btn1_id,
+                        style: section.settings.buttons_style_1,
+                        text_color: section.settings.button_text_color_1,
+                        background_color: section.settings.button_background_color_1
+                      %}
+                    {% endif %}
 
-                {% capture button_attr %}
-                  data-animate
-                  data-animate-order="{{ animation_order | plus: animation_offset }}"
-                {% endcapture %}
-                
-                {% render 'dynamic-section-button',
-                  id: section.id,
-                  link: section.settings.button_link,
-                  label: section.settings.button_label,
-                  style: section.settings.buttons_style,
-                  div_classes: 'clearfix',
-                  a_classes: 'homepage-featured-box-btn',
-                  attributes: button_attr
-                %}
+                    {% capture button_attr_1 %}
+                      data-animate
+                      data-animate-order="{{ animation_order | plus: animation_offset }}"
+                    {% endcapture %}
+                    
+                    {% render 'dynamic-section-button',
+                      id: btn1_id,
+                      link: section.settings.button_link_1,
+                      label: section.settings.button_label_1,
+                      style: section.settings.buttons_style_1,
+                      div_classes: 'clearfix',
+                      a_classes: 'homepage-featured-box-btn',
+                      attributes: button_attr_1
+                    %}
+                  {% endif %}
+
+                  {% if section.settings.button_label_2 != blank %}
+                    {% assign btn2_id = section.id | append: '-btn-2' %}
+                    {% if section.settings.override_button_colors_2 %}
+                      {% render 'button-color-overrides',
+                        id: btn2_id,
+                        style: section.settings.buttons_style_2,
+                        text_color: section.settings.button_text_color_2,
+                        background_color: section.settings.button_background_color_2
+                      %}
+                    {% endif %}
+
+                    {% capture button_attr_2 %}
+                      data-animate
+                      data-animate-order="{{ animation_order | plus: animation_offset }}"
+                    {% endcapture %}
+                    
+                    {% render 'dynamic-section-button',
+                      id: btn2_id,
+                      link: section.settings.button_link_2,
+                      label: section.settings.button_label_2,
+                      style: section.settings.buttons_style_2,
+                      div_classes: 'clearfix',
+                      a_classes: 'homepage-featured-box-btn',
+                      attributes: button_attr_2
+                    %}
+                  {% endif %}
+                  
+                </div>
               {% endif %}
 
             </div>
@@ -283,21 +317,21 @@
     },
     {
       "type": "header",
-      "content": "t:all.Button"
+      "content": "Button 1"
     },
     {
       "type": "url",
-      "id": "button_link",
+      "id": "button_link_1",
       "label": "t:all.Button_link"
     },
     {
       "type": "text",
-      "id": "button_label",
+      "id": "button_label_1",
       "label": "t:all.Button_label"
     },
     {
       "type": "select",
-      "id": "buttons_style",
+      "id": "buttons_style_1",
       "label": "t:all.button_style",
       "default": "filled",
       "options": [
@@ -317,25 +351,81 @@
     },
     {
       "type": "checkbox",
-      "id": "override_button_colors",
+      "id": "override_button_colors_1",
       "label": "t:all.Button_color_override",
       "default": false,
       "info": "t:all.Button_color_override_info"
     },
     {
       "type": "color",
-      "id": "button_background_color",
+      "id": "button_background_color_1",
       "label": "t:all.Primary_color",
       "default": "#E68819",
-      "visible_if": "{{ section.settings.override_button_colors }}"
+      "visible_if": "{{ section.settings.override_button_colors_1 }}"
     },
     {
       "type": "color",
-      "id": "button_text_color",
+      "id": "button_text_color_1",
       "label": "t:all.Secondary_color",
       "default": "#ffffff",
       "info": "t:all.Secondary_button_color_info",
-      "visible_if": "{{ section.settings.override_button_colors }}"
+      "visible_if": "{{ section.settings.override_button_colors_1 }}"
+    },
+    {
+      "type": "header",
+      "content": "Button 2"
+    },
+    {
+      "type": "url",
+      "id": "button_link_2",
+      "label": "t:all.Button_link"
+    },
+    {
+      "type": "text",
+      "id": "button_label_2",
+      "label": "t:all.Button_label"
+    },
+    {
+      "type": "select",
+      "id": "buttons_style_2",
+      "label": "t:all.button_style",
+      "default": "outlined",
+      "options": [
+        {
+          "value": "filled",
+          "label": "t:all.Filled"
+        },
+        {
+          "value": "outlined",
+          "label": "t:all.Outlined"
+        },
+        {
+          "value": "underlined",
+          "label": "t:all.underlined"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "override_button_colors_2",
+      "label": "t:all.Button_color_override",
+      "default": false,
+      "info": "t:all.Button_color_override_info"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color_2",
+      "label": "t:all.Primary_color",
+      "default": "#E68819",
+      "visible_if": "{{ section.settings.override_button_colors_2 }}"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color_2",
+      "label": "t:all.Secondary_color",
+      "default": "#ffffff",
+      "info": "t:all.Secondary_button_color_info",
+      "visible_if": "{{ section.settings.override_button_colors_2 }}"
     },
     {
       "type": "header",
