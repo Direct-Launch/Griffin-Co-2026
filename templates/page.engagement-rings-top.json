@@ -9,26 +9,27 @@
  */
 {
   "sections": {
-    "image_with_text_a9zBUW": {
-      "type": "image-with-text",
-      "name": "Hero Section",
+    "hero_image_with_text_bTYMM7": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
       "settings": {
-        "image": "shopify://shop_images/Book_your_Appointment.jpg",
-        "layout": "left",
-        "title": "Schedule Your Free Consultation.",
-        "text": "<p><strong>Meet an Expert Jeweller in Person<br/></strong></p><p>Ready to create something special? Schedule a free consultation with our expert team in our Chichester showroom. </p><p>We will work closely with you on Bespoke Designs, Remodelling, and Professional Jewellery Repairs.</p>",
-        "text_alignment": "left",
+        "image": "shopify://shop_images/Lab-Grown_Diamond_Engagement_Rings_3be98f9f-b2ba-4d29-9d8d-84ba062a82e5.jpg",
+        "layout": "right",
+        "title": "Hero Image with Text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "text_alignment": "center",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
-        "desktop-heading-size": "h4",
+        "desktop-heading-size": "h3",
         "desktop-text-size": 100,
-        "mobile-heading-size": "h4-mobile",
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
         "button_link": "",
         "button_label": "",
         "buttons_style": "filled",
         "override_button_colors": false,
-        "button_background_color": "#e68819",
+        "button_background_color": "#E68819",
         "button_text_color": "#ffffff",
         "section-width": "full",
         "section_padding_top": 0,
@@ -445,7 +446,7 @@
     }
   },
   "order": [
-    "image_with_text_a9zBUW",
+    "hero_image_with_text_bTYMM7",
     "scrolling_banner_yQGBqH",
     "custom_html_zbhNGz",
     "image_with_text_slideshow_TmyLyE",
