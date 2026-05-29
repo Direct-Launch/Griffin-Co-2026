@@ -40,7 +40,7 @@
         "section-width": "full",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "colors": "accent"
+        "colors": "light"
       }
     },
     "scrolling_banner_yQGBqH": {
@@ -257,11 +257,11 @@
         "override_button_colors": false,
         "button_background_color": "#E68819",
         "button_text_color": "#ffffff",
-        "section_width": "content",
+        "section_width": "full",
         "remove_spacing": false,
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
+        "colors": "accent"
       }
     },
     "featured_collection_bictmq": {
