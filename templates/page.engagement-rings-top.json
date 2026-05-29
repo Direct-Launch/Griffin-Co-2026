@@ -237,10 +237,10 @@
         "image_93DFPn",
         "image_Az4QbM"
       ],
-      "name": "t:sections.gallery-slideshow.name",
+      "name": "Popular Engagement Ring Styles.",
       "settings": {
         "title": "Popular Engagement Ring Styles.",
-        "description": "",
+        "description": "<p>Curated Ready-to-Wear</p>",
         "section_header_alignment": "left",
         "image_shape": "natural",
         "layout_style_desktop": "slider",
@@ -298,6 +298,82 @@
         "products_to_show": 8,
         "grid-desktop": 4,
         "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_J4Dp7X": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_MjRteG": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_JgR34V": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_MMrrcX": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_L36UMB": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_MjRteG",
+        "image_and_text_JgR34V",
+        "image_and_text_MMrrcX",
+        "image_and_text_L36UMB"
+      ],
+      "name": "t:sections.template--product--info-columns.presets.name",
+      "settings": {
+        "title": "Info columns",
+        "description": "<p>Emphasise your messaging</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
         "colors": "white"
       }
     },
@@ -447,6 +523,33 @@
         "text_alignment_mobile": "left",
         "slider_height_mobile": "adaptive",
         "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "custom_html_zbhNGz": {
+      "type": "custom-html",
+      "blocks": {
+        "html_BVWMWX": {
+          "type": "html",
+          "settings": {
+            "code": "<style>.event-list .event-list-item { border-radius: 0px !important;}</style>\n<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery?is_widget=1&amp;view=compact\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
+            "width": "100%",
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "html_BVWMWX"
+      ],
+      "custom_css": [],
+      "name": "t:all.Custom_HTML",
+      "settings": {
+        "title": "Meet An Expert Jewellery In-Person.",
+        "description": "<p>Schedule a Consultation</p>",
+        "section_header_alignment": "center",
+        "section_width": "full-width",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
@@ -603,57 +706,6 @@
         "include_margins": false
       }
     },
-    "blog_posts_BVWqKG": {
-      "type": "blog-posts",
-      "blocks": {
-        "blog_UfTTaA": {
-          "type": "blog",
-          "settings": {
-            "blog": "engagement-stories"
-          }
-        }
-      },
-      "block_order": [
-        "blog_UfTTaA"
-      ],
-      "name": "They Said Yes",
-      "settings": {
-        "title": "They said yes!",
-        "description": "<p>Read our proposal engagement ring stories from our happy customers.</p>",
-        "section_header_alignment": "center",
-        "media_source": "original",
-        "custom_media_ratio": "square",
-        "show_image": true,
-        "image_shape": "natural",
-        "post_limit": 8,
-        "show_tags": false,
-        "blog_show_date": true,
-        "show_author": false,
-        "show_reading_time": true,
-        "show_comment_count": false,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "heading_font": "heading",
-        "heading_font_size": "h5",
-        "heading_font_size_mobile": "h4-mobile",
-        "body_font_size": 200,
-        "alignment": "left",
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#E68819",
-        "button_text_color": "#ffffff",
-        "layout_style_desktop": "grid",
-        "hover_navigation_desktop": "left-and-right",
-        "peek_desktop": true,
-        "images_per_row_desktop": 4,
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "dots",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "17787619721046fdd6": {
       "type": "apps",
       "blocks": {
@@ -705,196 +757,55 @@
         "include_margins": true
       }
     },
-    "custom_html_zbhNGz": {
-      "type": "custom-html",
+    "blog_posts_BVWqKG": {
+      "type": "blog-posts",
       "blocks": {
-        "html_BVWMWX": {
-          "type": "html",
+        "blog_UfTTaA": {
+          "type": "blog",
           "settings": {
-            "code": "<style>.event-list .event-list-item { border-radius: 0px !important;}</style>\n<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery?is_widget=1&amp;view=compact\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
-            "width": "100%",
-            "margin_bottom": 0
+            "blog": "engagement-stories"
           }
         }
       },
       "block_order": [
-        "html_BVWMWX"
+        "blog_UfTTaA"
       ],
-      "custom_css": [],
-      "name": "t:all.Custom_HTML",
+      "name": "They Said Yes",
       "settings": {
-        "title": "",
-        "description": "",
+        "title": "They said yes!",
+        "description": "<p>Read our proposal engagement ring stories from our happy customers.</p>",
         "section_header_alignment": "center",
-        "section_width": "full-width",
+        "media_source": "original",
+        "custom_media_ratio": "square",
+        "show_image": true,
+        "image_shape": "natural",
+        "post_limit": 8,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": false,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "grid",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 4,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "image_with_text_slideshow_TmyLyE": {
-      "type": "image-with-text-slideshow",
-      "blocks": {
-        "image_and_text_FhqHHC": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Bespoke_Experience.jpg",
-            "subheading": "MAKE YOUR DREAM RING A REALITY",
-            "heading": "Bespoke & custom.",
-            "text": "<p>Just like no two rings are ever the same, no two Griffin & Co journeys are ever the same. Whether you visit us in person or build online, we'll help you discover or craft your perfect piece of fine jewellery.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://pages/bespoke-jewellery-designs",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#e68819",
-            "color_button_text": "#ffffff",
-            "media_position_desktop": "left",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "left",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        },
-        "image_and_text_CfHURN": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Repair_Landscape.png",
-            "subheading": "REPAIR YOUR TREASURED JEWELLERY",
-            "heading": "Jewellery Repairs.",
-            "text": "<p>Expert jewellery repair and restoration. Our skilled craftspeople restore damaged, worn, or cherished pieces to their original beauty.<br/><br/>Expert care including ring resizing, claw retipping, cleaning, and chain soldering.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://blogs/guide-jewellery-repair-service/jewellery-repair-service",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#d54828",
-            "color_button_text": "#f1f1ef",
-            "media_position_desktop": "right",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "right",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        },
-        "image_and_text_LnLwqq": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Our_Remodelling_Process.png",
-            "subheading": "REDESIGN FAMILY HEIRLOOMS",
-            "heading": "Remodelling.",
-            "text": "<p>Breathe new life into forgotten jewellery. We reimagine your cherished gold and gemstones into bespoke pieces you'll treasure for years to come.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://pages/jewellery-remodelling-service",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#d54828",
-            "color_button_text": "#f1f1ef",
-            "media_position_desktop": "left",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "left",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        },
-        "image_and_text_Micj7P": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Griffin_Co._Signet_Rings_Window_Display_40a30fd3-aac2-438e-897c-a68aba61cda6.png",
-            "subheading": "FAMILY SIGNETS",
-            "heading": "Signet Rings.",
-            "text": "<p>Craft a timeless family heirloom with bespoke seal engraving, available in solid gold, silver, or platinum. Each piece is personalised to your specifications, creating a treasured keepsake to pass down through generations.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://pages/custom-signet-rings-with-family-crests",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#d54828",
-            "color_button_text": "#f1f1ef",
-            "media_position_desktop": "right",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "right",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        },
-        "image_and_text_4k3yBx": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Wedding_Bands_3.webp",
-            "subheading": "VIEW JEWELLERY FROM HOME",
-            "heading": "Home Visits.",
-            "text": "<p>Bring our jewellery expertise to your doorstep. Enjoy a personalised consultation in the comfort of your own home around Chichester, where our specialists will help you find the perfect pieces tailored to your style and preferences.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://pages/home-visits",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#d54828",
-            "color_button_text": "#f1f1ef",
-            "media_position_desktop": "left",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "left",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_FhqHHC",
-        "image_and_text_CfHURN",
-        "image_and_text_LnLwqq",
-        "image_and_text_Micj7P",
-        "image_and_text_4k3yBx"
-      ],
-      "custom_css": [
-        ".image-with-text-slideshow {margin-top: -250px;}"
-      ],
-      "name": "Services",
-      "settings": {
-        "title": "Expert Services.",
-        "description": "<p>Our relationship with you extends far beyond a purchase. We are here to care for your most treasured possessions for a lifetime.</p>",
-        "section_header_alignment": "center",
-        "heading_font_size_desktop": "h4",
-        "text_font_size_desktop": 100,
-        "heading_font_size_mobile": "h3-mobile",
-        "text_font_size_mobile": 100,
-        "image_size": "medium",
-        "image_shape": "square",
-        "hover_navigation_desktop": "above",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white",
-        "override_navigation_button_colors": false,
-        "button_background_color": "#d54828",
-        "button_text_color": "#f1f1ef"
+        "colors": "accent"
       }
     },
     "faq_with_image_m73Xra": {
@@ -984,15 +895,15 @@
     "rich_text_ManT8J",
     "gallery_slideshow_YDbVni",
     "featured_collection_bictmq",
+    "template_product_info_columns_J4Dp7X",
     "collage_pBk4bc",
     "template_product_info_columns_ARxq4X",
+    "custom_html_zbhNGz",
     "blog_posts_RHqVAD",
     "template_product_info_columns_yMVLqX",
     "1780059503e4e28014",
-    "blog_posts_BVWqKG",
     "17787619721046fdd6",
-    "custom_html_zbhNGz",
-    "image_with_text_slideshow_TmyLyE",
+    "blog_posts_BVWqKG",
     "faq_with_image_m73Xra"
   ]
 }
