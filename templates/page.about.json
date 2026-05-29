@@ -29,7 +29,7 @@
         "button_label": "",
         "buttons_style": "filled",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section-width": "full",
         "section_padding_top": 0,
@@ -69,9 +69,10 @@
         "image_and_text_BiXm8Y": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/1-solid-full.svg",
             "grid_image_size": "square",
-            "heading": "Your Ring, Your Rules",
-            "text": "<p>At Jessica Flinn we do fine jewellery differently, and we encourage you to do so too. Don't get bogged down by tradition, or what the jewellery industry tells you to wear. Choose a gemstone and design that represents who you are as an individual, and find a piece that tells your story.</p>",
+            "heading": "Your Vision, Your Rules",
+            "text": "<p>At Griffin & Co, we do things differently. We are not just retailers; we are makers. When you commission a piece with us, you aren't just buying a product—you are collaborating directly with the artisans to create an individual, enduring legacy that tells your story.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -80,8 +81,8 @@
           "type": "image_and_text",
           "settings": {
             "grid_image_size": "square",
-            "heading": "Ethical & Traceable",
-            "text": "<p>We believe that the journey of our jewellery from earth to hand should benefit everyone along the way. From the mines and cutting houses to our designers to setters, our process is ethical. We always ensure our supply chain meets our criteria and have even visited our suppliers in India and Sri Lanka to ensure they match our ethical standards.</p>",
+            "heading": "Ethical & Responsible",
+            "text": "<p>We believe that the journey of fine jewellery from earth to hand should benefit everyone along the way. From our in-house casting process to our stringent diamond sourcing, we ensure transparency and sustainability in every step of our manufacturing process.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -90,8 +91,8 @@
           "type": "image_and_text",
           "settings": {
             "grid_image_size": "square",
-            "heading": "Inclusive. Always",
-            "text": "<p>Our motto is simple: whoever you are, whoever you love, and whatever you are celebrating, <em>everyone</em> is welcome at Jessica Flinn. Our commitment extends to people of all backgrounds, including POC, members of the LGBTQIA+ community, those with disabilities, and anyone facing marginalisation.</p>",
+            "heading": "Inclusive & Welcoming",
+            "text": "<p>Our motto is simple: whoever you are, whoever you love, and whatever your budget, you are welcome at Griffin & Co. Fine jewellery should be accessible to all, and we are here to guide you with complete respect and zero intimidation.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -131,8 +132,8 @@
           "type": "image_and_text",
           "settings": {
             "grid_image_size": "square",
-            "heading": "Creating Forever Rings",
-            "text": "<p>Fine jewellery should tell your story for generations to come. We pride ourselves on creating pieces that will stand the test of time. It's for this very reason we only work with the strongest gemstones, and the highest quality metals. </p><p>The way our pieces are designed, cast and set are done so with with longevity in mind. They're called <em>forever rings</em> for this reason.</p>",
+            "heading": "Creating Family Legacies",
+            "text": "<p>Fine jewellery should last generations. We build pieces with longevity in mind, using the finest materials and masterful techniques. Whether crafting a new engagement ring or breathing life into unworn heirlooms, we create pieces designed to endure.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -141,8 +142,8 @@
           "type": "image_and_text",
           "settings": {
             "grid_image_size": "square",
-            "heading": "Supporting British Industry",
-            "text": "<p>As a growing jewellery brand, we could bring production in-house. However, we actively support the British jewellery industry by working with master craftspeople and small family-run businesses.</p><p>Not only does this ensure that each ring passes through the hands of some of the UK's finest jewellers, we're also investing in the future of the industry.</p>",
+            "heading": "In-House Expertise",
+            "text": "<p>As a true maker brand, we handle production in-house. Our team consists of GIA-qualified diamond specialists, master goldsmiths, and skilled CAD designers. Your precious items never leave our premises, ensuring security and unparalleled quality control.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -152,7 +153,7 @@
           "settings": {
             "grid_image_size": "square",
             "heading": "Guiding, Not Selling",
-            "text": "<p>Our role is simple; we're here to help you find or create your perfect ring or piece of fine jewellery. There's no hard selling. We use our knowledge and expertise to guide you on your jewellery journey.</p><p>When you can't find what your searching for, our designers will interpret <em>your</em> brief to create something unique with our <a href=\"/collections/all\" title=\"Made to Order Wedding & Eternity Rings\"><span style=\"text-decoration:underline\">bespoke and custom packages</span></a>. It's an important decision, and one we are here to support. </p>",
+            "text": "<p>Our role is to educate and guide. Whether you are choosing between platinum and gold, or learning about diamond clarity, we provide honest, transparent advice. We are here to empower your choices in a relaxed, no-pressure environment.</p>",
             "button_link": "",
             "button_text": ""
           }
