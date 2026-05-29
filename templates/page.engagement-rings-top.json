@@ -343,13 +343,57 @@
             "button_link": "",
             "button_text": "Learn more"
           }
+        },
+        "image_and_text_eemCfp": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_k4dyTa": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_gfFQGj": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_YMpTzh": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
         }
       },
       "block_order": [
         "image_and_text_MjRteG",
         "image_and_text_JgR34V",
         "image_and_text_MMrrcX",
-        "image_and_text_L36UMB"
+        "image_and_text_L36UMB",
+        "image_and_text_eemCfp",
+        "image_and_text_k4dyTa",
+        "image_and_text_gfFQGj",
+        "image_and_text_YMpTzh"
       ],
       "name": "t:sections.template--product--info-columns.presets.name",
       "settings": {
@@ -543,6 +587,7 @@
       "block_order": [
         "html_BVWMWX"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "t:all.Custom_HTML",
       "settings": {
