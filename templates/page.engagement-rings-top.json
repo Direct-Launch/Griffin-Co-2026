@@ -153,7 +153,7 @@
       ],
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
-        "section_width": "content",
+        "section_width": "full-width",
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
         "section_padding_top": 72,
@@ -270,7 +270,7 @@
       "settings": {
         "title": "Our Newest Engagement Rings.",
         "description": "",
-        "section_header_alignment": "left",
+        "section_header_alignment": "center",
         "collection": "engagement-rings",
         "show_highlight": false,
         "highlight_position": "bottom",
@@ -294,7 +294,7 @@
         "buttons_style": "filled",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "layout_style": "slider",
+        "layout_style": "grid",
         "products_to_show": 8,
         "grid-desktop": 4,
         "grid-mobile": "2",
