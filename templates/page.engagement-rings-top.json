@@ -483,6 +483,57 @@
         "colors": "white"
       }
     },
+    "blog_posts_RHqVAD": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_MNjAkY": {
+          "type": "blog",
+          "settings": {
+            "blog": "bespoke-rings"
+          }
+        }
+      },
+      "block_order": [
+        "blog_MNjAkY"
+      ],
+      "name": "t:sections.blog-posts.name",
+      "settings": {
+        "title": "Examples of our Bespoke Rings",
+        "description": "",
+        "section_header_alignment": "center",
+        "media_source": "metafields",
+        "custom_media_ratio": "square",
+        "show_image": true,
+        "image_shape": "natural",
+        "post_limit": 4,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": false,
+        "show_reading_time": false,
+        "show_comment_count": false,
+        "show_excerpt": false,
+        "show_read_more": false,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "custom_html_zbhNGz": {
       "type": "custom-html",
       "blocks": {
@@ -815,6 +866,7 @@
     "collage_pBk4bc",
     "template_product_info_columns_ARxq4X",
     "template_product_info_columns_yMVLqX",
+    "blog_posts_RHqVAD",
     "custom_html_zbhNGz",
     "image_with_text_slideshow_TmyLyE",
     "17787619721046fdd6",
