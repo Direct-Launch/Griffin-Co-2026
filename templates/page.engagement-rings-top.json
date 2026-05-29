@@ -264,6 +264,77 @@
         "colors": "white"
       }
     },
+    "collage_pBk4bc": {
+      "type": "collage",
+      "blocks": {
+        "image_eqBKhN": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "The Showroom Experience.",
+            "url": "shopify://pages/schedule-an-appointment",
+            "button_label": "Meet Our Jewellery Designers",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_CnFqRb": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Online Builder.",
+            "url": "/",
+            "button_label": "Design Your Jewellery Online",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_eqBKhN",
+        "image_CnFqRb"
+      ],
+      "name": "Showroom & Online Builder",
+      "settings": {
+        "title": "Choose Your Bespoke Experience",
+        "description": "<p>We offer two distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "width_1": "2",
+        "height_1": "2",
+        "width_2": "2",
+        "height_2": "2",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
     "template_product_info_columns_ARxq4X": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -339,60 +410,6 @@
         "text_alignment_mobile": "left",
         "slider_height_mobile": "adaptive",
         "section_width": "content",
-        "section_padding_top": 10,
-        "section_padding_bottom": 60,
-        "colors": "white"
-      }
-    },
-    "template_product_info_columns_mCf4ik": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_YfkMPb": {
-          "type": "image_and_text",
-          "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_NAE6gi": {
-          "type": "image_and_text",
-          "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_YfkMPb",
-        "image_and_text_NAE6gi"
-      ],
-      "name": "t:sections.template--product--info-columns.presets.name",
-      "settings": {
-        "title": "Choose Your Bespoke Experience",
-        "description": "<p>Choose Your Bespoke Experience</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#E68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 2,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "peek",
-        "columns_per_row_mobile": "1",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
@@ -866,8 +883,8 @@
     "scrolling_banner_yQGBqH",
     "rich_text_ManT8J",
     "gallery_slideshow_YDbVni",
+    "collage_pBk4bc",
     "template_product_info_columns_ARxq4X",
-    "template_product_info_columns_mCf4ik",
     "collage_HWrizm",
     "template_product_info_columns_yMVLqX",
     "custom_html_zbhNGz",
