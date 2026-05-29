@@ -180,11 +180,11 @@
         "image_TqAzw3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Solitaire.png",
+            "image": "shopify://shop_images/Three-Stone.png",
             "link": "",
             "button_label": "",
-            "subheading": "Single Stone",
-            "title": "Solitaire Rings",
+            "subheading": "Three-Stone",
+            "title": "Trilogy Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -193,11 +193,11 @@
         "image_UqFNLm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Solitaire.png",
+            "image": "shopify://shop_images/Halo.png",
             "link": "",
             "button_label": "",
-            "subheading": "Single Stone",
-            "title": "Solitaire Rings",
+            "subheading": "Diamond Surround",
+            "title": "Halo Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -206,11 +206,11 @@
         "image_93DFPn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Solitaire.png",
+            "image": "shopify://shop_images/Coloured_Gemstone_Rings_6508f67a-5cdd-4783-9dec-bf5b51577151.png",
             "link": "",
             "button_label": "",
             "subheading": "Single Stone",
-            "title": "Solitaire Rings",
+            "title": "Gemstone Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -307,9 +307,10 @@
         "image_and_text_MjRteG": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
             "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "heading": "Round Brilliant",
+            "text": "",
             "button_link": "",
             "button_text": "Learn more"
           }
@@ -469,13 +470,13 @@
       ],
       "name": "Showroom & Online Builder",
       "settings": {
-        "title": "Choose Your Bespoke Experience",
+        "title": "Want to create something more bespoke?",
         "description": "<p>We offer two distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
         "section_header_alignment": "center",
         "section_width": "full",
         "remove_spacing": true,
         "block_alignment": "center",
-        "section_padding_top": 0,
+        "section_padding_top": 72,
         "section_padding_bottom": 0,
         "width_1": "2",
         "height_1": "2",
@@ -489,7 +490,7 @@
         "height_5": "2",
         "width_6": "1",
         "height_6": "4",
-        "color_scheme": "white"
+        "color_scheme": "accent"
       }
     },
     "template_product_info_columns_ARxq4X": {
