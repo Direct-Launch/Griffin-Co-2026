@@ -197,9 +197,10 @@
         "image_and_text_BXbJA8": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/IMG_8614-10.jpg",
             "subheading": "It all begins with",
-            "heading": "gemstones",
-            "text": "<p>We always begin with the fundamental element of every design: the gemstone. Responsibly sourced from our extensive network of reputable suppliers worldwide, our expertise lies in <a href=\"/collections/all\" title=\"Salt & Pepper Diamond Engagement Rings\">salt and pepper diamonds</a>, <a href=\"/collections/all\" title=\"Lab Grown Diamond Engagement Rings\">lab-grown diamonds</a>, <a href=\"/collections/all\" title=\"Sapphire Engagement Rings\">teal and blue sapphires</a>, as well as an array of vibrant <a href=\"/collections/all\" title=\"Tourmaline Engagement Rings\">tourmalines</a>.</p><p><br/>Each one is assessed and selected by our team to ensure it meets our quality standards and to ensure it's perfect for your forever ring.</p>",
+            "heading": "Master Craftsmanship",
+            "text": "<p>Our approach begins with the fundamental belief that exceptional jewellery requires exceptional skill. Our team of three expert jewellers brings over 60 years of combined experience to the bench right here in Chichester.</p><p>From the initial design sketches to the final polish, our in-house specialists are proficient in every aspect of the process. We bridge traditional hand-skills with modern CAD technology to deliver absolute perfection.</p>",
             "page": "",
             "slide_link": "",
             "first_button_link": "",
