@@ -127,6 +127,7 @@
         "image_and_text_cTwq7e": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp",
             "grid_image_size": "square",
             "heading": "Heading",
             "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
