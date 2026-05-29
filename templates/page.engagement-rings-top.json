@@ -17,7 +17,7 @@
         "layout": "right",
         "title": "Hero Image with Text",
         "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
         "desktop-heading-size": "h3",
