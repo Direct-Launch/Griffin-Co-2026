@@ -36,14 +36,51 @@
   endif
 -%}
 
+<style>
+  /* --- 1. Fix Mobile Text Visibility Bug --- */
+  @media (max-width: 767px) {
+    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] [data-animate] {
+      opacity: 1 !important;
+      visibility: visible !important;
+      transform: none !important;
+      animation: none !important;
+    }
+
+    /* --- 2. Equal Height Slides on Mobile --- */
+    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .swiper-wrapper {
+      align-items: stretch !important;
+    }
+    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .swiper-slide {
+      height: auto !important;
+      display: flex !important;
+      flex-direction: column;
+    }
+    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .image-with-text-slideshow__text-content {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .image-with-text-slideshow__text-content-inner {
+      flex-grow: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .image-with-text-slideshow__buttons {
+      margin-top: auto !important;
+      padding-top: 1.5rem;
+    }
+  }
+</style>
+
 <div
-	class="image-with-text-slideshow wrapper-spacing--v{% if section_width == 'full' %} color-scheme--{{ section.settings.colors }}{% else %} wrapper-spacing--h{% endif %}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}"
+  class="image-with-text-slideshow wrapper-spacing--v{% if section_width == 'full' %} color-scheme--{{ section.settings.colors }}{% else %} wrapper-spacing--h{% endif %}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}"
   data-wetheme-section-type="image-with-text-slideshow"
   data-wetheme-section-id="{{ section.id }}"
   style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
 >
-	<div {% unless section_width == 'full' %}class="width--{{ section_width }}{% unless background_matches %} wrapper-spacing--v--content wrapper-spacing--h--content{% endunless %} color-scheme--{{ section.settings.colors }}"{% endunless %}>
-		{% comment %} Section title and description {% endcomment %}
+  <div {% unless section_width == 'full' %}class="width--{{ section_width }}{% unless background_matches %} wrapper-spacing--v--content wrapper-spacing--h--content{% endunless %} color-scheme--{{ section.settings.colors }}"{% endunless %}>
+    {% comment %} Section title and description {% endcomment %}
     {% render 'dynamic-section-header', section_title: section.settings.title, section_description: section.settings.description, alignment: section.settings.section_header_alignment %}
 
     {% if section.blocks.size == 0 %}
@@ -164,7 +201,29 @@
                           --text-color-transparent25: {{ text_color_transparent25 }};
                         }
                       {% endif %}
-                      </style>
+                      
+                      /* --- 3. Custom Alignment Logic --- */
+                      .image-with-text-slideshow__block--{{ block.id }},
+                      .image-with-text-slideshow__block--{{ block.id }} .rte {
+                        text-align: {{ block.settings.text_alignment_mobile }} !important;
+                      }
+                      .image-with-text-slideshow__block--{{ block.id }} .image-with-text-slideshow__buttons {
+                        display: flex;
+                        justify-content: {% if block.settings.text_alignment_mobile == 'left' %}flex-start{% elsif block.settings.text_alignment_mobile == 'right' %}flex-end{% else %}center{% endif %} !important;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                      }
+
+                      @media (min-width: 768px) {
+                        .image-with-text-slideshow__block--{{ block.id }},
+                        .image-with-text-slideshow__block--{{ block.id }} .rte {
+                          text-align: {{ block.settings.text_alignment_desktop }} !important;
+                        }
+                        .image-with-text-slideshow__block--{{ block.id }} .image-with-text-slideshow__buttons {
+                          justify-content: {% if block.settings.text_alignment_desktop == 'left' %}flex-start{% elsif block.settings.text_alignment_desktop == 'right' %}flex-end{% else %}center{% endif %} !important;
+                        }
+                      }
+                  </style>
                   <div class="image-with-text-slideshow__text-content image-with-text-slideshow__block--{{ block.id }} image-with-text-slideshow__desktop-position--{{ block.settings.text_position_desktop }} image-with-text-slideshow__desktop-alignment--{{ block.settings.text_alignment_desktop }} image-with-text-slideshow__mobile-alignment--{{ block.settings.text_alignment_mobile }}">
                     <div class="image-with-text-slideshow__text-content-inner">
                       {% assign animation_order = 1 %}
@@ -294,7 +353,7 @@
         </div>
       </image-with-text-slideshow>
     {% endif %}
-	</div>
+  </div>
 </div>
 
 {% schema %}
