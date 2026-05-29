@@ -36,43 +36,6 @@
   endif
 -%}
 
-<style>
-  /* --- 1. Fix Mobile Text Visibility Bug --- */
-  @media (max-width: 767px) {
-    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] [data-animate] {
-      opacity: 1 !important;
-      visibility: visible !important;
-      transform: none !important;
-      animation: none !important;
-    }
-
-    /* --- 2. Equal Height Slides on Mobile --- */
-    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .swiper-wrapper {
-      align-items: stretch !important;
-    }
-    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .swiper-slide {
-      height: auto !important;
-      display: flex !important;
-      flex-direction: column;
-    }
-    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .image-with-text-slideshow__text-content {
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-    }
-    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .image-with-text-slideshow__text-content-inner {
-      flex-grow: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-    }
-    .image-with-text-slideshow[data-wetheme-section-id="{{ section.id }}"] .image-with-text-slideshow__buttons {
-      margin-top: auto !important;
-      padding-top: 1.5rem;
-    }
-  }
-</style>
-
 <div
   class="image-with-text-slideshow wrapper-spacing--v{% if section_width == 'full' %} color-scheme--{{ section.settings.colors }}{% else %} wrapper-spacing--h{% endif %}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}"
   data-wetheme-section-type="image-with-text-slideshow"
