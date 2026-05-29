@@ -43,7 +43,7 @@
       ],
       "name": "Hero - Slideshow",
       "settings": {
-        "desktop_height": "extra_large",
+        "desktop_height": "full_screen",
         "mobile_height": "full_screen",
         "slide_navigation_style": "arrows",
         "slide_transition_delay": 7,
@@ -1294,6 +1294,9 @@
         "columns_per_row": 4,
         "vertical_alignment": "top",
         "text_alignment": "left",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
         "text_alignment_mobile": "left",
         "slider_height_mobile": "adaptive",
         "section_width": "content",
