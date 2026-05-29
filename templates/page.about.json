@@ -223,9 +223,10 @@
         "image_and_text_7ydVyW": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/DSC06231.jpg",
             "subheading": "Designing and creating",
             "heading": "Our jewellery",
-            "text": "<p>When creating a new design, whether it's for our collections or a bespoke project, we work outwards from the gemstone, taking inspiration from nature, architecture and the art world. From giving tradition a little twist, to throwing the whole rule book of the window, every piece we make is created to stand the test of time and to tell your story for generations.</p>",
+            "text": "<p>Because we operate our own fully-equipped workshop on site, we can offer services that many standard retailers cannot. When you bring us a ring for resizing or a complex antique restoration, it is handled directly by the person you speak with. We cut out the middleman to provide transparent timelines, secure handling, and meticulous attention to detail.</p>",
             "page": "",
             "slide_link": "",
             "first_button_link": "",
