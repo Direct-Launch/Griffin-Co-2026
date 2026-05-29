@@ -128,7 +128,7 @@
           "type": "image_and_text",
           "settings": {
             "image": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp",
-            "grid_image_size": "square",
+            "grid_image_size": "natural",
             "heading": "Heading",
             "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_link": "",
@@ -138,7 +138,8 @@
         "image_and_text_rAeFfx": {
           "type": "image_and_text",
           "settings": {
-            "grid_image_size": "square",
+            "image": "shopify://shop_images/Trilogy_a9103382-4c75-46a1-bfa6-8bdd4ffbd193.webp",
+            "grid_image_size": "natural",
             "heading": "Heading",
             "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_link": "",
@@ -177,7 +178,7 @@
         "title": "Info columns",
         "description": "<p>Emphasise your messaging</p>",
         "section_header_alignment": "center",
-        "maximum_width": 200,
+        "maximum_width": 75,
         "override_border_radius": false,
         "buttons_style": "underlined",
         "override_button_colors": false,
