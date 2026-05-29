@@ -380,25 +380,6 @@
             "overlay_color": "#242424"
           }
         },
-        "image_CnFqRb": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "",
-            "url": "/",
-            "button_label": "",
-            "buttons_style": "underlined",
-            "override_button_colors": true,
-            "button_background_color": "#ffffff",
-            "button_color": "#35382e",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
         "text_K7M3Wz": {
           "type": "text",
           "settings": {
@@ -416,6 +397,25 @@
             "text_alignment": "center",
             "background_color": "#f8f7f2",
             "text_color": "#242424"
+          }
+        },
+        "image_CnFqRb": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "",
+            "url": "/",
+            "button_label": "",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
           }
         },
         "text_H3mRnW": {
@@ -440,8 +440,8 @@
       },
       "block_order": [
         "image_eqBKhN",
-        "image_CnFqRb",
         "text_K7M3Wz",
+        "image_CnFqRb",
         "text_H3mRnW"
       ],
       "name": "Showroom & Online Builder",
