@@ -246,7 +246,7 @@
         "layout_style_desktop": "slider",
         "hover_navigation_desktop": "left-and-right",
         "peek_desktop": true,
-        "images_per_row_desktop": 3,
+        "images_per_row_desktop": 5,
         "text_position_desktop": "bottom_left",
         "show_on_hover": false,
         "layout_style_mobile": "slider",
@@ -261,7 +261,7 @@
         "remove_spacing": false,
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "accent"
+        "colors": "white"
       }
     },
     "featured_collection_bictmq": {
@@ -295,8 +295,8 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "layout_style": "grid",
-        "products_to_show": 8,
-        "grid-desktop": 4,
+        "products_to_show": 9,
+        "grid-desktop": 3,
         "grid-mobile": "2",
         "colors": "white"
       }
@@ -369,9 +369,9 @@
             "heading_size": "h4",
             "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
-            "heading": "The Showroom Experience.",
+            "heading": "",
             "url": "shopify://pages/schedule-an-appointment",
-            "button_label": "Meet Our Jewellery Designers",
+            "button_label": "",
             "buttons_style": "underlined",
             "override_button_colors": true,
             "button_background_color": "#ffffff",
@@ -388,9 +388,9 @@
             "heading_size": "h4",
             "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
-            "heading": "Online Builder.",
+            "heading": "",
             "url": "/",
-            "button_label": "Design Your Jewellery Online",
+            "button_label": "",
             "buttons_style": "underlined",
             "override_button_colors": true,
             "button_background_color": "#ffffff",
@@ -398,11 +398,51 @@
             "text_color": "#ffffff",
             "overlay_color": "#242424"
           }
+        },
+        "text_K7M3Wz": {
+          "type": "text",
+          "settings": {
+            "heading": "Book an In-Person Consultation.",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "For those who prefer a tactile experience, we offer Private Home Visits directly to you in <b>****</b>. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.",
+            "url": "",
+            "button_label": "Request Local Visit",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#242424",
+            "button_color": "#FFFFFF",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "text_alignment": "center",
+            "background_color": "#f8f7f2",
+            "text_color": "#242424"
+          }
+        },
+        "text_H3mRnW": {
+          "type": "text",
+          "settings": {
+            "heading": "Design Your Ring Online.",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen. Select your ideal GIA-certified diamond, choose your setting, and watch your future heirloom come to life in breathtaking 3D detail.",
+            "url": "",
+            "button_label": "Launch 3D Designer",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#242424",
+            "button_color": "#FFFFFF",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "text_alignment": "center",
+            "background_color": "#f8f7f2",
+            "text_color": "#242424"
+          }
         }
       },
       "block_order": [
         "image_eqBKhN",
-        "image_CnFqRb"
+        "image_CnFqRb",
+        "text_K7M3Wz",
+        "text_H3mRnW"
       ],
       "name": "Showroom & Online Builder",
       "settings": {
@@ -418,10 +458,10 @@
         "height_1": "2",
         "width_2": "2",
         "height_2": "2",
-        "width_3": "3",
-        "height_3": "3",
+        "width_3": "2",
+        "height_3": "4",
         "width_4": "2",
-        "height_4": "2",
+        "height_4": "4",
         "width_5": "2",
         "height_5": "2",
         "width_6": "1",
