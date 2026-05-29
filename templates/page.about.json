@@ -706,9 +706,9 @@
         "image_and_text_UiwdiR"
       ],
       "settings": {
-        "title": "",
+        "title": "Our Expertise.",
         "description": "",
-        "section_header_alignment": "center",
+        "section_header_alignment": "right",
         "maximum_width": 50,
         "override_border_radius": false,
         "buttons_style": "underlined",

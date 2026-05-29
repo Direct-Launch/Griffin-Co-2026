@@ -1,5 +1,15 @@
 {{ 'section-product-info-columns.min.css' | asset_url | stylesheet_tag }}
 
+{% liquid 
+  assign layout_mobile = section.settings.layout_style_mobile | default: 'slider'
+  assign disable_mobile_slider = false
+  if layout_mobile == 'grid'
+    assign disable_mobile_slider = true
+  endif
+  
+  assign columns_per_row_mobile = section.settings.columns_per_row_mobile | default: '1'
+%}
+
 {% style %}
   .section-{{ section.id }} .info-cols--slider {
     text-align: {{ section.settings.text_alignment_mobile }};
@@ -10,6 +20,26 @@
       text-align: {{ section.settings.text_alignment }};
     }
   }
+
+  {% if disable_mobile_slider %}
+    @media (max-width: 767px) {
+      .section-{{ section.id }} .info-cols--slider.disable-mobile {
+        overflow: visible !important;
+      }
+      .section-{{ section.id }} .mobile-grid-layout {
+        display: grid !important;
+        grid-template-columns: repeat({{ columns_per_row_mobile }}, 1fr) !important;
+        gap: 40px 15px !important;
+        width: 100% !important;
+        transform: none !important;
+      }
+      .section-{{ section.id }} .mobile-grid-layout .swiper-slide {
+        width: 100% !important;
+        margin: 0 !important;
+        height: auto !important;
+      }
+    }
+  {% endif %}
 {% endstyle %}
 
 {% assign grid_item_id = 'grid-item--' | append: section.id %}
@@ -54,11 +84,17 @@
   <script src="{{ 'component-info-columns.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="info-columns"></script>
 </safe-load-scripts>
 
+{% if layout_mobile == 'slider' or section.blocks.size > section.settings.columns_per_row %}
+  <safe-load-scripts class="hidden">
+    <script src="{{ 'component-content-grid-slider.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="content-grid-slider"></script>
+  </safe-load-scripts>
+{% endif %}
+
 <info-columns
-	class="wrapper-spacing--v wrapper-spacing--h content-align--{{ section.settings.section_header_alignment }}{% if section_width == 'full' %} color-scheme--{{ section.settings.colors }}{% endif %} info-cols section-{{ section.id }}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}{% if section.settings.slider_height_mobile == 'consistent' %} slider-height--consistent{% endif %}"
+  class="wrapper-spacing--v wrapper-spacing--h content-align--{{ section.settings.section_header_alignment }}{% if section_width == 'full' %} color-scheme--{{ section.settings.colors }}{% endif %} info-cols section-{{ section.id }}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}{% if section.settings.slider_height_mobile == 'consistent' %} slider-height--consistent{% endif %}"
   data-wetheme-section-type="template--product--info-columns"
-	data-wetheme-section-id="{{ section.id }}"
-	data-slides-per-row="{{ section.settings.columns_per_row }}"
+  data-wetheme-section-id="{{ section.id }}"
+  data-slides-per-row="{{ section.settings.columns_per_row }}"
   data-grid-spacing="{{ settings.grid_spacing }}"
   data-slider-height-mobile="{{ section.settings.slider_height_mobile }}"
   style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
@@ -71,7 +107,21 @@
     {% comment %} Section title and description {% endcomment %}
     {% render 'dynamic-section-header', section_title: section.settings.title, section_description: section.settings.description, alignment: section.settings.section_header_alignment %}
 
-    <div class="info-cols__slider-wrapper" data-grid-slider-wrapper>
+    <content-grid-slider
+      class="info-cols__slider-wrapper block"
+      data-grid-slider-wrapper
+      data-section-id="{{ section.id }}"
+      data-desktop-only="{{ disable_mobile_slider }}"
+      data-mobile-only="false"
+      data-slides-per-view-mobile="{{ columns_per_row_mobile }}"
+      data-slides-per-view-desktop="{{ section.settings.columns_per_row }}"
+      data-peek-desktop-enabled="false"
+      data-peek-mobile-enabled="{% if section.settings.navigation_mobile == 'peek' %}true{% else %}false{% endif %}"
+      data-pagination-overlay-enabled="false"
+      data-remove-spacing="false"
+      data-grid-spacing-desktop="{{ settings.grid_spacing | default: 15 }}"
+      data-grid-spacing-mobile="{{ settings.grid_spacing | default: 15 | times: 0.75 }}"
+    >
 
       {% if section.blocks.size > section.settings.columns_per_row %}
         <!-- navigation -->
@@ -95,8 +145,8 @@
         </div>
       {% endif %}
 
-      <div class="swiper info-cols--slider" data-number-of-slides="{{ section.blocks.size }}" data-animate-overflow-container>
-        <div class="swiper-wrapper vertical-align--{{ section.settings.vertical_alignment }}">
+      <div class="swiper info-cols--slider{% if disable_mobile_slider %} disable-mobile{% endif %}" data-number-of-slides="{{ section.blocks.size }}" data-animate-overflow-container>
+        <div class="swiper-wrapper vertical-align--{{ section.settings.vertical_alignment }}{% if disable_mobile_slider %} mobile-grid-layout{% endif %}">
           {% for block in section.blocks %}
 
             <div
@@ -281,7 +331,7 @@
         </div>
 
         {% if section.blocks.size > 1 %}
-          <div class="swiper-pagination"></div>
+          <div class="swiper-pagination{% if disable_mobile_slider or section.settings.navigation_mobile == 'peek' %} small-hide{% endif %}"></div>
         {% endif %}
 
         {% if section.blocks.size == 0 %}
@@ -291,7 +341,7 @@
         {% endif %}
 
       </div>
-    </div>
+    </content-grid-slider>
 
   {% if section_width == 'content' %}
     </div>
@@ -473,6 +523,55 @@
     {
       "type": "header",
       "content": "t:all.Mobile"
+    },
+    {
+      "type": "radio",
+      "id": "layout_style_mobile",
+      "label": "Mobile Layout Style",
+      "options": [
+        {
+          "value": "grid",
+          "label": "Grid"
+        },
+        {
+          "value": "slider",
+          "label": "Slider"
+        }
+      ],
+      "default": "slider"
+    },
+    {
+      "type": "select",
+      "id": "navigation_mobile",
+      "label": "Mobile Navigation Style",
+      "options": [
+        {
+          "value": "peek",
+          "label": "Peek"
+        },
+        {
+          "value": "dots",
+          "label": "Dots"
+        }
+      ],
+      "default": "peek",
+      "visible_if": "{{ section.settings.layout_style_mobile == 'slider' }}"
+    },
+    {
+      "type": "select",
+      "id": "columns_per_row_mobile",
+      "label": "Items per row (Mobile)",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "1"
     },
     {
       "type": "radio",
