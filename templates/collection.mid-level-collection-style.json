@@ -337,7 +337,7 @@
         "heading_8nK3xQ": {
           "type": "heading",
           "settings": {
-            "heading": "SHOP OUR INSTAGRAM.",
+            "heading": "SHOP FOR {{ collection.title }} FROM OUR INSTAGRAM.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
