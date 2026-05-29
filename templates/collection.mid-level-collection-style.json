@@ -429,6 +429,86 @@
         "button_text_color": "#ffffff"
       }
     },
+    "template_product_info_columns_MWyHgD": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_xAMecK": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft jewellery that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_i97HaU": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Diamond_Set_Rings_-_Mobile_43d70b02-4792-4c23-86a0-7bf63dbf99d6.png",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your jewellery design details! You can view our existing rings in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_NBAXPy": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/SR1506.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your jewellery. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_TQVpEw": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/heating-metal-ring.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>The Crafting Process</h6><p>Your stunning jewellery is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_xAMecK",
+        "image_and_text_i97HaU",
+        "image_and_text_NBAXPy",
+        "image_and_text_TQVpEw"
+      ],
+      "name": "Bespoke Process",
+      "settings": {
+        "title": "Our Bespoke Process.",
+        "description": "<p>Let's make your dream jewellery together.</p>",
+        "section_header_alignment": "left",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "faq_with_image_GTcyqy": {
       "type": "faq-with-image",
       "blocks": {
@@ -560,83 +640,6 @@
         "caption_bg_color": "#ffffff",
         "image_overlay_color": "#242424",
         "image_overlay_opacity": 30
-      }
-    },
-    "template_product_info_columns_MWyHgD": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_xAMecK": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft jewellery that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_i97HaU": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Diamond_Set_Rings_-_Mobile_43d70b02-4792-4c23-86a0-7bf63dbf99d6.png",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your jewellery design details! You can view our existing rings in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_NBAXPy": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/SR1506.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your jewellery. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_TQVpEw": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/heating-metal-ring.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>The Crafting Process</h6><p>Your stunning jewellery is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_xAMecK",
-        "image_and_text_i97HaU",
-        "image_and_text_NBAXPy",
-        "image_and_text_TQVpEw"
-      ],
-      "name": "Bespoke Process",
-      "settings": {
-        "title": "Our Bespoke Process.",
-        "description": "<p>Let's make your dream jewellery together.</p>",
-        "section_header_alignment": "left",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "slider_height_mobile": "adaptive",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
       }
     },
     "1778867761507d55b2": {
@@ -888,9 +891,9 @@
     "rich_text_Vht6Nh",
     "1778864481e2fbb2e6",
     "template_product_recently_viewed_pj3jzT",
+    "template_product_info_columns_MWyHgD",
     "faq_with_image_GTcyqy",
     "image_with_text_overlay_UC8XAh",
-    "template_product_info_columns_MWyHgD",
     "1778867761507d55b2",
     "custom_liquid_pE3JDM",
     "17788657635f2a3767",
