@@ -415,77 +415,6 @@
         "colors": "white"
       }
     },
-    "collage_HWrizm": {
-      "type": "collage",
-      "blocks": {
-        "image_U9jeqY": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "The Showroom Experience.",
-            "url": "shopify://pages/schedule-an-appointment",
-            "button_label": "Meet Our Jewellery Designers",
-            "buttons_style": "underlined",
-            "override_button_colors": true,
-            "button_background_color": "#ffffff",
-            "button_color": "#35382e",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_QmMfn7": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "Online Builder.",
-            "url": "/",
-            "button_label": "Design Your Jewellery Online",
-            "buttons_style": "underlined",
-            "override_button_colors": true,
-            "button_background_color": "#ffffff",
-            "button_color": "#35382e",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        }
-      },
-      "block_order": [
-        "image_U9jeqY",
-        "image_QmMfn7"
-      ],
-      "name": "Showroom & Online Builder",
-      "settings": {
-        "title": "",
-        "description": "<p>We offer two distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
-        "section_header_alignment": "center",
-        "section_width": "full",
-        "remove_spacing": true,
-        "block_alignment": "center",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "width_1": "2",
-        "height_1": "2",
-        "width_2": "2",
-        "height_2": "2",
-        "width_3": "3",
-        "height_3": "3",
-        "width_4": "2",
-        "height_4": "2",
-        "width_5": "2",
-        "height_5": "2",
-        "width_6": "1",
-        "height_6": "4",
-        "color_scheme": "white"
-      }
-    },
     "template_product_info_columns_yMVLqX": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -885,7 +814,6 @@
     "gallery_slideshow_YDbVni",
     "collage_pBk4bc",
     "template_product_info_columns_ARxq4X",
-    "collage_HWrizm",
     "template_product_info_columns_yMVLqX",
     "custom_html_zbhNGz",
     "image_with_text_slideshow_TmyLyE",
