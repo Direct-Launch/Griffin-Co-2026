@@ -106,9 +106,9 @@
         "image_and_text_J8iYhR"
       ],
       "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
+        "title": "Our Values.",
+        "description": "<p>For years, the Chichester showroom was known as Smith & Ralier, synonymous with quality. Today, Griffin & Co, a proud family-run business, retains traditional personal service with a modern bespoke design approach.</p>",
+        "section_header_alignment": "left",
         "maximum_width": 50,
         "override_border_radius": false,
         "buttons_style": "underlined",
