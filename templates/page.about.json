@@ -69,7 +69,7 @@
         "image_and_text_BiXm8Y": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/1-solid-full.svg",
+            "image": "shopify://shop_images/1.svg",
             "grid_image_size": "square",
             "heading": "Your Vision, Your Rules",
             "text": "<p>At Griffin & Co, we do things differently. We are not just retailers; we are makers. When you commission a piece with us, you aren't just buying a product—you are collaborating directly with the artisans to create an individual, enduring legacy that tells your story.</p>",
@@ -80,6 +80,7 @@
         "image_and_text_kB3gmU": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/2.svg",
             "grid_image_size": "square",
             "heading": "Ethical & Responsible",
             "text": "<p>We believe that the journey of fine jewellery from earth to hand should benefit everyone along the way. From our in-house casting process to our stringent diamond sourcing, we ensure transparency and sustainability in every step of our manufacturing process.</p>",
@@ -90,6 +91,7 @@
         "image_and_text_J8iYhR": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/3.svg",
             "grid_image_size": "square",
             "heading": "Inclusive & Welcoming",
             "text": "<p>Our motto is simple: whoever you are, whoever you love, and whatever your budget, you are welcome at Griffin & Co. Fine jewellery should be accessible to all, and we are here to guide you with complete respect and zero intimidation.</p>",
@@ -131,6 +133,7 @@
         "image_and_text_9dhU9W": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/4.svg",
             "grid_image_size": "square",
             "heading": "Creating Family Legacies",
             "text": "<p>Fine jewellery should last generations. We build pieces with longevity in mind, using the finest materials and masterful techniques. Whether crafting a new engagement ring or breathing life into unworn heirlooms, we create pieces designed to endure.</p>",
@@ -141,6 +144,7 @@
         "image_and_text_iRmCUj": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/5.svg",
             "grid_image_size": "square",
             "heading": "In-House Expertise",
             "text": "<p>As a true maker brand, we handle production in-house. Our team consists of GIA-qualified diamond specialists, master goldsmiths, and skilled CAD designers. Your precious items never leave our premises, ensuring security and unparalleled quality control.</p>",
@@ -151,6 +155,7 @@
         "image_and_text_wajHcp": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/6.svg",
             "grid_image_size": "square",
             "heading": "Guiding, Not Selling",
             "text": "<p>Our role is to educate and guide. Whether you are choosing between platinum and gold, or learning about diamond clarity, we provide honest, transparent advice. We are here to empower your choices in a relaxed, no-pressure environment.</p>",
