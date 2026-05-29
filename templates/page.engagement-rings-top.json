@@ -135,8 +135,8 @@
           "settings": {
             "image": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp",
             "grid_image_size": "natural",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "heading": "Solitaire",
+            "text": "<p>Timeless elegance, defined by a single, breathtaking stone</p>",
             "button_link": "",
             "button_text": "Learn more"
           }
@@ -146,8 +146,8 @@
           "settings": {
             "image": "shopify://shop_images/Trilogy_a9103382-4c75-46a1-bfa6-8bdd4ffbd193.webp",
             "grid_image_size": "natural",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "heading": "Three-Stone",
+            "text": "<p>Representing your past, present, and future together.</p>",
             "button_link": "",
             "button_text": "Learn more"
           }
@@ -155,19 +155,10 @@
         "image_and_text_8L6D3t": {
           "type": "image_and_text",
           "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_KG4PzT": {
-          "type": "image_and_text",
-          "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "image": "shopify://shop_images/Halo_56c53608-703d-48ea-839b-9d7c53ad11c4.avif",
+            "grid_image_size": "natural",
+            "heading": "Halo",
+            "text": "<p>A dazzling frame of diamonds to amplify your center stone's brilliance.</p>",
             "button_link": "",
             "button_text": "Learn more"
           }
@@ -176,12 +167,11 @@
       "block_order": [
         "image_and_text_cTwq7e",
         "image_and_text_rAeFfx",
-        "image_and_text_8L6D3t",
-        "image_and_text_KG4PzT"
+        "image_and_text_8L6D3t"
       ],
       "name": "t:sections.template--product--info-columns.presets.name",
       "settings": {
-        "title": "Info columns",
+        "title": "Popular Engagement Ring Styles.",
         "description": "<p>Emphasise your messaging</p>",
         "section_header_alignment": "center",
         "maximum_width": 75,
