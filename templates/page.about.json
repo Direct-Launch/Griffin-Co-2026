@@ -277,7 +277,7 @@
         "heading_K4RFQg": {
           "type": "heading",
           "settings": {
-            "title": "Our suppliers",
+            "title": "From Smith & Ralier to Griffin & Co",
             "font_size_desktop": "h5",
             "font_size_mobile": "h4-mobile",
             "heading_bottom_spacing": 25
@@ -286,7 +286,7 @@
         "text_NGUAVW": {
           "type": "text",
           "settings": {
-            "text": "<p>We wouldn't exist without our network of suppliers. From the USA to Sri Lanka, and London's Hatton Garden to India's gemstone cutting capital, our suppliers are chosen and vetted by us to ensure their values align with our own.</p>",
+            "text": "<p>For decades, the showroom at this historic Chichester address was known as <strong>Smith & Ralier</strong>, a name synonymous with quality. When we took ownership, our goal was not to rewrite history, but to build upon it.<br/><br/>Today, <strong>Griffin & Co </strong>is a proud family-run business. We have retained the traditional values of personal service and integrity while introducing a modern approach to bespoke design and manufacturing.</p>",
             "font_size_desktop": 110,
             "font_size_mobile": 110,
             "text_bottom_spacing": 0
@@ -298,6 +298,7 @@
         "text_NGUAVW"
       ],
       "settings": {
+        "image_desktop": "shopify://shop_images/IMG_8786.webp",
         "height_desktop": "550px",
         "text_position_desktop": "left",
         "text_alignment_desktop": "left",
@@ -316,37 +317,322 @@
         "image_overlay_opacity": 0
       }
     },
+    "gallery_tMjiKU": {
+      "type": "gallery",
+      "blocks": {
+        "image_AC9reL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_3.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        },
+        "image_gnxx8p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_4.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        },
+        "image_bP9AQP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_7.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        },
+        "image_xhYymq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_8.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "image_AC9reL",
+        "image_gnxx8p",
+        "image_bP9AQP",
+        "image_xhYymq"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "title": "The Chichester Showroom",
+        "description": "<p><strong>We believe selecting fine jewellery is a deeply personal journey.</strong></p><p>Our Chichester showroom provides a relaxed, unpressured atmosphere with consultation areas for dedicated attention from our knowledgeable team.<br/><br/>Take your time to explore our collections and feel the quality of each piece.<br/><br/>We work in partnership with <a href=\"https://ebonyjewellery.com/\">Ebony Jewellers</a></p>",
+        "section_header_alignment": "left",
+        "content-position": "hide",
+        "full-width": false,
+        "grid_image_size": "square",
+        "buttons_style": "filled",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 16,
+        "remove-spacing": false,
+        "colors": "white"
+      }
+    },
+    "gallery_7XDfme": {
+      "type": "gallery",
+      "blocks": {
+        "image_GWe3Ch": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_10.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        },
+        "image_G34cz3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_1.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        },
+        "image_zaP8Dh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_12.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        },
+        "image_gKMpP4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_13.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "image_GWe3Ch",
+        "image_G34cz3",
+        "image_zaP8Dh",
+        "image_gKMpP4"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "left",
+        "content-position": "hide",
+        "full-width": false,
+        "grid_image_size": "square",
+        "buttons_style": "filled",
+        "section-width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 16,
+        "remove-spacing": false,
+        "colors": "white"
+      }
+    },
+    "gallery_rx7Tyg": {
+      "type": "gallery",
+      "blocks": {
+        "image_3medAn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_9.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        },
+        "image_KDieaa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_5.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        },
+        "image_MHccpc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_11.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        },
+        "image_DKW96X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_6.png",
+            "link": "",
+            "subheading": "",
+            "title": "",
+            "overlay-btn-text": "",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_text_color": "#FFFFFF",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "image_3medAn",
+        "image_KDieaa",
+        "image_MHccpc",
+        "image_DKW96X"
+      ],
+      "name": "t:sections.image--gallery.presets.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "left",
+        "content-position": "hide",
+        "full-width": false,
+        "grid_image_size": "square",
+        "buttons_style": "filled",
+        "section-width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 72,
+        "remove-spacing": false,
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_MtzH7c": {
       "type": "template--product--info-columns",
       "blocks": {
         "image_and_text_apcwgN": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/gem.svg",
             "grid_image_size": "square",
             "heading": "Sourcing Gemstones",
-            "text": "<p>We source salt and pepper diamonds, sapphires, lab grown diamonds, mined diamonds and tourmalines from suppliers across the globe. Sapphires sourced in Sri Lanka are typically cut in Sri Lanka, however Montana Sapphires and Australian Sapphires can be cut in their country of origin, or in India's expert cutting facilities. </p><p><br/>Diamonds are mined in many countries including Botswana, Canada, Angola and South Africa. Tourmalines are found in Brazil, Kenya, Madagascar, Namibia and more. Both often find their way to Surat in India, the world capital of cutting-edge gemstone cutting technology, to be cut and polished.</p>",
-            "button_link": "",
-            "button_text": ""
+            "text": "<p>We pride ourselves on sourcing the most brilliant, ethically sourced diamonds and coloured gemstones. As GIA-qualified specialists, we navigate the global market to find stones that offer true beauty and value.</p><p>We work strictly with suppliers who adhere to the Kimberley Process, ensuring conflict-free origins, and we also offer a stunning selection of high-quality lab-grown diamonds for our environmentally conscious clients.</p>",
+            "button_link": "shopify://pages/bespoke-jewellery-designs",
+            "button_text": "Go to Bespoke Design"
           }
         },
         "image_and_text_4whJQy": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/hammer.svg",
             "grid_image_size": "square",
             "heading": "Casting & Metals",
-            "text": "<p>Most of our rings are cast at a state of the art facility. Using CAD (Computer Aided Design) technology, we're able to create 3D models of your piece so that it can be printed and cast to our exact specification.<br/></p><p>Our suppliers use recycled gold, which is all classed as 'chain of custody', meaning that it's journey from earth to hand is ethical and fair. Platinum recycling is much less common place, although our supplier is working on this, with much of the platinum used in our pieces mined in South Africa.<br/></p><p>We choose these suppliers due to their advanced facilities, and exceptional working conditions for their staff</p>",
-            "button_link": "",
-            "button_text": ""
+            "text": "<p>The foundation of fine jewellery lies in the quality of its metal. We work exclusively with high-grade Platinum and 18ct Gold. Our commitment to sustainability means we prioritise the use of 100% recycled precious metals in our bespoke creations.</p><p>Furthermore, our<a href=\"/pages/jewellery-remodelling-service\" title=\"Jewellery Remodelling Service\"> remodelling service</a> allows us to melt down your unworn, sentimental family gold to forge entirely new, modern designs, keeping the history alive while reducing environmental impact.</p>",
+            "button_link": "shopify://pages/jewellery-remodelling-service",
+            "button_text": "Go to Remodelling"
           }
         },
         "image_and_text_UiwdiR": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/sparkles.svg",
             "grid_image_size": "square",
             "heading": "Setting, Polishing & Repairs",
-            "text": "<p>All of our centre stone setting, resizing and repairs are done by our trusted gemstone setter, Dimitar, and his team in London's Hatton Garden. <br/></p><p>Dimitar trained in Bulgaria before moving to London to expand his skills. Learning from the best jewellers in the heart of London's jewellery quarter, he quickly gained a reputation for his exceptional craftsmanship. <br/></p><p>We're incredibly lucky to work with Dimitar and his team. It allows us to invest in the future of the industry, and ensures each piece passes through the hands of one of the UK's finest craftspeople.</p>",
-            "button_link": "",
-            "button_text": ""
+            "text": "<p>All of our centre stone setting, resizing and <a href=\"/blogs/guide-jewellery-repair-service/jewellery-repair-service\" title=\"Jewellery Repair Service Guide\">repairs </a>are done by our trusted gemstone setters.</p><p>Our skilled craftspeople restore damaged, worn, or cherished pieces to their original beauty.<br/><br/>Expert care including ring resizing, claw retipping, cleaning, and chain soldering.</p>",
+            "button_link": "shopify://pages/jewellery-repair-service",
+            "button_text": "Go to Repairs"
           }
         }
       },
@@ -385,6 +671,9 @@
     "template_product_info_columns_6YhcwR",
     "image_with_text_slideshow_WJYkzx",
     "image_with_text_overlay_bEHqUV",
+    "gallery_tMjiKU",
+    "gallery_7XDfme",
+    "gallery_rx7Tyg",
     "template_product_info_columns_MtzH7c"
   ]
 }
