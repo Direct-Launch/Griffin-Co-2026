@@ -127,6 +127,129 @@
         "color_scheme": "white"
       }
     },
+    "rich_text_ManT8J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VPxYPE": {
+          "type": "heading",
+          "settings": {
+            "heading": "More Than a Ring, It's a Promise",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_pHNrDN": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>At Griffin & Co in <strong>Chichester</strong>, we believe an engagement ring embodies a personal story. We champion the bespoke experience, inviting you into a collaborative journey whether you sit down with us in-store, or craft your vision from the comfort of home.</p><p>Our master jewellers create timeless classics and bespoke designs, using ethically sourced natural and lab-grown diamonds for a responsibly made ring.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_VPxYPE",
+        "richtext_pHNrDN"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_YDbVni": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_W446Ue": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Solitaire.png",
+            "link": "",
+            "button_label": "",
+            "subheading": "Single Stone",
+            "title": "Solitaire Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TqAzw3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Solitaire.png",
+            "link": "",
+            "button_label": "",
+            "subheading": "Single Stone",
+            "title": "Solitaire Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UqFNLm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Solitaire.png",
+            "link": "",
+            "button_label": "",
+            "subheading": "Single Stone",
+            "title": "Solitaire Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_93DFPn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Solitaire.png",
+            "link": "",
+            "button_label": "",
+            "subheading": "Single Stone",
+            "title": "Solitaire Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_W446Ue",
+        "image_TqAzw3",
+        "image_UqFNLm",
+        "image_93DFPn"
+      ],
+      "name": "t:sections.gallery-slideshow.name",
+      "settings": {
+        "title": "Popular Engagement Ring Styles.",
+        "description": "",
+        "section_header_alignment": "left",
+        "image_shape": "natural",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_yMVLqX": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -522,6 +645,8 @@
   "order": [
     "hero_image_with_text_bTYMM7",
     "scrolling_banner_yQGBqH",
+    "rich_text_ManT8J",
+    "gallery_slideshow_YDbVni",
     "template_product_info_columns_yMVLqX",
     "custom_html_zbhNGz",
     "image_with_text_slideshow_TmyLyE",
