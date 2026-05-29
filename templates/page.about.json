@@ -273,7 +273,6 @@
     },
     "custom_liquid_bkCCWY": {
       "type": "custom-liquid",
-      "disabled": true,
       "name": "Reviews",
       "settings": {
         "title": "Our Customer Reviews.",
@@ -323,6 +322,7 @@
       "block_order": [
         "judge_me_reviews_testimonials_carousel_TacXFN"
       ],
+      "disabled": true,
       "custom_css": [
         ".jdgm-star {color: #ffdda6 !important;}",
         ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
