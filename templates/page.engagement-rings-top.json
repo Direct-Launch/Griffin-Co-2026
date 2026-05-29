@@ -264,6 +264,86 @@
         "colors": "white"
       }
     },
+    "template_product_info_columns_ARxq4X": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_iRJtan": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft jewellery that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_4ggiYD": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Diamond_Set_Rings_-_Mobile_43d70b02-4792-4c23-86a0-7bf63dbf99d6.png",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your jewellery design details! You can view our existing rings in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_AEcprt": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/SR1506.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your jewellery. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_reUzLt": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/heating-metal-ring.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>The Crafting Process</h6><p>Your stunning jewellery is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_iRJtan",
+        "image_and_text_4ggiYD",
+        "image_and_text_AEcprt",
+        "image_and_text_reUzLt"
+      ],
+      "name": "Bespoke Process",
+      "settings": {
+        "title": "Our Bespoke Process.",
+        "description": "<p>Let's make your dream jewellery together.</p>",
+        "section_header_alignment": "left",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 10,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_mCf4ik": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -786,6 +866,7 @@
     "scrolling_banner_yQGBqH",
     "rich_text_ManT8J",
     "gallery_slideshow_YDbVni",
+    "template_product_info_columns_ARxq4X",
     "template_product_info_columns_mCf4ik",
     "collage_HWrizm",
     "template_product_info_columns_yMVLqX",
