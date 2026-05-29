@@ -15,8 +15,8 @@
       "settings": {
         "image": "shopify://shop_images/Lab-Grown_Diamond_Engagement_Rings_3be98f9f-b2ba-4d29-9d8d-84ba062a82e5.jpg",
         "layout": "right",
-        "title": "Hero Image with Text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "title": "Engagement Rings in {{ page.metafields.custom.location.value }}",
+        "text": "<p>Discover exquisite, handcrafted rings in our showroom, or step into the role of the designer using our revolutionary online studio.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
@@ -25,8 +25,8 @@
         "show_image_mobile": true,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
+        "button_link": "shopify://collections/engagement-rings",
+        "button_label": "View Collection",
         "buttons_style": "filled",
         "override_button_colors": false,
         "button_background_color": "#E68819",
@@ -119,6 +119,82 @@
         "rotate": "0",
         "override_border_radius": false,
         "color_scheme": "white"
+      }
+    },
+    "template_product_info_columns_yMVLqX": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_cTwq7e": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_rAeFfx": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_8L6D3t": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_KG4PzT": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_cTwq7e",
+        "image_and_text_rAeFfx",
+        "image_and_text_8L6D3t",
+        "image_and_text_KG4PzT"
+      ],
+      "name": "t:sections.template--product--info-columns.presets.name",
+      "settings": {
+        "title": "Info columns",
+        "description": "<p>Emphasise your messaging</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 200,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
       }
     },
     "custom_html_zbhNGz": {
@@ -448,6 +524,7 @@
   "order": [
     "hero_image_with_text_bTYMM7",
     "scrolling_banner_yQGBqH",
+    "template_product_info_columns_yMVLqX",
     "custom_html_zbhNGz",
     "image_with_text_slideshow_TmyLyE",
     "17787619721046fdd6",
