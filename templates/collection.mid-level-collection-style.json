@@ -562,6 +562,83 @@
         "image_overlay_opacity": 30
       }
     },
+    "template_product_info_columns_9whAxF": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_PVq6ag": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/hammer.svg",
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_hqwiNL": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_zX96Qw": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_Jqm94g": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_PVq6ag",
+        "image_and_text_hqwiNL",
+        "image_and_text_zX96Qw",
+        "image_and_text_Jqm94g"
+      ],
+      "name": "t:sections.template--product--info-columns.presets.name",
+      "settings": {
+        "title": "Your Bespoke Journey.",
+        "description": "",
+        "section_header_alignment": "right",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "1778867761507d55b2": {
       "type": "apps",
       "blocks": {
@@ -813,6 +890,7 @@
     "template_product_recently_viewed_pj3jzT",
     "faq_with_image_GTcyqy",
     "image_with_text_overlay_UC8XAh",
+    "template_product_info_columns_9whAxF",
     "1778867761507d55b2",
     "custom_liquid_pE3JDM",
     "17788657635f2a3767",
