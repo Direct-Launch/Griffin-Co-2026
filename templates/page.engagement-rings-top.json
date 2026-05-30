@@ -947,7 +947,7 @@
             "show_border": false,
             "border_color": "#e8e8e8",
             "show_drop_shadow": false,
-            "transition_speed": 5,
+            "transition_speed": 4,
             "header_text": "Consultation Experiences.",
             "show_average_rating": true
           }
@@ -960,7 +960,7 @@
         ".jdgm-star {color: #ffdda6 !important;}",
         ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
         "div {background: #004225;}",
-        ".jdgm-title {font-size: 24px; font-family: var(--body-font-stack);}"
+        ".jdgm-title {font-size: 22px; font-family: var(--body-font-stack); overflow: visible; -webkit-line-clamp: 2;}"
       ],
       "name": "Reviews",
       "settings": {
