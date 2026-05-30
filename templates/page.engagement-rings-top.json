@@ -161,106 +161,40 @@
         "colors": "white"
       }
     },
-    "gallery_slideshow_YDbVni": {
-      "type": "gallery-slideshow",
-      "blocks": {
-        "image_W446Ue": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Solitaire.png",
-            "link": "",
-            "button_label": "",
-            "subheading": "Single Stone",
-            "title": "Solitaire Rings",
-            "text_color": "#4a4a4a",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_TqAzw3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Three-Stone.png",
-            "link": "",
-            "button_label": "",
-            "subheading": "Three-Stone",
-            "title": "Trilogy Rings",
-            "text_color": "#4a4a4a",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_UqFNLm": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Halo.png",
-            "link": "",
-            "button_label": "",
-            "subheading": "Diamond Surround",
-            "title": "Halo Rings",
-            "text_color": "#4a4a4a",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_93DFPn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Coloured_Gemstone_Rings_6508f67a-5cdd-4783-9dec-bf5b51577151.png",
-            "link": "",
-            "button_label": "",
-            "subheading": "Single Stone",
-            "title": "Gemstone Rings",
-            "text_color": "#4a4a4a",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_Az4QbM": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/view-all-reviews.png",
-            "link": "",
-            "button_label": "",
-            "subheading": "Engagement Ring Collection",
-            "title": "View All",
-            "text_color": "#4a4a4a",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_W446Ue",
-        "image_TqAzw3",
-        "image_UqFNLm",
-        "image_93DFPn",
-        "image_Az4QbM"
-      ],
-      "name": "Popular Engagement Ring Styles.",
+    "featured_collection_UMtPLc": {
+      "type": "featured-collection",
+      "name": "t:sections.collection--featured-collection.presets.name",
       "settings": {
-        "title": "Popular Engagement Ring Styles.",
-        "description": "<p>Curated Ready-to-Wear</p>",
+        "title": "Our Newest Engagement Rings.",
+        "description": "",
         "section_header_alignment": "left",
-        "image_shape": "natural",
-        "layout_style_desktop": "slider",
-        "hover_navigation_desktop": "left-and-right",
-        "peek_desktop": true,
-        "images_per_row_desktop": 5,
-        "text_position_desktop": "bottom_left",
-        "show_on_hover": false,
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "peek",
-        "images_per_row_mobile": "1",
-        "text_position_mobile": "bottom_left",
-        "buttons_style": "filled",
+        "collection": "engagement-rings",
+        "show_highlight": false,
+        "highlight_position": "below_image",
+        "highlight_icon": "none",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
-        "section_width": "full",
-        "remove_spacing": false,
+        "show_view_all": true,
+        "button_position": "above_products",
+        "button_alignment": "right",
+        "buttons_style": "outlined",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
+        "layout_style": "slider",
+        "products_to_show": 15,
+        "grid-desktop": 5,
+        "grid-mobile": "2",
         "colors": "white"
       }
     },
@@ -393,6 +327,110 @@
         "colors": "white"
       }
     },
+    "gallery_slideshow_YDbVni": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_W446Ue": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Solitaire.png",
+            "link": "shopify://collections/solitaire-engagement-rings",
+            "button_label": "",
+            "subheading": "Single Stone",
+            "title": "Solitaire Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TqAzw3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Three-Stone.png",
+            "link": "shopify://collections/three-stone-trilogy-engagement-rings",
+            "button_label": "",
+            "subheading": "Three-Stone",
+            "title": "Trilogy Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UqFNLm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Halo.png",
+            "link": "shopify://collections/halo-engagement-rings",
+            "button_label": "",
+            "subheading": "Diamond Surround",
+            "title": "Halo Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_93DFPn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Coloured_Gemstone_Rings_6508f67a-5cdd-4783-9dec-bf5b51577151.png",
+            "link": "shopify://collections/gemstone-rings",
+            "button_label": "",
+            "subheading": "Trending",
+            "title": "Gemstone Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Az4QbM": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/view-all-reviews.png",
+            "link": "",
+            "button_label": "",
+            "subheading": "Engagement Ring Collection",
+            "title": "View All",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_W446Ue",
+        "image_TqAzw3",
+        "image_UqFNLm",
+        "image_93DFPn",
+        "image_Az4QbM"
+      ],
+      "name": "Popular Engagement Ring Styles.",
+      "settings": {
+        "title": "Popular Engagement Ring Styles.",
+        "description": "<p>Curated Ready-to-Wear</p>",
+        "section_header_alignment": "left",
+        "image_shape": "natural",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 4,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "full",
+        "remove_spacing": false,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_yMVLqX": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -465,6 +503,7 @@
     },
     "featured_collection_bictmq": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.collection--featured-collection.presets.name",
       "settings": {
         "title": "Our Newest Engagement Rings.",
@@ -487,10 +526,10 @@
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
-        "show_view_all": false,
-        "button_position": "below_products",
-        "button_alignment": "center",
-        "buttons_style": "filled",
+        "show_view_all": true,
+        "button_position": "above_products",
+        "button_alignment": "right",
+        "buttons_style": "outlined",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "layout_style": "grid",
@@ -1047,8 +1086,9 @@
     "hero_image_with_text_bTYMM7",
     "scrolling_banner_yQGBqH",
     "rich_text_ManT8J",
-    "gallery_slideshow_YDbVni",
+    "featured_collection_UMtPLc",
     "template_product_info_columns_J4Dp7X",
+    "gallery_slideshow_YDbVni",
     "template_product_info_columns_yMVLqX",
     "featured_collection_bictmq",
     "template_product_info_columns_bqDXjC",
