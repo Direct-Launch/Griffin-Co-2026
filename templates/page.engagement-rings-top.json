@@ -618,25 +618,6 @@
             "overlay_color": "#242424"
           }
         },
-        "text_K7M3Wz": {
-          "type": "text",
-          "settings": {
-            "heading": "Book an In-Person Consultation.",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "For those who prefer a tactile experience, we offer Private Home Visits directly to you in <b>****</b>. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.",
-            "url": "",
-            "button_label": "Request Local Visit",
-            "buttons_style": "underlined",
-            "override_button_colors": true,
-            "button_background_color": "#242424",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-center md-min-justify-center",
-            "text_alignment": "center",
-            "background_color": "#f8f7f2",
-            "text_color": "#242424"
-          }
-        },
         "image_CnFqRb": {
           "type": "image",
           "settings": {
@@ -654,6 +635,25 @@
             "button_color": "#35382e",
             "text_color": "#ffffff",
             "overlay_color": "#242424"
+          }
+        },
+        "text_K7M3Wz": {
+          "type": "text",
+          "settings": {
+            "heading": "Book an In-Person Consultation.",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "For those who prefer a tactile experience, we offer Private Home Visits directly to you in <b>****</b>. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.",
+            "url": "",
+            "button_label": "Request Local Visit",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#242424",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "text_alignment": "center",
+            "background_color": "#f8f7f2",
+            "text_color": "#242424"
           }
         },
         "text_H3mRnW": {
@@ -678,10 +678,11 @@
       },
       "block_order": [
         "image_eqBKhN",
-        "text_K7M3Wz",
         "image_CnFqRb",
+        "text_K7M3Wz",
         "text_H3mRnW"
       ],
+      "disabled": true,
       "name": "Showroom & Online Builder",
       "settings": {
         "title": "Want to create something more bespoke?",
