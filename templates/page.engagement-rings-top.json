@@ -936,7 +936,7 @@
             "card_height": "extra_tall",
             "text_size": "extra_small",
             "stars_size": "small",
-            "arrows_position": "sides",
+            "arrows_position": "hidden",
             "max_width": 1300,
             "corner_styling": "square",
             "quote_marks_style": "serif",
