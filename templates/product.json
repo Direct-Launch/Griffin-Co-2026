@@ -655,7 +655,7 @@
         "image_and_text_CHyRha": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/Our_Remodelling_Process.png",
+            "image": "shopify://shop_images/Our_Remodelling_Process_5c357d70-5ecf-432f-84a2-76348c31d8cf.png",
             "subheading": "REDESIGN FAMILY HEIRLOOMS",
             "heading": "Remodelling.",
             "text": "<p>Breathe new life into forgotten jewellery. We reimagine your cherished gold and gemstones into bespoke pieces you'll treasure for years to come.</p>",
@@ -681,7 +681,7 @@
         "image_and_text_C3Raxr": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/Griffin_Co._Signet_Rings_Window_Display_40a30fd3-aac2-438e-897c-a68aba61cda6.png",
+            "image": "shopify://shop_images/Griffin_Co._Signet_Rings_Window_Display_ccbe1ab7-d083-4d72-8109-9afc1e7fe875.png",
             "subheading": "FAMILY SIGNETS",
             "heading": "Signet Rings.",
             "text": "<p>Craft a timeless family heirloom with bespoke seal engraving, available in solid gold, silver, or platinum. Each piece is personalised to your specifications, creating a treasured keepsake to pass down through generations.</p>",
@@ -748,7 +748,7 @@
         "heading_font_size_mobile": "h3-mobile",
         "text_font_size_mobile": 100,
         "image_size": "medium",
-        "image_shape": "square",
+        "image_shape": "natural",
         "hover_navigation_desktop": "above",
         "section_width": "content",
         "section_padding_top": 0,
