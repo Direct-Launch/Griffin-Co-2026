@@ -264,6 +264,205 @@
         "colors": "white"
       }
     },
+    "template_product_info_columns_J4Dp7X": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_MjRteG": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Round_Brilliant.png",
+            "grid_image_size": "square",
+            "heading": "Round Brilliant",
+            "text": "",
+            "button_link": "shopify://collections/round-brilliant-diamond-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_qEjR3A": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Oval.png",
+            "grid_image_size": "square",
+            "heading": "Oval",
+            "text": "",
+            "button_link": "shopify://collections/oval-diamond-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_7TJTdw": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Cushion.png",
+            "grid_image_size": "square",
+            "heading": "Cushion",
+            "text": "",
+            "button_link": "shopify://collections/cushion-diamond-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_FJRnj7": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Pear.png",
+            "grid_image_size": "square",
+            "heading": "Pear",
+            "text": "",
+            "button_link": "shopify://collections/pear-diamond-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_LEH8dL": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Princess.png",
+            "grid_image_size": "square",
+            "heading": "Princess",
+            "text": "",
+            "button_link": "shopify://collections/princess-diamond-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_83BzPq": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Emerald.png",
+            "grid_image_size": "square",
+            "heading": "Emerald Cut",
+            "text": "",
+            "button_link": "shopify://collections/emerald-cut-diamond-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_WrjBJP": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Marquise.png",
+            "grid_image_size": "square",
+            "heading": "Marquise",
+            "text": "",
+            "button_link": "shopify://collections/marquise-diamond-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_GP7JkH": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Radiant.png",
+            "grid_image_size": "square",
+            "heading": "Radiant",
+            "text": "",
+            "button_link": "shopify://collections/radiant-diamond-engagement-rings",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_MjRteG",
+        "image_and_text_qEjR3A",
+        "image_and_text_7TJTdw",
+        "image_and_text_FJRnj7",
+        "image_and_text_LEH8dL",
+        "image_and_text_83BzPq",
+        "image_and_text_WrjBJP",
+        "image_and_text_GP7JkH"
+      ],
+      "name": "Diamond Cuts",
+      "settings": {
+        "title": "Explore Diamonds by Shape.",
+        "description": "<p>Emphasise your messaging</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 75,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 9,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_yMVLqX": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_cTwq7e": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp",
+            "grid_image_size": "natural",
+            "heading": "Solitaire",
+            "text": "<p>Timeless elegance, defined by a single, breathtaking stone</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_rAeFfx": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Trilogy_a9103382-4c75-46a1-bfa6-8bdd4ffbd193.webp",
+            "grid_image_size": "natural",
+            "heading": "Three-Stone",
+            "text": "<p>Representing your past, present, and future together.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_8L6D3t": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Halo_56c53608-703d-48ea-839b-9d7c53ad11c4.avif",
+            "grid_image_size": "natural",
+            "heading": "Halo",
+            "text": "<p>A dazzling frame of diamonds to amplify your center stone's brilliance.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_cTwq7e",
+        "image_and_text_rAeFfx",
+        "image_and_text_8L6D3t"
+      ],
+      "disabled": true,
+      "name": "t:sections.template--product--info-columns.presets.name",
+      "settings": {
+        "title": "Popular Engagement Ring Styles.",
+        "description": "<p>Emphasise your messaging</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 75,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "peek",
+        "columns_per_row_mobile": "1",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "featured_collection_bictmq": {
       "type": "featured-collection",
       "name": "t:sections.collection--featured-collection.presets.name",
@@ -295,8 +494,8 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "layout_style": "grid",
-        "products_to_show": 9,
-        "grid-desktop": 3,
+        "products_to_show": 8,
+        "grid-desktop": 4,
         "grid-mobile": "2",
         "colors": "white"
       }
@@ -392,7 +591,7 @@
             "buttons_style": "underlined",
             "override_button_colors": true,
             "button_background_color": "#242424",
-            "button_color": "#FFFFFF",
+            "button_color": "#ffffff",
             "desktop_position": "md-min-align-center md-min-justify-center",
             "text_alignment": "center",
             "background_color": "#f8f7f2",
@@ -430,7 +629,7 @@
             "buttons_style": "underlined",
             "override_button_colors": true,
             "button_background_color": "#242424",
-            "button_color": "#FFFFFF",
+            "button_color": "#ffffff",
             "desktop_position": "md-min-align-center md-min-justify-center",
             "text_alignment": "center",
             "background_color": "#f8f7f2",
@@ -712,204 +911,6 @@
         "include_margins": true
       }
     },
-    "template_product_info_columns_yMVLqX": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_cTwq7e": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp",
-            "grid_image_size": "natural",
-            "heading": "Solitaire",
-            "text": "<p>Timeless elegance, defined by a single, breathtaking stone</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_rAeFfx": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Trilogy_a9103382-4c75-46a1-bfa6-8bdd4ffbd193.webp",
-            "grid_image_size": "natural",
-            "heading": "Three-Stone",
-            "text": "<p>Representing your past, present, and future together.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_8L6D3t": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Halo_56c53608-703d-48ea-839b-9d7c53ad11c4.avif",
-            "grid_image_size": "natural",
-            "heading": "Halo",
-            "text": "<p>A dazzling frame of diamonds to amplify your center stone's brilliance.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_cTwq7e",
-        "image_and_text_rAeFfx",
-        "image_and_text_8L6D3t"
-      ],
-      "name": "t:sections.template--product--info-columns.presets.name",
-      "settings": {
-        "title": "Popular Engagement Ring Styles.",
-        "description": "<p>Emphasise your messaging</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "layout_style_desktop": "slider",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "peek",
-        "columns_per_row_mobile": "1",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "template_product_info_columns_J4Dp7X": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_MjRteG": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_qEjR3A": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_7TJTdw": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_FJRnj7": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_LEH8dL": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_83BzPq": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_WrjBJP": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_GP7JkH": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_MjRteG",
-        "image_and_text_qEjR3A",
-        "image_and_text_7TJTdw",
-        "image_and_text_FJRnj7",
-        "image_and_text_LEH8dL",
-        "image_and_text_83BzPq",
-        "image_and_text_WrjBJP",
-        "image_and_text_GP7JkH"
-      ],
-      "name": "Diamond Cuts",
-      "settings": {
-        "title": "Explore Diamonds by Shape.",
-        "description": "<p>Emphasise your messaging</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "layout_style_desktop": "slider",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 9,
-        "vertical_alignment": "center",
-        "text_alignment": "center",
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "peek",
-        "columns_per_row_mobile": "1",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "blog_posts_BVWqKG": {
       "type": "blog-posts",
       "blocks": {
@@ -1047,6 +1048,8 @@
     "scrolling_banner_yQGBqH",
     "rich_text_ManT8J",
     "gallery_slideshow_YDbVni",
+    "template_product_info_columns_J4Dp7X",
+    "template_product_info_columns_yMVLqX",
     "featured_collection_bictmq",
     "template_product_info_columns_bqDXjC",
     "collage_pBk4bc",
@@ -1055,8 +1058,6 @@
     "blog_posts_RHqVAD",
     "1780059503e4e28014",
     "17787619721046fdd6",
-    "template_product_info_columns_yMVLqX",
-    "template_product_info_columns_J4Dp7X",
     "blog_posts_BVWqKG",
     "faq_with_image_m73Xra"
   ]
