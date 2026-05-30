@@ -546,7 +546,7 @@
         "columns_per_row": 2,
         "vertical_alignment": "top",
         "text_alignment": "center",
-        "layout_style_mobile": "grid",
+        "layout_style_mobile": "slider",
         "navigation_mobile": "dots",
         "columns_per_row_mobile": "1",
         "text_alignment_mobile": "center",
