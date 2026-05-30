@@ -141,7 +141,7 @@
         "richtext_pHNrDN": {
           "type": "richtext",
           "settings": {
-            "text": "<p>At Griffin & Co in <strong>Chichester</strong>, we believe an engagement ring embodies a personal story. We champion the bespoke experience, inviting you into a collaborative journey whether you sit down with us in-store, or craft your vision from the comfort of home.</p><p>Our master jewellers create timeless classics and bespoke designs, using ethically sourced natural and lab-grown diamonds for a responsibly made ring.</p>",
+            "text": "<p>For our clients in {{ page.metafields.custom.location.value }}, we believe an engagement ring embodies a personal story. We champion the bespoke experience, inviting you into a collaborative journey whether you visit our Chichester showroom, craft your vision from home, or book a local consultation.<br/></p><p>Our master jewellers create timeless classics and bespoke designs, using ethically sourced natural and lab-grown diamonds for a responsibly made ring.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -547,8 +547,8 @@
           "settings": {
             "image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
             "grid_image_size": "square",
-            "heading": "Book a Chichester Consultation.",
-            "text": "<p>For those who prefer a tactile experience, join us in our <strong>Chichester</strong> showroom (or request a Private Home Visit). Sit down with our master goldsmiths, view diamonds under magnification, and sketch your design over a glass of champagne.</p>",
+            "heading": "Book a In-Person Consultation.",
+            "text": "<p>For those who prefer a tactile experience, we offer Private Home Visits directly to you in {{ page.metafields.custom.location.value }}. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.</p>",
             "button_link": "",
             "button_text": "Learn more"
           }
