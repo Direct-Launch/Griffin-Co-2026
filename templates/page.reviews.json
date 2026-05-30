@@ -341,16 +341,16 @@
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
-        "layout_style_desktop": "grid",
+        "layout_style_desktop": "slider",
         "hover_navigation_desktop": "left-and-right",
         "peek_desktop": true,
         "images_per_row_desktop": 4,
         "layout_style_mobile": "slider",
         "navigation_mobile": "dots",
-        "section_width": "content",
+        "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
+        "colors": "accent"
       }
     },
     "template_product_info_columns_78cWpW": {
