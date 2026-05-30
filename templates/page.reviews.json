@@ -25,16 +25,22 @@
         "show_image_mobile": true,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
+        "button_link_1": "",
+        "button_label_1": "",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "",
+        "button_label_2": "",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
         "section-width": "full",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "colors": "accent"
+        "colors": "light"
       }
     },
     "1779455200bc79dc47": {
@@ -103,6 +109,7 @@
       "block_order": [
         "blog_M9Yf8b"
       ],
+      "disabled": true,
       "name": "t:sections.blog-posts.name",
       "settings": {
         "title": "Recent Bespoke Commissions.",
@@ -141,6 +148,72 @@
         "colors": "white"
       }
     },
+    "rich_text_VTJ6Cq": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_QrFhAj": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recent Bespoke Commissions.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_DypzaA": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular design portfolio highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text_size": 100,
+            "text_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_QrFhAj",
+        "richtext_DypzaA"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "apps_WYyt4Y": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_ziKKtV": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "46833",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_ziKKtV"
+      ],
+      "name": "Instagram Feed",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
+    },
     "rich_text_PW3XpP": {
       "type": "rich-text",
       "blocks": {
@@ -174,7 +247,7 @@
         "section_width": "content",
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
-        "section_padding_top": 0,
+        "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
       }
@@ -196,7 +269,7 @@
             "card_height": "extra_tall",
             "text_size": "extra_small",
             "stars_size": "small",
-            "arrows_position": "sides",
+            "arrows_position": "hidden",
             "max_width": 1300,
             "corner_styling": "square",
             "quote_marks_style": "serif",
@@ -208,7 +281,7 @@
             "border_color": "#e8e8e8",
             "show_drop_shadow": false,
             "transition_speed": 5,
-            "header_text": "Client Stories",
+            "header_text": "Client Stories.",
             "show_average_rating": true
           }
         }
@@ -220,8 +293,7 @@
         ".jdgm-star {color: #ffdda6 !important;}",
         ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
         "div {background: #004225;}",
-        ".jdgm-testimonials-carousel {margin-top: 50px;}",
-        ".jdgm-title {font-size: 24px; font-family: var(--body-font-stack);}"
+        ".jdgm-title {font-size: 22px; font-family: var(--body-font-stack); overflow: visible; -webkit-line-clamp: 2;}"
       ],
       "name": "Reviews",
       "settings": {
@@ -338,9 +410,6 @@
         "columns_per_row": 3,
         "vertical_alignment": "top",
         "text_alignment": "center",
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "peek",
-        "columns_per_row_mobile": "1",
         "text_alignment_mobile": "center",
         "slider_height_mobile": "adaptive",
         "section_width": "full",
@@ -654,9 +723,6 @@
         "columns_per_row": 3,
         "vertical_alignment": "top",
         "text_alignment": "left",
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "peek",
-        "columns_per_row_mobile": "1",
         "text_alignment_mobile": "center",
         "slider_height_mobile": "adaptive",
         "section_width": "full",
@@ -691,6 +757,8 @@
     "hero_image_with_text_7dWLgW",
     "1779455200bc79dc47",
     "blog_posts_iGBJaJ",
+    "rich_text_VTJ6Cq",
+    "apps_WYyt4Y",
     "rich_text_PW3XpP",
     "1779458612eb4e6252",
     "blog_posts_NAQXhh",
