@@ -868,6 +868,40 @@
         "colors": "white"
       }
     },
+    "rich_text_pBdiyA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_q34xXf": {
+          "type": "heading",
+          "settings": {
+            "heading": "VIEW MORE EXAMPLES ON OUR INSTAGRAM.",
+            "heading--text-size": "h4",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_XezrDU": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular engagement ring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text_size": 100,
+            "text_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_q34xXf",
+        "richtext_XezrDU"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "right",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "1780059503e4e28014": {
       "type": "apps",
       "blocks": {
@@ -1097,6 +1131,7 @@
     "template_product_info_columns_ARxq4X",
     "custom_html_zbhNGz",
     "blog_posts_RHqVAD",
+    "rich_text_pBdiyA",
     "1780059503e4e28014",
     "17787619721046fdd6",
     "blog_posts_BVWqKG",
