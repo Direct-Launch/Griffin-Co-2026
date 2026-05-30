@@ -1020,42 +1020,173 @@
         "colors": "accent"
       }
     },
+    "collage_cpYDQ9": {
+      "type": "collage",
+      "blocks": {
+        "text_bntL6K": {
+          "type": "text",
+          "settings": {
+            "heading": "Cut",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Often considered the most important 'C', the cut determines how well a diamond interacts with light. A masterfully cut diamond will capture light and return it as a breathtaking display of brilliance, fire, and scintillation. It's the only 'C' influenced directly by human artistry.",
+            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/cut-the-4cs-of-a-diamond",
+            "button_label": "Learn More",
+            "buttons_style": "underlined",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_color": "#FFFFFF",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "#242424"
+          }
+        },
+        "text_F7wdVc": {
+          "type": "text",
+          "settings": {
+            "heading": "Clarity",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Clarity measures the presence of internal characteristics (inclusions) and external characteristics (blemishes). Diamonds with fewer and smaller inclusions receive higher clarity grades.",
+            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/clarity-the-4cs-of-a-diamond",
+            "button_label": "Learn More",
+            "buttons_style": "underlined",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_color": "#FFFFFF",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "#242424"
+          }
+        },
+        "text_UiG8mi": {
+          "type": "text",
+          "settings": {
+            "heading": "Carat",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "The carat is the unit of measurement for a diamond's weight. While larger diamonds are rarer and more valuable, the other 3Cs also significantly impact a diamond's overall quality.",
+            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/carat-the-4cs-of-a-diamond",
+            "button_label": "Learn More",
+            "buttons_style": "underlined",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_color": "#FFFFFF",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "#242424"
+          }
+        },
+        "text_hmVTby": {
+          "type": "text",
+          "settings": {
+            "heading": "Colour",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Diamond colour is graded on a scale from D (colourless) to Z (light yellow or brown). The most valuable diamonds are those that are colourless, as they allow the most light to pass through, creating maximum brilliance.",
+            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/colour-the-4cs-of-a-diamond",
+            "button_label": "Learn More",
+            "buttons_style": "underlined",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_color": "#FFFFFF",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "#242424"
+          }
+        },
+        "text_3QhWD6": {
+          "type": "text",
+          "settings": {
+            "heading": "The Modern Choice: Lab Diamonds",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Embrace the future of fine jewellery. Lab-grown diamonds offer a conscious, beautiful, and identical alternative to their natural counterparts. They are chemically, physically, and optically the same as mined diamonds.",
+            "url": "shopify://blogs/guide-lab-diamonds/why-lab-grown-diamonds-are-the-ethical-future-of-jewellery",
+            "button_label": "Learn About Lab Diamonds",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_color": "#FFFFFF",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "center",
+            "background_color": "#f8f7f2",
+            "text_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "text_bntL6K",
+        "text_F7wdVc",
+        "text_UiG8mi",
+        "text_hmVTby",
+        "text_3QhWD6"
+      ],
+      "name": "The 4C's",
+      "settings": {
+        "title": "Understanding The 4 C's",
+        "description": "<p>Diamond Education</p>",
+        "section_header_alignment": "left",
+        "section_width": "content",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "width_1": "2",
+        "height_1": "6",
+        "width_2": "2",
+        "height_2": "6",
+        "width_3": "2",
+        "height_3": "6",
+        "width_4": "2",
+        "height_4": "6",
+        "width_5": "1",
+        "height_5": "6",
+        "width_6": "1",
+        "height_6": "6",
+        "color_scheme": "white"
+      }
+    },
     "faq_with_image_m73Xra": {
       "type": "faq-with-image",
       "blocks": {
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What can I expect during my initial consultation?",
+            "accordion_header": "How much should you spend on an Engagement Ring?",
             "open_by_default": false,
-            "text": "<p>Your first consultation is a relaxed, collaborative meeting. You will sit down one-on-one with an expert designer to:</p><ul><li>Discuss your inspiration, style, and budget.</li><li>View examples from our collection.</li><li>Look at a curated selection of diamonds or gemstones.</li><li>Begin sketching out initial ideas for your bespoke piece.</li></ul><p>For bespoke designs, this is the first step in our 3D CAD design process, where we bring your vision to life.</p>",
+            "text": "<p>There's no strict rule! Traditionally, a guideline of 1–3 months' salary was suggested, but ultimately, the right amount is what feels comfortable and affordable for you.<strong> Focus on finding a ring that your partner will love within your budget.</strong></p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What should I bring or prepare for my appointment?",
+            "accordion_header": "What is the average cost of an Engagement Ring?",
             "open_by_default": false,
-            "text": "<p>The most helpful thing you can bring is your imagination! If you have any inspirational images (from Pinterest, magazines, or photos), please bring them along. It's also useful to have a clear idea of your budget range, as this helps our designers make the best possible recommendations for you.</p>",
+            "text": "<p>The average cost can vary significantly depending on location, diamond quality, and style. While figures fluctuate, it's more important to focus on your individual budget and preferences rather than a general average.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Am I under any obligation to make a purchase after my consultation?",
+            "accordion_header": "Should I buy a Lab Grown Engagement Ring?",
             "open_by_default": false,
-            "text": "<p>Absolutely not. Our consultations are genuinely no-obligation. We are here to provide expert advice and help you understand your options. We want you to feel 100% confident and excited before moving forward with any design or repair.</p>",
+            "text": "<p><strong>Lab-grown diamonds offer the same physical, chemical, and optical properties as natural diamonds</strong> but are created in a controlled environment. They are often a more budget-friendly and sustainable option. The choice is personal and depends on your values and preferences.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Do I need an appointment, or can I just walk into the showroom?",
+            "accordion_header": "Does an Engagement Ring come with a box?",
             "open_by_default": false,
-            "text": "<p>You are always welcome to visit our showroom during opening hours to browse our collection. However, we highly recommend booking an appointment for a design consultation or complex repair. An appointment ensures that a designer is reserved exclusively for you, giving you their undivided time and attention.</p>",
+            "text": "<p>Yes, all engagement rings purchased from Griffin & Co come beautifully presented in a complimentary ring box, perfect for proposing and safekeeping.</p>",
             "page": ""
           }
         },
@@ -1099,6 +1230,99 @@
         "button_text_color": "#ffffff",
         "colors": "white"
       }
+    },
+    "template_product_info_columns_eUEtia": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_ng6pde": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_XhKxUD": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_hUEzYp": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_cGFAfb": {
+          "type": "image_and_text",
+          "settings": {
+            "grid_image_size": "square",
+            "heading": "Heading",
+            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
+            "button_link": "",
+            "button_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_ng6pde",
+        "image_and_text_XhKxUD",
+        "image_and_text_hUEzYp",
+        "image_and_text_cGFAfb"
+      ],
+      "name": "t:sections.template--product--info-columns.presets.name",
+      "settings": {
+        "title": "Info columns",
+        "description": "<p>Emphasise your messaging</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "navigation_banner_k8T7em": {
+      "type": "navigation-banner",
+      "name": "t:sections.blog--navigation-banner.presets.name",
+      "settings": {
+        "title": "Areas We Cover in Greater London",
+        "description": "",
+        "section_header_alignment": "center",
+        "banner_linklist": "",
+        "collection_list": [],
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "nav_background_color": "#242424",
+        "nav_text_color": "#FFFFFF",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "layout_style": "grid",
+        "navigation_position": "center",
+        "colors": "white"
+      }
     }
   },
   "order": [
@@ -1119,6 +1343,9 @@
     "1780059503e4e28014",
     "17787619721046fdd6",
     "blog_posts_BVWqKG",
-    "faq_with_image_m73Xra"
+    "collage_cpYDQ9",
+    "faq_with_image_m73Xra",
+    "template_product_info_columns_eUEtia",
+    "navigation_banner_k8T7em"
   ]
 }
