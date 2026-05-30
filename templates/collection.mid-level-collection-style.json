@@ -65,7 +65,7 @@
         "section-width": "full",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "colors": "accent"
+        "colors": "light"
       }
     },
     "image_with_text_CYA9px": {
@@ -164,7 +164,7 @@
       ],
       "name": "t:sections.visual-navigation-banner.presets.name",
       "settings": {
-        "title": "Shop by {{ collection.title }} Design:",
+        "title": "Shop by {{ collection.title }}",
         "description": "",
         "section_header_alignment": "left",
         "image_style": "square",
@@ -500,6 +500,7 @@
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
         "hover_navigation_desktop": "left-and-right",
         "columns_per_row": 4,
         "vertical_alignment": "top",
