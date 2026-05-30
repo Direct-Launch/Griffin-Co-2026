@@ -369,7 +369,7 @@
       "name": "Diamond Cuts",
       "settings": {
         "title": "Explore Diamonds by Shape.",
-        "description": "<p>Emphasise your messaging</p>",
+        "description": "",
         "section_header_alignment": "center",
         "maximum_width": 75,
         "override_border_radius": false,
