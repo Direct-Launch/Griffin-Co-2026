@@ -145,6 +145,12 @@
   <script src="{{ 'component-info-columns.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="info-columns"></script>
 </safe-load-scripts>
 
+{% if layout_mobile == 'slider' or layout_desktop == 'slider' %}
+  <safe-load-scripts class="hidden">
+    <script src="{{ 'component-content-grid-slider.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="content-grid-slider"></script>
+  </safe-load-scripts>
+{% endif %}
+
 <info-columns
   class="wrapper-spacing--v wrapper-spacing--h content-align--{{ section.settings.section_header_alignment }}{% if section_width == 'full' %} color-scheme--{{ section.settings.colors }}{% endif %} info-cols section-{{ section.id }}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}{% if section.settings.slider_height_mobile == 'consistent' %} slider-height--consistent{% endif %}"
   data-wetheme-section-type="template--product--info-columns"
@@ -162,7 +168,21 @@
     {% comment %} Section title and description {% endcomment %}
     {% render 'dynamic-section-header', section_title: section.settings.title, section_description: section.settings.description, alignment: section.settings.section_header_alignment %}
 
-    <div class="info-cols__slider-wrapper block" data-grid-slider-wrapper>
+    <content-grid-slider
+      class="info-cols__slider-wrapper block"
+      data-grid-slider-wrapper
+      data-section-id="{{ section.id }}"
+      data-desktop-only="{{ disable_mobile_slider }}"
+      data-mobile-only="{{ disable_desktop_slider }}"
+      data-slides-per-view-mobile="{{ columns_per_row_mobile }}"
+      data-slides-per-view-desktop="{{ section.settings.columns_per_row }}"
+      data-peek-desktop-enabled="false"
+      data-peek-mobile-enabled="{% if section.settings.navigation_mobile == 'peek' %}true{% else %}false{% endif %}"
+      data-pagination-overlay-enabled="false"
+      data-remove-spacing="false"
+      data-grid-spacing-desktop="{{ settings.grid_spacing | default: 15 }}"
+      data-grid-spacing-mobile="{{ settings.grid_spacing | default: 15 | times: 0.75 }}"
+    >
 
       {% if section.blocks.size > section.settings.columns_per_row and disable_desktop_slider == false %}
         <!-- navigation -->
@@ -187,7 +207,7 @@
       {% endif %}
 
       <div class="swiper info-cols--slider{% if disable_mobile_slider %} disable-mobile{% endif %}{% if disable_desktop_slider %} disable-desktop{% endif %}" data-number-of-slides="{{ section.blocks.size }}" data-animate-overflow-container>
-        <div class="swiper-wrapper vertical-align--{{ section.settings.vertical_alignment }}">
+        <div class="swiper-wrapper vertical-align--{{ section.settings.vertical_alignment }}{% if disable_mobile_slider %} mobile-grid-layout{% endif %}{% if disable_desktop_slider %} desktop-grid-layout{% endif %}">
           {% for block in section.blocks %}
 
             <div
@@ -373,7 +393,7 @@
       </div>
 
       {% if section.blocks.size > 1 %}
-        <div class="swiper-pagination{% if disable_mobile_slider or section.settings.navigation_mobile == 'peek' %} small-hide{% endif %}{% if disable_desktop_slider %} large-hide{% endif %}"></div>
+        <div class="swiper-pagination{% if disable_mobile_slider or section.settings.navigation_mobile == 'peek' %} small-hide{% endif %}{% if disable_desktop_slider %} large-hide{% endif %}" style="position: relative; margin-top: 15px;"></div>
       {% endif %}
 
       {% if section.blocks.size == 0 %}
@@ -382,7 +402,7 @@
         </div>
       {% endif %}
 
-    </div>
+    </content-grid-slider>
 
   {% if section_width == 'content' %}
     </div>
