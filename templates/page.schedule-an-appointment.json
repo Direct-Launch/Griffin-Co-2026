@@ -25,16 +25,22 @@
         "show_image_mobile": true,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#E68819",
-        "button_text_color": "#ffffff",
+        "button_link_1": "",
+        "button_label_1": "",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "",
+        "button_label_2": "",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
         "section-width": "full",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "colors": "accent"
+        "colors": "light"
       }
     },
     "scrolling_banner_yQGBqH": {
@@ -330,7 +336,7 @@
             "card_height": "extra_tall",
             "text_size": "extra_small",
             "stars_size": "small",
-            "arrows_position": "sides",
+            "arrows_position": "hidden",
             "max_width": 1300,
             "corner_styling": "square",
             "quote_marks_style": "serif",
@@ -354,8 +360,7 @@
         ".jdgm-star {color: #ffdda6 !important;}",
         ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
         "div {background: #004225;}",
-        ".jdgm-testimonials-carousel {margin-top: 50px;}",
-        ".jdgm-title {font-size: 24px; font-family: var(--body-font-stack);}"
+        ".jdgm-title {font-size: 22px; font-family: var(--body-font-stack); overflow: visible; -webkit-line-clamp: 2;}"
       ],
       "name": "Reviews",
       "settings": {
