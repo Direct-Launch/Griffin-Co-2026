@@ -830,6 +830,7 @@
       "block_order": [
         "blog_MNjAkY"
       ],
+      "disabled": true,
       "name": "Examples of Bespoke Rings",
       "settings": {
         "title": "Examples of our Bespoke Rings.",
@@ -874,8 +875,8 @@
         "heading_q34xXf": {
           "type": "heading",
           "settings": {
-            "heading": "VIEW MORE EXAMPLES ON OUR INSTAGRAM.",
-            "heading--text-size": "h4",
+            "heading": "Examples of our Bespoke Engagement Rings From OUR INSTAGRAM.",
+            "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
         },
@@ -895,7 +896,7 @@
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
         "section_width": "content",
-        "text_alignment_desktop": "right",
+        "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
