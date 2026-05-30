@@ -1,5 +1,4 @@
 {{ 'section-product-info-columns.min.css' | asset_url | stylesheet_tag }}
-{{ 'section-content-grid.min.css' | asset_url | stylesheet_tag }}
 
 {% liquid 
   assign layout_mobile = section.settings.layout_style_mobile | default: 'slider'
@@ -15,25 +14,6 @@
   endif
   
   assign columns_per_row_mobile = section.settings.columns_per_row_mobile | default: '1'
-
-  assign justify_mobile = 'center'
-  if section.settings.text_alignment_mobile == 'left'
-    assign justify_mobile = 'flex-start'
-  elsif section.settings.text_alignment_mobile == 'right'
-    assign justify_mobile = 'flex-end'
-  endif
-
-  assign justify_desktop = 'center'
-  if section.settings.text_alignment == 'left'
-    assign justify_desktop = 'flex-start'
-  elsif section.settings.text_alignment == 'right'
-    assign justify_desktop = 'flex-end'
-  endif
-
-  assign has_slider = false
-  if layout_desktop == 'slider' or layout_mobile == 'slider'
-    assign has_slider = true
-  endif
 %}
 
 {% style %}
@@ -44,7 +24,7 @@
   }
   .section-{{ section.id }} .info-cols--link--wrapper {
     display: flex;
-    justify-content: {{ justify_mobile }} !important;
+    justify-content: {% if section.settings.text_alignment_mobile == 'left' %}flex-start{% elsif section.settings.text_alignment_mobile == 'right' %}flex-end{% else %}center{% endif %} !important;
   }
 
   @media (min-width: 768px) {
@@ -53,34 +33,26 @@
       text-align: {{ section.settings.text_alignment }} !important;
     }
     .section-{{ section.id }} .info-cols--link--wrapper {
-      justify-content: {{ justify_desktop }} !important;
+      justify-content: {% if section.settings.text_alignment == 'left' %}flex-start{% elsif section.settings.text_alignment == 'right' %}flex-end{% else %}center{% endif %} !important;
     }
   }
 
   /* --- Equal Height Slides --- */
-  .section-{{ section.id }} .content-grid__slider .swiper-wrapper {
+  .section-{{ section.id }} .swiper-wrapper {
     align-items: stretch !important;
   }
-  .section-{{ section.id }} .content-grid__slider .swiper-slide {
-    height: auto; 
+  .section-{{ section.id }} .swiper-slide {
+    height: auto !important;
     display: flex;
     flex-direction: column;
-    box-sizing: border-box;
   }
-  .section-{{ section.id }} .content-grid__slider .swiper-slide .info-cols--text {
+  .section-{{ section.id }} .swiper-slide .info-cols--text {
     flex-grow: 1; /* Pushes the button neatly to the bottom */
   }
-  .section-{{ section.id }} .content-grid__slider .swiper-slide .info-cols--link--wrapper {
-    margin-top: auto;
-  }
 
-  /* --- Fix Mobile Text Visibility & Animation Math --- */
+  /* --- Fix Mobile Text Visibility Bug --- */
   @media (max-width: 767px) {
-    /* Force visibility and reset the animation transform to prevent loading delays */
-    .section-{{ section.id }} .swiper-slide[data-animate],
-    .section-{{ section.id }} .swiper-slide[data-animate] .info-cols--text,
-    .section-{{ section.id }} .swiper-slide[data-animate] .info-cols--title,
-    .section-{{ section.id }} .swiper-slide[data-animate] .info-cols--link--wrapper {
+    .section-{{ section.id }} .info-cols--slider [data-animate] {
       opacity: 1 !important;
       visibility: visible !important;
       transform: none !important;
@@ -169,20 +141,24 @@
   <script src="{{ 'component-deferred-media.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="deferred-media"></script>
 </safe-load-scripts>
 
-{% if has_slider %}
+<safe-load-scripts class="hidden">
+  <script src="{{ 'component-info-columns.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="info-columns"></script>
+</safe-load-scripts>
+
+{% if layout_mobile == 'slider' or layout_desktop == 'slider' %}
   <safe-load-scripts class="hidden">
     <script src="{{ 'component-content-grid-slider.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="content-grid-slider"></script>
   </safe-load-scripts>
 {% endif %}
 
-<div
+<info-columns
   class="wrapper-spacing--v wrapper-spacing--h content-align--{{ section.settings.section_header_alignment }}{% if section_width == 'full' %} color-scheme--{{ section.settings.colors }}{% endif %} info-cols section-{{ section.id }}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}{% if section.settings.slider_height_mobile == 'consistent' %} slider-height--consistent{% endif %}"
   data-wetheme-section-type="template--product--info-columns"
   data-wetheme-section-id="{{ section.id }}"
-  style="
-    --padding-section-top: {{ section.settings.section_padding_top }}px; 
-    --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;
-  "
+  data-slides-per-row="{{ section.settings.columns_per_row }}"
+  data-grid-spacing="{{ settings.grid_spacing }}"
+  data-slider-height-mobile="{{ section.settings.slider_height_mobile }}"
+  style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
 >
 
   {% if section_width == 'content' %}
@@ -206,7 +182,6 @@
       data-remove-spacing="false"
       data-grid-spacing-desktop="{{ settings.grid_spacing | default: 15 }}"
       data-grid-spacing-mobile="{{ settings.grid_spacing | default: 15 | times: 0.75 }}"
-      data-is-product-card="true"
     >
 
       {% if section.blocks.size > section.settings.columns_per_row and disable_desktop_slider == false %}
@@ -231,21 +206,21 @@
         </div>
       {% endif %}
 
-      <div class="content-grid__slider swiper info-cols--slider{% if disable_mobile_slider %} disable-mobile{% endif %}{% if disable_desktop_slider %} disable-desktop{% endif %}" data-number-of-slides="{{ section.blocks.size }}" data-animate-overflow-container>
-        <div class="content-grid{% if has_slider %} swiper-wrapper{% endif %} content-grid--desktop-{{ layout_desktop }} content-grid--mobile-{{ layout_mobile }} content-grid--gap vertical-align--{{ section.settings.vertical_alignment }}">
+      <div class="swiper info-cols--slider{% if disable_mobile_slider %} disable-mobile{% endif %}{% if disable_desktop_slider %} disable-desktop{% endif %}" data-number-of-slides="{{ section.blocks.size }}" data-animate-overflow-container>
+        <div class="swiper-wrapper vertical-align--{{ section.settings.vertical_alignment }}{% if disable_mobile_slider %} mobile-grid-layout{% endif %}{% if disable_desktop_slider %} desktop-grid-layout{% endif %}">
           {% for block in section.blocks %}
 
             <div
-              class="content-grid-item grid__item{% if has_slider %} swiper-slide{% endif %} info-cols--{{ block.type }}-column info-block-{{ block.id }}" 
+              class="info-cols--{{ block.type }}-column grid__item swiper-slide info-block-{{ block.id }}" 
               {{ block.shopify_attributes }} 
-              {% if has_slider %}data-content-grid-slide-index="{{ forloop.index0 }}"{% endif %}
+              data-swiper-slide-index="{{ forloop.index0 }}"
               data-animate
               data-animate-order="{% render 'block-animation-offset', 
                 title: section.settings.title, 
                 description: section.settings.description, 
                 base: forloop.index 
               %}"
-              {% if has_slider %}data-animate-overflow-item{% endif %}
+              data-animate-overflow-item
             >
               {% case block.type %}
                 {% when 'image_and_text' %}
@@ -415,14 +390,11 @@
 
           {% endfor %}
         </div>
-        
-        {% if has_slider %}
-          {% if section.blocks.size > 1 %}
-            <div class="swiper-pagination{% if disable_mobile_slider or section.settings.navigation_mobile == 'peek' %} small-hide{% endif %}{% if disable_desktop_slider %} large-hide{% endif %}" style="position: relative; margin-top: 15px;"></div>
-          {% endif %}
-        {% endif %}
-
       </div>
+
+      {% if section.blocks.size > 1 %}
+        <div class="swiper-pagination{% if disable_mobile_slider or section.settings.navigation_mobile == 'peek' %} small-hide{% endif %}{% if disable_desktop_slider %} large-hide{% endif %}" style="position: relative; margin-top: 15px;"></div>
+      {% endif %}
 
       {% if section.blocks.size == 0 %}
         <div class="placeholder-noblocks">
@@ -435,7 +407,7 @@
   {% if section_width == 'content' %}
     </div>
   {% endif %}
-</div>
+</info-columns>
 
 {% schema %}
 {
