@@ -192,27 +192,14 @@
         "colors": "white"
       }
     },
-    "custom_html_zbhNGz": {
-      "type": "custom-html",
-      "blocks": {
-        "html_BVWMWX": {
-          "type": "html",
-          "settings": {
-            "code": "<iframe src=\"https://griffinfinejewellery.jewellerycreator.net/\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
-            "width": "100%",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "html_BVWMWX"
-      ],
-      "custom_css": [],
-      "name": "t:all.Custom_HTML",
+    "custom_liquid_AaFVmN": {
+      "type": "custom-liquid",
+      "name": "t:sections.advanced-layout--custom-liquid.name",
       "settings": {
         "title": "",
         "description": "",
         "section_header_alignment": "center",
+        "custom_liquid": "<iframe src=\"https://griffinfinejewellery.jewellerycreator.net/\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
         "section_width": "full-width",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
@@ -554,7 +541,7 @@
     "hero_image_with_text_XbtaRH",
     "scrolling_banner_yQGBqH",
     "template_product_info_columns_RzYKwq",
-    "custom_html_zbhNGz",
+    "custom_liquid_AaFVmN",
     "image_with_text_overlay_WgzhKg",
     "image_with_text_slideshow_TmyLyE",
     "17787619721046fdd6",
