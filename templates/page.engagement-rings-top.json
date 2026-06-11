@@ -1034,8 +1034,8 @@
             "button_label": "Learn More",
             "buttons_style": "underlined",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "left",
             "background_color": "rgba(0,0,0,0)",
@@ -1053,8 +1053,8 @@
             "button_label": "Learn More",
             "buttons_style": "underlined",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "left",
             "background_color": "rgba(0,0,0,0)",
@@ -1072,8 +1072,8 @@
             "button_label": "Learn More",
             "buttons_style": "underlined",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "left",
             "background_color": "rgba(0,0,0,0)",
@@ -1091,8 +1091,8 @@
             "button_label": "Learn More",
             "buttons_style": "underlined",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "left",
             "background_color": "rgba(0,0,0,0)",
@@ -1110,8 +1110,8 @@
             "button_label": "Learn About Lab Diamonds",
             "buttons_style": "filled",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "center",
             "background_color": "#f8f7f2",
@@ -1234,41 +1234,37 @@
     "template_product_info_columns_eUEtia": {
       "type": "template--product--info-columns",
       "blocks": {
-        "image_and_text_ng6pde": {
-          "type": "image_and_text",
+        "text_WGKABc": {
+          "type": "text",
           "settings": {
-            "grid_image_size": "square",
             "heading": "Heading",
             "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_link": "",
             "button_text": "Learn more"
           }
         },
-        "image_and_text_XhKxUD": {
-          "type": "image_and_text",
+        "text_imri8x": {
+          "type": "text",
           "settings": {
-            "grid_image_size": "square",
             "heading": "Heading",
             "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_link": "",
             "button_text": "Learn more"
           }
         },
-        "image_and_text_hUEzYp": {
-          "type": "image_and_text",
+        "text_6UDL77": {
+          "type": "text",
           "settings": {
-            "grid_image_size": "square",
             "heading": "Heading",
             "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_link": "",
             "button_text": "Learn more"
           }
         },
-        "image_and_text_cGFAfb": {
-          "type": "image_and_text",
+        "text_JyiVnm": {
+          "type": "text",
           "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
+            "heading": "Greater London",
             "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
             "button_link": "",
             "button_text": "Learn more"
@@ -1276,10 +1272,10 @@
         }
       },
       "block_order": [
-        "image_and_text_ng6pde",
-        "image_and_text_XhKxUD",
-        "image_and_text_hUEzYp",
-        "image_and_text_cGFAfb"
+        "text_WGKABc",
+        "text_imri8x",
+        "text_6UDL77",
+        "text_JyiVnm"
       ],
       "name": "t:sections.template--product--info-columns.presets.name",
       "settings": {
@@ -1290,12 +1286,12 @@
         "override_border_radius": false,
         "buttons_style": "underlined",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 3,
+        "columns_per_row": 4,
         "vertical_alignment": "top",
-        "text_alignment": "center",
+        "text_alignment": "left",
         "text_alignment_mobile": "center",
         "slider_height_mobile": "adaptive",
         "section_width": "full",
@@ -1311,12 +1307,12 @@
         "title": "Areas We Cover in Greater London",
         "description": "",
         "section_header_alignment": "center",
-        "banner_linklist": "",
+        "banner_linklist": "hampshire",
         "collection_list": [],
         "buttons_style": "underlined",
         "override_button_colors": true,
         "nav_background_color": "#242424",
-        "nav_text_color": "#FFFFFF",
+        "nav_text_color": "#ffffff",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "layout_style": "grid",
