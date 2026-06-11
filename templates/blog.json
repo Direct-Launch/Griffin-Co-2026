@@ -1,5 +1,47 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
+    "hero_image_with_text_DCM9iM": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "layout": "left",
+        "title": "Hero Image with Text",
+        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "",
+        "button_label_1": "",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#E68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "",
+        "button_label_2": "",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#E68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
     "image_with_text_slideshow_bmzrQP": {
       "type": "image-with-text-slideshow",
       "blocks": {
@@ -8,10 +50,10 @@
           "settings": {
             "subheading": "FEATURED",
             "heading": "How to Choose a Wedding Ring",
-            "text": "<p>So you have the engagement ring of your dreams and now you’ve embarked on the journey of planning your big day.<\/p>",
+            "text": "<p>So you have the engagement ring of your dreams and now you’ve embarked on the journey of planning your big day.</p>",
             "page": "",
-            "slide_link": "\/",
-            "first_button_link": "\/",
+            "slide_link": "/",
+            "first_button_link": "/",
             "first_button_label": "Read more",
             "second_button_link": "",
             "second_button_label": "",
@@ -33,9 +75,9 @@
           "settings": {
             "subheading": "FEATURED",
             "heading": "The Gemstones and Metals You Should Avoid for Your Engagement Ring",
-            "text": "<p>Creating the perfect engagement ring is an exciting journey, and our years of experience help you get the perfect ring for you.<\/p>",
+            "text": "<p>Creating the perfect engagement ring is an exciting journey, and our years of experience help you get the perfect ring for you.</p>",
             "page": "",
-            "slide_link": "\/",
+            "slide_link": "/",
             "first_button_link": "",
             "first_button_label": "Read more",
             "second_button_link": "",
@@ -58,9 +100,9 @@
           "settings": {
             "subheading": "FEATURED",
             "heading": "What Is a Placeholder Ring and Why You Might Need One",
-            "text": "<p>If you're searching for the perfect engagement ring and have come across the idea of a placeholder ring.<\/p>",
+            "text": "<p>If you're searching for the perfect engagement ring and have come across the idea of a placeholder ring.</p>",
             "page": "",
-            "slide_link": "\/",
+            "slide_link": "/",
             "first_button_link": "",
             "first_button_label": "Read more",
             "second_button_link": "",
@@ -132,8 +174,8 @@
         "alignment": "left",
         "show_sidebar": true,
         "show_sidebar_newsletter": true,
-        "newsletter_heading": "<h4>Sign up for more<\/h4>",
-        "newsletter_description": "<p>Keep uptodate with the latest ring inspiration.<\/p>",
+        "newsletter_heading": "<h4>Sign up for more</h4>",
+        "newsletter_description": "<p>Keep uptodate with the latest ring inspiration.</p>",
         "newsletter_color_scheme": "white",
         "override_button_colors": false,
         "button_background_color": "#e68819",
@@ -155,6 +197,7 @@
     }
   },
   "order": [
+    "hero_image_with_text_DCM9iM",
     "image_with_text_slideshow_bmzrQP",
     "blog_header_zqNdpU",
     "main"
