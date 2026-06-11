@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -58,24 +67,24 @@
       ],
       "settings": {
         "show_image": true,
-        "height_desktop": "original",
+        "height_desktop": "550px",
         "text_position_desktop": "center",
         "height_mobile": "original",
         "text_position_mobile": "center",
-        "heading_font_size": "h4",
+        "heading_font_size": "h3",
         "heading_font_size_mobile": "h5-mobile",
         "text_color": "#ffffff",
         "image_overlay_color": "#242424",
         "image_overlay_opacity": 50,
         "show_tags": true,
         "show_date": true,
-        "show_author": false,
+        "show_author": true,
         "show_reading_time": true,
         "show_comment_count": false,
         "show_sidebar": true,
-        "show_sidebar_newsletter": false,
-        "newsletter_heading": "<h4>Join our mailing list<\/h4>",
-        "newsletter_description": "<p>Get priority access to events and exclusive offers<\/p>",
+        "show_sidebar_newsletter": true,
+        "newsletter_heading": "<h4>Join our mailing list</h4>",
+        "newsletter_description": "<p>Get priority access to events and exclusive offers</p>",
         "newsletter_color_scheme": "white",
         "override_button_colors": false,
         "button_background_color": "#e68819",
@@ -89,7 +98,7 @@
         "sidebar_image_shape": "original",
         "blog-sidebar-link": "",
         "article-sidebar-description": "",
-        "show_blog_tags": false,
+        "show_blog_tags": true,
         "show_social_icons": true
       }
     },
