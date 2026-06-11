@@ -485,45 +485,36 @@
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What can I expect during my initial consultation?",
+            "accordion_header": "What happens after I place my order online?",
             "open_by_default": false,
-            "text": "<p>Your first consultation is a relaxed, collaborative meeting. You will sit down one-on-one with an expert designer to:</p><ul><li>Discuss your inspiration, style, and budget.</li><li>View examples from our collection.</li><li>Look at a curated selection of diamonds or gemstones.</li><li>Begin sketching out initial ideas for your bespoke piece.</li></ul><p>For bespoke designs, this is the first step in our 3D CAD design process, where we bring your vision to life.</p>",
+            "text": "<p>Once you finalise your design and place your order, our master goldsmiths in Chichester carefully review the specifications. We source your chosen diamond, cast the precious metal, and meticulously hand-finish your piece. The entire crafting process typically takes 4-6 weeks.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What should I bring or prepare for my appointment?",
+            "accordion_header": "Can I design something completely from scratch?",
             "open_by_default": false,
-            "text": "<p>The most helpful thing you can bring is your imagination! If you have any inspirational images (from Pinterest, magazines, or photos), please bring them along. It's also useful to have a clear idea of your budget range, as this helps our designers make the best possible recommendations for you.</p>",
+            "text": "<p>While the online studio offers thousands of combinations, if you have a completely unique vision that cannot be built in the app, we recommend our <a href=\"/pages/bespoke-jewellery-designs\" title=\"Bespoke Jewellery Designs\">Bespoke Design Service</a>. You can book an appointment to work from a blank canvas with our designers.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Am I under any obligation to make a purchase after my consultation?",
+            "accordion_header": "Are the 3D renders an accurate representation?",
             "open_by_default": false,
-            "text": "<p>Absolutely not. Our consultations are genuinely no-obligation. We are here to provide expert advice and help you understand your options. We want you to feel 100% confident and excited before moving forward with any design or repair.</p>",
+            "text": "<p>Yes, our 3D technology provides highly accurate, photorealistic renders of how your final piece will look, proportioned perfectly to your chosen diamond and ring size.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Do I need an appointment, or can I just walk into the showroom?",
+            "accordion_header": "Is my online bespoke design guaranteed?",
             "open_by_default": false,
-            "text": "<p>You are always welcome to visit our showroom during opening hours to browse our collection. However, we highly recommend booking an appointment for a design consultation or complex repair. An appointment ensures that a designer is reserved exclusively for you, giving you their undivided time and attention.</p>",
-            "page": ""
-          }
-        },
-        "accordion_BRezAN": {
-          "type": "accordion",
-          "settings": {
-            "accordion_header": "How long should I set aside for my appointment?",
-            "open_by_default": false,
-            "text": "<p>We recommend setting aside about one hour for your consultation. This gives us ample time to discuss your ideas in detail, answer all your questions, and explore different design possibilities without you feeling rushed.</p>",
+            "text": "<p>Absolutely. Every piece crafted by Griffin & Co, whether designed in-store or via our online studio, comes with a comprehensive guarantee of craftsmanship and a complimentary first-year check and clean in our workshop.</p>",
             "page": ""
           }
         }
@@ -532,12 +523,11 @@
         "accordion_GhRGXt",
         "accordion_HmVJLJ",
         "accordion_xFhTbU",
-        "accordion_pxHnfz",
-        "accordion_BRezAN"
+        "accordion_pxHnfz"
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Frequently Asked Questions.",
+        "section_title": "Online Design Studio FAQs.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
