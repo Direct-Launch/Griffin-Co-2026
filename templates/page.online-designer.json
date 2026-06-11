@@ -194,6 +194,9 @@
     },
     "custom_liquid_AaFVmN": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".wrapper-spacing--h{padding-left: 0px; padding-right: 0px;}"
+      ],
       "name": "t:sections.advanced-layout--custom-liquid.name",
       "settings": {
         "title": "",
@@ -262,7 +265,7 @@
         "section_width": "full",
         "section_margin_top": 0,
         "section_margin_bottom": 0,
-        "text_color": "#FFFFFF",
+        "text_color": "#ffffff",
         "caption_bg_color": "rgba(0,0,0,0)",
         "image_overlay_color": "#242424",
         "image_overlay_opacity": 25
