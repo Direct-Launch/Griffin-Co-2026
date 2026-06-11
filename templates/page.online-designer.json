@@ -226,11 +226,26 @@
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
           }
+        },
+        "button_J4JRwT": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://pages/contact",
+            "first_button_label": "Get In Contact",
+            "second_button_link": "shopify://pages/schedule-an-appointment",
+            "second_button_label": "Schedule an Appointment",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 20
+          }
         }
       },
       "block_order": [
         "heading_yLdRKf",
-        "text_Fhkz9G"
+        "text_Fhkz9G",
+        "button_J4JRwT"
       ],
       "name": "t:sections.image--image-with-text-overlay.presets.name",
       "settings": {
@@ -239,7 +254,7 @@
         "text_position_desktop": "left",
         "text_alignment_desktop": "left",
         "caption_width_desktop": 50,
-        "height_mobile": "original",
+        "height_mobile": "500px",
         "text_position_mobile": "center",
         "text_alignment_mobile": "left",
         "section_link": "",
