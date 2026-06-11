@@ -1277,10 +1277,10 @@
         "text_6UDL77",
         "text_JyiVnm"
       ],
-      "name": "t:sections.template--product--info-columns.presets.name",
+      "name": "Areas We Cover",
       "settings": {
-        "title": "Info columns",
-        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we are delighted to offer our bespoke engagement ring design services and curated collection to couples across the South of England and beyond. While our showroom is located in Chichester, we regularly work with clients in a wide range of towns and cities, including:</p><p><a href=\"/pages/engagement-rings-greater-london\" title=\"Engagement Rings Greater London\"><strong>Greater London</strong></a><strong>:</strong> </p><p><a href=\"/pages/engagement-rings-surrey\" title=\"Engagement Rings Surrey\"><strong>Surrey</strong></a><strong>:</strong> </p><p><a href=\"/pages/engagement-rings-hampshire\" title=\"Engagement Rings Hampshire\"><strong>Hampshire</strong></a><strong>:</strong> <a href=\"/pages/engagement-rings-aldershot\" title=\"Engagement Rings Aldershot\">Aldershot</a>, <a href=\"/pages/engagement-rings-andover\" title=\"Engagement Rings Andover\">Andover</a>, <a href=\"/pages/engagement-rings-basingstoke\" title=\"Engagement Rings Basingstoke\">Basingstoke</a>, <a href=\"/pages/engagement-rings-farnborough\" title=\"Engagement Rings Farnborough\">Farnborough</a>, <a href=\"/pages/engagement-rings-gosport\" title=\"Engagement Rings Gosport\">Gosport</a>, <a href=\"/pages/engagement-rings-horndean\" title=\"Engagement Rings Horndean\">Horndean</a>, <a href=\"/pages/engagement-rings-portsmouth\" title=\"Engagement Rings Portsmouth\">Portsmouth</a>, <a href=\"/pages/engagement-rings-southampton\" title=\"Engagement Rings Southampton\">Southampton</a>, <a href=\"/pages/engagement-rings-winchester\" title=\"Engagement Rings Winchester\">Winchester</a>.</p><p><a href=\"/pages/engagement-rings-west-sussex\" title=\"Engagement Rings West Sussex\"><strong>West Sussex</strong></a><strong>:</strong> <a href=\"/pages/engagement-rings-bognor-regis\" title=\"Engagement Rings Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/engagement-rings-burgess-hill\" title=\"Engagement Rings Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/engagement-rings-chichester\" title=\"Engagement Rings Chichester\">Chichester</a>, <a href=\"/pages/engagement-rings-crawley\" title=\"Engagement Rings Crawley\">Crawley</a>, <a href=\"/pages/engagement-rings-east-grinstead\" title=\"Engagement Rings East Grinstead\">East Grinstead</a>, <a href=\"/pages/engagement-rings-haywards-heath\" title=\"Engagement Rings Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/engagement-rings-horsham\" title=\"Engagement Rings Horsham\">Horsham</a>, <a href=\"/pages/engagement-rings-littlehampton\" title=\"Engagement Rings Littlehampton\">Littlehampton</a>, <a href=\"/pages/engagement-rings-shoreham-by-sea\" title=\"Engagement Rings Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/engagement-rings-worthing\" title=\"Engagement Rings Worthing\">Worthing</a>.</p><p>Whether you prefer to visit our Chichester showroom for a personal consultation or begin your journey online, we are dedicated to helping you create or find the perfect engagement ring, no matter where you are located within these areas. </p><p><strong>Please don't hesitate to get in touch to discuss your requirements.</strong></p>",
+        "title": "Engagement Rings Across the South of England",
+        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer bespoke engagement ring design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
         "section_header_alignment": "center",
         "maximum_width": 500,
         "override_border_radius": false,
@@ -1297,26 +1297,6 @@
         "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "navigation_banner_k8T7em": {
-      "type": "navigation-banner",
-      "name": "t:sections.blog--navigation-banner.presets.name",
-      "settings": {
-        "title": "Areas We Cover in Greater London",
-        "description": "",
-        "section_header_alignment": "center",
-        "banner_linklist": "hampshire",
-        "collection_list": [],
-        "buttons_style": "underlined",
-        "override_button_colors": true,
-        "nav_background_color": "#242424",
-        "nav_text_color": "#ffffff",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "layout_style": "grid",
-        "navigation_position": "center",
         "colors": "white"
       }
     }
@@ -1341,7 +1321,6 @@
     "blog_posts_BVWqKG",
     "collage_cpYDQ9",
     "faq_with_image_m73Xra",
-    "template_product_info_columns_eUEtia",
-    "navigation_banner_k8T7em"
+    "template_product_info_columns_eUEtia"
   ]
 }
