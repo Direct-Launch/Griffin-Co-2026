@@ -135,7 +135,7 @@
           "settings": {
             "image": "shopify://shop_images/1.svg",
             "grid_image_size": "square",
-            "heading": "Choose Your Setting",
+            "heading": "Choose Your Style",
             "text": "<p>Select your foundation: from engagement rings and eternity bands to men's signets, earrings, pendants, and bracelets.</p>",
             "button_link": "",
             "button_text": ""
@@ -169,12 +169,12 @@
         "image_and_text_JUYWHn",
         "image_and_text_aEQtxX"
       ],
-      "name": "Bespoke Process",
+      "name": "Steps",
       "settings": {
         "title": "",
         "description": "",
         "section_header_alignment": "left",
-        "maximum_width": 95,
+        "maximum_width": 75,
         "override_border_radius": false,
         "buttons_style": "underlined",
         "override_button_colors": false,
