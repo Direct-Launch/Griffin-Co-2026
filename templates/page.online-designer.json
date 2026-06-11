@@ -171,8 +171,8 @@
       ],
       "name": "Bespoke Process",
       "settings": {
-        "title": "Our Bespoke Process.",
-        "description": "<p>Let's make your dream jewellery together.</p>",
+        "title": "",
+        "description": "",
         "section_header_alignment": "left",
         "maximum_width": 95,
         "override_border_radius": false,
