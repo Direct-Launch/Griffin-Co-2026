@@ -541,8 +541,8 @@
             "grid_image_size": "square",
             "heading": "Book a In-Person Consultation.",
             "text": "<p>For those who prefer a tactile experience, we offer Private Home Visits directly to you in {{ page.metafields.custom.location.value }}. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
+            "button_link": "shopify://pages/schedule-an-appointment",
+            "button_text": "Request Appointment"
           }
         },
         "image_and_text_f8wUpF": {
@@ -553,7 +553,7 @@
             "heading": "Design Your Ring Online.",
             "text": "<p>Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen in {{ page.metafields.custom.location.value }}. Select your ideal GIA-certified diamond, choose your setting, and watch your future heirloom come to life in breathtaking 3D detail.</p>",
             "button_link": "",
-            "button_text": "Learn more"
+            "button_text": "Go to Online Builder"
           }
         }
       },
@@ -561,7 +561,7 @@
         "image_and_text_a8i7yL",
         "image_and_text_f8wUpF"
       ],
-      "name": "t:sections.template--product--info-columns.presets.name",
+      "name": "Bespoke Choice",
       "settings": {
         "title": "Want to create something more bespoke?",
         "description": "<p>We offer two distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
