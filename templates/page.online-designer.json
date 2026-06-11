@@ -16,7 +16,7 @@
         "image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
         "layout": "left",
         "title": "The 3D Design Studio",
-        "text": "<p><strong>Step into the role of the designer. </strong></p><p>Craft your perfect ring using our interactive builder below.</p>",
+        "text": "<p>Become the designer, and craft your perfect engagement ring, wedding band, necklace, earrings, or bracelet using our interactive builder below.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
@@ -127,13 +127,78 @@
         "color_scheme": "white"
       }
     },
+    "template_product_info_columns_RzYKwq": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_dCDiTd": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/1.svg",
+            "grid_image_size": "square",
+            "heading": "Choose Your Setting",
+            "text": "<p>Select your foundation: from engagement and eternity rings to men's signets, earrings, pendants, and bracelets.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_JUYWHn": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/2.svg",
+            "grid_image_size": "square",
+            "heading": "Select Your Stone",
+            "text": "<p>Browse thousands of GIA-certified natural diamonds, lab-grown diamonds, or vibrant gemstones. You can also purchase individual loose diamonds.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_aEQtxX": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/3.svg",
+            "grid_image_size": "square",
+            "heading": "Refine & Complete",
+            "text": "<p>Choose your precious metal (Platinum, 18ct Gold, etc.), view your bespoke creation in 3D, and secure your order.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_dCDiTd",
+        "image_and_text_JUYWHn",
+        "image_and_text_aEQtxX"
+      ],
+      "name": "Bespoke Process",
+      "settings": {
+        "title": "Our Bespoke Process.",
+        "description": "<p>Let's make your dream jewellery together.</p>",
+        "section_header_alignment": "left",
+        "maximum_width": 95,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 10,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
     "custom_html_zbhNGz": {
       "type": "custom-html",
       "blocks": {
         "html_BVWMWX": {
           "type": "html",
           "settings": {
-            "code": "<style>.event-list .event-list-item { border-radius: 0px !important;}</style>\n<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery?is_widget=1&amp;view=compact\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
+            "code": "<iframe src=\"https://griffinfinejewellery.jewellerycreator.net/\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
             "width": "100%",
             "margin_bottom": 0
           }
@@ -453,6 +518,7 @@
   "order": [
     "hero_image_with_text_XbtaRH",
     "scrolling_banner_yQGBqH",
+    "template_product_info_columns_RzYKwq",
     "custom_html_zbhNGz",
     "image_with_text_slideshow_TmyLyE",
     "17787619721046fdd6",
