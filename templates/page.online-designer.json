@@ -136,7 +136,7 @@
             "image": "shopify://shop_images/1.svg",
             "grid_image_size": "square",
             "heading": "Choose Your Setting",
-            "text": "<p>Select your foundation: from engagement and eternity rings to men's signets, earrings, pendants, and bracelets.</p>",
+            "text": "<p>Select your foundation: from engagement rings and eternity bands to men's signets, earrings, pendants, and bracelets.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -146,8 +146,8 @@
           "settings": {
             "image": "shopify://shop_images/2.svg",
             "grid_image_size": "square",
-            "heading": "Select Your Stone",
-            "text": "<p>Browse thousands of GIA-certified natural diamonds, lab-grown diamonds, or vibrant gemstones. You can also purchase individual loose diamonds.</p>",
+            "heading": "Customise Your Setting",
+            "text": "<p>Personalise every detail. Select your preferred precious metal, adjust the band width, and add unique design features to your piece.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -157,8 +157,8 @@
           "settings": {
             "image": "shopify://shop_images/3.svg",
             "grid_image_size": "square",
-            "heading": "Refine & Complete",
-            "text": "<p>Choose your precious metal (Platinum, 18ct Gold, etc.), view your bespoke creation in 3D, and secure your order.</p>",
+            "heading": "Select Your Diamond",
+            "text": "<p>Complete your creation by hand-picking the perfect GIA-certified natural or lab-grown diamond, then view your masterpiece in 3D.</p>",
             "button_link": "",
             "button_text": ""
           }
