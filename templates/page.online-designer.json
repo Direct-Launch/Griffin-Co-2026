@@ -13,10 +13,10 @@
       "type": "hero-image-with-text",
       "name": "Hero - Image with text",
       "settings": {
-        "image": "shopify://shop_images/Book_your_Appointment.jpg",
+        "image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
         "layout": "left",
-        "title": "Schedule Your Free Consultation.",
-        "text": "<p><strong>Meet an Expert Jeweller in Person<br/></strong></p><p>Ready to create something special? Schedule a free consultation with our expert team in our Chichester showroom. </p><p>We will work closely with you on Bespoke Designs, Remodelling, and Professional Jewellery Repairs.</p>",
+        "title": "The 3D Design Studio",
+        "text": "<p>Step into the role of the designer. Craft your perfect ring using our interactive builder below.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
