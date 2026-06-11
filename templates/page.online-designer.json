@@ -219,6 +219,53 @@
         "colors": "white"
       }
     },
+    "image_with_text_overlay_WgzhKg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_yLdRKf": {
+          "type": "heading",
+          "settings": {
+            "title": "Need An Expert's Help?",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_Fhkz9G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designing online is just the beginning. If you have questions about diamond specifications, metal durability, or want to tweak a design further, our master goldsmiths are here to help.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_yLdRKf",
+        "text_Fhkz9G"
+      ],
+      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Interior_1.webp",
+        "height_desktop": "550px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "left",
+        "caption_width_desktop": 50,
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "left",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#FFFFFF",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 25
+      }
+    },
     "image_with_text_slideshow_TmyLyE": {
       "type": "image-with-text-slideshow",
       "blocks": {
@@ -360,9 +407,7 @@
         "image_and_text_Micj7P",
         "image_and_text_4k3yBx"
       ],
-      "custom_css": [
-        ".image-with-text-slideshow {margin-top: -250px;}"
-      ],
+      "custom_css": [],
       "name": "Services",
       "settings": {
         "title": "Expert Services.",
@@ -520,6 +565,7 @@
     "scrolling_banner_yQGBqH",
     "template_product_info_columns_RzYKwq",
     "custom_html_zbhNGz",
+    "image_with_text_overlay_WgzhKg",
     "image_with_text_slideshow_TmyLyE",
     "17787619721046fdd6",
     "faq_with_image_m73Xra"
