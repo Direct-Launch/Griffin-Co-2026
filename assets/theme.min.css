@@ -10171,7 +10171,7 @@ input,
 select,
 textarea {
     font-size: var(--base-font-size);
-    line-height: 1.6;
+    line-height: 1.8;
     color: var(--text-color);
     font-family: var(--body-font-stack);
     font-weight: var(--body-font-weight);
