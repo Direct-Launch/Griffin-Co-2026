@@ -440,33 +440,6 @@
         "color_scheme": "dark"
       }
     },
-    "image_with_text_YjGKin": {
-      "type": "image-with-text",
-      "name": "Private Home Visits",
-      "settings": {
-        "image": "shopify://shop_images/Home_Visits.png",
-        "layout": "left",
-        "title": "Private Home Visits.",
-        "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Our master goldsmiths can travel to your home or office across West Sussex, Surrey, Hampshire, and Greater London. We arrive fully equipped with diamond samples, ring sizing tools, and design portfolios to conduct a full consultation or valuation in total privacy.</p>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
-        "mobile-text-size": 100,
-        "button_link": "shopify://pages/home-visits",
-        "button_label": "Request a Home Visit",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 0,
-        "section_padding_bottom": 72,
-        "colors": "dark"
-      }
-    },
     "template_product_info_columns_TYCiFr": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -720,6 +693,102 @@
         "colors": "dark"
       }
     },
+    "image_with_text_YjGKin": {
+      "type": "image-with-text",
+      "name": "Private Home Visits",
+      "settings": {
+        "image": "shopify://shop_images/Home_Visits.png",
+        "layout": "left",
+        "title": "Private Home Visits.",
+        "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Our master goldsmiths can travel to your home or office across West Sussex, Surrey, Hampshire, and Greater London. We arrive fully equipped with diamond samples, ring sizing tools, and design portfolios to conduct a full consultation or valuation in total privacy.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request a Home Visit",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_WrG8aa": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_hzYWNg": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/west-sussex\" title=\"West Sussex\">West Sussex</a></h5><p><a href=\"/pages/arundel\" title=\"Arundel\">Arundel</a>, <a href=\"/pages/bognor-regis\" title=\"Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/bosham\" title=\"Bosham\">Bosham</a>, <a href=\"/pages/burgess-hill\" title=\"Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/chichester\" title=\"Chichester\">Chichester</a>, <a href=\"/pages/crawley\" title=\"Crawley\">Crawley</a>, <a href=\"/pages/east-grinstead\" title=\"East Grinstead\">East Grinstead</a>, <a href=\"/pages/haywards-heath\" title=\"Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/horsham\" title=\"Horsham\">Horsham</a>, <a href=\"/pages/littlehampton\" title=\"Littlehampton\">Littlehampton</a>, <a href=\"/pages/shoreham-by-sea\" title=\"Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/worthing\" title=\"Worthing\">Worthing</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_TDHkcH": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/engagement-rings-hampshire\" title=\"Engagement Rings Hampshire\">Hampshire</a></h5><p><a href=\"/pages/engagement-rings-aldershot\" title=\"Engagement Rings Aldershot\">Aldershot</a>, <a href=\"/pages/engagement-rings-andover\" title=\"Engagement Rings Andover\">Andover</a>, <a href=\"/pages/engagement-rings-basingstoke\" title=\"Engagement Rings Basingstoke\">Basingstoke</a>, <a href=\"/pages/engagement-rings-farnborough\" title=\"Engagement Rings Farnborough\">Farnborough</a>, <a href=\"/pages/engagement-rings-gosport\" title=\"Engagement Rings Gosport\">Gosport</a>, <a href=\"/pages/engagement-rings-horndean\" title=\"Engagement Rings Horndean\">Horndean</a>, <a href=\"/pages/engagement-rings-portsmouth\" title=\"Engagement Rings Portsmouth\">Portsmouth</a>, <a href=\"/pages/engagement-rings-southampton\" title=\"Engagement Rings Southampton\">Southampton</a>, <a href=\"/pages/engagement-rings-winchester\" title=\"Engagement Rings Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_RxTqyW": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/engagement-rings-surrey\" title=\"Engagement Rings Surrey\">Surrey</a></h5><p><a href=\"/pages/engagement-rings-camberley\" title=\"Engagement Rings Camberley\">Camberley</a>, <a href=\"/pages/engagement-rings-epsom\" title=\"Engagement Rings Epsom\">Epsom</a>, <a href=\"/pages/engagement-rings-esher\" title=\"Engagement Rings Esher\">Esher</a>, <a href=\"/pages/engagement-rings-ewell\" title=\"Engagement Rings Ewell\">Ewell</a>, <a href=\"/pages/engagement-rings-guildford\" title=\"Engagement Rings Guildford\">Guildford</a>, <a href=\"/pages/engagement-rings-leatherhead\" title=\"Engagement Rings Leatherhead\">Leatherhead</a>, <a href=\"/pages/engagement-rings-redhill\" title=\"Engagement Rings Redhill\">Redhill</a>, <a href=\"/pages/engagement-rings-walton-on-thames\" title=\"Engagement Rings Walton-On-Thames\">Walton-On-Thames</a>, <a href=\"/pages/engagement-rings-weybridge\" title=\"Engagement Rings Weybridge\">Weybridge</a>, <a href=\"/pages/engagement-rings-woking\" title=\"Engagement Rings Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_gW9kkA": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/engagement-rings-greater-london\" title=\"Engagement Rings Greater London\">Greater London</a></h5><p><a href=\"/pages/engagement-rings-barnet\" title=\"Engagement Rings Barnet\">Barnet</a>, <a href=\"/pages/engagement-rings-brent\" title=\"Engagement Rings Brent\">Brent</a>, <a href=\"/pages/engagement-rings-bromley\" title=\"Engagement Rings Bromley\">Bromley</a>, <a href=\"/pages/engagement-rings-croydon\" title=\"Engagement Rings Croydon\">Croydon</a>, <a href=\"/pages/engagement-rings-ealing\" title=\"Engagement Rings Ealing\">Ealing</a>, <a href=\"/pages/engagement-rings-enfield\" title=\"Engagement Rings Enfield\">Enfield</a>, <a href=\"/pages/engagement-rings-lambeth\" title=\"Engagement Rings Lambeth\">Lambeth</a>, <a href=\"/pages/engagement-rings-newham\" title=\"Engagement Rings Newham\">Newham</a>, <a href=\"/pages/engagement-rings-hatton-garden\" title=\"Engagement Rings Hatton Garden\">Hatton Garden</a>, <a href=\"/pages/engagement-rings-tower-hamlets\" title=\"Engagement Rings Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/engagement-rings-wandsworth\" title=\"Engagement Rings Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_hzYWNg",
+        "text_TDHkcH",
+        "text_RxTqyW",
+        "text_gW9kkA"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Serving Chichester & Beyond",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England to provide valuations, design consultations, and collection of repairs.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
     "image_with_text_overlay_WgzhKg": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -762,7 +831,6 @@
         "text_Fhkz9G",
         "button_J4JRwT"
       ],
-      "disabled": true,
       "name": "CTA Banner",
       "settings": {
         "image_desktop": "shopify://shop_images/Book_your_Appointment.jpg",
@@ -1134,12 +1202,13 @@
     "template_product_info_columns_w6jzXb",
     "template_product_info_columns_BXkTNy",
     "collage_NFLeq4",
-    "image_with_text_YjGKin",
     "template_product_info_columns_TYCiFr",
     "template_product_info_columns_RzYKwq",
     "rich_text_WFYpWq",
     "apps_zahc7r",
     "rich_text_VhWp7f",
+    "image_with_text_YjGKin",
+    "template_product_info_columns_WrG8aa",
     "image_with_text_overlay_WgzhKg",
     "custom_liquid_QYT6dR",
     "custom_liquid_AaFVmN",
