@@ -179,7 +179,7 @@
             "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft jewellery that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
+            "text": "<h6>The Consultation</h6><p>Meet with our designers via a home visit in {{ page.metafields.custom.location.value }}, or in our showroom to discuss your ideas, budget, and inspiration. We listen to your story.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -244,6 +244,33 @@
         "section_width": "content",
         "section_padding_top": 10,
         "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    },
+    "image_with_text_YjGKin": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Sketch_3.jpg",
+        "layout": "right",
+        "title": "What We Can Create.",
+        "text": "<p>Our <strong>Chichester</strong> workshop is equipped to bring any vision to life. Whether you are starting with a blank canvas or breathing new life into a treasured family heirloom, our master goldsmiths have the expertise to craft a wide array of fine jewellery:</p><p>✧ Engagement Rings & Wedding Bands</p><p>✧ Necklaces & Pendants</p><p>✧ Bracelets & Bangles</p><p>✧ Earrings</p><p>✧ Cufflinks & Men's Jewellery</p><p>✧ Heirloom Recreations & Adaptations</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "#booking",
+        "button_label": "Discuss Your Idea With Us",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
         "colors": "white"
       }
     },
@@ -496,20 +523,6 @@
         "colors": "dark"
       }
     },
-    "custom_liquid_QYT6dR": {
-      "type": "custom-liquid",
-      "name": "Anchor",
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
-        "custom_liquid": "<a id=\"booking\"></a>",
-        "section_width": "content",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "colors": "white"
-      }
-    },
     "image_with_text_overlay_WgzhKg": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -571,6 +584,20 @@
         "caption_bg_color": "rgba(0,0,0,0)",
         "image_overlay_color": "#242424",
         "image_overlay_opacity": 25
+      }
+    },
+    "custom_liquid_QYT6dR": {
+      "type": "custom-liquid",
+      "name": "Anchor",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<a id=\"booking\"></a>",
+        "section_width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
       }
     },
     "custom_liquid_AaFVmN": {
@@ -691,9 +718,10 @@
     },
     "image_with_text_KqgeWM": {
       "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
+      "name": "CAD Design Service",
       "settings": {
-        "layout": "right",
+        "image": "shopify://shop_images/SL9827.png",
+        "layout": "left",
         "title": "Visualise Your Dream Ring in 24 Hours",
         "text": "<p>Not quite ready to commit to a full bespoke build? Bring your ideas to life instantly with our Express 3D CAD Design service. For just <strong>£50</strong>, our expert designers will translate your sketches, mood boards, or descriptions into a highly accurate, photorealistic 3D render.</p><p></p><ul><li>Delivered straight to your inbox in 24 hours</li><li>See exactly how your bespoke piece will look</li><li>£50 fee is fully redeemable against your final bespoke order</li></ul>",
         "text_alignment": "left",
@@ -703,7 +731,7 @@
         "desktop-text-size": 100,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link": "",
+        "button_link": "shopify://pages/contact",
         "button_label": "Request 3D Design (£50)",
         "buttons_style": "outlined",
         "override_button_colors": false,
@@ -903,13 +931,14 @@
     "scrolling_banner_yQGBqH",
     "rich_text_7pAWMD",
     "template_product_info_columns_w6jzXb",
+    "image_with_text_YjGKin",
     "template_product_info_columns_TYCiFr",
     "template_product_info_columns_RzYKwq",
     "rich_text_WFYpWq",
     "apps_zahc7r",
     "rich_text_VhWp7f",
-    "custom_liquid_QYT6dR",
     "image_with_text_overlay_WgzhKg",
+    "custom_liquid_QYT6dR",
     "custom_liquid_AaFVmN",
     "social_proof_AbnBmM",
     "image_with_text_KqgeWM",
