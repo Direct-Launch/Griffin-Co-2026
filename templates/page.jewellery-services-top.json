@@ -279,8 +279,8 @@
       ],
       "name": "t:sections.template--product--info-columns.presets.name",
       "settings": {
-        "title": "Info columns",
-        "description": "<p>Emphasise your messaging</p>",
+        "title": "",
+        "description": "",
         "section_header_alignment": "center",
         "maximum_width": 500,
         "override_border_radius": false,
