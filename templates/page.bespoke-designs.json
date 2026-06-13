@@ -13,10 +13,10 @@
       "type": "hero-image-with-text",
       "name": "Hero - Image with text",
       "settings": {
-        "image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
+        "image": "shopify://shop_images/Bespoke_Experience.jpg",
         "layout": "left",
-        "title": "The 3D Design Studio",
-        "text": "<p>Become the designer, and craft your perfect engagement ring, wedding band, necklace, earrings, or bracelet using our interactive builder below.</p>",
+        "title": "Bespoke Design for {{ page.metafields.custom.location.value }} Clients.",
+        "text": "<p>At Griffin & Co in Chichester, our skilled jewellers collaborate with you to design bespoke, one-of-a-kind pieces. This meticulous process ensures every detail reflects your style, creating a truly sentimental heirloom.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
@@ -26,13 +26,13 @@
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
         "button_link_1": "",
-        "button_label_1": "",
+        "button_label_1": "Book Consultation",
         "buttons_style_1": "filled",
         "override_button_colors_1": false,
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
         "button_link_2": "",
-        "button_label_2": "",
+        "button_label_2": "Design Online",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
         "button_background_color_2": "#e68819",
@@ -127,6 +127,49 @@
         "color_scheme": "white"
       }
     },
+    "rich_text_7pAWMD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zWwUDm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bespoke Jewellery Designs in {{ page.metafields.custom.location.value }}.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_Gbedat": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>For residents of {{ page.metafields.custom.location.value }} seeking something truly unique, Griffin & Co offers a bespoke design experience that transforms your ideas into tangible heirlooms. </p><p>We believe there is nothing quite like having a piece of jewellery designed exclusively for you.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "richtext_DxWU4e": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Whether you are looking to create the perfect engagement ring or reimagine unworn family jewellery, our workshop in Chichester, is where the magic happens. </p><p>We invite you to be part of every step, from the initial pencil sketch to the final polish.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWwUDm",
+        "richtext_Gbedat",
+        "richtext_DxWU4e"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_RzYKwq": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -135,8 +178,8 @@
           "settings": {
             "image": "shopify://shop_images/1.svg",
             "grid_image_size": "square",
-            "heading": "Choose Your Style",
-            "text": "<p>Select your foundation: from engagement rings and eternity bands to men's signets, earrings, pendants, and bracelets.</p>",
+            "heading": "Consultation",
+            "text": "<p>Meet with our designers to discuss your ideas, budget, and inspiration. We listen to your story to understand exactly what you need.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -146,8 +189,8 @@
           "settings": {
             "image": "shopify://shop_images/2.svg",
             "grid_image_size": "square",
-            "heading": "Customise Your Setting",
-            "text": "<p>Personalise every detail. Select your preferred precious metal, adjust the band width, and add unique design features to your piece.</p>",
+            "heading": "Choose Stones / Metal",
+            "text": "<p>Hand-pick your perfect metals and diamonds or gemstones from a curated selection sourced by our GIA-certified gemologists.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -157,8 +200,30 @@
           "settings": {
             "image": "shopify://shop_images/3.svg",
             "grid_image_size": "square",
-            "heading": "Select Your Diamond",
-            "text": "<p>Complete your creation by hand-picking the perfect GIA-certified natural or lab-grown diamond, then view your masterpiece in 3D.</p>",
+            "heading": "Design & CAD",
+            "text": "<p>We create detailed hand sketches or 3D CAD renders. You'll see photorealistic images of your piece before a single metal is cast.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_biEtrW": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/4.svg",
+            "grid_image_size": "square",
+            "heading": "Wax Model",
+            "text": "<p>A physical wax model of your design based on the approved CAD design.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_jqwx4J": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/5.svg",
+            "grid_image_size": "square",
+            "heading": "Finished Product",
+            "text": "<p>Once the mould casting is complete, the Gemstones or Diamonds are hand set into the piece with extreme precision and skill.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -167,13 +232,15 @@
       "block_order": [
         "image_and_text_dCDiTd",
         "image_and_text_JUYWHn",
-        "image_and_text_aEQtxX"
+        "image_and_text_aEQtxX",
+        "image_and_text_biEtrW",
+        "image_and_text_jqwx4J"
       ],
       "name": "Steps",
       "settings": {
-        "title": "",
+        "title": "How It Works.",
         "description": "",
-        "section_header_alignment": "left",
+        "section_header_alignment": "center",
         "maximum_width": 75,
         "override_border_radius": false,
         "buttons_style": "underlined",
@@ -181,29 +248,103 @@
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 3,
+        "columns_per_row": 5,
         "vertical_alignment": "top",
         "text_alignment": "center",
         "text_alignment_mobile": "center",
         "slider_height_mobile": "consistent",
-        "section_width": "content",
-        "section_padding_top": 10,
-        "section_padding_bottom": 60,
-        "colors": "white"
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "accent"
       }
     },
-    "custom_liquid_AaFVmN": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".wrapper-spacing--h{padding-left: 0px; padding-right: 0px;}"
-      ],
-      "name": "t:sections.advanced-layout--custom-liquid.name",
+    "image_with_text_KqgeWM": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
-        "title": "",
-        "description": "",
+        "layout": "right",
+        "title": "Visualise Your Dream Ring in 24 Hours",
+        "text": "<p>Not quite ready to commit to a full bespoke build? Bring your ideas to life instantly with our Express 3D CAD Design service. For just <strong>£50</strong>, our expert designers will translate your sketches, mood boards, or descriptions into a highly accurate, photorealistic 3D render.</p><p></p><ul><li>Delivered straight to your inbox in 24 hours</li><li>See exactly how your bespoke piece will look</li><li>£50 fee is fully redeemable against your final bespoke order</li></ul>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "Request 3D Design (£50)",
+        "buttons_style": "outlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "accent"
+      }
+    },
+    "template_product_info_columns_TYCiFr": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_UCrW8e": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Signet_Rings_Crests.png",
+            "grid_image_size": "square",
+            "heading": "Signet Rings & Crests",
+            "text": "<p>Engrave custom family crests</p>",
+            "button_link": "shopify://pages/custom-signet-rings-with-family-crests",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_xDjPhn": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_Home.png",
+            "grid_image_size": "square",
+            "heading": "Engagement Rings",
+            "text": "<p>Shop our collection or create bespoke.</p>",
+            "button_link": "shopify://pages/engagement-rings",
+            "button_text": "Learn more"
+          }
+        },
+        "image_and_text_Wd9Kpf": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Wedding_Bands_Home.png",
+            "grid_image_size": "square",
+            "heading": "Wedding Bands",
+            "text": "<p>Shop our collection or create bespoke.</p>",
+            "button_link": "shopify://pages/wedding-rings-bespoke-bands",
+            "button_text": "Learn more"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_UCrW8e",
+        "image_and_text_xDjPhn",
+        "image_and_text_Wd9Kpf"
+      ],
+      "name": "t:sections.template--product--info-columns.presets.name",
+      "settings": {
+        "title": "Info columns",
+        "description": "<p>Emphasise your messaging</p>",
         "section_header_alignment": "center",
-        "custom_liquid": "<iframe src=\"https://griffinfinejewellery.jewellerycreator.net/\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
-        "section_width": "full-width",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
@@ -269,6 +410,23 @@
         "caption_bg_color": "rgba(0,0,0,0)",
         "image_overlay_color": "#242424",
         "image_overlay_opacity": 25
+      }
+    },
+    "custom_liquid_AaFVmN": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}"
+      ],
+      "name": "t:sections.advanced-layout--custom-liquid.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<iframe src=\"https://griffinfinejewellery.jewellerycreator.net/\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
+        "section_width": "full-width",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
       }
     },
     "image_with_text_slideshow_TmyLyE": {
@@ -558,9 +716,12 @@
   "order": [
     "hero_image_with_text_XbtaRH",
     "scrolling_banner_yQGBqH",
+    "rich_text_7pAWMD",
     "template_product_info_columns_RzYKwq",
-    "custom_liquid_AaFVmN",
+    "image_with_text_KqgeWM",
+    "template_product_info_columns_TYCiFr",
     "image_with_text_overlay_WgzhKg",
+    "custom_liquid_AaFVmN",
     "image_with_text_slideshow_TmyLyE",
     "17787619721046fdd6",
     "faq_with_image_m73Xra"
