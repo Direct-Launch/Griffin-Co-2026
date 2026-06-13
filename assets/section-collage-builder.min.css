@@ -3,6 +3,7 @@
   flex-wrap: wrap;
   gap: 16px;
   align-items: center;
+justify-content: center;
 }
 .collage-builder__button-group:not(:first-child) {
   margin-top: 20px;
