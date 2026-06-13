@@ -833,7 +833,7 @@
       ],
       "name": "CTA Banner",
       "settings": {
-        "image_desktop": "shopify://shop_images/Book_your_Appointment.jpg",
+        "image_desktop": "shopify://shop_images/Interior_2.webp",
         "height_desktop": "650px",
         "text_position_desktop": "left",
         "text_alignment_desktop": "left",
@@ -987,6 +987,7 @@
     },
     "image_with_text_KqgeWM": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "CAD Design Service",
       "settings": {
         "image": "shopify://shop_images/SL9827_2edb0861-319b-4060-811f-c90a8301f6a8.png",
