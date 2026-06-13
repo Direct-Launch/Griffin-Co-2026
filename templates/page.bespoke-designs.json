@@ -25,7 +25,7 @@
         "show_image_mobile": true,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link_1": "",
+        "button_link_1": "#booking",
         "button_label_1": "Book Consultation",
         "buttons_style_1": "filled",
         "override_button_colors_1": false,
@@ -378,6 +378,7 @@
         "image_and_text_biEtrW",
         "image_and_text_jqwx4J"
       ],
+      "disabled": true,
       "name": "Steps",
       "settings": {
         "title": "How It Works.",
@@ -401,165 +402,13 @@
         "colors": "accent"
       }
     },
-    "gallery_eBUNAt": {
-      "type": "gallery",
-      "blocks": {
-        "image_dki9Hp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_7448_1__1.jpg",
-            "link": "",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
-          }
-        },
-        "image_ikyYBh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_7268_1.jpg",
-            "link": "",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
-          }
-        },
-        "image_FDafrT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG-20220131-WA0004.jpg",
-            "link": "",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
-          }
-        }
-      },
-      "block_order": [
-        "image_dki9Hp",
-        "image_ikyYBh",
-        "image_FDafrT"
-      ],
-      "name": "t:sections.image--gallery.presets.name",
-      "settings": {
-        "title": "Recent Bespoke Commissions.",
-        "description": "<p>Our Portfolio</p>",
-        "section_header_alignment": "center",
-        "content-position": "overlay",
-        "full-width": false,
-        "grid_image_size": "square",
-        "buttons_style": "filled",
-        "section-width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 16,
-        "remove-spacing": false,
-        "colors": "white"
-      }
-    },
-    "gallery_NrzDwr": {
-      "type": "gallery",
-      "blocks": {
-        "image_TJtpfU": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sketch_2.jpg",
-            "link": "",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
-          }
-        },
-        "image_AQKMdA": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Sketch_3.jpg",
-            "link": "",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
-          }
-        },
-        "image_P7VBc7": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG-20220131-WA0004.jpg",
-            "link": "",
-            "subheading": "Subheading",
-            "title": "Heading",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_text_color": "#FFFFFF",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
-          }
-        }
-      },
-      "block_order": [
-        "image_TJtpfU",
-        "image_AQKMdA",
-        "image_P7VBc7"
-      ],
-      "name": "t:sections.image--gallery.presets.name",
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
-        "content-position": "overlay",
-        "full-width": false,
-        "grid_image_size": "square",
-        "buttons_style": "filled",
-        "section-width": "full",
-        "section_padding_top": 0,
-        "section_padding_bottom": 72,
-        "remove-spacing": false,
-        "colors": "white"
-      }
-    },
     "rich_text_WFYpWq": {
       "type": "rich-text",
       "blocks": {
         "heading_J8jMVL": {
           "type": "heading",
           "settings": {
-            "heading": "Bespoke Engagement Rings From OUR INSTAGRAM.",
+            "heading": "Recent Bespoke Commissions From OUR INSTAGRAM.",
             "heading--text-size": "h4",
             "heading_bottom_spacing": 20
           }
@@ -567,9 +416,9 @@
         "richtext_CiLnnn": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular engagement ring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular bespoke portfolio updates. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
             "text_size": 100,
-            "text_bottom_spacing": 0
+            "text_bottom_spacing": 20
           }
         }
       },
@@ -577,14 +426,14 @@
         "heading_J8jMVL",
         "richtext_CiLnnn"
       ],
-      "name": "t:sections.text--rich-text.presets.name",
+      "name": "Portfolio Rich Text",
       "settings": {
-        "section_width": "content",
+        "section_width": "full-width",
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
+        "colors": "dark"
       }
     },
     "apps_zahc7r": {
@@ -604,13 +453,16 @@
             "link_alignment": "left",
             "link_color": "#000000",
             "background_color": "",
-            "feed_id": "46265",
+            "feed_id": "46833",
             "html_area": ""
           }
         }
       },
       "block_order": [
         "instafeed_app_block_D9irVw"
+      ],
+      "custom_css": [
+        ".instafeed-shopify {background-color: #f8f8f8;}"
       ],
       "name": "Instagram Feed",
       "settings": {
@@ -619,81 +471,123 @@
         "include_margins": false
       }
     },
-    "blog_posts_aa3fqb": {
-      "type": "blog-posts",
+    "rich_text_VhWp7f": {
+      "type": "rich-text",
       "blocks": {
-        "blog_QWVaqf": {
-          "type": "blog",
+        "richtext_36BGmi": {
+          "type": "richtext",
           "settings": {
-            "blog": ""
+            "text": "<p>Inspired by these creations? Our designers can bring your unique vision to life, just as we have for hundreds of happy couples.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 0
           }
         }
       },
       "block_order": [
-        "blog_QWVaqf"
+        "richtext_36BGmi"
       ],
-      "name": "t:sections.blog-posts.name",
+      "name": "Portfolio Footer",
       "settings": {
-        "title": "From the blog",
-        "description": "",
-        "section_header_alignment": "center",
-        "media_source": "metafields",
-        "custom_media_ratio": "square",
-        "show_image": true,
-        "image_shape": "natural",
-        "post_limit": 4,
-        "show_tags": false,
-        "blog_show_date": true,
-        "show_author": false,
-        "show_reading_time": true,
-        "show_comment_count": false,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "heading_font": "heading",
-        "heading_font_size": "h5",
-        "heading_font_size_mobile": "h4-mobile",
-        "body_font_size": 200,
-        "alignment": "left",
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#E68819",
-        "button_text_color": "#ffffff",
-        "layout_style_desktop": "slider",
-        "hover_navigation_desktop": "left-and-right",
-        "peek_desktop": true,
-        "images_per_row_desktop": 3,
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "dots",
-        "section_width": "content",
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "custom_liquid_QYT6dR": {
+      "type": "custom-liquid",
+      "name": "Anchor",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<a id=\"booking\"></a>",
+        "section_width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
         "colors": "white"
       }
     },
-    "image_with_text_KqgeWM": {
-      "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
+    "image_with_text_overlay_WgzhKg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_yLdRKf": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready to create beautiful jewellery?",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_Fhkz9G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Designing jewellery is just the beginning. If you have questions about diamond specifications, metal durability, or want to tweak a design further, our master goldsmiths are here to help.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_J4JRwT": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "first_button_link": "",
+            "first_button_label": "Design Online",
+            "second_button_link": "shopify://pages/schedule-an-appointment",
+            "second_button_label": "Meet A Jeweller in Person",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_yLdRKf",
+        "text_Fhkz9G",
+        "button_J4JRwT"
+      ],
+      "name": "CTA Banner",
       "settings": {
-        "layout": "right",
-        "title": "Visualise Your Dream Ring in 24 Hours",
-        "text": "<p>Not quite ready to commit to a full bespoke build? Bring your ideas to life instantly with our Express 3D CAD Design service. For just <strong>£50</strong>, our expert designers will translate your sketches, mood boards, or descriptions into a highly accurate, photorealistic 3D render.</p><p></p><ul><li>Delivered straight to your inbox in 24 hours</li><li>See exactly how your bespoke piece will look</li><li>£50 fee is fully redeemable against your final bespoke order</li></ul>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
-        "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "Request 3D Design (£50)",
-        "buttons_style": "outlined",
-        "override_button_colors": false,
-        "button_background_color": "#E68819",
-        "button_text_color": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "colors": "accent"
+        "image_desktop": "shopify://shop_images/Book_your_Appointment.jpg",
+        "height_desktop": "650px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "left",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "left",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 25
+      }
+    },
+    "custom_liquid_AaFVmN": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}"
+      ],
+      "name": "Booking Form",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/bespoke-design?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1000px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "section_width": "full-width",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
       }
     },
     "social_proof_AbnBmM": {
@@ -795,246 +689,81 @@
         "colors": "white"
       }
     },
-    "image_with_text_overlay_WgzhKg": {
-      "type": "image-with-text-overlay",
+    "image_with_text_KqgeWM": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "layout": "right",
+        "title": "Visualise Your Dream Ring in 24 Hours",
+        "text": "<p>Not quite ready to commit to a full bespoke build? Bring your ideas to life instantly with our Express 3D CAD Design service. For just <strong>£50</strong>, our expert designers will translate your sketches, mood boards, or descriptions into a highly accurate, photorealistic 3D render.</p><p></p><ul><li>Delivered straight to your inbox in 24 hours</li><li>See exactly how your bespoke piece will look</li><li>£50 fee is fully redeemable against your final bespoke order</li></ul>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "Request 3D Design (£50)",
+        "buttons_style": "outlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "accent"
+      }
+    },
+    "blog_posts_aa3fqb": {
+      "type": "blog-posts",
       "blocks": {
-        "heading_yLdRKf": {
-          "type": "heading",
+        "blog_QWVaqf": {
+          "type": "blog",
           "settings": {
-            "title": "Need An Expert's Help?",
-            "font_size_desktop": "h2",
-            "font_size_mobile": "h2-mobile",
-            "heading_bottom_spacing": 25
-          }
-        },
-        "text_Fhkz9G": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Designing online is just the beginning. If you have questions about diamond specifications, metal durability, or want to tweak a design further, our master goldsmiths are here to help.</p>",
-            "font_size_desktop": 100,
-            "font_size_mobile": 100,
-            "text_bottom_spacing": 20
-          }
-        },
-        "button_J4JRwT": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "shopify://pages/contact",
-            "first_button_label": "Get In Contact",
-            "second_button_link": "shopify://pages/schedule-an-appointment",
-            "second_button_label": "Schedule an Appointment",
-            "buttons_style": "outlined",
-            "override_button_colors": true,
-            "buttons_background": "#ffffff",
-            "buttons_text": "#ffffff",
-            "buttons_bottom_spacing": 20
+            "blog": "guide-bespoke-jewellery-design-service"
           }
         }
       },
       "block_order": [
-        "heading_yLdRKf",
-        "text_Fhkz9G",
-        "button_J4JRwT"
+        "blog_QWVaqf"
       ],
-      "name": "t:sections.image--image-with-text-overlay.presets.name",
+      "name": "t:sections.blog-posts.name",
       "settings": {
-        "image_desktop": "shopify://shop_images/Interior_1.webp",
-        "height_desktop": "550px",
-        "text_position_desktop": "left",
-        "text_alignment_desktop": "left",
-        "caption_width_desktop": 50,
-        "height_mobile": "500px",
-        "text_position_mobile": "center",
-        "text_alignment_mobile": "left",
-        "section_link": "",
-        "animation_style": "parallax",
-        "section_width": "full",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "text_color": "#ffffff",
-        "caption_bg_color": "rgba(0,0,0,0)",
-        "image_overlay_color": "#242424",
-        "image_overlay_opacity": 25
-      }
-    },
-    "custom_liquid_AaFVmN": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}"
-      ],
-      "name": "t:sections.advanced-layout--custom-liquid.name",
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
-        "custom_liquid": "<iframe src=\"https://griffinfinejewellery.jewellerycreator.net/\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
-        "section_width": "full-width",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "image_with_text_slideshow_TmyLyE": {
-      "type": "image-with-text-slideshow",
-      "blocks": {
-        "image_and_text_FhqHHC": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Bespoke_Experience.jpg",
-            "subheading": "MAKE YOUR DREAM RING A REALITY",
-            "heading": "Bespoke & custom.",
-            "text": "<p>Just like no two rings are ever the same, no two Griffin & Co journeys are ever the same. Whether you visit us in person or build online, we'll help you discover or craft your perfect piece of fine jewellery.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://pages/bespoke-jewellery-designs",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#e68819",
-            "color_button_text": "#ffffff",
-            "media_position_desktop": "left",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "left",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        },
-        "image_and_text_CfHURN": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Repair_Landscape.png",
-            "subheading": "REPAIR YOUR TREASURED JEWELLERY",
-            "heading": "Jewellery Repairs.",
-            "text": "<p>Expert jewellery repair and restoration. Our skilled craftspeople restore damaged, worn, or cherished pieces to their original beauty.<br/><br/>Expert care including ring resizing, claw retipping, cleaning, and chain soldering.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://blogs/guide-jewellery-repair-service/jewellery-repair-service",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#d54828",
-            "color_button_text": "#f1f1ef",
-            "media_position_desktop": "right",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "right",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        },
-        "image_and_text_LnLwqq": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Our_Remodelling_Process_5c357d70-5ecf-432f-84a2-76348c31d8cf.png",
-            "subheading": "REDESIGN FAMILY HEIRLOOMS",
-            "heading": "Remodelling.",
-            "text": "<p>Breathe new life into forgotten jewellery. We reimagine your cherished gold and gemstones into bespoke pieces you'll treasure for years to come.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://pages/jewellery-remodelling-service",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#d54828",
-            "color_button_text": "#f1f1ef",
-            "media_position_desktop": "left",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "left",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        },
-        "image_and_text_Micj7P": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Griffin_Co._Signet_Rings_Window_Display_ccbe1ab7-d083-4d72-8109-9afc1e7fe875.png",
-            "subheading": "FAMILY SIGNETS",
-            "heading": "Signet Rings.",
-            "text": "<p>Craft a timeless family heirloom with bespoke seal engraving, available in solid gold, silver, or platinum. Each piece is personalised to your specifications, creating a treasured keepsake to pass down through generations.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://pages/custom-signet-rings-with-family-crests",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#d54828",
-            "color_button_text": "#f1f1ef",
-            "media_position_desktop": "right",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "right",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        },
-        "image_and_text_4k3yBx": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Wedding_Bands_3.webp",
-            "subheading": "VIEW JEWELLERY FROM HOME",
-            "heading": "Home Visits.",
-            "text": "<p>Bring our jewellery expertise to your doorstep. Enjoy a personalised consultation in the comfort of your own home around Chichester, where our specialists will help you find the perfect pieces tailored to your style and preferences.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "shopify://pages/home-visits",
-            "first_button_label": "Read more",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#d54828",
-            "color_button_text": "#f1f1ef",
-            "media_position_desktop": "left",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "left",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_FhqHHC",
-        "image_and_text_CfHURN",
-        "image_and_text_LnLwqq",
-        "image_and_text_Micj7P",
-        "image_and_text_4k3yBx"
-      ],
-      "custom_css": [],
-      "name": "Services",
-      "settings": {
-        "title": "Expert Services.",
-        "description": "<p>Our relationship with you extends far beyond a purchase. We are here to care for your most treasured possessions for a lifetime.</p>",
-        "section_header_alignment": "center",
-        "heading_font_size_desktop": "h4",
-        "text_font_size_desktop": 100,
-        "heading_font_size_mobile": "h3-mobile",
-        "text_font_size_mobile": 100,
-        "image_size": "medium",
+        "title": "Guide to Bespoke Jewellery Design.",
+        "description": "<p>Read our expert insights on selecting diamonds, choosing metals, and understanding the design process.</p>",
+        "section_header_alignment": "left",
+        "media_source": "metafields",
+        "custom_media_ratio": "square",
+        "show_image": true,
         "image_shape": "natural",
-        "hover_navigation_desktop": "above",
-        "section_width": "content",
+        "post_limit": 4,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": true,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white",
-        "override_navigation_button_colors": false,
-        "button_background_color": "#d54828",
-        "button_text_color": "#f1f1ef"
+        "colors": "accent"
       }
     },
     "17787619721046fdd6": {
@@ -1074,6 +803,7 @@
       "block_order": [
         "judge_me_reviews_testimonials_carousel_a43rFx"
       ],
+      "disabled": true,
       "custom_css": [
         ".jdgm-star {color: #ffdda6 !important;}",
         ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
@@ -1090,44 +820,54 @@
     "faq_with_image_m73Xra": {
       "type": "faq-with-image",
       "blocks": {
+        "accordion_Jg8nTk": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What kind of jewellery can I create through your bespoke design service?",
+            "open_by_default": false,
+            "text": "<p>We have the expertise to create a wide range of bespoke jewellery, including:</p><ul><li>Engagement rings and wedding bands</li><li>Necklaces and pendants</li><li>Bracelets and bangles</li><li>Earrings</li><li>Cufflinks and other men's jewellery</li><li>Heirloom recreations and adaptations</li></ul><p>Whether you have a clear idea or need inspiration, our team can design and craft virtually any piece of fine jewellery.</p>",
+            "page": ""
+          }
+        },
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What happens after I place my order online?",
+            "accordion_header": "How long does the bespoke process take?",
             "open_by_default": false,
-            "text": "<p>Once you finalise your design and place your order, our master goldsmiths in Chichester carefully review the specifications. We source your chosen diamond, cast the precious metal, and meticulously hand-finish your piece. The entire crafting process typically takes 4-6 weeks.</p>",
+            "text": "<p>Typically, a bespoke commission takes between 4 to 8 weeks from the final design approval to the finished piece. This allows time for sourcing gemstones, casting, hallmarking, and setting.</p><p>The timeline for a bespoke jewellery commission can vary significantly depending on the complexity of the design, the materials chosen, and the level of detail involved. After the design is finalised and materials are selected, we will provide you with a more accurate estimated timeframe.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can I design something completely from scratch?",
+            "accordion_header": "Can I reuse gold or gemstones from old jewellery?",
             "open_by_default": false,
-            "text": "<p>While the online studio offers thousands of combinations, if you have a completely unique vision that cannot be built in the app, we recommend our <a href=\"/pages/bespoke-jewellery-designs\" title=\"Bespoke Jewellery Designs\">Bespoke Design Service</a>. You can book an appointment to work from a blank canvas with our designers.</p>",
+            "text": "<p>Absolutely. <a href=\"/pages/jewellery-remodelling-service\" title=\"Jewellery Remodelling Service\">Remodelling </a>family heirlooms is one of our specialities. We can often melt down your yellow gold to create a new band, or reset your diamonds into a modern platinum setting.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Are the 3D renders an accurate representation?",
+            "accordion_header": "Do I need to book an appointment?",
             "open_by_default": false,
-            "text": "<p>Yes, our 3D technology provides highly accurate, photorealistic renders of how your final piece will look, proportioned perfectly to your chosen diamond and ring size.</p>",
+            "text": "<p>We invite you to experience our jewellery in the way that suits you best. You can book a private consultation to visit our showroom and view our collection in person.</p><p>We also offer <a href=\"/pages/home-visits\" title=\"Home Jewellery Viewing Chichester\">Home Visits</a> where you can arrange for an expert jeweller to bring our collection to your home in {{ page.metafields.custom.location.value }}. While we love welcoming clients to our workshop, we can also start the process via a video call.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Is my online bespoke design guaranteed?",
+            "accordion_header": "Where is your Showroom located?",
             "open_by_default": false,
-            "text": "<p>Absolutely. Every piece crafted by Griffin & Co, whether designed in-store or via our online studio, comes with a comprehensive guarantee of craftsmanship and a complimentary first-year check and clean in our workshop.</p>",
+            "text": "<p>Our showroom is located at 64 South Street, Chichester, PO19 EE. You can find a map, parking information, and our full opening hours on our <a href=\"/pages/contact\" title=\"Contact Us\">Contact Us</a> page.</p>",
             "page": ""
           }
         }
       },
       "block_order": [
+        "accordion_Jg8nTk",
         "accordion_GhRGXt",
         "accordion_HmVJLJ",
         "accordion_xFhTbU",
@@ -1135,7 +875,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Online Design Studio FAQs.",
+        "section_title": "FAQs about Bespoke Designs in {{ page.metafields.custom.location.value }}.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
@@ -1165,16 +905,15 @@
     "template_product_info_columns_w6jzXb",
     "template_product_info_columns_TYCiFr",
     "template_product_info_columns_RzYKwq",
-    "gallery_eBUNAt",
-    "gallery_NrzDwr",
     "rich_text_WFYpWq",
     "apps_zahc7r",
-    "blog_posts_aa3fqb",
-    "image_with_text_KqgeWM",
-    "social_proof_AbnBmM",
+    "rich_text_VhWp7f",
+    "custom_liquid_QYT6dR",
     "image_with_text_overlay_WgzhKg",
     "custom_liquid_AaFVmN",
-    "image_with_text_slideshow_TmyLyE",
+    "social_proof_AbnBmM",
+    "image_with_text_KqgeWM",
+    "blog_posts_aa3fqb",
     "17787619721046fdd6",
     "faq_with_image_m73Xra"
   ]
