@@ -603,14 +603,15 @@
     "custom_liquid_AaFVmN": {
       "type": "custom-liquid",
       "custom_css": [
-        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}"
+        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}",
+        "@media only screen and (max-width: 768px) {iframe {/* Replace 'iframe' with your specific class if you used one */ height: 1800px !important; /* Brute-forces the iframe to be taller than the content */ max-height: none !important; }}"
       ],
       "name": "Booking Form",
       "settings": {
         "title": "",
         "description": "",
         "section_header_alignment": "center",
-        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/bespoke-design?is_widget=1&view=compact&specific-meeting-type=1\"  frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/bespoke-design?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:100vh;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
         "section_width": "full-width",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
