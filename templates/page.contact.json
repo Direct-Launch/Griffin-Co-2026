@@ -112,7 +112,7 @@
           "type": "text",
           "settings": {
             "heading": "Book an Appointment",
-            "heading_size": "h5",
+            "heading_size": "h4",
             "heading_size_mobile": "h4-mobile",
             "text": "There are so many ways to work with us. We've created a Design Your Own tool so you can create your own ring on our website.  <br><br>\n\nAnd if you can't see what you're looking for, you can work with us in-person at our showroom or at your home to create a bespoke ring.",
             "url": "",
