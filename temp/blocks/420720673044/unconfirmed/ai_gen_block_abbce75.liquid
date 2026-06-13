@@ -1,6 +1,531 @@
+{% doc %}
+  @prompt
+    Please generate a complete, customizable Shopify Liquid section for a "Services Grid".
+    
+    Core Requirements:
+    
+    Dynamic Blocks: The grid items must be powered by Shopify Blocks (type: 'service_card'). This will allow me to add, remove, and reorder the services in the Theme Editor.
+    
+    Block Schema: Each block should include settings for:
+    
+    Image (image_picker)
+    
+    Title (text)
+    
+    Description (richtext or textarea)
+    
+    Button 1 Label (text)
+    
+    Button 1 Link (url)
+    
+    Button 2 Label (text, optional)
+    
+    Button 2 Link (url, optional)
+    
+    Section Settings: Add basic section settings for top/bottom padding.
+    
+    Strict Styling Rule (CRITICAL): You MUST use the exact HTML structure and Tailwind CSS classes provided in the reference code below. Do not invent new CSS, do not use inline styles, and do not use standard Shopify CSS classes. My theme is already configured with Tailwind and custom brand colors (brand-dark, brand-gold, brand-graybg, etc.).
+    
+    Logic for Buttons:
+    Use a Liquid if statement to check if Button 2 is populated. If Button 2 exists, wrap the buttons in the flex container provided in the reference (flex flex-col sm:flex-row justify-center gap-4). If only Button 1 exists, render it as a single inline block (as seen in the "Jewellery Repairs" card reference). Button 1 should use the dark outline style, and Button 2 should use the solid dark/gold style.
+    
+    Reference HTML & Tailwind Classes:
+    
+    <section class="py-20 bg-brand-graybg border-y border-gray-200">
+        <div class="container mx-auto px-6 max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+                
+                <!-- Target Structure for a Block WITH 2 Buttons -->
+                <div class="bg-white group shadow-sm hover:shadow-xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="IMAGE_URL" alt="ALT_TEXT" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-brand-dark/10"></div>
+                    </div>
+                    <div class="p-8 text-center">
+                        <h3 class="font-serif text-2xl text-brand-dark mb-3">BLOCK TITLE</h3>
+                        <p class="text-gray-500 text-sm mb-6 leading-relaxed">BLOCK DESCRIPTION</p>
+                        <div class="flex flex-col sm:flex-row justify-center gap-4">
+                            <a href="LINK_1" class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition">BUTTON 1</a>
+                            <a href="LINK_2" class="inline-block bg-brand-dark text-brand-gold px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-gold hover:text-brand-dark transition">BUTTON 2</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Target Structure for a Block WITH 1 Button -->
+                <div class="bg-white group shadow-sm hover:shadow-xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="IMAGE_URL" alt="ALT_TEXT" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-brand-dark/10"></div>
+                    </div>
+                    <div class="p-8 text-center">
+                        <h3 class="font-serif text-2xl text-brand-dark mb-3">BLOCK TITLE</h3>
+                        <p class="text-gray-500 text-sm mb-6 leading-relaxed">BLOCK DESCRIPTION</p>
+                        <a href="LINK_1" class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition">BUTTON 1</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    , The grid needs to be 2 x 2 for Desktop. There should be 4 service items in the section. They should be on cards.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+<section class="py-20 bg-brand-graybg border-y border-gray-200" {{ block.shopify_attributes }}>
+  <div class="container mx-auto px-6 max-w-7xl">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+      
+      {% comment %} Service Card 1 {% endcomment %}
+      {% if block.settings.show_service_1 %}
+        <div class="bg-white group shadow-sm hover:shadow-xl transition duration-500">
+          <div class="h-64 overflow-hidden relative">
+            {% if block.settings.service_1_image %}
+              <img 
+                src="{{ block.settings.service_1_image | image_url: width: 800 }}" 
+                alt="{{ block.settings.service_1_image.alt | escape }}" 
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                loading="lazy"
+                width="{{ block.settings.service_1_image.width }}"
+                height="{{ block.settings.service_1_image.height }}"
+              >
+            {% else %}
+              <div class="w-full h-full bg-gray-200 flex items-center justify-center">
+                {{ 'image' | placeholder_svg_tag: 'w-full h-full object-cover' }}
+              </div>
+            {% endif %}
+            <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-brand-dark/10"></div>
+          </div>
+          
+          <div class="p-8 text-center">
+            {% if block.settings.service_1_title != blank %}
+              <h3 class="font-serif text-2xl text-brand-dark mb-3">{{ block.settings.service_1_title }}</h3>
+            {% endif %}
+            
+            {% if block.settings.service_1_description != blank %}
+              <div class="text-gray-500 text-sm mb-6 leading-relaxed">{{ block.settings.service_1_description }}</div>
+            {% endif %}
+            
+            {% if block.settings.service_1_button_1_label != blank and block.settings.service_1_button_1_link != blank %}
+              {% if block.settings.service_1_button_2_label != blank and block.settings.service_1_button_2_link != blank %}
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                  <a 
+                    href="{{ block.settings.service_1_button_1_link }}" 
+                    class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+                  >
+                    {{ block.settings.service_1_button_1_label }}
+                  </a>
+                  <a 
+                    href="{{ block.settings.service_1_button_2_link }}" 
+                    class="inline-block bg-brand-dark text-brand-gold px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-gold hover:text-brand-dark transition"
+                  >
+                    {{ block.settings.service_1_button_2_label }}
+                  </a>
+                </div>
+              {% else %}
+                <a 
+                  href="{{ block.settings.service_1_button_1_link }}" 
+                  class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+                >
+                  {{ block.settings.service_1_button_1_label }}
+                </a>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+
+      {% comment %} Service Card 2 {% endcomment %}
+      {% if block.settings.show_service_2 %}
+        <div class="bg-white group shadow-sm hover:shadow-xl transition duration-500">
+          <div class="h-64 overflow-hidden relative">
+            {% if block.settings.service_2_image %}
+              <img 
+                src="{{ block.settings.service_2_image | image_url: width: 800 }}" 
+                alt="{{ block.settings.service_2_image.alt | escape }}" 
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                loading="lazy"
+                width="{{ block.settings.service_2_image.width }}"
+                height="{{ block.settings.service_2_image.height }}"
+              >
+            {% else %}
+              <div class="w-full h-full bg-gray-200 flex items-center justify-center">
+                {{ 'image' | placeholder_svg_tag: 'w-full h-full object-cover' }}
+              </div>
+            {% endif %}
+            <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-brand-dark/10"></div>
+          </div>
+          
+          <div class="p-8 text-center">
+            {% if block.settings.service_2_title != blank %}
+              <h3 class="font-serif text-2xl text-brand-dark mb-3">{{ block.settings.service_2_title }}</h3>
+            {% endif %}
+            
+            {% if block.settings.service_2_description != blank %}
+              <div class="text-gray-500 text-sm mb-6 leading-relaxed">{{ block.settings.service_2_description }}</div>
+            {% endif %}
+            
+            {% if block.settings.service_2_button_1_label != blank and block.settings.service_2_button_1_link != blank %}
+              {% if block.settings.service_2_button_2_label != blank and block.settings.service_2_button_2_link != blank %}
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                  <a 
+                    href="{{ block.settings.service_2_button_1_link }}" 
+                    class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+                  >
+                    {{ block.settings.service_2_button_1_label }}
+                  </a>
+                  <a 
+                    href="{{ block.settings.service_2_button_2_link }}" 
+                    class="inline-block bg-brand-dark text-brand-gold px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-gold hover:text-brand-dark transition"
+                  >
+                    {{ block.settings.service_2_button_2_label }}
+                  </a>
+                </div>
+              {% else %}
+                <a 
+                  href="{{ block.settings.service_2_button_1_link }}" 
+                  class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+                >
+                  {{ block.settings.service_2_button_1_label }}
+                </a>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+
+      {% comment %} Service Card 3 {% endcomment %}
+      {% if block.settings.show_service_3 %}
+        <div class="bg-white group shadow-sm hover:shadow-xl transition duration-500">
+          <div class="h-64 overflow-hidden relative">
+            {% if block.settings.service_3_image %}
+              <img 
+                src="{{ block.settings.service_3_image | image_url: width: 800 }}" 
+                alt="{{ block.settings.service_3_image.alt | escape }}" 
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                loading="lazy"
+                width="{{ block.settings.service_3_image.width }}"
+                height="{{ block.settings.service_3_image.height }}"
+              >
+            {% else %}
+              <div class="w-full h-full bg-gray-200 flex items-center justify-center">
+                {{ 'image' | placeholder_svg_tag: 'w-full h-full object-cover' }}
+              </div>
+            {% endif %}
+            <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-brand-dark/10"></div>
+          </div>
+          
+          <div class="p-8 text-center">
+            {% if block.settings.service_3_title != blank %}
+              <h3 class="font-serif text-2xl text-brand-dark mb-3">{{ block.settings.service_3_title }}</h3>
+            {% endif %}
+            
+            {% if block.settings.service_3_description != blank %}
+              <div class="text-gray-500 text-sm mb-6 leading-relaxed">{{ block.settings.service_3_description }}</div>
+            {% endif %}
+            
+            {% if block.settings.service_3_button_1_label != blank and block.settings.service_3_button_1_link != blank %}
+              {% if block.settings.service_3_button_2_label != blank and block.settings.service_3_button_2_link != blank %}
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                  <a 
+                    href="{{ block.settings.service_3_button_1_link }}" 
+                    class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+                  >
+                    {{ block.settings.service_3_button_1_label }}
+                  </a>
+                  <a 
+                    href="{{ block.settings.service_3_button_2_link }}" 
+                    class="inline-block bg-brand-dark text-brand-gold px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-gold hover:text-brand-dark transition"
+                  >
+                    {{ block.settings.service_3_button_2_label }}
+                  </a>
+                </div>
+              {% else %}
+                <a 
+                  href="{{ block.settings.service_3_button_1_link }}" 
+                  class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+                >
+                  {{ block.settings.service_3_button_1_label }}
+                </a>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+
+      {% comment %} Service Card 4 {% endcomment %}
+      {% if block.settings.show_service_4 %}
+        <div class="bg-white group shadow-sm hover:shadow-xl transition duration-500">
+          <div class="h-64 overflow-hidden relative">
+            {% if block.settings.service_4_image %}
+              <img 
+                src="{{ block.settings.service_4_image | image_url: width: 800 }}" 
+                alt="{{ block.settings.service_4_image.alt | escape }}" 
+                class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+                loading="lazy"
+                width="{{ block.settings.service_4_image.width }}"
+                height="{{ block.settings.service_4_image.height }}"
+              >
+            {% else %}
+              <div class="w-full h-full bg-gray-200 flex items-center justify-center">
+                {{ 'image' | placeholder_svg_tag: 'w-full h-full object-cover' }}
+              </div>
+            {% endif %}
+            <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-brand-dark/10"></div>
+          </div>
+          
+          <div class="p-8 text-center">
+            {% if block.settings.service_4_title != blank %}
+              <h3 class="font-serif text-2xl text-brand-dark mb-3">{{ block.settings.service_4_title }}</h3>
+            {% endif %}
+            
+            {% if block.settings.service_4_description != blank %}
+              <div class="text-gray-500 text-sm mb-6 leading-relaxed">{{ block.settings.service_4_description }}</div>
+            {% endif %}
+            
+            {% if block.settings.service_4_button_1_label != blank and block.settings.service_4_button_1_link != blank %}
+              {% if block.settings.service_4_button_2_label != blank and block.settings.service_4_button_2_link != blank %}
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                  <a 
+                    href="{{ block.settings.service_4_button_1_link }}" 
+                    class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+                  >
+                    {{ block.settings.service_4_button_1_label }}
+                  </a>
+                  <a 
+                    href="{{ block.settings.service_4_button_2_link }}" 
+                    class="inline-block bg-brand-dark text-brand-gold px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-gold hover:text-brand-dark transition"
+                  >
+                    {{ block.settings.service_4_button_2_label }}
+                  </a>
+                </div>
+              {% else %}
+                <a 
+                  href="{{ block.settings.service_4_button_1_link }}" 
+                  class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+                >
+                  {{ block.settings.service_4_button_1_label }}
+                </a>
+              {% endif %}
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      
+    </div>
+  </div>
+</section>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Services grid",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Service 1"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_service_1",
+      "label": "Show service 1",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "service_1_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "service_1_title",
+      "label": "Title",
+      "default": "Service 1"
+    },
+    {
+      "type": "textarea",
+      "id": "service_1_description",
+      "label": "Description",
+      "default": "Describe your first service here."
+    },
+    {
+      "type": "text",
+      "id": "service_1_button_1_label",
+      "label": "Button 1 label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "service_1_button_1_link",
+      "label": "Button 1 link"
+    },
+    {
+      "type": "text",
+      "id": "service_1_button_2_label",
+      "label": "Button 2 label"
+    },
+    {
+      "type": "url",
+      "id": "service_1_button_2_link",
+      "label": "Button 2 link"
+    },
+    {
+      "type": "header",
+      "content": "Service 2"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_service_2",
+      "label": "Show service 2",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "service_2_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "service_2_title",
+      "label": "Title",
+      "default": "Service 2"
+    },
+    {
+      "type": "textarea",
+      "id": "service_2_description",
+      "label": "Description",
+      "default": "Describe your second service here."
+    },
+    {
+      "type": "text",
+      "id": "service_2_button_1_label",
+      "label": "Button 1 label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "service_2_button_1_link",
+      "label": "Button 1 link"
+    },
+    {
+      "type": "text",
+      "id": "service_2_button_2_label",
+      "label": "Button 2 label"
+    },
+    {
+      "type": "url",
+      "id": "service_2_button_2_link",
+      "label": "Button 2 link"
+    },
+    {
+      "type": "header",
+      "content": "Service 3"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_service_3",
+      "label": "Show service 3",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "service_3_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "service_3_title",
+      "label": "Title",
+      "default": "Service 3"
+    },
+    {
+      "type": "textarea",
+      "id": "service_3_description",
+      "label": "Description",
+      "default": "Describe your third service here."
+    },
+    {
+      "type": "text",
+      "id": "service_3_button_1_label",
+      "label": "Button 1 label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "service_3_button_1_link",
+      "label": "Button 1 link"
+    },
+    {
+      "type": "text",
+      "id": "service_3_button_2_label",
+      "label": "Button 2 label"
+    },
+    {
+      "type": "url",
+      "id": "service_3_button_2_link",
+      "label": "Button 2 link"
+    },
+    {
+      "type": "header",
+      "content": "Service 4"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_service_4",
+      "label": "Show service 4",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "service_4_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "service_4_title",
+      "label": "Title",
+      "default": "Service 4"
+    },
+    {
+      "type": "textarea",
+      "id": "service_4_description",
+      "label": "Description",
+      "default": "Describe your fourth service here."
+    },
+    {
+      "type": "text",
+      "id": "service_4_button_1_label",
+      "label": "Button 1 label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "service_4_button_1_link",
+      "label": "Button 1 link"
+    },
+    {
+      "type": "text",
+      "id": "service_4_button_2_label",
+      "label": "Button 2 label"
+    },
+    {
+      "type": "url",
+      "id": "service_4_button_2_link",
+      "label": "Button 2 link"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Services grid"
+    }
+  ]
+}
 {% endschema %}
