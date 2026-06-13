@@ -170,137 +170,6 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_w6jzXb": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_9F4JiK": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>The Consultation</h6><p>Meet with our designers via a home visit in {{ page.metafields.custom.location.value }}, or in our showroom to discuss your ideas, budget, and inspiration. We'll discuss your vision for gemstones, metals, and design preferences. We listen to your story.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_hbVUeD": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/AE4A6214_19815bd7-a159-4f96-95d4-fb993708081a.png",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your jewellery design details! You can view our existing jewellery in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_7iMW3c": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/SR1506.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your jewellery. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_KqNcGk": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/heating-metal-ring.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>The Crafting Process</h6><p>Your stunning jewellery is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_9F4JiK",
-        "image_and_text_hbVUeD",
-        "image_and_text_7iMW3c",
-        "image_and_text_KqNcGk"
-      ],
-      "disabled": true,
-      "name": "Bespoke Process",
-      "settings": {
-        "title": "Our Bespoke Process.",
-        "description": "<p>Let's make your dream jewellery together.</p>",
-        "section_header_alignment": "left",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "slider_height_mobile": "adaptive",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "template_product_info_columns_BXkTNy": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_Mijp43": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Bespoke_Experience.jpg",
-            "grid_image_size": "wide",
-            "heading": "Bespoke Design",
-            "text": "<p>Collaborate with our designers in-store or use our innovative 3D online studio to create a truly one-of-a-kind heirloom from scratch.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_PYCATX": {
-          "type": "image_and_text",
-          "settings": {
-            "grid_image_size": "square",
-            "heading": "Heading",
-            "text": "<p>Use text paired with images to create a captivating brand story, explain details of your products, or highlight store promotions.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_Mijp43",
-        "image_and_text_PYCATX"
-      ],
-      "disabled": true,
-      "name": "t:sections.template--product--info-columns.presets.name",
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "none",
-        "columns_per_row": 2,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "dark"
-      }
-    },
     "collage_NFLeq4": {
       "type": "collage",
       "blocks": {
@@ -325,10 +194,10 @@
             "button_label_2": "View Service",
             "buttons_style_2": "outlined",
             "override_button_colors_2": true,
-            "button_background_color_2": "#FFFFFF",
+            "button_background_color_2": "#ffffff",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#35382E"
+            "overlay_color": "#35382e"
           }
         },
         "image_ATakGr": {
@@ -352,10 +221,10 @@
             "button_label_2": "View Service",
             "buttons_style_2": "outlined",
             "override_button_colors_2": true,
-            "button_background_color_2": "#FFFFFF",
+            "button_background_color_2": "#ffffff",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#35382E"
+            "overlay_color": "#35382e"
           }
         },
         "image_6nNK9t": {
@@ -379,10 +248,10 @@
             "button_label_2": "View Service",
             "buttons_style_2": "outlined",
             "override_button_colors_2": true,
-            "button_background_color_2": "#FFFFFF",
+            "button_background_color_2": "#ffffff",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#35382E"
+            "overlay_color": "#35382e"
           }
         },
         "image_EAJRdU": {
@@ -406,10 +275,10 @@
             "button_label_2": "View Service",
             "buttons_style_2": "outlined",
             "override_button_colors_2": true,
-            "button_background_color_2": "#FFFFFF",
+            "button_background_color_2": "#ffffff",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#35382E"
+            "overlay_color": "#35382e"
           }
         }
       },
@@ -442,259 +311,6 @@
         "width_6": "1",
         "height_6": "4",
         "color_scheme": "dark"
-      }
-    },
-    "template_product_info_columns_TYCiFr": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_UCrW8e": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Signet_Rings_Crests.png",
-            "grid_image_size": "natural",
-            "heading": "Signet Rings & Crests",
-            "text": "<p>Engrave custom family crests.</p>",
-            "button_link": "shopify://pages/custom-signet-rings-with-family-crests",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_xDjPhn": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Engagement_Rings_Home.png",
-            "grid_image_size": "natural",
-            "heading": "Engagement Rings",
-            "text": "<p>Shop our collection or create bespoke.</p>",
-            "button_link": "shopify://pages/engagement-rings",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_Wd9Kpf": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Wedding_Bands_Home.png",
-            "grid_image_size": "natural",
-            "heading": "Wedding Bands",
-            "text": "<p>Shop our collection or create bespoke.</p>",
-            "button_link": "shopify://pages/wedding-rings-bespoke-bands",
-            "button_text": "Learn more"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_UCrW8e",
-        "image_and_text_xDjPhn",
-        "image_and_text_Wd9Kpf"
-      ],
-      "disabled": true,
-      "name": "Specialities",
-      "settings": {
-        "title": "Explore Our Specialities.",
-        "description": "<p>Specialist Services in {{ page.metafields.custom.location.value }}.</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 3,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "template_product_info_columns_RzYKwq": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_dCDiTd": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/1.svg",
-            "grid_image_size": "square",
-            "heading": "Consultation",
-            "text": "<p>Meet with our designers to discuss your ideas, budget, and inspiration. We listen to your story to understand exactly what you need.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_JUYWHn": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/2.svg",
-            "grid_image_size": "square",
-            "heading": "Choose Stones / Metal",
-            "text": "<p>Hand-pick your perfect metals and diamonds or gemstones from a curated selection sourced by our GIA-certified gemologists.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_aEQtxX": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/3.svg",
-            "grid_image_size": "square",
-            "heading": "Design & CAD",
-            "text": "<p>We create detailed hand sketches or 3D CAD renders. You'll see photorealistic images of your piece before a single metal is cast.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_biEtrW": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/4.svg",
-            "grid_image_size": "square",
-            "heading": "Wax Model",
-            "text": "<p>A physical wax model of your design based on the approved CAD design.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_jqwx4J": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/5.svg",
-            "grid_image_size": "square",
-            "heading": "Finished Product",
-            "text": "<p>Once the mould casting is complete, the Gemstones or Diamonds are hand set into the piece with extreme precision and skill.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_dCDiTd",
-        "image_and_text_JUYWHn",
-        "image_and_text_aEQtxX",
-        "image_and_text_biEtrW",
-        "image_and_text_jqwx4J"
-      ],
-      "disabled": true,
-      "name": "Steps",
-      "settings": {
-        "title": "How It Works.",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 5,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "consistent",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "accent"
-      }
-    },
-    "rich_text_WFYpWq": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_J8jMVL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Recent Bespoke Commissions From OUR INSTAGRAM.",
-            "heading--text-size": "h4",
-            "heading_bottom_spacing": 20
-          }
-        },
-        "richtext_CiLnnn": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular bespoke portfolio updates. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
-            "text_size": 100,
-            "text_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "heading_J8jMVL",
-        "richtext_CiLnnn"
-      ],
-      "disabled": true,
-      "name": "Portfolio Rich Text",
-      "settings": {
-        "section_width": "full-width",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "dark"
-      }
-    },
-    "apps_zahc7r": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_D9irVw": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size_v2": 0,
-            "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
-            "feed_id": "46833",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_D9irVw"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".instafeed-shopify {background-color: #f8f8f8;}"
-      ],
-      "name": "Instagram Feed",
-      "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": false
-      }
-    },
-    "rich_text_VhWp7f": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_36BGmi": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Inspired by these creations? Our designers can bring your unique vision to life, just as we have for hundreds of happy couples.</p>",
-            "text_size": 100,
-            "text_bottom_spacing": 0
-          }
-        }
-      },
-      "block_order": [
-        "richtext_36BGmi"
-      ],
-      "disabled": true,
-      "name": "Portfolio Footer",
-      "settings": {
-        "section_width": "full-width",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "dark"
       }
     },
     "image_with_text_YjGKin": {
@@ -855,40 +471,6 @@
         "image_overlay_opacity": 45
       }
     },
-    "custom_liquid_QYT6dR": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "name": "Anchor",
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
-        "custom_liquid": "<a id=\"booking\"></a>",
-        "section_width": "content",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "colors": "white"
-      }
-    },
-    "custom_liquid_AaFVmN": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}",
-        "@media only screen and (max-width: 768px) {iframe {/* Replace 'iframe' with your specific class if you used one */ height: 1800px !important; /* Brute-forces the iframe to be taller than the content */ max-height: none !important; }}"
-      ],
-      "name": "Booking Form",
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
-        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/bespoke-design?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
-        "section_width": "full-width",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "social_proof_AbnBmM": {
       "type": "social-proof",
       "blocks": {
@@ -988,34 +570,6 @@
         "colors": "white"
       }
     },
-    "image_with_text_KqgeWM": {
-      "type": "image-with-text",
-      "disabled": true,
-      "name": "CAD Design Service",
-      "settings": {
-        "image": "shopify://shop_images/SL9827_2edb0861-319b-4060-811f-c90a8301f6a8.png",
-        "layout": "left",
-        "title": "Visualise Your Dream Ring in 24 Hours",
-        "text": "<p>Not quite ready to commit to a full bespoke build? Bring your ideas to life instantly with our Express 3D CAD Design service. For just <strong>£50</strong>, our expert designers will translate your sketches, mood boards, or descriptions into a highly accurate, photorealistic 3D render.</p><p></p><ul><li>Delivered straight to your inbox in 24 hours</li><li>See exactly how your bespoke piece will look</li><li>£50 fee is fully redeemable against your final bespoke order</li></ul>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
-        "mobile-text-size": 100,
-        "button_link": "shopify://pages/contact",
-        "button_label": "Request 3D Design (£50)",
-        "buttons_style": "outlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "colors": "accent"
-      }
-    },
     "blog_posts_aa3fqb": {
       "type": "blog-posts",
       "blocks": {
@@ -1031,7 +585,7 @@
       ],
       "name": "t:sections.blog-posts.name",
       "settings": {
-        "title": "The Jewellery Guide Series",
+        "title": "The Jewellery Guide Series.",
         "description": "<p>Unsure about the difference between Platinum and White Gold? Want to know how to clean your diamond ring at home? Our expert guides cover everything you need to know.</p>",
         "section_header_alignment": "left",
         "media_source": "original",
@@ -1065,57 +619,6 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "accent"
-      }
-    },
-    "17787619721046fdd6": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_testimonials_carousel_a43rFx": {
-          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "show_sample_reviews": false,
-            "reviews_selection": "all",
-            "products": [],
-            "star_rating": "5_star",
-            "max_reviews": 30,
-            "quote_marks_size": "small",
-            "product_name_text_size": "small",
-            "verified_badge_style": "text",
-            "card_height": "extra_tall",
-            "text_size": "extra_small",
-            "stars_size": "small",
-            "arrows_position": "hidden",
-            "max_width": 1300,
-            "corner_styling": "square",
-            "quote_marks_style": "serif",
-            "card_color": "#f8f8f8",
-            "stars_and_quote_marks_color": "#ffdda6",
-            "text_color": "#ffffff",
-            "arrows_color": "#ffffff",
-            "show_border": false,
-            "border_color": "#e8e8e8",
-            "show_drop_shadow": false,
-            "transition_speed": 5,
-            "header_text": "Consultation Experiences.",
-            "show_average_rating": true
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_testimonials_carousel_a43rFx"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".jdgm-star {color: #ffdda6 !important;}",
-        ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
-        "div {background: #004225;}",
-        ".jdgm-title {font-size: 22px; font-family: var(--body-font-stack); overflow: visible; -webkit-line-clamp: 2;}"
-      ],
-      "name": "Reviews",
-      "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": true
       }
     },
     "faq_with_image_m73Xra": {
@@ -1203,23 +706,12 @@
     "hero_image_with_text_XbtaRH",
     "scrolling_banner_yQGBqH",
     "rich_text_7pAWMD",
-    "template_product_info_columns_w6jzXb",
-    "template_product_info_columns_BXkTNy",
     "collage_NFLeq4",
-    "template_product_info_columns_TYCiFr",
-    "template_product_info_columns_RzYKwq",
-    "rich_text_WFYpWq",
-    "apps_zahc7r",
-    "rich_text_VhWp7f",
     "image_with_text_YjGKin",
     "template_product_info_columns_WrG8aa",
     "image_with_text_overlay_WgzhKg",
-    "custom_liquid_QYT6dR",
-    "custom_liquid_AaFVmN",
     "social_proof_AbnBmM",
-    "image_with_text_KqgeWM",
     "blog_posts_aa3fqb",
-    "17787619721046fdd6",
     "faq_with_image_m73Xra"
   ]
 }
