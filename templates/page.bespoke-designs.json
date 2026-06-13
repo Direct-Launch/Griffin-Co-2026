@@ -179,7 +179,7 @@
             "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>The Consultation</h6><p>Meet with our designers via a home visit in {{ page.metafields.custom.location.value }}, or in our showroom to discuss your ideas, budget, and inspiration. We listen to your story.</p>",
+            "text": "<h6>The Consultation</h6><p>Meet with our designers via a home visit in {{ page.metafields.custom.location.value }}, or in our showroom to discuss your ideas, budget, and inspiration. We'll discuss your vision for gemstones, metals, and design preferences. We listen to your story.</p>",
             "button_link": "",
             "button_text": ""
           }
