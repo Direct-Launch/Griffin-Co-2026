@@ -97,9 +97,15 @@
                 {% endif %}
                 
                 {% if block.settings.button_label != blank or block.settings.button_label_2 != blank %}
-                  <div class="hero-buttons-wrapper collage-builder__button-group button-group--{{ block.id }}" style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 20px;" {{ timer_complete_attrs }}>
+                  <div class="hero-buttons-wrapper collage-builder__button-group button-group--{{ block.id }}" {{ timer_complete_attrs }}>
                     
                     <style>
+                      .button-group--{{ block.id }} {
+                        display: inline-flex;
+                        flex-wrap: wrap;
+                        gap: 15px;
+                        margin-top: 20px;
+                      }
                       .button-group--{{ block.id }} > div,
                       .button-group--{{ block.id }} .collage-builder__button {
                         margin-top: 0 !important;
@@ -108,7 +114,7 @@
 
                     {% comment %} Button 1 {% endcomment %}
                     {% if block.settings.button_label != blank %}
-                      <div class="collage-builder__button-container{% if block.settings.buttons_style == 'underlined' %} text-link-animated{% endif %}" style="margin-top: 0 !important;">
+                      <div class="collage-builder__button-container{% if block.settings.buttons_style == 'underlined' %} text-link-animated{% endif %}">
                         {% if block.settings.override_button_colors %}
                           {% render 'button-color-overrides',
                             id: block.id,
@@ -131,7 +137,7 @@
 
                     {% comment %} Button 2 {% endcomment %}
                     {% if block.settings.button_label_2 != blank %}
-                      <div class="collage-builder__button-container{% if block.settings.buttons_style_2 == 'underlined' %} text-link-animated{% endif %}" style="margin-top: 0 !important;">
+                      <div class="collage-builder__button-container{% if block.settings.buttons_style_2 == 'underlined' %} text-link-animated{% endif %}">
                         {% assign btn2_id = block.id | append: '-btn-2' %}
                         
                         {% if block.settings.override_button_colors_2 %}
