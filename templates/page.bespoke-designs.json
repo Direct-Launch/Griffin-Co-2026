@@ -726,7 +726,7 @@
         "title": "Visualise Your Dream Ring in 24 Hours",
         "text": "<p>Not quite ready to commit to a full bespoke build? Bring your ideas to life instantly with our Express 3D CAD Design service. For just <strong>£50</strong>, our expert designers will translate your sketches, mood boards, or descriptions into a highly accurate, photorealistic 3D render.</p><p></p><ul><li>Delivered straight to your inbox in 24 hours</li><li>See exactly how your bespoke piece will look</li><li>£50 fee is fully redeemable against your final bespoke order</li></ul>",
         "text_alignment": "left",
-        "text_alignment_mobile": "center",
+        "text_alignment_mobile": "left",
         "text_overlapping_image": false,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
