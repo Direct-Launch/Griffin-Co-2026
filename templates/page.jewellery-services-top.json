@@ -434,10 +434,10 @@
       "type": "image-with-text",
       "name": "t:sections.image--image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Sketch_3.jpg",
-        "layout": "right",
-        "title": "What We Can Create.",
-        "text": "<p>Our <strong>Chichester</strong> workshop is equipped to bring any vision to life. Whether you are starting with a blank canvas or breathing new life into a treasured family heirloom, our master goldsmiths have the expertise to craft a wide array of fine jewellery:</p><p>✧ Engagement Rings & Wedding Bands</p><p>✧ Necklaces & Pendants</p><p>✧ Bracelets & Bangles</p><p>✧ Earrings</p><p>✧ Cufflinks & Men's Jewellery</p><p>✧ Heirloom Recreations & Adaptations</p>",
+        "image": "shopify://shop_images/Home_Visits.png",
+        "layout": "left",
+        "title": "Private Home Visits.",
+        "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Our master goldsmiths can travel to your home or office across West Sussex, Surrey, Hampshire, and Greater London. We arrive fully equipped with diamond samples, ring sizing tools, and design portfolios to conduct a full consultation or valuation in total privacy.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "text_overlapping_image": false,
@@ -445,8 +445,8 @@
         "desktop-text-size": 100,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link": "#booking",
-        "button_label": "Discuss Your Idea With Us",
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request a Home Visit",
         "buttons_style": "filled",
         "override_button_colors": false,
         "button_background_color": "#e68819",
@@ -499,6 +499,7 @@
         "image_and_text_xDjPhn",
         "image_and_text_Wd9Kpf"
       ],
+      "disabled": true,
       "name": "Specialities",
       "settings": {
         "title": "Explore Our Specialities.",
@@ -636,6 +637,7 @@
         "heading_J8jMVL",
         "richtext_CiLnnn"
       ],
+      "disabled": true,
       "name": "Portfolio Rich Text",
       "settings": {
         "section_width": "full-width",
@@ -671,6 +673,7 @@
       "block_order": [
         "instafeed_app_block_D9irVw"
       ],
+      "disabled": true,
       "custom_css": [
         ".instafeed-shopify {background-color: #f8f8f8;}"
       ],
@@ -696,6 +699,7 @@
       "block_order": [
         "richtext_36BGmi"
       ],
+      "disabled": true,
       "name": "Portfolio Footer",
       "settings": {
         "section_width": "full-width",
