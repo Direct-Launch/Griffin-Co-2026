@@ -432,7 +432,7 @@
     },
     "image_with_text_YjGKin": {
       "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
+      "name": "Private Home Visits",
       "settings": {
         "image": "shopify://shop_images/Home_Visits.png",
         "layout": "left",
@@ -454,7 +454,7 @@
         "section-width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
+        "colors": "dark"
       }
     },
     "template_product_info_columns_TYCiFr": {
@@ -937,7 +937,7 @@
         "blog_QWVaqf": {
           "type": "blog",
           "settings": {
-            "blog": "guide-bespoke-jewellery-design-service"
+            "blog": "guide-jewellery-repair-service"
           }
         }
       },
