@@ -1,6 +1,205 @@
+{% doc %}
+  @prompt
+    Please generate a complete, customizable Shopify Liquid section for a "Services Grid".
+    
+    Core Requirements:
+    
+    Dynamic Blocks: The grid items must be powered by Shopify Blocks (type: 'service_card'). This will allow me to add, remove, and reorder the services in the Theme Editor.
+    
+    Block Schema: Each block should include settings for:
+    
+    Image (image_picker)
+    
+    Title (text)
+    
+    Description (richtext or textarea)
+    
+    Button 1 Label (text)
+    
+    Button 1 Link (url)
+    
+    Button 2 Label (text, optional)
+    
+    Button 2 Link (url, optional)
+    
+    Section Settings: Add basic section settings for top/bottom padding.
+    
+    Strict Styling Rule (CRITICAL): You MUST use the exact HTML structure and Tailwind CSS classes provided in the reference code below. Do not invent new CSS, do not use inline styles, and do not use standard Shopify CSS classes. My theme is already configured with Tailwind and custom brand colors (brand-dark, brand-gold, brand-graybg, etc.).
+    
+    Logic for Buttons:
+    Use a Liquid if statement to check if Button 2 is populated. If Button 2 exists, wrap the buttons in the flex container provided in the reference (flex flex-col sm:flex-row justify-center gap-4). If only Button 1 exists, render it as a single inline block (as seen in the "Jewellery Repairs" card reference). Button 1 should use the dark outline style, and Button 2 should use the solid dark/gold style.
+    
+    Reference HTML & Tailwind Classes:
+    
+    <section class="py-20 bg-brand-graybg border-y border-gray-200">
+        <div class="container mx-auto px-6 max-w-7xl">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
+                
+                <!-- Target Structure for a Block WITH 2 Buttons -->
+                <div class="bg-white group shadow-sm hover:shadow-xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="IMAGE_URL" alt="ALT_TEXT" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-brand-dark/10"></div>
+                    </div>
+                    <div class="p-8 text-center">
+                        <h3 class="font-serif text-2xl text-brand-dark mb-3">BLOCK TITLE</h3>
+                        <p class="text-gray-500 text-sm mb-6 leading-relaxed">BLOCK DESCRIPTION</p>
+                        <div class="flex flex-col sm:flex-row justify-center gap-4">
+                            <a href="LINK_1" class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition">BUTTON 1</a>
+                            <a href="LINK_2" class="inline-block bg-brand-dark text-brand-gold px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-gold hover:text-brand-dark transition">BUTTON 2</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Target Structure for a Block WITH 1 Button -->
+                <div class="bg-white group shadow-sm hover:shadow-xl transition duration-500">
+                    <div class="h-64 overflow-hidden relative">
+                        <img src="IMAGE_URL" alt="ALT_TEXT" class="w-full h-full object-cover group-hover:scale-110 transition duration-700">
+                        <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-brand-dark/10"></div>
+                    </div>
+                    <div class="p-8 text-center">
+                        <h3 class="font-serif text-2xl text-brand-dark mb-3">BLOCK TITLE</h3>
+                        <p class="text-gray-500 text-sm mb-6 leading-relaxed">BLOCK DESCRIPTION</p>
+                        <a href="LINK_1" class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition">BUTTON 1</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </section>
+    
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+<div class="bg-white group shadow-sm hover:shadow-xl transition duration-500" {{ block.shopify_attributes }} style="width: {{ block.settings.desktop_width_percent }}%;">
+  <div class="h-64 overflow-hidden relative">
+    {% if block.settings.service_image %}
+      <img 
+        src="{{ block.settings.service_image | image_url: width: 800 }}" 
+        alt="{{ block.settings.service_image.alt | escape }}" 
+        class="w-full h-full object-cover group-hover:scale-110 transition duration-700"
+        loading="lazy"
+        width="{{ block.settings.service_image.width }}"
+        height="{{ block.settings.service_image.height }}"
+      >
+    {% else %}
+      <div class="w-full h-full bg-gray-200 flex items-center justify-center">
+        {{ 'image' | placeholder_svg_tag: 'w-full h-full object-cover' }}
+      </div>
+    {% endif %}
+    <div class="absolute inset-0 bg-brand-dark/20 group-hover:bg-brand-dark/10"></div>
+  </div>
+  
+  <div class="p-8 text-center">
+    {% if block.settings.service_title != blank %}
+      <h3 class="font-serif text-2xl text-brand-dark mb-3">{{ block.settings.service_title }}</h3>
+    {% endif %}
+    
+    {% if block.settings.service_description != blank %}
+      <div class="text-gray-500 text-sm mb-6 leading-relaxed">{{ block.settings.service_description }}</div>
+    {% endif %}
+    
+    {% if block.settings.button_1_label != blank and block.settings.button_1_link != blank %}
+      {% if block.settings.button_2_label != blank and block.settings.button_2_link != blank %}
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a 
+            href="{{ block.settings.button_1_link }}" 
+            class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+          >
+            {{ block.settings.button_1_label }}
+          </a>
+          <a 
+            href="{{ block.settings.button_2_link }}" 
+            class="inline-block bg-brand-dark text-brand-gold px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-gold hover:text-brand-dark transition"
+          >
+            {{ block.settings.button_2_label }}
+          </a>
+        </div>
+      {% else %}
+        <a 
+          href="{{ block.settings.button_1_link }}" 
+          class="inline-block border border-brand-dark text-brand-dark px-6 py-2 uppercase text-xs tracking-widest font-bold hover:bg-brand-dark hover:text-white transition"
+        >
+          {{ block.settings.button_1_label }}
+        </a>
+      {% endif %}
+    {% endif %}
+  </div>
+</div>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Service card",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "service_image",
+      "label": "Image"
+    },
+    {
+      "type": "header",
+      "content": "Content"
+    },
+    {
+      "type": "text",
+      "id": "service_title",
+      "label": "Title",
+      "default": "Service Title"
+    },
+    {
+      "type": "textarea",
+      "id": "service_description",
+      "label": "Description",
+      "default": "Describe your service here with a brief overview of what you offer."
+    },
+    {
+      "type": "header",
+      "content": "Button 1"
+    },
+    {
+      "type": "text",
+      "id": "button_1_label",
+      "label": "Label",
+      "default": "Learn More"
+    },
+    {
+      "type": "url",
+      "id": "button_1_link",
+      "label": "Link"
+    },
+    {
+      "type": "header",
+      "content": "Button 2"
+    },
+    {
+      "type": "text",
+      "id": "button_2_label",
+      "label": "Label"
+    },
+    {
+      "type": "url",
+      "id": "button_2_link",
+      "label": "Link"
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Desktop width",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Service card"
+    }
+  ]
+}
 {% endschema %}
