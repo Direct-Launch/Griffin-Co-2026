@@ -26,13 +26,13 @@
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
         "button_link_1": "#booking",
-        "button_label_1": "",
+        "button_label_1": "test",
         "buttons_style_1": "filled",
         "override_button_colors_1": false,
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
         "button_link_2": "shopify://pages/custom-jewellery-builder-online",
-        "button_label_2": "",
+        "button_label_2": "test",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
         "button_background_color_2": "#e68819",
@@ -323,11 +323,11 @@
             "url_2": "",
             "button_label_2": "Learn more",
             "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
+            "override_button_colors_2": true,
+            "button_background_color_2": "#FFFFFF",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0)"
+            "overlay_color": "#35382E"
           }
         },
         "image_ATakGr": {
@@ -349,11 +349,11 @@
             "url_2": "",
             "button_label_2": "Learn more",
             "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
+            "override_button_colors_2": true,
+            "button_background_color_2": "#FFFFFF",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0)"
+            "overlay_color": "#35382E"
           }
         },
         "image_6nNK9t": {
@@ -375,17 +375,17 @@
             "url_2": "",
             "button_label_2": "Learn more",
             "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
+            "override_button_colors_2": true,
+            "button_background_color_2": "#FFFFFF",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0)"
+            "overlay_color": "#35382E"
           }
         },
         "image_EAJRdU": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/Griffin_Co._Signet_Rings_Window_Display_25213fc7-6ee1-4dde-84c1-0ae46f4dbeb9.png",
+            "desktop_image": "shopify://shop_images/Signet_Rings.webp",
             "desktop_position": "md-min-align-bottom md-min-justify-center",
             "heading_size": "h4",
             "mobile_position": "md-max-align-center md-max-justify-center",
@@ -401,11 +401,11 @@
             "url_2": "",
             "button_label_2": "Learn more",
             "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
+            "override_button_colors_2": true,
+            "button_background_color_2": "#FFFFFF",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0)"
+            "overlay_color": "#35382E"
           }
         }
       },
@@ -736,7 +736,7 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "text": "<h5><a href=\"/pages/engagement-rings-hampshire\" title=\"Engagement Rings Hampshire\">Hampshire</a></h5><p><a href=\"/pages/engagement-rings-aldershot\" title=\"Engagement Rings Aldershot\">Aldershot</a>, <a href=\"/pages/engagement-rings-andover\" title=\"Engagement Rings Andover\">Andover</a>, <a href=\"/pages/engagement-rings-basingstoke\" title=\"Engagement Rings Basingstoke\">Basingstoke</a>, <a href=\"/pages/engagement-rings-farnborough\" title=\"Engagement Rings Farnborough\">Farnborough</a>, <a href=\"/pages/engagement-rings-gosport\" title=\"Engagement Rings Gosport\">Gosport</a>, <a href=\"/pages/engagement-rings-horndean\" title=\"Engagement Rings Horndean\">Horndean</a>, <a href=\"/pages/engagement-rings-portsmouth\" title=\"Engagement Rings Portsmouth\">Portsmouth</a>, <a href=\"/pages/engagement-rings-southampton\" title=\"Engagement Rings Southampton\">Southampton</a>, <a href=\"/pages/engagement-rings-winchester\" title=\"Engagement Rings Winchester\">Winchester</a>.</p>",
+            "text": "<h5><a href=\"/pages/hampshire\" title=\"Hampshire\">Hampshire</a></h5><p><a href=\"/pages/aldershot\" title=\"Aldershot\">Aldershot</a>, <a href=\"/pages/andover\" title=\"Andover\">Andover</a>, <a href=\"/pages/basingstoke\" title=\"Basingstoke\">Basingstoke</a>, <a href=\"/pages/farnborough\" title=\"Farnborough\">Farnborough</a>, <a href=\"/pages/gosport\" title=\"Gosport\">Gosport</a>, <a href=\"/pages/horndean\" title=\"Horndean\">Horndean</a>, <a href=\"/pages/portsmouth\" title=\"Portsmouth\">Portsmouth</a>, <a href=\"/pages/southampton\" title=\"Southampton\">Southampton</a>, <a href=\"/pages/winchester\" title=\"Winchester\">Winchester</a>.</p>",
             "button_link": "",
             "button_text": ""
           }
