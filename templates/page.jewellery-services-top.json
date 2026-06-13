@@ -307,9 +307,9 @@
           "type": "image",
           "settings": {
             "desktop_image": "shopify://shop_images/Bespoke_Experience.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
             "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "mobile_position": "md-max-align-center md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
             "heading": "Bespoke Design",
             "url": "",
