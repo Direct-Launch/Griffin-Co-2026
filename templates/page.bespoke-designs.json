@@ -242,8 +242,8 @@
         "text_alignment_mobile": "left",
         "slider_height_mobile": "adaptive",
         "section_width": "content",
-        "section_padding_top": 10,
-        "section_padding_bottom": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
         "colors": "white"
       }
     },
