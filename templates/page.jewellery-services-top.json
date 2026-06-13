@@ -313,15 +313,15 @@
             "heading_size_mobile": "h4-mobile",
             "heading": "Bespoke Design",
             "text": "Collaborate with our designers in-store or use our innovative 3D online studio to create a truly one-of-a-kind heirloom from scratch.",
-            "button_label_2": "Learn more",
-            "url_2": "",
-            "buttons_style_2": "outlined",
             "url": "",
             "button_label": "Shop now",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "Learn more",
+            "buttons_style_2": "outlined",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -336,15 +336,15 @@
             "heading_size_mobile": "h4-mobile",
             "heading": "Jewellery Repairs",
             "text": "Expert care including ring resizing, claw retipping, cleaning, and chain soldering. All repairs are completed safely in our Chichester workshop.",
-            "button_label_2": "Learn more",
-            "url_2": "",
-            "buttons_style_2": "outlined",
             "url": "",
             "button_label": "Shop now",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "Learn more",
+            "buttons_style_2": "outlined",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -359,15 +359,15 @@
             "heading_size_mobile": "h4-mobile",
             "heading": "Remodelling & Old Gold",
             "text": "Breathe new life into unworn heirlooms. We can melt down your existing yellow gold and reset your family diamonds into breathtaking modern designs.",
-            "button_label_2": "Learn more",
-            "url_2": "",
-            "buttons_style_2": "outlined",
             "url": "",
             "button_label": "Shop now",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "Learn more",
+            "buttons_style_2": "outlined",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -382,15 +382,15 @@
             "heading_size_mobile": "h4-mobile",
             "heading": "Custom Signet Rings",
             "text": "Griffin and Co Fine Jewellery crafts custom signet rings that are a tangible connection to your family's heritage, meticulously designed to tell your unique story.",
-            "button_label_2": "Learn more",
-            "url_2": "",
-            "buttons_style_2": "outlined",
             "url": "",
             "button_label": "Shop now",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "Learn more",
+            "buttons_style_2": "outlined",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -749,6 +749,7 @@
         "text_Fhkz9G",
         "button_J4JRwT"
       ],
+      "disabled": true,
       "name": "CTA Banner",
       "settings": {
         "image_desktop": "shopify://shop_images/Book_your_Appointment.jpg",
@@ -772,6 +773,7 @@
     },
     "custom_liquid_QYT6dR": {
       "type": "custom-liquid",
+      "disabled": true,
       "name": "Anchor",
       "settings": {
         "title": "",
@@ -786,6 +788,7 @@
     },
     "custom_liquid_AaFVmN": {
       "type": "custom-liquid",
+      "disabled": true,
       "custom_css": [
         ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}",
         "@media only screen and (max-width: 768px) {iframe {/* Replace 'iframe' with your specific class if you used one */ height: 1800px !important; /* Brute-forces the iframe to be taller than the content */ max-height: none !important; }}"

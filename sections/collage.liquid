@@ -95,10 +95,13 @@
                 {% if block.settings.html != blank %}
                   <div class="collage-builder__text-content text-link-animated">{{ block.settings.html }}</div>
                 {% endif %}
-{% if block.settings.button_label != blank or block.settings.button_label_2 != blank %}
-                  <div class="collage-builder__button-group" {{ timer_complete_attrs }}>
+                
+                {% if block.settings.button_label != blank or block.settings.button_label_2 != blank %}
+                  <div class="hero-buttons-wrapper collage-builder__button-group" style="display: flex; flex-wrap: wrap; gap: 15px; margin-top: 20px;" {{ timer_complete_attrs }}>
+                    
+                    {% comment %} Button 1 {% endcomment %}
                     {% if block.settings.button_label != blank %}
-                      <div class="collage-builder__button-container{% if block.settings.buttons_style == 'underlined' %} text-link-animated{% endif %}">
+                      <div class="collage-builder__button-container{% if block.settings.buttons_style == 'underlined' %} text-link-animated{% endif %}" style="margin-top: 0;">
                         {% if block.settings.override_button_colors %}
                           {% render 'button-color-overrides',
                             id: block.id,
@@ -119,10 +122,22 @@
                       </div>
                     {% endif %}
 
+                    {% comment %} Button 2 {% endcomment %}
                     {% if block.settings.button_label_2 != blank %}
-                      <div class="collage-builder__button-container{% if block.settings.buttons_style_2 == 'underlined' %} text-link-animated{% endif %}">
+                      <div class="collage-builder__button-container{% if block.settings.buttons_style_2 == 'underlined' %} text-link-animated{% endif %}" style="margin-top: 0;">
+                        {% assign btn2_id = block.id | append: '-btn-2' %}
+                        
+                        {% if block.settings.override_button_colors_2 %}
+                          {% render 'button-color-overrides',
+                            id: btn2_id,
+                            style: block.settings.buttons_style_2,
+                            text_color: block.settings.button_color_2,
+                            background_color: block.settings.button_background_color_2
+                          %}
+                        {% endif %}
+                        
                         {% render 'dynamic-section-button',
-                          id: block.id,
+                          id: btn2_id,
                           link: block.settings.url_2,
                           label: block.settings.button_label_2,
                           style: block.settings.buttons_style_2,
@@ -131,6 +146,7 @@
                         %}
                       </div>
                     {% endif %}
+                    
                   </div>
                 {% endif %}
               </div>
@@ -1180,28 +1196,6 @@
           "default": "Add a description to your image here."
         },
         {
-          "type": "text",
-          "id": "button_label_2",
-          "label": "Secondary Button Label",
-          "default": "Learn more"
-        },
-        {
-          "type": "url",
-          "id": "url_2",
-          "label": "Secondary Button Link"
-        },
-        {
-          "type": "select",
-          "id": "buttons_style_2",
-          "label": "Secondary Button Style",
-          "default": "outlined",
-          "options": [
-            { "value": "filled", "label": "Filled" },
-            { "value": "outlined", "label": "Outlined" },
-            { "value": "underlined", "label": "Underlined" }
-          ]
-        },
-        {
           "type": "header",
           "content": "t:all.Link"
         },
@@ -1261,6 +1255,62 @@
           "default": "#FFFFFF",
           "info": "t:all.Secondary_button_color_info",
           "visible_if": "{{ block.settings.override_button_colors }}"
+        },
+        {
+          "type": "header",
+          "content": "Button 2"
+        },
+        {
+          "type": "url",
+          "id": "url_2",
+          "label": "t:all.Link"
+        },
+        {
+          "type": "text",
+          "id": "button_label_2",
+          "label": "t:all.Button_label"
+        },
+        {
+          "type": "select",
+          "id": "buttons_style_2",
+          "label": "t:all.button_style",
+          "default": "outlined",
+          "options": [
+            {
+              "value": "filled",
+              "label": "t:all.Filled"
+            },
+            {
+              "value": "outlined",
+              "label": "t:all.Outlined"
+            },
+            {
+              "value": "underlined",
+              "label": "t:all.underlined"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "override_button_colors_2",
+          "label": "t:all.Button_color_override",
+          "default": false,
+          "info": "t:all.Button_color_override_info"
+        },
+        {
+          "type": "color",
+          "id": "button_background_color_2",
+          "label": "t:all.Primary_color",
+          "default": "#E68819",
+          "visible_if": "{{ block.settings.override_button_colors_2 }}"
+        },
+        {
+          "type": "color",
+          "id": "button_color_2",
+          "label": "t:all.Secondary_color",
+          "default": "#FFFFFF",
+          "info": "t:all.Secondary_button_color_info",
+          "visible_if": "{{ block.settings.override_button_colors_2 }}"
         },
         {
           "type": "header",
