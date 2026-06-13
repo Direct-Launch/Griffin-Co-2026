@@ -1027,10 +1027,10 @@
       ],
       "name": "t:sections.blog-posts.name",
       "settings": {
-        "title": "Guide to Bespoke Jewellery Design.",
-        "description": "<p>Read our expert insights on selecting diamonds, choosing metals, and understanding the design process.</p>",
+        "title": "The Jewellery Guide Series",
+        "description": "<p>Unsure about the difference between Platinum and White Gold? Want to know how to clean your diamond ring at home? Our expert guides cover everything you need to know.</p>",
         "section_header_alignment": "left",
-        "media_source": "metafields",
+        "media_source": "original",
         "custom_media_ratio": "square",
         "show_image": true,
         "image_shape": "natural",
