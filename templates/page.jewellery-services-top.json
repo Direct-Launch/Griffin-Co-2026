@@ -795,7 +795,7 @@
         "heading_yLdRKf": {
           "type": "heading",
           "settings": {
-            "title": "Ready to create beautiful jewellery?",
+            "title": "Book Your Service.",
             "font_size_desktop": "h2",
             "font_size_mobile": "h2-mobile",
             "heading_bottom_spacing": 25
@@ -804,7 +804,7 @@
         "text_Fhkz9G": {
           "type": "text",
           "settings": {
-            "text": "<p>Designing jewellery is just the beginning. If you have questions about diamond specifications, metal durability, or want to tweak a design further, our master goldsmiths are here to help.</p>",
+            "text": "<p>Whether you need a quick repair assessment, want to schedule a valuation, or are ready to begin remodelling an heirloom, our team is ready to assist you.</p>",
             "font_size_desktop": 100,
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
@@ -812,10 +812,9 @@
         },
         "button_J4JRwT": {
           "type": "button",
-          "disabled": true,
           "settings": {
-            "first_button_link": "",
-            "first_button_label": "Design Online",
+            "first_button_link": "shopify://pages/contact",
+            "first_button_label": "Contact Us",
             "second_button_link": "shopify://pages/schedule-an-appointment",
             "second_button_label": "Meet A Jeweller in Person",
             "buttons_style": "outlined",
@@ -834,7 +833,7 @@
       "name": "CTA Banner",
       "settings": {
         "image_desktop": "shopify://shop_images/Interior_2.webp",
-        "height_desktop": "650px",
+        "height_desktop": "550px",
         "text_position_desktop": "left",
         "text_alignment_desktop": "left",
         "caption_width_desktop": 50,
@@ -849,7 +848,7 @@
         "text_color": "#ffffff",
         "caption_bg_color": "rgba(0,0,0,0)",
         "image_overlay_color": "#242424",
-        "image_overlay_opacity": 25
+        "image_overlay_opacity": 45
       }
     },
     "custom_liquid_QYT6dR": {
