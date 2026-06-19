@@ -319,72 +319,6 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_TYCiFr": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_UCrW8e": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Signet_Rings_Crests.png",
-            "grid_image_size": "natural",
-            "heading": "Signet Rings & Crests",
-            "text": "<p>Engrave custom family crests.</p>",
-            "button_link": "shopify://pages/custom-signet-rings-with-family-crests",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_xDjPhn": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Engagement_Rings_Home.png",
-            "grid_image_size": "natural",
-            "heading": "Engagement Rings",
-            "text": "<p>Shop our collection or create bespoke.</p>",
-            "button_link": "shopify://pages/engagement-rings",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_Wd9Kpf": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Wedding_Bands_Home.png",
-            "grid_image_size": "natural",
-            "heading": "Wedding Bands",
-            "text": "<p>Shop our collection or create bespoke.</p>",
-            "button_link": "shopify://pages/wedding-rings-bespoke-bands",
-            "button_text": "Learn more"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_UCrW8e",
-        "image_and_text_xDjPhn",
-        "image_and_text_Wd9Kpf"
-      ],
-      "disabled": true,
-      "name": "Specialities",
-      "settings": {
-        "title": "Explore Our Specialities.",
-        "description": "<p>Specialist Services in {{ page.metafields.custom.location.value }}.</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 3,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "collage_wVbDLB": {
       "type": "collage",
       "blocks": {
@@ -719,9 +653,34 @@
         "color_scheme": "dark"
       }
     },
+    "rich_text_gYqfrE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WQjyr4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Remodelling Process.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_WQjyr4"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
     "image_with_text_3M9UWp": {
       "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
+      "name": "1. Initial Consultation",
       "settings": {
         "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
         "layout": "left",
@@ -730,9 +689,9 @@
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
+        "desktop-heading-size": "h4",
         "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
+        "mobile-heading-size": "h4-mobile",
         "mobile-text-size": 100,
         "button_link": "",
         "button_label": "",
@@ -748,18 +707,18 @@
     },
     "image_with_text_EgFKgk": {
       "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
+      "name": "2. Design Development",
       "settings": {
-        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+        "image": "shopify://shop_images/Step_1_-_Consultation.png",
         "layout": "right",
         "title": "2. Design Development",
         "text": "<p>Once we understand your vision, our designers will create sketches and renderings to bring your ideas to life. This allows you to visualise the final product and make adjustments before we begin crafting.</p>",
         "text_alignment": "right",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
+        "desktop-heading-size": "h4",
         "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
+        "mobile-heading-size": "h4-mobile",
         "mobile-text-size": 100,
         "button_link": "",
         "button_label": "",
@@ -775,7 +734,7 @@
     },
     "image_with_text_9qj8zz": {
       "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
+      "name": "3. Material Assessment",
       "settings": {
         "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
         "layout": "left",
@@ -784,9 +743,9 @@
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
+        "desktop-heading-size": "h4",
         "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
+        "mobile-heading-size": "h4-mobile",
         "mobile-text-size": 100,
         "button_link": "",
         "button_label": "",
@@ -802,18 +761,45 @@
     },
     "image_with_text_hLfxzA": {
       "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
+      "name": "4. Craftsmanship & Creation",
       "settings": {
-        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+        "image": "shopify://shop_images/Step_2_-_Choose_Stones___Metals.png",
         "layout": "right",
         "title": "4. Craftsmanship & Creation",
         "text": "<p>Our skilled craftsmen meticulously craft your new jewellery using traditional techniques combined with modern technology in our in-house workshop. We pay close attention to every detail to ensure that your piece is of the highest quality.</p>",
         "text_alignment": "right",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
+        "desktop-heading-size": "h4",
         "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
+        "mobile-heading-size": "h4-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_BHEfXp": {
+      "type": "image-with-text",
+      "name": "5. Final Inspection & Polish",
+      "settings": {
+        "image": "shopify://shop_images/Step_5_-_Finished_Product.jpg",
+        "layout": "left",
+        "title": "5. Final Inspection & Polish",
+        "text": "<p>Before your remodelled jewellery is ready for you, we conduct a thorough final inspection to ensure that it meets our exacting standards. We then polish the piece to perfection, bringing out its brilliance and luster.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h4",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h4-mobile",
         "mobile-text-size": 100,
         "button_link": "",
         "button_label": "",
@@ -917,41 +903,6 @@
         "colors": "accent"
       }
     },
-    "rich_text_WFYpWq": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_J8jMVL": {
-          "type": "heading",
-          "settings": {
-            "heading": "Recent Bespoke Commissions From OUR INSTAGRAM.",
-            "heading--text-size": "h4",
-            "heading_bottom_spacing": 20
-          }
-        },
-        "richtext_CiLnnn": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular bespoke portfolio updates. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
-            "text_size": 100,
-            "text_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "heading_J8jMVL",
-        "richtext_CiLnnn"
-      ],
-      "disabled": true,
-      "name": "Portfolio Rich Text",
-      "settings": {
-        "section_width": "full-width",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "dark"
-      }
-    },
     "apps_zahc7r": {
       "type": "apps",
       "blocks": {
@@ -1020,7 +971,7 @@
         "heading_yLdRKf": {
           "type": "heading",
           "settings": {
-            "title": "Ready to create beautiful jewellery?",
+            "title": "Ready to Reimagine Your Jewellery?",
             "font_size_desktop": "h2",
             "font_size_mobile": "h2-mobile",
             "heading_bottom_spacing": 25
@@ -1029,7 +980,7 @@
         "text_Fhkz9G": {
           "type": "text",
           "settings": {
-            "text": "<p>Designing jewellery is just the beginning. If you have questions about diamond specifications, metal durability, or want to tweak a design further, our master goldsmiths are here to help.</p>",
+            "text": "<p>Visit our showroom in Chichester or book your consultation today.</p>",
             "font_size_desktop": 100,
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
@@ -1102,7 +1053,7 @@
         "title": "",
         "description": "",
         "section_header_alignment": "center",
-        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/bespoke-design?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/remodelling-service?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
         "section_width": "full-width",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
@@ -1210,6 +1161,7 @@
     },
     "image_with_text_KqgeWM": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "CAD Design Service",
       "settings": {
         "image": "shopify://shop_images/SL9827_2edb0861-319b-4060-811f-c90a8301f6a8.png",
@@ -1248,9 +1200,10 @@
       "block_order": [
         "blog_QWVaqf"
       ],
+      "disabled": true,
       "name": "t:sections.blog-posts.name",
       "settings": {
-        "title": "Guide to Bespoke Jewellery Design.",
+        "title": "Guide to Jewellery Remodelling & Designs.",
         "description": "<p>Read our expert insights on selecting diamonds, choosing metals, and understanding the design process.</p>",
         "section_header_alignment": "left",
         "media_source": "metafields",
@@ -1343,45 +1296,45 @@
         "accordion_Jg8nTk": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What kind of jewellery can I create through your bespoke design service?",
+            "accordion_header": "What is the first step if I'm interested in remodelling my jewellery with Griffin & Co in Chichester?",
             "open_by_default": false,
-            "text": "<p>We have the expertise to create a wide range of bespoke jewellery, including:</p><ul><li>Engagement rings and wedding bands</li><li>Necklaces and pendants</li><li>Bracelets and bangles</li><li>Earrings</li><li>Cufflinks and other men's jewellery</li><li>Heirloom recreations and adaptations</li></ul><p>Whether you have a clear idea or need inspiration, our team can design and craft virtually any piece of fine jewellery.</p>",
+            "text": "<p>The first step is to get in touch with us! You can either visit our Griffin & Co Fine Jewellery showroom in Chichester with your pieces, or contact us by phone or email to schedule a consultation. </p><p>During this initial meeting, we'll discuss your ideas, examine your jewellery, and answer any further questions you may have. We look forward to helping you transform your treasured pieces into something new and beautiful.</p>",
             "page": ""
           }
         },
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How long does the bespoke process take?",
+            "accordion_header": "What types of changes can be made during jewellery remodelling?",
             "open_by_default": false,
-            "text": "<p>Typically, a bespoke commission takes between 4 to 8 weeks from the final design approval to the finished piece. This allows time for sourcing gemstones, casting, hallmarking, and setting.</p><p>The timeline for a bespoke jewellery commission can vary significantly depending on the complexity of the design, the materials chosen, and the level of detail involved. After the design is finalised and materials are selected, we will provide you with a more accurate estimated timeframe.</p>",
+            "text": "<p>The possibilities are vast! We can undertake a wide range of transformations in our workshop, including:</p><ul><li><strong>Melting and recasting: </strong>Transforming old gold or platinum into a new design.</li><li><strong>Repurposing gemstones: </strong>Setting existing diamonds and coloured stones into a new setting.</li><li><strong>Combining pieces: </strong>Blending elements from multiple items into a single, unique creation.</li><li><strong>Updating styles: </strong>Modernising outdated designs to reflect current trends.</li><li>✦<strong>Adding or removing elements: </strong>Incorporating new stones or metal details, or simplifying existing pieces.</li><li>✦<strong>Changing metal types: </strong>For example, transforming yellow gold into white gold or platinum via plating or resetting.</li></ul><p><em>Just share your ideas with us, and we'll discuss the best approach to achieve your desired outcome.</em></p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can I reuse gold or gemstones from old jewellery?",
+            "accordion_header": "How long does the jewellery remodelling process typically take?",
             "open_by_default": false,
-            "text": "<p>Absolutely. <a href=\"/pages/jewellery-remodelling-service\" title=\"Jewellery Remodelling Service\">Remodelling </a>family heirlooms is one of our specialities. We can often melt down your yellow gold to create a new band, or reset your diamonds into a modern platinum setting.</p>",
+            "text": "<p>The timeframe for jewellery remodelling can vary depending on the complexity of the design and the work involved. After our initial consultation and once the design is finalised, we will provide you with a more accurate estimate.</p><p><strong>Generally, you can expect the process to take anywhere from a few weeks to a couple of months.</strong> We pride ourselves on meticulous craftsmanship and will ensure your new piece is perfect before it leaves our Chichester workshop</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Do I need to book an appointment?",
+            "accordion_header": "How much does jewellery remodelling cost at Griffin & Co?",
             "open_by_default": false,
-            "text": "<p>We invite you to experience our jewellery in the way that suits you best. You can book a private consultation to visit our showroom and view our collection in person.</p><p>We also offer <a href=\"/pages/home-visits\" title=\"Home Jewellery Viewing Chichester\">Home Visits</a> where you can arrange for an expert jeweller to bring our collection to your home in {{ page.metafields.custom.location.value }}. While we love welcoming clients to our workshop, we can also start the process via a video call.</p>",
+            "text": "<p>The cost of remodelling is unique to each project and depends on several factors, including the amount of metal and gemstones involved, the complexity of the new design, and the labour required.</p><p><strong>We offer a no-obligation consultation where we can assess your existing jewellery and discuss your ideas.</strong> Following this, we will provide you with a detailed quote outlining all costs involved, ensuring complete transparency.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Where is your Showroom located?",
+            "accordion_header": "I have some old pieces of jewellery that I no longer wear. Can Griffin & Co help me create something new with them?",
             "open_by_default": false,
-            "text": "<p>Our showroom is located at 64 South Street, Chichester, PO19 EE. You can find a map, parking information, and our full opening hours on our <a href=\"/pages/contact\" title=\"Contact Us\">Contact Us</a> page.</p>",
+            "text": "<p>Absolutely! At Griffin & Co Fine Jewellery in Chichester, we specialise in jewellery remodelling. <strong>Bring in your unworn or inherited pieces, and our expert designers will work closely with you to understand your vision.</strong></p><p>We can melt down precious metals, repurpose gemstones, and combine elements to create a bespoke piece of jewellery that you'll love and cherish.</p>",
             "page": ""
           }
         }
@@ -1395,7 +1348,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "FAQs about Bespoke Designs in {{ page.metafields.custom.location.value }}.",
+        "section_title": "Learn More about our Remodelling Services.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
@@ -1425,15 +1378,15 @@
     "text_adverts_with_icon_KeGJzE",
     "template_product_info_columns_w6jzXb",
     "image_with_text_YjGKin",
-    "template_product_info_columns_TYCiFr",
     "collage_wVbDLB",
     "collage_4RdPRz",
+    "rich_text_gYqfrE",
     "image_with_text_3M9UWp",
     "image_with_text_EgFKgk",
     "image_with_text_9qj8zz",
     "image_with_text_hLfxzA",
+    "image_with_text_BHEfXp",
     "template_product_info_columns_RzYKwq",
-    "rich_text_WFYpWq",
     "apps_zahc7r",
     "rich_text_VhWp7f",
     "image_with_text_overlay_WgzhKg",
