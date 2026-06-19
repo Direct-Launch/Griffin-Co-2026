@@ -719,6 +719,87 @@
         "color_scheme": "dark"
       }
     },
+    "image_with_text_3M9UWp": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+        "layout": "left",
+        "title": "1. Initial Consultation",
+        "text": "<p>The journey begins with a consultation where we sit down with you to discuss your vision for your jewellery in our showroom in Chichester. We'll listen carefully to your ideas, preferences, and any sentimental value attached to the piece.</p>",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_9qj8zz": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+        "layout": "left",
+        "title": "1. Initial Consultation",
+        "text": "<p>The journey begins with a consultation where we sit down with you to discuss your vision for your jewellery in our showroom in Chichester. We'll listen carefully to your ideas, preferences, and any sentimental value attached to the piece.</p>",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_EgFKgk": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+        "layout": "right",
+        "title": "2. Design Development",
+        "text": "<p>Once we understand your vision, our designers will create sketches and renderings to bring your ideas to life. This allows you to visualise the final product and make adjustments before we begin crafting.</p>",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_RzYKwq": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -833,6 +914,7 @@
         "heading_J8jMVL",
         "richtext_CiLnnn"
       ],
+      "disabled": true,
       "name": "Portfolio Rich Text",
       "settings": {
         "section_width": "full-width",
@@ -868,6 +950,7 @@
       "block_order": [
         "instafeed_app_block_D9irVw"
       ],
+      "disabled": true,
       "custom_css": [
         ".instafeed-shopify {background-color: #f8f8f8;}"
       ],
@@ -893,6 +976,7 @@
       "block_order": [
         "richtext_36BGmi"
       ],
+      "disabled": true,
       "name": "Portfolio Footer",
       "settings": {
         "section_width": "full-width",
@@ -1317,6 +1401,9 @@
     "template_product_info_columns_TYCiFr",
     "collage_wVbDLB",
     "collage_4RdPRz",
+    "image_with_text_3M9UWp",
+    "image_with_text_EgFKgk",
+    "image_with_text_9qj8zz",
     "template_product_info_columns_RzYKwq",
     "rich_text_WFYpWq",
     "apps_zahc7r",
