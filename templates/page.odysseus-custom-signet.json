@@ -170,69 +170,9 @@
         "colors": "white"
       }
     },
-    "info_columns_signet_techniques": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "text_crest_engraving": {
-          "type": "text",
-          "settings": {
-            "heading": "Crest Engraving",
-            "text": "<p>The traditional method for family crests. The design is reverse-engraved, creating a mirrored impression for wax sealing. This requires exceptional skill to ensure a perfect image.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_hand_engraving": {
-          "type": "text",
-          "settings": {
-            "heading": "Hand Engraving",
-            "text": "<p>Our master engravers manually carve designs into metal using a graver and hammer, allowing for unmatched depth, texture, and artistry that machines cannot replicate.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_laser_engraving": {
-          "type": "text",
-          "settings": {
-            "heading": "Laser Engraving",
-            "text": "<p>Our modern laser technology reproduces complex logos, intricate text, and detailed graphics with incredible accuracy, providing a clean finish for ultimate precision.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_crest_engraving",
-        "text_hand_engraving",
-        "text_laser_engraving"
-      ],
-      "disabled": true,
-      "name": "Our Engraving Techniques",
-      "settings": {
-        "title": "Our Engraving Techniques.",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 3,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "accent"
-      }
-    },
     "image_with_text_ECJhRH": {
       "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
+      "name": "Engraving Techniques",
       "settings": {
         "image": "shopify://shop_images/Signet_Rings_Crests.png",
         "layout": "right",
@@ -252,8 +192,88 @@
         "button_background_color": "#E68819",
         "button_text_color": "#ffffff",
         "section-width": "full",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "text_adverts_with_icon_BakC3M": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_jYdkgq": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "crown",
+            "title": "Unrivalled Craftsmanship",
+            "text": "<p>Our jewellers have years of experience in traditional hand-engraving, ensuring every detail of your family crest is perfect.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_Jjj9YV": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "star",
+            "title": "Preserving Heritage",
+            "text": "<p>A custom signet ring is a powerful way to honour your ancestors and pass on a piece of your family's history to future generations.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_ehkYCL": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "heart",
+            "title": "Quality You Can Trust",
+            "text": "<p>We use only the finest materials, guaranteeing a piece that is as enduring as your legacy.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_jYdkgq",
+        "text_advert_Jjj9YV",
+        "text_advert_ehkYCL"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_signet_history": {
+      "type": "image-with-text",
+      "name": "History & Meaning",
+      "settings": {
+        "image": "shopify://shop_images/White_Background_Griffin_Crest_Signet_Ring.jpg",
+        "layout": "left",
+        "title": "A Symbol of Identity & Legacy",
+        "text": "<p>Signet rings were worn for centuries as a mark of identity and authority. The unique crest or family seal was used to stamp and authenticate documents, serving as a personal signature.</p><p>Beyond a mere tool, it was a powerful symbol of lineage, social standing, and personal honour, passed down as a family heirloom. Today, the signet ring has regained popularity as a stylish accessory that represents the wearer's heritage and family pride.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
         "colors": "white"
       }
     },
@@ -316,101 +336,10 @@
         "text_alignment": "center",
         "text_alignment_mobile": "center",
         "slider_height_mobile": "adaptive",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "image_with_text_signet_history": {
-      "type": "image-with-text",
-      "name": "History & Meaning",
-      "settings": {
-        "layout": "right",
-        "title": "A Symbol of Identity & Legacy",
-        "text": "<p>Signet rings were worn for centuries as a mark of identity and authority. The unique crest or family seal was used to stamp and authenticate documents, serving as a personal signature.</p><p>Beyond a mere tool, it was a powerful symbol of lineage, social standing, and personal honour, passed down as a family heirloom. Today, the signet ring has regained popularity as a stylish accessory that represents the wearer's heritage and family pride.</p>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
-        "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "light"
-      }
-    },
-    "info_columns_signet_why_us": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "why_unrivalled_craft": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/hammer.svg",
-            "grid_image_size": "square",
-            "heading": "Unrivalled Craftsmanship",
-            "text": "<p>Our jewellers have years of experience in traditional hand-engraving, ensuring every detail of your family crest is perfect.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "why_preserving_heritage": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/gem.svg",
-            "grid_image_size": "square",
-            "heading": "Preserving Heritage",
-            "text": "<p>A custom signet ring is a powerful way to honour your ancestors and pass on a piece of your family's history to future generations.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "why_quality_trust": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/sparkles.svg",
-            "grid_image_size": "square",
-            "heading": "Quality You Can Trust",
-            "text": "<p>We use only the finest materials, guaranteeing a piece that is as enduring as your legacy.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "why_unrivalled_craft",
-        "why_preserving_heritage",
-        "why_quality_trust"
-      ],
-      "name": "Why Choose a Griffin & Co. Signet Ring?",
-      "settings": {
-        "title": "Why Choose Griffin & Co for Your Signet Ring in {{ page.metafields.custom.location.value }}?",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 3,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
         "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
+        "colors": "dark"
       }
     },
     "image_with_text_overlay_signet_consultation": {
@@ -433,26 +362,11 @@
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
           }
-        },
-        "button_signet_cons": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "#booking",
-            "first_button_label": "Schedule a Consultation",
-            "second_button_link": "shopify://pages/contact",
-            "second_button_label": "Contact Us",
-            "buttons_style": "outlined",
-            "override_button_colors": true,
-            "buttons_background": "#ffffff",
-            "buttons_text": "#ffffff",
-            "buttons_bottom_spacing": 20
-          }
         }
       },
       "block_order": [
         "heading_signet_cons",
-        "text_signet_cons",
-        "button_signet_cons"
+        "text_signet_cons"
       ],
       "name": "Consultation CTA",
       "settings": {
@@ -500,7 +414,7 @@
         "title": "",
         "description": "",
         "section_header_alignment": "center",
-        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery?is_widget=1&view=compact\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/bespoke-design?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
         "section_width": "full-width",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
@@ -544,9 +458,9 @@
       "settings": {
         "rating_image": "shopify://shop_images/google-business.png",
         "image_max_width": 120,
-        "additional_text": "Trusted by families across the UK",
+        "additional_text": "Rated 5 stars by 100s of Clients in {{ page.metafields.custom.location.value }} & Beyond",
         "title": "Client Stories.",
-        "description": "<p>Discover how we've helped our clients preserve their heritage through custom design.</p>",
+        "description": "<p>Each piece we craft tells a tale—of beauty, elegance, and trust. But don't just take our word for it. See how our timeless craftsmanship has made a lasting impression on jewellery lovers worldwide.</p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
         "scroller_position": "right",
         "section_padding_top": 36,
         "section_padding_bottom": 72,
@@ -559,7 +473,7 @@
         "blog_bespoke_guide": {
           "type": "blog",
           "settings": {
-            "blog": "bespoke-design-guide"
+            "blog": "guide-bespoke-jewellery-design-service"
           }
         }
       },
@@ -666,6 +580,7 @@
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/Showroom_8.webp",
         "image_max_width": 600,
         "title": "",
         "text": "",
@@ -705,71 +620,9 @@
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section-width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "dark"
-      }
-    },
-    "image_with_text_overlay_signet_showroom": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_signet_showroom": {
-          "type": "heading",
-          "settings": {
-            "title": "Visit Our Chichester Showroom.",
-            "font_size_desktop": "h2",
-            "font_size_mobile": "h2-mobile",
-            "heading_bottom_spacing": 25
-          }
-        },
-        "text_signet_showroom": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Explore our gallery of bespoke signet rings and speak with our master engravers in person to begin your legacy piece.</p>",
-            "font_size_desktop": 100,
-            "font_size_mobile": 100,
-            "text_bottom_spacing": 20
-          }
-        },
-        "button_signet_showroom": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "shopify://pages/schedule-an-appointment",
-            "first_button_label": "Book Appointment",
-            "second_button_link": "shopify://pages/contact",
-            "second_button_label": "Visit Showroom",
-            "buttons_style": "outlined",
-            "override_button_colors": true,
-            "buttons_background": "#ffffff",
-            "buttons_text": "#ffffff",
-            "buttons_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "heading_signet_showroom",
-        "text_signet_showroom",
-        "button_signet_showroom"
-      ],
-      "name": "Visit Showroom CTA",
-      "settings": {
-        "image_desktop": "shopify://shop_images/Interior_2.webp",
-        "height_desktop": "550px",
-        "text_position_desktop": "left",
-        "text_alignment_desktop": "left",
-        "caption_width_desktop": 50,
-        "height_mobile": "500px",
-        "text_position_mobile": "center",
-        "text_alignment_mobile": "left",
-        "section_link": "",
-        "animation_style": "parallax",
-        "section_width": "full",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "text_color": "#ffffff",
-        "caption_bg_color": "rgba(0,0,0,0)",
-        "image_overlay_color": "#242424",
-        "image_overlay_opacity": 45
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "accent"
       }
     }
   },
@@ -777,18 +630,16 @@
     "hero_image_with_text_signet",
     "scrolling_banner_signet",
     "rich_text_signet_intro",
-    "info_columns_signet_techniques",
     "image_with_text_ECJhRH",
-    "info_columns_signet_process",
+    "text_adverts_with_icon_BakC3M",
     "image_with_text_signet_history",
-    "info_columns_signet_why_us",
+    "info_columns_signet_process",
     "image_with_text_overlay_signet_consultation",
     "custom_liquid_signet_anchor",
     "custom_liquid_signet_booking_form",
     "social_proof_signet",
     "blog_posts_bespoke_guide",
     "faq_with_image_signet",
-    "image_with_text_signet_home_visits",
-    "image_with_text_overlay_signet_showroom"
+    "image_with_text_signet_home_visits"
   ]
 }
