@@ -265,9 +265,9 @@
         "text_advert_Jy6iqT": {
           "type": "text-advert",
           "settings": {
-            "icon": "truck",
-            "title": "Fast delivery",
-            "text": "<p>Draw attention to key selling points.</p>",
+            "icon": "none",
+            "title": "Ring Resizing",
+            "text": "<p>Expert resizing for gold, platinum, and silver rings for our {{ page.metafields.custom.location.value }} clients. We ensure a seamless join and perfect fit, whether sizing up or down, while maintaining the ring's structural integrity.</p>",
             "link": "",
             "button_label": ""
           }
@@ -275,9 +275,9 @@
         "text_advert_EpfpVb": {
           "type": "text-advert",
           "settings": {
-            "icon": "exchange",
-            "title": "Easy returns",
-            "text": "<p>Draw attention to key selling points.</p>",
+            "icon": "none",
+            "title": "Claw Repairs & Retipping",
+            "text": "<p>Worn claws can lead to lost stones. We expertly repair, rebuild, and retip claws to ensure your diamonds and precious gemstones are safe, secure, and beautifully displayed.</p>",
             "link": "",
             "button_label": ""
           }
@@ -285,9 +285,9 @@
         "text_advert_6ctiUj": {
           "type": "text-advert",
           "settings": {
-            "icon": "globe",
-            "title": "Eco friendly",
-            "text": "<p>Draw attention to key selling points.</p>",
+            "icon": "none",
+            "title": "Stone Setting & Replacement",
+            "text": "<p>We can securely replace any missing or damaged gemstones, carefully matching diamonds and coloured stones to restore the brilliance and completeness of your jewellery.</p>",
             "link": "",
             "button_label": ""
           }
@@ -298,18 +298,71 @@
         "text_advert_EpfpVb",
         "text_advert_6ctiUj"
       ],
-      "name": "t:sections.text-adverts-with-icon.name",
+      "name": "Services 1",
       "settings": {
-        "icon_size": "20px",
+        "icon_size": "30px",
         "show_dividers": false,
-        "text_alignment": "center",
+        "text_alignment": "left",
         "buttons_style": "filled",
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_dwQ8dD": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_hDBhby": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Chain Repairs",
+            "text": "<p>We expertly repair broken clasps, snapped links, and intricate chains on your necklaces, bracelets, and anklets, returning them to a strong condition for you to wear proudly around {{ page.metafields.custom.location.value }}.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_xrgARj": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Laser Soldering & Welding",
+            "text": "<p>Our skilled jewellers employ sophisticated micro-soldering and laser welding methods to repair damaged metal parts, fusing charms, rings, or repairing intricate vintage shanks.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_bLmME6": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Pearl Restringing",
+            "text": "<p>Maintain your pearl jewellery's pristine condition with our expert restringing service. We use premium silk thread and knotting techniques to prevent abrasion and loss.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_hDBhby",
+        "text_advert_xrgARj",
+        "text_advert_bLmME6"
+      ],
+      "name": "Services 1",
+      "settings": {
+        "icon_size": "30px",
+        "show_dividers": false,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
       }
     },
     "info_columns_repair_process": {
@@ -944,6 +997,7 @@
     "rich_text_repair_intro",
     "info_columns_repair_services",
     "text_adverts_with_icon_wC3QAJ",
+    "text_adverts_with_icon_dwQ8dD",
     "info_columns_repair_process",
     "info_columns_why_choose_us",
     "image_with_text_overlay_consultation",
