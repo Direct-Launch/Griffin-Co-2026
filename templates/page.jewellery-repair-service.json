@@ -236,6 +236,7 @@
         "text_laser_soldering",
         "text_pearl_restringing"
       ],
+      "disabled": true,
       "name": "Available Repair Services",
       "settings": {
         "title": "Available Repair Services in {{ page.metafields.custom.location.value }}.",
@@ -257,6 +258,31 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "accent"
+      }
+    },
+    "rich_text_4JgiGQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Af7qda": {
+          "type": "heading",
+          "settings": {
+            "heading": "Available Repair Services.",
+            "heading--text-size": "h4",
+            "heading_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_Af7qda"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "dark"
       }
     },
     "text_adverts_with_icon_wC3QAJ": {
@@ -308,7 +334,7 @@
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section_padding_top": 72,
-        "section_padding_bottom": 72,
+        "section_padding_bottom": 0,
         "colors": "dark"
       }
     },
@@ -351,7 +377,7 @@
         "text_advert_xrgARj",
         "text_advert_bLmME6"
       ],
-      "name": "Services 1",
+      "name": "Services 2",
       "settings": {
         "icon_size": "30px",
         "show_dividers": false,
@@ -363,6 +389,83 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "dark"
+      }
+    },
+    "template_product_info_columns_q9UX33": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_J7jRp6": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/DSC05262_Large_cb997609-0b67-49ad-bf1c-d5f7e4aaba18.jpg",
+            "grid_image_size": "square",
+            "heading": "Get a Quote",
+            "text": "<p>Contact us online, via phone, or drop into our Chichester showroom to get a firm, no-obligation quote for your repair.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_CcGdKM": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Customer_Service_2.jpg",
+            "grid_image_size": "square",
+            "heading": "Send Your Jewellery",
+            "text": "<p>Securely post your item to our workshop or drop it off if you are near {{ page.metafields.custom.location.value }}.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_PhyRkw": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/heating-ball-of-metal.jpg",
+            "grid_image_size": "square",
+            "heading": "Expert Repair",
+            "text": "<p>Our master goldsmiths meticulously execute the repair, followed by a rigorous quality control check and comprehensive clean.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_FTrUgA": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/DSC05396_Large_6f248bcd-7540-4d5d-ac20-cc0eb2a57928.jpg",
+            "grid_image_size": "square",
+            "heading": "Receive Your Item",
+            "text": "<p>We return your beautifully restored jewellery via secure delivery across the {{ page.metafields.custom.location.value }} area or by collection.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_J7jRp6",
+        "image_and_text_CcGdKM",
+        "image_and_text_PhyRkw",
+        "image_and_text_FTrUgA"
+      ],
+      "name": "How It Works",
+      "settings": {
+        "title": "How Our Repair Service Works.",
+        "description": "<p>Jewellery Repair Process</p>",
+        "section_header_alignment": "left",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
       }
     },
     "info_columns_repair_process": {
@@ -423,8 +526,8 @@
       "settings": {
         "title": "How Our Repair Service Works.",
         "description": "<p>4 Easy Steps</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
+        "section_header_alignment": "left",
+        "maximum_width": 60,
         "override_border_radius": false,
         "buttons_style": "underlined",
         "override_button_colors": false,
@@ -996,8 +1099,10 @@
     "scrolling_banner_repair",
     "rich_text_repair_intro",
     "info_columns_repair_services",
+    "rich_text_4JgiGQ",
     "text_adverts_with_icon_wC3QAJ",
     "text_adverts_with_icon_dwQ8dD",
+    "template_product_info_columns_q9UX33",
     "info_columns_repair_process",
     "info_columns_why_choose_us",
     "image_with_text_overlay_consultation",
