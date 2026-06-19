@@ -633,7 +633,7 @@
       "settings": {
         "image": "shopify://shop_images/SL9827_2edb0861-319b-4060-811f-c90a8301f6a8.png",
         "layout": "left",
-        "title": "Visualise Your Dream Ring in 24 Hours",
+        "title": "Visualise Your Dream Ring in 24 Hours.",
         "text": "<p>Not quite ready to commit to a full bespoke build? Bring your ideas to life instantly with our Express 3D CAD Design service. For just <strong>£50</strong>, our expert designers will translate your sketches, mood boards, or descriptions into a highly accurate, photorealistic 3D render.</p><p></p><ul><li>Delivered straight to your inbox in 24 hours</li><li>See exactly how your bespoke piece will look</li><li>£50 fee is fully redeemable against your final bespoke order</li></ul>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
@@ -784,6 +784,102 @@
         "button_text_color": "#ffffff",
         "colors": "white"
       }
+    },
+    "image_with_text_zCQ9C9": {
+      "type": "image-with-text",
+      "name": "Private Home Visits",
+      "settings": {
+        "image": "shopify://shop_images/Home_Visits.png",
+        "layout": "left",
+        "title": "Bespoke Consultations in Your Home.",
+        "text": "<p>While our Chichester showroom is the heart of our design process, we understand that some clients prefer the security and comfort of their own environment.</p><p>For custom jewellery commissions, we offer a <strong>Private Home Visit</strong> service throughout {{ page.metafields.custom.location.value }}. Our lead designer will visit you to discuss your ideas and take precise measurements.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request Home Visit",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_3p4YxN": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_KNzjfy": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/west-sussex\" title=\"West Sussex\">West Sussex</a></h5><p><a href=\"/pages/arundel\" title=\"Arundel\">Arundel</a>, <a href=\"/pages/bognor-regis\" title=\"Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/bosham\" title=\"Bosham\">Bosham</a>, <a href=\"/pages/burgess-hill\" title=\"Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/chichester\" title=\"Chichester\">Chichester</a>, <a href=\"/pages/crawley\" title=\"Crawley\">Crawley</a>, <a href=\"/pages/east-grinstead\" title=\"East Grinstead\">East Grinstead</a>, <a href=\"/pages/haywards-heath\" title=\"Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/horsham\" title=\"Horsham\">Horsham</a>, <a href=\"/pages/littlehampton\" title=\"Littlehampton\">Littlehampton</a>, <a href=\"/pages/shoreham-by-sea\" title=\"Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/worthing\" title=\"Worthing\">Worthing</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_Gj3C8U": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/hampshire\" title=\"Hampshire\">Hampshire</a></h5><p><a href=\"/pages/aldershot\" title=\"Aldershot\">Aldershot</a>, <a href=\"/pages/andover\" title=\"Andover\">Andover</a>, <a href=\"/pages/basingstoke\" title=\"Basingstoke\">Basingstoke</a>, <a href=\"/pages/farnborough\" title=\"Farnborough\">Farnborough</a>, <a href=\"/pages/gosport\" title=\"Gosport\">Gosport</a>, <a href=\"/pages/horndean\" title=\"Horndean\">Horndean</a>, <a href=\"/pages/portsmouth\" title=\"Portsmouth\">Portsmouth</a>, <a href=\"/pages/southampton\" title=\"Southampton\">Southampton</a>, <a href=\"/pages/winchester\" title=\"Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_8ftVrr": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/surrey\" title=\"Surrey\">Surrey</a></h5><p><a href=\"/pages/camberley\" title=\"Camberley\">Camberley</a>, <a href=\"/pages/epsom\" title=\"Epsom\">Epsom</a>, <a href=\"/pages/esher\" title=\"Esher\">Esher</a>, <a href=\"/pages/ewell\" title=\"Ewell\">Ewell</a>, <a href=\"/pages/guildford\" title=\"Guildford\">Guildford</a>, <a href=\"/pages/leatherhead\" title=\"Leatherhead\">Leatherhead</a>, <a href=\"/pages/redhill\" title=\"Redhill\">Redhill</a>, <a href=\"/pages/walton-on-thames\" title=\"Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/weybridge\" title=\"Weybridge\">Weybridge</a>, <a href=\"/pages/woking\" title=\"Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_RbpGzN": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/greater-london\" title=\"Greater London\">Greater London</a></h5><p><a href=\"/pages/barnet\" title=\"Barnet\">Barnet</a>, <a href=\"/pages/brent\" title=\"Brent\">Brent</a>, <a href=\"/pages/bromley\" title=\"Bromley\">Bromley</a>, <a href=\"/pages/croydon\" title=\"Croydon\">Croydon</a>, <a href=\"/pages/ealing\" title=\"Ealing\">Ealing</a>, <a href=\"/pages/enfield\" title=\"Enfield\">Enfield</a>, <a href=\"/pages/lambeth\" title=\"Lambeth\">Lambeth</a>, <a href=\"/pages/newham\" title=\"Newham\">Newham</a>, <a href=\"/pages/hatton-garden\" title=\"Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/tower-hamlets\" title=\"Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/wandsworth\" title=\"Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_KNzjfy",
+        "text_Gj3C8U",
+        "text_8ftVrr",
+        "text_RbpGzN"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Areas We Cover in West Sussex.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England to provide at home bespoke design consultations and delivery.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
     }
   },
   "order": [
@@ -802,6 +898,8 @@
     "social_proof_AbnBmM",
     "image_with_text_KqgeWM",
     "blog_posts_aa3fqb",
-    "faq_with_image_m73Xra"
+    "faq_with_image_m73Xra",
+    "image_with_text_zCQ9C9",
+    "template_product_info_columns_3p4YxN"
   ]
 }
