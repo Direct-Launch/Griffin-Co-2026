@@ -15,7 +15,7 @@
       "settings": {
         "image": "shopify://shop_images/Signet_Rings.webp",
         "layout": "left",
-        "title": "Custom Signet Rings.",
+        "title": "Custom Signet Rings in {{ page.metafields.custom.location.value }}.",
         "text": "<p>Celebrate your family's heritage with a timeless symbol of identity. Our master jewellers craft custom signet rings that serve as a tangible connection to your legacy, meticulously designed to tell your unique story.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
