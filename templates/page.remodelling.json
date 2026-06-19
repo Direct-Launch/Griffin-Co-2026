@@ -13,10 +13,10 @@
       "type": "hero-image-with-text",
       "name": "Hero - Image with text",
       "settings": {
-        "image": "shopify://shop_images/Bespoke_Experience.jpg",
+        "image": "shopify://shop_images/Our_Remodelling_Process_5c357d70-5ecf-432f-84a2-76348c31d8cf.png",
         "layout": "left",
-        "title": "Bespoke Design for {{ page.metafields.custom.location.value }} Clients.",
-        "text": "<p>At Griffin & Co in Chichester, our skilled jewellers collaborate with you to design bespoke, one-of-a-kind pieces. This meticulous process ensures every detail reflects your style, creating a truly sentimental heirloom.</p>",
+        "title": "Jewellery Remodelling Service.",
+        "text": "<p>Let us transform your treasured jewellery into a new piece that reflects your personality. Choose Griffin & Co to experience true craftsmanship and a dedicated, personalised remodelling service.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
@@ -31,8 +31,8 @@
         "override_button_colors_1": false,
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
-        "button_link_2": "shopify://pages/custom-jewellery-builder-online",
-        "button_label_2": "Design Online",
+        "button_link_2": "shopify://pages/contact",
+        "button_label_2": "Visit Us",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
         "button_background_color_2": "#e68819",
@@ -133,7 +133,7 @@
         "heading_zWwUDm": {
           "type": "heading",
           "settings": {
-            "heading": "Bespoke Jewellery Designs in {{ page.metafields.custom.location.value }}.",
+            "heading": "A Dedicated, Personalised Service.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -141,15 +141,7 @@
         "richtext_Gbedat": {
           "type": "richtext",
           "settings": {
-            "text": "<p>For residents of {{ page.metafields.custom.location.value }} seeking something truly unique, Griffin & Co offers a bespoke design experience that transforms your ideas into tangible heirlooms. </p><p>We believe there is nothing quite like having a piece of jewellery designed exclusively for you.</p>",
-            "text_size": 100,
-            "text_bottom_spacing": 20
-          }
-        },
-        "richtext_DxWU4e": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Whether you are looking to create the perfect engagement ring or reimagine unworn family jewellery, our workshop in Chichester, is where the magic happens. </p><p>We invite you to be part of every step, from the initial pencil sketch to the final polish.</p>",
+            "text": "<p>Let us transform your treasured jewellery into a new piece that reflects your personality. Choose Griffin & Co to experience true craftsmanship and unlock the hidden potential of your heirlooms.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -157,8 +149,7 @@
       },
       "block_order": [
         "heading_zWwUDm",
-        "richtext_Gbedat",
-        "richtext_DxWU4e"
+        "richtext_Gbedat"
       ],
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
@@ -166,6 +157,59 @@
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
         "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "text_adverts_with_icon_KeGJzE": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_DKweKN": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "crown",
+            "title": "Expert Craftsmanship",
+            "text": "<p>Decades of goldsmithing experience applied to carefully dismantling, melting, and reconstructing your treasured pieces.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_xC3bzY": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "star",
+            "title": "Quality Materials",
+            "text": "<p>We assess and purify your existing gold and seamlessly integrate ethically sourced new metals or stones if required.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_VnCp3A": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "heart",
+            "title": "Personalised Service",
+            "text": "<p>A collaborative journey in our Chichester studio, keeping you involved from the initial sketches to the final polish.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_DKweKN",
+        "text_advert_xC3bzY",
+        "text_advert_VnCp3A"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 0,
         "section_padding_bottom": 72,
         "colors": "white"
       }
@@ -224,6 +268,7 @@
         "image_and_text_7iMW3c",
         "image_and_text_KqNcGk"
       ],
+      "disabled": true,
       "name": "Bespoke Process",
       "settings": {
         "title": "Our Bespoke Process.",
@@ -249,12 +294,12 @@
     },
     "image_with_text_YjGKin": {
       "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
+      "name": "Why Choose Us?",
       "settings": {
-        "image": "shopify://shop_images/Sketch_3.jpg",
+        "image": "shopify://shop_images/Sketch_2.jpg",
         "layout": "right",
-        "title": "What We Can Create.",
-        "text": "<p>Our <strong>Chichester</strong> workshop is equipped to bring any vision to life. Whether you are starting with a blank canvas or breathing new life into a treasured family heirloom, our master goldsmiths have the expertise to craft a wide array of fine jewellery:</p><p>✧ Engagement Rings & Wedding Bands</p><p>✧ Necklaces & Pendants</p><p>✧ Bracelets & Bangles</p><p>✧ Earrings</p><p>✧ Cufflinks & Men's Jewellery</p><p>✧ Heirloom Recreations & Adaptations</p>",
+        "title": "Why Choose Us for Jewellery Remodelling in Chichester?",
+        "text": "<p>Our skilled jewellers in Chichester expertly craft exquisite jewellery, blending traditional techniques with modern technology for exceptional quality.</p><p><strong>Committed to ethically sourced materials and sustainable practices, we offer clear and upfront pricing, ensuring great value for your investment.</strong></p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "text_overlapping_image": false,
@@ -316,6 +361,7 @@
         "image_and_text_xDjPhn",
         "image_and_text_Wd9Kpf"
       ],
+      "disabled": true,
       "name": "Specialities",
       "settings": {
         "title": "Explore Our Specialities.",
@@ -334,6 +380,421 @@
         "text_alignment_mobile": "center",
         "slider_height_mobile": "adaptive",
         "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "collage_wVbDLB": {
+      "type": "collage",
+      "blocks": {
+        "image_VEQcJb": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG-20220131-WA0004.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Modernise an Antique Piece",
+            "text": "Keep the sentimental diamonds from an inherited ring and set them in a secure, modern, and highly wearable band.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_C7mMU7": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Stack_1.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Combine Multiple Pieces",
+            "text": "Bring us unworn gold chains, single earrings, or old rings, and we'll melt them to forge a new creation.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_GrJbKy": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG_7448_1__1.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Repurpose Broken Jewellery",
+            "text": "Don't let damaged items sit in a drawer. If a piece is beyond repair, the intrinsic value of metals and stones can still be utilised.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_znGXrE": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Wedding_Bands_aeef232d-97d4-416b-bfd6-3db7ed3a3cf5.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Create an Engagement Ring",
+            "text": "Use a family diamond as the stunning centrepiece for a bespoke engagement ring or distinctive wedding band.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_jjXh74": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG_7862_1__2.jpg",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Simply Update a Setting",
+            "text": "Love the stone but dislike the yellow gold band? We can remove the gem and reset it into a platinum or white gold setting, altering the aesthetic while keeping costs manageable.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_VEQcJb",
+        "image_C7mMU7",
+        "image_GrJbKy",
+        "image_znGXrE",
+        "image_jjXh74"
+      ],
+      "disabled": true,
+      "name": "t:sections.collage-builder.presets.name",
+      "settings": {
+        "title": "Unlock Your Jewellery's Potential.",
+        "description": "",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "width_1": "3",
+        "height_1": "3",
+        "width_2": "3",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "3",
+        "height_4": "3",
+        "width_5": "1.5",
+        "height_5": "3",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "dark"
+      }
+    },
+    "collage_4RdPRz": {
+      "type": "collage",
+      "blocks": {
+        "image_wXVQPk": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG-20220131-WA0004.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Modernise an Antique Piece",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_bEkYcD": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Stack_1.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Combine Multiple Pieces",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_bXfa66": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG_7448_1__1.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Repurpose Broken Jewellery",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_Pwt3XJ": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Wedding_Bands_aeef232d-97d4-416b-bfd6-3db7ed3a3cf5.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Create an Engagement Ring",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_PFbPyN": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG_7862_1__2.jpg",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "heading_size": "h4",
+            "mobile_image": "shopify://shop_images/IMG_7862_1__2_fdfde132-5059-4e99-8fdf-16b7d348e43e.jpg",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Simply Update a Setting",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_wXVQPk",
+        "image_bEkYcD",
+        "image_bXfa66",
+        "image_Pwt3XJ",
+        "image_PFbPyN"
+      ],
+      "name": "t:sections.collage-builder.presets.name",
+      "settings": {
+        "title": "Unlock Your Jewellery's Potential.",
+        "description": "",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "width_1": "3",
+        "height_1": "3",
+        "width_2": "3",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "3",
+        "height_4": "3",
+        "width_5": "1.5",
+        "height_5": "3",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "dark"
+      }
+    },
+    "image_with_text_3M9UWp": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+        "layout": "left",
+        "title": "1. Initial Consultation",
+        "text": "<p>The journey begins with a consultation where we sit down with you to discuss your vision for your jewellery in our showroom in Chichester. We'll listen carefully to your ideas, preferences, and any sentimental value attached to the piece.</p>",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_9qj8zz": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+        "layout": "left",
+        "title": "1. Initial Consultation",
+        "text": "<p>The journey begins with a consultation where we sit down with you to discuss your vision for your jewellery in our showroom in Chichester. We'll listen carefully to your ideas, preferences, and any sentimental value attached to the piece.</p>",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_EgFKgk": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+        "layout": "right",
+        "title": "2. Design Development",
+        "text": "<p>Once we understand your vision, our designers will create sketches and renderings to bring your ideas to life. This allows you to visualise the final product and make adjustments before we begin crafting.</p>",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
@@ -453,6 +914,7 @@
         "heading_J8jMVL",
         "richtext_CiLnnn"
       ],
+      "disabled": true,
       "name": "Portfolio Rich Text",
       "settings": {
         "section_width": "full-width",
@@ -488,6 +950,7 @@
       "block_order": [
         "instafeed_app_block_D9irVw"
       ],
+      "disabled": true,
       "custom_css": [
         ".instafeed-shopify {background-color: #f8f8f8;}"
       ],
@@ -513,6 +976,7 @@
       "block_order": [
         "richtext_36BGmi"
       ],
+      "disabled": true,
       "name": "Portfolio Footer",
       "settings": {
         "section_width": "full-width",
@@ -931,9 +1395,15 @@
     "hero_image_with_text_XbtaRH",
     "scrolling_banner_yQGBqH",
     "rich_text_7pAWMD",
+    "text_adverts_with_icon_KeGJzE",
     "template_product_info_columns_w6jzXb",
     "image_with_text_YjGKin",
     "template_product_info_columns_TYCiFr",
+    "collage_wVbDLB",
+    "collage_4RdPRz",
+    "image_with_text_3M9UWp",
+    "image_with_text_EgFKgk",
+    "image_with_text_9qj8zz",
     "template_product_info_columns_RzYKwq",
     "rich_text_WFYpWq",
     "apps_zahc7r",
