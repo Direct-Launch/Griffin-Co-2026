@@ -305,7 +305,7 @@
         "text_alignment": "center",
         "buttons_style": "filled",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
@@ -477,6 +477,7 @@
         },
         "button_consultation": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "first_button_link": "#booking",
             "first_button_label": "Schedule a Consultation",
@@ -541,7 +542,7 @@
         "title": "",
         "description": "",
         "section_header_alignment": "center",
-        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery?is_widget=1&view=compact\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/jewellery-repair?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
         "section_width": "full-width",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
