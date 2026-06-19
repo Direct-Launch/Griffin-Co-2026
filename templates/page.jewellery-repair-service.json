@@ -170,96 +170,6 @@
         "colors": "white"
       }
     },
-    "info_columns_repair_services": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "text_ring_resizing": {
-          "type": "text",
-          "settings": {
-            "heading": "Ring Resizing",
-            "text": "<p>Expert resizing for gold, platinum, and silver rings for our {{ page.metafields.custom.location.value }} clients. We ensure a seamless join and perfect fit, whether sizing up or down, while maintaining the ring's structural integrity.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_claw_repairs": {
-          "type": "text",
-          "settings": {
-            "heading": "Claw Repairs & Retipping",
-            "text": "<p>Worn claws can lead to lost stones. We expertly repair, rebuild, and retip claws to ensure your diamonds and precious gemstones are safe, secure, and beautifully displayed.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_stone_setting": {
-          "type": "text",
-          "settings": {
-            "heading": "Stone Setting & Replacement",
-            "text": "<p>We can securely replace any missing or damaged gemstones, carefully matching diamonds and coloured stones to restore the brilliance and completeness of your jewellery.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_chain_repairs": {
-          "type": "text",
-          "settings": {
-            "heading": "Chain Repairs",
-            "text": "<p>We expertly repair broken clasps, snapped links, and intricate chains on your necklaces, bracelets, and anklets, returning them to a strong condition for you to wear proudly around {{ page.metafields.custom.location.value }}.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_laser_soldering": {
-          "type": "text",
-          "settings": {
-            "heading": "Laser Soldering & Welding",
-            "text": "<p>Our skilled jewellers employ sophisticated micro-soldering and laser welding methods to repair damaged metal parts, fusing charms, rings, or repairing intricate vintage shanks.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_pearl_restringing": {
-          "type": "text",
-          "settings": {
-            "heading": "Pearl Restringing",
-            "text": "<p>Maintain your pearl jewellery's pristine condition with our expert restringing service. We use premium silk thread and knotting techniques to prevent abrasion and loss.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_ring_resizing",
-        "text_claw_repairs",
-        "text_stone_setting",
-        "text_chain_repairs",
-        "text_laser_soldering",
-        "text_pearl_restringing"
-      ],
-      "disabled": true,
-      "name": "Available Repair Services",
-      "settings": {
-        "title": "Available Repair Services in {{ page.metafields.custom.location.value }}.",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 3,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "accent"
-      }
-    },
     "text_adverts_with_icon_bNqpfA": {
       "type": "text-adverts-with-icon",
       "blocks": {
@@ -521,150 +431,6 @@
         "colors": "dark"
       }
     },
-    "info_columns_repair_process": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "step_get_quote": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/1.svg",
-            "grid_image_size": "square",
-            "heading": "Get a Quote",
-            "text": "<p>Contact us online, via phone, or drop in to get a no-obligation quote.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "step_send_jewellery": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/2.svg",
-            "grid_image_size": "square",
-            "heading": "Send Your Jewellery",
-            "text": "<p>Securely post your item to our workshop or drop it off if you are near {{ page.metafields.custom.location.value }}.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "step_expert_repair": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/3.svg",
-            "grid_image_size": "square",
-            "heading": "Expert Repair",
-            "text": "<p>Our goldsmiths carry out the repair with precision and care.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "step_receive_item": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/4.svg",
-            "grid_image_size": "square",
-            "heading": "Receive Your Item",
-            "text": "<p>We return your beautifully restored jewellery via secure delivery across the {{ page.metafields.custom.location.value }} area or by collection.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "step_get_quote",
-        "step_send_jewellery",
-        "step_expert_repair",
-        "step_receive_item"
-      ],
-      "disabled": true,
-      "name": "How Our Repair Service Works",
-      "settings": {
-        "title": "How Our Repair Service Works.",
-        "description": "<p>4 Easy Steps</p>",
-        "section_header_alignment": "left",
-        "maximum_width": 60,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "info_columns_why_choose_us": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "why_expert_craftsmanship": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/hammer.svg",
-            "grid_image_size": "square",
-            "heading": "Expert Craftsmanship",
-            "text": "<p>Our team has decades of combined experience in fine jewellery repair and restoration. We treat every item as if it were our own.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "why_quality_materials": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/gem.svg",
-            "grid_image_size": "square",
-            "heading": "Quality Materials",
-            "text": "<p>We use only the highest quality, ethically sourced metals and closely matched gemstones to ensure the integrity of your piece is maintained.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "why_secure_service": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/sparkles.svg",
-            "grid_image_size": "square",
-            "heading": "Secure & Insured Service",
-            "text": "<p>Your precious items are fully insured while in our care and during transit, giving you complete peace of mind throughout the process.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "why_expert_craftsmanship",
-        "why_quality_materials",
-        "why_secure_service"
-      ],
-      "disabled": true,
-      "name": "Why Choose Us",
-      "settings": {
-        "title": "Why Choose Us For Repairs in {{ page.metafields.custom.location.value }}?",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 3,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "image_with_text_overlay_consultation": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -685,27 +451,11 @@
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
           }
-        },
-        "button_consultation": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "first_button_link": "#booking",
-            "first_button_label": "Schedule a Consultation",
-            "second_button_link": "shopify://pages/contact",
-            "second_button_label": "Contact Us",
-            "buttons_style": "outlined",
-            "override_button_colors": true,
-            "buttons_background": "#ffffff",
-            "buttons_text": "#ffffff",
-            "buttons_bottom_spacing": 20
-          }
         }
       },
       "block_order": [
         "heading_consultation",
-        "text_consultation",
-        "button_consultation"
+        "text_consultation"
       ],
       "name": "CTA Banner",
       "settings": {
@@ -1085,83 +835,17 @@
         "section_padding_bottom": 72,
         "colors": "dark"
       }
-    },
-    "image_with_text_overlay_showroom": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_showroom": {
-          "type": "heading",
-          "settings": {
-            "title": "Meet an Expert Jeweller.",
-            "font_size_desktop": "h2",
-            "font_size_mobile": "h2-mobile",
-            "heading_bottom_spacing": 25
-          }
-        },
-        "text_showroom": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Browse our Jewellery Collection or bring your treasured pieces for repair in Chichester.</p>",
-            "font_size_desktop": 100,
-            "font_size_mobile": 100,
-            "text_bottom_spacing": 20
-          }
-        },
-        "button_showroom": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "shopify://pages/schedule-an-appointment",
-            "first_button_label": "Book Appointment",
-            "second_button_link": "shopify://pages/contact",
-            "second_button_label": "Visit Showroom",
-            "buttons_style": "outlined",
-            "override_button_colors": true,
-            "buttons_background": "#ffffff",
-            "buttons_text": "#ffffff",
-            "buttons_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "heading_showroom",
-        "text_showroom",
-        "button_showroom"
-      ],
-      "disabled": true,
-      "name": "Visit Showroom CTA",
-      "settings": {
-        "image_desktop": "shopify://shop_images/Interior_2.webp",
-        "height_desktop": "550px",
-        "text_position_desktop": "left",
-        "text_alignment_desktop": "left",
-        "caption_width_desktop": 50,
-        "height_mobile": "500px",
-        "text_position_mobile": "center",
-        "text_alignment_mobile": "left",
-        "section_link": "",
-        "animation_style": "parallax",
-        "section_width": "full",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "text_color": "#ffffff",
-        "caption_bg_color": "rgba(0,0,0,0)",
-        "image_overlay_color": "#242424",
-        "image_overlay_opacity": 45
-      }
     }
   },
   "order": [
     "hero_image_with_text_repair",
     "scrolling_banner_repair",
     "rich_text_repair_intro",
-    "info_columns_repair_services",
     "text_adverts_with_icon_bNqpfA",
     "template_product_info_columns_q9UX33",
     "rich_text_4JgiGQ",
     "text_adverts_with_icon_wC3QAJ",
     "text_adverts_with_icon_dwQ8dD",
-    "info_columns_repair_process",
-    "info_columns_why_choose_us",
     "image_with_text_overlay_consultation",
     "custom_liquid_booking_anchor",
     "custom_liquid_booking_form",
@@ -1169,7 +853,6 @@
     "blog_posts_repair_guide",
     "faq_with_image_repair",
     "image_with_text_home_visits",
-    "info_columns_areas_covered",
-    "image_with_text_overlay_showroom"
+    "info_columns_areas_covered"
   ]
 }
