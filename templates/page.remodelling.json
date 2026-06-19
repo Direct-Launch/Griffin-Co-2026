@@ -214,84 +214,6 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_w6jzXb": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_9F4JiK": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>The Consultation</h6><p>Meet with our designers via a home visit in {{ page.metafields.custom.location.value }}, or in our showroom to discuss your ideas, budget, and inspiration. We'll discuss your vision for gemstones, metals, and design preferences. We listen to your story.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_hbVUeD": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/AE4A6214_19815bd7-a159-4f96-95d4-fb993708081a.png",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your jewellery design details! You can view our existing jewellery in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_7iMW3c": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/SR1506.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your jewellery. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_KqNcGk": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/heating-metal-ring.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>The Crafting Process</h6><p>Your stunning jewellery is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_9F4JiK",
-        "image_and_text_hbVUeD",
-        "image_and_text_7iMW3c",
-        "image_and_text_KqNcGk"
-      ],
-      "disabled": true,
-      "name": "Bespoke Process",
-      "settings": {
-        "title": "Our Bespoke Process.",
-        "description": "<p>Let's make your dream jewellery together.</p>",
-        "section_header_alignment": "left",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "slider_height_mobile": "adaptive",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "image_with_text_YjGKin": {
       "type": "image-with-text",
       "name": "Why Choose Us?",
@@ -317,173 +239,6 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
-      }
-    },
-    "collage_wVbDLB": {
-      "type": "collage",
-      "blocks": {
-        "image_VEQcJb": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/IMG-20220131-WA0004.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-left",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-left",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "Modernise an Antique Piece",
-            "text": "Keep the sentimental diamonds from an inherited ring and set them in a secure, modern, and highly wearable band.",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_C7mMU7": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Stack_1.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-left",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-left",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "Combine Multiple Pieces",
-            "text": "Bring us unworn gold chains, single earrings, or old rings, and we'll melt them to forge a new creation.",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_GrJbKy": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/IMG_7448_1__1.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-right",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-right",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "Repurpose Broken Jewellery",
-            "text": "Don't let damaged items sit in a drawer. If a piece is beyond repair, the intrinsic value of metals and stones can still be utilised.",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_znGXrE": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Wedding_Bands_aeef232d-97d4-416b-bfd6-3db7ed3a3cf5.png",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "Create an Engagement Ring",
-            "text": "Use a family diamond as the stunning centrepiece for a bespoke engagement ring or distinctive wedding band.",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_jjXh74": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/IMG_7862_1__2.jpg",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-center md-max-justify-center",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "Simply Update a Setting",
-            "text": "Love the stone but dislike the yellow gold band? We can remove the gem and reset it into a platinum or white gold setting, altering the aesthetic while keeping costs manageable.",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        }
-      },
-      "block_order": [
-        "image_VEQcJb",
-        "image_C7mMU7",
-        "image_GrJbKy",
-        "image_znGXrE",
-        "image_jjXh74"
-      ],
-      "disabled": true,
-      "name": "t:sections.collage-builder.presets.name",
-      "settings": {
-        "title": "Unlock Your Jewellery's Potential.",
-        "description": "",
-        "section_header_alignment": "center",
-        "section_width": "full",
-        "remove_spacing": false,
-        "block_alignment": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "width_1": "3",
-        "height_1": "3",
-        "width_2": "3",
-        "height_2": "3",
-        "width_3": "3",
-        "height_3": "3",
-        "width_4": "3",
-        "height_4": "3",
-        "width_5": "1.5",
-        "height_5": "3",
-        "width_6": "1",
-        "height_6": "4",
-        "color_scheme": "dark"
       }
     },
     "collage_4RdPRz": {
@@ -813,158 +568,6 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_RzYKwq": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_dCDiTd": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/1.svg",
-            "grid_image_size": "square",
-            "heading": "Consultation",
-            "text": "<p>Meet with our designers to discuss your ideas, budget, and inspiration. We listen to your story to understand exactly what you need.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_JUYWHn": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/2.svg",
-            "grid_image_size": "square",
-            "heading": "Choose Stones / Metal",
-            "text": "<p>Hand-pick your perfect metals and diamonds or gemstones from a curated selection sourced by our GIA-certified gemologists.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_aEQtxX": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/3.svg",
-            "grid_image_size": "square",
-            "heading": "Design & CAD",
-            "text": "<p>We create detailed hand sketches or 3D CAD renders. You'll see photorealistic images of your piece before a single metal is cast.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_biEtrW": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/4.svg",
-            "grid_image_size": "square",
-            "heading": "Wax Model",
-            "text": "<p>A physical wax model of your design based on the approved CAD design.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_jqwx4J": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/5.svg",
-            "grid_image_size": "square",
-            "heading": "Finished Product",
-            "text": "<p>Once the mould casting is complete, the Gemstones or Diamonds are hand set into the piece with extreme precision and skill.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_dCDiTd",
-        "image_and_text_JUYWHn",
-        "image_and_text_aEQtxX",
-        "image_and_text_biEtrW",
-        "image_and_text_jqwx4J"
-      ],
-      "disabled": true,
-      "name": "Steps",
-      "settings": {
-        "title": "How It Works.",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 5,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "consistent",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "accent"
-      }
-    },
-    "apps_zahc7r": {
-      "type": "apps",
-      "blocks": {
-        "instafeed_app_block_D9irVw": {
-          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "title": "",
-            "title_color": "",
-            "title_size_v2": 0,
-            "alignment": "center",
-            "instafeed_margin_top": 0,
-            "instafeed_margin_bottom": 0,
-            "instafeed_margin_sides": 0,
-            "show_instagram_link": false,
-            "link_alignment": "left",
-            "link_color": "#000000",
-            "background_color": "",
-            "feed_id": "46833",
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "instafeed_app_block_D9irVw"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".instafeed-shopify {background-color: #f8f8f8;}"
-      ],
-      "name": "Instagram Feed",
-      "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": false
-      }
-    },
-    "rich_text_VhWp7f": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_36BGmi": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Inspired by these creations? Our designers can bring your unique vision to life, just as we have for hundreds of happy couples.</p>",
-            "text_size": 100,
-            "text_bottom_spacing": 0
-          }
-        }
-      },
-      "block_order": [
-        "richtext_36BGmi"
-      ],
-      "disabled": true,
-      "name": "Portfolio Footer",
-      "settings": {
-        "section_width": "full-width",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "dark"
-      }
-    },
     "image_with_text_overlay_WgzhKg": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -985,27 +588,11 @@
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
           }
-        },
-        "button_J4JRwT": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "first_button_link": "",
-            "first_button_label": "Design Online",
-            "second_button_link": "shopify://pages/schedule-an-appointment",
-            "second_button_label": "Meet A Jeweller in Person",
-            "buttons_style": "outlined",
-            "override_button_colors": true,
-            "buttons_background": "#ffffff",
-            "buttons_text": "#ffffff",
-            "buttons_bottom_spacing": 20
-          }
         }
       },
       "block_order": [
         "heading_yLdRKf",
-        "text_Fhkz9G",
-        "button_J4JRwT"
+        "text_Fhkz9G"
       ],
       "name": "CTA Banner",
       "settings": {
@@ -1159,34 +746,6 @@
         "colors": "white"
       }
     },
-    "image_with_text_KqgeWM": {
-      "type": "image-with-text",
-      "disabled": true,
-      "name": "CAD Design Service",
-      "settings": {
-        "image": "shopify://shop_images/SL9827_2edb0861-319b-4060-811f-c90a8301f6a8.png",
-        "layout": "left",
-        "title": "Visualise Your Dream Ring in 24 Hours",
-        "text": "<p>Not quite ready to commit to a full bespoke build? Bring your ideas to life instantly with our Express 3D CAD Design service. For just <strong>£50</strong>, our expert designers will translate your sketches, mood boards, or descriptions into a highly accurate, photorealistic 3D render.</p><p></p><ul><li>Delivered straight to your inbox in 24 hours</li><li>See exactly how your bespoke piece will look</li><li>£50 fee is fully redeemable against your final bespoke order</li></ul>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
-        "mobile-text-size": 100,
-        "button_link": "shopify://pages/contact",
-        "button_label": "Request 3D Design (£50)",
-        "buttons_style": "outlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "colors": "accent"
-      }
-    },
     "blog_posts_aa3fqb": {
       "type": "blog-posts",
       "blocks": {
@@ -1200,7 +759,6 @@
       "block_order": [
         "blog_QWVaqf"
       ],
-      "disabled": true,
       "name": "t:sections.blog-posts.name",
       "settings": {
         "title": "Guide to Jewellery Remodelling & Designs.",
@@ -1237,57 +795,6 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "accent"
-      }
-    },
-    "17787619721046fdd6": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_testimonials_carousel_a43rFx": {
-          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "show_sample_reviews": false,
-            "reviews_selection": "all",
-            "products": [],
-            "star_rating": "5_star",
-            "max_reviews": 30,
-            "quote_marks_size": "small",
-            "product_name_text_size": "small",
-            "verified_badge_style": "text",
-            "card_height": "extra_tall",
-            "text_size": "extra_small",
-            "stars_size": "small",
-            "arrows_position": "hidden",
-            "max_width": 1300,
-            "corner_styling": "square",
-            "quote_marks_style": "serif",
-            "card_color": "#f8f8f8",
-            "stars_and_quote_marks_color": "#ffdda6",
-            "text_color": "#ffffff",
-            "arrows_color": "#ffffff",
-            "show_border": false,
-            "border_color": "#e8e8e8",
-            "show_drop_shadow": false,
-            "transition_speed": 5,
-            "header_text": "Consultation Experiences.",
-            "show_average_rating": true
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_testimonials_carousel_a43rFx"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".jdgm-star {color: #ffdda6 !important;}",
-        ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
-        "div {background: #004225;}",
-        ".jdgm-title {font-size: 22px; font-family: var(--body-font-stack); overflow: visible; -webkit-line-clamp: 2;}"
-      ],
-      "name": "Reviews",
-      "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": true
       }
     },
     "faq_with_image_m73Xra": {
@@ -1369,6 +876,102 @@
         "button_text_color": "#ffffff",
         "colors": "white"
       }
+    },
+    "image_with_text_whWceW": {
+      "type": "image-with-text",
+      "name": "Private Home Visits",
+      "settings": {
+        "image": "shopify://shop_images/Home_Visits.png",
+        "layout": "left",
+        "title": "Remodelling Consultations in Your Home.",
+        "text": "<p>While our Chichester showroom is the heart of our design process, we understand that some clients prefer the security and comfort of their own environment.</p><p>For remodelling commissions, we offer a <strong>Private Home Visit</strong> service throughout West Sussex & the South. Our lead designer will visit you to discuss your ideas and evaluate your existing jewellery.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request Home Visit",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_BDCMFY": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_qzjDUe": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/west-sussex\" title=\"West Sussex\">West Sussex</a></h5><p><a href=\"/pages/arundel\" title=\"Arundel\">Arundel</a>, <a href=\"/pages/bognor-regis\" title=\"Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/bosham\" title=\"Bosham\">Bosham</a>, <a href=\"/pages/burgess-hill\" title=\"Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/chichester\" title=\"Chichester\">Chichester</a>, <a href=\"/pages/crawley\" title=\"Crawley\">Crawley</a>, <a href=\"/pages/east-grinstead\" title=\"East Grinstead\">East Grinstead</a>, <a href=\"/pages/haywards-heath\" title=\"Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/horsham\" title=\"Horsham\">Horsham</a>, <a href=\"/pages/littlehampton\" title=\"Littlehampton\">Littlehampton</a>, <a href=\"/pages/shoreham-by-sea\" title=\"Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/worthing\" title=\"Worthing\">Worthing</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_heEzmT": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/hampshire\" title=\"Hampshire\">Hampshire</a></h5><p><a href=\"/pages/aldershot\" title=\"Aldershot\">Aldershot</a>, <a href=\"/pages/andover\" title=\"Andover\">Andover</a>, <a href=\"/pages/basingstoke\" title=\"Basingstoke\">Basingstoke</a>, <a href=\"/pages/farnborough\" title=\"Farnborough\">Farnborough</a>, <a href=\"/pages/gosport\" title=\"Gosport\">Gosport</a>, <a href=\"/pages/horndean\" title=\"Horndean\">Horndean</a>, <a href=\"/pages/portsmouth\" title=\"Portsmouth\">Portsmouth</a>, <a href=\"/pages/southampton\" title=\"Southampton\">Southampton</a>, <a href=\"/pages/winchester\" title=\"Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_NEkHEM": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/surrey\" title=\"Surrey\">Surrey</a></h5><p><a href=\"/pages/camberley\" title=\"Camberley\">Camberley</a>, <a href=\"/pages/epsom\" title=\"Epsom\">Epsom</a>, <a href=\"/pages/esher\" title=\"Esher\">Esher</a>, <a href=\"/pages/ewell\" title=\"Ewell\">Ewell</a>, <a href=\"/pages/guildford\" title=\"Guildford\">Guildford</a>, <a href=\"/pages/leatherhead\" title=\"Leatherhead\">Leatherhead</a>, <a href=\"/pages/redhill\" title=\"Redhill\">Redhill</a>, <a href=\"/pages/walton-on-thames\" title=\"Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/weybridge\" title=\"Weybridge\">Weybridge</a>, <a href=\"/pages/woking\" title=\"Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_iTtUac": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/greater-london\" title=\"Greater London\">Greater London</a></h5><p><a href=\"/pages/barnet\" title=\"Barnet\">Barnet</a>, <a href=\"/pages/brent\" title=\"Brent\">Brent</a>, <a href=\"/pages/bromley\" title=\"Bromley\">Bromley</a>, <a href=\"/pages/croydon\" title=\"Croydon\">Croydon</a>, <a href=\"/pages/ealing\" title=\"Ealing\">Ealing</a>, <a href=\"/pages/enfield\" title=\"Enfield\">Enfield</a>, <a href=\"/pages/lambeth\" title=\"Lambeth\">Lambeth</a>, <a href=\"/pages/newham\" title=\"Newham\">Newham</a>, <a href=\"/pages/hatton-garden\" title=\"Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/tower-hamlets\" title=\"Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/wandsworth\" title=\"Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_qzjDUe",
+        "text_heEzmT",
+        "text_NEkHEM",
+        "text_iTtUac"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Areas We Cover in West Sussex.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England to provide remodelling design consultations and delivery.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
     }
   },
   "order": [
@@ -1376,9 +979,7 @@
     "scrolling_banner_yQGBqH",
     "rich_text_7pAWMD",
     "text_adverts_with_icon_KeGJzE",
-    "template_product_info_columns_w6jzXb",
     "image_with_text_YjGKin",
-    "collage_wVbDLB",
     "collage_4RdPRz",
     "rich_text_gYqfrE",
     "image_with_text_3M9UWp",
@@ -1386,16 +987,13 @@
     "image_with_text_9qj8zz",
     "image_with_text_hLfxzA",
     "image_with_text_BHEfXp",
-    "template_product_info_columns_RzYKwq",
-    "apps_zahc7r",
-    "rich_text_VhWp7f",
     "image_with_text_overlay_WgzhKg",
     "custom_liquid_QYT6dR",
     "custom_liquid_AaFVmN",
     "social_proof_AbnBmM",
-    "image_with_text_KqgeWM",
     "blog_posts_aa3fqb",
-    "17787619721046fdd6",
-    "faq_with_image_m73Xra"
+    "faq_with_image_m73Xra",
+    "image_with_text_whWceW",
+    "template_product_info_columns_BDCMFY"
   ]
 }
