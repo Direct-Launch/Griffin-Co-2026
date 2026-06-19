@@ -260,6 +260,136 @@
         "colors": "accent"
       }
     },
+    "text_adverts_with_icon_bNqpfA": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_fPMM38": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "crown",
+            "title": "Expert Craftsmanship",
+            "text": "<p>Our team has decades of combined experience in fine jewellery repair and restoration. We treat every item as if it were our own.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_drWCaT": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "star",
+            "title": "Quality Materials",
+            "text": "<p>We use only the highest quality, ethically sourced metals and closely matched gemstones to ensure the integrity of your piece is maintained.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_Lzzeth": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "heart",
+            "title": "Secure & Insured Service",
+            "text": "<p>Your precious items are fully insured while in our care and during transit, giving you complete peace of mind throughout the process.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_fPMM38",
+        "text_advert_drWCaT",
+        "text_advert_Lzzeth"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 0,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_q9UX33": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_J7jRp6": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/DSC05262_Large_cb997609-0b67-49ad-bf1c-d5f7e4aaba18.jpg",
+            "grid_image_size": "square",
+            "heading": "Get a Quote",
+            "text": "<p>Contact us online, via phone, or drop into our Chichester showroom to get a firm, no-obligation quote for your repair.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_CcGdKM": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Customer_Service_2.jpg",
+            "grid_image_size": "square",
+            "heading": "Send Your Jewellery",
+            "text": "<p>Securely post your item to our workshop or drop it off if you are near {{ page.metafields.custom.location.value }}.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_PhyRkw": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/heating-ball-of-metal.jpg",
+            "grid_image_size": "square",
+            "heading": "Expert Repair",
+            "text": "<p>Our master goldsmiths meticulously execute the repair, followed by a rigorous quality control check and comprehensive clean.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_FTrUgA": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/DSC05396_Large_6f248bcd-7540-4d5d-ac20-cc0eb2a57928.jpg",
+            "grid_image_size": "square",
+            "heading": "Receive Your Item",
+            "text": "<p>We return your beautifully restored jewellery via secure delivery across the {{ page.metafields.custom.location.value }} area or by collection.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_J7jRp6",
+        "image_and_text_CcGdKM",
+        "image_and_text_PhyRkw",
+        "image_and_text_FTrUgA"
+      ],
+      "name": "How It Works",
+      "settings": {
+        "title": "How Our Repair Service Works.",
+        "description": "<p>Jewellery Repair Process</p>",
+        "section_header_alignment": "left",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "rich_text_4JgiGQ": {
       "type": "rich-text",
       "blocks": {
@@ -391,83 +521,6 @@
         "colors": "dark"
       }
     },
-    "template_product_info_columns_q9UX33": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_J7jRp6": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/DSC05262_Large_cb997609-0b67-49ad-bf1c-d5f7e4aaba18.jpg",
-            "grid_image_size": "square",
-            "heading": "Get a Quote",
-            "text": "<p>Contact us online, via phone, or drop into our Chichester showroom to get a firm, no-obligation quote for your repair.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_CcGdKM": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Customer_Service_2.jpg",
-            "grid_image_size": "square",
-            "heading": "Send Your Jewellery",
-            "text": "<p>Securely post your item to our workshop or drop it off if you are near {{ page.metafields.custom.location.value }}.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_PhyRkw": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/heating-ball-of-metal.jpg",
-            "grid_image_size": "square",
-            "heading": "Expert Repair",
-            "text": "<p>Our master goldsmiths meticulously execute the repair, followed by a rigorous quality control check and comprehensive clean.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_FTrUgA": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/DSC05396_Large_6f248bcd-7540-4d5d-ac20-cc0eb2a57928.jpg",
-            "grid_image_size": "square",
-            "heading": "Receive Your Item",
-            "text": "<p>We return your beautifully restored jewellery via secure delivery across the {{ page.metafields.custom.location.value }} area or by collection.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_J7jRp6",
-        "image_and_text_CcGdKM",
-        "image_and_text_PhyRkw",
-        "image_and_text_FTrUgA"
-      ],
-      "name": "How It Works",
-      "settings": {
-        "title": "How Our Repair Service Works.",
-        "description": "<p>Jewellery Repair Process</p>",
-        "section_header_alignment": "left",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "slider_height_mobile": "adaptive",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "info_columns_repair_process": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -522,6 +575,7 @@
         "step_expert_repair",
         "step_receive_item"
       ],
+      "disabled": true,
       "name": "How Our Repair Service Works",
       "settings": {
         "title": "How Our Repair Service Works.",
@@ -587,6 +641,7 @@
         "why_quality_materials",
         "why_secure_service"
       ],
+      "disabled": true,
       "name": "Why Choose Us",
       "settings": {
         "title": "Why Choose Us For Repairs in {{ page.metafields.custom.location.value }}?",
@@ -958,7 +1013,7 @@
         "button_text_color": "#ffffff",
         "section-width": "full",
         "section_padding_top": 72,
-        "section_padding_bottom": 72,
+        "section_padding_bottom": 0,
         "colors": "dark"
       }
     },
@@ -1072,6 +1127,7 @@
         "text_showroom",
         "button_showroom"
       ],
+      "disabled": true,
       "name": "Visit Showroom CTA",
       "settings": {
         "image_desktop": "shopify://shop_images/Interior_2.webp",
@@ -1099,10 +1155,11 @@
     "scrolling_banner_repair",
     "rich_text_repair_intro",
     "info_columns_repair_services",
+    "text_adverts_with_icon_bNqpfA",
+    "template_product_info_columns_q9UX33",
     "rich_text_4JgiGQ",
     "text_adverts_with_icon_wC3QAJ",
     "text_adverts_with_icon_dwQ8dD",
-    "template_product_info_columns_q9UX33",
     "info_columns_repair_process",
     "info_columns_why_choose_us",
     "image_with_text_overlay_consultation",
