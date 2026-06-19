@@ -31,8 +31,8 @@
         "override_button_colors_1": false,
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
-        "button_link_2": "",
-        "button_label_2": "",
+        "button_link_2": "shopify://pages/contact",
+        "button_label_2": "Visit Us",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
         "button_background_color_2": "#e68819",
@@ -257,6 +257,59 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "accent"
+      }
+    },
+    "text_adverts_with_icon_wC3QAJ": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_Jy6iqT": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "truck",
+            "title": "Fast delivery",
+            "text": "<p>Draw attention to key selling points.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_EpfpVb": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "exchange",
+            "title": "Easy returns",
+            "text": "<p>Draw attention to key selling points.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_6ctiUj": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "globe",
+            "title": "Eco friendly",
+            "text": "<p>Draw attention to key selling points.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_Jy6iqT",
+        "text_advert_EpfpVb",
+        "text_advert_6ctiUj"
+      ],
+      "name": "t:sections.text-adverts-with-icon.name",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": false,
+        "text_alignment": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
       }
     },
     "info_columns_repair_process": {
@@ -889,6 +942,7 @@
     "scrolling_banner_repair",
     "rich_text_repair_intro",
     "info_columns_repair_services",
+    "text_adverts_with_icon_wC3QAJ",
     "info_columns_repair_process",
     "info_columns_why_choose_us",
     "image_with_text_overlay_consultation",
