@@ -339,96 +339,6 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_RzYKwq": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_dCDiTd": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/1.svg",
-            "grid_image_size": "square",
-            "heading": "Consultation",
-            "text": "<p>Meet with our designers to discuss your ideas, budget, and inspiration. We listen to your story to understand exactly what you need.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_JUYWHn": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/2.svg",
-            "grid_image_size": "square",
-            "heading": "Choose Stones / Metal",
-            "text": "<p>Hand-pick your perfect metals and diamonds or gemstones from a curated selection sourced by our GIA-certified gemologists.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_aEQtxX": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/3.svg",
-            "grid_image_size": "square",
-            "heading": "Design & CAD",
-            "text": "<p>We create detailed hand sketches or 3D CAD renders. You'll see photorealistic images of your piece before a single metal is cast.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_biEtrW": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/4.svg",
-            "grid_image_size": "square",
-            "heading": "Wax Model",
-            "text": "<p>A physical wax model of your design based on the approved CAD design.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_jqwx4J": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/5.svg",
-            "grid_image_size": "square",
-            "heading": "Finished Product",
-            "text": "<p>Once the mould casting is complete, the Gemstones or Diamonds are hand set into the piece with extreme precision and skill.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_dCDiTd",
-        "image_and_text_JUYWHn",
-        "image_and_text_aEQtxX",
-        "image_and_text_biEtrW",
-        "image_and_text_jqwx4J"
-      ],
-      "disabled": true,
-      "name": "Steps",
-      "settings": {
-        "title": "How It Works.",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 5,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "consistent",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "accent"
-      }
-    },
     "rich_text_WFYpWq": {
       "type": "rich-text",
       "blocks": {
@@ -708,7 +618,7 @@
       "settings": {
         "rating_image": "shopify://shop_images/google-business.png",
         "image_max_width": 120,
-        "additional_text": "Rated 5 stars by 100s of Clients in Chichester & Beyond",
+        "additional_text": "Rated 5 stars by 100s of Clients in {{ page.metafields.custom.location.value }} & Beyond",
         "title": "Luxury That Speaks for Itself.",
         "description": "<p>Each piece we create tells a story—of beauty, elegance, and trust. But don't just take our word for it. Discover how our timeless craftsmanship has left a lasting impression on jewellery lovers around the world. </p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
         "scroller_position": "right",
@@ -793,57 +703,6 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "accent"
-      }
-    },
-    "17787619721046fdd6": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_testimonials_carousel_a43rFx": {
-          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "show_sample_reviews": false,
-            "reviews_selection": "all",
-            "products": [],
-            "star_rating": "5_star",
-            "max_reviews": 30,
-            "quote_marks_size": "small",
-            "product_name_text_size": "small",
-            "verified_badge_style": "text",
-            "card_height": "extra_tall",
-            "text_size": "extra_small",
-            "stars_size": "small",
-            "arrows_position": "hidden",
-            "max_width": 1300,
-            "corner_styling": "square",
-            "quote_marks_style": "serif",
-            "card_color": "#f8f8f8",
-            "stars_and_quote_marks_color": "#ffdda6",
-            "text_color": "#ffffff",
-            "arrows_color": "#ffffff",
-            "show_border": false,
-            "border_color": "#e8e8e8",
-            "show_drop_shadow": false,
-            "transition_speed": 5,
-            "header_text": "Consultation Experiences.",
-            "show_average_rating": true
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_testimonials_carousel_a43rFx"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".jdgm-star {color: #ffdda6 !important;}",
-        ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
-        "div {background: #004225;}",
-        ".jdgm-title {font-size: 22px; font-family: var(--body-font-stack); overflow: visible; -webkit-line-clamp: 2;}"
-      ],
-      "name": "Reviews",
-      "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": true
       }
     },
     "faq_with_image_m73Xra": {
@@ -934,7 +793,6 @@
     "template_product_info_columns_w6jzXb",
     "image_with_text_YjGKin",
     "template_product_info_columns_TYCiFr",
-    "template_product_info_columns_RzYKwq",
     "rich_text_WFYpWq",
     "apps_zahc7r",
     "rich_text_VhWp7f",
@@ -944,7 +802,6 @@
     "social_proof_AbnBmM",
     "image_with_text_KqgeWM",
     "blog_posts_aa3fqb",
-    "17787619721046fdd6",
     "faq_with_image_m73Xra"
   ]
 }
