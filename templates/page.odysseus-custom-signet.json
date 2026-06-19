@@ -15,7 +15,7 @@
       "settings": {
         "image": "shopify://shop_images/Signet_Rings.webp",
         "layout": "left",
-        "title": "Custom Signet Rings in {{ page.metafields.custom.location.value }}.",
+        "title": "Custom Signet Rings.",
         "text": "<p>Celebrate your family's heritage with a timeless symbol of identity. Our master jewellers craft custom signet rings that serve as a tangible connection to your legacy, meticulously designed to tell your unique story.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
@@ -133,7 +133,7 @@
         "heading_signet_intro": {
           "type": "heading",
           "settings": {
-            "heading": "The Art of Bespoke Signet Rings in {{ page.metafields.custom.location.value }}.",
+            "heading": "The Art of Bespoke Signet Rings.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -189,7 +189,7 @@
         "button_label": "",
         "buttons_style": "filled",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section-width": "full",
         "section_padding_top": 72,
@@ -458,7 +458,7 @@
       "settings": {
         "rating_image": "shopify://shop_images/google-business.png",
         "image_max_width": 120,
-        "additional_text": "Rated 5 stars by 100s of Clients in {{ page.metafields.custom.location.value }} & Beyond",
+        "additional_text": "Rated 5 stars by 100s of Clients in Chichester & Beyond",
         "title": "Client Stories.",
         "description": "<p>Each piece we craft tells a tale—of beauty, elegance, and trust. But don't just take our word for it. See how our timeless craftsmanship has made a lasting impression on jewellery lovers worldwide.</p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
         "scroller_position": "right",
@@ -576,7 +576,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Signet Ring FAQs for {{ page.metafields.custom.location.value }} Clients.",
+        "section_title": "Signet Ring FAQs.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
@@ -605,7 +605,7 @@
         "image": "shopify://shop_images/Home_Visits.png",
         "layout": "left",
         "title": "Bespoke Consultations in Your Home.",
-        "text": "<p>While our Chichester showroom is the heart of our design process, we understand that some clients prefer the security and comfort of their own environment.</p><p>For custom signet ring commissions, we offer a <strong>Private Home Visit</strong> service throughout {{ page.metafields.custom.location.value }}. Our lead designer will visit you to discuss your heritage and take precise measurements.</p>",
+        "text": "<p>While our Chichester showroom is the heart of our design process, we understand that some clients prefer the security and comfort of their own environment.</p><p>For custom signet ring commissions, we offer a <strong>Private Home Visit</strong> service throughout West Sussex & the South. Our lead designer will visit you to discuss your heritage and take precise measurements.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "text_overlapping_image": false,
@@ -622,7 +622,76 @@
         "section-width": "full",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "colors": "accent"
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_FcpkgV": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_xdVhnt": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/west-sussex\" title=\"West Sussex\">West Sussex</a></h5><p><a href=\"/pages/arundel\" title=\"Arundel\">Arundel</a>, <a href=\"/pages/bognor-regis\" title=\"Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/bosham\" title=\"Bosham\">Bosham</a>, <a href=\"/pages/burgess-hill\" title=\"Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/chichester\" title=\"Chichester\">Chichester</a>, <a href=\"/pages/crawley\" title=\"Crawley\">Crawley</a>, <a href=\"/pages/east-grinstead\" title=\"East Grinstead\">East Grinstead</a>, <a href=\"/pages/haywards-heath\" title=\"Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/horsham\" title=\"Horsham\">Horsham</a>, <a href=\"/pages/littlehampton\" title=\"Littlehampton\">Littlehampton</a>, <a href=\"/pages/shoreham-by-sea\" title=\"Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/worthing\" title=\"Worthing\">Worthing</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_YmxgbQ": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/hampshire\" title=\"Hampshire\">Hampshire</a></h5><p><a href=\"/pages/aldershot\" title=\"Aldershot\">Aldershot</a>, <a href=\"/pages/andover\" title=\"Andover\">Andover</a>, <a href=\"/pages/basingstoke\" title=\"Basingstoke\">Basingstoke</a>, <a href=\"/pages/farnborough\" title=\"Farnborough\">Farnborough</a>, <a href=\"/pages/gosport\" title=\"Gosport\">Gosport</a>, <a href=\"/pages/horndean\" title=\"Horndean\">Horndean</a>, <a href=\"/pages/portsmouth\" title=\"Portsmouth\">Portsmouth</a>, <a href=\"/pages/southampton\" title=\"Southampton\">Southampton</a>, <a href=\"/pages/winchester\" title=\"Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_EDHjVz": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/surrey\" title=\"Surrey\">Surrey</a></h5><p><a href=\"/pages/camberley\" title=\"Camberley\">Camberley</a>, <a href=\"/pages/epsom\" title=\"Epsom\">Epsom</a>, <a href=\"/pages/esher\" title=\"Esher\">Esher</a>, <a href=\"/pages/ewell\" title=\"Ewell\">Ewell</a>, <a href=\"/pages/guildford\" title=\"Guildford\">Guildford</a>, <a href=\"/pages/leatherhead\" title=\"Leatherhead\">Leatherhead</a>, <a href=\"/pages/redhill\" title=\"Redhill\">Redhill</a>, <a href=\"/pages/walton-on-thames\" title=\"Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/weybridge\" title=\"Weybridge\">Weybridge</a>, <a href=\"/pages/woking\" title=\"Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_8WmhKQ": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/greater-london\" title=\"Greater London\">Greater London</a></h5><p><a href=\"/pages/barnet\" title=\"Barnet\">Barnet</a>, <a href=\"/pages/brent\" title=\"Brent\">Brent</a>, <a href=\"/pages/bromley\" title=\"Bromley\">Bromley</a>, <a href=\"/pages/croydon\" title=\"Croydon\">Croydon</a>, <a href=\"/pages/ealing\" title=\"Ealing\">Ealing</a>, <a href=\"/pages/enfield\" title=\"Enfield\">Enfield</a>, <a href=\"/pages/lambeth\" title=\"Lambeth\">Lambeth</a>, <a href=\"/pages/newham\" title=\"Newham\">Newham</a>, <a href=\"/pages/hatton-garden\" title=\"Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/tower-hamlets\" title=\"Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/wandsworth\" title=\"Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_xdVhnt",
+        "text_YmxgbQ",
+        "text_EDHjVz",
+        "text_8WmhKQ"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Areas We Cover in West Sussex.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England to provide bespoke signet ring design consultations and delivery.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
       }
     }
   },
@@ -640,6 +709,7 @@
     "social_proof_signet",
     "blog_posts_bespoke_guide",
     "faq_with_image_signet",
-    "image_with_text_signet_home_visits"
+    "image_with_text_signet_home_visits",
+    "template_product_info_columns_FcpkgV"
   ]
 }
