@@ -13,7 +13,7 @@
       "type": "hero-image-with-text",
       "name": "Hero - Custom Signet Rings",
       "settings": {
-        "image": "shopify://shop_images/Signet_Rings_Hero.png",
+        "image": "shopify://shop_images/Signet_Rings.webp",
         "layout": "left",
         "title": "Custom Signet Rings in {{ page.metafields.custom.location.value }}.",
         "text": "<p>Celebrate your family's heritage with a timeless symbol of identity. Our master jewellers craft custom signet rings that serve as a tangible connection to your legacy, meticulously designed to tell your unique story.</p>",
@@ -235,7 +235,6 @@
         "step_consultation": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/signet-step-1.svg",
             "grid_image_size": "square",
             "heading": "Personal Consultation & Design",
             "text": "<p>We start with a one-on-one consultation to understand your vision and family crest history, creating a detailed digital rendering for your approval.</p>",
@@ -246,7 +245,6 @@
         "step_engraving": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/signet-step-2.svg",
             "grid_image_size": "square",
             "heading": "Masterful Hand-Engraving",
             "text": "<p>Our skilled artisans use traditional hand-engraving techniques to meticulously carve your crest onto the metal for depth and detail.</p>",
@@ -257,7 +255,6 @@
         "step_presentation": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/signet-step-3.svg",
             "grid_image_size": "square",
             "heading": "Final Polish & Presentation",
             "text": "<p>Once engraved, your ring is polished to perfection and presented in a Griffin and Co. box, ready to be treasured for generations.</p>",
@@ -298,7 +295,6 @@
       "type": "image-with-text",
       "name": "History & Meaning",
       "settings": {
-        "image": "shopify://shop_images/signet-history.jpg",
         "layout": "right",
         "title": "A Symbol of Identity & Legacy",
         "text": "<p>Signet rings were worn for centuries as a mark of identity and authority. The unique crest or family seal was used to stamp and authenticate documents, serving as a personal signature.</p><p>Beyond a mere tool, it was a powerful symbol of lineage, social standing, and personal honour, passed down as a family heirloom. Today, the signet ring has regained popularity as a stylish accessory that represents the wearer's heritage and family pride.</p>",
@@ -486,7 +482,6 @@
         "text_review_signet_1": {
           "type": "text_review",
           "settings": {
-            "image": "shopify://shop_images/review_1.jpg",
             "review_title": "\"A Masterpiece of Heritage\"",
             "review_text": "<p>The attention to detail on my family crest was simply breathtaking. A true heirloom that I will pass down for generations.</p>",
             "author": "Julian",
@@ -498,7 +493,6 @@
         "text_review_signet_2": {
           "type": "text_review",
           "settings": {
-            "image": "shopify://shop_images/review_2.jpg",
             "review_title": "\"Exquisite Craftsmanship\"",
             "review_text": "<p>Cian and the team were fantastic. They helped me translate a very old, faded sketch of my crest into a crisp, modern signet ring.</p>",
             "author": "Sarah",
@@ -641,7 +635,6 @@
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
-        "accordion_image": "shopify://shop_images/signet-faq-image.jpg",
         "image_max_width": 600,
         "title": "",
         "text": "",
