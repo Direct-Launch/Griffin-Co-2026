@@ -206,6 +206,7 @@
         "text_hand_engraving",
         "text_laser_engraving"
       ],
+      "disabled": true,
       "name": "Our Engraving Techniques",
       "settings": {
         "title": "Our Engraving Techniques.",
@@ -229,12 +230,40 @@
         "colors": "accent"
       }
     },
+    "image_with_text_ECJhRH": {
+      "type": "image-with-text",
+      "name": "t:sections.image--image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Signet_Rings_Crests.png",
+        "layout": "right",
+        "title": "Our Engraving Techniques.",
+        "text": "<h5>Crest Engraving</h5><p>The traditional method for family crests involves reverse-engraving, creating a mirrored impression for wax sealing. It demands exceptional skill for a perfect image.</p><h5>Hand Engraving</h5><p>Our master engravers manually carve designs into metal with a graver and hammer, offering unmatched depth, texture, and artistry machines can't replicate.</p><h5>Laser Engraving</h5><p>Our modern laser technology reproduces complex logos, intricate text, and detailed graphics with incredible accuracy, offering a clean finish for ultimate precision.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
     "info_columns_signet_process": {
       "type": "template--product--info-columns",
       "blocks": {
         "step_consultation": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/DSC05354_Large_acad6c27-fc51-4fa8-bb8f-3076c255ae02.jpg",
             "grid_image_size": "square",
             "heading": "Personal Consultation & Design",
             "text": "<p>We start with a one-on-one consultation to understand your vision and family crest history, creating a detailed digital rendering for your approval.</p>",
@@ -245,6 +274,7 @@
         "step_engraving": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/pexels-maksgelatin-4354561.jpg",
             "grid_image_size": "square",
             "heading": "Masterful Hand-Engraving",
             "text": "<p>Our skilled artisans use traditional hand-engraving techniques to meticulously carve your crest onto the metal for depth and detail.</p>",
@@ -255,6 +285,7 @@
         "step_presentation": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Griffin_Signet_Ring.png",
             "grid_image_size": "square",
             "heading": "Final Polish & Presentation",
             "text": "<p>Once engraved, your ring is polished to perfection and presented in a Griffin and Co. box, ready to be treasured for generations.</p>",
@@ -747,6 +778,7 @@
     "scrolling_banner_signet",
     "rich_text_signet_intro",
     "info_columns_signet_techniques",
+    "image_with_text_ECJhRH",
     "info_columns_signet_process",
     "image_with_text_signet_history",
     "info_columns_signet_why_us",
