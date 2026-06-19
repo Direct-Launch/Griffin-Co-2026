@@ -32,6 +32,7 @@
         },
         "offer_4xNYhH": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "image_position": "left",
             "title": "£200 off - Harper",
