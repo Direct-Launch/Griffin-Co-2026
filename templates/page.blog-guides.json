@@ -1,0 +1,348 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_FNEwgY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_exDmdb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Meet the team",
+            "heading--text-size": "h4",
+            "heading_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_exDmdb"
+      ],
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 60,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_zkt6iy": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_7E9egg": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "CEO | Principal Designer",
+            "title": "Jessica",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HK9ERB": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Group Finance Executive",
+            "title": "Cleo",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aQXtBd": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Senior Designer",
+            "title": "Emma",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_k76xM4": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Senior CAD Designer",
+            "title": "Charlotte",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_7E9egg",
+        "image_HK9ERB",
+        "image_aQXtBd",
+        "image_k76xM4"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "natural",
+        "layout_style_desktop": "grid",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 4,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "grid",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 60,
+        "section_padding_bottom": 10,
+        "colors": "white"
+      }
+    },
+    "collage_CmGatJ": {
+      "type": "collage",
+      "blocks": {
+        "image_HtMmp7": {
+          "type": "image",
+          "settings": {
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading": "",
+            "heading_size": "h5",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "background_video_QKYgcX": {
+          "type": "background_video",
+          "settings": {
+            "video_alt_text": "",
+            "mobile_video_url": "",
+            "mobile_video_alt_text": "",
+            "heading": "",
+            "heading_size": "h5",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_nNj4q8": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "heading_size": "h5",
+            "text": "Jessica Flinn is a passionate and vibrant team of skilled designers, jewellers and fine jewellery advocates. Everyone in the team truly believes that fine jewellery canand should be done differently. They are the driving force behind our ethical ethos and our unique design approach. Explore our team's experience and expertise to learn more about what drives us to be pioneers in the jewellery industry.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-center md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "#50423a"
+          }
+        }
+      },
+      "block_order": [
+        "image_HtMmp7",
+        "background_video_QKYgcX",
+        "text_nNj4q8"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_width": "content",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "width_1": "4",
+        "height_1": "4",
+        "width_2": "4",
+        "height_2": "4",
+        "width_3": "2",
+        "height_3": "4",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "gallery_slideshow_8Bgjpf": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_8khFg8": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Purchasing and Procurement Executive",
+            "title": "Natasha",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_8regCF": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Marketing Manager",
+            "title": "Megan",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Rnja4b": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Brand Lead",
+            "title": "Rich",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_qQefyQ": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Marketing Manager",
+            "title": "Megan",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_feeAEB": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Laser Supervisor",
+            "title": "Amy",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_idaahD": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Marketing Executive",
+            "title": "Maddy",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9iyDa9": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Web Content Specialist",
+            "title": "Carlos",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hUfMPd": {
+          "type": "image",
+          "settings": {
+            "link": "",
+            "button_label": "",
+            "subheading": "Jewellery Stylist",
+            "title": "Peter",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_8khFg8",
+        "image_8regCF",
+        "image_Rnja4b",
+        "image_qQefyQ",
+        "image_feeAEB",
+        "image_idaahD",
+        "image_9iyDa9",
+        "image_hUfMPd"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "image_shape": "natural",
+        "layout_style_desktop": "grid",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 4,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "grid",
+        "navigation_mobile": "peek",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "content",
+        "remove_spacing": false,
+        "section_padding_top": 10,
+        "section_padding_bottom": 60,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "rich_text_FNEwgY",
+    "gallery_slideshow_zkt6iy",
+    "collage_CmGatJ",
+    "gallery_slideshow_8Bgjpf"
+  ]
+}
