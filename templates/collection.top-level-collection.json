@@ -331,9 +331,9 @@
         "show_promo_block": true,
         "promo_image": "shopify://shop_images/Bespoke_Experience.jpg",
         "promo_subtitle": "Create Your Own",
-        "promo_heading": "Ready to design your own {{ collection.title }}?",
+        "promo_heading": "Ready to design your own Jewellery?",
         "promo_button_text": "Book Consultation",
-        "promo_text": "<p>Looking for bespoke {{ collection.title }}? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
+        "promo_text": "<p>Looking for bespoke jewellery? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
         "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
@@ -343,7 +343,7 @@
         "heading_8nK3xQ": {
           "type": "heading",
           "settings": {
-            "heading": "SHOP FOR {{ collection.title }} FROM OUR INSTAGRAM.",
+            "heading": "SHOP FOR FINE JEWELLERY FROM OUR INSTAGRAM.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -597,7 +597,7 @@
         "text_f9dPTc": {
           "type": "text",
           "settings": {
-            "text": "<p>One-off {{ collection.title }} made especially for you. Book an in-store or at home appointment to browse all of our {{ collection.title }}, Jewellery, Diamonds and Gemstones.</p>",
+            "text": "<p>One-off jewellery made especially for you. Book an in-store or at home appointment to browse all of our Engagement Rings, Jewellery, Diamonds and Gemstones.</p>",
             "font_size_desktop": 100,
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
@@ -877,7 +877,7 @@
       ],
       "name": "t:sections.faq.presets.name",
       "settings": {
-        "title": "Frequently asked questions About {{ collection.title }}.",
+        "title": "Frequently asked questions About Fine Jewellery.",
         "description": "<p>Can’t find the answers you'r looking for? Our team is on hand from Tuesday to Saturday, 9:30am - 5pm.</p>",
         "section_header_alignment": "center",
         "faq_icon": "plus_minus",
