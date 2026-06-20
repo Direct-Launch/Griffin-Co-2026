@@ -174,6 +174,7 @@
       "type": "image-with-text",
       "name": "The Studio Experience at Home",
       "settings": {
+        "image": "shopify://shop_images/IMG_8786.webp",
         "layout": "right",
         "title": "What We Bring to Your Door.",
         "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
@@ -202,6 +203,7 @@
         "step_inquiry": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Initial_Consultation.jpg",
             "grid_image_size": "square",
             "heading": "The Initial Inquiry",
             "text": "<p>A brief introductory call to understand your vision, requirements, and the scope of the piece or service you require. We listen to your story first.</p>",
@@ -212,6 +214,7 @@
         "step_visit": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Private_Consultation.jpg",
             "grid_image_size": "square",
             "heading": "The Private Consultation",
             "text": "<p>Our designer visits your home with a curated selection of materials and tools to refine the design, specifications, and gemstones in complete privacy.</p>",
@@ -222,6 +225,7 @@
         "step_creation": {
           "type": "image_and_text",
           "settings": {
+            "image": "shopify://shop_images/Master_Craftmanship.jpg",
             "grid_image_size": "square",
             "heading": "Master Craftsmanship",
             "text": "<p>Your piece is handcrafted in our studio to the highest standards and delivered back to you for a final, perfect fitting and unveiling.</p>",
@@ -346,6 +350,170 @@
         "colors": "white"
       }
     },
+    "image_with_text_slideshow_CigXWU": {
+      "type": "image-with-text-slideshow",
+      "blocks": {
+        "image_and_text_Vnr6MF": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Bespoke_Experience.jpg",
+            "subheading": "MAKE YOUR DREAM RING A REALITY",
+            "heading": "Bespoke & custom.",
+            "text": "<p>Just like no two rings are ever the same, no two Griffin & Co journeys are ever the same. Whether you visit us in person or build online, we'll help you discover or craft your perfect piece of fine jewellery.</p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "shopify://pages/bespoke-jewellery-designs",
+            "first_button_label": "Read more",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#e68819",
+            "color_button_text": "#ffffff",
+            "media_position_desktop": "left",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_and_text_cQ6p9a": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Repair_Landscape.png",
+            "subheading": "REPAIR YOUR TREASURED JEWELLERY",
+            "heading": "Jewellery Repairs.",
+            "text": "<p>Expert jewellery repair and restoration. Our skilled craftspeople restore damaged, worn, or cherished pieces to their original beauty.<br/><br/>Expert care including ring resizing, claw retipping, cleaning, and chain soldering.</p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "shopify://blogs/guide-jewellery-repair-service/jewellery-repair-service",
+            "first_button_label": "Read more",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#d54828",
+            "color_button_text": "#f1f1ef",
+            "media_position_desktop": "right",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "right",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_and_text_DJbePK": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Our_Remodelling_Process_5c357d70-5ecf-432f-84a2-76348c31d8cf.png",
+            "subheading": "REDESIGN FAMILY HEIRLOOMS",
+            "heading": "Remodelling.",
+            "text": "<p>Breathe new life into forgotten jewellery. We reimagine your cherished gold and gemstones into bespoke pieces you'll treasure for years to come.</p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "shopify://pages/jewellery-remodelling-service",
+            "first_button_label": "Read more",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#d54828",
+            "color_button_text": "#f1f1ef",
+            "media_position_desktop": "left",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_and_text_yiMGdx": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Griffin_Co._Signet_Rings_Window_Display_ccbe1ab7-d083-4d72-8109-9afc1e7fe875.png",
+            "subheading": "FAMILY SIGNETS",
+            "heading": "Signet Rings.",
+            "text": "<p>Craft a timeless family heirloom with bespoke seal engraving, available in solid gold, silver, or platinum. Each piece is personalised to your specifications, creating a treasured keepsake to pass down through generations.</p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "shopify://pages/custom-signet-rings-with-family-crests",
+            "first_button_label": "Read more",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#d54828",
+            "color_button_text": "#f1f1ef",
+            "media_position_desktop": "right",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "right",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        },
+        "image_and_text_76hTnX": {
+          "type": "image_and_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Wedding_Bands_3.webp",
+            "subheading": "VIEW JEWELLERY FROM HOME",
+            "heading": "Home Visits.",
+            "text": "<p>Bring our jewellery expertise to your doorstep. Enjoy a personalised consultation in the comfort of your own home around Chichester, where our specialists will help you find the perfect pieces tailored to your style and preferences.</p>",
+            "page": "",
+            "slide_link": "",
+            "first_button_link": "shopify://pages/home-visits",
+            "first_button_label": "Read more",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "color_button_background": "#d54828",
+            "color_button_text": "#f1f1ef",
+            "media_position_desktop": "left",
+            "text_position_desktop": "center",
+            "text_alignment_desktop": "left",
+            "media_position_mobile": "top",
+            "text_alignment_mobile": "center",
+            "text_color": "rgba(0,0,0,0)",
+            "background_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Vnr6MF",
+        "image_and_text_cQ6p9a",
+        "image_and_text_DJbePK",
+        "image_and_text_yiMGdx",
+        "image_and_text_76hTnX"
+      ],
+      "custom_css": [],
+      "name": "Services",
+      "settings": {
+        "title": "Expert Services In {{ page.metafields.custom.location.value }}.",
+        "description": "<p>Our relationship with you extends far beyond a purchase. We are here to care for your most treasured possessions for a lifetime.</p>",
+        "section_header_alignment": "center",
+        "heading_font_size_desktop": "h4",
+        "text_font_size_desktop": 100,
+        "heading_font_size_mobile": "h3-mobile",
+        "text_font_size_mobile": 100,
+        "image_size": "medium",
+        "image_shape": "natural",
+        "hover_navigation_desktop": "above",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white",
+        "override_navigation_button_colors": false,
+        "button_background_color": "#d54828",
+        "button_text_color": "#f1f1ef"
+      }
+    },
     "image_with_text_overlay_hv_cta": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -418,7 +586,7 @@
         "title": "",
         "description": "",
         "section_header_alignment": "center",
-        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/bespoke-design?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/home-visits?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
         "section_width": "full-width",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
@@ -695,6 +863,7 @@
     "info_columns_hv_process",
     "image_with_text_hv_meaning",
     "info_columns_hv_value",
+    "image_with_text_slideshow_CigXWU",
     "image_with_text_overlay_hv_cta",
     "custom_liquid_hv_anchor",
     "custom_liquid_hv_booking",
