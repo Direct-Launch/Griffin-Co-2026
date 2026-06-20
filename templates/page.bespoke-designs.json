@@ -170,6 +170,60 @@
         "colors": "white"
       }
     },
+    "template_product_info_columns_M9fcgy": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_FYKH6Y": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "grid_image_size": "wide",
+            "heading": "Book a In-Person Consultation.",
+            "text": "<p>For those who prefer a tactile experience, we offer Private Home Visits directly to you in {{ page.metafields.custom.location.value }}. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.</p>",
+            "button_link": "#booking",
+            "button_text": "Request Appointment"
+          }
+        },
+        "image_and_text_4Bjzxe": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
+            "grid_image_size": "wide",
+            "heading": "Design Your Jewellery Online.",
+            "text": "<p>Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen in {{ page.metafields.custom.location.value }}. Select your ideal GIA-certified diamond, choose your setting, and watch your future heirloom come to life in breathtaking 3D detail.</p>",
+            "button_link": "",
+            "button_text": "Go to Online Builder"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_FYKH6Y",
+        "image_and_text_4Bjzxe"
+      ],
+      "disabled": true,
+      "name": "Bespoke Choice",
+      "settings": {
+        "title": "How to Design Bespoke.",
+        "description": "<p>We offer two distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "outlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 2,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
     "template_product_info_columns_w6jzXb": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -886,6 +940,7 @@
     "hero_image_with_text_XbtaRH",
     "scrolling_banner_yQGBqH",
     "rich_text_7pAWMD",
+    "template_product_info_columns_M9fcgy",
     "template_product_info_columns_w6jzXb",
     "image_with_text_YjGKin",
     "template_product_info_columns_TYCiFr",
