@@ -277,17 +277,6 @@
     "template_product_info_columns_TYCiFr": {
       "type": "template--product--info-columns",
       "blocks": {
-        "image_and_text_UCrW8e": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Signet_Rings_Crests.png",
-            "grid_image_size": "natural",
-            "heading": "Signet Rings & Crests",
-            "text": "<p>Engrave custom family crests.</p>",
-            "button_link": "shopify://pages/custom-signet-rings-with-family-crests",
-            "button_text": "Learn more"
-          }
-        },
         "image_and_text_xDjPhn": {
           "type": "image_and_text",
           "settings": {
@@ -309,12 +298,23 @@
             "button_link": "shopify://pages/wedding-rings-bespoke-bands",
             "button_text": "Learn more"
           }
+        },
+        "image_and_text_UCrW8e": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Signet_Rings_Crests.png",
+            "grid_image_size": "natural",
+            "heading": "Signet Rings & Crests",
+            "text": "<p>Engrave custom family crests.</p>",
+            "button_link": "shopify://pages/custom-signet-rings-with-family-crests",
+            "button_text": "Learn more"
+          }
         }
       },
       "block_order": [
-        "image_and_text_UCrW8e",
         "image_and_text_xDjPhn",
-        "image_and_text_Wd9Kpf"
+        "image_and_text_Wd9Kpf",
+        "image_and_text_UCrW8e"
       ],
       "name": "Specialities",
       "settings": {
@@ -631,7 +631,7 @@
       "type": "image-with-text",
       "name": "CAD Design Service",
       "settings": {
-        "image": "shopify://shop_images/SL9827_2edb0861-319b-4060-811f-c90a8301f6a8.png",
+        "image": "shopify://shop_images/Untitled_design.png",
         "layout": "left",
         "title": "Visualise Your Dream Ring in 24 Hours.",
         "text": "<p>Not quite ready to commit to a full bespoke build? Bring your ideas to life instantly with our Express 3D CAD Design service. For just <strong>£50</strong>, our expert designers will translate your sketches, mood boards, or descriptions into a highly accurate, photorealistic 3D render.</p><p></p><ul><li>Delivered straight to your inbox in 24 hours</li><li>See exactly how your bespoke piece will look</li><li>£50 fee is fully redeemable against your final bespoke order</li></ul>",
