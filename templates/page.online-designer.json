@@ -185,7 +185,7 @@
       "custom_css": [
         ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}"
       ],
-      "name": "t:sections.advanced-layout--custom-liquid.name",
+      "name": "Builder",
       "settings": {
         "title": "",
         "description": "",
