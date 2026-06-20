@@ -9,6 +9,40 @@
  */
 {
   "sections": {
+    "hero_image_with_text_3CYmBU": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Blogs.webp",
+        "layout": "left",
+        "title": "Blogs & Guides",
+        "text": "<p>An insight into our world of fine jewellery, from the art of bespoke design to the beauty of lab-grown diamonds and ethical sourcing.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "",
+        "button_label_1": "",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#E68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "",
+        "button_label_2": "",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#E68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
     "rich_text_FNEwgY": {
       "type": "rich-text",
       "blocks": {
@@ -94,6 +128,7 @@
       "settings": {
         "title": "",
         "description": "",
+        "section_header_alignment": "center",
         "image_shape": "natural",
         "layout_style_desktop": "grid",
         "hover_navigation_desktop": "left-and-right",
@@ -123,15 +158,23 @@
           "type": "image",
           "settings": {
             "desktop_position": "md-min-align-bottom md-min-justify-right",
-            "mobile_position": "md-max-align-bottom md-max-justify-right",
-            "heading": "",
             "heading_size": "h5",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "",
+            "text": "Add a description to your image here.",
             "url": "",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -139,11 +182,13 @@
         "background_video_QKYgcX": {
           "type": "background_video",
           "settings": {
+            "video_url": "",
             "video_alt_text": "",
+            "heading_size": "h5",
             "mobile_video_url": "",
             "mobile_video_alt_text": "",
+            "heading_size_mobile": "h4-mobile",
             "heading": "",
-            "heading_size": "h5",
             "url": "",
             "button_label": "",
             "buttons_style": "filled",
@@ -161,6 +206,7 @@
           "settings": {
             "heading": "",
             "heading_size": "h5",
+            "heading_size_mobile": "h4-mobile",
             "text": "Jessica Flinn is a passionate and vibrant team of skilled designers, jewellers and fine jewellery advocates. Everyone in the team truly believes that fine jewellery canand should be done differently. They are the driving force behind our ethical ethos and our unique design approach. Explore our team's experience and expertise to learn more about what drives us to be pioneers in the jewellery industry.",
             "url": "",
             "button_label": "",
@@ -183,6 +229,7 @@
       "settings": {
         "title": "",
         "description": "",
+        "section_header_alignment": "center",
         "section_width": "content",
         "remove_spacing": false,
         "block_alignment": "center",
@@ -316,6 +363,7 @@
       "settings": {
         "title": "",
         "description": "",
+        "section_header_alignment": "center",
         "image_shape": "natural",
         "layout_style_desktop": "grid",
         "hover_navigation_desktop": "left-and-right",
@@ -340,6 +388,7 @@
     }
   },
   "order": [
+    "hero_image_with_text_3CYmBU",
     "rich_text_FNEwgY",
     "gallery_slideshow_zkt6iy",
     "collage_CmGatJ",
