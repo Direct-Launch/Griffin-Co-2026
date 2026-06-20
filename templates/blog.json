@@ -13,10 +13,11 @@
       "type": "hero-image-with-text",
       "name": "Hero - Image with text",
       "settings": {
+        "image": "{{ blog.metafields.custom.desktop_large_image.value }}",
         "layout": "left",
-        "title": "Hero Image with Text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-        "text_alignment": "center",
+        "title": "{{ blog.title }}",
+        "text": "{{ blog.metafields.custom.description | metafield_tag }}",
+        "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
         "desktop-heading-size": "h3",
@@ -126,6 +127,7 @@
         "image_and_text_qeJ9Ab",
         "image_and_text_hnV9J4"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "description": "",
@@ -146,8 +148,81 @@
         "button_text_color": "#ffffff"
       }
     },
+    "scrolling_banner_r3fM6x": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_pcPH33": {
+          "type": "text",
+          "settings": {
+            "text": "Crafted in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_idhgyk": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_rHmbpc": {
+          "type": "text",
+          "settings": {
+            "text": "Certified Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_8gbpQd": {
+          "type": "text",
+          "settings": {
+            "text": "30 Days Return",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_pcPH33",
+        "text_idhgyk",
+        "text_rHmbpc",
+        "text_8gbpQd"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
+      }
+    },
     "blog_header_zqNdpU": {
       "type": "blog-header",
+      "disabled": true,
       "settings": {
         "heading_font_size": "h3",
         "heading_font_size_mobile": "h3-mobile",
@@ -157,16 +232,32 @@
     },
     "main": {
       "type": "template--blog",
+      "blocks": {
+        "tag_navigation_UUTGC4": {
+          "type": "tag_navigation",
+          "settings": {
+            "alignment": "center",
+            "layout_style": "grid",
+            "buttons_style": "badges",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "tag_navigation_UUTGC4"
+      ],
       "settings": {
         "show_image": true,
         "image_shape": "natural",
         "show_tags": true,
         "blog_show_date": true,
-        "show_author_name": false,
+        "show_author_name": true,
         "show_reading_time": true,
         "show_comment_count": false,
         "show_excerpt": true,
-        "show_read_more": true,
+        "show_read_more": false,
         "heading_font": "heading",
         "heading_font_size": "h5",
         "heading_font_size_mobile": "h5-mobile",
@@ -175,12 +266,12 @@
         "show_sidebar": true,
         "show_sidebar_newsletter": true,
         "newsletter_heading": "<h4>Sign up for more</h4>",
-        "newsletter_description": "<p>Keep uptodate with the latest ring inspiration.</p>",
+        "newsletter_description": "<p>Keep up to date with the latest blog guides.</p>",
         "newsletter_color_scheme": "white",
         "override_button_colors": false,
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
-        "show_recent_posts": true,
+        "show_recent_posts": false,
         "show_popular_articles_image": true,
         "image_aspect_ratio": "wide",
         "show_sidebar_dates": true,
@@ -191,15 +282,87 @@
         "blog-sidebar-description": "",
         "show_blog_tags": true,
         "show_social_icons": true,
-        "posts_to_show": 9,
-        "posts_per_row": 3
+        "posts_to_show": 30,
+        "posts_per_row": 2
+      }
+    },
+    "faq_with_image_kCjDRC": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_kRhjDU": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "{{ blog.metafields.custom.question_1.value }}",
+            "open_by_default": false,
+            "text": "{{ blog.metafields.custom.answer_1 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "accordion_H9hJBc": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "{{ blog.metafields.custom.question_2.value }}",
+            "open_by_default": false,
+            "text": "{{ blog.metafields.custom.answer_2 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "accordion_XtjchJ": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "{{ blog.metafields.custom.question_3.value }}",
+            "open_by_default": false,
+            "text": "{{ blog.metafields.custom.answer_3 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "accordion_gRb7Jt": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "{{ blog.metafields.custom.question_4.value }}",
+            "open_by_default": false,
+            "text": "{{ blog.metafields.custom.answer_4 | metafield_tag }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_kRhjDU",
+        "accordion_H9hJBc",
+        "accordion_XtjchJ",
+        "accordion_gRb7Jt"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Frequently Asked Questions.",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/Showroom_8.webp",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "colors": "white"
       }
     }
   },
   "order": [
     "hero_image_with_text_DCM9iM",
     "image_with_text_slideshow_bmzrQP",
+    "scrolling_banner_r3fM6x",
     "blog_header_zqNdpU",
-    "main"
+    "main",
+    "faq_with_image_kCjDRC"
   ]
 }
