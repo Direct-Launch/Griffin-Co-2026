@@ -369,7 +369,7 @@
       "name": "Promotions & Offers",
       "settings": {
         "image": "shopify://shop_images/Clarity.jpg",
-        "layout": "left",
+        "layout": "right",
         "title": "Promotions & Offers",
         "text": "<p>Explore current promotions at Griffin & Co Fine Jewellery. Discover exclusive discounts, seasonal sales, and special offers on bespoke rings, engagement rings, and more.</p>",
         "text_alignment": "left",
