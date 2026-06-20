@@ -162,9 +162,9 @@
         "navigation_link_cHXqNK",
         "navigation_link_3GQaUc"
       ],
-      "name": "t:sections.visual-navigation-banner.presets.name",
+      "name": "Category",
       "settings": {
-        "title": "Shop by {{ collection.title }}",
+        "title": "Shop by Category",
         "description": "",
         "section_header_alignment": "left",
         "image_style": "square",
@@ -674,7 +674,8 @@
             "overlay_and_background_color": "#004225",
             "content_color": "#f9f9f9",
             "header_text": "From our customers",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         }
       },
@@ -731,7 +732,8 @@
             "overlay_and_background_color": "#004225",
             "content_color": "#f9f9f9",
             "header_text": "From our customers",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         },
         "judge_me_reviews_cards_carousel_FL3XPg": {
@@ -762,7 +764,8 @@
             "arrows_color": "#004225",
             "transition_speed": 5,
             "header_text": "Our Customer Reviews.",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         },
         "judge_me_reviews_testimonials_carousel_8aKyVG": {
@@ -793,7 +796,8 @@
             "show_drop_shadow": false,
             "transition_speed": 5,
             "header_text": "Our Customer Reviews.",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         }
       },
