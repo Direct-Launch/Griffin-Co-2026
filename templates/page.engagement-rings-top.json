@@ -538,7 +538,7 @@
           "type": "image_and_text",
           "settings": {
             "image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
-            "grid_image_size": "square",
+            "grid_image_size": "wide",
             "heading": "Book a In-Person Consultation.",
             "text": "<p>For those who prefer a tactile experience, we offer Private Home Visits directly to you in {{ page.metafields.custom.location.value }}. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.</p>",
             "button_link": "shopify://pages/schedule-an-appointment",
@@ -549,7 +549,7 @@
           "type": "image_and_text",
           "settings": {
             "image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
-            "grid_image_size": "square",
+            "grid_image_size": "wide",
             "heading": "Design Your Ring Online.",
             "text": "<p>Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen in {{ page.metafields.custom.location.value }}. Select your ideal GIA-certified diamond, choose your setting, and watch your future heirloom come to life in breathtaking 3D detail.</p>",
             "button_link": "",
@@ -596,12 +596,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
             "heading": "",
+            "text": "Add a description to your image here.",
             "url": "shopify://pages/schedule-an-appointment",
             "button_label": "",
             "buttons_style": "underlined",
             "override_button_colors": true,
             "button_background_color": "#ffffff",
             "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "#242424"
           }
@@ -615,12 +622,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
             "heading": "",
+            "text": "Add a description to your image here.",
             "url": "/",
             "button_label": "",
             "buttons_style": "underlined",
             "override_button_colors": true,
             "button_background_color": "#ffffff",
             "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "#242424"
           }
@@ -949,7 +963,8 @@
             "show_drop_shadow": false,
             "transition_speed": 4,
             "header_text": "Consultation Experiences.",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         }
       },
