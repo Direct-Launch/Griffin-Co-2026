@@ -68,6 +68,131 @@
         "colors": "light"
       }
     },
+    "scrolling_banner_ax78DK": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_aAFjGN": {
+          "type": "text",
+          "settings": {
+            "text": "Crafted in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_hPUHxf": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_tM3jxD": {
+          "type": "text",
+          "settings": {
+            "text": "Certified Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_VUbb6i": {
+          "type": "text",
+          "settings": {
+            "text": "30 Days Return",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_aAFjGN",
+        "text_hPUHxf",
+        "text_tM3jxD",
+        "text_VUbb6i"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
+      }
+    },
+    "template_product_info_columns_KF8Xjh": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_fFnbq8": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Women_s_Jewellery_a231093c-0831-470b-a765-a4d420b5f729.png",
+            "grid_image_size": "wide",
+            "heading": "Women's Jewellery",
+            "text": "<p>Discover a world of elegance. From delicate diamond pendants to statement earrings, stunning rings and tennis bracelets, our collection celebrates femininity in all its forms with exquisite craftsmanship.</p>",
+            "button_link": "shopify://collections/for-her",
+            "button_text": "Shop Women's Jewellery"
+          }
+        },
+        "image_and_text_eXFizJ": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Men_s_Jewellery.png",
+            "grid_image_size": "wide",
+            "heading": "Men's Jewellery",
+            "text": "<p>Sophisticated style for the modern gentleman. Explore our range of heavy gold chains, pendants, signet rings and stud earrings, designed to add a touch of refined distinction to your everyday look.</p>",
+            "button_link": "shopify://collections/for-him",
+            "button_text": "Shop Men's Jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_fFnbq8",
+        "image_and_text_eXFizJ"
+      ],
+      "name": "Shop by Department",
+      "settings": {
+        "title": "Shop by Department.",
+        "description": "<p>Curated collections for every style.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382E",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 2,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "visual_navigation_banner_7dCHG9": {
       "type": "visual-navigation-banner",
       "blocks": {
@@ -209,7 +334,7 @@
         "heading_8nK3xQ",
         "richtext_AmDEia"
       ],
-      "name": "t:sections.text--rich-text.presets.name",
+      "name": "Instagram Portfolio",
       "settings": {
         "section_width": "content",
         "text_alignment_desktop": "center",
@@ -518,6 +643,8 @@
   "order": [
     "collection-header-spotlight",
     "hero_image_with_text_y6wMXR",
+    "scrolling_banner_ax78DK",
+    "template_product_info_columns_KF8Xjh",
     "visual_navigation_banner_7dCHG9",
     "product-grid",
     "rich_text_Vht6Nh",
