@@ -482,6 +482,31 @@
         "colors": "dark"
       }
     },
+    "rich_text_Cxi9cU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_reeTLf": {
+          "type": "heading",
+          "settings": {
+            "heading": "View All Jewellery at Griffin & Co.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_reeTLf"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 150,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "product-grid": {
       "type": "template--collection",
       "settings": {
@@ -856,6 +881,7 @@
     "template_product_info_columns_VMAkdB",
     "template_product_info_columns_ErXAUY",
     "template_product_info_columns_AftFCp",
+    "rich_text_Cxi9cU",
     "product-grid",
     "rich_text_Vht6Nh",
     "1778864481e2fbb2e6",
