@@ -68,10 +68,10 @@
         "colors": "light"
       }
     },
-    "scrolling_banner_QRVnnY": {
+    "scrolling_banner_ax78DK": {
       "type": "scrolling-banner",
       "blocks": {
-        "text_DKMbfB": {
+        "text_aAFjGN": {
           "type": "text",
           "settings": {
             "text": "Crafted in the UK",
@@ -82,7 +82,7 @@
             "body_font_size": 130
           }
         },
-        "text_XQDRB7": {
+        "text_hPUHxf": {
           "type": "text",
           "settings": {
             "text": "Ethically Sourced",
@@ -93,7 +93,7 @@
             "body_font_size": 130
           }
         },
-        "text_hVAw6H": {
+        "text_tM3jxD": {
           "type": "text",
           "settings": {
             "text": "Certified Diamonds",
@@ -104,7 +104,7 @@
             "body_font_size": 130
           }
         },
-        "text_hqwUWT": {
+        "text_VUbb6i": {
           "type": "text",
           "settings": {
             "text": "30 Days Return",
@@ -117,10 +117,10 @@
         }
       },
       "block_order": [
-        "text_DKMbfB",
-        "text_XQDRB7",
-        "text_hVAw6H",
-        "text_hqwUWT"
+        "text_aAFjGN",
+        "text_hPUHxf",
+        "text_tM3jxD",
+        "text_VUbb6i"
       ],
       "name": "t:sections.scrolling-banner.name",
       "settings": {
@@ -138,6 +138,59 @@
         "rotate": "0",
         "override_border_radius": false,
         "color_scheme": "white"
+      }
+    },
+    "template_product_info_columns_KF8Xjh": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_fFnbq8": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Women_s_Jewellery_a231093c-0831-470b-a765-a4d420b5f729.png",
+            "grid_image_size": "wide",
+            "heading": "Women's Jewellery",
+            "text": "<p>Discover a world of elegance. From delicate diamond pendants to statement earrings, stunning rings and tennis bracelets, our collection celebrates femininity in all its forms with exquisite craftsmanship.</p>",
+            "button_link": "shopify://collections/for-her",
+            "button_text": "Shop Women's Jewellery"
+          }
+        },
+        "image_and_text_eXFizJ": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Men_s_Jewellery.png",
+            "grid_image_size": "wide",
+            "heading": "Men's Jewellery",
+            "text": "<p>Sophisticated style for the modern gentleman. Explore our range of heavy gold chains, pendants, signet rings and stud earrings, designed to add a touch of refined distinction to your everyday look.</p>",
+            "button_link": "shopify://collections/for-him",
+            "button_text": "Shop Men's Jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_fFnbq8",
+        "image_and_text_eXFizJ"
+      ],
+      "name": "Shop by Department",
+      "settings": {
+        "title": "Shop by Department.",
+        "description": "<p>Curated collections for every style.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382e",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 2,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
       }
     },
     "visual_navigation_banner_7dCHG9": {
@@ -206,9 +259,9 @@
         "navigation_link_cHXqNK",
         "navigation_link_3GQaUc"
       ],
-      "name": "t:sections.visual-navigation-banner.presets.name",
+      "name": "Category",
       "settings": {
-        "title": "Shop by {{ collection.title }}",
+        "title": "Shop by Category.",
         "description": "",
         "section_header_alignment": "left",
         "image_style": "square",
@@ -220,6 +273,238 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "color_scheme": "white"
+      }
+    },
+    "template_product_info_columns_VMAkdB": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_QHx76y": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Engagement_Rings_37.webp",
+            "grid_image_size": "wide",
+            "heading": "Engagement Rings",
+            "text": "<p>Explore our exquisite collection of engagement rings, from timeless solitaires to intricate halos and bespoke creations. Each ring is handcrafted to symbolise your unique love story with unmatched brilliance.</p>",
+            "button_link": "shopify://collections/engagement-rings",
+            "button_text": "Shop Engagement Rings"
+          }
+        },
+        "image_and_text_qBfXKC": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Wedding_Bands_6.webp",
+            "grid_image_size": "wide",
+            "heading": "Wedding Bands",
+            "text": "<p>Discover our range of wedding bands, designed to sit perfectly alongside your engagement ring or stand alone in elegant simplicity. Choose from platinum, gold, or diamond-set bands to seal your promise.</p>",
+            "button_link": "shopify://collections/wedding-rings",
+            "button_text": "Shop Wedding Bands"
+          }
+        },
+        "image_and_text_gM7qJU": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Jewellery_Sets_Cover.png",
+            "grid_image_size": "wide",
+            "heading": "Jewellery Sets",
+            "text": "<p>Elevate your look with our coordinated jewellery sets. Featuring matching necklaces, earrings, and bracelets, these collections are curated to offer a polished, cohesive elegance for weddings, special occasions, or everyday luxury.</p>",
+            "button_link": "shopify://collections/jewellery-sets",
+            "button_text": "Shop Jewellery Sets"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_QHx76y",
+        "image_and_text_qBfXKC",
+        "image_and_text_gM7qJU"
+      ],
+      "name": "Our Signature Collections",
+      "settings": {
+        "title": "Our Signature Collections.",
+        "description": "<p>Mark life's most precious moments.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382e",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "center",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_ErXAUY": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_QgiL3E": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Diamond_Jewellery.png",
+            "grid_image_size": "wide",
+            "heading": "Diamond Jewellery",
+            "text": "<p>Timeless pieces featuring ethically sourced natural and lab-grown diamonds.</p>",
+            "button_link": "shopify://collections/diamond-jewellery",
+            "button_text": "Shop Diamond Jewellery"
+          }
+        },
+        "image_and_text_gmXhNh": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Gemstone_Jewellery.png",
+            "grid_image_size": "wide",
+            "heading": "Gemstone Jewellery",
+            "text": "<p>Vibrant Sapphires, Rubies, Emeralds and more to add colour to your life.</p>",
+            "button_link": "shopify://collections/by-gemstone",
+            "button_text": "Shop Gemstone Jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_QgiL3E",
+        "image_and_text_gmXhNh"
+      ],
+      "name": "Diamonds & Gemstones",
+      "settings": {
+        "title": "Diamonds & Gemstones.",
+        "description": "<p>Discover brilliance in every colour.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382e",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 2,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_AftFCp": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_jteThA": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_d35bde97-fc52-4130-bde5-9776785a9883.png",
+            "grid_image_size": "natural",
+            "heading": "Sterling Silver",
+            "text": "<p>Affordable & Light</p>",
+            "button_link": "shopify://collections/sterling-silver-jewellery",
+            "button_text": ""
+          }
+        },
+        "image_and_text_h7MD8y": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Yellow_Gold_93b897bd-2837-4c10-b45b-fd653e78f5aa.png",
+            "grid_image_size": "natural",
+            "heading": "Yellow Gold",
+            "text": "<p>Classic & Warm</p>",
+            "button_link": "shopify://collections/yellow-gold-jewellery",
+            "button_text": ""
+          }
+        },
+        "image_and_text_Hbree8": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_d35bde97-fc52-4130-bde5-9776785a9883.png",
+            "grid_image_size": "natural",
+            "heading": "White Gold",
+            "text": "<p>Bright & Modern</p>",
+            "button_link": "shopify://collections/white-gold-jewellery",
+            "button_text": ""
+          }
+        },
+        "image_and_text_mw4T7M": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Rose_Gold_9f38f866-611f-4dca-86c6-382a002be974.png",
+            "grid_image_size": "natural",
+            "heading": "Rose Gold",
+            "text": "<p>Romantic & Vintage</p>",
+            "button_link": "shopify://collections/rose-gold-jewellery",
+            "button_text": ""
+          }
+        },
+        "image_and_text_JaJGmA": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Platinum_cb40328f-b3d7-4e5b-b0e4-3bfda1d7a993.png",
+            "grid_image_size": "natural",
+            "heading": "Platinum",
+            "text": "<p>Naturally White & Durable</p>",
+            "button_link": "shopify://collections/platinum-jewellery",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_jteThA",
+        "image_and_text_h7MD8y",
+        "image_and_text_Hbree8",
+        "image_and_text_mw4T7M",
+        "image_and_text_JaJGmA"
+      ],
+      "name": "Shop by Metal",
+      "settings": {
+        "title": "Shop by Metal.",
+        "description": "<p>Choose the tone that suits your style.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382e",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 5,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "rich_text_Cxi9cU": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_reeTLf": {
+          "type": "heading",
+          "settings": {
+            "heading": "View All Jewellery at Griffin & Co.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_reeTLf"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 150,
+        "section_padding_bottom": 72,
+        "colors": "white"
       }
     },
     "product-grid": {
@@ -251,9 +536,9 @@
         "show_promo_block": true,
         "promo_image": "shopify://shop_images/Bespoke_Experience.jpg",
         "promo_subtitle": "Create Your Own",
-        "promo_heading": "Ready to design your own {{ collection.title }}?",
+        "promo_heading": "Ready to design your own Jewellery?",
         "promo_button_text": "Book Consultation",
-        "promo_text": "<p>Looking for bespoke {{ collection.title }}? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
+        "promo_text": "<p>Looking for bespoke jewellery? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
         "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
@@ -263,7 +548,7 @@
         "heading_8nK3xQ": {
           "type": "heading",
           "settings": {
-            "heading": "SHOP FOR {{ collection.title }} FROM OUR INSTAGRAM.",
+            "heading": "SHOP FOR FINE JEWELLERY FROM OUR INSTAGRAM.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -281,7 +566,7 @@
         "heading_8nK3xQ",
         "richtext_AmDEia"
       ],
-      "name": "t:sections.text--rich-text.presets.name",
+      "name": "Instagram Portfolio",
       "settings": {
         "section_width": "content",
         "text_alignment_desktop": "center",
@@ -456,7 +741,7 @@
         "text_f9dPTc": {
           "type": "text",
           "settings": {
-            "text": "<p>One-off {{ collection.title }} made especially for you. Book an in-store or at home appointment to browse all of our {{ collection.title }}, Jewellery, Diamonds and Gemstones.</p>",
+            "text": "<p>One-off jewellery made especially for you. Book an in-store or at home appointment to browse all of our Engagement Rings, Jewellery, Diamonds and Gemstones.</p>",
             "font_size_desktop": 100,
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
@@ -576,7 +861,7 @@
       ],
       "name": "t:sections.faq.presets.name",
       "settings": {
-        "title": "Frequently asked questions About {{ collection.title }}.",
+        "title": "Frequently asked questions About Fine Jewellery.",
         "description": "<p>Can’t find the answers you'r looking for? Our team is on hand from Tuesday to Saturday, 9:30am - 5pm.</p>",
         "section_header_alignment": "center",
         "faq_icon": "plus_minus",
@@ -585,86 +870,18 @@
         "section_padding_bottom": 72,
         "colors": "white"
       }
-    },
-    "template_product_info_columns_pTa33h": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "text_kyXqex": {
-          "type": "text",
-          "name": "West Sussex",
-          "settings": {
-            "heading": "",
-            "text": "{{ collection.metafields.custom.west_sussex_links | metafield_tag }}",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_qpRnDB": {
-          "type": "text",
-          "name": "Hampshire",
-          "settings": {
-            "heading": "",
-            "text": "{{ collection.metafields.custom.hampshire_links | metafield_tag }}",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_y6b63y": {
-          "type": "text",
-          "name": "Surrey",
-          "settings": {
-            "heading": "",
-            "text": "{{ collection.metafields.custom.surrey_links | metafield_tag }}",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_HDwbGF": {
-          "type": "text",
-          "name": "Greater London",
-          "settings": {
-            "heading": "",
-            "text": "{{ collection.metafields.custom.greater_london_links | metafield_tag }}",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_kyXqex",
-        "text_qpRnDB",
-        "text_y6b63y",
-        "text_HDwbGF"
-      ],
-      "name": "Areas We Cover",
-      "settings": {
-        "title": "Areas We Cover for {{ collection.title }}.",
-        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England for at home jewellery display presentation, consultations and delivery.</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "dark"
-      }
     }
   },
   "order": [
     "collection-header-spotlight",
     "hero_image_with_text_y6wMXR",
-    "scrolling_banner_QRVnnY",
+    "scrolling_banner_ax78DK",
+    "template_product_info_columns_KF8Xjh",
     "visual_navigation_banner_7dCHG9",
+    "template_product_info_columns_VMAkdB",
+    "template_product_info_columns_ErXAUY",
+    "template_product_info_columns_AftFCp",
+    "rich_text_Cxi9cU",
     "product-grid",
     "rich_text_Vht6Nh",
     "1778864481e2fbb2e6",
@@ -672,7 +889,6 @@
     "template_product_info_columns_MWyHgD",
     "image_with_text_overlay_UC8XAh",
     "custom_liquid_pE3JDM",
-    "faq_kqyrJn",
-    "template_product_info_columns_pTa33h"
+    "faq_kqyrJn"
   ]
 }
