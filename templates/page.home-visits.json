@@ -585,43 +585,99 @@
         "colors": "white"
       }
     },
-    "social_proof_hv": {
+    "social_proof_eHrN3G": {
       "type": "social-proof",
       "blocks": {
-        "review_hv_1": {
+        "text_review_WGQB9G": {
           "type": "text_review",
           "settings": {
-            "review_title": "\"Unmatched Convenience\"",
-            "review_text": "<p>The convenience of having the designer come to my home was unmatched. The level of detail and the personal attention made the process of creating my engagement ring truly special.</p>",
-            "author": "Lady Catherine W.",
+            "image": "shopify://shop_images/1766070306__1766070305474-celeste__huge.jpg",
+            "review_title": "\"My fiancée is over the moon with her ring!\"",
+            "review_text": "<p>Cannot thank the team at Griffin & Co enough, they helped me design the most beautiful bespoke engagement ring for my fiancée!</p><p>They made the whole process so enjoyable and unique to me.</p>",
+            "author": "Celeste",
             "verified": true,
             "verified_color": "#004225",
-            "date": "15-06-2026"
+            "date": "18-12-2025"
           }
         },
-        "review_hv_2": {
+        "text_review_xeyLw7": {
           "type": "text_review",
           "settings": {
-            "review_title": "\"Complete Trust\"",
-            "review_text": "<p>I had several heirloom pieces that needed remodelling. Having a professional evaluate them in my own home gave me a level of comfort and trust that I wouldn't have found elsewhere.</p>",
-            "author": "Julian R.",
+            "image": "shopify://shop_images/1768495195__1768495191976-unnamed__huge.jpg",
+            "review_title": "\"I couldn’t be happier with my experience.\"",
+            "review_text": "<p>Cian and the whole team were fantastic from start to finish. We were never rushed and were given plenty of time to consider our options. </p><p>After some thought, we asked Cian to design a ring for us, and the result is absolutely amazing. Would highly recommend</p>",
+            "author": "Bobby",
             "verified": true,
             "verified_color": "#004225",
-            "date": "10-05-2026"
+            "date": "9-1-2026"
+          }
+        },
+        "text_review_ryKjTh": {
+          "type": "text_review",
+          "settings": {
+            "review_title": "\"Lovely shopping experience today.\"",
+            "review_text": "<p>Great service and very happy with purchase. Would recommend.</p>",
+            "author": "Kevin",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "10-04-2026"
+          }
+        },
+        "text_review_HHwaXW": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070332__1766070330520-mcmatt__huge.jpg",
+            "review_title": "\"Purchased a bracelet from Griffin & Co. as a gift, great quality and looks amazing\"",
+            "review_text": "<p>Cannot thank the team at Griffin & Co enough, they helped me design the most beautiful bespoke engagement ring for my fiancée!</p><p>They made the whole process so enjoyable and unique to me.</p>",
+            "author": "McMatt",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "15-12-2025"
+          }
+        },
+        "text_review_pmdc6H": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070257__1766070251766-lauren__original_668a97dc-9b6b-417f-b31c-caa0a77114b6.avif",
+            "review_title": "\"I returned to Griffin after having such a wonderful experience previously, and once again they truly exceeded my expectations.\"",
+            "review_text": "<p>This time, I brought in some very sentimental pieces of jewellery to be remodelled, and the team couldn’t have been more attentive and professional. </p><p>They took the time to listen carefully to my ideas, offered helpful guidance, and perfectly brought my design to life. The finished piece is absolutely stunning and holds so much meaning to me. I wouldn’t hesitate to recommend them to anyone looking for exceptional service and craftsmanship.</p>",
+            "author": "Lauren",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "29-9-2025"
+          }
+        },
+        "text_review_PMnhhy": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070286__1766070284569-unnamed1__original.jpg",
+            "review_title": "\"Thanks guys I love it.\"",
+            "review_text": "<p>2 old rings made into a beautiful original ring.</p>",
+            "author": "Sally",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "27-7-2026"
           }
         }
       },
       "block_order": [
-        "review_hv_1",
-        "review_hv_2"
+        "text_review_WGQB9G",
+        "text_review_xeyLw7",
+        "text_review_ryKjTh",
+        "text_review_HHwaXW",
+        "text_review_pmdc6H",
+        "text_review_PMnhhy"
       ],
-      "name": "Client Stories",
+      "custom_css": [
+        ".text-review-block .review-title {font-size: var(--h6-size);}"
+      ],
+      "name": "Reviews",
       "settings": {
         "rating_image": "shopify://shop_images/google-business.png",
         "image_max_width": 120,
-        "additional_text": "Rated 5 stars by 100s of Clients in Chichester & Beyond",
+        "additional_text": "Rated 5 stars by 100s of Clients in {{ page.metafields.custom.location.value }} & Beyond",
         "title": "Experiences in Private Consultations.",
-        "description": "<p>Our home visit service is more than just convenience; it is about trust and the luxury of time. Read how our clients have experienced the atelier in their own sanctuary.</p>",
+        "description": "<p>Our home visit service is more than just convenience; it is about trust and the luxury of time. Read how our clients have experienced the atelier in their own sanctuary.</p><p></p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
         "scroller_position": "right",
         "section_padding_top": 36,
         "section_padding_bottom": 72,
@@ -650,7 +706,7 @@
         "custom_media_ratio": "square",
         "show_image": true,
         "image_shape": "natural",
-        "post_limit": 1,
+        "post_limit": 8,
         "show_tags": false,
         "blog_show_date": true,
         "show_author": true,
@@ -741,6 +797,7 @@
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/Interior_Elements_7.webp",
         "image_max_width": 600,
         "title": "",
         "text": "",
@@ -757,94 +814,6 @@
         "button_text_color": "#ffffff",
         "colors": "white"
       }
-    },
-    "secondary_conv_hv_1": {
-      "type": "image-with-text",
-      "name": "Private Home Visits",
-      "settings": {
-        "image": "shopify://shop_images/Home_Visits.png",
-        "layout": "left",
-        "title": "Bespoke Consultations in Your Home.",
-        "text": "<p>While our Chichester showroom is the heart of our design process, we understand that some clients prefer the security and comfort of their own environment.</p><p>For custom commissions, we offer a private consultation service that brings the entire expertise of our workshop to your door.</p>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
-        "mobile-text-size": 100,
-        "button_link": "#booking",
-        "button_label": "Book a Visit",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "secondary_conv_hv_2": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_hv_s2": {
-          "type": "heading",
-          "settings": {
-            "title": "Visit Our Chichester Showroom",
-            "font_size_desktop": "h2",
-            "font_size_mobile": "h2-mobile",
-            "heading_bottom_spacing": 25
-          }
-        },
-        "text_hv_s2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Prefer the atmosphere of our physical studio? We welcome you to experience our heritage in person at our Chichester residence.</p>",
-            "font_size_desktop": 100,
-            "font_size_mobile": 100,
-            "text_bottom_spacing": 20
-          }
-        },
-        "button_hv_s2": {
-          "type": "button",
-          "settings": {
-            "first_button_link": "/pages/visit-us",
-            "first_button_label": "Visit the Showroom",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "buttons_background": "#e68819",
-            "buttons_text": "#ffffff",
-            "buttons_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "heading_hv_s2",
-        "text_hv_s2",
-        "button_hv_s2"
-      ],
-      "name": "Showroom CTA",
-      "settings": {
-        "height_desktop": "650px",
-        "text_position_desktop": "center",
-        "text_alignment_desktop": "center",
-        "caption_width_desktop": 50,
-        "height_mobile": "500px",
-        "text_position_mobile": "center",
-        "text_alignment_mobile": "left",
-        "section_link": "",
-        "animation_style": "parallax",
-        "section_width": "full",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "text_color": "#ffffff",
-        "caption_bg_color": "rgba(0,0,0,0)",
-        "image_overlay_color": "#242424",
-        "image_overlay_opacity": 40
-      }
     }
   },
   "order": [
@@ -859,10 +828,8 @@
     "image_with_text_overlay_hv_cta",
     "custom_liquid_hv_anchor",
     "custom_liquid_hv_booking",
-    "social_proof_hv",
+    "social_proof_eHrN3G",
     "blog_posts_hv_guide",
-    "faq_home_visit",
-    "secondary_conv_hv_1",
-    "secondary_conv_hv_2"
+    "faq_home_visit"
   ]
 }
