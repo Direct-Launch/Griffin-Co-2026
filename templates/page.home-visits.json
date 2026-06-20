@@ -13,9 +13,9 @@
       "type": "hero-image-with-text",
       "name": "Hero - Home Visits",
       "settings": {
-        "image": "shopify://shop_images/Home_Visit_Hero.jpg",
+        "image": "shopify://shop_images/Home_Visits.png",
         "layout": "left",
-        "title": "Exclusive Home Visit Consultations in {{ page.metafields.custom.location.value }}.",
+        "title": "Exclusive Home Visit Consultations around {{ page.metafields.custom.location.value }}.",
         "text": "<p>Experience the pinnacle of bespoke jewellery design from the comfort and privacy of your own home. Our master designers bring the heritage, expertise, and atelier experience of Griffin & Co. directly to you.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
@@ -32,7 +32,7 @@
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
         "button_link_2": "shopify://pages/contact",
-        "button_label_2": "Contact Our Studio",
+        "button_label_2": "Contact Us",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
         "button_background_color_2": "#e68819",
@@ -174,7 +174,6 @@
       "type": "image-with-text",
       "name": "The Studio Experience at Home",
       "settings": {
-        "image": "shopify://shop_images/Home_Visit_Setup.jpg",
         "layout": "right",
         "title": "What We Bring to Your Door.",
         "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
@@ -203,7 +202,6 @@
         "step_inquiry": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/HV_Step1.jpg",
             "grid_image_size": "square",
             "heading": "The Initial Inquiry",
             "text": "<p>A brief introductory call to understand your vision, requirements, and the scope of the piece or service you require. We listen to your story first.</p>",
@@ -214,7 +212,6 @@
         "step_visit": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/HV_Step2.jpg",
             "grid_image_size": "square",
             "heading": "The Private Consultation",
             "text": "<p>Our designer visits your home with a curated selection of materials and tools to refine the design, specifications, and gemstones in complete privacy.</p>",
@@ -225,7 +222,6 @@
         "step_creation": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/HV_Step3.jpg",
             "grid_image_size": "square",
             "heading": "Master Craftsmanship",
             "text": "<p>Your piece is handcrafted in our studio to the highest standards and delivered back to you for a final, perfect fitting and unveiling.</p>",
@@ -266,7 +262,6 @@
       "type": "image-with-text",
       "name": "Intimacy & Emotion",
       "settings": {
-        "image": "shopify://shop_images/Home_Visit_Intimacy.jpg",
         "layout": "left",
         "title": "A More Intimate Experience",
         "text": "<p>There is a profound difference in choosing a piece of jewellery when surrounded by the things you love. By visiting you in your own home, we can better understand your personal style, the lighting of your environment, and the emotional context of the piece you are commissioning.</p><p>It is a slower, more intentional way of creating luxury, ensuring the final piece feels like a natural extension of your life.</p>",
@@ -295,7 +290,6 @@
         "val_privacy": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/icon-privacy.svg",
             "grid_image_size": "square",
             "heading": "Absolute Privacy",
             "text": "<p>Avoid the public eye with a completely discreet appointment in your own secure environment, tailored to your schedule.</p>",
@@ -306,7 +300,6 @@
         "val_pace": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/icon-time.svg",
             "grid_image_size": "square",
             "heading": "Tailored Pace",
             "text": "<p>No rushed appointments. We dedicate the necessary time to ensure every detail is considered and every question is answered.</p>",
@@ -317,7 +310,6 @@
         "val_expert": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/icon-expert.svg",
             "grid_image_size": "square",
             "heading": "Expert Guidance",
             "text": "<p>Direct access to our lead designers without the need for travel, bringing the full resources of our Chichester studio to you.</p>",
@@ -589,7 +581,6 @@
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
-        "accordion_image": "shopify://shop_images/FAQ_HomeVisit.jpg",
         "image_max_width": 600,
         "title": "",
         "text": "",
@@ -659,7 +650,14 @@
           "type": "button",
           "settings": {
             "first_button_link": "/pages/visit-us",
-            "first_button_label": "Visit the Showroom"
+            "first_button_label": "Visit the Showroom",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#e68819",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 20
           }
         }
       },
@@ -670,7 +668,6 @@
       ],
       "name": "Showroom CTA",
       "settings": {
-        "image_desktop": "shopify://shop_images/Showroom_Interior.jpg",
         "height_desktop": "650px",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
