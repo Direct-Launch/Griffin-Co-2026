@@ -49,340 +49,476 @@
         "heading_exDmdb": {
           "type": "heading",
           "settings": {
-            "heading": "Meet the team",
-            "heading--text-size": "h4",
+            "heading": "Fine Jewellery Blog & Guides",
+            "heading--text-size": "h3",
             "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_qYkRRa": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Here, we invite you into the world of Griffin & Co., a space where craftsmanship, heritage, and modern innovation converge. The Journal is our curated collection of stories, insights, and expert guidance, designed to illuminate the intricate art of fine jewellery.<br/><br/><strong>Explore our series below to begin your journey.</strong></p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
           }
         }
       },
       "block_order": [
-        "heading_exDmdb"
+        "heading_exDmdb",
+        "richtext_qYkRRa"
       ],
       "settings": {
         "section_width": "content",
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
-        "section_padding_top": 60,
-        "section_padding_bottom": 0,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
         "colors": "white"
       }
     },
-    "gallery_slideshow_zkt6iy": {
-      "type": "gallery-slideshow",
+    "template_product_info_columns_6hcQ3D": {
+      "type": "template--product--info-columns",
       "blocks": {
-        "image_7E9egg": {
-          "type": "image",
+        "image_and_text_cLewPQ": {
+          "type": "image_and_text",
           "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "CEO | Principal Designer",
-            "title": "Jessica",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
+            "image": "shopify://shop_images/Bespoke_Engagement_Ring_Design.jpg",
+            "grid_image_size": "wide",
+            "heading": "Bespoke Engagement Ring Design",
+            "text": "<p>Your complete guide to designing a custom engagement ring. Explore articles on diamond selection, ring styles, the bespoke process, ethical sourcing, and more.</p>",
+            "button_link": "shopify://blogs/guide-bespoke-engagement-ring-design",
+            "button_text": "Explore Series"
           }
         },
-        "image_HK9ERB": {
-          "type": "image",
+        "image_and_text_9ddAhQ": {
+          "type": "image_and_text",
           "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Group Finance Executive",
-            "title": "Cleo",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
+            "image": "shopify://shop_images/Lab-Grown_Diamond_Engagement_Rings_a13e202d-9ca0-4273-90e1-8d248d321c5f.jpg",
+            "grid_image_size": "wide",
+            "heading": "Lab-Grown Diamonds",
+            "text": "<p>Your expert guide to lab-grown diamonds in Chichester. Learn why these real, ethical diamonds are perfect for your engagement ring. Griffin & Co. explains all.</p>",
+            "button_link": "shopify://blogs/guide-lab-diamonds",
+            "button_text": "Explore Series"
           }
         },
-        "image_aQXtBd": {
-          "type": "image",
+        "image_and_text_NGp6Yx": {
+          "type": "image_and_text",
           "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Senior Designer",
-            "title": "Emma",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_k76xM4": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Senior CAD Designer",
-            "title": "Charlotte",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
+            "image": "shopify://shop_images/Cut.jpg",
+            "grid_image_size": "wide",
+            "heading": "Gemstone Cuts",
+            "text": "<p>In this guide, our jewellery experts break down the most popular cuts head-to-head. We compare their unique sparkle, visual size, and how they feel on the hand, so you can find the perfect shape that tells your story.</p>",
+            "button_link": "shopify://blogs/guide-gemstone-cuts",
+            "button_text": "Explore Series"
           }
         }
       },
       "block_order": [
-        "image_7E9egg",
-        "image_HK9ERB",
-        "image_aQXtBd",
-        "image_k76xM4"
+        "image_and_text_cLewPQ",
+        "image_and_text_9ddAhQ",
+        "image_and_text_NGp6Yx"
       ],
+      "name": "Blogs 1",
       "settings": {
-        "title": "",
-        "description": "",
+        "title": "Jewellery Guide Series.",
+        "description": "<p>Explore our Guide Series on everything Jewellery.</p>",
         "section_header_alignment": "center",
-        "image_shape": "natural",
-        "layout_style_desktop": "grid",
-        "hover_navigation_desktop": "left-and-right",
-        "peek_desktop": true,
-        "images_per_row_desktop": 4,
-        "text_position_desktop": "bottom_left",
-        "show_on_hover": false,
-        "layout_style_mobile": "grid",
-        "navigation_mobile": "peek",
-        "images_per_row_mobile": "1",
-        "text_position_mobile": "bottom_left",
-        "buttons_style": "filled",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
         "override_button_colors": false,
-        "button_background_color": "#e68819",
+        "button_background_color": "#E68819",
         "button_text_color": "#ffffff",
-        "section_width": "content",
-        "remove_spacing": false,
-        "section_padding_top": 60,
-        "section_padding_bottom": 10,
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
         "colors": "white"
       }
     },
-    "collage_CmGatJ": {
-      "type": "collage",
+    "template_product_info_columns_eVQKqL": {
+      "type": "template--product--info-columns",
       "blocks": {
-        "image_HtMmp7": {
-          "type": "image",
+        "image_and_text_tf6ELH": {
+          "type": "image_and_text",
           "settings": {
-            "desktop_position": "md-min-align-bottom md-min-justify-right",
-            "heading_size": "h5",
-            "mobile_position": "md-max-align-bottom md-max-justify-right",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "",
-            "text": "Add a description to your image here.",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0)"
+            "image": "shopify://shop_images/Bespoke_Jewellery_Design_Service.jpg",
+            "grid_image_size": "wide",
+            "heading": "Bespoke Jewellery Design Service",
+            "text": "<p>Discover the art of bespoke jewellery design with Griffin & Co. From engagement rings to heirlooms, our artisans work with you to bring your vision to life.</p>",
+            "button_link": "shopify://blogs/guide-bespoke-jewellery-design-service",
+            "button_text": "Explore Series"
           }
         },
-        "background_video_QKYgcX": {
-          "type": "background_video",
+        "image_and_text_UpUV6Y": {
+          "type": "image_and_text",
           "settings": {
-            "video_url": "",
-            "video_alt_text": "",
-            "heading_size": "h5",
-            "mobile_video_url": "",
-            "mobile_video_alt_text": "",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-bottom md-min-justify-left",
-            "mobile_position": "md-max-align-bottom md-max-justify-left",
-            "text_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0)"
+            "image": "shopify://shop_images/Jewellery_Repair_Service.jpg",
+            "grid_image_size": "wide",
+            "heading": "Jewellery Repair Service",
+            "text": "<p>Trust our expert UK jewellery repair service. From ring resizing to diamond restoration & bespoke remodelling, our Chichester goldsmiths restore your treasures.</p>",
+            "button_link": "shopify://blogs/guide-jewellery-repair-service",
+            "button_text": "Explore Series"
           }
         },
-        "text_nNj4q8": {
-          "type": "text",
+        "image_and_text_adiad6": {
+          "type": "image_and_text",
           "settings": {
-            "heading": "",
-            "heading_size": "h5",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Jessica Flinn is a passionate and vibrant team of skilled designers, jewellers and fine jewellery advocates. Everyone in the team truly believes that fine jewellery canand should be done differently. They are the driving force behind our ethical ethos and our unique design approach. Explore our team's experience and expertise to learn more about what drives us to be pioneers in the jewellery industry.",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-center md-min-justify-left",
-            "text_alignment": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "#50423a"
+            "image": "shopify://shop_images/Remodelling_Landscape.png",
+            "grid_image_size": "wide",
+            "heading": "Jewellery Remodelling Service",
+            "text": "<p>Have sentimental or outdated pieces you'd love to transform? Our experts can consult with you on remodelling projects, breathing new life into your cherished jewellery.</p>",
+            "button_link": "shopify://pages/jewellery-remodelling-service",
+            "button_text": "Explore Series"
           }
         }
       },
       "block_order": [
-        "image_HtMmp7",
-        "background_video_QKYgcX",
-        "text_nNj4q8"
+        "image_and_text_tf6ELH",
+        "image_and_text_UpUV6Y",
+        "image_and_text_adiad6"
       ],
+      "name": "Blogs 2",
       "settings": {
         "title": "",
         "description": "",
         "section_header_alignment": "center",
-        "section_width": "content",
-        "remove_spacing": false,
-        "block_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
         "section_padding_top": 0,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "rich_text_6AzFUF": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LmyVKg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Real Love Stories & Custom Rings",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_F9z4Jx": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Discover the love stories behind Griffin & Co's bespoke engagement rings. Real couples share their journey from design inspiration to the final creation.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_LmyVKg",
+        "richtext_F9z4Jx"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
         "section_padding_bottom": 0,
-        "width_1": "4",
-        "height_1": "4",
-        "width_2": "4",
-        "height_2": "4",
-        "width_3": "2",
-        "height_3": "4",
-        "width_4": "2",
-        "height_4": "2",
-        "width_5": "2",
-        "height_5": "2",
-        "width_6": "1",
-        "height_6": "4",
+        "colors": "white"
+      }
+    },
+    "scrolling_banner_gYEYtq": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_4WxXdy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SnapReels.Net_640499069_17917778208290142_2246972236710067589_n.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        },
+        "image_pca8pV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SnapReels.Net_640844084_17917778217290142_6301963140975208579_n.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        },
+        "image_wj4Pik": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SnapReels.Net_640820498_17917778190290142_7997773649391177833_n.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        },
+        "image_7Y9nCV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Image-572_-_Copy.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        },
+        "image_Mq47FJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/625768919_17914974615290142_1827597049858623779_n.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        },
+        "image_d94dyV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Jessica_Finlay_s_Norway_Proposal_3.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        },
+        "image_eNgaXx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Jessica_Finlay_s_Norway_Proposal_2.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        },
+        "image_nJmYhC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Blog_-_Engagement_Ring_Story.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        },
+        "image_Upz8MJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-07-05_at_11.21.33_d6a6846e.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        },
+        "image_KpAYqA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WhatsApp_Image_2025-07-05_at_11.21.32_40a6ddb8.jpg",
+            "height_desktop": 200,
+            "height_mobile": 200,
+            "link": "shopify://blogs/engagement-stories"
+          }
+        }
+      },
+      "block_order": [
+        "image_4WxXdy",
+        "image_pca8pV",
+        "image_wj4Pik",
+        "image_7Y9nCV",
+        "image_Mq47FJ",
+        "image_d94dyV",
+        "image_eNgaXx",
+        "image_nJmYhC",
+        "image_Upz8MJ",
+        "image_KpAYqA"
+      ],
+      "name": "Proposals",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": false,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 80,
+        "section_padding_top": 10,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 20,
+        "space_between_blocks_mobile": 10,
+        "rotate": "0",
+        "override_border_radius": false,
         "color_scheme": "white"
       }
     },
-    "gallery_slideshow_8Bgjpf": {
-      "type": "gallery-slideshow",
+    "image_with_text_tXezfe": {
+      "type": "image-with-text",
+      "name": "Promotions & Offers",
+      "settings": {
+        "image": "shopify://shop_images/Clarity.jpg",
+        "layout": "left",
+        "title": "Promotions & Offers",
+        "text": "<p>Explore current promotions at Griffin & Co Fine Jewellery. Discover exclusive discounts, seasonal sales, and special offers on bespoke rings, engagement rings, and more.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/promotions",
+        "button_label": "Learn More",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 150,
+        "colors": "white"
+      }
+    },
+    "blog_posts_KGRRYt": {
+      "type": "blog-posts",
       "blocks": {
-        "image_8khFg8": {
-          "type": "image",
+        "blog_irpYm8": {
+          "type": "blog",
           "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Purchasing and Procurement Executive",
-            "title": "Natasha",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_8regCF": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Marketing Manager",
-            "title": "Megan",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_Rnja4b": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Brand Lead",
-            "title": "Rich",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_qQefyQ": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Marketing Manager",
-            "title": "Megan",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_feeAEB": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Laser Supervisor",
-            "title": "Amy",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_idaahD": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Marketing Executive",
-            "title": "Maddy",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_9iyDa9": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Web Content Specialist",
-            "title": "Carlos",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_hUfMPd": {
-          "type": "image",
-          "settings": {
-            "link": "",
-            "button_label": "",
-            "subheading": "Jewellery Stylist",
-            "title": "Peter",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
+            "blog": "giveaways"
           }
         }
       },
       "block_order": [
-        "image_8khFg8",
-        "image_8regCF",
-        "image_Rnja4b",
-        "image_qQefyQ",
-        "image_feeAEB",
-        "image_idaahD",
-        "image_9iyDa9",
-        "image_hUfMPd"
+        "blog_irpYm8"
       ],
+      "name": "Community Giveaways",
       "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
+        "title": "Community Giveaways.",
+        "description": "<p>Explore all of Griffin & Co's community giveaways in one place! From diamond treasure hunts to seasonal prizes, see our past winners & find out how to enter next.</p>",
+        "section_header_alignment": "left",
+        "media_source": "metafields",
+        "custom_media_ratio": "square",
+        "show_image": true,
         "image_shape": "natural",
-        "layout_style_desktop": "grid",
+        "post_limit": 8,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": false,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
         "hover_navigation_desktop": "left-and-right",
         "peek_desktop": true,
-        "images_per_row_desktop": 4,
-        "text_position_desktop": "bottom_left",
-        "show_on_hover": false,
-        "layout_style_mobile": "grid",
-        "navigation_mobile": "peek",
-        "images_per_row_mobile": "1",
-        "text_position_mobile": "bottom_left",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
+        "images_per_row_desktop": 3,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "faq_with_image_6W9cPD": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_JNrH7e": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What can I learn from the \"Bespoke Engagement Ring Design\" guide series?",
+            "open_by_default": false,
+            "text": "<p>This complete guide series walks you through the entire custom engagement ring journey. </p><p>You'll find expert articles on crucial topics like diamond selection (both natural and lab-grown), exploring different ring styles and settings, understanding the step-by-step bespoke process, and the importance of ethical sourcing for your materials.</p>",
+            "page": ""
+          }
+        },
+        "accordion_whVgPH": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "I'm new to lab-grown diamonds. Is there a guide for that?",
+            "open_by_default": false,
+            "text": "<p>Yes, our \"Lab-Grown Diamonds\" guide is an expert resource perfect for anyone curious about this modern, ethical option. It explains what lab-grown diamonds are, why they are real diamonds, and the key benefits of choosing one for your engagement ring or fine jewellery, particularly for clients in and around Chichester.</p>",
+            "page": ""
+          }
+        },
+        "accordion_ChQqBh": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How do I properly care for my jewellery? Do you have a guide for that?",
+            "open_by_default": false,
+            "text": "<p>Our \"Fine Jewellery Care\" guide provides comprehensive, expert advice to keep your treasured pieces safe and sparkling. </p><p>The articles cover the best methods for cleaning different materials like gold, silver, and diamonds, as well as essential tips on proper storage to prevent damage and maintain your heirlooms.</p>",
+            "page": ""
+          }
+        },
+        "accordion_HLkVVU": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What's the difference between your \"Bespoke Jewellery Design\" and \"Jewellery Remodelling\" guides?",
+            "open_by_default": false,
+            "text": "<p>Our \"Bespoke Jewellery Design\" guide explores the art of creating a brand-new piece of jewellery from scratch, turning your unique vision into reality. </p><p>In contrast, the \"Jewellery Remodelling\" guide focuses on transforming your existing, perhaps sentimental or outdated, pieces into a beautiful new design you'll love to wear again.</p>",
+            "page": ""
+          }
+        },
+        "accordion_z6afdq": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What kind of content can I expect to find in \"The Griffin & Co. Journal\"?",
+            "open_by_default": false,
+            "text": "<p>\"The Griffin & Co. Journal\" is our curated collection of expert guidance, insights, and stories illuminating the world of fine jewellery. </p><p>It features all our main guide series—on topics like bespoke design, lab diamonds, repairs, and jewellery care—as well as inspirational customer stories and updates on community giveaways.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_JNrH7e",
+        "accordion_whVgPH",
+        "accordion_ChQqBh",
+        "accordion_HLkVVU",
+        "accordion_z6afdq"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Frequently Asked Questions.",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/Showroom_8.webp",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
         "button_text_color": "#ffffff",
-        "section_width": "content",
-        "remove_spacing": false,
-        "section_padding_top": 10,
-        "section_padding_bottom": 60,
         "colors": "white"
       }
     }
@@ -390,8 +526,12 @@
   "order": [
     "hero_image_with_text_3CYmBU",
     "rich_text_FNEwgY",
-    "gallery_slideshow_zkt6iy",
-    "collage_CmGatJ",
-    "gallery_slideshow_8Bgjpf"
+    "template_product_info_columns_6hcQ3D",
+    "template_product_info_columns_eVQKqL",
+    "rich_text_6AzFUF",
+    "scrolling_banner_gYEYtq",
+    "image_with_text_tXezfe",
+    "blog_posts_KGRRYt",
+    "faq_with_image_6W9cPD"
   ]
 }
