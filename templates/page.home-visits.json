@@ -1,0 +1,656 @@
+{
+  "sections": {
+    "hero_home_visit_HV01": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Home Visits",
+      "settings": {
+        "image": "shopify://shop_images/Home_Visit_Hero.jpg",
+        "layout": "left",
+        "title": "Exquisite Jewellery, Delivered to Your Door in {{ page.metafields.custom.location.value }}.",
+        "text": "<p>Experience the pinnacle of bespoke jewellery design from the comfort and privacy of your own home. Our master designers bring the heritage and expertise of Griffin & Co. directly to you.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "#booking",
+        "button_label_1": "Book Your Home Visit",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "/pages/contact",
+        "button_label_2": "Contact Our Studio",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "scrolling_banner_home_visit_HV02": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_HV_P1": {
+          "type": "text",
+          "settings": {
+            "text": "Absolute Privacy & Discretion",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_HV_P2": {
+          "type": "text",
+          "settings": {
+            "text": "Expert Master Design",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_HV_P3": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced Gemstones",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_HV_P4": {
+          "type": "text",
+          "settings": {
+            "text": "Handcrafted UK Heritage",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_HV_P5": {
+          "type": "text",
+          "settings": {
+            "text": "Tailored Personal Consultation",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_HV_P1",
+        "text_HV_P2",
+        "text_HV_P3",
+        "text_HV_P4",
+        "text_HV_P5"
+      ],
+      "name": "The Griffin & Co. Promise",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "accent"
+      }
+    },
+    "rich_text_intro_HV03": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HV_01": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Luxury of Convenience in {{ page.metafields.custom.location.value }}.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_HV_01": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>At Griffin & Co., we believe that the acquisition of a fine piece of jewellery should be as seamless and sophisticated as the piece itself. Our Home Visit service is designed for the discerning client who values time, privacy, and a personalised approach.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "richtext_HV_02": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Whether you are commissioning a bespoke engagement ring, seeking a master's touch for a cherished heirloom repair, or exploring our curated collections, we bring the entire expertise of our studio to your residence.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_HV_01",
+        "richtext_HV_01",
+        "richtext_HV_02"
+      ],
+      "name": "Introduction",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "info_columns_services_HV04": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "service_1_HV": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/HomeVisit_Bespoke.jpg",
+            "grid_image_size": "square",
+            "heading": "Bespoke Design",
+            "text": "<p>From initial sketch to final polish, we guide you through the creation of a one-of-a-kind masterpiece, discussing gemstones and settings in your own environment.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "service_2_HV": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/HomeVisit_Repair.jpg",
+            "grid_image_size": "square",
+            "heading": "Repairs & Remodelling",
+            "text": "<p>Trust our master goldsmiths with your most precious items. We offer secure collection and consultation for restoration and redesign of family heirlooms.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "service_3_HV": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/HomeVisit_Collection.jpg",
+            "grid_image_size": "square",
+            "heading": "Curated Collections",
+            "text": "<p>Browse a selection of our signature pieces and rare gemstones, curated specifically for your tastes and presented for your private viewing.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "service_1_HV",
+        "service_2_HV",
+        "service_3_HV"
+      ],
+      "name": "Services Available",
+      "settings": {
+        "title": "Our Full Suite of Services, At Your Home.",
+        "description": "<p>The expertise of the Chichester studio, brought to you.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "light"
+      }
+    },
+    "info_columns_journey_HV05": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "step_1_HV": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/HV_Step1.jpg",
+            "grid_image_size": "square",
+            "heading": "The Initial Inquiry",
+            "text": "<p>A brief introductory call to understand your vision, requirements, and the scope of the piece or service you require.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "step_2_HV": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/HV_Step2.jpg",
+            "grid_image_size": "square",
+            "heading": "The Private Consultation",
+            "text": "<p>Our designer visits your home with a curated selection of materials, sketches, and tools to refine the design and specifications.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "step_3_HV": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/HV_Step3.jpg",
+            "grid_image_size": "square",
+            "heading": "Master Craftsmanship",
+            "text": "<p>Your piece is handcrafted in our studio to the highest standards and delivered back to you for a final, perfect fitting.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "step_1_HV",
+        "step_2_HV",
+        "step_3_HV"
+      ],
+      "name": "Home Visit Journey",
+      "settings": {
+        "title": "The Home Visit Journey.",
+        "description": "<p>A seamless transition from vision to heirloom.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_meaning_HV06": {
+      "type": "image-with-text",
+      "name": "Depth & Meaning",
+      "settings": {
+        "image": "shopify://shop_images/Home_Visit_Intimacy.jpg",
+        "layout": "right",
+        "title": "A More Intimate Experience.",
+        "text": "<p>There is a profound difference in choosing a piece of jewellery when surrounded by the things you love. By visiting you in your own home, we can better understand your personal style, the lighting of your environment, and the emotional context of the piece you are commissioning.</p><p>It is a slower, more intentional way of creating luxury.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "#booking",
+        "button_label": "Request a Private Visit",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "light"
+      }
+    },
+    "info_columns_value_HV07": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "val_1_HV": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/icon-privacy.svg",
+            "grid_image_size": "square",
+            "heading": "Absolute Privacy",
+            "text": "<p>Avoid the public eye with a completely discreet appointment in your own secure environment.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "val_2_HV": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/icon-time.svg",
+            "grid_image_size": "square",
+            "heading": "Tailored Pace",
+            "text": "<p>No rushed appointments. We dedicate the necessary time to ensure every detail is considered.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "val_3_HV": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/icon-expert.svg",
+            "grid_image_size": "square",
+            "heading": "Expert Guidance",
+            "text": "<p>Direct access to our lead designers without the need for travel or scheduling around store hours.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "val_1_HV",
+        "val_2_HV",
+        "val_3_HV"
+      ],
+      "name": "Value Proposition",
+      "settings": {
+        "title": "Why Choose a Griffin & Co. Home Visit?",
+        "description": "<p>The ultimate in bespoke convenience.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "cta_overlay_HV08": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_HV_CTA": {
+          "type": "heading",
+          "settings": {
+            "title": "Experience the Griffin & Co. Touch",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_HV_CTA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Reserve a date for your private home consultation and begin your jewellery journey in your own sanctuary.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_HV_CTA": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "#booking",
+            "first_button_label": "Request a Visit",
+            "second_button_link": "shopify://pages/schedule-an-appointment",
+            "second_button_label": "View Calendar",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_HV_CTA",
+        "text_HV_CTA",
+        "button_HV_CTA"
+      ],
+      "name": "Direct CTA",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Designer_Consultation_Overlay.jpg",
+        "height_desktop": "650px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "left",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "left",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 25
+      }
+    },
+    "anchor_HV09": {
+      "type": "custom-liquid",
+      "name": "Anchor",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<a id=\"booking\"></a>",
+        "section_width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "booking_form_HV10": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}",
+        "@media only screen and (max-width: 768px) {iframe { height: 1800px !important; max-height: none !important; }}"
+      ],
+      "name": "Booking Form",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/bespoke-design?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "section_width": "full-width",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "social_proof_HV11": {
+      "type": "social-proof",
+      "blocks": {
+        "review_1_HV": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/Client_1.jpg",
+            "review_title": "\"Unmatched Convenience\"",
+            "review_text": "<p>The convenience of having the designer come to my home was unmatched. The level of detail and the personal attention made the process of creating my engagement ring truly special.</p>",
+            "author": "Lady Catherine W."
+          }
+        },
+        "review_2_HV": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/Client_2.jpg",
+            "review_title": "\"Complete Trust\"",
+            "review_text": "<p>I had several heirloom pieces that needed remodelling. Having a professional evaluate them in my own home gave me a level of comfort and trust that I wouldn't have found elsewhere.</p>",
+            "author": "Julian R."
+          }
+        }
+      },
+      "block_order": [
+        "review_1_HV",
+        "review_2_HV"
+      ],
+      "name": "Client Experiences",
+      "settings": {
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "educational_link_HV12": {
+      "type": "blog-posts",
+      "settings": {
+        "title": "Expert Guidance",
+        "blog_handle": "guides",
+        "post_limit": 1,
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "light"
+      }
+    },
+    "faq_home_visit_HV13": {
+      "type": "faq-with-image",
+      "settings": {
+        "heading": "Home Visit Frequently Asked Questions",
+        "image": "shopify://shop_images/FAQ_HomeVisit.jpg",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      },
+      "blocks": {
+        "faq_1_HV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Which areas do you cover for home visits?",
+            "answer": "<p>We primarily serve Chichester, West Sussex, and the surrounding counties. For exceptional commissions, we are happy to discuss travel arrangements across the UK and internationally.</p>"
+          }
+        },
+        "faq_2_HV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How is security handled during a home visit?",
+            "answer": "<p>Security and discretion are our highest priorities. All our consultants are fully vetted, and all items brought for viewing are fully insured. We operate with strict confidentiality.</p>"
+          }
+        },
+        "faq_3_HV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How long does a typical home consultation last?",
+            "answer": "<p>Depending on the complexity of the project, a visit typically lasts between 60 to 90 minutes, ensuring we have ample time to explore all options without rush.</p>"
+          }
+        },
+        "faq_4_HV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I start a repair project via a home visit?",
+            "answer": "<p>Yes. We can assess the piece, take precise measurements, and provide a preliminary quote and timeline before securely transporting the item to our workshop.</p>"
+          }
+        },
+        "faq_5_HV": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is there a fee for the home visit?",
+            "answer": "<p>A consultation fee may apply depending on the location and scope of the project, which is typically credited toward the final cost of your commission or service.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "faq_1_HV",
+        "faq_2_HV",
+        "faq_3_HV",
+        "faq_4_HV",
+        "faq_5_HV"
+      ]
+    },
+    "secondary_conv_1_HV14": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify://shop_images/Private_Visit.jpg",
+        "layout": "text_first",
+        "title": "Private Home Visits.",
+        "text": "<p>Our most exclusive service, bringing the sanctuary of our studio to yours. Ideal for those who value absolute discretion and a tailored pace of creation.</p>",
+        "text_alignment": "left",
+        "button_link": "#booking",
+        "button_label": "Request Exclusive Access",
+        "buttons_style": "filled",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "light"
+      }
+    },
+    "secondary_conv_2_HV15": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_HV_S2": {
+          "type": "heading",
+          "settings": {
+            "title": "Visit Our Chichester Showroom",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile"
+          }
+        },
+        "text_HV_S2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Prefer the atmosphere of our physical studio? We welcome you to experience our heritage in person.</p>"
+          }
+        },
+        "button_HV_S2": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "/pages/visit-us",
+            "first_button_label": "Visit the Showroom"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HV_S2",
+        "text_HV_S2",
+        "button_HV_S2"
+      ],
+      "settings": {
+        "image_desktop": "shopify://shop_images/Showroom_Interior.jpg",
+        "height_desktop": "650px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "section_width": "full",
+        "text_color": "#ffffff",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 40
+      }
+    }
+  },
+  "order": [
+    "hero_home_visit_HV01",
+    "scrolling_banner_home_visit_HV02",
+    "rich_text_intro_HV03",
+    "info_columns_services_HV04",
+    "info_columns_journey_HV05",
+    "image_with_text_meaning_HV06",
+    "info_columns_value_HV07",
+    "cta_overlay_HV08",
+    "anchor_HV09",
+    "booking_form_HV10",
+    "social_proof_HV11",
+    "educational_link_HV12",
+    "faq_home_visit_HV13",
+    "secondary_conv_1_HV14",
+    "secondary_conv_2_HV15"
+  ]
+}
