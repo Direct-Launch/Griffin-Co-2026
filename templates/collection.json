@@ -14,7 +14,7 @@
       "type": "collection-header",
       "settings": {
         "show_breadcrumbs": true,
-        "show_title": false,
+        "show_title": true,
         "show_description": false,
         "show_image_desktop": false,
         "min_height_desktop": "original",
@@ -23,8 +23,8 @@
         "show_image_mobile": false,
         "min_height_mobile": "150",
         "content_position_mobile": "center",
-        "enable_parallax": false,
-        "enable_fade": false,
+        "enable_parallax": true,
+        "enable_fade": true,
         "section_width": "full",
         "section_margin_top": 0,
         "section_margin_bottom": 0,
@@ -34,95 +34,14 @@
         "image_overlay_opacity": 26
       }
     },
-    "image_with_text_JUyzah": {
-      "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/Headshot-102.jpg",
-        "layout": "right",
-        "title": "{{ collection.title }}",
-        "text": "<p>{{ collection.description }}</p>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h2",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
-        "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "colors": "accent"
-      }
-    },
-    "text_adverts_with_icon_xwmiBi": {
-      "type": "text-adverts-with-icon",
-      "blocks": {
-        "text_advert_FJXz36": {
-          "type": "text-advert",
-          "settings": {
-            "icon": "truck",
-            "title": "<strong>Step 1</strong>",
-            "text": "<p>Select a Setting</p>",
-            "link": "",
-            "button_label": ""
-          }
-        },
-        "text_advert_kKpce4": {
-          "type": "text-advert",
-          "settings": {
-            "icon": "exchange",
-            "title": "<strong>Step 2</strong>",
-            "text": "<p>Select a Diamond</p>",
-            "link": "",
-            "button_label": ""
-          }
-        },
-        "text_advert_zaE4g4": {
-          "type": "text-advert",
-          "settings": {
-            "icon": "globe",
-            "title": "<strong>Step 3</strong>",
-            "text": "<p>Complete Ring</p>",
-            "link": "",
-            "button_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_advert_FJXz36",
-        "text_advert_kKpce4",
-        "text_advert_zaE4g4"
-      ],
-      "disabled": true,
-      "name": "t:sections.text-adverts-with-icon.name",
-      "settings": {
-        "icon_size": "20px",
-        "show_dividers": true,
-        "text_alignment": "left",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "product-grid": {
       "type": "template--collection",
       "settings": {
-        "products-per-page": 6,
+        "products-per-page": 10,
         "desktop-products-per-row": 4,
-        "mobile-products-per-row": "2",
+        "mobile-products-per-row": "1",
         "pagination_options": "pagination_default",
-        "desktop_position": "topbar",
+        "desktop_position": "sidebar",
         "enable_sorting": true,
         "enable_filtering": true,
         "enable_collection_title": false,
@@ -140,132 +59,7 @@
         "highlight_show_border": true,
         "highlight_collapsible_tab": true,
         "highlight_open_close_icon": "plus_minus",
-        "highlight_button_borders": false,
-        "show_promo_block": true,
-        "promo_image": "shopify://shop_images/Bespoke_Experience.jpg",
-        "promo_subtitle": "Create Your Own",
-        "promo_heading": "Ready to design your own {{ collection.title }}?",
-        "promo_button_text": "Book Consultation",
-        "promo_text": "<p>Looking for bespoke {{ collection.title }}? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
-        "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
-      }
-    },
-    "template_product_recently_viewed_TFp99e": {
-      "type": "template--product--recently-viewed",
-      "name": "t:sections.template--product--recently-viewed.presets.name",
-      "settings": {
-        "title": "Recently viewed products",
-        "description": "",
-        "section_header_alignment": "center",
-        "layout_style": "slider",
-        "products_to_show": 8,
-        "grid-desktop": 4,
-        "grid-mobile": "2",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "show_highlight": false,
-        "highlight_position": "bottom",
-        "highlight_icon": "heart",
-        "highlight_heading": "Why we love it",
-        "highlight_reference": "",
-        "highlight_text_color": "rgba(0,0,0,0)",
-        "highlight_background_color": "rgba(0,0,0,0)",
-        "highlight_alignment": "left",
-        "highlight_font_size": "medium",
-        "highlight_show_border": true,
-        "highlight_collapsible_tab": true,
-        "highlight_open_close_icon": "plus_minus",
-        "highlight_button_borders": false,
-        "colors": "white",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff"
-      }
-    },
-    "image_with_text_TNiGrG": {
-      "type": "image-with-text",
-      "name": "t:sections.image--image-with-text.presets.name",
-      "settings": {
-        "layout": "left",
-        "title": "Image with text",
-        "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h3-mobile",
-        "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "colors": "light"
-      }
-    },
-    "faq_with_image_g6dkd4": {
-      "type": "faq-with-image",
-      "blocks": {
-        "accordion_T6VXfG": {
-          "type": "accordion",
-          "settings": {
-            "accordion_header": "About us",
-            "open_by_default": false,
-            "text": "<p>Place some content here to describe this topic.</p>",
-            "page": ""
-          }
-        },
-        "accordion_wCbMex": {
-          "type": "accordion",
-          "settings": {
-            "accordion_header": "About us",
-            "open_by_default": false,
-            "text": "<p>Place some content here to describe this topic.</p>",
-            "page": ""
-          }
-        },
-        "accordion_k7RUJi": {
-          "type": "accordion",
-          "settings": {
-            "accordion_header": "About us",
-            "open_by_default": false,
-            "text": "<p>Place some content here to describe this topic.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "accordion_T6VXfG",
-        "accordion_wCbMex",
-        "accordion_k7RUJi"
-      ],
-      "name": "t:sections.faq-with-image.presets.name",
-      "settings": {
-        "section_title": "Share your story",
-        "section_description": "",
-        "section_header_alignment": "center",
-        "faq_icon": "plus_minus",
-        "accordion_image": "shopify://shop_images/Headshot-102.jpg",
-        "image_max_width": 600,
-        "title": "",
-        "text": "",
-        "link": "",
-        "button_text": "",
-        "image_position_desktop": "left",
-        "image_position_mobile": "top",
-        "section_width": "full-width",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "image--background-color": "rgba(0,0,0,0)",
-        "image--text-color": "#333333",
-        "button_background_color": "#242424",
-        "button_text_color": "#FFFFFF",
-        "colors": "light"
+        "highlight_button_borders": false
       }
     },
     "rich_text_6VeUNi": {
@@ -292,7 +86,6 @@
         "heading_wnQMWW",
         "richtext_NxtGdn"
       ],
-      "disabled": true,
       "settings": {
         "section_width": "full-width",
         "text_alignment_desktop": "left",
@@ -301,65 +94,11 @@
         "section_padding_bottom": 30,
         "colors": "white"
       }
-    },
-    "faq_etdXHm": {
-      "type": "faq",
-      "blocks": {
-        "tab_content_7qJ6xi": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "open_by_default": false,
-            "text": "<p>Here you can place an explanation or answer to the question.</p>",
-            "page": ""
-          }
-        },
-        "tab_content_WzBf6M": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "open_by_default": false,
-            "text": "<p>Here you can place an explanation or answer to the question.</p>",
-            "page": ""
-          }
-        },
-        "tab_content_3t3nyk": {
-          "type": "tab_content",
-          "settings": {
-            "question": "Place your question or heading here",
-            "open_by_default": false,
-            "text": "<p>Here you can place an explanation or answer to the question.</p>",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "tab_content_7qJ6xi",
-        "tab_content_WzBf6M",
-        "tab_content_3t3nyk"
-      ],
-      "name": "t:sections.faq.presets.name",
-      "settings": {
-        "title": "Frequently asked questions",
-        "description": "",
-        "section_header_alignment": "center",
-        "faq_icon": "plus_minus",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
     }
   },
   "order": [
     "collection-header-spotlight",
-    "image_with_text_JUyzah",
-    "text_adverts_with_icon_xwmiBi",
     "product-grid",
-    "template_product_recently_viewed_TFp99e",
-    "image_with_text_TNiGrG",
-    "faq_with_image_g6dkd4",
-    "rich_text_6VeUNi",
-    "faq_etdXHm"
+    "rich_text_6VeUNi"
   ]
 }
