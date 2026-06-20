@@ -89,25 +89,13 @@
             "font_size_mobile": "h5-mobile",
             "body_font_size": 130
           }
-        },
-        "text_GDC8qi": {
-          "type": "text",
-          "settings": {
-            "text": "Ethically Sourced",
-            "font": "heading",
-            "style": "fill",
-            "font_size_desktop": "h5",
-            "font_size_mobile": "h5-mobile",
-            "body_font_size": 130
-          }
         }
       },
       "block_order": [
         "text_wU7jRg",
         "text_ifRMFb",
         "text_UwDBdj",
-        "text_Q6pTBK",
-        "text_GDC8qi"
+        "text_Q6pTBK"
       ],
       "name": "t:sections.scrolling-banner.name",
       "settings": {
@@ -427,110 +415,6 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_yMVLqX": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_cTwq7e": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Solitaire_9353061f-d44e-4bce-a5c1-6177f82fb5d5.webp",
-            "grid_image_size": "natural",
-            "heading": "Solitaire",
-            "text": "<p>Timeless elegance, defined by a single, breathtaking stone</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_rAeFfx": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Trilogy_a9103382-4c75-46a1-bfa6-8bdd4ffbd193.webp",
-            "grid_image_size": "natural",
-            "heading": "Three-Stone",
-            "text": "<p>Representing your past, present, and future together.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        },
-        "image_and_text_8L6D3t": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Halo_56c53608-703d-48ea-839b-9d7c53ad11c4.avif",
-            "grid_image_size": "natural",
-            "heading": "Halo",
-            "text": "<p>A dazzling frame of diamonds to amplify your center stone's brilliance.</p>",
-            "button_link": "",
-            "button_text": "Learn more"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_cTwq7e",
-        "image_and_text_rAeFfx",
-        "image_and_text_8L6D3t"
-      ],
-      "disabled": true,
-      "name": "t:sections.template--product--info-columns.presets.name",
-      "settings": {
-        "title": "Popular Engagement Ring Styles.",
-        "description": "<p>Emphasise your messaging</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "featured_collection_bictmq": {
-      "type": "featured-collection",
-      "disabled": true,
-      "name": "t:sections.collection--featured-collection.presets.name",
-      "settings": {
-        "title": "Our Newest Engagement Rings.",
-        "description": "",
-        "section_header_alignment": "center",
-        "collection": "engagement-rings",
-        "show_highlight": false,
-        "highlight_position": "bottom",
-        "highlight_icon": "heart",
-        "highlight_heading": "Why we love it",
-        "highlight_reference": "",
-        "highlight_text_color": "rgba(0,0,0,0)",
-        "highlight_background_color": "rgba(0,0,0,0)",
-        "highlight_alignment": "left",
-        "highlight_font_size": "medium",
-        "highlight_show_border": true,
-        "highlight_collapsible_tab": true,
-        "highlight_open_close_icon": "plus_minus",
-        "highlight_button_borders": false,
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "show_view_all": true,
-        "button_position": "above_products",
-        "button_alignment": "right",
-        "buttons_style": "outlined",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "layout_style": "grid",
-        "products_to_show": 8,
-        "grid-desktop": 4,
-        "grid-mobile": "2",
-        "colors": "white"
-      }
-    },
     "template_product_info_columns_bqDXjC": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -552,7 +436,7 @@
             "grid_image_size": "wide",
             "heading": "Design Your Ring Online.",
             "text": "<p>Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen in {{ page.metafields.custom.location.value }}. Select your ideal GIA-certified diamond, choose your setting, and watch your future heirloom come to life in breathtaking 3D detail.</p>",
-            "button_link": "",
+            "button_link": "shopify://pages/custom-jewellery-builder-online",
             "button_text": "Go to Online Builder"
           }
         }
@@ -582,132 +466,6 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "accent"
-      }
-    },
-    "collage_pBk4bc": {
-      "type": "collage",
-      "blocks": {
-        "image_eqBKhN": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "",
-            "text": "Add a description to your image here.",
-            "url": "shopify://pages/schedule-an-appointment",
-            "button_label": "",
-            "buttons_style": "underlined",
-            "override_button_colors": true,
-            "button_background_color": "#ffffff",
-            "button_color": "#35382e",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_CnFqRb": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-center",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "",
-            "text": "Add a description to your image here.",
-            "url": "/",
-            "button_label": "",
-            "buttons_style": "underlined",
-            "override_button_colors": true,
-            "button_background_color": "#ffffff",
-            "button_color": "#35382e",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "text_K7M3Wz": {
-          "type": "text",
-          "settings": {
-            "heading": "Book an In-Person Consultation.",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "For those who prefer a tactile experience, we offer Private Home Visits directly to you in <b>****</b>. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.",
-            "url": "",
-            "button_label": "Request Local Visit",
-            "buttons_style": "underlined",
-            "override_button_colors": true,
-            "button_background_color": "#242424",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-center md-min-justify-center",
-            "text_alignment": "center",
-            "background_color": "#f8f7f2",
-            "text_color": "#242424"
-          }
-        },
-        "text_H3mRnW": {
-          "type": "text",
-          "settings": {
-            "heading": "Design Your Ring Online.",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen. Select your ideal GIA-certified diamond, choose your setting, and watch your future heirloom come to life in breathtaking 3D detail.",
-            "url": "",
-            "button_label": "Launch 3D Designer",
-            "buttons_style": "underlined",
-            "override_button_colors": true,
-            "button_background_color": "#242424",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-center md-min-justify-center",
-            "text_alignment": "center",
-            "background_color": "#f8f7f2",
-            "text_color": "#242424"
-          }
-        }
-      },
-      "block_order": [
-        "image_eqBKhN",
-        "image_CnFqRb",
-        "text_K7M3Wz",
-        "text_H3mRnW"
-      ],
-      "disabled": true,
-      "name": "Showroom & Online Builder",
-      "settings": {
-        "title": "Want to create something more bespoke?",
-        "description": "<p>We offer two distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
-        "section_header_alignment": "center",
-        "section_width": "full",
-        "remove_spacing": true,
-        "block_alignment": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 0,
-        "width_1": "2",
-        "height_1": "2",
-        "width_2": "2",
-        "height_2": "2",
-        "width_3": "2",
-        "height_3": "4",
-        "width_4": "2",
-        "height_4": "4",
-        "width_5": "2",
-        "height_5": "2",
-        "width_6": "1",
-        "height_6": "4",
-        "color_scheme": "accent"
       }
     },
     "template_product_info_columns_ARxq4X": {
@@ -781,86 +539,6 @@
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "slider_height_mobile": "adaptive",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "custom_html_zbhNGz": {
-      "type": "custom-html",
-      "blocks": {
-        "html_BVWMWX": {
-          "type": "html",
-          "settings": {
-            "code": "<style>.event-list .event-list-item { border-radius: 0px !important;}</style>\n<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery?is_widget=1&amp;view=compact\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
-            "width": "100%",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "html_BVWMWX"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "name": "t:all.Custom_HTML",
-      "settings": {
-        "title": "Meet An Expert Jewellery In-Person.",
-        "description": "<p>Schedule a Consultation</p>",
-        "section_header_alignment": "center",
-        "section_width": "full-width",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "blog_posts_RHqVAD": {
-      "type": "blog-posts",
-      "blocks": {
-        "blog_MNjAkY": {
-          "type": "blog",
-          "settings": {
-            "blog": "bespoke-rings"
-          }
-        }
-      },
-      "block_order": [
-        "blog_MNjAkY"
-      ],
-      "disabled": true,
-      "name": "Examples of Bespoke Rings",
-      "settings": {
-        "title": "Examples of our Bespoke Rings.",
-        "description": "<p>Our Design Portfolio of Rings</p>",
-        "section_header_alignment": "center",
-        "media_source": "metafields",
-        "custom_media_ratio": "4_5",
-        "show_image": true,
-        "image_shape": "natural",
-        "post_limit": 8,
-        "show_tags": false,
-        "blog_show_date": false,
-        "show_author": false,
-        "show_reading_time": false,
-        "show_comment_count": false,
-        "show_excerpt": false,
-        "show_read_more": false,
-        "heading_font": "heading",
-        "heading_font_size": "h5",
-        "heading_font_size_mobile": "h4-mobile",
-        "body_font_size": 200,
-        "alignment": "left",
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "layout_style_desktop": "slider",
-        "hover_navigation_desktop": "left-and-right",
-        "peek_desktop": true,
-        "images_per_row_desktop": 3,
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "dots",
         "section_width": "content",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
@@ -1323,13 +1001,8 @@
     "featured_collection_UMtPLc",
     "template_product_info_columns_J4Dp7X",
     "gallery_slideshow_YDbVni",
-    "template_product_info_columns_yMVLqX",
-    "featured_collection_bictmq",
     "template_product_info_columns_bqDXjC",
-    "collage_pBk4bc",
     "template_product_info_columns_ARxq4X",
-    "custom_html_zbhNGz",
-    "blog_posts_RHqVAD",
     "rich_text_pBdiyA",
     "1780059503e4e28014",
     "17787619721046fdd6",
