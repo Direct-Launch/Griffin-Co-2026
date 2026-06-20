@@ -145,25 +145,13 @@
             "font_size_mobile": "h5-mobile",
             "body_font_size": 130
           }
-        },
-        "text_qNcjMY": {
-          "type": "text",
-          "settings": {
-            "text": "Ethically Sourced",
-            "font": "heading",
-            "style": "fill",
-            "font_size_desktop": "h5",
-            "font_size_mobile": "h5-mobile",
-            "body_font_size": 130
-          }
         }
       },
       "block_order": [
         "text_bdwD6d",
         "text_EzidrR",
         "text_kwxpxz",
-        "text_wFza6z",
-        "text_qNcjMY"
+        "text_wFza6z"
       ],
       "name": "t:sections.scrolling-banner.name",
       "settings": {
@@ -312,12 +300,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
             "heading": "The Showroom Experience.",
+            "text": "Add a description to your image here.",
             "url": "shopify://pages/schedule-an-appointment",
             "button_label": "Meet Our Jewellery Designers",
             "buttons_style": "underlined",
             "override_button_colors": true,
             "button_background_color": "#ffffff",
             "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "#242424"
           }
@@ -331,12 +326,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
             "heading": "Online Builder.",
+            "text": "Add a description to your image here.",
             "url": "/",
             "button_label": "Design Your Jewellery Online",
             "buttons_style": "underlined",
             "override_button_colors": true,
             "button_background_color": "#ffffff",
             "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "#242424"
           }
@@ -402,12 +404,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-left",
             "heading_size_mobile": "h4-mobile",
             "heading": "Engagement Rings",
+            "text": "Add a description to your image here.",
             "url": "shopify://pages/engagement-rings",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#262428",
             "button_color": "#e6e5e7",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "#717171"
           }
@@ -421,12 +430,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-left",
             "heading_size_mobile": "h4-mobile",
             "heading": "Wedding Rings",
+            "text": "Add a description to your image here.",
             "url": "shopify://pages/wedding-rings-bespoke-bands",
             "button_label": "",
             "buttons_style": "underlined",
             "override_button_colors": false,
             "button_background_color": "#262428",
             "button_color": "#e6e5e7",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "#717171"
           }
@@ -440,12 +456,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-left",
             "heading_size_mobile": "h4-mobile",
             "heading": "Bespoke Designs",
+            "text": "Add a description to your image here.",
             "url": "shopify://pages/bespoke-jewellery-designs",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#262428",
             "button_color": "#e6e5e7",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "#717171"
           }
@@ -957,12 +980,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-right",
             "heading_size_mobile": "h4-mobile",
             "heading": "",
+            "text": "Add a description to your image here.",
             "url": "",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -976,12 +1006,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-right",
             "heading_size_mobile": "h4-mobile",
             "heading": "",
+            "text": "Add a description to your image here.",
             "url": "",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }

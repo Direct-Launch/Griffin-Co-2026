@@ -89,13 +89,25 @@
             "font_size_mobile": "h5-mobile",
             "body_font_size": 130
           }
+        },
+        "text_GDC8qi": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
         }
       },
       "block_order": [
         "text_wU7jRg",
         "text_ifRMFb",
         "text_UwDBdj",
-        "text_Q6pTBK"
+        "text_Q6pTBK",
+        "text_GDC8qi"
       ],
       "name": "t:sections.scrolling-banner.name",
       "settings": {
@@ -337,8 +349,7 @@
             "show_drop_shadow": false,
             "transition_speed": 5,
             "header_text": "Consultation Experiences.",
-            "show_average_rating": true,
-            "rating_display": "default"
+            "show_average_rating": true
           }
         }
       },
