@@ -13,7 +13,7 @@
       "type": "hero-image-with-text",
       "name": "Hero - Image with text",
       "settings": {
-        "image": "shopify://shop_images/Lab-Grown_Diamond_Engagement_Rings_3be98f9f-b2ba-4d29-9d8d-84ba062a82e5.jpg",
+        "image": "shopify://shop_images/Wristwear_fede13f6-03e1-43dc-802a-90bd6c9d01c5.png",
         "layout": "right",
         "title": "Wristwear in {{ page.metafields.custom.location.value }}",
         "text": "<p>{{ page.metafields.custom.location.value }}'s premier destination for exceptional bracelets, bangles, and cuffs. </p><p>Discover expert craftsmanship and bespoke design right in the heart of Chichester.</p>",
@@ -32,7 +32,7 @@
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
         "button_link_2": "shopify://pages/custom-jewellery-builder-online",
-        "button_label_2": "Design Your Ring Online",
+        "button_label_2": "Design Bracelets Online",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
         "button_background_color_2": "#e68819",
