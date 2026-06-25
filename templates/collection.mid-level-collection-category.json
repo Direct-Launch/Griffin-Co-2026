@@ -206,9 +206,9 @@
         "navigation_link_cHXqNK",
         "navigation_link_3GQaUc"
       ],
-      "name": "t:sections.visual-navigation-banner.presets.name",
+      "name": "Sub Collections",
       "settings": {
-        "title": "Shop by {{ collection.title }}",
+        "title": "Shop by Type of {{ collection.title }}",
         "description": "",
         "section_header_alignment": "left",
         "image_style": "square",
@@ -220,6 +220,31 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "color_scheme": "white"
+      }
+    },
+    "rich_text_Vht6Nh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8nK3xQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "View All {{ collection.title }} at Griffin & Co.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_8nK3xQ"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 150,
+        "section_padding_bottom": 72,
+        "colors": "white"
       }
     },
     "product-grid": {
@@ -257,10 +282,10 @@
         "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
-    "rich_text_Vht6Nh": {
+    "rich_text_tpVgrH": {
       "type": "rich-text",
       "blocks": {
-        "heading_8nK3xQ": {
+        "heading_HiEqh4": {
           "type": "heading",
           "settings": {
             "heading": "SHOP FOR {{ collection.title }} FROM OUR INSTAGRAM.",
@@ -268,7 +293,7 @@
             "heading_bottom_spacing": 20
           }
         },
-        "richtext_AmDEia": {
+        "richtext_ELVdPJ": {
           "type": "richtext",
           "settings": {
             "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular jewellery highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
@@ -278,8 +303,8 @@
         }
       },
       "block_order": [
-        "heading_8nK3xQ",
-        "richtext_AmDEia"
+        "heading_HiEqh4",
+        "richtext_ELVdPJ"
       ],
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
@@ -665,8 +690,9 @@
     "hero_image_with_text_y6wMXR",
     "scrolling_banner_QRVnnY",
     "visual_navigation_banner_7dCHG9",
-    "product-grid",
     "rich_text_Vht6Nh",
+    "product-grid",
+    "rich_text_tpVgrH",
     "1778864481e2fbb2e6",
     "template_product_recently_viewed_pj3jzT",
     "template_product_info_columns_MWyHgD",
