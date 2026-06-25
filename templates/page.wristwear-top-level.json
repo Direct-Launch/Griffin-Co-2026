@@ -300,7 +300,7 @@
         "section_width": "full",
         "remove_spacing": false,
         "section_padding_top": 72,
-        "section_padding_bottom": 72,
+        "section_padding_bottom": 150,
         "colors": "white"
       }
     },
@@ -359,6 +359,59 @@
         "button_text_color": "#ffffff",
         "hover_navigation_desktop": "left-and-right",
         "columns_per_row": 4,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_papGY4": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_EhJQ99": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Women_s_Jewellery_a231093c-0831-470b-a765-a4d420b5f729.png",
+            "grid_image_size": "wide",
+            "heading": "Women's Jewellery",
+            "text": "<p>Discover a world of elegance. From delicate diamond pendants to statement earrings, stunning rings and tennis bracelets, our collection celebrates femininity in all its forms with exquisite craftsmanship.</p>",
+            "button_link": "shopify://collections/for-her",
+            "button_text": "Shop Women's Jewellery"
+          }
+        },
+        "image_and_text_kDH8xb": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Men_s_Jewellery.png",
+            "grid_image_size": "wide",
+            "heading": "Men's Jewellery",
+            "text": "<p>Sophisticated style for the modern gentleman. Explore our range of heavy gold chains, pendants, signet rings and stud earrings, designed to add a touch of refined distinction to your everyday look.</p>",
+            "button_link": "shopify://collections/for-him",
+            "button_text": "Shop Men's Jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_EhJQ99",
+        "image_and_text_kDH8xb"
+      ],
+      "name": "Shop by Department",
+      "settings": {
+        "title": "Shop by Department.",
+        "description": "<p>Curated collections for every style.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382e",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 2,
         "vertical_alignment": "center",
         "text_alignment": "center",
         "text_alignment_mobile": "center",
@@ -955,6 +1008,7 @@
     "featured_collection_UMtPLc",
     "gallery_slideshow_YDbVni",
     "template_product_info_columns_J4Dp7X",
+    "template_product_info_columns_papGY4",
     "template_product_info_columns_bqDXjC",
     "template_product_info_columns_ARxq4X",
     "rich_text_pBdiyA",
