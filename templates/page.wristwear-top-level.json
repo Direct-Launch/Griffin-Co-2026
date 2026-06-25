@@ -15,8 +15,8 @@
       "settings": {
         "image": "shopify://shop_images/Lab-Grown_Diamond_Engagement_Rings_3be98f9f-b2ba-4d29-9d8d-84ba062a82e5.jpg",
         "layout": "right",
-        "title": "Engagement Rings in {{ page.metafields.custom.location.value }}",
-        "text": "<p>Discover exquisite, handcrafted rings in our showroom, or step into the role of the designer using our revolutionary online studio.</p>",
+        "title": "Wristwear in {{ page.metafields.custom.location.value }}",
+        "text": "<p>{{ page.metafields.custom.location.value }}'s premier destination for exceptional bracelets, bangles, and cuffs. </p><p>Discover expert craftsmanship and bespoke design right in the heart of Chichester.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
@@ -25,13 +25,13 @@
         "show_image_mobile": true,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link_1": "shopify://collections/engagement-rings",
+        "button_link_1": "shopify://collections/wristwear",
         "button_label_1": "View Collections",
         "buttons_style_1": "filled",
         "override_button_colors_1": false,
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
-        "button_link_2": "",
+        "button_link_2": "shopify://pages/custom-jewellery-builder-online",
         "button_label_2": "Design Your Ring Online",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
@@ -121,7 +121,7 @@
         "heading_VPxYPE": {
           "type": "heading",
           "settings": {
-            "heading": "More Than a Ring, It's a Promise.",
+            "heading": "Serving {{ page.metafields.custom.location.value }}with Exceptional Bracelets",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -129,7 +129,7 @@
         "richtext_pHNrDN": {
           "type": "richtext",
           "settings": {
-            "text": "<p>For our clients in {{ page.metafields.custom.location.value }}, we believe an engagement ring embodies a personal story. We champion the bespoke experience, inviting you into a collaborative journey whether you visit our Chichester showroom, craft your vision from home, or book a local consultation.<br/></p><p>Our master jewellers create timeless classics and bespoke designs, using ethically sourced natural and lab-grown diamonds for a responsibly made ring.</p>",
+            "text": "<p>Located on <strong>South Street in Chichester</strong>, Griffin & Co offers a stunning array of fine wristwear for our local clientele in {{ page.metafields.custom.location.value }}. </p><p>Whether you are looking for a timeless diamond tennis bracelet, a solid gold bangle to mark a milestone, or a delicate chain for everyday wear, our showroom is your local destination for luxury.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -151,6 +151,7 @@
     },
     "featured_collection_UMtPLc": {
       "type": "featured-collection",
+      "disabled": true,
       "name": "t:sections.collection--featured-collection.presets.name",
       "settings": {
         "title": "Our Newest Engagement Rings.",
@@ -186,142 +187,17 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_J4Dp7X": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_MjRteG": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "shopify://collections/round-brilliant-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_qEjR3A": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Oval.png",
-            "grid_image_size": "square",
-            "heading": "Oval",
-            "text": "",
-            "button_link": "shopify://collections/oval-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_7TJTdw": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Cushion.png",
-            "grid_image_size": "square",
-            "heading": "Cushion",
-            "text": "",
-            "button_link": "shopify://collections/cushion-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_FJRnj7": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Pear.png",
-            "grid_image_size": "square",
-            "heading": "Pear",
-            "text": "",
-            "button_link": "shopify://collections/pear-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_LEH8dL": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Princess.png",
-            "grid_image_size": "square",
-            "heading": "Princess",
-            "text": "",
-            "button_link": "shopify://collections/princess-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_83BzPq": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Emerald.png",
-            "grid_image_size": "square",
-            "heading": "Emerald Cut",
-            "text": "",
-            "button_link": "shopify://collections/emerald-cut-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_WrjBJP": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Marquise.png",
-            "grid_image_size": "square",
-            "heading": "Marquise",
-            "text": "",
-            "button_link": "shopify://collections/marquise-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_GP7JkH": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Radiant.png",
-            "grid_image_size": "square",
-            "heading": "Radiant",
-            "text": "",
-            "button_link": "shopify://collections/radiant-diamond-engagement-rings",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_MjRteG",
-        "image_and_text_qEjR3A",
-        "image_and_text_7TJTdw",
-        "image_and_text_FJRnj7",
-        "image_and_text_LEH8dL",
-        "image_and_text_83BzPq",
-        "image_and_text_WrjBJP",
-        "image_and_text_GP7JkH"
-      ],
-      "name": "Diamond Cuts",
-      "settings": {
-        "title": "Explore Diamonds by Shape.",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 9,
-        "vertical_alignment": "center",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "gallery_slideshow_YDbVni": {
       "type": "gallery-slideshow",
       "blocks": {
         "image_W446Ue": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Solitaire.png",
-            "link": "shopify://collections/solitaire-engagement-rings",
+            "image": "shopify://shop_images/SBK1048WY9CTYG_1.jpg",
+            "link": "shopify://collections/bangles",
             "button_label": "",
-            "subheading": "Single Stone",
-            "title": "Solitaire Rings",
+            "subheading": "Solid, hinged, cuff styles in gold, silver, and platinum.",
+            "title": "Bangles",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -330,11 +206,11 @@
         "image_TqAzw3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Three-Stone.png",
-            "link": "shopify://collections/three-stone-trilogy-engagement-rings",
+            "image": "shopify://shop_images/BL6748_YG_2_YG_0.jpg",
+            "link": "shopify://collections/bracelets",
             "button_label": "",
-            "subheading": "Three-Stone",
-            "title": "Trilogy Rings",
+            "subheading": "Versatile collection of styles for every wrist.",
+            "title": "Bracelets",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -343,11 +219,11 @@
         "image_UqFNLm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Halo.png",
-            "link": "shopify://collections/halo-engagement-rings",
+            "image": "shopify://shop_images/b5530.jpg",
+            "link": "shopify://collections/chain-bracelets",
             "button_label": "",
-            "subheading": "Diamond Surround",
-            "title": "Halo Rings",
+            "subheading": "Paperclip, curb, and rope chains for versatile styling.",
+            "title": "Chain Bracelets",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -356,25 +232,37 @@
         "image_93DFPn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Coloured_Gemstone_Rings_6508f67a-5cdd-4783-9dec-bf5b51577151.png",
-            "link": "shopify://collections/gemstone-rings",
+            "image": "shopify://shop_images/9516-afcb6879-9441-492d-b943-702bcdfa8709.jpg",
+            "link": "shopify://collections/silver-wristwear",
             "button_label": "",
-            "subheading": "Trending",
-            "title": "Gemstone Rings",
+            "subheading": "Contemporary and affordable sterling silver designs.",
+            "title": "Silver Wristwear",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
           }
         },
-        "image_Az4QbM": {
+        "image_PGgY39": {
           "type": "image",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/view-all-reviews.png",
-            "link": "",
+            "image": "shopify://shop_images/b5523c.jpg",
+            "link": "shopify://collections/diamond-wristwear",
             "button_label": "",
-            "subheading": "Engagement Ring Collection",
-            "title": "View All",
+            "subheading": "Brilliance in both ethically mined and lab-grown stones.",
+            "title": "Lab & Natural Diamond",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CyyQah": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gb534l.jpg",
+            "link": "shopify://collections/gemstone-wristwear",
+            "button_label": "",
+            "subheading": "Vibrant Rubies, Emeralds, and Sapphires.",
+            "title": "Gemstone Wristwear",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -386,21 +274,22 @@
         "image_TqAzw3",
         "image_UqFNLm",
         "image_93DFPn",
-        "image_Az4QbM"
+        "image_PGgY39",
+        "image_CyyQah"
       ],
-      "name": "Popular Engagement Ring Styles.",
+      "name": "Collections",
       "settings": {
-        "title": "Popular Engagement Ring Styles.",
-        "description": "<p>Curated Ready-to-Wear</p>",
+        "title": "Our Wristwear Collections.",
+        "description": "<p>Handcrafted elegance to adorn your wrist.</p>",
         "section_header_alignment": "left",
         "image_shape": "natural",
-        "layout_style_desktop": "slider",
+        "layout_style_desktop": "grid",
         "hover_navigation_desktop": "left-and-right",
         "peek_desktop": true,
-        "images_per_row_desktop": 4,
+        "images_per_row_desktop": 3,
         "text_position_desktop": "bottom_left",
         "show_on_hover": false,
-        "layout_style_mobile": "slider",
+        "layout_style_mobile": "grid",
         "navigation_mobile": "dots",
         "images_per_row_mobile": "1",
         "text_position_mobile": "bottom_left",
@@ -410,6 +299,71 @@
         "button_text_color": "#ffffff",
         "section_width": "full",
         "remove_spacing": false,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_J4Dp7X": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_MjRteG": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
+            "grid_image_size": "square",
+            "heading": "Sterling Silver Bracelets",
+            "text": "<p>Affordable & Light.</p>",
+            "button_link": "shopify://collections/silver-wristwear",
+            "button_text": ""
+          }
+        },
+        "image_and_text_bi4K97": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Yellow_Gold_1ed00eaa-e401-4532-a218-e4b05be70a43.png",
+            "grid_image_size": "square",
+            "heading": "Yellow Gold Bracelets",
+            "text": "<p>Classic & Warm.</p>",
+            "button_link": "shopify://collections/yellow-gold-wristwear",
+            "button_text": ""
+          }
+        },
+        "image_and_text_UaFRzt": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
+            "grid_image_size": "square",
+            "heading": "White Gold Bracelets",
+            "text": "<p>Bright & Modern.</p>",
+            "button_link": "shopify://collections/white-gold-wristwear",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_MjRteG",
+        "image_and_text_bi4K97",
+        "image_and_text_UaFRzt"
+      ],
+      "name": "Metal",
+      "settings": {
+        "title": "Find Wristwear by Metal Type.",
+        "description": "",
+        "section_header_alignment": "center",
+        "maximum_width": 75,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
@@ -999,8 +953,8 @@
     "scrolling_banner_yQGBqH",
     "rich_text_ManT8J",
     "featured_collection_UMtPLc",
-    "template_product_info_columns_J4Dp7X",
     "gallery_slideshow_YDbVni",
+    "template_product_info_columns_J4Dp7X",
     "template_product_info_columns_bqDXjC",
     "template_product_info_columns_ARxq4X",
     "rich_text_pBdiyA",
