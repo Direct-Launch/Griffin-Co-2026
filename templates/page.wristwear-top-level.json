@@ -563,7 +563,7 @@
         "heading_wTT9Jr",
         "richtext_wHdiHi"
       ],
-      "name": "t:sections.text--rich-text.presets.name",
+      "name": "Wristwear Services Title",
       "settings": {
         "section_width": "full-width",
         "text_alignment_desktop": "center",
@@ -612,7 +612,7 @@
         "text_advert_chxNe3",
         "text_advert_38Fdtz"
       ],
-      "name": "t:sections.text-adverts-with-icon.name",
+      "name": "Wristwear Services #1",
       "settings": {
         "icon_size": "20px",
         "show_dividers": true,
@@ -665,7 +665,7 @@
         "text_advert_PPWjYr",
         "text_advert_ebWUWn"
       ],
-      "name": "t:sections.text-adverts-with-icon.name",
+      "name": "Wristwear Services #2",
       "settings": {
         "icon_size": "20px",
         "show_dividers": true,
@@ -733,6 +733,7 @@
         "image_and_text_AEcprt",
         "image_and_text_reUzLt"
       ],
+      "disabled": true,
       "name": "Bespoke Process",
       "settings": {
         "title": "Our Bespoke Process.",
@@ -762,7 +763,7 @@
         "heading_q34xXf": {
           "type": "heading",
           "settings": {
-            "heading": "Bespoke Engagement Rings From OUR INSTAGRAM.",
+            "heading": "Bracelets & Bangles From OUR INSTAGRAM.",
             "heading--text-size": "h4",
             "heading_bottom_spacing": 20
           }
@@ -770,7 +771,7 @@
         "richtext_XezrDU": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular engagement ring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular wristwear highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
             "text_size": 100,
             "text_bottom_spacing": 0
           }
@@ -780,7 +781,7 @@
         "heading_q34xXf",
         "richtext_XezrDU"
       ],
-      "name": "t:sections.text--rich-text.presets.name",
+      "name": "Instagram Feed Title",
       "settings": {
         "section_width": "content",
         "text_alignment_desktop": "center",
@@ -807,7 +808,7 @@
             "link_alignment": "left",
             "link_color": "#000000",
             "background_color": "",
-            "feed_id": "46265",
+            "feed_id": "46536",
             "html_area": ""
           }
         }
