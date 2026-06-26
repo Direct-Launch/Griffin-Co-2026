@@ -839,27 +839,27 @@
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How do I determine my bangle size?",
+            "accordion_header": "What qualities should I consider when selecting between delicate stud earrings and architectural dangle designs?",
             "open_by_default": false,
-            "text": "<p>Unlike bracelets which are measured by wrist circumference, bangles are measured by the size of your hand (the knuckles) to ensure they can slide on. </p><p>We can measure your hand in-store to find the perfect diameter for a comfortable and secure fit. </p><p><a href=\"/blogs/guide-jewellery-sizing-guide/bracelet-size-guide\" title=\"How to Measure for Bracelets and Bangles\">View our Bracelet Sizing Guide</a></p>",
+            "text": "<p>The choice reflects your desired level of presence; studs are often masterpieces of focused, micro-detailed brilliance, while our forged dangle creations offer dramatic kinetic energy and movement. </p><p>Our master goldsmiths can advise on which style will best complement your overall ensemble and physical features. We suggest an appointment at our Showroom to view these contrasting Creations in person, allowing us to guide you towards the perfect balance for your aesthetic near {{ block.settings.page.metafields.custom.location.value }}.<br/><br/></p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can I wear a tennis bracelet every day?",
+            "accordion_header": "Are miniature earrings suitable as everyday wear when I am passing through {{ block.settings.page.metafields.custom.location.value }}?",
             "open_by_default": false,
-            "text": "<p>High-quality diamond tennis bracelets set in platinum or 18ct gold are durable enough for daily wear. </p><p>However, we recommend regular checks of the clasp and settings (which we offer as a service) to ensure stones remain secure during active daily use.</p>",
+            "text": "<p>Absolutely. For discreet elegance that withstands daily life, Studs are an ideal choice. Many of our micro-pieces feature meticulously set GIA-certified natural diamonds or semi-precious stones, offering lasting brilliance without overwhelming your presence. </p><p>To view the range and determine which pairing will best align with your modern lifestyle in {{ block.settings.page.metafields.custom.location.value }}, we welcome you to arrange a private consultation at the Chichester Showroom or via Home Visit.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "My bracelet clasp is loose, can you fix it?",
+            "accordion_header": "Can I commission an earring set using my existing family heirlooms for remodelling?",
             "open_by_default": false,
-            "text": "<p>Yes, absolutely. A loose clasp is a common issue that can often be tightened or adjusted. </p><p>If the internal mechanism is worn, we can replace the entire clasp to ensure your bracelet is secure again.</p>",
+            "text": "<p>Yes, this is one of our most cherished commissions. We specialise in revitalising inherited jewellery, working diligently to integrate vintage pieces into entirely new, contemporary designs while retaining their precious legacy. </p><p>All restorative work happens meticulously within the secure, trusted environment of our on-site Chichester workshop. To discuss assessing your unique family set from {{ block.settings.page.metafields.custom.location.value }}, please book a consultation at the Showroom or via our Home Visit service.</p>",
             "page": ""
           }
         },
@@ -868,7 +868,7 @@
           "settings": {
             "accordion_header": "What areas do you cover for Home Visits?",
             "open_by_default": false,
-            "text": "<p>Our home visit service primarily covers Chichester and the immediate surrounding areas in West Sussex. </p><p>This service is ideal for clients who prefer the privacy and comfort of their own home for consultations or valuations. Please contact us to check availability for your specific location.</p>",
+            "text": "<p>Our home visit service primarily covers Chichester and the immediate surrounding areas in West Sussex. </p><p>This service is ideal for clients who prefer the privacy and comfort of their own home for consultations or valuations. Please contact us to check availability for your specific location.{{ block.settings.page.metafields.custom.location.value }}</p>",
             "page": ""
           }
         },
@@ -891,7 +891,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Frequently Asked Questions About Wristwear.",
+        "section_title": "Frequently Asked Questions About Earrings.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
