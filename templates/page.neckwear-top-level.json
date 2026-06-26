@@ -311,9 +311,9 @@
           "settings": {
             "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
             "grid_image_size": "square",
-            "heading": "Sterling Silver Bracelets",
+            "heading": "Sterling Silver Necklaces",
             "text": "<p>Affordable & Light.</p>",
-            "button_link": "shopify://collections/silver-wristwear",
+            "button_link": "shopify://collections/silver-neckwear",
             "button_text": ""
           }
         },
@@ -322,9 +322,9 @@
           "settings": {
             "image": "shopify://shop_images/Yellow_Gold_1ed00eaa-e401-4532-a218-e4b05be70a43.png",
             "grid_image_size": "square",
-            "heading": "Yellow Gold Bracelets",
+            "heading": "Yellow Gold Necklaces",
             "text": "<p>Classic & Warm.</p>",
-            "button_link": "shopify://collections/yellow-gold-wristwear",
+            "button_link": "shopify://collections/yellow-gold-neckwear",
             "button_text": ""
           }
         },
@@ -333,9 +333,9 @@
           "settings": {
             "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
             "grid_image_size": "square",
-            "heading": "White Gold Bracelets",
+            "heading": "White Gold Necklaces",
             "text": "<p>Bright & Modern.</p>",
-            "button_link": "shopify://collections/white-gold-wristwear",
+            "button_link": "shopify://collections/white-gold-neckwear",
             "button_text": ""
           }
         }
@@ -347,7 +347,7 @@
       ],
       "name": "Metal",
       "settings": {
-        "title": "Find Wristwear by Metal Type.",
+        "title": "Find Neckwear by Metal Type.",
         "description": "",
         "section_header_alignment": "center",
         "maximum_width": 75,
@@ -436,7 +436,7 @@
         "text_CHnDAB": {
           "type": "text",
           "settings": {
-            "text": "<p>Elevate your style with a perfectly coordinated jewellery set. A tennis bracelet paired with matching diamond studs creates a sophisticated statement, while a gold bangle stack can be the perfect complement to your everyday rings.</p>",
+            "text": "<p>Elevate your style with a perfectly coordinated jewellery set. Whether you wish to pair a new diamond pendant with matching studs, or complete a bridal look with a necklace that complements your engagement ring, our collections offer seamless harmony.</p>",
             "font_size_desktop": 130,
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
@@ -490,7 +490,7 @@
         "heading_wTT9Jr": {
           "type": "heading",
           "settings": {
-            "heading": "Expert Wristwear Services for {{ page.metafields.custom.location.value }} Clients.",
+            "heading": "Expert Neckwear Services for {{ page.metafields.custom.location.value }} Clients.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -498,7 +498,7 @@
         "richtext_wHdiHi": {
           "type": "richtext",
           "settings": {
-            "text": "<p>From bespoke bangles to safety chains and repairs. Visit us in Chichester.</p>",
+            "text": "<p>From bespoke pendants to chain repairs and restringing. Visit us in Chichester</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -525,8 +525,8 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Bespoke Design",
-            "text": "<p>Commission a custom bangle or bracelet. Work with our Chichester designers to create a piece that perfectly fits your wrist and style.</p>",
+            "title": "Bespoke Pendants",
+            "text": "<p>Design a personal talisman. Work with our designers to create a custom pendant featuring initials, family crests, or unique gemstones.</p>",
             "link": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
             "button_label": ""
           }
@@ -535,8 +535,8 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Bracelet Repairs",
-            "text": "<p>Broken link or snapped chain? We expertly repair all types of bracelets, restoring their strength and appearance.</p>",
+            "title": "Chain Repairs",
+            "text": "<p>Snapped chain? We expertly solder and repair broken links, restoring your chain's strength without compromising its flexibility.</p>",
             "link": "{{ page.metafields.custom.service_area_repairs.value }}",
             "button_label": ""
           }
@@ -545,8 +545,8 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Safety Chains",
-            "text": "<p>Secure your valuable wristwear. We can fit discreet safety chains or figure-of-eight catches to prevent accidental loss.</p>",
+            "title": "Pearl Restringing",
+            "text": "<p>Protect your pearls. We offer professional restringing on silk thread with individual knotting to ensure security and longevity.</p>",
             "link": "{{ page.metafields.custom.service_area_repairs.value }}",
             "button_label": ""
           }
@@ -579,7 +579,7 @@
           "settings": {
             "icon": "none",
             "title": "Clasp Replacement",
-            "text": "<p>Upgrade a fiddly clasp. We can replace worn or difficult clasps with secure, easy-to-use options like lobster claws.</p>",
+            "text": "<p>Upgrade or repair your clasp. From traditional bolt rings to secure lobster claws, we ensure your necklace stays safely fastened.</p>",
             "link": "{{ page.metafields.custom.service_area_repairs.value }}",
             "button_label": ""
           }
@@ -589,7 +589,7 @@
           "settings": {
             "icon": "none",
             "title": "Engraving",
-            "text": "<p>Personalise a solid bangle or ID bracelet with names, dates, or special messages. Hand and machine engraving available.</p>",
+            "text": "<p>Personalise your locket or disc pendant with initials, dates, or a special message. We offer both hand and machine engraving.</p>",
             "link": "{{ page.metafields.custom.service_area_repairs.value }}",
             "button_label": ""
           }
@@ -630,7 +630,7 @@
       "settings": {
         "image": "shopify://shop_images/IMG_8786.webp",
         "layout": "right",
-        "title": "View Bracelets From Your Home.",
+        "title": "View Necklaces From Your Home.",
         "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
@@ -722,7 +722,7 @@
         "heading_q34xXf": {
           "type": "heading",
           "settings": {
-            "heading": "Bracelets & Bangles From OUR INSTAGRAM.",
+            "heading": "Necklaces & Pendants From OUR INSTAGRAM.",
             "heading--text-size": "h4",
             "heading_bottom_spacing": 20
           }
@@ -730,7 +730,7 @@
         "richtext_XezrDU": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular wristwear highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular neckwear highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
             "text_size": 100,
             "text_bottom_spacing": 0
           }
