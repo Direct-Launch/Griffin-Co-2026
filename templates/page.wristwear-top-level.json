@@ -15,7 +15,7 @@
       "settings": {
         "image": "shopify://shop_images/Wristwear_fede13f6-03e1-43dc-802a-90bd6c9d01c5.png",
         "layout": "right",
-        "title": "Wristwear in {{ page.metafields.custom.location.value }}",
+        "title": "Wristwear in {{ page.metafields.custom.location.value }}.",
         "text": "<p>{{ page.metafields.custom.location.value }}'s premier destination for exceptional bracelets, bangles, and cuffs. </p><p>Discover expert craftsmanship and bespoke design right in the heart of Chichester.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
