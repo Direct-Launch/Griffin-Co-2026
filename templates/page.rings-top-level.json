@@ -15,7 +15,7 @@
       "settings": {
         "image": "shopify://shop_images/Earrings_ae1e4721-2e5f-4d2f-89db-979f31c4f8bc.png",
         "layout": "right",
-        "title": "Earrings in {{ page.metafields.custom.location.value }}.",
+        "title": "Rings in {{ page.metafields.custom.location.value }}.",
         "text": "<p>A curated collection of exceptional earrings for clients in {{ page.metafields.custom.location.value }}. </p><p>From timeless diamond studs to bespoke drop designs, visit our Chichester showroom to find your perfect pair.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
@@ -839,45 +839,45 @@
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What qualities should I consider when selecting between delicate stud earrings and architectural dangle designs?",
+            "accordion_header": "How can I commission a bespoke ring design that perfectly captures my unique aesthetic?",
             "open_by_default": false,
-            "text": "<p>The choice reflects your desired level of presence; studs are often masterpieces of focused, micro-detailed brilliance, while our forged dangle creations offer dramatic kinetic energy and movement. </p><p>Our master goldsmiths can advise on which style will best complement your overall ensemble and physical features. We suggest an appointment at our Showroom to view these contrasting Creations in person, allowing us to guide you towards the perfect balance for your aesthetic near {{ block.settings.page.metafields.custom.location.value }}.<br/><br/></p>",
+            "text": "<p>A commitment ring, engagement band, or statement piece should feel intrinsically 'you.' We guide clients through the initial concepts, working with sketches and moulds to ensure every curve and setting is uniquely designed by hand within our workshop. </p><p>To begin this deeply personal journey toward realising your bespoke vision in ring form, an appointment at our Showroom is essential for any client based in {{ block.settings.page.metafields.custom.location.value }}.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Are miniature earrings suitable as everyday wear when I am passing through {{ block.settings.page.metafields.custom.location.value }}?",
+            "accordion_header": "Do you provide guidance on choosing the right metal (Platinum vs. Gold) for a ring designed to be worn every day?",
             "open_by_default": false,
-            "text": "<p>Absolutely. For discreet elegance that withstands daily life, Studs are an ideal choice. Many of our micro-pieces feature meticulously set GIA-certified natural diamonds or semi-precious stones, offering lasting brilliance without overwhelming your presence. </p><p>To view the range and determine which pairing will best align with your modern lifestyle in {{ block.settings.page.metafields.custom.location.value }}, we welcome you to arrange a private consultation at the Chichester Showroom or via Home Visit.</p>",
+            "text": "<p>The choice of metal heavily influences both longevity and wearability. Platinum offers exceptional durability while maintaining its lustre, whereas various grades of gold offer unique warmth and colour tones suitable for diverse skin types and tastes. </p><p>Our master goldsmiths are adept at advising on which material possesses the optimal balance of resilience and beauty required for daily life near {{ block.settings.page.metafields.custom.location.value }}. We recommend a private consultation to compare samples before committing to your design.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can I commission an earring set using my existing family heirlooms for remodelling?",
+            "accordion_header": "If I am replacing an older ring, how can you ensure the restoration maintains its original integrity while modernising it?",
             "open_by_default": false,
-            "text": "<p>Yes, this is one of our most cherished commissions. We specialise in revitalising inherited jewellery, working diligently to integrate vintage pieces into entirely new, contemporary designs while retaining their precious legacy. </p><p>All restorative work happens meticulously within the secure, trusted environment of our on-site Chichester workshop. To discuss assessing your unique family set from {{ block.settings.page.metafields.custom.location.value }}, please book a consultation at the Showroom or via our Home Visit service.</p>",
+            "text": "<p>We approach jewellery remodelling as an act of conservation and reimagining. Our artisans are meticulous in assessing vintage rings—whether they bear a significant family legacy or simply require structural reinforcement. </p><p>The preservation work takes place right here at our secure Chichester workshop, guaranteeing that the unique history and artisanal detail remain utterly undisturbed while adding modern refinement relevant to your life in {{ block.settings.page.metafields.custom.location.value }}.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How can I ensure that my earrings are responsibly and ethically sourced?",
+            "accordion_header": "What guidance do you offer regarding sizing, especially if I am travelling or changing rings often?",
             "open_by_default": false,
-            "text": "<p>At Griffin & Co, ethical intent is woven into every single piece. We guarantee that all materials used, whether Platinum or gold, contain verifiable ethical provenance. </p><p>Furthermore, we extensively practise using 100% recycled precious metals alongside certified natural and lab-grown alternatives. For complete assurance regarding the origin of stones and metals in your pieces commissioned near {{ block.settings.page.metafields.custom.location.value }}, please consult with us directly at our Chichester Showroom or via Home Vist.</p>",
+            "text": "<p>Ring sizing is perhaps the most delicate aspect of bespoke jewellery. Precision is paramount, as a millimetre makes all the difference in fit and comfort. We conduct thorough, measured fittings—which are vastly superior to estimation techniques. </p><p>To guarantee flawless accuracy for your purchase whether you are from {{ block.settings.page.metafields.custom.location.value }} or are passing through Chichester, we strongly advise booking an appointment at our Showroom.</p>",
             "page": ""
           }
         },
         "accordion_BRezAN": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "I need earrings that match a specific stone type (e.g., emeralds). Can you guide me through colour matching options?",
+            "accordion_header": "Can my new ring incorporate materials that relate specifically to the history or motifs of West Sussex/Hampshire?",
             "open_by_default": false,
-            "text": "<p>The perfect harmony between metal and gemstone is an art form, demanding the expertise of a master craftsman. Whether you are integrating deep emeralds or vibrant sapphires into your design, we have expert knowledge in colour theory and complementary settings. </p><p>We encourage booking a private consultation at our Showroom or by Home Visit; seeing actual examples side-by-side helps us curate the most precise, harmonious aesthetic for your requirements emanating from {{ block.settings.page.metafields.custom.location.value }}.</p>",
+            "text": "<p>Absolutely; your ring can become a wearable piece of local art and natural heritage. We specialise in drawing inspiration from regional iconography—be it subtle botanical details, historical architecture, or raw material sources prevalent near {{ block.settings.page.metafields.custom.location.value }}. </p><p>During a private consultation at our Showroom, we can review examples of work that successfully fuse your personal narrative with meaningful regional artistic motifs.</p>",
             "page": ""
           }
         }
@@ -961,8 +961,8 @@
       ],
       "name": "Areas We Cover",
       "settings": {
-        "title": "Earrings Across the South of England.",
-        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer earring design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
+        "title": "Rings Across the South of England.",
+        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer ring design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
         "section_header_alignment": "center",
         "maximum_width": 500,
         "override_border_radius": false,
