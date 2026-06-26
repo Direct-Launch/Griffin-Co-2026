@@ -839,18 +839,18 @@
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How do I choose the correct chain length for my necklace or pendant?",
+            "accordion_header": "How do I select the perfect chain length and style for my personal neckwear aesthetic?",
             "open_by_default": false,
-            "text": "<p>Finding the perfect chain length depends on your personal style and where you prefer the pendant to rest. We offer a variety of classic lengths, typically ranging from 16 to 20 inches.</p><p> A 16-inch chain sits beautifully just above the collarbone, while an 18-inch chain is our most popular choice, resting elegantly just below it. </p><p>If you are unsure, we warmly invite you to visit our Chichester showroom to try on different lengths and find the flawless fit for your neckline.</p>",
+            "text": "<p>The ideal necklace or pendant should harmonise flawlessly with your individual silhouette and the intended occasion. Understanding proper scale is key to sophisticated jewellery design; a master goldsmith helps you discern if a shorter, choker-style piece best complements your décolletage, or if an extended, elegant link chain draws attention downwards. </p><p>While we can offer initial guidance remotely, we strongly recommend an appointment at our Chichester Showroom. Our team there can measure and advise on the optimal length of chains, ensuring your new creation—whether a delicate pendant or a bold collar piece—is perfectly proportioned for you, regardless of which local community in {{ block.settings.page.metafields.custom.location.value }}inspires you.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What precious metals do you use for your neckwear collections?",
+            "accordion_header": "If I want to commission a bespoke necklace based on sentimental symbolism (e.g., family emblems), where should I start?",
             "open_by_default": false,
-            "text": "<p>To ensure lasting beauty and everyday durability, our necklaces and pendants are meticulously crafted from the finest precious metals. </p><p>Our collections feature pieces cast in solid 9ct and 18ct Yellow, White, and Rose Gold, as well as luxurious Platinum and highly polished 925 Sterling Silver. </p><p>We are also deeply committed to ethical craftsmanship, prioritising the use of 100% recycled precious metals in our bespoke creations.</p>",
+            "text": "<p>A commissioned necklace is perhaps the most deeply personal form of wearable art. The process begins with sharing your unique story and symbolic intentions—from remembering a loved one via a miniature locket pendant to representing a family emblem through an engraved plaque. </p><p>For this level of delicate storytelling, engaging with our master goldsmiths in person at the Chichester Showroom is invaluable. </p><p>Viewing samples, discussing the weight of different metallic settings, and handling the design materials allows us to transform your memory into a tangible, ethically sourced piece; we even offer private consultations for those located near {{ block.settings.page.metafields.custom.location.value }}.<br/><br/></p>",
             "page": ""
           }
         },
