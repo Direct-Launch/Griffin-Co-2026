@@ -311,9 +311,9 @@
           "settings": {
             "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
             "grid_image_size": "square",
-            "heading": "Sterling Silver Bracelets",
+            "heading": "Sterling Silver Earrings",
             "text": "<p>Affordable & Light.</p>",
-            "button_link": "shopify://collections/silver-wristwear",
+            "button_link": "shopify://collections/silver-earrings",
             "button_text": ""
           }
         },
@@ -322,9 +322,9 @@
           "settings": {
             "image": "shopify://shop_images/Yellow_Gold_1ed00eaa-e401-4532-a218-e4b05be70a43.png",
             "grid_image_size": "square",
-            "heading": "Yellow Gold Bracelets",
+            "heading": "Yellow Gold Earrings",
             "text": "<p>Classic & Warm.</p>",
-            "button_link": "shopify://collections/yellow-gold-wristwear",
+            "button_link": "shopify://collections/yellow-gold-earrings",
             "button_text": ""
           }
         },
@@ -333,9 +333,9 @@
           "settings": {
             "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
             "grid_image_size": "square",
-            "heading": "White Gold Bracelets",
+            "heading": "White Gold Earrings",
             "text": "<p>Bright & Modern.</p>",
-            "button_link": "shopify://collections/white-gold-wristwear",
+            "button_link": "shopify://collections/white-gold-earrings",
             "button_text": ""
           }
         }
@@ -347,7 +347,7 @@
       ],
       "name": "Metal",
       "settings": {
-        "title": "Find Wristwear by Metal Type.",
+        "title": "Find Earrings by Metal Type.",
         "description": "",
         "section_header_alignment": "center",
         "maximum_width": 75,
