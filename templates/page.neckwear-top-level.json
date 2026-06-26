@@ -378,18 +378,18 @@
             "grid_image_size": "wide",
             "heading": "Women's Jewellery",
             "text": "<p>Discover a world of elegance. From delicate diamond pendants to statement earrings, stunning rings and tennis bracelets, our collection celebrates femininity in all its forms with exquisite craftsmanship.</p>",
-            "button_link": "shopify://collections/for-her",
+            "button_link": "shopify://collections/womens-neckwear",
             "button_text": "Shop Women's Jewellery"
           }
         },
         "image_and_text_kDH8xb": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/Men_s_Jewellery.png",
+            "image": "shopify://shop_images/Men_s_Neckwear.jpg",
             "grid_image_size": "wide",
             "heading": "Men's Jewellery",
             "text": "<p>Sophisticated style for the modern gentleman. Explore our range of heavy gold chains, pendants, signet rings and stud earrings, designed to add a touch of refined distinction to your everyday look.</p>",
-            "button_link": "shopify://collections/for-him",
+            "button_link": "shopify://collections/mens-neckwear",
             "button_text": "Shop Men's Jewellery"
           }
         }
