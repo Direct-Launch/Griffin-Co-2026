@@ -422,6 +422,69 @@
         "colors": "white"
       }
     },
+    "image_with_text_overlay_He6F4z": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_AjnWUp": {
+          "type": "heading",
+          "settings": {
+            "title": "Complete Your Look.",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_CHnDAB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate your style with a perfectly coordinated jewellery set. A tennis bracelet paired with matching diamond studs creates a sophisticated statement, while a gold bangle stack can be the perfect complement to your everyday rings.</p>",
+            "font_size_desktop": 130,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_CQf4nf": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://collections/jewellery-sets",
+            "first_button_label": "View Jewellery Sets",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#302f2f",
+            "buttons_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_AjnWUp",
+        "text_CHnDAB",
+        "button_CQf4nf"
+      ],
+      "custom_css": [],
+      "name": "Jewellery Sets",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Diamond_Jewellery.png",
+        "height_desktop": "650px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 75,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#2b2b2b",
+        "image_overlay_opacity": 35
+      }
+    },
     "template_product_info_columns_bqDXjC": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -452,6 +515,7 @@
         "image_and_text_a8i7yL",
         "image_and_text_f8wUpF"
       ],
+      "disabled": true,
       "name": "Bespoke Choice",
       "settings": {
         "title": "Want to create something more bespoke?",
@@ -473,6 +537,146 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "accent"
+      }
+    },
+    "rich_text_aFz4dn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wTT9Jr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Expert Wristwear Services for {{ page.metafields.custom.location.value }} Clients.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_wHdiHi": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>From bespoke bangles to safety chains and repairs. Visit us in Chichester.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_wTT9Jr",
+        "richtext_wHdiHi"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_qyqtQz": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_3ch9C4": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Bespoke Design",
+            "text": "<p>Commission a custom bangle or bracelet. Work with our Chichester designers to create a piece that perfectly fits your wrist and style.</p>",
+            "link": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_chxNe3": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Bracelet Repairs",
+            "text": "<p>Broken link or snapped chain? We expertly repair all types of bracelets, restoring their strength and appearance.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_38Fdtz": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Safety Chains",
+            "text": "<p>Secure your valuable wristwear. We can fit discreet safety chains or figure-of-eight catches to prevent accidental loss.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_3ch9C4",
+        "text_advert_chxNe3",
+        "text_advert_38Fdtz"
+      ],
+      "name": "t:sections.text-adverts-with-icon.name",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_yf3Gzx": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_rtMTRw": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Clasp Replacement",
+            "text": "<p>Upgrade a fiddly clasp. We can replace worn or difficult clasps with secure, easy-to-use options like lobster claws.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_PPWjYr": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Engraving",
+            "text": "<p>Personalise a solid bangle or ID bracelet with names, dates, or special messages. Hand and machine engraving available.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_ebWUWn": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Home Visits in {{ page.metafields.custom.location.value }}",
+            "text": "<p>Personalised service in comfort. Our experts can visit you in Chichester and surrounding areas for consultations and valuations.</p>",
+            "link": "shopify://pages/home-visits",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_rtMTRw",
+        "text_advert_PPWjYr",
+        "text_advert_ebWUWn"
+      ],
+      "name": "t:sections.text-adverts-with-icon.name",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
       }
     },
     "template_product_info_columns_ARxq4X": {
@@ -1009,7 +1213,11 @@
     "gallery_slideshow_YDbVni",
     "template_product_info_columns_J4Dp7X",
     "template_product_info_columns_papGY4",
+    "image_with_text_overlay_He6F4z",
     "template_product_info_columns_bqDXjC",
+    "rich_text_aFz4dn",
+    "text_adverts_with_icon_qyqtQz",
+    "text_adverts_with_icon_yf3Gzx",
     "template_product_info_columns_ARxq4X",
     "rich_text_pBdiyA",
     "1780059503e4e28014",
