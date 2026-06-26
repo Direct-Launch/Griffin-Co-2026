@@ -757,6 +757,98 @@
         "colors": "white"
       }
     },
+    "image_with_text_YkYaKe": {
+      "type": "image-with-text",
+      "name": "The Studio Experience at Home",
+      "settings": {
+        "image": "shopify://shop_images/IMG_8786.webp",
+        "layout": "right",
+        "title": "View Bracelets From Your Home.",
+        "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request a Consultation",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_ALphbN": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_Rz6UPM": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Initial_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "The Initial Inquiry",
+            "text": "<p>A brief introductory call to understand your vision, requirements, and the scope of the piece or service you require. We listen to your story first.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_4i46Y8": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Private_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "The Private Consultation",
+            "text": "<p>Our designer visits your home with a curated selection of materials and tools to refine the design, specifications, and gemstones in complete privacy.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_t8w6Th": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Master_Craftmanship_2.webp",
+            "grid_image_size": "square",
+            "heading": "Master Craftsmanship",
+            "text": "<p>Your piece is handcrafted in our studio to the highest standards and delivered back to you for a final, perfect fitting and unveiling.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Rz6UPM",
+        "image_and_text_4i46Y8",
+        "image_and_text_t8w6Th"
+      ],
+      "name": "The Home Visit Process",
+      "settings": {
+        "title": "From Your Home to Our Atelier.",
+        "description": "<p>A seamless transition from vision to heirloom.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
     "rich_text_pBdiyA": {
       "type": "rich-text",
       "blocks": {
@@ -1220,6 +1312,8 @@
     "text_adverts_with_icon_qyqtQz",
     "text_adverts_with_icon_yf3Gzx",
     "template_product_info_columns_ARxq4X",
+    "image_with_text_YkYaKe",
+    "template_product_info_columns_ALphbN",
     "rich_text_pBdiyA",
     "1780059503e4e28014",
     "17787619721046fdd6",
