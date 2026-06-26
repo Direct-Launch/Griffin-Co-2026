@@ -630,7 +630,7 @@
       "settings": {
         "image": "shopify://shop_images/IMG_8786.webp",
         "layout": "right",
-        "title": "View Bracelets From Your Home.",
+        "title": "View Earrings From Your Home.",
         "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
@@ -722,7 +722,7 @@
         "heading_q34xXf": {
           "type": "heading",
           "settings": {
-            "heading": "Bracelets & Bangles From OUR INSTAGRAM.",
+            "heading": "Earrings From OUR INSTAGRAM.",
             "heading--text-size": "h4",
             "heading_bottom_spacing": 20
           }
@@ -730,7 +730,7 @@
         "richtext_XezrDU": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular wristwear highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular earring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
             "text_size": 100,
             "text_bottom_spacing": 0
           }
@@ -767,7 +767,7 @@
             "link_alignment": "left",
             "link_color": "#000000",
             "background_color": "",
-            "feed_id": "46536",
+            "feed_id": "47349",
             "html_area": ""
           }
         }
