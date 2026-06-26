@@ -13,10 +13,10 @@
       "type": "hero-image-with-text",
       "name": "Hero - Image with text",
       "settings": {
-        "image": "shopify://shop_images/Wristwear_fede13f6-03e1-43dc-802a-90bd6c9d01c5.png",
+        "image": "shopify://shop_images/Neckwear_724c1345-5115-427c-a64a-c9fab9f3622d.png",
         "layout": "right",
-        "title": "Wristwear in {{ page.metafields.custom.location.value }}.",
-        "text": "<p>{{ page.metafields.custom.location.value }}'s premier destination for exceptional bracelets, bangles, and cuffs. </p><p>Discover expert craftsmanship and bespoke design right in the heart of Chichester.</p>",
+        "title": "Neckwear in {{ page.metafields.custom.location.value }}.",
+        "text": "<p>A curated collection of exceptional necklaces, pendants, and chains for clients in {{ page.metafields.custom.location.value }}.</p><p>From classic solitaire diamonds to statement gold chains, visit our Chichester showroom to find your perfect piece.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": false,
@@ -25,14 +25,14 @@
         "show_image_mobile": true,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link_1": "shopify://collections/wristwear",
+        "button_link_1": "shopify://collections/neckwear",
         "button_label_1": "View Collections",
         "buttons_style_1": "filled",
         "override_button_colors_1": false,
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
         "button_link_2": "shopify://pages/custom-jewellery-builder-online",
-        "button_label_2": "Design Bracelets Online",
+        "button_label_2": "Design Neckwear Online",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
         "button_background_color_2": "#e68819",
@@ -121,7 +121,7 @@
         "heading_VPxYPE": {
           "type": "heading",
           "settings": {
-            "heading": "Serving {{ page.metafields.custom.location.value }} with Exceptional Bracelets",
+            "heading": "Serving {{ page.metafields.custom.location.value }} with Exceptional Necklaces.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -129,7 +129,7 @@
         "richtext_pHNrDN": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Located on <strong>South Street in Chichester</strong>, Griffin & Co offers a stunning array of fine wristwear for our local clientele in {{ page.metafields.custom.location.value }}. </p><p>Whether you are looking for a timeless diamond tennis bracelet, a solid gold bangle to mark a milestone, or a delicate chain for everyday wear, our showroom is your local destination for luxury.</p>",
+            "text": "<p>Griffin & Co on <strong>South Street in Chichester</strong> offers a stunning array of fine neckwear. </p><p>Whether you are looking for a meaningful locket, a diamond anniversary pendant, or a heavy gold chain, our expert team is here to guide you through our handcrafted collections.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -153,10 +153,10 @@
       "type": "featured-collection",
       "name": "t:sections.collection--featured-collection.presets.name",
       "settings": {
-        "title": "Our Newest Wristwear.",
+        "title": "Our Newest Neckwear.",
         "description": "",
         "section_header_alignment": "left",
-        "collection": "wristwear",
+        "collection": "neckwear",
         "show_highlight": false,
         "highlight_position": "below_image",
         "highlight_icon": "none",
@@ -564,7 +564,7 @@
         "text_alignment": "left",
         "buttons_style": "filled",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section_padding_top": 72,
         "section_padding_bottom": 0,
@@ -617,7 +617,7 @@
         "text_alignment": "left",
         "buttons_style": "filled",
         "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
