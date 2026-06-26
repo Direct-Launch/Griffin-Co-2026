@@ -192,11 +192,11 @@
         "image_W446Ue": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/SBK1048WY9CTYG_1.jpg",
-            "link": "shopify://collections/bangles",
+            "image": "shopify://shop_images/gn423l_zoom.jpg",
+            "link": "shopify://collections/necklaces",
             "button_label": "",
-            "subheading": "Solid, hinged, cuff styles in gold, silver, and platinum.",
-            "title": "Bangles",
+            "subheading": "Statement pieces and everyday elegance.",
+            "title": "Necklaces",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -205,11 +205,11 @@
         "image_TqAzw3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BL6748_YG_2_YG_0.jpg",
-            "link": "shopify://collections/bracelets",
+            "image": "shopify://shop_images/SP6887_YG_9-2_YG_0.jpg",
+            "link": "shopify://collections/pendants",
             "button_label": "",
-            "subheading": "Versatile collection of styles for every wrist.",
-            "title": "Bracelets",
+            "subheading": "From classic solitaires to intricate lockets.",
+            "title": "Pendants",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -218,11 +218,11 @@
         "image_UqFNLm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/b5530.jpg",
+            "image": "shopify://shop_images/n4534_3.jpg",
             "link": "shopify://collections/chain-bracelets",
             "button_label": "",
-            "subheading": "Paperclip, curb, and rope chains for versatile styling.",
-            "title": "Chain Bracelets",
+            "subheading": "Belcher, Curb, and Rope chains for versatile styling.",
+            "title": "Chain Necklaces",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -232,10 +232,10 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/9516-afcb6879-9441-492d-b943-702bcdfa8709.jpg",
-            "link": "shopify://collections/silver-wristwear",
+            "link": "shopify://collections/silver-neckwear",
             "button_label": "",
             "subheading": "Contemporary and affordable sterling silver designs.",
-            "title": "Silver Wristwear",
+            "title": "Silver Neckwear",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -244,8 +244,8 @@
         "image_PGgY39": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/b5523c.jpg",
-            "link": "shopify://collections/diamond-wristwear",
+            "image": "shopify://shop_images/SP4030_WG_WG0.jpg",
+            "link": "shopify://collections/diamond-neckwear",
             "button_label": "",
             "subheading": "Brilliance in both ethically mined and lab-grown stones.",
             "title": "Lab & Natural Diamond",
@@ -257,11 +257,11 @@
         "image_CyyQah": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gb534l.jpg",
+            "image": "shopify://shop_images/gp2383g.jpg",
             "link": "shopify://collections/gemstone-wristwear",
             "button_label": "",
             "subheading": "Vibrant Rubies, Emeralds, and Sapphires.",
-            "title": "Gemstone Wristwear",
+            "title": "Gemstone Neckwear",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -278,8 +278,8 @@
       ],
       "name": "Collections",
       "settings": {
-        "title": "Our Wristwear Collections.",
-        "description": "<p>Handcrafted elegance to adorn your wrist.</p>",
+        "title": "Our Neckwear Collections.",
+        "description": "<p>Handcrafted elegance to frame your style.</p>",
         "section_header_alignment": "left",
         "image_shape": "natural",
         "layout_style_desktop": "grid",
