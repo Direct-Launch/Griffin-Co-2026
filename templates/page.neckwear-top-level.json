@@ -767,7 +767,7 @@
             "link_alignment": "left",
             "link_color": "#000000",
             "background_color": "",
-            "feed_id": "46536",
+            "feed_id": "47346",
             "html_area": ""
           }
         }
@@ -891,7 +891,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Frequently Asked Questions About Wristwear.",
+        "section_title": "Frequently Asked Questions About Neckwear.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
