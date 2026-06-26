@@ -839,36 +839,36 @@
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How do I determine my bangle size?",
+            "accordion_header": "How can I ensure a commissioned bracelet is perfectly sized for my unique wrist shape?",
             "open_by_default": false,
-            "text": "<p>Unlike bracelets which are measured by wrist circumference, bangles are measured by the size of your hand (the knuckles) to ensure they can slide on. </p><p>We can measure your hand in-store to find the perfect diameter for a comfortable and secure fit. </p><p><a href=\"/blogs/guide-jewellery-sizing-guide/bracelet-size-guide\" title=\"How to Measure for Bracelets and Bangles\">View our Bracelet Sizing Guide</a></p>",
+            "text": "<p>A perfect fit transforms a lovely piece into an immediate heirloom. The process of commissioning bespoke bracelets requires meticulous attention to scale and measurement. </p><p>Our master goldsmiths are adept at designing pieces that drape beautifully, whether you prefer the solid structure of a bangle or the delicate articulation of a chain bracelet. </p><p>We strongly recommend arranging a private consultation at our Chichester Showroom; this guided assessment allows us to take precise measurements in person, ensuring your final creation is flawlessly proportioned for you near{{ block.settings.page.metafields.custom.location.value }}.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can I wear a tennis bracelet every day?",
+            "accordion_header": "How do I ensure that all materials used in my bracelet (metals and stones) maintain ethical standards?",
             "open_by_default": false,
-            "text": "<p>High-quality diamond tennis bracelets set in platinum or 18ct gold are durable enough for daily wear. </p><p>However, we recommend regular checks of the clasp and settings (which we offer as a service) to ensure stones remain secure during active daily use.</p>",
+            "text": "<p>Maintaining the integrity of the material story is paramount. Whether we are working with 100% recycled Platinum, Kimberley Process-certified natural diamonds, or our responsible lab-grown alternatives, every component undergoes rigorous ethical verification. </p><p>Our commitment to ethically sourced materials applies from the initial sketch stage through to the final hand-finishing in our workshop. </p><p>For complete assurance and a detailed review of material provenance—whether you are commissioning from {{ block.settings.page.metafields.custom.location.value }} or far beyond—we recommend an appointment at the Chichester Showroom.<br/><br/></p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "My bracelet clasp is loose, can you fix it?",
+            "accordion_header": "Do you handle the remodelling of family bangles or wrist cuffs inherited from previous generations?",
             "open_by_default": false,
-            "text": "<p>Yes, absolutely. A loose clasp is a common issue that can often be tightened or adjusted. </p><p>If the internal mechanism is worn, we can replace the entire clasp to ensure your bracelet is secure again.</p>",
+            "text": "<p>We treat every vintage piece with profound respect and unparalleled skill. Whether adapting a delicate Victorian bangle or restoring a heavy family cuff, our artisans focus on preserving the original legacy while modernising its wearability. This meticulous restoration work takes place entirely within the secure confines of our on-site Chichester workshop—your jewellery never leaves our protection. We welcome you to book an appointment at the Showroom so we can assess your beloved items from {{ block.settings.page.metafields.custom.location.value }}.<br/><br/></p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What areas do you cover for Home Visits?",
+            "accordion_header": "What is the difference between a chain bracelet and a solid bangle and which suits my lifestyle?",
             "open_by_default": false,
-            "text": "<p>Our home visit service primarily covers Chichester and the immediate surrounding areas in West Sussex. </p><p>This service is ideal for clients who prefer the privacy and comfort of their own home for consultations or valuations. Please contact us to check availability for your specific location.</p>",
+            "text": "<p>The choice hinges upon desired impact and comfort. A solid bangle offers an air of timeless, structural strength, while a hand-crafted chain bracelet allows for fluid movement and incorporates versatile design elements (like individual charms or link formations). </p><p>We advise considering your daily routine—from the formality of Greater London to a relaxed day in Surrey—to determine the optimal style balance. Our private consultation at the Showroom will allow us to view these contrastive pieces side-by-side, helping you discover your perfect wrist statement while respecting your specific needs in {{ block.settings.page.metafields.custom.location.value }}.<br/><br/></p>",
             "page": ""
           }
         },
