@@ -151,13 +151,12 @@
     },
     "featured_collection_UMtPLc": {
       "type": "featured-collection",
-      "disabled": true,
       "name": "t:sections.collection--featured-collection.presets.name",
       "settings": {
-        "title": "Our Newest Engagement Rings.",
+        "title": "Our Newest Wristwear.",
         "description": "",
         "section_header_alignment": "left",
-        "collection": "engagement-rings",
+        "collection": "wristwear",
         "show_highlight": false,
         "highlight_position": "below_image",
         "highlight_icon": "none",
@@ -485,60 +484,6 @@
         "image_overlay_opacity": 35
       }
     },
-    "template_product_info_columns_bqDXjC": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_a8i7yL": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
-            "grid_image_size": "wide",
-            "heading": "Book a In-Person Consultation.",
-            "text": "<p>For those who prefer a tactile experience, we offer Private Home Visits directly to you in {{ page.metafields.custom.location.value }}. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.</p>",
-            "button_link": "shopify://pages/schedule-an-appointment",
-            "button_text": "Request Appointment"
-          }
-        },
-        "image_and_text_f8wUpF": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
-            "grid_image_size": "wide",
-            "heading": "Design Your Ring Online.",
-            "text": "<p>Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen in {{ page.metafields.custom.location.value }}. Select your ideal GIA-certified diamond, choose your setting, and watch your future heirloom come to life in breathtaking 3D detail.</p>",
-            "button_link": "shopify://pages/custom-jewellery-builder-online",
-            "button_text": "Go to Online Builder"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_a8i7yL",
-        "image_and_text_f8wUpF"
-      ],
-      "disabled": true,
-      "name": "Bespoke Choice",
-      "settings": {
-        "title": "Want to create something more bespoke?",
-        "description": "<p>We offer two distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 2,
-        "vertical_alignment": "center",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "accent"
-      }
-    },
     "rich_text_aFz4dn": {
       "type": "rich-text",
       "blocks": {
@@ -677,84 +622,6 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "dark"
-      }
-    },
-    "template_product_info_columns_ARxq4X": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_iRJtan": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft an engagement ring that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_4ggiYD": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Diamond_Set_Rings_-_Mobile_43d70b02-4792-4c23-86a0-7bf63dbf99d6.png",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your engagement ring design details! You can view our existing rings in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_AEcprt": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/SR1506.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your engagement ring. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "image_and_text_reUzLt": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/heating-metal-ring.jpg",
-            "grid_image_size": "square",
-            "heading": "",
-            "text": "<h6>The Crafting Process</h6><p>Your stunning engagement ring is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_iRJtan",
-        "image_and_text_4ggiYD",
-        "image_and_text_AEcprt",
-        "image_and_text_reUzLt"
-      ],
-      "disabled": true,
-      "name": "Bespoke Process",
-      "settings": {
-        "title": "Our Bespoke Process.",
-        "description": "<p>Let's make your dream jewellery together.</p>",
-        "section_header_alignment": "left",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "slider_height_mobile": "adaptive",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
       }
     },
     "image_with_text_YkYaKe": {
@@ -966,190 +833,6 @@
         "include_margins": true
       }
     },
-    "blog_posts_BVWqKG": {
-      "type": "blog-posts",
-      "blocks": {
-        "blog_UfTTaA": {
-          "type": "blog",
-          "settings": {
-            "blog": "guide-jewellery-sizing-guide"
-          }
-        }
-      },
-      "block_order": [
-        "blog_UfTTaA"
-      ],
-      "disabled": true,
-      "name": "They Said Yes",
-      "settings": {
-        "title": "They said yes!",
-        "description": "<p>Read our proposal engagement ring stories from our happy customers.</p>",
-        "section_header_alignment": "center",
-        "media_source": "original",
-        "custom_media_ratio": "square",
-        "show_image": true,
-        "image_shape": "natural",
-        "post_limit": 8,
-        "show_tags": false,
-        "blog_show_date": true,
-        "show_author": false,
-        "show_reading_time": true,
-        "show_comment_count": false,
-        "show_excerpt": true,
-        "show_read_more": true,
-        "heading_font": "heading",
-        "heading_font_size": "h5",
-        "heading_font_size_mobile": "h4-mobile",
-        "body_font_size": 200,
-        "alignment": "left",
-        "buttons_style": "underlined",
-        "override_button_colors": true,
-        "button_background_color": "#242424",
-        "button_text_color": "#ffffff",
-        "layout_style_desktop": "slider",
-        "hover_navigation_desktop": "left-and-right",
-        "peek_desktop": true,
-        "images_per_row_desktop": 4,
-        "layout_style_mobile": "slider",
-        "navigation_mobile": "dots",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "accent"
-      }
-    },
-    "collage_cpYDQ9": {
-      "type": "collage",
-      "blocks": {
-        "text_bntL6K": {
-          "type": "text",
-          "settings": {
-            "heading": "Cut",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Often considered the most important 'C', the cut determines how well a diamond interacts with light. A masterfully cut diamond will capture light and return it as a breathtaking display of brilliance, fire, and scintillation. It's the only 'C' influenced directly by human artistry.",
-            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/cut-the-4cs-of-a-diamond",
-            "button_label": "Learn More",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "#242424"
-          }
-        },
-        "text_F7wdVc": {
-          "type": "text",
-          "settings": {
-            "heading": "Clarity",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Clarity measures the presence of internal characteristics (inclusions) and external characteristics (blemishes). Diamonds with fewer and smaller inclusions receive higher clarity grades.",
-            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/clarity-the-4cs-of-a-diamond",
-            "button_label": "Learn More",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "#242424"
-          }
-        },
-        "text_UiG8mi": {
-          "type": "text",
-          "settings": {
-            "heading": "Carat",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "The carat is the unit of measurement for a diamond's weight. While larger diamonds are rarer and more valuable, the other 3Cs also significantly impact a diamond's overall quality.",
-            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/carat-the-4cs-of-a-diamond",
-            "button_label": "Learn More",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "#242424"
-          }
-        },
-        "text_hmVTby": {
-          "type": "text",
-          "settings": {
-            "heading": "Colour",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Diamond colour is graded on a scale from D (colourless) to Z (light yellow or brown). The most valuable diamonds are those that are colourless, as they allow the most light to pass through, creating maximum brilliance.",
-            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/colour-the-4cs-of-a-diamond",
-            "button_label": "Learn More",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "#242424"
-          }
-        },
-        "text_3QhWD6": {
-          "type": "text",
-          "settings": {
-            "heading": "The Modern Choice: Lab Diamonds",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Embrace the future of fine jewellery. Lab-grown diamonds offer a conscious, beautiful, and identical alternative to their natural counterparts. They are chemically, physically, and optically the same as mined diamonds.",
-            "url": "shopify://blogs/guide-lab-diamonds/why-lab-grown-diamonds-are-the-ethical-future-of-jewellery",
-            "button_label": "Learn About Lab Diamonds",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "center",
-            "background_color": "#f8f7f2",
-            "text_color": "#242424"
-          }
-        }
-      },
-      "block_order": [
-        "text_bntL6K",
-        "text_F7wdVc",
-        "text_UiG8mi",
-        "text_hmVTby",
-        "text_3QhWD6"
-      ],
-      "disabled": true,
-      "name": "The 4C's",
-      "settings": {
-        "title": "Understanding The 4 C's",
-        "description": "<p>Diamond Education</p>",
-        "section_header_alignment": "left",
-        "section_width": "content",
-        "remove_spacing": false,
-        "block_alignment": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "width_1": "2",
-        "height_1": "6",
-        "width_2": "2",
-        "height_2": "6",
-        "width_3": "2",
-        "height_3": "6",
-        "width_4": "2",
-        "height_4": "6",
-        "width_5": "1",
-        "height_5": "6",
-        "width_6": "1",
-        "height_6": "6",
-        "color_scheme": "white"
-      }
-    },
     "faq_with_image_m73Xra": {
       "type": "faq-with-image",
       "blocks": {
@@ -1208,7 +891,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Frequently Asked Questions.",
+        "section_title": "Frequently Asked Questions About Wristwear.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
@@ -1278,8 +961,8 @@
       ],
       "name": "Areas We Cover",
       "settings": {
-        "title": "Engagement Rings Across the South of England",
-        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer bespoke engagement ring design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
+        "title": "Bracelets Across the South of England",
+        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer wristwear design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
         "section_header_alignment": "center",
         "maximum_width": 500,
         "override_border_radius": false,
@@ -1309,18 +992,14 @@
     "template_product_info_columns_J4Dp7X",
     "template_product_info_columns_papGY4",
     "image_with_text_overlay_He6F4z",
-    "template_product_info_columns_bqDXjC",
     "rich_text_aFz4dn",
     "text_adverts_with_icon_qyqtQz",
     "text_adverts_with_icon_yf3Gzx",
-    "template_product_info_columns_ARxq4X",
     "image_with_text_YkYaKe",
     "template_product_info_columns_ALphbN",
     "rich_text_pBdiyA",
     "1780059503e4e28014",
     "17787619721046fdd6",
-    "blog_posts_BVWqKG",
-    "collage_cpYDQ9",
     "faq_with_image_m73Xra",
     "template_product_info_columns_eUEtia"
   ]
