@@ -231,11 +231,11 @@
         "image_93DFPn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/9516-afcb6879-9441-492d-b943-702bcdfa8709.jpg",
-            "link": "shopify://collections/silver-wristwear",
+            "image": "shopify://shop_images/7893-688cb5ec-7968-4e14-8825-83b3359a31fc.jpg",
+            "link": "shopify://collections/hook-earrings",
             "button_label": "",
-            "subheading": "Contemporary and affordable sterling silver designs.",
-            "title": "Silver Wristwear",
+            "subheading": "Contemporary designs with graceful movement.",
+            "title": "Hook Earrings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -244,8 +244,8 @@
         "image_PGgY39": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/b5523c.jpg",
-            "link": "shopify://collections/diamond-wristwear",
+            "image": "shopify://shop_images/ge2507c.jpg",
+            "link": "shopify://collections/diamond-earrings",
             "button_label": "",
             "subheading": "Brilliance in both ethically mined and lab-grown stones.",
             "title": "Lab & Natural Diamond",
@@ -257,11 +257,11 @@
         "image_CyyQah": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gb534l.jpg",
-            "link": "shopify://collections/gemstone-wristwear",
+            "image": "shopify://shop_images/ge2513g.jpg",
+            "link": "shopify://collections/gemstone-earrings",
             "button_label": "",
             "subheading": "Vibrant Rubies, Emeralds, and Sapphires.",
-            "title": "Gemstone Wristwear",
+            "title": "Gemstone Earrings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
