@@ -1,0 +1,1006 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_image_with_text_bTYMM7": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Earrings_ae1e4721-2e5f-4d2f-89db-979f31c4f8bc.png",
+        "layout": "right",
+        "title": "Earrings in {{ page.metafields.custom.location.value }}.",
+        "text": "<p>A curated collection of exceptional earrings for clients in {{ page.metafields.custom.location.value }}. </p><p>From timeless diamond studs to bespoke drop designs, visit our Chichester showroom to find your perfect pair.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "shopify://collections/earrings",
+        "button_label_1": "View Collections",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "shopify://pages/custom-jewellery-builder-online",
+        "button_label_2": "Design Earrings Online",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "scrolling_banner_yQGBqH": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_wU7jRg": {
+          "type": "text",
+          "settings": {
+            "text": "Crafted in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_ifRMFb": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_UwDBdj": {
+          "type": "text",
+          "settings": {
+            "text": "Certified Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_Q6pTBK": {
+          "type": "text",
+          "settings": {
+            "text": "30 Days Return",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_wU7jRg",
+        "text_ifRMFb",
+        "text_UwDBdj",
+        "text_Q6pTBK"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
+      }
+    },
+    "rich_text_ManT8J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VPxYPE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Serving {{ page.metafields.custom.location.value }} with Exceptional Earrings.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_pHNrDN": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Griffin & Co on <strong>South Street in Chichester</strong> offers a stunning array of fine earrings for customers in {{ page.metafields.custom.location.value }}. </p><p>Whether you are looking for a classic gift, a bridal accessory, or a statement piece for a special occasion, our expert team is here to guide you through our handcrafted collections.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_VPxYPE",
+        "richtext_pHNrDN"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "featured_collection_UMtPLc": {
+      "type": "featured-collection",
+      "name": "t:sections.collection--featured-collection.presets.name",
+      "settings": {
+        "title": "Our Newest Earrings.",
+        "description": "",
+        "section_header_alignment": "left",
+        "collection": "earrings",
+        "show_highlight": false,
+        "highlight_position": "below_image",
+        "highlight_icon": "none",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": true,
+        "button_position": "above_products",
+        "button_alignment": "right",
+        "buttons_style": "outlined",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "layout_style": "slider",
+        "products_to_show": 15,
+        "grid-desktop": 5,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_YDbVni": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_W446Ue": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SE5521_YG_9CT_WG_0.jpg",
+            "link": "shopify://collections/studs",
+            "button_label": "",
+            "subheading": "Timeless solitaires and clusters.",
+            "title": "Stud Earrings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TqAzw3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ge1017l.jpg",
+            "link": "shopify://collections/hoop",
+            "button_label": "",
+            "subheading": "Elegant everyday staples & huggies in gold & platinum.",
+            "title": "Hoop Earrings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UqFNLm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ge2506c.jpg",
+            "link": "shopify://collections/drop",
+            "button_label": "",
+            "subheading": "Sophisticated movement and sparkle.",
+            "title": "Drop Earrings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_93DFPn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7893-688cb5ec-7968-4e14-8825-83b3359a31fc.jpg",
+            "link": "shopify://collections/hook-earrings",
+            "button_label": "",
+            "subheading": "Contemporary designs with graceful movement.",
+            "title": "Hook Earrings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PGgY39": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ge2507c.jpg",
+            "link": "shopify://collections/diamond-earrings",
+            "button_label": "",
+            "subheading": "Brilliance in both ethically mined and lab-grown stones.",
+            "title": "Lab & Natural Diamond",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CyyQah": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ge2513g.jpg",
+            "link": "shopify://collections/gemstone-earrings",
+            "button_label": "",
+            "subheading": "Vibrant Rubies, Emeralds, and Sapphires.",
+            "title": "Gemstone Earrings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_W446Ue",
+        "image_TqAzw3",
+        "image_UqFNLm",
+        "image_93DFPn",
+        "image_PGgY39",
+        "image_CyyQah"
+      ],
+      "name": "Collections",
+      "settings": {
+        "title": "Our Earrings Collections.",
+        "description": "<p>Handcrafted elegance for every occasion.</p>",
+        "section_header_alignment": "left",
+        "image_shape": "natural",
+        "layout_style_desktop": "grid",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "grid",
+        "navigation_mobile": "dots",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "full",
+        "remove_spacing": false,
+        "section_padding_top": 72,
+        "section_padding_bottom": 150,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_J4Dp7X": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_MjRteG": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
+            "grid_image_size": "square",
+            "heading": "Sterling Silver Earrings",
+            "text": "<p>Affordable & Light.</p>",
+            "button_link": "shopify://collections/silver-earrings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_bi4K97": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Yellow_Gold_1ed00eaa-e401-4532-a218-e4b05be70a43.png",
+            "grid_image_size": "square",
+            "heading": "Yellow Gold Earrings",
+            "text": "<p>Classic & Warm.</p>",
+            "button_link": "shopify://collections/yellow-gold-earrings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_UaFRzt": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
+            "grid_image_size": "square",
+            "heading": "White Gold Earrings",
+            "text": "<p>Bright & Modern.</p>",
+            "button_link": "shopify://collections/white-gold-earrings",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_MjRteG",
+        "image_and_text_bi4K97",
+        "image_and_text_UaFRzt"
+      ],
+      "name": "Metal",
+      "settings": {
+        "title": "Find Earrings by Metal Type.",
+        "description": "",
+        "section_header_alignment": "center",
+        "maximum_width": 75,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_papGY4": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_EhJQ99": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Earrings_Lab_Diamonds.png",
+            "grid_image_size": "wide",
+            "heading": "Women's Earrings",
+            "text": "<p>Discover a world of elegance. From delicate diamond studs and elegant gemstone drops to striking contemporary hoops, our curated earring collection celebrates feminine grace with meticulous craftsmanship.</p>",
+            "button_link": "shopify://collections/womens-earrings",
+            "button_text": "Shop Women's Earrings"
+          }
+        },
+        "image_and_text_kDH8xb": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Men_s_Jewellery.png",
+            "grid_image_size": "wide",
+            "heading": "Men's Jewellery",
+            "text": "<p>Sophisticated style for the modern gentleman. Explore our range of heavy gold chains, pendants, signet rings and stud earrings, designed to add a touch of refined distinction to your everyday look.</p>",
+            "button_link": "shopify://collections/for-him",
+            "button_text": "Shop Men's Jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_EhJQ99",
+        "image_and_text_kDH8xb"
+      ],
+      "name": "Shop by Department",
+      "settings": {
+        "title": "Shop by Department.",
+        "description": "<p>Curated collections for every style.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382e",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 2,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_He6F4z": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_AjnWUp": {
+          "type": "heading",
+          "settings": {
+            "title": "Complete Your Look.",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_CHnDAB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nothing speaks of elegance quite like a perfectly coordinated jewellery set. Whether you are looking for bridal jewellery to complement your wedding dress, or a matching pendant to go with your new diamond studs, we offer a range of cohesive collections.</p>",
+            "font_size_desktop": 130,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_CQf4nf": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://collections/jewellery-sets",
+            "first_button_label": "View Jewellery Sets",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#302f2f",
+            "buttons_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_AjnWUp",
+        "text_CHnDAB",
+        "button_CQf4nf"
+      ],
+      "custom_css": [],
+      "name": "Jewellery Sets",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Diamond_Jewellery.png",
+        "height_desktop": "650px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 75,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#2b2b2b",
+        "image_overlay_opacity": 35
+      }
+    },
+    "rich_text_aFz4dn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wTT9Jr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Expert Earrings Services for {{ page.metafields.custom.location.value }} Clients.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_wHdiHi": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Professional care, bespoke creation, and craftsmanship for your most treasured earrings. Visit us in Chichester</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_wTT9Jr",
+        "richtext_wHdiHi"
+      ],
+      "name": "Wristwear Services Title",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_qyqtQz": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_3ch9C4": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Bespoke Design",
+            "text": "<p>Create a one-of-a-kind pair of earrings. Work with our designers to sketch and craft something truly unique to you.</p>",
+            "link": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_chxNe3": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Lost Earring Replacement",
+            "text": "<p>Lost a favourite earring? We can create an exact replica to match your remaining piece, restoring your set.</p>",
+            "link": "{{ page.metafields.custom.service_area_remodelling.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_38Fdtz": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Earring Repairs",
+            "text": "<p>From replacing lost butterfly backs to repairing bent posts or securing loose stones, we restore your earrings to perfection.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_3ch9C4",
+        "text_advert_chxNe3",
+        "text_advert_38Fdtz"
+      ],
+      "name": "Services #1",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_yf3Gzx": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_rtMTRw": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Earring Remodelling",
+            "text": "<p>Transform unworn jewellery. We can turn an old ring into a beautiful pair of diamond studs or drop earrings.</p>",
+            "link": "{{ page.metafields.custom.service_area_remodelling.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_PPWjYr": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Gemstone Sourcing",
+            "text": "<p>Looking for a specific shade of Emerald or a rare Pink Diamond? We source exceptional stones for custom earring projects.</p>",
+            "link": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_ebWUWn": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Home Visits in {{ page.metafields.custom.location.value }}",
+            "text": "<p>Personalised service in comfort. Our experts can visit you in Chichester and surrounding areas for consultations and valuations.</p>",
+            "link": "shopify://pages/home-visits",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_rtMTRw",
+        "text_advert_PPWjYr",
+        "text_advert_ebWUWn"
+      ],
+      "name": "Services #2",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "image_with_text_YkYaKe": {
+      "type": "image-with-text",
+      "name": "The Studio Experience at Home",
+      "settings": {
+        "image": "shopify://shop_images/IMG_8786.webp",
+        "layout": "right",
+        "title": "View Earrings From Your Home.",
+        "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request a Consultation",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_ALphbN": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_Rz6UPM": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Initial_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "The Initial Inquiry",
+            "text": "<p>A brief introductory call to understand your vision, requirements, and the scope of the piece or service you require. We listen to your story first.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_4i46Y8": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Private_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "The Private Consultation",
+            "text": "<p>Our designer visits your home with a curated selection of materials and tools to refine the design, specifications, and gemstones in complete privacy.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_t8w6Th": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Master_Craftmanship_2.webp",
+            "grid_image_size": "square",
+            "heading": "Master Craftsmanship",
+            "text": "<p>Your piece is handcrafted in our studio to the highest standards and delivered back to you for a final, perfect fitting and unveiling.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Rz6UPM",
+        "image_and_text_4i46Y8",
+        "image_and_text_t8w6Th"
+      ],
+      "name": "The Home Visit Process",
+      "settings": {
+        "title": "From Your Home to Our Atelier.",
+        "description": "<p>A seamless transition from vision to heirloom.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "rich_text_pBdiyA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_q34xXf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Earrings From OUR INSTAGRAM.",
+            "heading--text-size": "h4",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_XezrDU": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular earring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text_size": 100,
+            "text_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_q34xXf",
+        "richtext_XezrDU"
+      ],
+      "name": "Instagram Feed Title",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "1780059503e4e28014": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_nzWHBA": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "47349",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_nzWHBA"
+      ],
+      "name": "Instagram Feed",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
+    },
+    "17787619721046fdd6": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_a43rFx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": false,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "5_star",
+            "max_reviews": 30,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "text",
+            "card_height": "extra_tall",
+            "text_size": "extra_small",
+            "stars_size": "small",
+            "arrows_position": "hidden",
+            "max_width": 1300,
+            "corner_styling": "square",
+            "quote_marks_style": "serif",
+            "card_color": "#f8f8f8",
+            "stars_and_quote_marks_color": "#ffdda6",
+            "text_color": "#ffffff",
+            "arrows_color": "#ffffff",
+            "show_border": false,
+            "border_color": "#e8e8e8",
+            "show_drop_shadow": false,
+            "transition_speed": 4,
+            "header_text": "Consultation Experiences.",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_a43rFx"
+      ],
+      "custom_css": [
+        ".jdgm-star {color: #ffdda6 !important;}",
+        ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
+        "div {background: #004225;}",
+        ".jdgm-title {font-size: 22px; font-family: var(--body-font-stack); overflow: visible; -webkit-line-clamp: 2;}"
+      ],
+      "name": "Reviews",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "faq_with_image_m73Xra": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_GhRGXt": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What qualities should I consider when selecting between delicate stud earrings and architectural dangle designs?",
+            "open_by_default": false,
+            "text": "<p>The choice reflects your desired level of presence; studs are often masterpieces of focused, micro-detailed brilliance, while our forged dangle creations offer dramatic kinetic energy and movement. </p><p>Our master goldsmiths can advise on which style will best complement your overall ensemble and physical features. We suggest an appointment at our Showroom to view these contrasting Creations in person, allowing us to guide you towards the perfect balance for your aesthetic near {{ block.settings.page.metafields.custom.location.value }}.<br/><br/></p>",
+            "page": ""
+          }
+        },
+        "accordion_HmVJLJ": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Are miniature earrings suitable as everyday wear when I am passing through {{ block.settings.page.metafields.custom.location.value }}?",
+            "open_by_default": false,
+            "text": "<p>Absolutely. For discreet elegance that withstands daily life, Studs are an ideal choice. Many of our micro-pieces feature meticulously set GIA-certified natural diamonds or semi-precious stones, offering lasting brilliance without overwhelming your presence. </p><p>To view the range and determine which pairing will best align with your modern lifestyle in {{ block.settings.page.metafields.custom.location.value }}, we welcome you to arrange a private consultation at the Chichester Showroom or via Home Visit.</p>",
+            "page": ""
+          }
+        },
+        "accordion_xFhTbU": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Can I commission an earring set using my existing family heirlooms for remodelling?",
+            "open_by_default": false,
+            "text": "<p>Yes, this is one of our most cherished commissions. We specialise in revitalising inherited jewellery, working diligently to integrate vintage pieces into entirely new, contemporary designs while retaining their precious legacy. </p><p>All restorative work happens meticulously within the secure, trusted environment of our on-site Chichester workshop. To discuss assessing your unique family set from {{ block.settings.page.metafields.custom.location.value }}, please book a consultation at the Showroom or via our Home Visit service.</p>",
+            "page": ""
+          }
+        },
+        "accordion_pxHnfz": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How can I ensure that my earrings are responsibly and ethically sourced?",
+            "open_by_default": false,
+            "text": "<p>At Griffin & Co, ethical intent is woven into every single piece. We guarantee that all materials used, whether Platinum or gold, contain verifiable ethical provenance. </p><p>Furthermore, we extensively practise using 100% recycled precious metals alongside certified natural and lab-grown alternatives. For complete assurance regarding the origin of stones and metals in your pieces commissioned near {{ block.settings.page.metafields.custom.location.value }}, please consult with us directly at our Chichester Showroom or via Home Vist.</p>",
+            "page": ""
+          }
+        },
+        "accordion_BRezAN": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "I need earrings that match a specific stone type (e.g., emeralds). Can you guide me through colour matching options?",
+            "open_by_default": false,
+            "text": "<p>The perfect harmony between metal and gemstone is an art form, demanding the expertise of a master craftsman. Whether you are integrating deep emeralds or vibrant sapphires into your design, we have expert knowledge in colour theory and complementary settings. </p><p>We encourage booking a private consultation at our Showroom or by Home Visit; seeing actual examples side-by-side helps us curate the most precise, harmonious aesthetic for your requirements emanating from {{ block.settings.page.metafields.custom.location.value }}.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_GhRGXt",
+        "accordion_HmVJLJ",
+        "accordion_xFhTbU",
+        "accordion_pxHnfz",
+        "accordion_BRezAN"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Frequently Asked Questions About Earrings.",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/DSC05140_Large_f091f4f7-a5a9-4be9-b227-0a63ff8e3109.jpg",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_eUEtia": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_WGKABc": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/earrings-west-sussex\" title=\"Earrings in West Sussex\">West Sussex</a></h5><p><a href=\"/pages/earrings-arundel\" title=\"Arundel\">Arundel</a>, <a href=\"/pages/earrings-bognor-regis\" title=\"Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/earrings-bosham\" title=\"Bosham\">Bosham</a>, <a href=\"/pages/earrings-burgess-hill\" title=\"Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/earrings-chichester\" title=\"Chichester\">Chichester</a>, <a href=\"/pages/earrings-crawley\" title=\"Crawley\">Crawley</a>, <a href=\"/pages/earrings-east-grinstead\" title=\"East Grinstead\">East Grinstead</a>, <a href=\"/pages/earrings-haywards-heath\" title=\"Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/earrings-horsham\" title=\"Horsham\">Horsham</a>, <a href=\"/pages/earrings-littlehampton\" title=\"Littlehampton\">Littlehampton</a>, <a href=\"/pages/earrings-shoreham-by-sea\" title=\"Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/earrings-worthing\" title=\"Worthing\">Worthing</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_imri8x": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/earrings-hampshire\" title=\"Earrings in Hampshire\">Hampshire</a></h5><p><a href=\"/pages/earrings-aldershot\" title=\"Earrings in Aldershot\">Aldershot</a>, <a href=\"/pages/earrings-andover\" title=\"Earrings in Andover\">Andover</a>, <a href=\"/pages/earrings-basingstoke\" title=\"Earrings in Basingstoke\">Basingstoke</a>, <a href=\"/pages/earrings-farnborough\" title=\"Earrings in Farnborough\">Farnborough</a>, <a href=\"/pages/earrings-gosport\" title=\"Earrings in Gosport\">Gosport</a>, <a href=\"/pages/earrings-horndean\" title=\"Earrings in Horndean\">Horndean</a>, <a href=\"/pages/earrings-portsmouth\" title=\"Earrings in Portsmouth\">Portsmouth</a>, <a href=\"/pages/earrings-southampton\" title=\"Earrings in Southampton\">Southampton</a>, <a href=\"/pages/earrings-winchester\" title=\"Earrings in Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_6UDL77": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/earrings-surrey\" title=\"Earrings in Surrey\">Surrey</a></h5><p><a href=\"/pages/earrings-camberley\" title=\"Earrings in Camberley\">Camberley</a>, <a href=\"/pages/earrings-epsom\" title=\"Earrings in Epsom\">Epsom</a>, <a href=\"/pages/earrings-esher\" title=\"Earrings in Esher\">Esher</a>, <a href=\"/pages/earrings-ewell\" title=\"Earrings in Ewell\">Ewell</a>, <a href=\"/pages/earrings-guildford\" title=\"Earrings in Guildford\">Guildford</a>, <a href=\"/pages/earrings-leatherhead\" title=\"Earrings in Leatherhead\">Leatherhead</a>, <a href=\"/pages/earrings-redhill\" title=\"Earrings in Redhill\">Redhill</a>, <a href=\"/pages/earrings-walton-on-thames\" title=\"Earrings in Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/earrings-weybridge\" title=\"Earrings in Weybridge\">Weybridge</a>, <a href=\"/pages/earrings-woking\" title=\"Earrings in Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_JyiVnm": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/earrings-greater-london\" title=\"Earrings in Greater London\">Greater London</a></h5><p><a href=\"/pages/earrings-barnet\" title=\"Earrings in Barnet\">Barnet</a>, <a href=\"/pages/earrings-brent\" title=\"Earrings in Brent\">Brent</a>, <a href=\"/pages/earrings-bromley\" title=\"Earrings in Bromley\">Bromley</a>, <a href=\"/pages/earrings-croydon\" title=\"Earrings in Croydon\">Croydon</a>, <a href=\"/pages/earrings-ealing\" title=\"Earrings in Ealing\">Ealing</a>, <a href=\"/pages/earrings-enfield\" title=\"Earrings in Enfield\">Enfield</a>, <a href=\"/pages/earrings-lambeth\" title=\"Earrings in Lambeth\">Lambeth</a>, <a href=\"/pages/earrings-newham\" title=\"Earrings in Newham\">Newham</a>, <a href=\"/pages/earrings-hatton-garden\" title=\"Earrings in Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/earrings-tower-hamlets\" title=\"Earrings in Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/earrings-wandsworth\" title=\"Earrings in Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_WGKABc",
+        "text_imri8x",
+        "text_6UDL77",
+        "text_JyiVnm"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Earrings Across the South of England.",
+        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer earring design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "hero_image_with_text_bTYMM7",
+    "scrolling_banner_yQGBqH",
+    "rich_text_ManT8J",
+    "featured_collection_UMtPLc",
+    "gallery_slideshow_YDbVni",
+    "template_product_info_columns_J4Dp7X",
+    "template_product_info_columns_papGY4",
+    "image_with_text_overlay_He6F4z",
+    "rich_text_aFz4dn",
+    "text_adverts_with_icon_qyqtQz",
+    "text_adverts_with_icon_yf3Gzx",
+    "image_with_text_YkYaKe",
+    "template_product_info_columns_ALphbN",
+    "rich_text_pBdiyA",
+    "1780059503e4e28014",
+    "17787619721046fdd6",
+    "faq_with_image_m73Xra",
+    "template_product_info_columns_eUEtia"
+  ]
+}
