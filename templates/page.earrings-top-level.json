@@ -866,18 +866,18 @@
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What areas do you cover for Home Visits?",
+            "accordion_header": "How can I ensure that my earrings are responsibly and ethically sourced?",
             "open_by_default": false,
-            "text": "<p>Our home visit service primarily covers Chichester and the immediate surrounding areas in West Sussex. </p><p>This service is ideal for clients who prefer the privacy and comfort of their own home for consultations or valuations. Please contact us to check availability for your specific location.{{ block.settings.page.metafields.custom.location.value }}</p>",
+            "text": "<p>At Griffin & Co, ethical intent is woven into every single piece. We guarantee that all materials used, whether Platinum or gold, contain verifiable ethical provenance. </p><p>Furthermore, we extensively practise using 100% recycled precious metals alongside certified natural and lab-grown alternatives. For complete assurance regarding the origin of stones and metals in your pieces commissioned near {{ block.settings.page.metafields.custom.location.value }}, please consult with us directly at our Chichester Showroom or via Home Vist.</p>",
             "page": ""
           }
         },
         "accordion_BRezAN": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Do I need an appointment to view wristwear?",
+            "accordion_header": "I need earrings that match a specific stone type (e.g., emeralds). Can you guide me through colour matching options?",
             "open_by_default": false,
-            "text": "<p>You are welcome to browse our collection at any time. However, for bespoke commissions or to view specific high-value pieces, we recommend booking an appointment for a home visit so we can have everything ready for you.</p>",
+            "text": "<p>The perfect harmony between metal and gemstone is an art form, demanding the expertise of a master craftsman. Whether you are integrating deep emeralds or vibrant sapphires into your design, we have expert knowledge in colour theory and complementary settings. </p><p>We encourage booking a private consultation at our Showroom or by Home Visit; seeing actual examples side-by-side helps us curate the most precise, harmonious aesthetic for your requirements emanating from {{ block.settings.page.metafields.custom.location.value }}.</p>",
             "page": ""
           }
         }
