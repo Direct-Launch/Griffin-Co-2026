@@ -857,27 +857,27 @@
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can you remodel an unworn piece of family jewellery into a new pendant?",
+            "accordion_header": "Do you work with antique or vintage pendant elements for remodelling into modern necklaces?",
             "open_by_default": false,
-            "text": "<p>Absolutely. Breathing new life into sentimental family heirlooms is one of our greatest privileges. </p><p>Our master goldsmiths can expertly unset diamonds or gemstones from an unworn ring or brooch and design a breathtaking modern pendant. </p><p>We can even melt down your existing gold to forge the new setting, preserving the history of the piece while creating an enduring legacy you can wear close to your heart.</p>",
+            "text": "<p>We specialise in revitalising jewellery with rich history. When adapting a vintage pendant—perhaps one passed down through generations—into a completely renewed, contemporary necklace, meticulous care is required to honour its provenance while updating its aesthetic appeal. Our skilled artisans treat these pieces as historical commissions. </p><p>All specialised repair and remodelling are conducted within the security of our on-site Chichester workshop, guaranteeing that your heirloom never leaves our protective local domain. </p><p>We encourage an appointment at the Showroom to assess these precious family pieces from {{ block.settings.page.metafields.custom.location.value }}.<br/><br/></p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can I commission a completely bespoke necklace or pendant?",
+            "accordion_header": "What is the difference between a classic pendant setting and a modern, architectural piece?",
             "open_by_default": false,
-            "text": "<p>Yes, we specialise in bringing your unique visions to life. Whether you desire a personalised diamond solitaire pendant, an engraved family crest, or a complex gemstone cluster, our designers are at your service. </p><p>We invite you to book a consultation at our Chichester workshop, where we will collaborate with you to craft a bespoke piece that perfectly tells your individual story.</p>",
+            "text": "<p>The distinction lies in the artistic intention—a classical piece prioritises the emotional connection with the central gemstone, while a modern, architectural design often treats the metal itself as a form of art. </p><p>Our latest creations showcase both; some delicate pendants feature meticulously set gemstones (with strong attention to GIA-certified quality), while others boast bold, forged geometric shapes in Platinum or Gold. </p><p>Understanding this contrast is best done by seeing and holding the pieces during an appointment at our Chichester Showroom, letting us guide you towards your preferred style of enduring glamour.<br/><br/></p>",
             "page": ""
           }
         },
         "accordion_BRezAN": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What should I do if the chain on my favourite necklace breaks?",
+            "accordion_header": "How do I ensure the metal backing (chain) for my necklace matches the pendant's quality and longevity?",
             "open_by_default": false,
-            "text": "<p>Fine chains can occasionally catch and break with everyday wear, but they can almost always be beautifully restored. </p><p>Our on-site Chichester workshop offers comprehensive repair services, including seamless laser chain soldering and secure clasp replacements. </p><p>Because your jewellery never leaves our premises, you can trust that it is handled with the utmost security, precision, and care by our expert goldsmiths.</p>",
+            "text": "<p>The chain is the supporting structure that must complement, not compete with, the principal design element. When commissioning a piece, we evaluate the intrinsic properties of both elements—from matching the alloy weight to ensuring both undergo the same high-quality finishing in our local workshop. </p><p>Whether you are securing yourself a piece before travelling from {{ block.settings.page.metafields.custom.location.value }} or building an entirely new ensemble, all materials are selected for their enduring strength and ethical integrity, guaranteeing that your stunning confluence of pendant and chain is built to last for generations.</p>",
             "page": ""
           }
         }
