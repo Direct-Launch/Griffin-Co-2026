@@ -972,13 +972,14 @@
         "blog_UfTTaA": {
           "type": "blog",
           "settings": {
-            "blog": "engagement-stories"
+            "blog": "guide-jewellery-sizing-guide"
           }
         }
       },
       "block_order": [
         "blog_UfTTaA"
       ],
+      "disabled": true,
       "name": "They Said Yes",
       "settings": {
         "title": "They said yes!",
@@ -1123,6 +1124,7 @@
         "text_hmVTby",
         "text_3QhWD6"
       ],
+      "disabled": true,
       "name": "The 4C's",
       "settings": {
         "title": "Understanding The 4 C's",
@@ -1154,45 +1156,45 @@
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How much should you spend on an Engagement Ring?",
+            "accordion_header": "How do I determine my bangle size?",
             "open_by_default": false,
-            "text": "<p>There's no strict rule! Traditionally, a guideline of 1–3 months' salary was suggested, but ultimately, the right amount is what feels comfortable and affordable for you.<strong> Focus on finding a ring that your partner will love within your budget.</strong></p>",
+            "text": "<p>Unlike bracelets which are measured by wrist circumference, bangles are measured by the size of your hand (the knuckles) to ensure they can slide on. </p><p>We can measure your hand in-store to find the perfect diameter for a comfortable and secure fit. </p><p><a href=\"/blogs/guide-jewellery-sizing-guide/bracelet-size-guide\" title=\"How to Measure for Bracelets and Bangles\">View our Bracelet Sizing Guide</a></p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What is the average cost of an Engagement Ring?",
+            "accordion_header": "Can I wear a tennis bracelet every day?",
             "open_by_default": false,
-            "text": "<p>The average cost can vary significantly depending on location, diamond quality, and style. While figures fluctuate, it's more important to focus on your individual budget and preferences rather than a general average.</p>",
+            "text": "<p>High-quality diamond tennis bracelets set in platinum or 18ct gold are durable enough for daily wear. </p><p>However, we recommend regular checks of the clasp and settings (which we offer as a service) to ensure stones remain secure during active daily use.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Should I buy a Lab Grown Engagement Ring?",
+            "accordion_header": "My bracelet clasp is loose, can you fix it?",
             "open_by_default": false,
-            "text": "<p><strong>Lab-grown diamonds offer the same physical, chemical, and optical properties as natural diamonds</strong> but are created in a controlled environment. They are often a more budget-friendly and sustainable option. The choice is personal and depends on your values and preferences.</p>",
+            "text": "<p>Yes, absolutely. A loose clasp is a common issue that can often be tightened or adjusted. </p><p>If the internal mechanism is worn, we can replace the entire clasp to ensure your bracelet is secure again.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Does an Engagement Ring come with a box?",
+            "accordion_header": "What areas do you cover for Home Visits?",
             "open_by_default": false,
-            "text": "<p>Yes, all engagement rings purchased from Griffin & Co come beautifully presented in a complimentary ring box, perfect for proposing and safekeeping.</p>",
+            "text": "<p>Our home visit service primarily covers Chichester and the immediate surrounding areas in West Sussex. </p><p>This service is ideal for clients who prefer the privacy and comfort of their own home for consultations or valuations. Please contact us to check availability for your specific location.</p>",
             "page": ""
           }
         },
         "accordion_BRezAN": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How long should I set aside for my appointment?",
+            "accordion_header": "Do I need an appointment to view wristwear?",
             "open_by_default": false,
-            "text": "<p>We recommend setting aside about one hour for your consultation. This gives us ample time to discuss your ideas in detail, answer all your questions, and explore different design possibilities without you feeling rushed.</p>",
+            "text": "<p>You are welcome to browse our collection at any time. However, for bespoke commissions or to view specific high-value pieces, we recommend booking an appointment for a home visit so we can have everything ready for you.</p>",
             "page": ""
           }
         }
