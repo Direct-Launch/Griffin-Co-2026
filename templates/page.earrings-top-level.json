@@ -1,0 +1,1006 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_image_with_text_bTYMM7": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Wristwear_fede13f6-03e1-43dc-802a-90bd6c9d01c5.png",
+        "layout": "right",
+        "title": "Wristwear in {{ page.metafields.custom.location.value }}.",
+        "text": "<p>{{ page.metafields.custom.location.value }}'s premier destination for exceptional bracelets, bangles, and cuffs. </p><p>Discover expert craftsmanship and bespoke design right in the heart of Chichester.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "shopify://collections/wristwear",
+        "button_label_1": "View Collections",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "shopify://pages/custom-jewellery-builder-online",
+        "button_label_2": "Design Bracelets Online",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "scrolling_banner_yQGBqH": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_wU7jRg": {
+          "type": "text",
+          "settings": {
+            "text": "Crafted in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_ifRMFb": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_UwDBdj": {
+          "type": "text",
+          "settings": {
+            "text": "Certified Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_Q6pTBK": {
+          "type": "text",
+          "settings": {
+            "text": "30 Days Return",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_wU7jRg",
+        "text_ifRMFb",
+        "text_UwDBdj",
+        "text_Q6pTBK"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
+      }
+    },
+    "rich_text_ManT8J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VPxYPE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Serving {{ page.metafields.custom.location.value }} with Exceptional Bracelets",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_pHNrDN": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Located on <strong>South Street in Chichester</strong>, Griffin & Co offers a stunning array of fine wristwear for our local clientele in {{ page.metafields.custom.location.value }}. </p><p>Whether you are looking for a timeless diamond tennis bracelet, a solid gold bangle to mark a milestone, or a delicate chain for everyday wear, our showroom is your local destination for luxury.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_VPxYPE",
+        "richtext_pHNrDN"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "featured_collection_UMtPLc": {
+      "type": "featured-collection",
+      "name": "t:sections.collection--featured-collection.presets.name",
+      "settings": {
+        "title": "Our Newest Wristwear.",
+        "description": "",
+        "section_header_alignment": "left",
+        "collection": "wristwear",
+        "show_highlight": false,
+        "highlight_position": "below_image",
+        "highlight_icon": "none",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": true,
+        "button_position": "above_products",
+        "button_alignment": "right",
+        "buttons_style": "outlined",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "layout_style": "slider",
+        "products_to_show": 15,
+        "grid-desktop": 5,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_YDbVni": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_W446Ue": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SBK1048WY9CTYG_1.jpg",
+            "link": "shopify://collections/bangles",
+            "button_label": "",
+            "subheading": "Solid, hinged, cuff styles in gold, silver, and platinum.",
+            "title": "Bangles",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TqAzw3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BL6748_YG_2_YG_0.jpg",
+            "link": "shopify://collections/bracelets",
+            "button_label": "",
+            "subheading": "Versatile collection of styles for every wrist.",
+            "title": "Bracelets",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UqFNLm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/b5530.jpg",
+            "link": "shopify://collections/chain-bracelets",
+            "button_label": "",
+            "subheading": "Paperclip, curb, and rope chains for versatile styling.",
+            "title": "Chain Bracelets",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_93DFPn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9516-afcb6879-9441-492d-b943-702bcdfa8709.jpg",
+            "link": "shopify://collections/silver-wristwear",
+            "button_label": "",
+            "subheading": "Contemporary and affordable sterling silver designs.",
+            "title": "Silver Wristwear",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PGgY39": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/b5523c.jpg",
+            "link": "shopify://collections/diamond-wristwear",
+            "button_label": "",
+            "subheading": "Brilliance in both ethically mined and lab-grown stones.",
+            "title": "Lab & Natural Diamond",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CyyQah": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/gb534l.jpg",
+            "link": "shopify://collections/gemstone-wristwear",
+            "button_label": "",
+            "subheading": "Vibrant Rubies, Emeralds, and Sapphires.",
+            "title": "Gemstone Wristwear",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_W446Ue",
+        "image_TqAzw3",
+        "image_UqFNLm",
+        "image_93DFPn",
+        "image_PGgY39",
+        "image_CyyQah"
+      ],
+      "name": "Collections",
+      "settings": {
+        "title": "Our Wristwear Collections.",
+        "description": "<p>Handcrafted elegance to adorn your wrist.</p>",
+        "section_header_alignment": "left",
+        "image_shape": "natural",
+        "layout_style_desktop": "grid",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "grid",
+        "navigation_mobile": "dots",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "full",
+        "remove_spacing": false,
+        "section_padding_top": 72,
+        "section_padding_bottom": 150,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_J4Dp7X": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_MjRteG": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
+            "grid_image_size": "square",
+            "heading": "Sterling Silver Bracelets",
+            "text": "<p>Affordable & Light.</p>",
+            "button_link": "shopify://collections/silver-wristwear",
+            "button_text": ""
+          }
+        },
+        "image_and_text_bi4K97": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Yellow_Gold_1ed00eaa-e401-4532-a218-e4b05be70a43.png",
+            "grid_image_size": "square",
+            "heading": "Yellow Gold Bracelets",
+            "text": "<p>Classic & Warm.</p>",
+            "button_link": "shopify://collections/yellow-gold-wristwear",
+            "button_text": ""
+          }
+        },
+        "image_and_text_UaFRzt": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
+            "grid_image_size": "square",
+            "heading": "White Gold Bracelets",
+            "text": "<p>Bright & Modern.</p>",
+            "button_link": "shopify://collections/white-gold-wristwear",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_MjRteG",
+        "image_and_text_bi4K97",
+        "image_and_text_UaFRzt"
+      ],
+      "name": "Metal",
+      "settings": {
+        "title": "Find Wristwear by Metal Type.",
+        "description": "",
+        "section_header_alignment": "center",
+        "maximum_width": 75,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_papGY4": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_EhJQ99": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Women_s_Jewellery_a231093c-0831-470b-a765-a4d420b5f729.png",
+            "grid_image_size": "wide",
+            "heading": "Women's Jewellery",
+            "text": "<p>Discover a world of elegance. From delicate diamond pendants to statement earrings, stunning rings and tennis bracelets, our collection celebrates femininity in all its forms with exquisite craftsmanship.</p>",
+            "button_link": "shopify://collections/for-her",
+            "button_text": "Shop Women's Jewellery"
+          }
+        },
+        "image_and_text_kDH8xb": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Men_s_Jewellery.png",
+            "grid_image_size": "wide",
+            "heading": "Men's Jewellery",
+            "text": "<p>Sophisticated style for the modern gentleman. Explore our range of heavy gold chains, pendants, signet rings and stud earrings, designed to add a touch of refined distinction to your everyday look.</p>",
+            "button_link": "shopify://collections/for-him",
+            "button_text": "Shop Men's Jewellery"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_EhJQ99",
+        "image_and_text_kDH8xb"
+      ],
+      "name": "Shop by Department",
+      "settings": {
+        "title": "Shop by Department.",
+        "description": "<p>Curated collections for every style.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382e",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 2,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_He6F4z": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_AjnWUp": {
+          "type": "heading",
+          "settings": {
+            "title": "Complete Your Look.",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_CHnDAB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Elevate your style with a perfectly coordinated jewellery set. A tennis bracelet paired with matching diamond studs creates a sophisticated statement, while a gold bangle stack can be the perfect complement to your everyday rings.</p>",
+            "font_size_desktop": 130,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_CQf4nf": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://collections/jewellery-sets",
+            "first_button_label": "View Jewellery Sets",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#302f2f",
+            "buttons_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_AjnWUp",
+        "text_CHnDAB",
+        "button_CQf4nf"
+      ],
+      "custom_css": [],
+      "name": "Jewellery Sets",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Diamond_Jewellery.png",
+        "height_desktop": "650px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 75,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#2b2b2b",
+        "image_overlay_opacity": 35
+      }
+    },
+    "rich_text_aFz4dn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wTT9Jr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Expert Wristwear Services for {{ page.metafields.custom.location.value }} Clients.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_wHdiHi": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>From bespoke bangles to safety chains and repairs. Visit us in Chichester.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_wTT9Jr",
+        "richtext_wHdiHi"
+      ],
+      "name": "Wristwear Services Title",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_qyqtQz": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_3ch9C4": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Bespoke Design",
+            "text": "<p>Commission a custom bangle or bracelet. Work with our Chichester designers to create a piece that perfectly fits your wrist and style.</p>",
+            "link": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_chxNe3": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Bracelet Repairs",
+            "text": "<p>Broken link or snapped chain? We expertly repair all types of bracelets, restoring their strength and appearance.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_38Fdtz": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Safety Chains",
+            "text": "<p>Secure your valuable wristwear. We can fit discreet safety chains or figure-of-eight catches to prevent accidental loss.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_3ch9C4",
+        "text_advert_chxNe3",
+        "text_advert_38Fdtz"
+      ],
+      "name": "Wristwear Services #1",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_yf3Gzx": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_rtMTRw": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Clasp Replacement",
+            "text": "<p>Upgrade a fiddly clasp. We can replace worn or difficult clasps with secure, easy-to-use options like lobster claws.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_PPWjYr": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Engraving",
+            "text": "<p>Personalise a solid bangle or ID bracelet with names, dates, or special messages. Hand and machine engraving available.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_ebWUWn": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Home Visits in {{ page.metafields.custom.location.value }}",
+            "text": "<p>Personalised service in comfort. Our experts can visit you in Chichester and surrounding areas for consultations and valuations.</p>",
+            "link": "shopify://pages/home-visits",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_rtMTRw",
+        "text_advert_PPWjYr",
+        "text_advert_ebWUWn"
+      ],
+      "name": "Wristwear Services #2",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "image_with_text_YkYaKe": {
+      "type": "image-with-text",
+      "name": "The Studio Experience at Home",
+      "settings": {
+        "image": "shopify://shop_images/IMG_8786.webp",
+        "layout": "right",
+        "title": "View Bracelets From Your Home.",
+        "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request a Consultation",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_ALphbN": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_Rz6UPM": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Initial_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "The Initial Inquiry",
+            "text": "<p>A brief introductory call to understand your vision, requirements, and the scope of the piece or service you require. We listen to your story first.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_4i46Y8": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Private_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "The Private Consultation",
+            "text": "<p>Our designer visits your home with a curated selection of materials and tools to refine the design, specifications, and gemstones in complete privacy.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_t8w6Th": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Master_Craftmanship_2.webp",
+            "grid_image_size": "square",
+            "heading": "Master Craftsmanship",
+            "text": "<p>Your piece is handcrafted in our studio to the highest standards and delivered back to you for a final, perfect fitting and unveiling.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Rz6UPM",
+        "image_and_text_4i46Y8",
+        "image_and_text_t8w6Th"
+      ],
+      "name": "The Home Visit Process",
+      "settings": {
+        "title": "From Your Home to Our Atelier.",
+        "description": "<p>A seamless transition from vision to heirloom.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "rich_text_pBdiyA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_q34xXf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bracelets & Bangles From OUR INSTAGRAM.",
+            "heading--text-size": "h4",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_XezrDU": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular wristwear highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text_size": 100,
+            "text_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_q34xXf",
+        "richtext_XezrDU"
+      ],
+      "name": "Instagram Feed Title",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "1780059503e4e28014": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_nzWHBA": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "46536",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_nzWHBA"
+      ],
+      "name": "Instagram Feed",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
+    },
+    "17787619721046fdd6": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_a43rFx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": false,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "5_star",
+            "max_reviews": 30,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "text",
+            "card_height": "extra_tall",
+            "text_size": "extra_small",
+            "stars_size": "small",
+            "arrows_position": "hidden",
+            "max_width": 1300,
+            "corner_styling": "square",
+            "quote_marks_style": "serif",
+            "card_color": "#f8f8f8",
+            "stars_and_quote_marks_color": "#ffdda6",
+            "text_color": "#ffffff",
+            "arrows_color": "#ffffff",
+            "show_border": false,
+            "border_color": "#e8e8e8",
+            "show_drop_shadow": false,
+            "transition_speed": 4,
+            "header_text": "Consultation Experiences.",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_a43rFx"
+      ],
+      "custom_css": [
+        ".jdgm-star {color: #ffdda6 !important;}",
+        ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
+        "div {background: #004225;}",
+        ".jdgm-title {font-size: 22px; font-family: var(--body-font-stack); overflow: visible; -webkit-line-clamp: 2;}"
+      ],
+      "name": "Reviews",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "faq_with_image_m73Xra": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_GhRGXt": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How do I determine my bangle size?",
+            "open_by_default": false,
+            "text": "<p>Unlike bracelets which are measured by wrist circumference, bangles are measured by the size of your hand (the knuckles) to ensure they can slide on. </p><p>We can measure your hand in-store to find the perfect diameter for a comfortable and secure fit. </p><p><a href=\"/blogs/guide-jewellery-sizing-guide/bracelet-size-guide\" title=\"How to Measure for Bracelets and Bangles\">View our Bracelet Sizing Guide</a></p>",
+            "page": ""
+          }
+        },
+        "accordion_HmVJLJ": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Can I wear a tennis bracelet every day?",
+            "open_by_default": false,
+            "text": "<p>High-quality diamond tennis bracelets set in platinum or 18ct gold are durable enough for daily wear. </p><p>However, we recommend regular checks of the clasp and settings (which we offer as a service) to ensure stones remain secure during active daily use.</p>",
+            "page": ""
+          }
+        },
+        "accordion_xFhTbU": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "My bracelet clasp is loose, can you fix it?",
+            "open_by_default": false,
+            "text": "<p>Yes, absolutely. A loose clasp is a common issue that can often be tightened or adjusted. </p><p>If the internal mechanism is worn, we can replace the entire clasp to ensure your bracelet is secure again.</p>",
+            "page": ""
+          }
+        },
+        "accordion_pxHnfz": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What areas do you cover for Home Visits?",
+            "open_by_default": false,
+            "text": "<p>Our home visit service primarily covers Chichester and the immediate surrounding areas in West Sussex. </p><p>This service is ideal for clients who prefer the privacy and comfort of their own home for consultations or valuations. Please contact us to check availability for your specific location.</p>",
+            "page": ""
+          }
+        },
+        "accordion_BRezAN": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Do I need an appointment to view wristwear?",
+            "open_by_default": false,
+            "text": "<p>You are welcome to browse our collection at any time. However, for bespoke commissions or to view specific high-value pieces, we recommend booking an appointment for a home visit so we can have everything ready for you.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_GhRGXt",
+        "accordion_HmVJLJ",
+        "accordion_xFhTbU",
+        "accordion_pxHnfz",
+        "accordion_BRezAN"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Frequently Asked Questions About Wristwear.",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/DSC05140_Large_f091f4f7-a5a9-4be9-b227-0a63ff8e3109.jpg",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_eUEtia": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_WGKABc": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/wristwear-west-sussex\" title=\"Wristwear in West Sussex\">West Sussex</a></h5><p><a href=\"/pages/wristwear-arundel\" title=\"Wristwear in Arundel\">Arundel</a>, <a href=\"/pages/wristwear-bognor-regis\" title=\"Wristwear in Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/wristwear-bosham\" title=\"Wristwear in Bosham\">Bosham</a>, <a href=\"/pages/wristwear-burgess-hill\" title=\"Wristwear in Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/wristwear-chichester\" title=\"Wristwear in Chichester\">Chichester</a>, <a href=\"/pages/wristwear-crawley\" title=\"Wristwear in Crawley\">Crawley</a>, <a href=\"/pages/wristwear-east-grinstead\" title=\"Wristwear in East Grinstead\">East Grinstead</a>, <a href=\"/pages/wristwear-haywards-heath\" title=\"Wristwear in Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/wristwear-horsham\" title=\"Wristwear in Horsham\">Horsham</a>, <a href=\"/pages/wristwear-littlehampton\" title=\"Wristwear in Littlehampton\">Littlehampton</a>, <a href=\"/pages/wristwear-shoreham-by-sea\" title=\"Wristwear in Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/wristwear-worthing\" title=\"Wristwear in Worthing\">Worthing</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_imri8x": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/wristwear-hampshire\" title=\"Wristwear in Hampshire\">Hampshire</a></h5><p><a href=\"/pages/wristwear-aldershot\" title=\"Wristwear in Aldershot\">Aldershot</a>, <a href=\"/pages/wristwear-andover\" title=\"Wristwear in Andover\">Andover</a>, <a href=\"/pages/wristwear-basingstoke\" title=\"Wristwear in Basingstoke\">Basingstoke</a>, <a href=\"/pages/wristwear-farnborough\" title=\"Wristwear in Farnborough\">Farnborough</a>, <a href=\"/pages/wristwear-gosport\" title=\"Wristwear in Gosport\">Gosport</a>, <a href=\"/pages/wristwear-horndean\" title=\"Wristwear in Horndean\">Horndean</a>, <a href=\"/pages/wristwear-portsmouth\" title=\"Wristwear in Portsmouth\">Portsmouth</a>, <a href=\"/pages/wristwear-southampton\" title=\"Wristwear in Southampton\">Southampton</a>, <a href=\"/pages/wristwear-winchester\" title=\"Wristwear in Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_6UDL77": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/wristwear-surrey\" title=\"Wristwear in Surrey\">Surrey</a></h5><p><a href=\"/pages/wristwear-camberley\" title=\"Wristwear in Camberley\">Camberley</a>, <a href=\"/pages/wristwear-epsom\" title=\"Wristwear in Epsom\">Epsom</a>, <a href=\"/pages/wristwear-esher\" title=\"Wristwear in Esher\">Esher</a>, <a href=\"/pages/wristwear-ewell\" title=\"Wristwear in Ewell\">Ewell</a>, <a href=\"/pages/wristwear-guildford\" title=\"Wristwear in Guildford\">Guildford</a>, <a href=\"/pages/wristwear-leatherhead\" title=\"Wristwear in Leatherhead\">Leatherhead</a>, <a href=\"/pages/wristwear-redhill\" title=\"Wristwear in Redhill\">Redhill</a>, <a href=\"/pages/wristwear-walton-on-thames\" title=\"Wristwear in Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/wristwear-weybridge\" title=\"Wristwear in Weybridge\">Weybridge</a>, <a href=\"/pages/wristwear-woking\" title=\"Wristwear in Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_JyiVnm": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/wristwear-greater-london\" title=\"Wristwear in Greater London\">Greater London</a></h5><p><a href=\"/pages/wristwear-barnet\" title=\"Wristwear in Barnet\">Barnet</a>, <a href=\"/pages/wristwear-brent\" title=\"Wristwear in Brent\">Brent</a>, <a href=\"/pages/wristwear-bromley\" title=\"Wristwear in Bromley\">Bromley</a>, <a href=\"/pages/wristwear-croydon\" title=\"Wristwear in Croydon\">Croydon</a>, <a href=\"/pages/wristwear-ealing\" title=\"Wristwear in Ealing\">Ealing</a>, <a href=\"/pages/wristwear-enfield\" title=\"Wristwear in Enfield\">Enfield</a>, <a href=\"/pages/wristwear-lambeth\" title=\"Wristwear in Lambeth\">Lambeth</a>, <a href=\"/pages/wristwear-newham\" title=\"Wristwear in Newham\">Newham</a>, <a href=\"/pages/wristwear-hatton-garden\" title=\"Wristwear in Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/wristwear-tower-hamlets\" title=\"Wristwear in Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/wristwear-wandsworth\" title=\"Wristwear in Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_WGKABc",
+        "text_imri8x",
+        "text_6UDL77",
+        "text_JyiVnm"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Bracelets Across the South of England.",
+        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer wristwear design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "hero_image_with_text_bTYMM7",
+    "scrolling_banner_yQGBqH",
+    "rich_text_ManT8J",
+    "featured_collection_UMtPLc",
+    "gallery_slideshow_YDbVni",
+    "template_product_info_columns_J4Dp7X",
+    "template_product_info_columns_papGY4",
+    "image_with_text_overlay_He6F4z",
+    "rich_text_aFz4dn",
+    "text_adverts_with_icon_qyqtQz",
+    "text_adverts_with_icon_yf3Gzx",
+    "image_with_text_YkYaKe",
+    "template_product_info_columns_ALphbN",
+    "rich_text_pBdiyA",
+    "1780059503e4e28014",
+    "17787619721046fdd6",
+    "faq_with_image_m73Xra",
+    "template_product_info_columns_eUEtia"
+  ]
+}
