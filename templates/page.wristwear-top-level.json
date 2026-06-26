@@ -121,7 +121,7 @@
         "heading_VPxYPE": {
           "type": "heading",
           "settings": {
-            "heading": "Serving {{ page.metafields.custom.location.value }}with Exceptional Bracelets",
+            "heading": "Serving {{ page.metafields.custom.location.value }} with Exceptional Bracelets",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
