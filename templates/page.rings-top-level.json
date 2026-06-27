@@ -623,7 +623,7 @@
           "settings": {
             "icon": "none",
             "title": "Home Visits in {{ page.metafields.custom.location.value }}",
-            "text": "<p>Personalised service in comfort. Our experts can visit you in Chichester and surrounding areas for consultations and valuations.</p>",
+            "text": "<p>Personalised service in comfort. Our experts can visit you in {{ page.metafields.custom.location.value }} and surrounding areas for consultations and valuations.</p>",
             "link": "shopify://pages/home-visits",
             "button_label": ""
           }
@@ -989,7 +989,7 @@
           "settings": {
             "accordion_header": "How can I commission a bespoke ring design that perfectly captures my unique aesthetic?",
             "open_by_default": false,
-            "text": "<p>A commitment ring, engagement band, or statement piece should feel intrinsically 'you.' We guide clients through the initial concepts, working with sketches and moulds to ensure every curve and setting is uniquely designed by hand within our workshop. </p><p>To begin this deeply personal journey toward realising your bespoke vision in ring form, an appointment at our Showroom is essential for any client based in {{ block.settings.page.metafields.custom.location.value }}.</p>",
+            "text": "<p>A commitment ring, engagement band, or statement piece should feel intrinsically 'you.' We guide clients through the initial concepts, working with sketches and moulds to ensure every curve and setting is uniquely designed by hand within our workshop. </p><p>To begin this deeply personal journey toward realising your bespoke vision in ring form, an appointment at our Chichester Showroom is essential for any client based in {{ block.settings.page.metafields.custom.location.value }}.</p>",
             "page": ""
           }
         },
