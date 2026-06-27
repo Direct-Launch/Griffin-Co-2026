@@ -374,23 +374,23 @@
         "image_and_text_EhJQ99": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/Earrings_Lab_Diamonds.png",
+            "image": "shopify://shop_images/Lab_Grown_Diamond_Engagement_Rings.jpg",
             "grid_image_size": "wide",
-            "heading": "Women's Earrings",
-            "text": "<p>Discover a world of elegance. From delicate diamond studs and elegant gemstone drops to striking contemporary hoops, our curated earring collection celebrates feminine grace with meticulous craftsmanship.</p>",
-            "button_link": "shopify://collections/womens-earrings",
-            "button_text": "Shop Women's Earrings"
+            "heading": "Women's Rings",
+            "text": "<p>Discover a world of elegance. From delicate diamond solitaires and timeless eternity bands to striking gemstone cocktail rings, our curated ring collection celebrates feminine grace with meticulous craftsmanship.</p>",
+            "button_link": "shopify://collections/womens-rings",
+            "button_text": "Shop Women's Rings"
           }
         },
         "image_and_text_kDH8xb": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/Men_s_Jewellery.png",
+            "image": "shopify://shop_images/Men_s_Rings.jpg",
             "grid_image_size": "wide",
-            "heading": "Men's Jewellery",
-            "text": "<p>Sophisticated style for the modern gentleman. Explore our range of heavy gold chains, pendants, signet rings and stud earrings, designed to add a touch of refined distinction to your everyday look.</p>",
-            "button_link": "shopify://collections/for-him",
-            "button_text": "Shop Men's Jewellery"
+            "heading": "Men's Rings",
+            "text": "<p>Sophisticated style for the modern gentleman. Explore our range of classic wedding bands, custom-engraved signet rings, and distinctive statement pieces, hand-crafted to add a touch of refined distinction to your everyday look.</p>",
+            "button_link": "shopify://collections/mens-rings",
+            "button_text": "Shop Men's Rings"
           }
         }
       },
