@@ -36,50 +36,68 @@
     <div class="main-content-wrapper{% if section.settings.image_position_desktop == 'left' %} main-content-wrapper--image-left{% endif %}{% if section.settings.image_position_mobile == 'top' %} main-content-wrapper--image-top{% endif %}">
       <div class="accordion-wrapper">
         {% for block in section.blocks %}
-          {% assign content = block.settings.text %}
-          {% if block.settings.page.content %}
-            {% assign content = content | append: block.settings.page.content %}
-          {% endif %}
+    {# Assume a metafield exists to override or augment the answer body #}
+    {% assign content = block.settings.text %}
+    {% comment %} Check and append metafield data if available (Example: text/rich) {% endcomment %}
+    {% if block.settings._metafield_answer_body != blank %}
+      {% assign content = content | prepend: block.settings._metafield_answer_body %}
+    {% endif %}
 
-          {% unless content == blank %}
-            <div
-              class="collapsible-tab js{% if block.settings.open_by_default %} open{% endif %}{% if forloop.last %} last-tab{% endif %}" 
-              data-open-by-default="{{ block.settings.open_by_default }}"
-              data-animate
-              data-animate-order="{% render 'block-animation-offset', 
-                title: section.settings.section_title, 
-                description: section.settings.section_description, 
-                base: forloop.index 
-              %}"
-              {{ block.shopify_attributes }}
-            >
-              <collapsible-button data-block-id="{{ block.id }}" tabindex="0">
-                <div class="summary">
-                  {{ block.settings.accordion_header }}
-                  <span class="inline-icon--wrapper icon--right">
-                    {% if section.settings.faq_icon == "plus_minus" %}
-                      {% render 'theme-icon', icon: 'plus', iconClasses: 'plus-icon' %}
-                      {% render 'theme-icon', icon: 'minus', iconClasses: 'minus-icon' %}
-                    {% elsif section.settings.faq_icon == "caret" %}
-                      {% render 'theme-icon', icon: 'chevron_down', iconClasses: 'chevron-down' %}
-                    {% endif %}
-                  </span>
-                </div>
-              </collapsible-button>
+    {# Append standard page content as fallback #}
+    {% if block.settings.page.content and content != blank %}
+      {% assign content = content | append: block.settings.page.content %}
+    {% endif %}
 
-              <div class="collapsible-content">
-                <div class="content rte">
-                  <div class="text-link-animated richtext-block">
-                    {{ content }}
-                  </div>
-                </div>
-              </div>
+    {# Ensure the initial content is not blank before proceeding to render the tab #}
+    {% unless content == blank %}
+      <div
+        class="collapsible-tab js{% if block.settings.open_by_default %} open{% endif %}{% if forloop.last %} last-tab{% endif %}"
+        data-open-by-default="{{ block.settings.open_by_default }}"
+        data-animate
+        data-animate-order="{% render 'block-animation-offset', 
+          title: section.settings.section_title, 
+          description: section.settings.section_description, 
+          base: forloop.index 
+        %}"
+        {{ block.shopify_attributes }}
+      >
+        <collapsible-button data-block-id="{{ block.id }}" tabindex="0">
+          <div class="summary">
+            {# QUESTION HEADER CHECK #}
+            {% comment %} Show Metafield content for the Question Header, or fall back to standard setting {% endcomment %}
+            {% assign question_title = 'Default Question Title' %} {# Fallback #}
+            {% if block.settings._metafield_question_title != blank %}
+              {% assign question_title = block.settings._metafield_question_title %}
+            {% else %}
+              {% assign question_title = block.settings.accordion_header %}
+            {% endif %}
+
+            {{ question_title }} 
+            <span class="inline-icon--wrapper icon--right">
+              {% if section.settings.faq_icon == "plus_minus" %}
+                {% render 'theme-icon', icon: 'plus', iconClasses: 'plus-icon' %}
+                {% render 'theme-icon', icon: 'minus', iconClasses: 'minus-icon' %}
+              {% elsif section.settings.faq_icon == "caret" %}
+                {% render 'theme-icon', icon: 'chevron_down', iconClasses: 'chevron-down' %}
+              {% endif %}
+            </span>
+          </div>
+        </collapsible-button>
+
+        <div class="collapsible-content">
+          <div class="content rte">
+            <div class="text-link-animated richtext-block">
+              {{ content }}
             </div>
-            <safe-load-scripts class="hidden">
-              <script src="{{ 'component-collapsible-button.js' | asset_url }}" type="module" defer="defer" data-flow-load-key="component-collapsible-button"></script>
-            </safe-load-scripts>
-          {% endunless %}
-        {% endfor %}
+          </div>
+        </div>
+      </div >
+      <safe-load-scripts class="hidden">
+        <script src="{{ 'component-collapsible-button.js' | asset_url }}" type="module" defer="defer" data-flow-load-key="component-collapsible-button"></script>
+      </safe-load-scripts>
+
+    {% endunless %}
+  {% endfor %}
       </div>
 
       <div class="image-wrapper block-radius-clip">
