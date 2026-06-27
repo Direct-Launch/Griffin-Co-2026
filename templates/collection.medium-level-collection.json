@@ -1,0 +1,704 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "wrapper": "div.collection-wrapper.wrapper",
+  "sections": {
+    "collection-header-spotlight": {
+      "type": "collection-header",
+      "settings": {
+        "show_breadcrumbs": true,
+        "show_title": false,
+        "show_description": false,
+        "show_image_desktop": false,
+        "min_height_desktop": "original",
+        "content_position": "left",
+        "caption_width_desktop": 70,
+        "show_image_mobile": false,
+        "min_height_mobile": "original",
+        "content_position_mobile": "bottom_center",
+        "enable_parallax": false,
+        "enable_fade": false,
+        "section_width": "content",
+        "section_margin_top": 60,
+        "section_margin_bottom": 10,
+        "colors": "white",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 26
+      }
+    },
+    "hero_image_with_text_y6wMXR": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "{{ collection.image }}",
+        "layout": "right",
+        "title": "{{ collection.title }}.",
+        "text": "{{ collection.description }}",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h2",
+        "desktop-text-size": 100,
+        "show_image_mobile": false,
+        "mobile-heading-size": "h2-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "{{ collection.metafields.custom.button_link.value }}",
+        "button_label_1": "{{ collection.metafields.custom.button_text.value }}",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "",
+        "button_label_2": "",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "scrolling_banner_QRVnnY": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_DKMbfB": {
+          "type": "text",
+          "settings": {
+            "text": "Crafted in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_XQDRB7": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_hVAw6H": {
+          "type": "text",
+          "settings": {
+            "text": "Certified Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_hqwUWT": {
+          "type": "text",
+          "settings": {
+            "text": "30 Days Return",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_DKMbfB",
+        "text_XQDRB7",
+        "text_hVAw6H",
+        "text_hqwUWT"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
+      }
+    },
+    "visual_navigation_banner_7dCHG9": {
+      "type": "visual-navigation-banner",
+      "blocks": {
+        "navigation_link_Gg7AVg": {
+          "type": "navigation_link",
+          "settings": {
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_1.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_1.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_1.value }}",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_AnYX9w": {
+          "type": "navigation_link",
+          "settings": {
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_2.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_2.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_2.value }}",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_pQWcmR": {
+          "type": "navigation_link",
+          "settings": {
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_3.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_3.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_3.value }}",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_ULXRNB": {
+          "type": "navigation_link",
+          "settings": {
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_4.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_4.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_4.value }}",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_cHXqNK": {
+          "type": "navigation_link",
+          "settings": {
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_5.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_5.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_5.value }}",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "navigation_link_3GQaUc": {
+          "type": "navigation_link",
+          "settings": {
+            "link_image": "{{ collection.metafields.custom.sub_collection_image_6.value }}",
+            "link_text": "{{ collection.metafields.custom.sub_collection_title_6.value }}",
+            "link_url": "{{ collection.metafields.custom.sub_collection_link_6.value }}",
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "navigation_link_Gg7AVg",
+        "navigation_link_AnYX9w",
+        "navigation_link_pQWcmR",
+        "navigation_link_ULXRNB",
+        "navigation_link_cHXqNK",
+        "navigation_link_3GQaUc"
+      ],
+      "name": "Sub Collections",
+      "settings": {
+        "title": "Shop by Type of {{ collection.title }}",
+        "description": "",
+        "section_header_alignment": "left",
+        "image_style": "square",
+        "image_size": 300,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "images_per_row_mobile": "1",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "color_scheme": "white"
+      }
+    },
+    "rich_text_Vht6Nh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8nK3xQ": {
+          "type": "heading",
+          "settings": {
+            "heading": "View All {{ collection.title }} at Griffin & Co.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_8nK3xQ"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 150,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "product-grid": {
+      "type": "template--collection",
+      "settings": {
+        "products-per-page": 6,
+        "desktop-products-per-row": 4,
+        "mobile-products-per-row": "2",
+        "pagination_options": "pagination_default",
+        "desktop_position": "topbar",
+        "enable_sorting": true,
+        "enable_filtering": true,
+        "enable_collection_title": false,
+        "enable_collection_description": false,
+        "show_swatch_filter_labels": true,
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "show_promo_block": true,
+        "promo_image": "shopify://shop_images/Bespoke_Experience.jpg",
+        "promo_subtitle": "Create Your Own",
+        "promo_heading": "Ready to design your own {{ collection.title }}?",
+        "promo_button_text": "Book Consultation",
+        "promo_text": "<p>Looking for bespoke {{ collection.title }}? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
+        "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
+      }
+    },
+    "rich_text_tpVgrH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_HiEqh4": {
+          "type": "heading",
+          "settings": {
+            "heading": "SHOP FOR {{ collection.title }} FROM OUR INSTAGRAM.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_ELVdPJ": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular jewellery highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text_size": 100,
+            "text_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_HiEqh4",
+        "richtext_ELVdPJ"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "1778864481e2fbb2e6": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_wnAGaQ": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "{{ collection.metafields.custom.instagram_feed.value }}",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_wnAGaQ"
+      ],
+      "name": "Instagram Feed",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
+    },
+    "template_product_recently_viewed_pj3jzT": {
+      "type": "template--product--recently-viewed",
+      "name": "t:sections.template--product--recently-viewed.presets.name",
+      "settings": {
+        "title": "Recently viewed products.",
+        "description": "",
+        "section_header_alignment": "center",
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "colors": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "template_product_info_columns_MWyHgD": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_xAMecK": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft jewellery that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_i97HaU": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Diamond_Set_Rings_-_Mobile_43d70b02-4792-4c23-86a0-7bf63dbf99d6.png",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your jewellery design details! You can view our existing rings in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_NBAXPy": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/SR1506.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your jewellery. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_TQVpEw": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/heating-metal-ring.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>The Crafting Process</h6><p>Your stunning jewellery is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_xAMecK",
+        "image_and_text_i97HaU",
+        "image_and_text_NBAXPy",
+        "image_and_text_TQVpEw"
+      ],
+      "name": "Bespoke Process",
+      "settings": {
+        "title": "Our Bespoke Process.",
+        "description": "<p>Let's make your dream jewellery together.</p>",
+        "section_header_alignment": "left",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_UC8XAh": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_pUgHVz": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready For The Next Step?",
+            "font_size_desktop": "h6",
+            "font_size_mobile": "h6-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "heading_tP4JJ7": {
+          "type": "heading",
+          "settings": {
+            "title": "Schedule an in-store or at home consultation",
+            "font_size_desktop": "h3",
+            "font_size_mobile": "h4-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_f9dPTc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One-off {{ collection.title }} made especially for you. Book an in-store or at home appointment to browse all of our {{ collection.title }}, Jewellery, Diamonds and Gemstones.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_LQPQLC": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://pages/schedule-an-appointment",
+            "first_button_label": "Book an Appointment",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#e68819",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_pUgHVz",
+        "heading_tP4JJ7",
+        "text_f9dPTc",
+        "button_LQPQLC"
+      ],
+      "name": "Book an Appointment CTA",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Interior_1.webp",
+        "height_desktop": "550px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#242424",
+        "caption_bg_color": "#ffffff",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 30
+      }
+    },
+    "custom_liquid_pE3JDM": {
+      "type": "custom-liquid",
+      "name": "Reviews",
+      "settings": {
+        "title": "Our Customer Reviews.",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<!-- Start of Judge.me code --> \n  <div class='jdgm-carousel-wrapper'> \n    {% assign jm_metafields = shop.metafields.judgeme %} \n    <div class='jdgm-carousel-title-and-link'> \n      <h4 style=\"text-align: center;\">Rated Excellent</h4>\n      <span class='jdgm-all-reviews-rating-wrapper' href='javascript:void(0)'> \n        <span style='display:block' data-score='{{ jm_metafields.all_reviews_rating }}' class='jdgm-all-reviews-rating' aria-label='{{ jm_metafields.all_reviews_rating }} stars' tabindex='0' role='img'></span> \n\n        <span style='display: block' class='jdgm-carousel-number-of-reviews' data-number-of-reviews='{{ jm_metafields.all_reviews_count }}'> \nfrom {{ shop.metafields.judgeme.all_reviews_count }} reviews </span>\n<br>\n <a href=\"https://griffinfinejewellery.com/pages/reviews\" class=\"dynamic-section-button--sections--27356412215572__map_JBYVn7 btn homepage-featured-box-btn map_section__directions-btn\" target=\"_blank\" data-animate=\"\" data-animate-order=\"5\">\n      \n\n      See All Reviews\n    </a> \n      </span> \n    </div> \n    {{ jm_metafields.featured_carousel }} \n  </div> \n<!-- End of Judge.me code -->\n\n<style>\n.jdgm-line-clamp {\n-webkit-line-clamp: 5 !important;\n}\n</style>",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "faq_kqyrJn": {
+      "type": "faq",
+      "blocks": {
+        "tab_content_eXpUrU": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.question_1.value }}",
+            "open_by_default": false,
+            "text": "{{ collection.metafields.custom.answer_1 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_content_BBHWQF": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.question_2.value }}",
+            "open_by_default": false,
+            "text": "{{ collection.metafields.custom.answer_2 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_content_9jFeT7": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.question_3.value }}",
+            "open_by_default": false,
+            "text": "{{ collection.metafields.custom.answer_3 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_content_cDkCmX": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.question_4.value }}",
+            "open_by_default": false,
+            "text": "{{ collection.metafields.custom.answer_4 | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "tab_content_r8ELxt": {
+          "type": "tab_content",
+          "settings": {
+            "question": "{{ collection.metafields.custom.question_5.value }}",
+            "open_by_default": false,
+            "text": "{{ collection.metafields.custom.answer_5 | metafield_tag }}",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_eXpUrU",
+        "tab_content_BBHWQF",
+        "tab_content_9jFeT7",
+        "tab_content_cDkCmX",
+        "tab_content_r8ELxt"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "title": "Frequently asked questions About {{ collection.title }}.",
+        "description": "<p>Can’t find the answers you'r looking for? Our team is on hand from Tuesday to Saturday, 9:30am - 5pm.</p>",
+        "section_header_alignment": "center",
+        "faq_icon": "plus_minus",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_pTa33h": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_kyXqex": {
+          "type": "text",
+          "name": "West Sussex",
+          "settings": {
+            "heading": "",
+            "text": "{{ collection.metafields.custom.west_sussex_links | metafield_tag }}",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_qpRnDB": {
+          "type": "text",
+          "name": "Hampshire",
+          "settings": {
+            "heading": "",
+            "text": "{{ collection.metafields.custom.hampshire_links | metafield_tag }}",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_y6b63y": {
+          "type": "text",
+          "name": "Surrey",
+          "settings": {
+            "heading": "",
+            "text": "{{ collection.metafields.custom.surrey_links | metafield_tag }}",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_HDwbGF": {
+          "type": "text",
+          "name": "Greater London",
+          "settings": {
+            "heading": "",
+            "text": "{{ collection.metafields.custom.greater_london_links | metafield_tag }}",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_kyXqex",
+        "text_qpRnDB",
+        "text_y6b63y",
+        "text_HDwbGF"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Areas We Cover for {{ collection.title }}.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England for at home jewellery display presentation, consultations and delivery.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    }
+  },
+  "order": [
+    "collection-header-spotlight",
+    "hero_image_with_text_y6wMXR",
+    "scrolling_banner_QRVnnY",
+    "visual_navigation_banner_7dCHG9",
+    "rich_text_Vht6Nh",
+    "product-grid",
+    "rich_text_tpVgrH",
+    "1778864481e2fbb2e6",
+    "template_product_recently_viewed_pj3jzT",
+    "template_product_info_columns_MWyHgD",
+    "image_with_text_overlay_UC8XAh",
+    "custom_liquid_pE3JDM",
+    "faq_kqyrJn",
+    "template_product_info_columns_pTa33h"
+  ]
+}
