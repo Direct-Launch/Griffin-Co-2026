@@ -25,7 +25,7 @@
         "show_image_mobile": true,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link_1": "shopify://collections/earrings",
+        "button_link_1": "shopify://collections/rings",
         "button_label_1": "View Collections",
         "buttons_style_1": "filled",
         "override_button_colors_1": false,
@@ -514,7 +514,7 @@
         "heading_wTT9Jr": {
           "type": "heading",
           "settings": {
-            "heading": "Expert Earrings Services for {{ page.metafields.custom.location.value }} Clients.",
+            "heading": "Expert Ring Services for {{ page.metafields.custom.location.value }} Clients.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -522,7 +522,7 @@
         "richtext_wHdiHi": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Professional care, bespoke creation, and craftsmanship for your most treasured earrings. Visit us in Chichester</p>",
+            "text": "<p>Professional care, bespoke creation, and craftsmanship for your most treasured pieces. Visit us in Chichester</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -532,7 +532,7 @@
         "heading_wTT9Jr",
         "richtext_wHdiHi"
       ],
-      "name": "Wristwear Services Title",
+      "name": "Services Title",
       "settings": {
         "section_width": "full-width",
         "text_alignment_desktop": "center",
@@ -549,9 +549,9 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Bespoke Design",
-            "text": "<p>Create a one-of-a-kind pair of earrings. Work with our designers to sketch and craft something truly unique to you.</p>",
-            "link": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
+            "title": "Bespoke Engagement Rings",
+            "text": "<p>Design a ring as unique as your love story. Our Chichester designers guide you from sketch to sparkle, creating the perfect symbol of your commitment.</p>",
+            "link": "{{ page.metafields.custom.service_area_engagement_rings.value }}",
             "button_label": ""
           }
         },
@@ -559,9 +559,9 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Lost Earring Replacement",
-            "text": "<p>Lost a favourite earring? We can create an exact replica to match your remaining piece, restoring your set.</p>",
-            "link": "{{ page.metafields.custom.service_area_remodelling.value }}",
+            "title": "Bespoke Wedding Rings",
+            "text": "<p>Handcrafted bands tailored to fit perfectly alongside your engagement ring. Choose your metal, finish, and engraving for a truly personal touch.</p>",
+            "link": "{{ page.metafields.custom.service_area_wedding_bands.value }}",
             "button_label": ""
           }
         },
@@ -569,8 +569,8 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Earring Repairs",
-            "text": "<p>From replacing lost butterfly backs to repairing bent posts or securing loose stones, we restore your earrings to perfection.</p>",
+            "title": "Ring Repairs",
+            "text": "<p>Expert restoration for damaged or worn rings. From claw re-tipping and stone replacement to shank repairs, we restore your jewellery's integrity.</p>",
             "link": "{{ page.metafields.custom.service_area_repairs.value }}",
             "button_label": ""
           }
@@ -602,8 +602,8 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Earring Remodelling",
-            "text": "<p>Transform unworn jewellery. We can turn an old ring into a beautiful pair of diamond studs or drop earrings.</p>",
+            "title": "Ring Remodelling",
+            "text": "<p>Breathe new life into heirlooms. We can melt down old gold and reset gemstones to reimagine unworn jewellery into modern treasures.</p>",
             "link": "{{ page.metafields.custom.service_area_remodelling.value }}",
             "button_label": ""
           }
@@ -612,9 +612,9 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Gemstone Sourcing",
-            "text": "<p>Looking for a specific shade of Emerald or a rare Pink Diamond? We source exceptional stones for custom earring projects.</p>",
-            "link": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
+            "title": "Custom Signet Rings",
+            "text": "<p>Create a future heirloom. We offer traditional seal engraving for family crests or deep surface engraving for initials on solid gold or platinum rings.</p>",
+            "link": "shopify://pages/custom-signet-rings-with-family-crests",
             "button_label": ""
           }
         },
