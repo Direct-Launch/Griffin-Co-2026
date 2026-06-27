@@ -655,7 +655,7 @@
         "text_position_desktop": "center",
         "text_size_desktop": "h2",
         "height_mobile": "original",
-        "text_position_mobile": "left",
+        "text_position_mobile": "center",
         "text_size_mobile": "h3-mobile",
         "section_width": "full",
         "section_margin_top": 70,
@@ -758,7 +758,7 @@
         "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
+        "text_overlapping_image": true,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
         "mobile-heading-size": "h3-mobile",
@@ -770,7 +770,7 @@
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section-width": "full",
-        "section_padding_top": 72,
+        "section_padding_top": 0,
         "section_padding_bottom": 72,
         "colors": "white"
       }
