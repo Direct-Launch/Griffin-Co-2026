@@ -755,7 +755,7 @@
         "image": "shopify://shop_images/IMG_8786.webp",
         "layout": "right",
         "title": "View Earrings From Your Home.",
-        "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
+        "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting in {{ page.metafields.custom.location.value }}.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches of bespoke earrings, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": true,
