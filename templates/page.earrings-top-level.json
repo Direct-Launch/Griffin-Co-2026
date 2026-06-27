@@ -663,6 +663,118 @@
         "colors": "white"
       }
     },
+    "collage_kUVkyp": {
+      "type": "collage",
+      "blocks": {
+        "image_y7nm7c": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "The Showroom Experience.",
+            "text": "",
+            "url": "shopify://pages/schedule-an-appointment",
+            "button_label": "Meet Our Jewellery Designers",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_xnfRnY": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Online Builder.",
+            "text": "",
+            "url": "shopify://pages/custom-jewellery-builder-online",
+            "button_label": "Design Your Jewellery Online",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_CEpNj8": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Showroom_8.webp",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Home Visits.",
+            "text": "",
+            "url": "shopify://pages/home-visits",
+            "button_label": "Schedule a Home Visit",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_y7nm7c",
+        "image_xnfRnY",
+        "image_CEpNj8"
+      ],
+      "name": "Showroom & Online Builder",
+      "settings": {
+        "title": "",
+        "description": "<p>We offer three distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "width_1": "3",
+        "height_1": "2",
+        "width_2": "3",
+        "height_2": "2",
+        "width_3": "3",
+        "height_3": "2",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
     "collage_q3VRVH": {
       "type": "collage",
       "blocks": {
@@ -750,6 +862,7 @@
     },
     "image_with_text_YkYaKe": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "The Studio Experience at Home",
       "settings": {
         "image": "shopify://shop_images/IMG_8786.webp",
@@ -1120,6 +1233,7 @@
     "text_adverts_with_icon_qyqtQz",
     "text_adverts_with_icon_yf3Gzx",
     "rotating_text_hAGm89",
+    "collage_kUVkyp",
     "collage_q3VRVH",
     "image_with_text_YkYaKe",
     "template_product_info_columns_ALphbN",
