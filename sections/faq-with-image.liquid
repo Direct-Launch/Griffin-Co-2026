@@ -36,19 +36,16 @@
     <div class="main-content-wrapper{% if section.settings.image_position_desktop == 'left' %} main-content-wrapper--image-left{% endif %}{% if section.settings.image_position_mobile == 'top' %} main-content-wrapper--image-top{% endif %}">
       <div class="accordion-wrapper">
         {% for block in section.blocks %}
-    {# Assume a metafield exists to override or augment the answer body #}
     {% assign content = block.settings.text %}
     {% comment %} Check and append metafield data if available (Example: text/rich) {% endcomment %}
     {% if block.settings._metafield_answer_body != blank %}
       {% assign content = content | prepend: block.settings._metafield_answer_body %}
     {% endif %}
 
-    {# Append standard page content as fallback #}
     {% if block.settings.page.content and content != blank %}
       {% assign content = content | append: block.settings.page.content %}
     {% endif %}
 
-    {# Ensure the initial content is not blank before proceeding to render the tab #}
     {% unless content == blank %}
       <div
         class="collapsible-tab js{% if block.settings.open_by_default %} open{% endif %}{% if forloop.last %} last-tab{% endif %}"
@@ -63,7 +60,6 @@
       >
         <collapsible-button data-block-id="{{ block.id }}" tabindex="0">
           <div class="summary">
-            {# QUESTION HEADER CHECK #}
             {% comment %} Show Metafield content for the Question Header, or fall back to standard setting {% endcomment %}
             {% assign question_title = 'Default Question Title' %} {# Fallback #}
             {% if block.settings._metafield_question_title != blank %}
