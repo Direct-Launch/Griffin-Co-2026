@@ -231,11 +231,50 @@
         "image_93DFPn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/7893-688cb5ec-7968-4e14-8825-83b3359a31fc.jpg",
-            "link": "shopify://collections/hook-earrings",
+            "image": "shopify://shop_images/wp248_ah.jpg",
+            "link": "shopify://collections/eternity-rings",
             "button_label": "",
-            "subheading": "Contemporary designs with graceful movement.",
-            "title": "Hook Earrings",
+            "subheading": "The ultimate symbol of enduring love",
+            "title": "Eternity Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xNpPnQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SL8276_BS__WG_0.jpg",
+            "link": "shopify://collections/cocktail",
+            "button_label": "",
+            "subheading": "Bold, colourful designs for evening wear",
+            "title": "Cocktail Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_EwB9QE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/XYR8333_WG_0Platinum.jpg",
+            "link": "shopify://collections/eternity-rings",
+            "button_label": "",
+            "subheading": "Eye-catching designs that stand out",
+            "title": "Statement Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_D4zFBT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SR1055_WG_9CT_YG_0.jpg",
+            "link": "shopify://collections/signet-rings",
+            "button_label": "",
+            "subheading": "Family Crests, Custom Designs or Set with Gemstones",
+            "title": "Signet Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -244,8 +283,8 @@
         "image_PGgY39": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ge2507c.jpg",
-            "link": "shopify://collections/diamond-earrings",
+            "image": "shopify://shop_images/BJR0309_WG_18-2_WG_0.jpg",
+            "link": "shopify://collections/diamond-rings",
             "button_label": "",
             "subheading": "Brilliance in both ethically mined and lab-grown stones.",
             "title": "Lab & Natural Diamond",
@@ -257,11 +296,11 @@
         "image_CyyQah": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ge2513g.jpg",
+            "image": "shopify://shop_images/SR1122_PKT-YG__YG_0.jpg-69d1f271-7b5c-4eb2-a59b-4176276dd8dc.webp",
             "link": "shopify://collections/gemstone-earrings",
             "button_label": "",
-            "subheading": "Vibrant Rubies, Emeralds, and Sapphires.",
-            "title": "Gemstone Earrings",
+            "subheading": "Sapphires, Rubies, Emeralds & More",
+            "title": "Gemstone Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -273,6 +312,9 @@
         "image_TqAzw3",
         "image_UqFNLm",
         "image_93DFPn",
+        "image_xNpPnQ",
+        "image_EwB9QE",
+        "image_D4zFBT",
         "image_PGgY39",
         "image_CyyQah"
       ],
