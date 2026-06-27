@@ -192,11 +192,11 @@
         "image_W446Ue": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/SE5521_YG_9CT_WG_0.jpg",
-            "link": "shopify://collections/studs",
+            "image": "shopify://shop_images/DSOC08P_1.jpg",
+            "link": "shopify://collections/engagement-rings",
             "button_label": "",
-            "subheading": "Timeless solitaires and clusters.",
-            "title": "Stud Earrings",
+            "subheading": "Solitaire, Halo, Trilogy & Lab-Grown",
+            "title": "Engagement Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -205,11 +205,11 @@
         "image_TqAzw3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ge1017l.jpg",
-            "link": "shopify://collections/hoop",
+            "image": "shopify://shop_images/WR0063Y__q-90.jpg",
+            "link": "shopify://collections/wedding-rings",
             "button_label": "",
-            "subheading": "Elegant everyday staples & huggies in gold & platinum.",
-            "title": "Hoop Earrings",
+            "subheading": "Classic, Diamond Set & Shapes Bands",
+            "title": "Wedding Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -218,11 +218,11 @@
         "image_UqFNLm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ge2506c.jpg",
-            "link": "shopify://collections/drop",
+            "image": "shopify://shop_images/b5606.jpg",
+            "link": "shopify://collections/plain-rings",
             "button_label": "",
-            "subheading": "Sophisticated movement and sparkle.",
-            "title": "Drop Earrings",
+            "subheading": "Minimalist bands in Platinum and Gold",
+            "title": "Plain Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
