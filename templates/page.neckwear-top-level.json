@@ -466,7 +466,7 @@
       "name": "Jewellery Sets",
       "settings": {
         "image_desktop": "shopify://shop_images/Diamond_Jewellery.png",
-        "height_desktop": "650px",
+        "height_desktop": "750px",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 75,
@@ -639,7 +639,7 @@
         "text_dynamic_EVKmiw": {
           "type": "text_dynamic",
           "settings": {
-            "text_dynamic": "Bangle., Bracelet., Chain Bracelets., Silver Bracelet., Gold Wristwear., Gemstone Bracelets., Men's Curb Chain., Lab-Diamond Bracelet.,",
+            "text_dynamic": "Necklaces., Chokers., Pendants., Chain Necklaces., Silver Neckwear., Lab-Diamond Necklaces., Gemstone Neckwear., Family Heirloom.",
             "animation_timing": 2000,
             "rotation_interval": 5000,
             "text_color": "rgba(0,0,0,0)"
@@ -695,7 +695,7 @@
         "image_bgm4KV": {
           "type": "image",
           "settings": {
-            "desktop_image": "shopify://shop_images/close-up-delicate-lab-grown-diamond-tennis-bracelet-on-wooden-surface-fulfily-0.jpg",
+            "desktop_image": "shopify://shop_images/Neckwear_Lab_Diamonds.png",
             "desktop_position": "md-min-align-bottom md-min-justify-center",
             "heading_size": "h4",
             "mobile_position": "md-max-align-bottom md-max-justify-center",
