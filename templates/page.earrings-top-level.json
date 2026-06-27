@@ -862,7 +862,6 @@
     },
     "image_with_text_YkYaKe": {
       "type": "image-with-text",
-      "disabled": true,
       "name": "The Studio Experience at Home",
       "settings": {
         "image": "shopify://shop_images/IMG_8786.webp",
