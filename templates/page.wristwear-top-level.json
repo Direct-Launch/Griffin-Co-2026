@@ -466,7 +466,7 @@
       "name": "Jewellery Sets",
       "settings": {
         "image_desktop": "shopify://shop_images/Diamond_Jewellery.png",
-        "height_desktop": "650px",
+        "height_desktop": "750px",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 75,
