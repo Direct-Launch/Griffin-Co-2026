@@ -1081,7 +1081,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Frequently Asked Questions About Rings.",
+        "section_title": "Frequently Asked Questions About Rings in {{ page.metafields.custom.location.value }}.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
