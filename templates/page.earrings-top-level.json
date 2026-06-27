@@ -32,7 +32,7 @@
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
         "button_link_2": "shopify://pages/custom-jewellery-builder-online",
-        "button_label_2": "Design Bracelets Online",
+        "button_label_2": "Design Earrings Online",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
         "button_background_color_2": "#e68819",
@@ -121,7 +121,7 @@
         "heading_VPxYPE": {
           "type": "heading",
           "settings": {
-            "heading": "Serving {{ page.metafields.custom.location.value }} with Exceptional Bracelets",
+            "heading": "Serving {{ page.metafields.custom.location.value }} with Exceptional Earrings.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -129,7 +129,7 @@
         "richtext_pHNrDN": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Located on <strong>South Street in Chichester</strong>, Griffin & Co offers a stunning array of fine wristwear for our local clientele in {{ page.metafields.custom.location.value }}. </p><p>Whether you are looking for a timeless diamond tennis bracelet, a solid gold bangle to mark a milestone, or a delicate chain for everyday wear, our showroom is your local destination for luxury.</p>",
+            "text": "<p>Griffin & Co on <strong>South Street in Chichester</strong> offers a stunning array of fine earrings for customers in {{ page.metafields.custom.location.value }}. </p><p>Whether you are looking for a classic gift, a bridal accessory, or a statement piece for a special occasion, our expert team is here to guide you through our handcrafted collections.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -153,10 +153,10 @@
       "type": "featured-collection",
       "name": "t:sections.collection--featured-collection.presets.name",
       "settings": {
-        "title": "Our Newest Wristwear.",
+        "title": "Our Newest Earrings.",
         "description": "",
         "section_header_alignment": "left",
-        "collection": "wristwear",
+        "collection": "earrings",
         "show_highlight": false,
         "highlight_position": "below_image",
         "highlight_icon": "none",
@@ -192,11 +192,11 @@
         "image_W446Ue": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/SBK1048WY9CTYG_1.jpg",
-            "link": "shopify://collections/bangles",
+            "image": "shopify://shop_images/SE5521_YG_9CT_WG_0.jpg",
+            "link": "shopify://collections/studs",
             "button_label": "",
-            "subheading": "Solid, hinged, cuff styles in gold, silver, and platinum.",
-            "title": "Bangles",
+            "subheading": "Timeless solitaires and clusters.",
+            "title": "Stud Earrings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -205,11 +205,11 @@
         "image_TqAzw3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/BL6748_YG_2_YG_0.jpg",
-            "link": "shopify://collections/bracelets",
+            "image": "shopify://shop_images/ge1017l.jpg",
+            "link": "shopify://collections/hoop",
             "button_label": "",
-            "subheading": "Versatile collection of styles for every wrist.",
-            "title": "Bracelets",
+            "subheading": "Elegant everyday staples & huggies in gold & platinum.",
+            "title": "Hoop Earrings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -218,11 +218,11 @@
         "image_UqFNLm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/b5530.jpg",
-            "link": "shopify://collections/chain-bracelets",
+            "image": "shopify://shop_images/ge2506c.jpg",
+            "link": "shopify://collections/drop",
             "button_label": "",
-            "subheading": "Paperclip, curb, and rope chains for versatile styling.",
-            "title": "Chain Bracelets",
+            "subheading": "Sophisticated movement and sparkle.",
+            "title": "Drop Earrings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -231,11 +231,11 @@
         "image_93DFPn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/9516-afcb6879-9441-492d-b943-702bcdfa8709.jpg",
-            "link": "shopify://collections/silver-wristwear",
+            "image": "shopify://shop_images/7893-688cb5ec-7968-4e14-8825-83b3359a31fc.jpg",
+            "link": "shopify://collections/hook-earrings",
             "button_label": "",
-            "subheading": "Contemporary and affordable sterling silver designs.",
-            "title": "Silver Wristwear",
+            "subheading": "Contemporary designs with graceful movement.",
+            "title": "Hook Earrings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -244,8 +244,8 @@
         "image_PGgY39": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/b5523c.jpg",
-            "link": "shopify://collections/diamond-wristwear",
+            "image": "shopify://shop_images/ge2507c.jpg",
+            "link": "shopify://collections/diamond-earrings",
             "button_label": "",
             "subheading": "Brilliance in both ethically mined and lab-grown stones.",
             "title": "Lab & Natural Diamond",
@@ -257,11 +257,11 @@
         "image_CyyQah": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gb534l.jpg",
-            "link": "shopify://collections/gemstone-wristwear",
+            "image": "shopify://shop_images/ge2513g.jpg",
+            "link": "shopify://collections/gemstone-earrings",
             "button_label": "",
             "subheading": "Vibrant Rubies, Emeralds, and Sapphires.",
-            "title": "Gemstone Wristwear",
+            "title": "Gemstone Earrings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -278,8 +278,8 @@
       ],
       "name": "Collections",
       "settings": {
-        "title": "Our Wristwear Collections.",
-        "description": "<p>Handcrafted elegance to adorn your wrist.</p>",
+        "title": "Our Earrings Collections.",
+        "description": "<p>Handcrafted elegance for every occasion.</p>",
         "section_header_alignment": "left",
         "image_shape": "natural",
         "layout_style_desktop": "grid",
@@ -311,9 +311,9 @@
           "settings": {
             "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
             "grid_image_size": "square",
-            "heading": "Sterling Silver Bracelets",
+            "heading": "Sterling Silver Earrings",
             "text": "<p>Affordable & Light.</p>",
-            "button_link": "shopify://collections/silver-wristwear",
+            "button_link": "shopify://collections/silver-earrings",
             "button_text": ""
           }
         },
@@ -322,9 +322,9 @@
           "settings": {
             "image": "shopify://shop_images/Yellow_Gold_1ed00eaa-e401-4532-a218-e4b05be70a43.png",
             "grid_image_size": "square",
-            "heading": "Yellow Gold Bracelets",
+            "heading": "Yellow Gold Earrings",
             "text": "<p>Classic & Warm.</p>",
-            "button_link": "shopify://collections/yellow-gold-wristwear",
+            "button_link": "shopify://collections/yellow-gold-earrings",
             "button_text": ""
           }
         },
@@ -333,9 +333,9 @@
           "settings": {
             "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
             "grid_image_size": "square",
-            "heading": "White Gold Bracelets",
+            "heading": "White Gold Earrings",
             "text": "<p>Bright & Modern.</p>",
-            "button_link": "shopify://collections/white-gold-wristwear",
+            "button_link": "shopify://collections/white-gold-earrings",
             "button_text": ""
           }
         }
@@ -347,7 +347,7 @@
       ],
       "name": "Metal",
       "settings": {
-        "title": "Find Wristwear by Metal Type.",
+        "title": "Find Earrings by Metal Type.",
         "description": "",
         "section_header_alignment": "center",
         "maximum_width": 75,
@@ -374,12 +374,12 @@
         "image_and_text_EhJQ99": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/Women_s_Jewellery_a231093c-0831-470b-a765-a4d420b5f729.png",
+            "image": "shopify://shop_images/Earrings_Lab_Diamonds.png",
             "grid_image_size": "wide",
-            "heading": "Women's Jewellery",
-            "text": "<p>Discover a world of elegance. From delicate diamond pendants to statement earrings, stunning rings and tennis bracelets, our collection celebrates femininity in all its forms with exquisite craftsmanship.</p>",
-            "button_link": "shopify://collections/for-her",
-            "button_text": "Shop Women's Jewellery"
+            "heading": "Women's Earrings",
+            "text": "<p>Discover a world of elegance. From delicate diamond studs and elegant gemstone drops to striking contemporary hoops, our curated earring collection celebrates feminine grace with meticulous craftsmanship.</p>",
+            "button_link": "shopify://collections/womens-earrings",
+            "button_text": "Shop Women's Earrings"
           }
         },
         "image_and_text_kDH8xb": {
@@ -436,7 +436,7 @@
         "text_CHnDAB": {
           "type": "text",
           "settings": {
-            "text": "<p>Elevate your style with a perfectly coordinated jewellery set. A tennis bracelet paired with matching diamond studs creates a sophisticated statement, while a gold bangle stack can be the perfect complement to your everyday rings.</p>",
+            "text": "<p>Nothing speaks of elegance quite like a perfectly coordinated jewellery set. Whether you are looking for bridal jewellery to complement your wedding dress, or a matching pendant to go with your new diamond studs, we offer a range of cohesive collections.</p>",
             "font_size_desktop": 130,
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
@@ -466,7 +466,7 @@
       "name": "Jewellery Sets",
       "settings": {
         "image_desktop": "shopify://shop_images/Diamond_Jewellery.png",
-        "height_desktop": "650px",
+        "height_desktop": "750px",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 75,
@@ -490,7 +490,7 @@
         "heading_wTT9Jr": {
           "type": "heading",
           "settings": {
-            "heading": "Expert Wristwear Services for {{ page.metafields.custom.location.value }} Clients.",
+            "heading": "Expert Earrings Services for {{ page.metafields.custom.location.value }} Clients.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -498,7 +498,7 @@
         "richtext_wHdiHi": {
           "type": "richtext",
           "settings": {
-            "text": "<p>From bespoke bangles to safety chains and repairs. Visit us in Chichester.</p>",
+            "text": "<p>Professional care, bespoke creation, and craftsmanship for your most treasured earrings. Visit us in Chichester</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -526,7 +526,7 @@
           "settings": {
             "icon": "none",
             "title": "Bespoke Design",
-            "text": "<p>Commission a custom bangle or bracelet. Work with our Chichester designers to create a piece that perfectly fits your wrist and style.</p>",
+            "text": "<p>Create a one-of-a-kind pair of earrings. Work with our designers to sketch and craft something truly unique to you.</p>",
             "link": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
             "button_label": ""
           }
@@ -535,9 +535,9 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Bracelet Repairs",
-            "text": "<p>Broken link or snapped chain? We expertly repair all types of bracelets, restoring their strength and appearance.</p>",
-            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "title": "Lost Earring Replacement",
+            "text": "<p>Lost a favourite earring? We can create an exact replica to match your remaining piece, restoring your set.</p>",
+            "link": "{{ page.metafields.custom.service_area_remodelling.value }}",
             "button_label": ""
           }
         },
@@ -545,8 +545,8 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Safety Chains",
-            "text": "<p>Secure your valuable wristwear. We can fit discreet safety chains or figure-of-eight catches to prevent accidental loss.</p>",
+            "title": "Earring Repairs",
+            "text": "<p>From replacing lost butterfly backs to repairing bent posts or securing loose stones, we restore your earrings to perfection.</p>",
             "link": "{{ page.metafields.custom.service_area_repairs.value }}",
             "button_label": ""
           }
@@ -557,7 +557,7 @@
         "text_advert_chxNe3",
         "text_advert_38Fdtz"
       ],
-      "name": "Wristwear Services #1",
+      "name": "Services #1",
       "settings": {
         "icon_size": "20px",
         "show_dividers": true,
@@ -578,9 +578,9 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Clasp Replacement",
-            "text": "<p>Upgrade a fiddly clasp. We can replace worn or difficult clasps with secure, easy-to-use options like lobster claws.</p>",
-            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "title": "Earring Remodelling",
+            "text": "<p>Transform unworn jewellery. We can turn an old ring into a beautiful pair of diamond studs or drop earrings.</p>",
+            "link": "{{ page.metafields.custom.service_area_remodelling.value }}",
             "button_label": ""
           }
         },
@@ -588,9 +588,9 @@
           "type": "text-advert",
           "settings": {
             "icon": "none",
-            "title": "Engraving",
-            "text": "<p>Personalise a solid bangle or ID bracelet with names, dates, or special messages. Hand and machine engraving available.</p>",
-            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "title": "Gemstone Sourcing",
+            "text": "<p>Looking for a specific shade of Emerald or a rare Pink Diamond? We source exceptional stones for custom earring projects.</p>",
+            "link": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
             "button_label": ""
           }
         },
@@ -610,7 +610,7 @@
         "text_advert_PPWjYr",
         "text_advert_ebWUWn"
       ],
-      "name": "Wristwear Services #2",
+      "name": "Services #2",
       "settings": {
         "icon_size": "20px",
         "show_dividers": true,
@@ -624,17 +624,141 @@
         "colors": "dark"
       }
     },
+    "rotating_text_hAGm89": {
+      "type": "rotating-text",
+      "blocks": {
+        "text_static_fnEJXP": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>It's time to create the perfect</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_dynamic_mpKeD3": {
+          "type": "text_dynamic",
+          "settings": {
+            "text_dynamic": "Stud Earrings., Dangle Earrings., Drop Earrings., Diamond Earrings., Ruby Earrings., Family Heirlooms., Hook Earrings., Lab-Diamond Studs., Gemstone Earrings.",
+            "animation_timing": 2000,
+            "rotation_interval": 5000,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_static_fnEJXP",
+        "text_dynamic_mpKeD3"
+      ],
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_size_desktop": "h2",
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_size_mobile": "h3-mobile",
+        "section_width": "full",
+        "section_margin_top": 70,
+        "section_margin_bottom": 15,
+        "colors": "white"
+      }
+    },
+    "collage_q3VRVH": {
+      "type": "collage",
+      "blocks": {
+        "image_z6bGcQ": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "The Showroom Experience.",
+            "text": "",
+            "url": "shopify://pages/schedule-an-appointment",
+            "button_label": "Meet Our Jewellery Designers",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_LM3Hey": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/close-up-shot-of-9ct-yellow-and-white-gold-diamond-earrings-fulfily-0.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Online Builder.",
+            "text": "",
+            "url": "/",
+            "button_label": "Design Your Jewellery Online",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_z6bGcQ",
+        "image_LM3Hey"
+      ],
+      "name": "Showroom & Online Builder",
+      "settings": {
+        "title": "",
+        "description": "<p>We offer three distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "width_1": "2",
+        "height_1": "2",
+        "width_2": "2",
+        "height_2": "2",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
     "image_with_text_YkYaKe": {
       "type": "image-with-text",
       "name": "The Studio Experience at Home",
       "settings": {
         "image": "shopify://shop_images/IMG_8786.webp",
         "layout": "right",
-        "title": "View Bracelets From Your Home.",
+        "title": "View Earrings From Your Home.",
         "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
+        "text_overlapping_image": true,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
         "mobile-heading-size": "h3-mobile",
@@ -646,7 +770,7 @@
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section-width": "full",
-        "section_padding_top": 72,
+        "section_padding_top": 0,
         "section_padding_bottom": 72,
         "colors": "white"
       }
@@ -722,7 +846,7 @@
         "heading_q34xXf": {
           "type": "heading",
           "settings": {
-            "heading": "Bracelets & Bangles From OUR INSTAGRAM.",
+            "heading": "Earrings From OUR INSTAGRAM.",
             "heading--text-size": "h4",
             "heading_bottom_spacing": 20
           }
@@ -730,7 +854,7 @@
         "richtext_XezrDU": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular wristwear highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular earring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
             "text_size": 100,
             "text_bottom_spacing": 0
           }
@@ -767,7 +891,7 @@
             "link_alignment": "left",
             "link_color": "#000000",
             "background_color": "",
-            "feed_id": "46536",
+            "feed_id": "47349",
             "html_area": ""
           }
         }
@@ -839,45 +963,45 @@
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How do I determine my bangle size?",
+            "accordion_header": "What qualities should I consider when selecting between delicate stud earrings and architectural dangle designs?",
             "open_by_default": false,
-            "text": "<p>Unlike bracelets which are measured by wrist circumference, bangles are measured by the size of your hand (the knuckles) to ensure they can slide on. </p><p>We can measure your hand in-store to find the perfect diameter for a comfortable and secure fit. </p><p><a href=\"/blogs/guide-jewellery-sizing-guide/bracelet-size-guide\" title=\"How to Measure for Bracelets and Bangles\">View our Bracelet Sizing Guide</a></p>",
+            "text": "<p>The choice reflects your desired level of presence; studs are often masterpieces of focused, micro-detailed brilliance, while our forged dangle creations offer dramatic kinetic energy and movement. </p><p>Our master goldsmiths can advise on which style will best complement your overall ensemble and physical features. We suggest an appointment at our Showroom to view these contrasting Creations in person, allowing us to guide you towards the perfect balance for your aesthetic near {{ block.settings.page.metafields.custom.location.value }}.<br/><br/></p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can I wear a tennis bracelet every day?",
+            "accordion_header": "Are miniature earrings suitable as everyday wear when I am passing through {{ block.settings.page.metafields.custom.location.value }}?",
             "open_by_default": false,
-            "text": "<p>High-quality diamond tennis bracelets set in platinum or 18ct gold are durable enough for daily wear. </p><p>However, we recommend regular checks of the clasp and settings (which we offer as a service) to ensure stones remain secure during active daily use.</p>",
+            "text": "<p>Absolutely. For discreet elegance that withstands daily life, Studs are an ideal choice. Many of our micro-pieces feature meticulously set GIA-certified natural diamonds or semi-precious stones, offering lasting brilliance without overwhelming your presence. </p><p>To view the range and determine which pairing will best align with your modern lifestyle in {{ block.settings.page.metafields.custom.location.value }}, we welcome you to arrange a private consultation at the Chichester Showroom or via Home Visit.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "My bracelet clasp is loose, can you fix it?",
+            "accordion_header": "Can I commission an earring set using my existing family heirlooms for remodelling?",
             "open_by_default": false,
-            "text": "<p>Yes, absolutely. A loose clasp is a common issue that can often be tightened or adjusted. </p><p>If the internal mechanism is worn, we can replace the entire clasp to ensure your bracelet is secure again.</p>",
+            "text": "<p>Yes, this is one of our most cherished commissions. We specialise in revitalising inherited jewellery, working diligently to integrate vintage pieces into entirely new, contemporary designs while retaining their precious legacy. </p><p>All restorative work happens meticulously within the secure, trusted environment of our on-site Chichester workshop. To discuss assessing your unique family set from {{ block.settings.page.metafields.custom.location.value }}, please book a consultation at the Showroom or via our Home Visit service.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What areas do you cover for Home Visits?",
+            "accordion_header": "How can I ensure that my earrings are responsibly and ethically sourced?",
             "open_by_default": false,
-            "text": "<p>Our home visit service primarily covers Chichester and the immediate surrounding areas in West Sussex. </p><p>This service is ideal for clients who prefer the privacy and comfort of their own home for consultations or valuations. Please contact us to check availability for your specific location.</p>",
+            "text": "<p>At Griffin & Co, ethical intent is woven into every single piece. We guarantee that all materials used, whether Platinum or gold, contain verifiable ethical provenance. </p><p>Furthermore, we extensively practise using 100% recycled precious metals alongside certified natural and lab-grown alternatives. For complete assurance regarding the origin of stones and metals in your pieces commissioned near {{ block.settings.page.metafields.custom.location.value }}, please consult with us directly at our Chichester Showroom or via Home Vist.</p>",
             "page": ""
           }
         },
         "accordion_BRezAN": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Do I need an appointment to view wristwear?",
+            "accordion_header": "I need earrings that match a specific stone type (e.g., emeralds). Can you guide me through colour matching options?",
             "open_by_default": false,
-            "text": "<p>You are welcome to browse our collection at any time. However, for bespoke commissions or to view specific high-value pieces, we recommend booking an appointment for a home visit so we can have everything ready for you.</p>",
+            "text": "<p>The perfect harmony between metal and gemstone is an art form, demanding the expertise of a master craftsman. Whether you are integrating deep emeralds or vibrant sapphires into your design, we have expert knowledge in colour theory and complementary settings. </p><p>We encourage booking a private consultation at our Showroom or by Home Visit; seeing actual examples side-by-side helps us curate the most precise, harmonious aesthetic for your requirements emanating from {{ block.settings.page.metafields.custom.location.value }}.</p>",
             "page": ""
           }
         }
@@ -891,7 +1015,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Frequently Asked Questions About Wristwear.",
+        "section_title": "Frequently Asked Questions About Earrings.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
@@ -920,7 +1044,7 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "text": "<h5><a href=\"/pages/wristwear-west-sussex\" title=\"Wristwear in West Sussex\">West Sussex</a></h5><p><a href=\"/pages/wristwear-arundel\" title=\"Wristwear in Arundel\">Arundel</a>, <a href=\"/pages/wristwear-bognor-regis\" title=\"Wristwear in Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/wristwear-bosham\" title=\"Wristwear in Bosham\">Bosham</a>, <a href=\"/pages/wristwear-burgess-hill\" title=\"Wristwear in Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/wristwear-chichester\" title=\"Wristwear in Chichester\">Chichester</a>, <a href=\"/pages/wristwear-crawley\" title=\"Wristwear in Crawley\">Crawley</a>, <a href=\"/pages/wristwear-east-grinstead\" title=\"Wristwear in East Grinstead\">East Grinstead</a>, <a href=\"/pages/wristwear-haywards-heath\" title=\"Wristwear in Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/wristwear-horsham\" title=\"Wristwear in Horsham\">Horsham</a>, <a href=\"/pages/wristwear-littlehampton\" title=\"Wristwear in Littlehampton\">Littlehampton</a>, <a href=\"/pages/wristwear-shoreham-by-sea\" title=\"Wristwear in Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/wristwear-worthing\" title=\"Wristwear in Worthing\">Worthing</a>.</p>",
+            "text": "<h5><a href=\"/pages/earrings-west-sussex\" title=\"Earrings in West Sussex\">West Sussex</a></h5><p><a href=\"/pages/earrings-arundel\" title=\"Arundel\">Arundel</a>, <a href=\"/pages/earrings-bognor-regis\" title=\"Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/earrings-bosham\" title=\"Bosham\">Bosham</a>, <a href=\"/pages/earrings-burgess-hill\" title=\"Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/earrings-chichester\" title=\"Chichester\">Chichester</a>, <a href=\"/pages/earrings-crawley\" title=\"Crawley\">Crawley</a>, <a href=\"/pages/earrings-east-grinstead\" title=\"East Grinstead\">East Grinstead</a>, <a href=\"/pages/earrings-haywards-heath\" title=\"Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/earrings-horsham\" title=\"Horsham\">Horsham</a>, <a href=\"/pages/earrings-littlehampton\" title=\"Littlehampton\">Littlehampton</a>, <a href=\"/pages/earrings-shoreham-by-sea\" title=\"Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/earrings-worthing\" title=\"Worthing\">Worthing</a></p>",
             "button_link": "",
             "button_text": ""
           }
@@ -929,7 +1053,7 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "text": "<h5><a href=\"/pages/wristwear-hampshire\" title=\"Wristwear in Hampshire\">Hampshire</a></h5><p><a href=\"/pages/wristwear-aldershot\" title=\"Wristwear in Aldershot\">Aldershot</a>, <a href=\"/pages/wristwear-andover\" title=\"Wristwear in Andover\">Andover</a>, <a href=\"/pages/wristwear-basingstoke\" title=\"Wristwear in Basingstoke\">Basingstoke</a>, <a href=\"/pages/wristwear-farnborough\" title=\"Wristwear in Farnborough\">Farnborough</a>, <a href=\"/pages/wristwear-gosport\" title=\"Wristwear in Gosport\">Gosport</a>, <a href=\"/pages/wristwear-horndean\" title=\"Wristwear in Horndean\">Horndean</a>, <a href=\"/pages/wristwear-portsmouth\" title=\"Wristwear in Portsmouth\">Portsmouth</a>, <a href=\"/pages/wristwear-southampton\" title=\"Wristwear in Southampton\">Southampton</a>, <a href=\"/pages/wristwear-winchester\" title=\"Wristwear in Winchester\">Winchester</a>.</p>",
+            "text": "<h5><a href=\"/pages/earrings-hampshire\" title=\"Earrings in Hampshire\">Hampshire</a></h5><p><a href=\"/pages/earrings-aldershot\" title=\"Earrings in Aldershot\">Aldershot</a>, <a href=\"/pages/earrings-andover\" title=\"Earrings in Andover\">Andover</a>, <a href=\"/pages/earrings-basingstoke\" title=\"Earrings in Basingstoke\">Basingstoke</a>, <a href=\"/pages/earrings-farnborough\" title=\"Earrings in Farnborough\">Farnborough</a>, <a href=\"/pages/earrings-gosport\" title=\"Earrings in Gosport\">Gosport</a>, <a href=\"/pages/earrings-horndean\" title=\"Earrings in Horndean\">Horndean</a>, <a href=\"/pages/earrings-portsmouth\" title=\"Earrings in Portsmouth\">Portsmouth</a>, <a href=\"/pages/earrings-southampton\" title=\"Earrings in Southampton\">Southampton</a>, <a href=\"/pages/earrings-winchester\" title=\"Earrings in Winchester\">Winchester</a>.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -938,7 +1062,7 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "text": "<h5><a href=\"/pages/wristwear-surrey\" title=\"Wristwear in Surrey\">Surrey</a></h5><p><a href=\"/pages/wristwear-camberley\" title=\"Wristwear in Camberley\">Camberley</a>, <a href=\"/pages/wristwear-epsom\" title=\"Wristwear in Epsom\">Epsom</a>, <a href=\"/pages/wristwear-esher\" title=\"Wristwear in Esher\">Esher</a>, <a href=\"/pages/wristwear-ewell\" title=\"Wristwear in Ewell\">Ewell</a>, <a href=\"/pages/wristwear-guildford\" title=\"Wristwear in Guildford\">Guildford</a>, <a href=\"/pages/wristwear-leatherhead\" title=\"Wristwear in Leatherhead\">Leatherhead</a>, <a href=\"/pages/wristwear-redhill\" title=\"Wristwear in Redhill\">Redhill</a>, <a href=\"/pages/wristwear-walton-on-thames\" title=\"Wristwear in Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/wristwear-weybridge\" title=\"Wristwear in Weybridge\">Weybridge</a>, <a href=\"/pages/wristwear-woking\" title=\"Wristwear in Woking\">Woking</a>.</p>",
+            "text": "<h5><a href=\"/pages/earrings-surrey\" title=\"Earrings in Surrey\">Surrey</a></h5><p><a href=\"/pages/earrings-camberley\" title=\"Earrings in Camberley\">Camberley</a>, <a href=\"/pages/earrings-epsom\" title=\"Earrings in Epsom\">Epsom</a>, <a href=\"/pages/earrings-esher\" title=\"Earrings in Esher\">Esher</a>, <a href=\"/pages/earrings-ewell\" title=\"Earrings in Ewell\">Ewell</a>, <a href=\"/pages/earrings-guildford\" title=\"Earrings in Guildford\">Guildford</a>, <a href=\"/pages/earrings-leatherhead\" title=\"Earrings in Leatherhead\">Leatherhead</a>, <a href=\"/pages/earrings-redhill\" title=\"Earrings in Redhill\">Redhill</a>, <a href=\"/pages/earrings-walton-on-thames\" title=\"Earrings in Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/earrings-weybridge\" title=\"Earrings in Weybridge\">Weybridge</a>, <a href=\"/pages/earrings-woking\" title=\"Earrings in Woking\">Woking</a>.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -947,7 +1071,7 @@
           "type": "text",
           "settings": {
             "heading": "",
-            "text": "<h5><a href=\"/pages/wristwear-greater-london\" title=\"Wristwear in Greater London\">Greater London</a></h5><p><a href=\"/pages/wristwear-barnet\" title=\"Wristwear in Barnet\">Barnet</a>, <a href=\"/pages/wristwear-brent\" title=\"Wristwear in Brent\">Brent</a>, <a href=\"/pages/wristwear-bromley\" title=\"Wristwear in Bromley\">Bromley</a>, <a href=\"/pages/wristwear-croydon\" title=\"Wristwear in Croydon\">Croydon</a>, <a href=\"/pages/wristwear-ealing\" title=\"Wristwear in Ealing\">Ealing</a>, <a href=\"/pages/wristwear-enfield\" title=\"Wristwear in Enfield\">Enfield</a>, <a href=\"/pages/wristwear-lambeth\" title=\"Wristwear in Lambeth\">Lambeth</a>, <a href=\"/pages/wristwear-newham\" title=\"Wristwear in Newham\">Newham</a>, <a href=\"/pages/wristwear-hatton-garden\" title=\"Wristwear in Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/wristwear-tower-hamlets\" title=\"Wristwear in Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/wristwear-wandsworth\" title=\"Wristwear in Wandsworth\">Wandsworth</a>.</p>",
+            "text": "<h5><a href=\"/pages/earrings-greater-london\" title=\"Earrings in Greater London\">Greater London</a></h5><p><a href=\"/pages/earrings-barnet\" title=\"Earrings in Barnet\">Barnet</a>, <a href=\"/pages/earrings-brent\" title=\"Earrings in Brent\">Brent</a>, <a href=\"/pages/earrings-bromley\" title=\"Earrings in Bromley\">Bromley</a>, <a href=\"/pages/earrings-croydon\" title=\"Earrings in Croydon\">Croydon</a>, <a href=\"/pages/earrings-ealing\" title=\"Earrings in Ealing\">Ealing</a>, <a href=\"/pages/earrings-enfield\" title=\"Earrings in Enfield\">Enfield</a>, <a href=\"/pages/earrings-lambeth\" title=\"Earrings in Lambeth\">Lambeth</a>, <a href=\"/pages/earrings-newham\" title=\"Earrings in Newham\">Newham</a>, <a href=\"/pages/earrings-hatton-garden\" title=\"Earrings in Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/earrings-tower-hamlets\" title=\"Earrings in Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/earrings-wandsworth\" title=\"Earrings in Wandsworth\">Wandsworth</a>.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -961,8 +1085,8 @@
       ],
       "name": "Areas We Cover",
       "settings": {
-        "title": "Bracelets Across the South of England.",
-        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer wristwear design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
+        "title": "Earrings Across the South of England.",
+        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer earring design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
         "section_header_alignment": "center",
         "maximum_width": 500,
         "override_border_radius": false,
@@ -995,6 +1119,8 @@
     "rich_text_aFz4dn",
     "text_adverts_with_icon_qyqtQz",
     "text_adverts_with_icon_yf3Gzx",
+    "rotating_text_hAGm89",
+    "collage_q3VRVH",
     "image_with_text_YkYaKe",
     "template_product_info_columns_ALphbN",
     "rich_text_pBdiyA",
