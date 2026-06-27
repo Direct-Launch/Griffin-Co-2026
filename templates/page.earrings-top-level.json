@@ -624,6 +624,130 @@
         "colors": "dark"
       }
     },
+    "rotating_text_hAGm89": {
+      "type": "rotating-text",
+      "blocks": {
+        "text_static_fnEJXP": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>It's time to create the perfect</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_dynamic_mpKeD3": {
+          "type": "text_dynamic",
+          "settings": {
+            "text_dynamic": "Stud Earrings., Dangle Earrings., Drop Earrings., Diamond Earrings., Ruby Earrings., Family Heirlooms., Hook Earrings., Lab-Diamond Studs., Gemstone Earrings.",
+            "animation_timing": 2000,
+            "rotation_interval": 5000,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_static_fnEJXP",
+        "text_dynamic_mpKeD3"
+      ],
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_size_desktop": "h2",
+        "height_mobile": "original",
+        "text_position_mobile": "left",
+        "text_size_mobile": "h3-mobile",
+        "section_width": "full",
+        "section_margin_top": 70,
+        "section_margin_bottom": 15,
+        "colors": "white"
+      }
+    },
+    "collage_q3VRVH": {
+      "type": "collage",
+      "blocks": {
+        "image_z6bGcQ": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "The Showroom Experience.",
+            "text": "",
+            "url": "shopify://pages/schedule-an-appointment",
+            "button_label": "Meet Our Jewellery Designers",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_LM3Hey": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/close-up-shot-of-9ct-yellow-and-white-gold-diamond-earrings-fulfily-0.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Online Builder.",
+            "text": "",
+            "url": "/",
+            "button_label": "Design Your Jewellery Online",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_z6bGcQ",
+        "image_LM3Hey"
+      ],
+      "name": "Showroom & Online Builder",
+      "settings": {
+        "title": "",
+        "description": "<p>We offer three distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "width_1": "2",
+        "height_1": "2",
+        "width_2": "2",
+        "height_2": "2",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
     "image_with_text_YkYaKe": {
       "type": "image-with-text",
       "name": "The Studio Experience at Home",
@@ -995,6 +1119,8 @@
     "rich_text_aFz4dn",
     "text_adverts_with_icon_qyqtQz",
     "text_adverts_with_icon_yf3Gzx",
+    "rotating_text_hAGm89",
+    "collage_q3VRVH",
     "image_with_text_YkYaKe",
     "template_product_info_columns_ALphbN",
     "rich_text_pBdiyA",
