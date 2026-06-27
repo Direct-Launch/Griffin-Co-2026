@@ -466,7 +466,7 @@
       "name": "Jewellery Sets",
       "settings": {
         "image_desktop": "shopify://shop_images/Diamond_Jewellery.png",
-        "height_desktop": "650px",
+        "height_desktop": "750px",
         "text_position_desktop": "center",
         "text_alignment_desktop": "center",
         "caption_width_desktop": 75,
@@ -624,17 +624,141 @@
         "colors": "dark"
       }
     },
+    "rotating_text_WAR4jy": {
+      "type": "rotating-text",
+      "blocks": {
+        "text_static_A9Wwff": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>It's time to create the perfect</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_dynamic_pVKwQM": {
+          "type": "text_dynamic",
+          "settings": {
+            "text_dynamic": "Engagement Ring., Wedding Band., Plain Ring., Eternity Ring., Cocktail Ring., Statement Ring., Signet Ring., Lab-Diamond Ring., Gemstone Ring.,",
+            "animation_timing": 2000,
+            "rotation_interval": 5000,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_static_A9Wwff",
+        "text_dynamic_pVKwQM"
+      ],
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_size_desktop": "h2",
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_size_mobile": "h3-mobile",
+        "section_width": "full",
+        "section_margin_top": 150,
+        "section_margin_bottom": 15,
+        "colors": "white"
+      }
+    },
+    "collage_pjyRCT": {
+      "type": "collage",
+      "blocks": {
+        "image_PRbWhr": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "The Showroom Experience.",
+            "text": "",
+            "url": "shopify://pages/schedule-an-appointment",
+            "button_label": "Meet Our Jewellery Designers",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_w3G84p": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Online Builder.",
+            "text": "",
+            "url": "/",
+            "button_label": "Design Your Jewellery Online",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_PRbWhr",
+        "image_w3G84p"
+      ],
+      "name": "Showroom & Online Builder",
+      "settings": {
+        "title": "",
+        "description": "<p>We offer three distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "width_1": "2",
+        "height_1": "2",
+        "width_2": "2",
+        "height_2": "2",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
     "image_with_text_YkYaKe": {
       "type": "image-with-text",
       "name": "The Studio Experience at Home",
       "settings": {
         "image": "shopify://shop_images/IMG_8786.webp",
         "layout": "right",
-        "title": "View Earrings From Your Home.",
-        "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
+        "title": "View Rings From Your Home.",
+        "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting in {{ page.metafields.custom.location.value }}.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches of bespoke rings, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
+        "text_overlapping_image": true,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
         "mobile-heading-size": "h3-mobile",
@@ -646,7 +770,7 @@
         "button_background_color": "#e68819",
         "button_text_color": "#ffffff",
         "section-width": "full",
-        "section_padding_top": 72,
+        "section_padding_top": 0,
         "section_padding_bottom": 72,
         "colors": "white"
       }
@@ -995,6 +1119,8 @@
     "rich_text_aFz4dn",
     "text_adverts_with_icon_qyqtQz",
     "text_adverts_with_icon_yf3Gzx",
+    "rotating_text_WAR4jy",
+    "collage_pjyRCT",
     "image_with_text_YkYaKe",
     "template_product_info_columns_ALphbN",
     "rich_text_pBdiyA",
