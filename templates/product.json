@@ -93,6 +93,7 @@
         "custom_liquid_THg3RG": {
           "type": "custom_liquid",
           "name": "Seperator",
+          "disabled": true,
           "settings": {
             "custom_liquid": "<hr>",
             "block_position": "first_column",
