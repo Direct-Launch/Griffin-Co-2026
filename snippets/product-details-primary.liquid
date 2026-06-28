@@ -391,34 +391,37 @@
                   </div>
                 {% endunless %}
 
-              {% when 'cross-sells' %}
-                {% unless is_quick_view or is_onboarding %}
-                  {% comment %} ===== CROSS SELL BLOCK ===== {% endcomment %}
-                  {% if block.settings.cross_sell_product_1.available or block.settings.cross_sell_product_2.available or block.settings.cross_sell_product_3.available %}
-                    <div 
-                      data-updates-on-change
-                      data-update-id="item-{{ block.id }}" 
-                      class="cross-sell {{ spacing_classes }}{% if block.settings.collapsible_tab %} collapsible{% if block.settings.margin_bottom == 0 %} no_margin_bottom{% endif %}{% endif %} show-on-scroll show-on-scroll--nested" 
-                      style="--custom-margin-bottom: {{ block.settings.margin_bottom }}px" 
-                      {{ block.shopify_attributes }}
-                    >
-{%- liquid
-  assign cross_sells_products = ''
-  
-  if product.metafields.custom.first_bundle_product.value != blank
-    assign cross_sells_products = cross_sells_products | append: product.metafields.custom.first_bundle_product.value.handle | append: ','
-  endif
-  
-  if product.metafields.custom.second_bundle_product.value != blank
-    assign cross_sells_products = cross_sells_products | append: product.metafields.custom.second_bundle_product.value.handle | append: ','
-  endif
-  
-  if product.metafields.custom.third_bundle_product.value != blank
-    assign cross_sells_products = cross_sells_products | append: product.metafields.custom.third_bundle_product.value.handle | append: ','
-  endif
+{% when 'cross-sells' %}
+  {% unless is_quick_view or is_onboarding %}
+    {% comment %} ===== CROSS SELL BLOCK ===== {% endcomment %}
+    
+    {%- liquid
+      assign cross_sells_products = ''
+      
+      if product.metafields.custom.first_bundle_product.value != blank
+        assign cross_sells_products = cross_sells_products | append: product.metafields.custom.first_bundle_product.value.handle | append: ','
+      endif
+      
+      if product.metafields.custom.second_bundle_product.value != blank
+        assign cross_sells_products = cross_sells_products | append: product.metafields.custom.second_bundle_product.value.handle | append: ','
+      endif
+      
+      if product.metafields.custom.third_bundle_product.value != blank
+        assign cross_sells_products = cross_sells_products | append: product.metafields.custom.third_bundle_product.value.handle | append: ','
+      endif
 
-  assign cross_sells_products = cross_sells_products | split: ',' | compact
--%}                      <div class="cross-sell-block">
+      assign cross_sells_products = cross_sells_products | split: ',' | compact
+    -%}
+
+    {% if cross_sells_products.size > 0 %}
+      <div 
+        data-updates-on-change
+        data-update-id="item-{{ block.id }}" 
+        class="cross-sell {{ spacing_classes }}{% if block.settings.collapsible_tab %} collapsible{% if block.settings.margin_bottom == 0 %} no_margin_bottom{% endif %}{% endif %} show-on-scroll show-on-scroll--nested" 
+        style="--custom-margin-bottom: {{ block.settings.margin_bottom }}px" 
+        {{ block.shopify_attributes }}
+      >
+        <div class="cross-sell-block">
                         {% unless block.settings.collapsible_tab %}
                           {% render 'cross-sells', title: block.settings.title, cross_sells_products: cross_sells_products, id: block.id, main_product_url: product.url %}
                         {% else %}
