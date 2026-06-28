@@ -402,8 +402,23 @@
                       style="--custom-margin-bottom: {{ block.settings.margin_bottom }}px" 
                       {{ block.shopify_attributes }}
                     >
-                      {%- assign cross_sells_products = block.settings.cross_sell_product_1 | append: ',' | append: block.settings.cross_sell_product_2 | append: ',' | append: block.settings.cross_sell_product_3 | split: ',' | compact -%}
-                      <div class="cross-sell-block">
+{%- liquid
+  assign cross_sells_products = ''
+  
+  if product.metafields.custom.first_bundle_product.value != blank
+    assign cross_sells_products = cross_sells_products | append: product.metafields.custom.first_bundle_product.value.handle | append: ','
+  endif
+  
+  if product.metafields.custom.second_bundle_product.value != blank
+    assign cross_sells_products = cross_sells_products | append: product.metafields.custom.second_bundle_product.value.handle | append: ','
+  endif
+  
+  if product.metafields.custom.third_bundle_product.value != blank
+    assign cross_sells_products = cross_sells_products | append: product.metafields.custom.third_bundle_product.value.handle | append: ','
+  endif
+
+  assign cross_sells_products = cross_sells_products | split: ',' | compact
+-%}                      <div class="cross-sell-block">
                         {% unless block.settings.collapsible_tab %}
                           {% render 'cross-sells', title: block.settings.title, cross_sells_products: cross_sells_products, id: block.id, main_product_url: product.url %}
                         {% else %}
