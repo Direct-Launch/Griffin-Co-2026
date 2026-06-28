@@ -311,7 +311,7 @@
           "settings": {
             "title": "Finance options",
             "open_by_default": false,
-            "text": "<p>We've partnered with ClearPay to help you spread the cost of your purchase. </p>",
+            "text": "<p>We've partnered with ClearPay to help you spread the cost of your purchase. At checkout please select ClearPay as a payment method.</p>",
             "page": ""
           }
         }
@@ -468,7 +468,8 @@
             "arrows_color": "#000000",
             "transition_speed": 5,
             "header_text": "Customers are saying",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         }
       },
@@ -493,12 +494,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-right",
             "heading_size_mobile": "h4-mobile",
             "heading": "",
+            "text": "Add a description to your image here.",
             "url": "",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }
@@ -511,12 +519,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-right",
             "heading_size_mobile": "h4-mobile",
             "heading": "",
+            "text": "Add a description to your image here.",
             "url": "",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }
