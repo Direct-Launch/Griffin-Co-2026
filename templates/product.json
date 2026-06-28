@@ -142,9 +142,9 @@
           "type": "cross-sells",
           "settings": {
             "title": "{{ product.metafields.custom.bundle_title.value }} | Buy Together for {{ product.metafields.c_f.bundle_discount_rate.value }}% Off",
-            "cross_sell_product_1": "",
-            "cross_sell_product_2": "",
-            "cross_sell_product_3": "",
+            "cross_sell_product_1": "{{ block.settings.cross_sell_product_2.metafields.custom.first_bundle_product.value }}",
+            "cross_sell_product_2": "{{ block.settings.cross_sell_product_1.metafields.custom.second_bundle_product.value }}",
+            "cross_sell_product_3": "{{ block.settings.cross_sell_product_1.metafields.custom.third_bundle_product.value }}",
             "collapsible_tab": true,
             "icon": "none",
             "open_close_icon": "caret",
