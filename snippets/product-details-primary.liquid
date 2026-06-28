@@ -404,7 +404,7 @@
                     >
                       {%- assign cross_sells_products = block.settings.cross_sell_product_1 | append: ',' | append: block.settings.cross_sell_product_2 | append: ',' | append: block.settings.cross_sell_product_3 | split: ',' | compact -%}
                       <div class="cross-sell-block">
-                        {% unless block.settings.collapsible_tab %}
+                        {% comment %} {% unless block.settings.collapsible_tab %}
                           {% render 'cross-sells', title: block.settings.title, cross_sells_products: cross_sells_products, id: block.id, main_product_url: product.url %}
                         {% else %}
                           {% liquid
@@ -442,7 +442,7 @@
                           <safe-load-scripts class="hidden">
                             <script src="{{ 'component-collapsible-button.js' | asset_url }}" type="module" defer="defer" data-flow-load-key="component-collapsible-button"></script>
                           </safe-load-scripts>
-                        {% endunless %}
+                        {% endunless %} {% endcomment %}
                       </div>
                     </div>
                   {% endif %}
