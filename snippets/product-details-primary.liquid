@@ -432,11 +432,12 @@
                               </div>
                             </collapsible-button>
                         
-<div class="collapsible-content">
-  <div class="content rte">
-    {% comment %} [TEMPORARILY COMMENTED OUT FOR DEBUGGING] {% endcomment %}
-  </div>
-</div>
+                            <div class="collapsible-content">
+                              <div class="content rte">
+                                {% render 'cross-sells', title: blank, cross_sells_products: cross_sells_products, id: block.id, main_product_url: product.url %}
+                              </div>
+                            </div>
+                          </div>
 
                           <safe-load-scripts class="hidden">
                             <script src="{{ 'component-collapsible-button.js' | asset_url }}" type="module" defer="defer" data-flow-load-key="component-collapsible-button"></script>
