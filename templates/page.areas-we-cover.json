@@ -161,6 +161,49 @@
         "color_scheme": "white"
       }
     },
+    "rich_text_7pAWMD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zWwUDm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Exceptional Jewellers Near {{ page.metafields.custom.location.value }}.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_Gbedat": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>If you are a resident of {{ page.metafields.custom.location.value }}seeking a jeweller that offers more than just retail, Griffin & Co provides a dedicated master workshop experience. </p><p>For decades, we have crafted enduring legacies, from bespoke engagement rings to the meticulous restoration of family heirlooms.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "richtext_DxWU4e": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Located just a short, scenic drive away in Chichester, our showroom doors are always open to you. Alternatively, our bespoke concierge service brings our expertise directly to your doorstep in {{ page.metafields.custom.location.value }}, or you can step into the role of the designer with our state-of-the-art online 3D studio.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWwUDm",
+        "richtext_Gbedat",
+        "richtext_DxWU4e"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "rotating_text_aqXJCW": {
       "type": "rotating-text",
       "blocks": {
@@ -195,7 +238,7 @@
         "text_position_mobile": "left",
         "text_size_mobile": "h3-mobile",
         "section_width": "full",
-        "section_margin_top": 0,
+        "section_margin_top": 35,
         "section_margin_bottom": 15,
         "colors": "white"
       }
@@ -742,7 +785,7 @@
       "settings": {
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "include_margins": true
+        "include_margins": false
       }
     },
     "collage_RQdjrp": {
@@ -806,7 +849,7 @@
             "heading": "Our Chichester Showroom",
             "heading_size": "h5",
             "heading_size_mobile": "h4-mobile",
-            "text": "Formerly known as Smith & Ralier, our historic Chichester address is a welcoming space where fine jewellery is made accessible. We invite our Arundel clients to sit down with a cup of tea, view our collections in natural light, and discuss their ideas without pressure.",
+            "text": "Formerly known as Smith & Ralier, our historic Chichester address is a welcoming space where fine jewellery is made accessible. We invite our clients to sit down with a cup of tea, view our collections in natural light, and discuss their ideas without pressure.",
             "url": "shopify://pages/our-showroom",
             "button_label": "Learn About Us",
             "buttons_style": "outlined",
@@ -878,10 +921,10 @@
         "textColor": "#ffffff"
       }
     },
-    "rich_text_7pAWMD": {
+    "rich_text_mTFGKb": {
       "type": "rich-text",
       "blocks": {
-        "heading_zWwUDm": {
+        "heading_7XerTg": {
           "type": "heading",
           "settings": {
             "heading": "Exceptional Jewellery Service for {{ page.metafields.custom.location.value }}.",
@@ -889,7 +932,7 @@
             "heading_bottom_spacing": 20
           }
         },
-        "richtext_Gbedat": {
+        "richtext_HQjiBW": {
           "type": "richtext",
           "settings": {
             "text": "<p>If you are searching for a highly skilled jeweller in or around {{ page.metafields.custom.location.value }}, Griffin & Co offers a level of craftsmanship and personal service rarely found on the modern high street. </p><p>Located just a short, scenic drive away in Chichester, our family-run showroom and on-site workshop are the destination for clients seeking quality and trust.</p>",
@@ -897,7 +940,7 @@
             "text_bottom_spacing": 20
           }
         },
-        "richtext_DxWU4e": {
+        "richtext_K8Gg6x": {
           "type": "richtext",
           "settings": {
             "text": "<p>Whether you wish to browse our curated collections of diamond jewellery, require a delicate antique repair, or want to collaborate with a master goldsmith on a bespoke engagement ring, we are here to guide you.</p>",
@@ -907,9 +950,9 @@
         }
       },
       "block_order": [
-        "heading_zWwUDm",
-        "richtext_Gbedat",
-        "richtext_DxWU4e"
+        "heading_7XerTg",
+        "richtext_HQjiBW",
+        "richtext_K8Gg6x"
       ],
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
@@ -1640,6 +1683,7 @@
   "order": [
     "hero_slideshow_4btAGz",
     "scrolling_banner_yQGBqH",
+    "rich_text_7pAWMD",
     "rotating_text_aqXJCW",
     "collage_EKeDNP",
     "template_product_info_columns_P69nG9",
@@ -1650,7 +1694,7 @@
     "178275420307dfd618",
     "collage_RQdjrp",
     "video_hero_dPLb9R",
-    "rich_text_7pAWMD",
+    "rich_text_mTFGKb",
     "collage_NFLeq4",
     "image_with_text_YjGKin",
     "template_product_info_columns_AxPncP",
