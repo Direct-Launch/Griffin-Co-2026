@@ -900,6 +900,7 @@
         "text_8ftVrr",
         "text_RbpGzN"
       ],
+      "disabled": true,
       "name": "Areas We Cover",
       "settings": {
         "title": "Areas We Cover in {{ page.metafields.custom.service_area_region_name.value }}.",
@@ -925,7 +926,6 @@
     },
     "navigation_banner_i3fxnc": {
       "type": "navigation-banner",
-      "disabled": true,
       "name": "t:sections.blog--navigation-banner.presets.name",
       "settings": {
         "title": "Areas We Cover in {{ page.metafields.custom.service_area_region_name.value }}.",
