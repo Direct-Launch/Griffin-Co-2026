@@ -463,7 +463,7 @@
             "heading_size_mobile": "h4-mobile",
             "heading": "Engagement Rings.",
             "text": "",
-            "url": "shopify://pages/engagement-rings",
+            "url": "{{ page.metafields.custom.service_area_engagement_rings.value }}",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
@@ -476,7 +476,7 @@
             "button_background_color_2": "#e68819",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#717171"
+            "overlay_color": "#242424"
           }
         },
         "image_CqJDgm": {
@@ -489,7 +489,7 @@
             "heading_size_mobile": "h4-mobile",
             "heading": "Wedding Rings.",
             "text": "",
-            "url": "shopify://pages/wedding-rings-bespoke-bands",
+            "url": "{{ page.metafields.custom.service_area_wedding_bands.value }}",
             "button_label": "",
             "buttons_style": "underlined",
             "override_button_colors": false,
@@ -502,7 +502,7 @@
             "button_background_color_2": "#e68819",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#717171"
+            "overlay_color": "#242424"
           }
         },
         "image_JRWeik": {
@@ -515,7 +515,7 @@
             "heading_size_mobile": "h4-mobile",
             "heading": "Bespoke Designs.",
             "text": "",
-            "url": "shopify://pages/bespoke-jewellery-designs",
+            "url": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
@@ -528,7 +528,7 @@
             "button_background_color_2": "#e68819",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "#717171"
+            "overlay_color": "#242424"
           }
         }
       },
