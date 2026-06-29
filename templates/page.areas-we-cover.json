@@ -984,7 +984,7 @@
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
-            "url_2": "shopify://pages/bespoke-jewellery-designs",
+            "url_2": "{{ page.metafields.custom.service_area_bespoke_jewellery_designs.value }}",
             "button_label_2": "View Service",
             "buttons_style_2": "outlined",
             "override_button_colors_2": true,
@@ -1011,7 +1011,7 @@
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
-            "url_2": "shopify://blogs/guide-jewellery-repair-service/jewellery-repair-service",
+            "url_2": "{{ page.metafields.custom.service_area_repairs.value }}",
             "button_label_2": "View Service",
             "buttons_style_2": "outlined",
             "override_button_colors_2": true,
@@ -1038,7 +1038,7 @@
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
-            "url_2": "shopify://pages/jewellery-remodelling-service",
+            "url_2": "{{ page.metafields.custom.service_area_remodelling.value }}",
             "button_label_2": "View Service",
             "buttons_style_2": "outlined",
             "override_button_colors_2": true,
@@ -1143,7 +1143,7 @@
             "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft jewellery that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
+            "text": "<h6>The Consultation</h6><p>Discuss ideas in {{ page.metafields.custom.location.value }} or Chichester.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -1154,7 +1154,7 @@
             "image": "shopify://shop_images/Diamond_Set_Rings_-_Mobile_43d70b02-4792-4c23-86a0-7bf63dbf99d6.png",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your jewellery design details! You can view our existing rings in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
+            "text": "<h6>Exploring Designs</h6><p>View jewellery collections in person.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -1165,7 +1165,7 @@
             "image": "shopify://shop_images/SR1506.jpg",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your jewellery. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
+            "text": "<h6>Create and Refine Design</h6><p>View 3D photorealistic renders of your ring.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -1176,7 +1176,7 @@
             "image": "shopify://shop_images/heating-metal-ring.jpg",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>The Crafting Process</h6><p>Your stunning jewellery is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
+            "text": "<h6>The Crafting Process</h6><p>Forged, set, and polished in our workshop.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -1301,9 +1301,9 @@
       "settings": {
         "rating_image": "shopify://shop_images/google-business.png",
         "image_max_width": 120,
-        "additional_text": "Rated 5 stars by 100s of Clients in Chichester & Beyond",
+        "additional_text": "Rated 5 stars by 100s of Clients in {{ page.metafields.custom.location.value }} & Beyond",
         "title": "Luxury That Speaks for Itself.",
-        "description": "<p>Each piece we create tells a story—of beauty, elegance, and trust. But don't just take our word for it. Discover how our timeless craftsmanship has left a lasting impression on jewellery lovers around the world. </p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
+        "description": "<p>Each piece we create tells a story—of beauty, elegance, and trust. But don't just take our word for it. Discover how our timeless craftsmanship has left a lasting impression on jewellery lovers around {{ page.metafields.custom.location.value }}.</p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
         "scroller_position": "right",
         "section_padding_top": 36,
         "section_padding_bottom": 72,
