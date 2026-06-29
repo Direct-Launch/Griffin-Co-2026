@@ -905,7 +905,7 @@
         "textAlignment": "center-left",
         "link": "",
         "title": "What we do",
-        "subheading": "\"Our mission is to bring modern jewellery to people lives. We are passionate about providing ethically sourced, hand crafted, stunning jewellery. Griffin & Co provides professional jewellery services which are totally tailored experiences for all of our clients. We treat everyone like family.\" - Cian Griffin",
+        "subheading": "\"Our mission is to bring modern jewellery to people lives. We are passionate about providing ethically sourced, hand crafted, stunning jewellery. Griffin & Co provides professional jewellery services which are totally tailored experiences for all of our {{ page.metafields.custom.location.value }} clients. We treat everyone like family.\" - Cian Griffin",
         "textShadow": true,
         "heading--text-size": "h3",
         "heading--text-size-mobile": "h3-mobile",
