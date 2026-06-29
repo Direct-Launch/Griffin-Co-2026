@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "template--collections-list",
+      "disabled": true,
       "settings": {
         "banner-image-size": "20vh",
         "parallax": true,
@@ -32,9 +33,44 @@
         "layout": "grid",
         "items_per_row": 4
       }
+    },
+    "hero_image_with_text_nqTr7A": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Shop_Window.png",
+        "layout": "right",
+        "title": "All Jewellery Collections.",
+        "text": "<p><strong>Griffin & Co Fine Jewellery offers a stunning collection of exquisite pieces, handcrafted with precision and passion.</strong></p><p>Our collection features a diverse range of styles, from timeless classics to modern designs, all made with the highest quality materials and exceptional craftsmanship. Whether you're searching for the perfect engagement ring, a statement necklace, or a delicate bracelet, our collection has something to suit every taste and occasion.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h2",
+        "desktop-text-size": 100,
+        "show_image_mobile": false,
+        "mobile-heading-size": "h2-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "",
+        "button_label_1": "",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "",
+        "button_label_2": "",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "hero_image_with_text_nqTr7A"
   ]
 }
