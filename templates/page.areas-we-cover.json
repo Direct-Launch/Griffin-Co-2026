@@ -15,8 +15,8 @@
         "image_KhUbcn": {
           "type": "image",
           "settings": {
-            "title": "Modern Fine Jewellery Near {{ page.metafields.custom.location.value }}.",
-            "text": "Discover breathtaking engagement rings, masterful repairs, and family-run service. Visit our nearby Chichester showroom or request a private home consultation in {{ page.metafields.custom.location.value }}.",
+            "title": "Fine Jewellery Near {{ page.metafields.custom.location.value }}.",
+            "text": "Discover master craftsmanship, bespoke design, and expert repairs. Available in our Chichester workshop, online, or via a private home visit to {{ page.metafields.custom.location.value }}.",
             "first_button_link": "shopify://collections",
             "first_button_label": "View All Jewellery",
             "second_button_link": "shopify://pages/schedule-an-appointment",
