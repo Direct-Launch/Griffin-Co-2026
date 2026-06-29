@@ -1536,36 +1536,36 @@
         "accordion_Jg8nTk": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Is there a fee for Home Visits?",
+            "accordion_header": "Do you offer private home visits in {{ page.metafields.custom.location.value }}?",
             "open_by_default": false,
-            "text": "<p>We offer complimentary initial consultations for bespoke commissions within a 15-mile radius of Chichester. For repair collections or valuations, a small travel fee may apply which is deductible from the final work.</p>",
+            "text": "<p>Yes, we frequently visit clients in {{ page.metafields.custom.location.value }} for bespoke design consultations and high-value valuations. This allows you to discuss your requirements in the comfort and privacy of your own home.</p>",
             "page": ""
           }
         },
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How long do repairs typically take?",
+            "accordion_header": "Is there a charge for home consultations in {{ page.metafields.custom.location.value }}?",
             "open_by_default": false,
-            "text": "<p>Simple repairs like ring sizing or chain soldering are often completed within 3-5 working days. Complex restoration or stone sourcing may take 2-4 weeks.</p>",
+            "text": "<p>For bespoke commissions, remodelling projects, and high-value valuations, our initial home consultation in {{ page.metafields.custom.location.value }} is complimentary. We bring the showroom experience to your living room.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Are my items insured while in your care?",
+            "accordion_header": "How can I see your collection?",
             "open_by_default": false,
-            "text": "<p><strong>Absolutely</strong>. From the moment you hand your jewellery to us (in-store or at your home) until it is returned, it is fully insured under our comprehensive jewellers block policy.</p>",
+            "text": "<p>We invite you to experience our jewellery in the way that suits you best. You can <strong>book a private consultation </strong>to visit our showroom and view our collection in person. We also offer <strong>Home Visits </strong>to {{ page.metafields.custom.location.value }} where you can arrange for an expert jeweller to bring our collection to your home.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What payment methods do you accept?",
+            "accordion_header": "Can I design my engagement ring online?",
             "open_by_default": false,
-            "text": "<p>We accept all major credit cards, PayPal, Apple Pay, and Google Pay for your convenience as well as cash.</p>",
+            "text": "<p>Yes, you can use our cutting-edge 3D Online Studio to design your ring from home in {{ page.metafields.custom.location.value }}. Once designed, you can order directly or arrange an appointment with us to finalise the details.</p>",
             "page": ""
           }
         },
@@ -1588,7 +1588,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Frequently Asked Questions about our Services.",
+        "section_title": "Common Questions from {{ page.metafields.custom.location.value }} Clients.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
