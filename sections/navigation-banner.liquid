@@ -1,8 +1,14 @@
 {%- liquid
+  assign dynamic_menu_handle = section.settings.dynamic_menu_handle
   assign banner_linklist = section.settings.banner_linklist
   assign collection_list = section.settings.collection_list
 
-  assign list = linklists[banner_linklist].links
+  if dynamic_menu_handle != blank
+    assign list = linklists[dynamic_menu_handle].links
+  else
+    assign list = linklists[banner_linklist].links
+  endif
+
   assign count = list.size
   
   if collection_list != blank
@@ -141,6 +147,12 @@
     {
       "type": "paragraph",
       "content": "t:sections.blog--navigation-banner.settings.navigation.paragraph"
+    },
+    {
+      "type": "text",
+      "id": "dynamic_menu_handle",
+      "label": "Dynamic menu handle",
+      "info": "Connect a Single line text metafield containing the menu's handle. This will override the selected menu below."
     },
     {
       "type": "link_list",
