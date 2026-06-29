@@ -56,6 +56,39 @@
     "scrolling_banner_yQGBqH": {
       "type": "scrolling-banner",
       "blocks": {
+        "text_b9nLqm": {
+          "type": "text",
+          "settings": {
+            "text": "Repaired in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_MbgBeC": {
+          "type": "text",
+          "settings": {
+            "text": "Bespoke 3D Design Studio",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_xLPA39": {
+          "type": "text",
+          "settings": {
+            "text": "Private Home Visits in {{ page.metafields.custom.location.value }}",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
         "text_wU7jRg": {
           "type": "text",
           "settings": {
@@ -102,6 +135,9 @@
         }
       },
       "block_order": [
+        "text_b9nLqm",
+        "text_MbgBeC",
+        "text_xLPA39",
         "text_wU7jRg",
         "text_ifRMFb",
         "text_UwDBdj",
@@ -123,49 +159,6 @@
         "rotate": "0",
         "override_border_radius": false,
         "color_scheme": "white"
-      }
-    },
-    "rich_text_7pAWMD": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_zWwUDm": {
-          "type": "heading",
-          "settings": {
-            "heading": "Exceptional Jewellery Service for {{ page.metafields.custom.location.value }}.",
-            "heading--text-size": "h3",
-            "heading_bottom_spacing": 20
-          }
-        },
-        "richtext_Gbedat": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>If you are searching for a highly skilled jeweller in or around {{ page.metafields.custom.location.value }}, Griffin & Co offers a level of craftsmanship and personal service rarely found on the modern high street. </p><p>Located just a short, scenic drive away in Chichester, our family-run showroom and on-site workshop are the destination for clients seeking quality and trust.</p>",
-            "text_size": 100,
-            "text_bottom_spacing": 20
-          }
-        },
-        "richtext_DxWU4e": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Whether you wish to browse our curated collections of diamond jewellery, require a delicate antique repair, or want to collaborate with a master goldsmith on a bespoke engagement ring, we are here to guide you.</p>",
-            "text_size": 100,
-            "text_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "heading_zWwUDm",
-        "richtext_Gbedat",
-        "richtext_DxWU4e"
-      ],
-      "name": "t:sections.text--rich-text.presets.name",
-      "settings": {
-        "section_width": "content",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
       }
     },
     "rotating_text_aqXJCW": {
@@ -270,7 +263,7 @@
             "heading_size": "h4",
             "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
-            "heading": "Home Visits.",
+            "heading": "Home Visits in {{ page.metafields.custom.location.value }}.",
             "text": "",
             "url": "shopify://pages/home-visits",
             "button_label": "Schedule a Home Visit",
@@ -813,7 +806,7 @@
             "heading": "Our Chichester Showroom",
             "heading_size": "h5",
             "heading_size_mobile": "h4-mobile",
-            "text": "Nestled in the historic heart of Chichester, we are a team of passionate jewellers dedicated to the art of fine craftsmanship. Whether you are searching for the perfect diamond, looking to breathe new life into an heirloom, or simply treating yourself, we offer a warm, unhurried experience tailored entirely to you.",
+            "text": "Formerly known as Smith & Ralier, our historic Chichester address is a welcoming space where fine jewellery is made accessible. We invite our Arundel clients to sit down with a cup of tea, view our collections in natural light, and discuss their ideas without pressure.",
             "url": "shopify://pages/our-showroom",
             "button_label": "Learn About Us",
             "buttons_style": "outlined",
@@ -883,6 +876,49 @@
         "section_margin_top": 0,
         "section_margin_bottom": 0,
         "textColor": "#ffffff"
+      }
+    },
+    "rich_text_7pAWMD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zWwUDm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Exceptional Jewellery Service for {{ page.metafields.custom.location.value }}.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_Gbedat": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>If you are searching for a highly skilled jeweller in or around {{ page.metafields.custom.location.value }}, Griffin & Co offers a level of craftsmanship and personal service rarely found on the modern high street. </p><p>Located just a short, scenic drive away in Chichester, our family-run showroom and on-site workshop are the destination for clients seeking quality and trust.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "richtext_DxWU4e": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Whether you wish to browse our curated collections of diamond jewellery, require a delicate antique repair, or want to collaborate with a master goldsmith on a bespoke engagement ring, we are here to guide you.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWwUDm",
+        "richtext_Gbedat",
+        "richtext_DxWU4e"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
       }
     },
     "collage_NFLeq4": {
@@ -1604,7 +1640,6 @@
   "order": [
     "hero_slideshow_4btAGz",
     "scrolling_banner_yQGBqH",
-    "rich_text_7pAWMD",
     "rotating_text_aqXJCW",
     "collage_EKeDNP",
     "template_product_info_columns_P69nG9",
@@ -1615,6 +1650,7 @@
     "178275420307dfd618",
     "collage_RQdjrp",
     "video_hero_dPLb9R",
+    "rich_text_7pAWMD",
     "collage_NFLeq4",
     "image_with_text_YjGKin",
     "template_product_info_columns_AxPncP",
