@@ -15,12 +15,12 @@
         "image_KhUbcn": {
           "type": "image",
           "settings": {
-            "title": "Modern Fine Jewellers in {{ page.metafields.custom.location.value }}.",
-            "text": "From bespoke engagement rings to expert restoration. Experience the art of fine jewellery for clients in {{ page.metafields.custom.location.value }}.",
+            "title": "Modern Fine Jewellery Near {{ page.metafields.custom.location.value }}.",
+            "text": "Discover breathtaking engagement rings, masterful repairs, and family-run service. Visit our nearby Chichester showroom or request a private home consultation in {{ page.metafields.custom.location.value }}.",
             "first_button_link": "shopify://collections",
             "first_button_label": "View All Jewellery",
-            "second_button_link": "shopify://pages/jewellery-services",
-            "second_button_label": "Our Services",
+            "second_button_link": "shopify://pages/schedule-an-appointment",
+            "second_button_label": "Book an Appointment",
             "buttons_style": "outlined",
             "override_button_colors": true,
             "button-background": "#ffffff",
@@ -174,7 +174,7 @@
         "richtext_Gbedat": {
           "type": "richtext",
           "settings": {
-            "text": "<p>For residents of Arundel looking for a jeweller that offers more than just retail, <strong>Griffin & Co</strong> provides a dedicated workshop experience. Whether you are looking to create a bespoke engagement ring, restore a family heirloom, or simply require a professional valuation, our team of master goldsmiths is at your service.<br/><br/>Located a short drive away, or available via our <strong>Private Home Visit</strong> service in Arundel, we bring clarity, quality, and craftsmanship to your doorstep.</p>",
+            "text": "<p>If you are searching for a highly skilled jeweller in or around {{ page.metafields.custom.location.value }}, Griffin & Co offers a level of craftsmanship and personal service rarely found on the modern high street. </p><p>Located just a short, scenic drive away in Chichester, our family-run showroom and on-site workshop are the destination for clients seeking quality and trust.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -182,7 +182,7 @@
         "richtext_DxWU4e": {
           "type": "richtext",
           "settings": {
-            "text": "<p>When you hand us your jewellery for repair, valuation, or remodelling, it is placed directly into the hands of a master goldsmith with decades of experience. </p><p>This ensures the highest level of security, transparent communication, and absolute perfection in every detail.</p>",
+            "text": "<p>Whether you wish to browse our curated collections of diamond jewellery, require a delicate antique repair, or want to collaborate with a master goldsmith on a bespoke engagement ring, we are here to guide you.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -200,6 +200,446 @@
         "text_alignment_mobile": "center",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "rotating_text_aqXJCW": {
+      "type": "rotating-text",
+      "blocks": {
+        "text_static_LrhHfE": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>It's time to create the perfect</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_dynamic_3cj7iR": {
+          "type": "text_dynamic",
+          "settings": {
+            "text_dynamic": "engagement ring., wedding ring., eternity ring., custom ring., Family Heirloom.",
+            "animation_timing": 2000,
+            "rotation_interval": 5000,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_static_LrhHfE",
+        "text_dynamic_3cj7iR"
+      ],
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_size_desktop": "h2",
+        "height_mobile": "original",
+        "text_position_mobile": "left",
+        "text_size_mobile": "h3-mobile",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 15,
+        "colors": "white"
+      }
+    },
+    "collage_EKeDNP": {
+      "type": "collage",
+      "blocks": {
+        "image_qJ4abm": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "The Showroom Experience.",
+            "text": "",
+            "url": "shopify://pages/schedule-an-appointment",
+            "button_label": "Meet Our Jewellery Designers",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_j7Y4C6": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Online Builder.",
+            "text": "",
+            "url": "shopify://pages/custom-jewellery-builder-online",
+            "button_label": "Design Your Jewellery Online",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_6bH3w8": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Showroom_8.webp",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Home Visits.",
+            "text": "",
+            "url": "shopify://pages/home-visits",
+            "button_label": "Schedule a Home Visit",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_qJ4abm",
+        "image_j7Y4C6",
+        "image_6bH3w8"
+      ],
+      "name": "Showroom & Online Builder",
+      "settings": {
+        "title": "",
+        "description": "<p>We offer three distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "width_1": "3",
+        "height_1": "2",
+        "width_2": "3",
+        "height_2": "2",
+        "width_3": "3",
+        "height_3": "2",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "template_product_info_columns_P69nG9": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_twwd4K": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Rings_16b6bed6-9bcf-4dea-beb7-9f84821eec31.png",
+            "grid_image_size": "square",
+            "heading": "Rings",
+            "text": "",
+            "button_link": "{{ page.metafields.custom.service_area_rings.value }}",
+            "button_text": ""
+          }
+        },
+        "image_and_text_M47A9n": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Neckwear_724c1345-5115-427c-a64a-c9fab9f3622d.png",
+            "grid_image_size": "square",
+            "heading": "Neckwear",
+            "text": "",
+            "button_link": "{{ page.metafields.custom.service_area_neckwear.value }}",
+            "button_text": ""
+          }
+        },
+        "image_and_text_XyE4H4": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Earrings_ae1e4721-2e5f-4d2f-89db-979f31c4f8bc.png",
+            "grid_image_size": "square",
+            "heading": "Earrings",
+            "text": "",
+            "button_link": "{{ page.metafields.custom.service_area_earrings.value }}",
+            "button_text": ""
+          }
+        },
+        "image_and_text_m8kqY4": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Wristwear_fede13f6-03e1-43dc-802a-90bd6c9d01c5.png",
+            "grid_image_size": "square",
+            "heading": "Wristwear",
+            "text": "",
+            "button_link": "{{ page.metafields.custom.service_area_wristwear.value }}",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_twwd4K",
+        "image_and_text_M47A9n",
+        "image_and_text_XyE4H4",
+        "image_and_text_m8kqY4"
+      ],
+      "name": "Browse Our Jewellery Collections",
+      "settings": {
+        "title": "Browse Our Jewellery Collections in {{ page.metafields.custom.location.value }}.",
+        "description": "<p><a href=\"/collections\" title=\"All collections\">View All</a></p>",
+        "section_header_alignment": "left",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "none",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "collage_jzxixp": {
+      "type": "collage",
+      "blocks": {
+        "text_zRGDrc": {
+          "type": "text",
+          "settings": {
+            "heading": "Specialities.",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "We believe that every piece of jewellery tells a story. Whether it is a bespoke engagement ring designed just for you or a cherished antique restored to its former glory, our on-site workshop ensures perfection in every detail.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#484945",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-center md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "rgba(0,0,0,0)",
+            "text_color": "#35382e"
+          }
+        },
+        "image_7zwCCM": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Engagement_Rings_Home.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading_size": "h5",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Engagement Rings.",
+            "text": "",
+            "url": "shopify://pages/engagement-rings",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#262428",
+            "button_color": "#e6e5e7",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#717171"
+          }
+        },
+        "image_CqJDgm": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Wedding_Bands_Home.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading_size": "h5",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Wedding Rings.",
+            "text": "",
+            "url": "shopify://pages/wedding-rings-bespoke-bands",
+            "button_label": "",
+            "buttons_style": "underlined",
+            "override_button_colors": false,
+            "button_background_color": "#262428",
+            "button_color": "#e6e5e7",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#717171"
+          }
+        },
+        "image_JRWeik": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Bespoke_Design_-_Mobile.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading_size": "h5",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Bespoke Designs.",
+            "text": "",
+            "url": "shopify://pages/bespoke-jewellery-designs",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#262428",
+            "button_color": "#e6e5e7",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#717171"
+          }
+        }
+      },
+      "block_order": [
+        "text_zRGDrc",
+        "image_7zwCCM",
+        "image_CqJDgm",
+        "image_JRWeik"
+      ],
+      "name": "Specialities",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 120,
+        "section_padding_bottom": 120,
+        "width_1": "4",
+        "height_1": "3",
+        "width_2": "4",
+        "height_2": "3",
+        "width_3": "4",
+        "height_3": "3",
+        "width_4": "4",
+        "height_4": "3",
+        "width_5": "4",
+        "height_5": "3",
+        "width_6": "1",
+        "height_6": "6",
+        "color_scheme": "dark"
+      }
+    },
+    "collection_list_DULHaN": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_xWQtAK": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "rings",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#ffffff"
+          }
+        },
+        "featured_collection_8ifrKP": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "neckwear",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#ffffff"
+          }
+        },
+        "featured_collection_n9nLX7": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "earrings",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#ffffff"
+          }
+        },
+        "featured_collection_mFJeqA": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wristwear",
+            "subheading": "",
+            "overlay-btn-text": "",
+            "show-gradient-overlay": false,
+            "overlay_color": "#242424",
+            "overlay_opacity": 60,
+            "overlay_font_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_xWQtAK",
+        "featured_collection_8ifrKP",
+        "featured_collection_n9nLX7",
+        "featured_collection_mFJeqA"
+      ],
+      "custom_css": [
+        "h4 {font-size: var(--h5-size);}"
+      ],
+      "name": "Browse Our Jewellery Collections",
+      "settings": {
+        "title": "Browse Our Jewellery Collections in {{ page.metafields.custom.location.value }}.",
+        "description": "<p><a href=\"/collections\" title=\"All collections\">View All</a></p>",
+        "section_header_alignment": "center",
+        "items-per-row": 4,
+        "content-position": "below-image",
+        "image_shape": "natural",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "remove-spacing": false,
         "colors": "white"
       }
     },
@@ -733,83 +1173,6 @@
         "button_text_color": "#ffffff",
         "colors": "white"
       }
-    },
-    "collection_list_DULHaN": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_xWQtAK": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "rings",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "featured_collection_PDPCXk": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "subheading": "Subheading",
-            "overlay-btn-text": "Shop now",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
-          }
-        },
-        "featured_collection_Cnn7da": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "subheading": "Subheading",
-            "overlay-btn-text": "Shop now",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
-          }
-        },
-        "featured_collection_hQ9rqQ": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "",
-            "subheading": "Subheading",
-            "overlay-btn-text": "Shop now",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#FFFFFF"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_xWQtAK",
-        "featured_collection_PDPCXk",
-        "featured_collection_Cnn7da",
-        "featured_collection_hQ9rqQ"
-      ],
-      "name": "t:sections.collection--collection-list.presets.name",
-      "settings": {
-        "title": "Featured Collections",
-        "description": "",
-        "section_header_alignment": "center",
-        "items-per-row": 3,
-        "content-position": "overlay",
-        "image_shape": "natural",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#E68819",
-        "button_text_color": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "remove-spacing": false,
-        "colors": "light"
-      }
     }
   },
   "order": [
@@ -817,13 +1180,17 @@
     "hero_image_with_text_XbtaRH",
     "scrolling_banner_yQGBqH",
     "rich_text_7pAWMD",
+    "rotating_text_aqXJCW",
+    "collage_EKeDNP",
+    "template_product_info_columns_P69nG9",
+    "collage_jzxixp",
+    "collection_list_DULHaN",
     "collage_NFLeq4",
     "image_with_text_YjGKin",
     "template_product_info_columns_WrG8aa",
     "image_with_text_overlay_WgzhKg",
     "social_proof_AbnBmM",
     "blog_posts_aa3fqb",
-    "faq_with_image_m73Xra",
-    "collection_list_DULHaN"
+    "faq_with_image_m73Xra"
   ]
 }
