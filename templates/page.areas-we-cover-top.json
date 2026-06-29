@@ -9,48 +9,38 @@
  */
 {
   "sections": {
-    "hero_slideshow_4btAGz": {
-      "type": "hero-slideshow",
-      "blocks": {
-        "image_KhUbcn": {
-          "type": "image",
-          "settings": {
-            "title": "Fine Jewellery Near {{ page.metafields.custom.location.value }}.",
-            "text": "Discover master craftsmanship, bespoke design, and expert repairs. Available in our Chichester workshop, online, or via a private home visit to {{ page.metafields.custom.location.value }}.",
-            "first_button_link": "shopify://collections",
-            "first_button_label": "View All Jewellery",
-            "second_button_link": "shopify://pages/schedule-an-appointment",
-            "second_button_label": "Book an Appointment",
-            "buttons_style": "outlined",
-            "override_button_colors": true,
-            "button-background": "#ffffff",
-            "button-text": "#ffffff",
-            "image": "shopify://shop_images/Interior_3.webp",
-            "text_position": "bottom_left",
-            "desktop-caption-heading-size": "h1",
-            "desktop-caption-body-text-size": 130,
-            "mobile_text_position": "bottom",
-            "mobile-caption-heading-size": "h3-mobile",
-            "mobile-caption-body-text-size": 130,
-            "caption-text": "#ffffff",
-            "image_overlay": "#000000",
-            "image_overlay_opacity": 20
-          }
-        }
-      },
-      "block_order": [
-        "image_KhUbcn"
-      ],
-      "name": "Hero - Slideshow",
+    "hero_image_with_text_w34nhH": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
       "settings": {
-        "desktop_height": "full_screen",
-        "mobile_height": "full_screen",
-        "slide_navigation_style": "arrows",
-        "slide_transition_delay": 7,
-        "section_width": "full",
+        "image": "shopify://shop_images/Showroom_8.webp",
+        "layout": "left",
+        "title": "Areas We Cover.",
+        "text": "<p>Proudly serving clients across West Sussex, Hampshire, Surrey, and Greater London through our dedicated Private Home Visit service.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "",
+        "button_label_1": "",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "",
+        "button_label_2": "",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
         "section_padding_top": 0,
         "section_padding_bottom": 0,
-        "background_color": "#004225"
+        "colors": "light"
       }
     },
     "scrolling_banner_yQGBqH": {
@@ -167,7 +157,7 @@
         "heading_zWwUDm": {
           "type": "heading",
           "settings": {
-            "heading": "Exceptional Jewellers Near {{ page.metafields.custom.location.value }}.",
+            "heading": "Master Craftsmanship, Delivered.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -175,15 +165,7 @@
         "richtext_Gbedat": {
           "type": "richtext",
           "settings": {
-            "text": "<p>If you are a resident of {{ page.metafields.custom.location.value }}seeking a jeweller that offers more than just retail, Griffin & Co provides a dedicated master workshop experience. </p><p>For decades, we have crafted enduring legacies, from bespoke engagement rings to the meticulous restoration of family heirlooms.</p>",
-            "text_size": 100,
-            "text_bottom_spacing": 20
-          }
-        },
-        "richtext_DxWU4e": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Located just a short, scenic drive away in Chichester, our showroom doors are always open to you. Alternatively, our bespoke concierge service brings our expertise directly to your doorstep in {{ page.metafields.custom.location.value }}, or you can step into the role of the designer with our state-of-the-art online 3D studio.</p>",
+            "text": "<p>While our master goldsmiths are based in our historic Chichester workshop, we understand that finding the time to visit us is not always possible. </p><p>That is why Griffin & Co offers a comprehensive concierge service across the South East of England, ensuring our renowned expertise is accessible exactly where you need it.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -191,8 +173,7 @@
       },
       "block_order": [
         "heading_zWwUDm",
-        "richtext_Gbedat",
-        "richtext_DxWU4e"
+        "richtext_Gbedat"
       ],
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
@@ -306,7 +287,7 @@
             "heading_size": "h4",
             "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
-            "heading": "Home Visits in {{ page.metafields.custom.location.value }}.",
+            "heading": "Home Visits.",
             "text": "",
             "url": "shopify://pages/home-visits",
             "button_label": "Schedule a Home Visit",
@@ -1740,7 +1721,7 @@
     }
   },
   "order": [
-    "hero_slideshow_4btAGz",
+    "hero_image_with_text_w34nhH",
     "scrolling_banner_yQGBqH",
     "rich_text_7pAWMD",
     "rotating_text_aqXJCW",
