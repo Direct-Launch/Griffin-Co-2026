@@ -935,7 +935,7 @@
         "richtext_HQjiBW": {
           "type": "richtext",
           "settings": {
-            "text": "<p>If you are searching for a highly skilled jeweller in or around {{ page.metafields.custom.location.value }}, Griffin & Co offers a level of craftsmanship and personal service rarely found on the modern high street. </p><p>Located just a short, scenic drive away in Chichester, our family-run showroom and on-site workshop are the destination for clients seeking quality and trust.</p>",
+            "text": "<p>If you are searching for a highly skilled jeweller in or around {{ page.metafields.custom.location.value }}, Griffin & Co offers a level of craftsmanship and personal service rarely found on the modern high street. </p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -956,12 +956,12 @@
       ],
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
-        "section_width": "content",
+        "section_width": "full-width",
         "text_alignment_desktop": "center",
         "text_alignment_mobile": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
+        "section_padding_top": 150,
+        "section_padding_bottom": 0,
+        "colors": "dark"
       }
     },
     "collage_NFLeq4": {
@@ -1082,7 +1082,7 @@
         "image_6nNK9t",
         "image_EAJRdU"
       ],
-      "name": "t:sections.collage-builder.presets.name",
+      "name": "Repairs",
       "settings": {
         "title": "",
         "description": "",
@@ -1113,8 +1113,8 @@
       "settings": {
         "image": "shopify://shop_images/Home_Visits.png",
         "layout": "left",
-        "title": "Private Home Visits.",
-        "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Our master goldsmiths can travel to your home or office across West Sussex, Surrey, Hampshire, and Greater London. We arrive fully equipped with diamond samples, ring sizing tools, and design portfolios to conduct a full consultation or valuation in total privacy.</p>",
+        "title": "Private Home Visits in {{ page.metafields.custom.location.value }}.",
+        "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Time is precious. If you cannot make it to our showroom, our master goldsmiths can travel to your home in {{ page.metafields.custom.location.value }}to discuss bespoke designs, remodelling, or to securely collect items for repair.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "text_overlapping_image": false,
