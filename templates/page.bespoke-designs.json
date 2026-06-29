@@ -900,10 +900,9 @@
         "text_8ftVrr",
         "text_RbpGzN"
       ],
-      "disabled": true,
       "name": "Areas We Cover",
       "settings": {
-        "title": "Areas We Cover in West Sussex.",
+        "title": "Areas We Cover in {{ page.metafields.custom.service_area_region_name.value }}.",
         "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England to provide at home bespoke design consultations and delivery.</p>",
         "section_header_alignment": "center",
         "maximum_width": 500,
@@ -926,6 +925,7 @@
     },
     "navigation_banner_i3fxnc": {
       "type": "navigation-banner",
+      "disabled": true,
       "name": "t:sections.blog--navigation-banner.presets.name",
       "settings": {
         "title": "Areas We Cover in {{ page.metafields.custom.service_area_region_name.value }}.",
