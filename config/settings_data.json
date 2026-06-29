@@ -74,7 +74,7 @@
     "product-grid": "square",
     "hover-effect": true,
     "show_badges": true,
-    "discount_badge_type": "value",
+    "discount_badge_type": "percentage",
     "show_product_card_vendor": false,
     "type_card_vendor_font": "body",
     "show_product_card_title": true,
