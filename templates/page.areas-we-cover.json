@@ -53,41 +53,6 @@
         "background_color": "#004225"
       }
     },
-    "hero_image_with_text_XbtaRH": {
-      "type": "hero-image-with-text",
-      "disabled": true,
-      "name": "Hero - Image with text",
-      "settings": {
-        "image": "shopify://shop_images/Custom_Signet_Rings.png",
-        "layout": "left",
-        "title": "Master Craftsmanship & Services",
-        "text": "<p>From breathing new life into cherished heirlooms to precise valuations and complex repairs, our in-house goldsmiths in Chichester provide unparalleled expertise.</p>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h3",
-        "desktop-text-size": 100,
-        "show_image_mobile": true,
-        "mobile-heading-size": "h3-mobile",
-        "mobile-text-size": 100,
-        "button_link_1": "",
-        "button_label_1": "",
-        "buttons_style_1": "filled",
-        "override_button_colors_1": false,
-        "button_background_color_1": "#e68819",
-        "button_text_color_1": "#ffffff",
-        "button_link_2": "",
-        "button_label_2": "",
-        "buttons_style_2": "outlined",
-        "override_button_colors_2": false,
-        "button_background_color_2": "#e68819",
-        "button_text_color_2": "#ffffff",
-        "section-width": "full",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "colors": "light"
-      }
-    },
     "scrolling_banner_yQGBqH": {
       "type": "scrolling-banner",
       "blocks": {
@@ -563,83 +528,103 @@
         "color_scheme": "dark"
       }
     },
-    "collection_list_DULHaN": {
-      "type": "collection-list",
+    "image_with_text_overlay_MYXQPQ": {
+      "type": "image-with-text-overlay",
       "blocks": {
-        "featured_collection_xWQtAK": {
-          "type": "featured_collection",
+        "heading_dLngeh": {
+          "type": "heading",
           "settings": {
-            "collection": "rings",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
+            "title": "Jewellery Sets & Bridal Suites.",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
           }
         },
-        "featured_collection_8ifrKP": {
-          "type": "featured_collection",
+        "text_6qA87P": {
+          "type": "text",
           "settings": {
-            "collection": "neckwear",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
+            "text": "<p>Discover our beautifully coordinated collections for {{ page.metafields.custom.location.value }}. From \"Wed-fit\" engagement rings designed to sit flawlessly with your wedding band, to diamond pendant and earring suites that complete your bridal look.</p>",
+            "font_size_desktop": 130,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
           }
         },
-        "featured_collection_n9nLX7": {
-          "type": "featured_collection",
+        "button_BrXEdA": {
+          "type": "button",
           "settings": {
-            "collection": "earrings",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "featured_collection_mFJeqA": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "wristwear",
-            "subheading": "",
-            "overlay-btn-text": "",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
+            "first_button_link": "shopify://collections/jewellery-sets",
+            "first_button_label": "View Jewellery Sets",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#302f2f",
+            "buttons_bottom_spacing": 20
           }
         }
       },
       "block_order": [
-        "featured_collection_xWQtAK",
-        "featured_collection_8ifrKP",
-        "featured_collection_n9nLX7",
-        "featured_collection_mFJeqA"
+        "heading_dLngeh",
+        "text_6qA87P",
+        "button_BrXEdA"
       ],
-      "custom_css": [
-        "h4 {font-size: var(--h5-size);}"
-      ],
-      "name": "Browse Our Jewellery Collections",
+      "custom_css": [],
+      "name": "Jewellery Sets",
       "settings": {
-        "title": "Browse Our Jewellery Collections in {{ page.metafields.custom.location.value }}.",
-        "description": "<p><a href=\"/collections\" title=\"All collections\">View All</a></p>",
-        "section_header_alignment": "center",
-        "items-per-row": 4,
-        "content-position": "below-image",
-        "image_shape": "natural",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#E68819",
+        "image_desktop": "shopify://shop_images/Diamond_Jewellery.png",
+        "height_desktop": "650px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 75,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#2b2b2b",
+        "image_overlay_opacity": 35
+      }
+    },
+    "featured_collection_t87DcJ": {
+      "type": "featured-collection",
+      "name": "t:sections.collection--featured-collection.presets.name",
+      "settings": {
+        "title": "New In.",
+        "description": "",
+        "section_header_alignment": "left",
+        "collection": "all",
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "override_button_colors": true,
+        "button_background_color": "#242424",
         "button_text_color": "#ffffff",
-        "section-width": "full",
+        "show_view_all": true,
+        "button_position": "above_products",
+        "button_alignment": "right",
+        "buttons_style": "underlined",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "remove-spacing": false,
+        "layout_style": "slider",
+        "products_to_show": 16,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
         "colors": "white"
       }
     },
@@ -1177,14 +1162,14 @@
   },
   "order": [
     "hero_slideshow_4btAGz",
-    "hero_image_with_text_XbtaRH",
     "scrolling_banner_yQGBqH",
     "rich_text_7pAWMD",
     "rotating_text_aqXJCW",
     "collage_EKeDNP",
     "template_product_info_columns_P69nG9",
     "collage_jzxixp",
-    "collection_list_DULHaN",
+    "image_with_text_overlay_MYXQPQ",
+    "featured_collection_t87DcJ",
     "collage_NFLeq4",
     "image_with_text_YjGKin",
     "template_product_info_columns_WrG8aa",
