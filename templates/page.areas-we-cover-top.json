@@ -328,7 +328,7 @@
         "text_position_mobile": "left",
         "text_size_mobile": "h3-mobile",
         "section_width": "full",
-        "section_margin_top": 35,
+        "section_margin_top": 150,
         "section_margin_bottom": 15,
         "colors": "white"
       }
@@ -447,12 +447,13 @@
     },
     "image_with_text_YjGKin": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "Private Home Visits",
       "settings": {
         "image": "shopify://shop_images/Home_Visits.png",
         "layout": "left",
-        "title": "Private Home Visits in {{ page.metafields.custom.location.value }}.",
-        "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Time is precious. If you cannot make it to our showroom, our master goldsmiths can travel to your home in {{ page.metafields.custom.location.value }}to discuss bespoke designs, remodelling, or to securely collect items for repair.</p>",
+        "title": "Private Home Visits.",
+        "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Time is precious. If you cannot make it to our showroom, our master goldsmiths can travel to your home to discuss bespoke designs, remodelling, or to securely collect items for repair.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "text_overlapping_image": false,
@@ -562,9 +563,9 @@
       "settings": {
         "rating_image": "shopify://shop_images/google-business.png",
         "image_max_width": 120,
-        "additional_text": "Rated 5 stars by 100s of Clients in {{ page.metafields.custom.location.value }} & Beyond",
+        "additional_text": "Rated 5 stars by 100s of Clients in Chichester & Beyond",
         "title": "Luxury That Speaks for Itself.",
-        "description": "<p>Each piece we create tells a story—of beauty, elegance, and trust. But don't just take our word for it. Discover how our timeless craftsmanship has left a lasting impression on jewellery lovers around {{ page.metafields.custom.location.value }}.</p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
+        "description": "<p>Each piece we create tells a story—of beauty, elegance, and trust. But don't just take our word for it. Discover how our timeless craftsmanship has left a lasting impression on jewellery lovers around Chichester.</p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
         "scroller_position": "right",
         "section_padding_top": 36,
         "section_padding_bottom": 72,
@@ -577,7 +578,7 @@
         "heading_yLdRKf": {
           "type": "heading",
           "settings": {
-            "title": "Book Your Service.",
+            "title": "Let Us Come To You.",
             "font_size_desktop": "h2",
             "font_size_mobile": "h2-mobile",
             "heading_bottom_spacing": 25
@@ -639,36 +640,36 @@
         "accordion_Jg8nTk": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Do you offer private home visits in {{ page.metafields.custom.location.value }}?",
+            "accordion_header": "Do you charge for private home visits?",
             "open_by_default": false,
-            "text": "<p>Yes, we frequently visit clients in {{ page.metafields.custom.location.value }} for bespoke design consultations and high-value valuations. This allows you to discuss your requirements in the comfort and privacy of your own home.</p>",
+            "text": "<p>For bespoke commissions, high-value remodelling projects, and significant valuations, our initial home consultation within our specified service areas is complimentary. </p><p>We view this as an essential part of the luxury Griffin & Co experience. If you are enquiring solely for a minor repair collection, a small travel or secure postage fee may apply, which we will clearly discuss with you beforehand.</p>",
             "page": ""
           }
         },
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Is there a charge for home consultations in {{ page.metafields.custom.location.value }}?",
+            "accordion_header": "How does a home visit actually work?",
             "open_by_default": false,
-            "text": "<p>For bespoke commissions, remodelling projects, and high-value valuations, our initial home consultation in {{ page.metafields.custom.location.value }} is complimentary. We bring the showroom experience to your living room.</p>",
+            "text": "<p>One of our expert jewellers or master goldsmiths will travel to your home at a scheduled time that suits you. </p><p>For design consultations, we bring extensive portfolios, various precious metal samples, and a curated selection of loose diamonds or gemstones for you to view in your own lighting. </p><p>We also bring professional sizing tools to ensure absolute precision.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How can I see your collection?",
+            "accordion_header": "Is my jewellery safe if you collect it for repair?",
             "open_by_default": false,
-            "text": "<p>We invite you to experience our jewellery in the way that suits you best. You can <strong>book a private consultation </strong>to visit our showroom and view our collection in person. We also offer <strong>Home Visits </strong>to {{ page.metafields.custom.location.value }} where you can arrange for an expert jeweller to bring our collection to your home.</p>",
+            "text": "<p>Completely. We offer secure, fully insured collection from your home directly to our Chichester workshop. </p><p>Crucially, all repair and remodelling work is conducted safely on-site by our in-house master goldsmiths. Your precious family heirlooms never leave our hands or get sent to third-party factories.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can I design my engagement ring online?",
+            "accordion_header": "Can I still purchase from you if I live outside these specific regions?",
             "open_by_default": false,
-            "text": "<p>Yes, you can use our cutting-edge 3D Online Studio to design your ring from home in {{ page.metafields.custom.location.value }}. Once designed, you can order directly or arrange an appointment with us to finalise the details.</p>",
+            "text": "<p>Absolutely. While these areas denote our primary footprint for personal, face-to-face home visits, we work with clients globally. </p><p>You can utilise our <a href=\"/pages/custom-jewellery-builder-online\" title=\"Custom Jewellery Builder Online\">Online 3D Design Studio</a> to craft bespoke pieces, conduct consultations via secure video link, and receive your completed pieces via fully insured, tracked international shipping.</p>",
             "page": ""
           }
         },
@@ -691,7 +692,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Common Questions from {{ page.metafields.custom.location.value }} Clients.",
+        "section_title": "Service Area FAQs.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
