@@ -1,0 +1,705 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_image_with_text_XbtaRH": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Custom_Signet_Rings.png",
+        "layout": "left",
+        "title": "Master Craftsmanship & Services",
+        "text": "<p>From breathing new life into cherished heirlooms to precise valuations and complex repairs, our in-house goldsmiths in Chichester provide unparalleled expertise.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "",
+        "button_label_1": "",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "",
+        "button_label_2": "",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "scrolling_banner_yQGBqH": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_wU7jRg": {
+          "type": "text",
+          "settings": {
+            "text": "Crafted in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_ifRMFb": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_UwDBdj": {
+          "type": "text",
+          "settings": {
+            "text": "Certified Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_Q6pTBK": {
+          "type": "text",
+          "settings": {
+            "text": "30 Days Return",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_wU7jRg",
+        "text_ifRMFb",
+        "text_UwDBdj",
+        "text_Q6pTBK"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
+      }
+    },
+    "rich_text_7pAWMD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zWwUDm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Expertise You Can Trust.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_Gbedat": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Unlike many modern high street jewellers, Griffin & Co operates a fully-equipped workshop directly on our premises in Chichester. </p><p>We do not send your treasured possessions away to unknown third parties.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "richtext_DxWU4e": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>When you hand us your jewellery for repair, valuation, or remodelling, it is placed directly into the hands of a master goldsmith with decades of experience. </p><p>This ensures the highest level of security, transparent communication, and absolute perfection in every detail.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWwUDm",
+        "richtext_Gbedat",
+        "richtext_DxWU4e"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "collage_NFLeq4": {
+      "type": "collage",
+      "blocks": {
+        "image_CN9gfQ": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Bespoke_Experience.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_image": "shopify://shop_images/Bespoke_Design_-_Mobile_bf58ecd5-191f-4c00-b271-1264d60570ab.png",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Bespoke Design",
+            "text": "Collaborate with our designers in-store or use our innovative 3D online studio to create a truly one-of-a-kind heirloom from scratch.",
+            "url": "shopify://pages/custom-jewellery-builder-online",
+            "button_label": "Design Online",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "shopify://pages/bespoke-jewellery-designs",
+            "button_label_2": "View Service",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": true,
+            "button_background_color_2": "#ffffff",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#35382e"
+          }
+        },
+        "image_ATakGr": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Repair_Landscape.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_image": "shopify://shop_images/heating-ball-of-metal.jpg",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Jewellery Repairs",
+            "text": "Expert care including ring resizing, claw retipping, cleaning, and chain soldering. All repairs are completed safely in our Chichester workshop.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "shopify://blogs/guide-jewellery-repair-service/jewellery-repair-service",
+            "button_label_2": "View Service",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": true,
+            "button_background_color_2": "#ffffff",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#35382e"
+          }
+        },
+        "image_6nNK9t": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Our_Remodelling_Process_5c357d70-5ecf-432f-84a2-76348c31d8cf.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_image": "shopify://shop_images/Our_Remodelling_Process_5d0e02da-fab9-4bd6-9633-5c1bf2bf6308.png",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Remodelling & Old Gold",
+            "text": "Breathe new life into unworn heirlooms. We can melt down your existing yellow gold and reset your family diamonds into breathtaking modern designs.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "shopify://pages/jewellery-remodelling-service",
+            "button_label_2": "View Service",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": true,
+            "button_background_color_2": "#ffffff",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#35382e"
+          }
+        },
+        "image_EAJRdU": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Signet_Rings.webp",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_image": "shopify://shop_images/Signet_Rings.webp",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Custom Signet Rings",
+            "text": "Griffin and Co Fine Jewellery crafts custom signet rings that are a tangible connection to your family's heritage, meticulously designed to tell your unique story.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "shopify://pages/custom-signet-rings-with-family-crests",
+            "button_label_2": "View Service",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": true,
+            "button_background_color_2": "#ffffff",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#35382e"
+          }
+        }
+      },
+      "block_order": [
+        "image_CN9gfQ",
+        "image_ATakGr",
+        "image_6nNK9t",
+        "image_EAJRdU"
+      ],
+      "name": "t:sections.collage-builder.presets.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "width_1": "2",
+        "height_1": "3",
+        "width_2": "2",
+        "height_2": "3",
+        "width_3": "2",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "3",
+        "width_5": "1",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "dark"
+      }
+    },
+    "image_with_text_YjGKin": {
+      "type": "image-with-text",
+      "name": "Private Home Visits",
+      "settings": {
+        "image": "shopify://shop_images/Home_Visits.png",
+        "layout": "left",
+        "title": "Private Home Visits.",
+        "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Our master goldsmiths can travel to your home or office across West Sussex, Surrey, Hampshire, and Greater London. We arrive fully equipped with diamond samples, ring sizing tools, and design portfolios to conduct a full consultation or valuation in total privacy.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request a Home Visit",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_WrG8aa": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_hzYWNg": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/west-sussex\" title=\"West Sussex\">West Sussex</a></h5><p><a href=\"/pages/arundel\" title=\"Arundel\">Arundel</a>, <a href=\"/pages/bognor-regis\" title=\"Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/bosham\" title=\"Bosham\">Bosham</a>, <a href=\"/pages/burgess-hill\" title=\"Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/chichester\" title=\"Chichester\">Chichester</a>, <a href=\"/pages/crawley\" title=\"Crawley\">Crawley</a>, <a href=\"/pages/east-grinstead\" title=\"East Grinstead\">East Grinstead</a>, <a href=\"/pages/haywards-heath\" title=\"Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/horsham\" title=\"Horsham\">Horsham</a>, <a href=\"/pages/littlehampton\" title=\"Littlehampton\">Littlehampton</a>, <a href=\"/pages/shoreham-by-sea\" title=\"Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/worthing\" title=\"Worthing\">Worthing</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_TDHkcH": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/hampshire\" title=\"Hampshire\">Hampshire</a></h5><p><a href=\"/pages/aldershot\" title=\"Aldershot\">Aldershot</a>, <a href=\"/pages/andover\" title=\"Andover\">Andover</a>, <a href=\"/pages/basingstoke\" title=\"Basingstoke\">Basingstoke</a>, <a href=\"/pages/farnborough\" title=\"Farnborough\">Farnborough</a>, <a href=\"/pages/gosport\" title=\"Gosport\">Gosport</a>, <a href=\"/pages/horndean\" title=\"Horndean\">Horndean</a>, <a href=\"/pages/portsmouth\" title=\"Portsmouth\">Portsmouth</a>, <a href=\"/pages/southampton\" title=\"Southampton\">Southampton</a>, <a href=\"/pages/winchester\" title=\"Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_RxTqyW": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/surrey\" title=\"Surrey\">Surrey</a></h5><p><a href=\"/pages/camberley\" title=\"Camberley\">Camberley</a>, <a href=\"/pages/epsom\" title=\"Epsom\">Epsom</a>, <a href=\"/pages/esher\" title=\"Esher\">Esher</a>, <a href=\"/pages/ewell\" title=\"Ewell\">Ewell</a>, <a href=\"/pages/guildford\" title=\"Guildford\">Guildford</a>, <a href=\"/pages/leatherhead\" title=\"Leatherhead\">Leatherhead</a>, <a href=\"/pages/redhill\" title=\"Redhill\">Redhill</a>, <a href=\"/pages/walton-on-thames\" title=\"Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/weybridge\" title=\"Weybridge\">Weybridge</a>, <a href=\"/pages/woking\" title=\"Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_gW9kkA": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/greater-london\" title=\"Greater London\">Greater London</a></h5><p><a href=\"/pages/barnet\" title=\"Barnet\">Barnet</a>, <a href=\"/pages/brent\" title=\"Brent\">Brent</a>, <a href=\"/pages/bromley\" title=\"Bromley\">Bromley</a>, <a href=\"/pages/croydon\" title=\"Croydon\">Croydon</a>, <a href=\"/pages/ealing\" title=\"Ealing\">Ealing</a>, <a href=\"/pages/enfield\" title=\"Enfield\">Enfield</a>, <a href=\"/pages/lambeth\" title=\"Lambeth\">Lambeth</a>, <a href=\"/pages/newham\" title=\"Newham\">Newham</a>, <a href=\"/pages/hatton-garden\" title=\"Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/tower-hamlets\" title=\"Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/wandsworth\" title=\"Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_hzYWNg",
+        "text_TDHkcH",
+        "text_RxTqyW",
+        "text_gW9kkA"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Serving Chichester & Beyond",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England to provide valuations, design consultations, and collection of repairs.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "image_with_text_overlay_WgzhKg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_yLdRKf": {
+          "type": "heading",
+          "settings": {
+            "title": "Book Your Service.",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_Fhkz9G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Whether you need a quick repair assessment, want to schedule a valuation, or are ready to begin remodelling an heirloom, our team is ready to assist you.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_J4JRwT": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://pages/contact",
+            "first_button_label": "Contact Us",
+            "second_button_link": "shopify://pages/schedule-an-appointment",
+            "second_button_label": "Meet A Jeweller in Person",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_yLdRKf",
+        "text_Fhkz9G",
+        "button_J4JRwT"
+      ],
+      "name": "CTA Banner",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Interior_2.webp",
+        "height_desktop": "550px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "left",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "left",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 45
+      }
+    },
+    "social_proof_AbnBmM": {
+      "type": "social-proof",
+      "blocks": {
+        "text_review_ELAGqe": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070306__1766070305474-celeste__huge.jpg",
+            "review_title": "\"My fiancée is over the moon with her ring!\"",
+            "review_text": "<p>Cannot thank the team at Griffin & Co enough, they helped me design the most beautiful bespoke engagement ring for my fiancée!</p><p>They made the whole process so enjoyable and unique to me.</p>",
+            "author": "Celeste",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "18-12-2025"
+          }
+        },
+        "text_review_yzViaz": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1768495195__1768495191976-unnamed__huge.jpg",
+            "review_title": "\"I couldn’t be happier with my experience.\"",
+            "review_text": "<p>Cian and the whole team were fantastic from start to finish. We were never rushed and were given plenty of time to consider our options. </p><p>After some thought, we asked Cian to design a ring for us, and the result is absolutely amazing. Would highly recommend</p>",
+            "author": "Bobby",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "9-1-2026"
+          }
+        },
+        "text_review_6UhwaK": {
+          "type": "text_review",
+          "settings": {
+            "review_title": "\"Lovely shopping experience today.\"",
+            "review_text": "<p>Great service and very happy with purchase. Would recommend.</p>",
+            "author": "Kevin",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "10-04-2026"
+          }
+        },
+        "text_review_KLTMhJ": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070332__1766070330520-mcmatt__huge.jpg",
+            "review_title": "\"Purchased a bracelet from Griffin & Co. as a gift, great quality and looks amazing\"",
+            "review_text": "<p>Cannot thank the team at Griffin & Co enough, they helped me design the most beautiful bespoke engagement ring for my fiancée!</p><p>They made the whole process so enjoyable and unique to me.</p>",
+            "author": "McMatt",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "15-12-2025"
+          }
+        },
+        "text_review_qfgQib": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070257__1766070251766-lauren__original_668a97dc-9b6b-417f-b31c-caa0a77114b6.avif",
+            "review_title": "\"I returned to Griffin after having such a wonderful experience previously, and once again they truly exceeded my expectations.\"",
+            "review_text": "<p>This time, I brought in some very sentimental pieces of jewellery to be remodelled, and the team couldn’t have been more attentive and professional. </p><p>They took the time to listen carefully to my ideas, offered helpful guidance, and perfectly brought my design to life. The finished piece is absolutely stunning and holds so much meaning to me. I wouldn’t hesitate to recommend them to anyone looking for exceptional service and craftsmanship.</p>",
+            "author": "Lauren",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "29-9-2025"
+          }
+        },
+        "text_review_mpdipj": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070286__1766070284569-unnamed1__original.jpg",
+            "review_title": "\"Thanks guys I love it.\"",
+            "review_text": "<p>2 old rings made into a beautiful original ring.</p>",
+            "author": "Sally",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "27-7-2026"
+          }
+        }
+      },
+      "block_order": [
+        "text_review_ELAGqe",
+        "text_review_yzViaz",
+        "text_review_6UhwaK",
+        "text_review_KLTMhJ",
+        "text_review_qfgQib",
+        "text_review_mpdipj"
+      ],
+      "custom_css": [
+        ".text-review-block .review-title {font-size: var(--h6-size);}"
+      ],
+      "name": "Reviews",
+      "settings": {
+        "rating_image": "shopify://shop_images/google-business.png",
+        "image_max_width": 120,
+        "additional_text": "Rated 5 stars by 100s of Clients in Chichester & Beyond",
+        "title": "Luxury That Speaks for Itself.",
+        "description": "<p>Each piece we create tells a story—of beauty, elegance, and trust. But don't just take our word for it. Discover how our timeless craftsmanship has left a lasting impression on jewellery lovers around the world. </p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
+        "scroller_position": "right",
+        "section_padding_top": 36,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "blog_posts_aa3fqb": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_QWVaqf": {
+          "type": "blog",
+          "settings": {
+            "blog": "guide-jewellery-repair-service"
+          }
+        }
+      },
+      "block_order": [
+        "blog_QWVaqf"
+      ],
+      "name": "t:sections.blog-posts.name",
+      "settings": {
+        "title": "The Jewellery Guide Series.",
+        "description": "<p>Unsure about the difference between Platinum and White Gold? Want to know how to clean your diamond ring at home? Our expert guides cover everything you need to know.</p>",
+        "section_header_alignment": "left",
+        "media_source": "original",
+        "custom_media_ratio": "square",
+        "show_image": true,
+        "image_shape": "natural",
+        "post_limit": 4,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": true,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "accent"
+      }
+    },
+    "faq_with_image_m73Xra": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_Jg8nTk": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Is there a fee for Home Visits?",
+            "open_by_default": false,
+            "text": "<p>We offer complimentary initial consultations for bespoke commissions within a 15-mile radius of Chichester. For repair collections or valuations, a small travel fee may apply which is deductible from the final work.</p>",
+            "page": ""
+          }
+        },
+        "accordion_GhRGXt": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How long do repairs typically take?",
+            "open_by_default": false,
+            "text": "<p>Simple repairs like ring sizing or chain soldering are often completed within 3-5 working days. Complex restoration or stone sourcing may take 2-4 weeks.</p>",
+            "page": ""
+          }
+        },
+        "accordion_HmVJLJ": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Are my items insured while in your care?",
+            "open_by_default": false,
+            "text": "<p><strong>Absolutely</strong>. From the moment you hand your jewellery to us (in-store or at your home) until it is returned, it is fully insured under our comprehensive jewellers block policy.</p>",
+            "page": ""
+          }
+        },
+        "accordion_xFhTbU": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What payment methods do you accept?",
+            "open_by_default": false,
+            "text": "<p>We accept all major credit cards, PayPal, Apple Pay, and Google Pay for your convenience as well as cash.</p>",
+            "page": ""
+          }
+        },
+        "accordion_pxHnfz": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Where is your Showroom located?",
+            "open_by_default": false,
+            "text": "<p>Our showroom is located at 64 South Street, Chichester, PO19 EE. You can find a map, parking information, and our full opening hours on our <a href=\"/pages/contact\" title=\"Contact Us\">Contact Us</a> page.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_Jg8nTk",
+        "accordion_GhRGXt",
+        "accordion_HmVJLJ",
+        "accordion_xFhTbU",
+        "accordion_pxHnfz"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Frequently Asked Questions about our Services.",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/Showroom_8.webp",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "hero_image_with_text_XbtaRH",
+    "scrolling_banner_yQGBqH",
+    "rich_text_7pAWMD",
+    "collage_NFLeq4",
+    "image_with_text_YjGKin",
+    "template_product_info_columns_WrG8aa",
+    "image_with_text_overlay_WgzhKg",
+    "social_proof_AbnBmM",
+    "blog_posts_aa3fqb",
+    "faq_with_image_m73Xra"
+  ]
+}
