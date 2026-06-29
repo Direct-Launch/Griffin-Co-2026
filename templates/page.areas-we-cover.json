@@ -1676,6 +1676,65 @@
         "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_UAy9XC": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_kE8PwL": {
+          "type": "text",
+          "settings": {
+            "heading": "Baffin's Lane Car Park",
+            "text": "<p><strong>2 min walk</strong></p><p>The closest option to our showroom. Ideal for quick visits, collections, and shorter consultations.<br/></p>",
+            "button_link": "https://maps.app.goo.gl/xBcirZPkY87GaU9X8",
+            "button_text": "Postcode: PO19 1UA"
+          }
+        },
+        "text_Dybtzw": {
+          "type": "text",
+          "settings": {
+            "heading": "South Pallant Car Park",
+            "text": "<p><strong>3 min walk</strong></p><p>A short walk up South Street. A great alternative if Baffin's Lane is full.</p>",
+            "button_link": "https://maps.app.goo.gl/DEeBAPNMs8s4TrqL9",
+            "button_text": "Postcode: PO19 1SU"
+          }
+        },
+        "text_3anHkB": {
+          "type": "text",
+          "settings": {
+            "heading": "Avenue de Chartres",
+            "text": "<p><strong>6 min walk</strong></p><p>A larger multi-storey car park perfect for longer stays if you are planning to spend the day in Chichester.<br/><br/></p>",
+            "button_link": "https://maps.app.goo.gl/f6dTgCL4JJkwGhj96",
+            "button_text": "Postcode: PO19 1EA"
+          }
+        }
+      },
+      "block_order": [
+        "text_kE8PwL",
+        "text_Dybtzw",
+        "text_3anHkB"
+      ],
+      "name": "Nearby Parking",
+      "settings": {
+        "title": "Nearby Parking.",
+        "description": "<p>We are conveniently located on South Street in the heart of Chichester. While the street itself is pedestrian-friendly, there are several excellent parking options just a short walk away.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
         "colors": "dark"
       }
     }
@@ -1703,6 +1762,7 @@
     "scrolling_banner_DqJtei",
     "image_with_text_overlay_WgzhKg",
     "faq_with_image_m73Xra",
-    "template_product_info_columns_WrG8aa"
+    "template_product_info_columns_WrG8aa",
+    "template_product_info_columns_UAy9XC"
   ]
 }
