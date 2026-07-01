@@ -451,6 +451,96 @@
         "colors": "white"
       }
     },
+    "template_product_info_columns_37VMJT": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_Ngp8MD": {
+          "type": "image_and_text",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_d35bde97-fc52-4130-bde5-9776785a9883.png",
+            "grid_image_size": "natural",
+            "heading": "Sterling Silver",
+            "text": "<p>Affordable & Light</p>",
+            "button_link": "shopify://collections/sterling-silver-jewellery",
+            "button_text": ""
+          }
+        },
+        "image_and_text_jtKP8z": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Yellow_Gold_93b897bd-2837-4c10-b45b-fd653e78f5aa.png",
+            "grid_image_size": "natural",
+            "heading": "Yellow Gold",
+            "text": "<p>Classic & Warm</p>",
+            "button_link": "shopify://collections/yellow-gold-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_hGdVLb": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_d35bde97-fc52-4130-bde5-9776785a9883.png",
+            "grid_image_size": "natural",
+            "heading": "White Gold",
+            "text": "<p>Bright & Modern</p>",
+            "button_link": "shopify://collections/white-gold-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_WYwH46": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Rose_Gold_9f38f866-611f-4dca-86c6-382a002be974.png",
+            "grid_image_size": "natural",
+            "heading": "Rose Gold",
+            "text": "<p>Romantic & Vintage</p>",
+            "button_link": "shopify://collections/rose-gold-engagement-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_THDgdw": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Platinum_cb40328f-b3d7-4e5b-b0e4-3bfda1d7a993.png",
+            "grid_image_size": "natural",
+            "heading": "Platinum",
+            "text": "<p>Naturally White & Durable</p>",
+            "button_link": "shopify://collections/platinum-engagement-rings",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Ngp8MD",
+        "image_and_text_jtKP8z",
+        "image_and_text_hGdVLb",
+        "image_and_text_WYwH46",
+        "image_and_text_THDgdw"
+      ],
+      "name": "Shop by Metal",
+      "settings": {
+        "title": "Engagement Rings by Metal.",
+        "description": "<p>Choose the tone that suits your style.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382e",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 5,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_bqDXjC": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -1124,6 +1214,7 @@
     "featured_collection_UMtPLc",
     "template_product_info_columns_J4Dp7X",
     "gallery_slideshow_YDbVni",
+    "template_product_info_columns_37VMJT",
     "template_product_info_columns_bqDXjC",
     "template_product_info_columns_ARxq4X",
     "image_with_text_overlay_wiRqK7",
