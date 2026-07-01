@@ -296,7 +296,7 @@
             "image": "shopify://shop_images/WR0107YW__q-90_3cfe02b7-454d-4223-add4-40df8df03a6c.jpg",
             "link": "shopify://collections/classic-wedding-bands",
             "button_label": "",
-            "subheading": "Pure, timeless, and elegant.",
+            "subheading": "Pure, timeless elegance.",
             "title": "Classic Wedding Bands",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
@@ -309,7 +309,7 @@
             "image": "shopify://shop_images/Three-Stone.png",
             "link": "shopify://collections/diamond-set-bands",
             "button_label": "",
-            "subheading": "From subtle sparkle to full eternity.",
+            "subheading": "Subtle, brilliant sparkle.",
             "title": "Diamond Set Bands",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
@@ -319,11 +319,11 @@
         "image_UqFNLm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Halo.png",
-            "link": "shopify://collections/halo-engagement-rings",
+            "image": "shopify://shop_images/XYR6617_WG_0.jpg",
+            "link": "shopify://collections/shaped-rings",
             "button_label": "",
-            "subheading": "Diamond Surround",
-            "title": "Halo Rings",
+            "subheading": "Perfectly flush fit.",
+            "title": "Shaped & Contour Bands",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -332,11 +332,11 @@
         "image_93DFPn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Coloured_Gemstone_Rings_6508f67a-5cdd-4783-9dec-bf5b51577151.png",
-            "link": "shopify://collections/gemstone-rings",
+            "image": "shopify://shop_images/BJR0454_YG__WG_0.jpg",
+            "link": "shopify://collections/eternity-rings",
             "button_label": "",
-            "subheading": "Trending",
-            "title": "Gemstone Rings",
+            "subheading": "Enduring, eternal love.",
+            "title": "Eternity Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
