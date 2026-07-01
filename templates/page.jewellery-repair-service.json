@@ -100,6 +100,17 @@
             "font_size_mobile": "h5-mobile",
             "body_font_size": 130
           }
+        },
+        "text_mDeiGM": {
+          "type": "text",
+          "settings": {
+            "text": "Private Home Visits in {{ page.metafields.custom.location.value }}",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
         }
       },
       "block_order": [
@@ -107,7 +118,8 @@
         "text_ethically_sourced",
         "text_certified_diamonds",
         "text_30_day_returns",
-        "text_home_repair"
+        "text_home_repair",
+        "text_mDeiGM"
       ],
       "name": "t:sections.scrolling-banner.name",
       "settings": {
