@@ -638,7 +638,7 @@
         "text_CgWnnf": {
           "type": "text",
           "settings": {
-            "text": "<p>Schedule a consultation with our repair specialists. Whether you need a quick assessment or a complex restoration, our team is ready to help restore your treasured jewellery.</p>",
+            "text": "<p>Visit our Chichester workshop or arrange a private consultation for {{ page.metafields.custom.location.value }} to speak directly with experts who craft your rings. We offer guidance on metals, diamond settings, and matching your engagement ring.</p>",
             "font_size_desktop": 100,
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
@@ -704,7 +704,7 @@
         "heading_q34xXf": {
           "type": "heading",
           "settings": {
-            "heading": "Bespoke Engagement Rings From OUR INSTAGRAM.",
+            "heading": "Bespoke Wedding Rings From OUR INSTAGRAM.",
             "heading--text-size": "h4",
             "heading_bottom_spacing": 20
           }
@@ -712,7 +712,7 @@
         "richtext_XezrDU": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular engagement ring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular wedding ring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
             "text_size": 100,
             "text_bottom_spacing": 0
           }
@@ -749,7 +749,7 @@
             "link_alignment": "left",
             "link_color": "#000000",
             "background_color": "",
-            "feed_id": "46265",
+            "feed_id": "47400",
             "html_area": ""
           }
         }
@@ -864,137 +864,6 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "accent"
-      }
-    },
-    "collage_cpYDQ9": {
-      "type": "collage",
-      "blocks": {
-        "text_bntL6K": {
-          "type": "text",
-          "settings": {
-            "heading": "Cut",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Often considered the most important 'C', the cut determines how well a diamond interacts with light. A masterfully cut diamond will capture light and return it as a breathtaking display of brilliance, fire, and scintillation. It's the only 'C' influenced directly by human artistry.",
-            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/cut-the-4cs-of-a-diamond",
-            "button_label": "Learn More",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "#242424"
-          }
-        },
-        "text_F7wdVc": {
-          "type": "text",
-          "settings": {
-            "heading": "Clarity",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Clarity measures the presence of internal characteristics (inclusions) and external characteristics (blemishes). Diamonds with fewer and smaller inclusions receive higher clarity grades.",
-            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/clarity-the-4cs-of-a-diamond",
-            "button_label": "Learn More",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "#242424"
-          }
-        },
-        "text_UiG8mi": {
-          "type": "text",
-          "settings": {
-            "heading": "Carat",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "The carat is the unit of measurement for a diamond's weight. While larger diamonds are rarer and more valuable, the other 3Cs also significantly impact a diamond's overall quality.",
-            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/carat-the-4cs-of-a-diamond",
-            "button_label": "Learn More",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "#242424"
-          }
-        },
-        "text_hmVTby": {
-          "type": "text",
-          "settings": {
-            "heading": "Colour",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Diamond colour is graded on a scale from D (colourless) to Z (light yellow or brown). The most valuable diamonds are those that are colourless, as they allow the most light to pass through, creating maximum brilliance.",
-            "url": "shopify://blogs/guide-bespoke-engagement-ring-design/colour-the-4cs-of-a-diamond",
-            "button_label": "Learn More",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "left",
-            "background_color": "rgba(0,0,0,0)",
-            "text_color": "#242424"
-          }
-        },
-        "text_3QhWD6": {
-          "type": "text",
-          "settings": {
-            "heading": "The Modern Choice: Lab Diamonds",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Embrace the future of fine jewellery. Lab-grown diamonds offer a conscious, beautiful, and identical alternative to their natural counterparts. They are chemically, physically, and optically the same as mined diamonds.",
-            "url": "shopify://blogs/guide-lab-diamonds/why-lab-grown-diamonds-are-the-ethical-future-of-jewellery",
-            "button_label": "Learn About Lab Diamonds",
-            "buttons_style": "underlined",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-top md-min-justify-left",
-            "text_alignment": "center",
-            "background_color": "#f8f7f2",
-            "text_color": "#242424"
-          }
-        }
-      },
-      "block_order": [
-        "text_bntL6K",
-        "text_F7wdVc",
-        "text_UiG8mi",
-        "text_hmVTby",
-        "text_3QhWD6"
-      ],
-      "name": "The 4C's",
-      "settings": {
-        "title": "Understanding The 4 C's",
-        "description": "<p>Diamond Education</p>",
-        "section_header_alignment": "left",
-        "section_width": "content",
-        "remove_spacing": false,
-        "block_alignment": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "width_1": "2",
-        "height_1": "6",
-        "width_2": "2",
-        "height_2": "6",
-        "width_3": "2",
-        "height_3": "6",
-        "width_4": "2",
-        "height_4": "6",
-        "width_5": "1",
-        "height_5": "6",
-        "width_6": "1",
-        "height_6": "6",
-        "color_scheme": "white"
       }
     },
     "faq_with_image_m73Xra": {
@@ -1164,7 +1033,6 @@
     "1780059503e4e28014",
     "17787619721046fdd6",
     "blog_posts_BVWqKG",
-    "collage_cpYDQ9",
     "faq_with_image_m73Xra",
     "template_product_info_columns_eUEtia"
   ]
