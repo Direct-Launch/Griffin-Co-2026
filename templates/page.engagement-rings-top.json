@@ -15,7 +15,7 @@
       "settings": {
         "image": "shopify://shop_images/Lab-Grown_Diamond_Engagement_Rings_3be98f9f-b2ba-4d29-9d8d-84ba062a82e5.jpg",
         "layout": "right",
-        "title": "Engagement Rings in {{ page.metafields.custom.location.value }}",
+        "title": "Engagement Rings in {{ page.metafields.custom.location.value }}.",
         "text": "<p>Discover exquisite, handcrafted rings in our showroom, or step into the role of the designer using our revolutionary online studio.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
@@ -31,7 +31,7 @@
         "override_button_colors_1": false,
         "button_background_color_1": "#e68819",
         "button_text_color_1": "#ffffff",
-        "button_link_2": "",
+        "button_link_2": "shopify://pages/custom-jewellery-builder-online",
         "button_label_2": "Design Your Ring Online",
         "buttons_style_2": "outlined",
         "override_button_colors_2": false,
