@@ -197,6 +197,43 @@
         "colors": "white"
       }
     },
+    "featured_collection_UMtPLc": {
+      "type": "featured-collection",
+      "name": "t:sections.collection--featured-collection.presets.name",
+      "settings": {
+        "title": "Our Newest Wedding Rings.",
+        "description": "",
+        "section_header_alignment": "left",
+        "collection": "wedding-rings",
+        "show_highlight": false,
+        "highlight_position": "below_image",
+        "highlight_icon": "none",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": true,
+        "button_position": "above_products",
+        "button_alignment": "right",
+        "buttons_style": "outlined",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "layout_style": "slider",
+        "products_to_show": 15,
+        "grid-desktop": 5,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
     "template_product_info_columns_68bRzx": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -250,179 +287,17 @@
         "colors": "white"
       }
     },
-    "featured_collection_UMtPLc": {
-      "type": "featured-collection",
-      "name": "t:sections.collection--featured-collection.presets.name",
-      "settings": {
-        "title": "Our Newest Engagement Rings.",
-        "description": "",
-        "section_header_alignment": "left",
-        "collection": "engagement-rings",
-        "show_highlight": false,
-        "highlight_position": "below_image",
-        "highlight_icon": "none",
-        "highlight_heading": "Why we love it",
-        "highlight_reference": "",
-        "highlight_text_color": "rgba(0,0,0,0)",
-        "highlight_background_color": "rgba(0,0,0,0)",
-        "highlight_alignment": "left",
-        "highlight_font_size": "medium",
-        "highlight_show_border": true,
-        "highlight_collapsible_tab": true,
-        "highlight_open_close_icon": "plus_minus",
-        "highlight_button_borders": false,
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "show_view_all": true,
-        "button_position": "above_products",
-        "button_alignment": "right",
-        "buttons_style": "outlined",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "layout_style": "slider",
-        "products_to_show": 15,
-        "grid-desktop": 5,
-        "grid-mobile": "2",
-        "colors": "white"
-      }
-    },
-    "template_product_info_columns_J4Dp7X": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_MjRteG": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Round_Brilliant.png",
-            "grid_image_size": "square",
-            "heading": "Round Brilliant",
-            "text": "",
-            "button_link": "shopify://collections/round-brilliant-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_qEjR3A": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Oval.png",
-            "grid_image_size": "square",
-            "heading": "Oval",
-            "text": "",
-            "button_link": "shopify://collections/oval-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_7TJTdw": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Cushion.png",
-            "grid_image_size": "square",
-            "heading": "Cushion",
-            "text": "",
-            "button_link": "shopify://collections/cushion-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_FJRnj7": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Pear.png",
-            "grid_image_size": "square",
-            "heading": "Pear",
-            "text": "",
-            "button_link": "shopify://collections/pear-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_LEH8dL": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Princess.png",
-            "grid_image_size": "square",
-            "heading": "Princess",
-            "text": "",
-            "button_link": "shopify://collections/princess-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_83BzPq": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Emerald.png",
-            "grid_image_size": "square",
-            "heading": "Emerald Cut",
-            "text": "",
-            "button_link": "shopify://collections/emerald-cut-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_WrjBJP": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Marquise.png",
-            "grid_image_size": "square",
-            "heading": "Marquise",
-            "text": "",
-            "button_link": "shopify://collections/marquise-diamond-engagement-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_GP7JkH": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Radiant.png",
-            "grid_image_size": "square",
-            "heading": "Radiant",
-            "text": "",
-            "button_link": "shopify://collections/radiant-diamond-engagement-rings",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_MjRteG",
-        "image_and_text_qEjR3A",
-        "image_and_text_7TJTdw",
-        "image_and_text_FJRnj7",
-        "image_and_text_LEH8dL",
-        "image_and_text_83BzPq",
-        "image_and_text_WrjBJP",
-        "image_and_text_GP7JkH"
-      ],
-      "name": "Diamond Cuts",
-      "settings": {
-        "title": "Explore Diamonds by Shape.",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 9,
-        "vertical_alignment": "center",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "gallery_slideshow_YDbVni": {
       "type": "gallery-slideshow",
       "blocks": {
         "image_W446Ue": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Solitaire.png",
-            "link": "shopify://collections/solitaire-engagement-rings",
+            "image": "shopify://shop_images/WR0107YW__q-90_3cfe02b7-454d-4223-add4-40df8df03a6c.jpg",
+            "link": "shopify://collections/classic-wedding-bands",
             "button_label": "",
-            "subheading": "Single Stone",
-            "title": "Solitaire Rings",
+            "subheading": "Pure, timeless, and elegant.",
+            "title": "Classic Wedding Bands",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -489,7 +364,7 @@
         "image_93DFPn",
         "image_Az4QbM"
       ],
-      "name": "Popular Engagement Ring Styles.",
+      "name": "Popular Ring Styles.",
       "settings": {
         "title": "Popular Engagement Ring Styles.",
         "description": "<p>Curated Ready-to-Wear</p>",
@@ -1186,9 +1061,8 @@
     "hero_image_with_text_bTYMM7",
     "scrolling_banner_kxh7AJ",
     "rich_text_ManT8J",
-    "template_product_info_columns_68bRzx",
     "featured_collection_UMtPLc",
-    "template_product_info_columns_J4Dp7X",
+    "template_product_info_columns_68bRzx",
     "gallery_slideshow_YDbVni",
     "template_product_info_columns_bqDXjC",
     "template_product_info_columns_ARxq4X",
