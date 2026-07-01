@@ -288,7 +288,7 @@
         "heading_HiEqh4": {
           "type": "heading",
           "settings": {
-            "heading": "SHOP FOR JEWELLERY FROM OUR INSTAGRAM.",
+            "heading": "SHOP FOR {{ collection.title }} FROM OUR INSTAGRAM.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -296,7 +296,7 @@
         "richtext_ELVdPJ": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular jewellery highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular {{ collection.title }} highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
             "text_size": 100,
             "text_bottom_spacing": 0
           }
