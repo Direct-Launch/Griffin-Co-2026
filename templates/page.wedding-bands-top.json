@@ -169,7 +169,7 @@
         "heading_VPxYPE": {
           "type": "heading",
           "settings": {
-            "heading": "More Than a Ring, It's a Promise.",
+            "heading": "A Promise Cast in Precious Metal.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -177,7 +177,7 @@
         "richtext_pHNrDN": {
           "type": "richtext",
           "settings": {
-            "text": "<p>For our clients in {{ page.metafields.custom.location.value }}, we believe an engagement ring embodies a personal story. We champion the bespoke experience, inviting you into a collaborative journey whether you visit our Chichester showroom, craft your vision from home, or book a local consultation.<br/></p><p>Our master jewellers create timeless classics and bespoke designs, using ethically sourced natural and lab-grown diamonds for a responsibly made ring.</p>",
+            "text": "<p>Your wedding ring is a legacy you will wear every day. At Griffin & Co, we believe such an important emblem deserves the utmost attention to detail. </p><p>Whether you seek the pure, uninterrupted elegance of a classic platinum band, or require a master goldsmith to carefully shape a diamond contour ring to sit flush against your unique engagement setting, our artisans are here to guide you.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }

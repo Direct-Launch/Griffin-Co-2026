@@ -82,9 +82,9 @@
 {% endif %}
 
 <div
-	class="content-grid--{{ section.id }} wrapper-spacing--v wrapper-spacing--h{{ no_spacing }} content-align--{{ section.settings.section_header_alignment }}{% if section_width == 'full' %} color-scheme--{{ section.settings.colors }}{% endif %}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}"
+  class="content-grid--{{ section.id }} wrapper-spacing--v wrapper-spacing--h{{ no_spacing }} content-align--{{ section.settings.section_header_alignment }}{% if section_width == 'full' %} color-scheme--{{ section.settings.colors }}{% endif %}{% if request.visual_preview_mode %} section-preview{% else %} show-on-scroll{% endif %}"
   data-wetheme-section-type="gallery-slideshow"
-	data-wetheme-section-id="{{ section.id }}"
+  data-wetheme-section-id="{{ section.id }}"
   style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px; --columns-desktop: {{ grid_columns_desktop }}; --columns-mobile: {{ grid_columns_mobile }}; --overlay-pagination-offset: {% if overlay_pagination %}35px{% else %}0px{% endif %};"
 >
   <div {% if section_width == 'content' %}class="width--content{% unless background_matches %} wrapper-spacing--v--content wrapper-spacing--h--content{% endunless %} color-scheme--{{ section.settings.colors }}"{% endif %}>
@@ -112,7 +112,6 @@
           data-grid-spacing-mobile="{{ settings.grid_spacing | times: 0.75 }}"
         >
           {% if layout_desktop == 'slider' %}
-            <!-- navigation -->
             {% assign navigation_id = 'navigation--' | append: section.id %}
             <div class="swiper-btn--wrapper small-hide swiper-btn-layout__{{ section.settings.hover_navigation_desktop }}">
               <div class="swiper-button--prev btn dynamic-section-button--{{ navigation_id }}">
@@ -152,7 +151,7 @@
                   {% endif %}
                   {{ block.shopify_attributes }}
                 >
-                  <div class="content-grid-item__content{% if borders %} block-radius-clip{% endif %}"{% if section.settings.text_position_desktop != 'below' and block.settings.link != blank and block.settings.button_label == blank %} data-animate-hover-zoom{% endif %}{% if section.settings.show_on_hover and section.settings.text_position_desktop != 'below' %} data-animate-hover{% endif %}>
+                  <div class="content-grid-item__content{% if borders %} block-radius-clip{% endif %}"{% if section.settings.text_position_desktop != 'below' and block.settings.link != blank %} data-animate-hover-zoom{% endif %}{% if section.settings.show_on_hover and section.settings.text_position_desktop != 'below' %} data-animate-hover{% endif %}>
                     <div class="content-grid-item__image content-grid-item__aspect-ratio--{{ section.settings.image_shape }}{% if borders %} block-radius{% endif %}">
                       <div>
                         {% if block.settings.image != blank %}
@@ -184,7 +183,7 @@
                           style="background: linear-gradient(to top, {{ overlay_color_start }} 0%, {{ overlay_color_end }} 75%);"
                         ></div>
                       {% endif %}
-                      {% if section.settings.text_position_desktop == 'below' and block.settings.link != blank and block.settings.button_label == blank %}
+                      {% if section.settings.text_position_desktop == 'below' and block.settings.link != blank %}
                         <a href="{{ block.settings.link }}" class="content-grid-item__image-link"></a>
                       {% endif %}
                     </div>
@@ -227,7 +226,7 @@
                       </div>
                     </div>
 
-                    {% if block.settings.link != blank and block.settings.button_label == blank %}
+                    {% if block.settings.link != blank %}
                       <a href="{{ block.settings.link }}" class="content-grid-item__block-link"></a>
                     {% endif %}
                   </div>
