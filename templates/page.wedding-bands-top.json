@@ -49,7 +49,18 @@
         "text_kf3jU3": {
           "type": "text",
           "settings": {
-            "text": "Repaired in the UK",
+            "text": "Ethically Sourced Metals",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_GxRmMg": {
+          "type": "text",
+          "settings": {
+            "text": "Perfectly Shaped to Fit",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -93,7 +104,7 @@
         "text_zEHPG7": {
           "type": "text",
           "settings": {
-            "text": "Ethically Sourced",
+            "text": "Lifetime Guarantee",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -126,6 +137,7 @@
       },
       "block_order": [
         "text_kf3jU3",
+        "text_GxRmMg",
         "text_DdqKdU",
         "text_rRrENm",
         "text_nVTRrU",
