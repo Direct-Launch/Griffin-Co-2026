@@ -1092,6 +1092,27 @@
         "section_padding_bottom": 72,
         "colors": "white"
       }
+    },
+    "navigation_banner_ARzXik": {
+      "type": "navigation-banner",
+      "name": "t:sections.blog--navigation-banner.presets.name",
+      "settings": {
+        "title": "Wedding Rings Across {{ page.metafields.custom.service_area_region_name.value }}.",
+        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer bespoke wedding ring designs and a selection of bands for couples across the South of England and {{ page.metafields.custom.location.value }}. Though based in Chichester, we regularly work with clients in various towns and cities, including:</p>",
+        "section_header_alignment": "center",
+        "dynamic_menu_handle": "{{ page.metafields.custom.service_areas_menu | metafield_text }}",
+        "banner_linklist": "main-menu",
+        "collection_list": [],
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "nav_background_color": "#242424",
+        "nav_text_color": "#FFFFFF",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "layout_style": "slider",
+        "navigation_position": "center",
+        "colors": "white"
+      }
     }
   },
   "order": [
@@ -1114,6 +1135,7 @@
     "image_with_text_eeVkXh",
     "blog_posts_wUTqEA",
     "faq_with_image_m73Xra",
-    "template_product_info_columns_eUEtia"
+    "template_product_info_columns_eUEtia",
+    "navigation_banner_ARzXik"
   ]
 }
