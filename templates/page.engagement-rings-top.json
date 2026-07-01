@@ -43,10 +43,43 @@
         "colors": "light"
       }
     },
-    "scrolling_banner_yQGBqH": {
+    "scrolling_banner_kxh7AJ": {
       "type": "scrolling-banner",
       "blocks": {
-        "text_wU7jRg": {
+        "text_kf3jU3": {
+          "type": "text",
+          "settings": {
+            "text": "Repaired in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_DdqKdU": {
+          "type": "text",
+          "settings": {
+            "text": "Bespoke 3D Design Studio",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h4-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_rRrENm": {
+          "type": "text",
+          "settings": {
+            "text": "Private Home Visits in {{ page.metafields.custom.location.value }}",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_nVTRrU": {
           "type": "text",
           "settings": {
             "text": "Crafted in the UK",
@@ -57,7 +90,7 @@
             "body_font_size": 130
           }
         },
-        "text_ifRMFb": {
+        "text_zEHPG7": {
           "type": "text",
           "settings": {
             "text": "Ethically Sourced",
@@ -68,7 +101,7 @@
             "body_font_size": 130
           }
         },
-        "text_UwDBdj": {
+        "text_UJ6N9J": {
           "type": "text",
           "settings": {
             "text": "Certified Diamonds",
@@ -79,7 +112,7 @@
             "body_font_size": 130
           }
         },
-        "text_Q6pTBK": {
+        "text_PrcUzd": {
           "type": "text",
           "settings": {
             "text": "30 Days Return",
@@ -92,10 +125,13 @@
         }
       },
       "block_order": [
-        "text_wU7jRg",
-        "text_ifRMFb",
-        "text_UwDBdj",
-        "text_Q6pTBK"
+        "text_kf3jU3",
+        "text_DdqKdU",
+        "text_rRrENm",
+        "text_nVTRrU",
+        "text_zEHPG7",
+        "text_UJ6N9J",
+        "text_PrcUzd"
       ],
       "name": "t:sections.scrolling-banner.name",
       "settings": {
@@ -1008,7 +1044,7 @@
   },
   "order": [
     "hero_image_with_text_bTYMM7",
-    "scrolling_banner_yQGBqH",
+    "scrolling_banner_kxh7AJ",
     "rich_text_ManT8J",
     "featured_collection_UMtPLc",
     "template_product_info_columns_J4Dp7X",
