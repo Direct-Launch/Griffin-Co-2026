@@ -40,9 +40,6 @@
         endif
 
         assign overlay_pagination = false
-        if images_per_row_mobile == "1" and section.settings.navigation_mobile == 'dots' and has_slider
-          assign overlay_pagination = true
-        endif
       %}
 
       {% if has_slider %}
