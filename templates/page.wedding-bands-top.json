@@ -490,7 +490,7 @@
             "image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
             "grid_image_size": "wide",
             "heading": "Book a In-Person Consultation.",
-            "text": "<p>For those who prefer a tactile experience, we offer Private Home Visits directly to you in {{ page.metafields.custom.location.value }}. Alternatively, join us in our Chichester showroom to sit down with our master goldsmiths and view diamonds under magnification.</p>",
+            "text": "<p>For those who prefer a tactile experience, we offer Private Home Visits directly to you in {{ page.metafields.custom.location.value }}. Alternatively, join us in our Chichester showroom to sit downwithour master goldsmiths to view band profiles and diamonds under magnification.</p>",
             "button_link": "shopify://pages/schedule-an-appointment",
             "button_text": "Request Appointment"
           }
@@ -501,7 +501,7 @@
             "image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
             "grid_image_size": "wide",
             "heading": "Design Your Ring Online.",
-            "text": "<p>Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen in {{ page.metafields.custom.location.value }}. Select your ideal GIA-certified diamond, choose your setting, and watch your future heirloom come to life in breathtaking 3D detail.</p>",
+            "text": "<p>Step into the role of the designer. Our innovative online studio brings the Griffin & Co workshop directly to your screen in {{ page.metafields.custom.location.value }}. Select your ideal band profile, choose your metal, and watch your future heirloom come to life in breathtaking 3D detail.</p>",
             "button_link": "shopify://pages/custom-jewellery-builder-online",
             "button_text": "Go to Online Builder"
           }
@@ -512,7 +512,7 @@
             "image": "shopify://shop_images/Showroom_8.webp",
             "grid_image_size": "wide",
             "heading": "Design at Home.",
-            "text": "<p>Ask for a visit from our head jeweller to help you design your perfect engagement ring from the comfort of your home in {{ page.metafields.custom.location.value }}; you can see the samples in person, see 3D renders and compare different styles & gem cuts.</p>",
+            "text": "<p>Ask for a visit from our head jeweller to help you design your perfect wedding band from the comfort of your home in {{ page.metafields.custom.location.value }}; you can see the samples in person, view 3D renders, and ensure a flawless fit against your existing rings.</p>",
             "button_link": "shopify://pages/home-visits",
             "button_text": "Request Home Visit"
           }
@@ -552,10 +552,10 @@
         "image_and_text_iRJtan": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+            "image": "shopify://shop_images/DSC05354_Large_acad6c27-fc51-4fa8-bb8f-3076c255ae02.jpg",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft an engagement ring that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
+            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft a wedding ring that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -563,10 +563,10 @@
         "image_and_text_4ggiYD": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/Diamond_Set_Rings_-_Mobile_43d70b02-4792-4c23-86a0-7bf63dbf99d6.png",
+            "image": "shopify://shop_images/Wedding_Bands_2055d36f-e194-44e7-a871-3f761f267a08.png",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your engagement ring design details! You can view our existing rings in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
+            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your wedding ring design details! You can view our existing rings in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -574,10 +574,10 @@
         "image_and_text_AEcprt": {
           "type": "image_and_text",
           "settings": {
-            "image": "shopify://shop_images/SR1506.jpg",
+            "image": "shopify://shop_images/WR0063Y__q-90.jpg",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your engagement ring. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
+            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your wedding ring. We can fine tune the design, adding details, and changing your setting style until it’s perfect!</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -588,7 +588,7 @@
             "image": "shopify://shop_images/heating-metal-ring.jpg",
             "grid_image_size": "square",
             "heading": "",
-            "text": "<h6>The Crafting Process</h6><p>Your stunning engagement ring is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
+            "text": "<h6>The Crafting Process</h6><p>Your stunning wedding ring is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
             "button_link": "",
             "button_text": ""
           }
