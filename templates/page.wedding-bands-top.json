@@ -307,10 +307,10 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/Three-Stone.png",
-            "link": "shopify://collections/three-stone-trilogy-engagement-rings",
+            "link": "shopify://collections/diamond-set-bands",
             "button_label": "",
-            "subheading": "Three-Stone",
-            "title": "Trilogy Rings",
+            "subheading": "From subtle sparkle to full eternity.",
+            "title": "Diamond Set Bands",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
