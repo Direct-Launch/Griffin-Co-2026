@@ -593,6 +593,81 @@
         "colors": "white"
       }
     },
+    "image_with_text_overlay_wiRqK7": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_arRAPQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Meet an Expert Jeweller In-Person.",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_CgWnnf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Schedule a consultation with our repair specialists. Whether you need a quick assessment or a complex restoration, our team is ready to help restore your treasured jewellery.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_arRAPQ",
+        "text_CgWnnf"
+      ],
+      "name": "CTA Banner",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Book_your_Appointment.jpg",
+        "height_desktop": "650px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "left",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "left",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 25
+      }
+    },
+    "custom_liquid_8DTBzP": {
+      "type": "custom-liquid",
+      "name": "Anchor",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<a id=\"booking\"></a>",
+        "section_width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "custom_liquid_EXtWLw": {
+      "type": "custom-liquid",
+      "name": "Booking Form",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/bespoke-design-ve7vt?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "rich_text_pBdiyA": {
       "type": "rich-text",
       "blocks": {
@@ -1051,6 +1126,9 @@
     "gallery_slideshow_YDbVni",
     "template_product_info_columns_bqDXjC",
     "template_product_info_columns_ARxq4X",
+    "image_with_text_overlay_wiRqK7",
+    "custom_liquid_8DTBzP",
+    "custom_liquid_EXtWLw",
     "rich_text_pBdiyA",
     "1780059503e4e28014",
     "17787619721046fdd6",
