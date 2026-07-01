@@ -811,7 +811,7 @@
       "name": "Reviews",
       "settings": {
         "section_padding_top": 0,
-        "section_padding_bottom": 0,
+        "section_padding_bottom": 72,
         "include_margins": true
       }
     },
@@ -858,6 +858,84 @@
         "hover_navigation_desktop": "left-and-right",
         "peek_desktop": true,
         "images_per_row_desktop": 4,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_eeVkXh": {
+      "type": "image-with-text",
+      "name": "Engraving & Finishing Touches",
+      "settings": {
+        "image": "shopify://shop_images/Signet_Ring_Window_Display.jpg",
+        "layout": "left",
+        "title": "Engraving & Finishing Touches.",
+        "text": "<p>Make your wedding bands truly personal with our bespoke engraving service. Add a meaningful date, a secret message, initials, or even a fingerprint to create a hidden detail that is only for you.</p><p>We also offer a variety of hand-applied finishes, from contemporary matte to classic high polish or artisanal hammered textures.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/contact",
+        "button_label": "Discuss Finishing Options",
+        "buttons_style": "outlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "accent"
+      }
+    },
+    "blog_posts_wUTqEA": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_meayLf": {
+          "type": "blog",
+          "settings": {
+            "blog": "guide-bespoke-jewellery-design-service"
+          }
+        }
+      },
+      "block_order": [
+        "blog_meayLf"
+      ],
+      "name": "t:sections.blog-posts.name",
+      "settings": {
+        "title": "Guide to Bespoke Jewellery Design.",
+        "description": "<p>Read our expert insights on selecting diamonds, choosing metals, and understanding the design process.</p>",
+        "section_header_alignment": "left",
+        "media_source": "metafields",
+        "custom_media_ratio": "square",
+        "show_image": true,
+        "image_shape": "natural",
+        "post_limit": 4,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": true,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#E68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
         "layout_style_mobile": "slider",
         "navigation_mobile": "dots",
         "section_width": "full",
@@ -1033,6 +1111,8 @@
     "1780059503e4e28014",
     "17787619721046fdd6",
     "blog_posts_BVWqKG",
+    "image_with_text_eeVkXh",
+    "blog_posts_wUTqEA",
     "faq_with_image_m73Xra",
     "template_product_info_columns_eUEtia"
   ]
