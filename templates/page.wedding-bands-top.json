@@ -950,45 +950,45 @@
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How much should you spend on an Engagement Ring?",
+            "accordion_header": "Do you create bespoke shaped bands to fit my engagement ring?",
             "open_by_default": false,
-            "text": "<p>There's no strict rule! Traditionally, a guideline of 1–3 months' salary was suggested, but ultimately, the right amount is what feels comfortable and affordable for you.<strong> Focus on finding a ring that your partner will love within your budget.</strong></p>",
+            "text": "<p>Yes, this is one of our specialities. If your engagement ring has an unusual shape or low setting, our master goldsmiths can create a custom contour band that sits perfectly flush against it, ensuring a seamless fit.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What is the average cost of an Engagement Ring?",
+            "accordion_header": "How far in advance should we order our wedding rings?",
             "open_by_default": false,
-            "text": "<p>The average cost can vary significantly depending on location, diamond quality, and style. While figures fluctuate, it's more important to focus on your individual budget and preferences rather than a general average.</p>",
+            "text": "<p>For bespoke designs and shaped contour bands, we recommend starting the process 2 to 3 months before your wedding date. This allows ample time for CAD design approvals, casting, and any final size adjustments.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Should I buy a Lab Grown Engagement Ring?",
+            "accordion_header": "Can we design our rings online if we live in {{ block.settings.page.metafields.custom.location.value }}?",
             "open_by_default": false,
-            "text": "<p><strong>Lab-grown diamonds offer the same physical, chemical, and optical properties as natural diamonds</strong> but are created in a controlled environment. They are often a more budget-friendly and sustainable option. The choice is personal and depends on your values and preferences.</p>",
+            "text": "<p>Absolutely. Our Online 3D Design Studio is available to clients everywhere. You can fully customise your wedding bands online, and if you require assistance, you can easily request a home visit or video consultation.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Does an Engagement Ring come with a box?",
+            "accordion_header": "Do our wedding rings have to match?",
             "open_by_default": false,
-            "text": "<p>Yes, all engagement rings purchased from Griffin & Co come beautifully presented in a complimentary ring box, perfect for proposing and safekeeping.</p>",
+            "text": "<p>Not at all! While some couples love the tradition of matching bands, we encourage you to choose a ring that reflects your individual style and comfort. Your rings are a pair, not necessarily twins. You can coordinate them by choosing the same metal or a similar finish.</p>",
             "page": ""
           }
         },
         "accordion_BRezAN": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How long should I set aside for my appointment?",
+            "accordion_header": "Which metal is best for a wedding band?",
             "open_by_default": false,
-            "text": "<p>We recommend setting aside about one hour for your consultation. This gives us ample time to discuss your ideas in detail, answer all your questions, and explore different design possibilities without you feeling rushed.</p>",
+            "text": "<p>The \"best\" metal depends on your lifestyle and preference. Platinum is the most durable and is naturally hypoallergenic. 18ct Gold (Yellow, White, or Rose) is the classic choice, offering a rich colour. We can discuss the pros and cons of each during your consultation.</p>",
             "page": ""
           }
         }
@@ -1002,7 +1002,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Frequently Asked Questions.",
+        "section_title": "Wedding Band FAQs.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
