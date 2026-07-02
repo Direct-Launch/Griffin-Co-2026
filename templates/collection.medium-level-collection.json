@@ -284,12 +284,12 @@
     },
     "template_collections_list_MJdDwy": {
       "type": "template--collections-list",
-      "name": "Collection list",
+      "name": "Jewellery Set Collections",
       "settings": {
         "banner-image-size": "20vh",
         "parallax": true,
         "show_options": "selected",
-        "selected_collections": [],
+        "selected_collections": "{{ collection.metafields.custom.jewellery_set_list.value }}",
         "show_highlight": false,
         "highlight_position": "bottom",
         "highlight_icon": "heart",
