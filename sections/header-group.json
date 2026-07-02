@@ -507,7 +507,7 @@
         "overlay_header_homepage": true,
         "overlay_header_collection": false,
         "overlay_header_list_collection": true,
-        "overlay_header_article": false,
+        "overlay_header_article": true,
         "overlay_header_contact": false,
         "logo": "shopify://shop_images/Banner_Sign_5eb68be5-183e-42de-b8c7-0bb18489861e.png",
         "overlay_logo": "shopify://shop_images/Banner_Sign_2.png",
