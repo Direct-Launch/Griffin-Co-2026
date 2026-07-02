@@ -19,7 +19,7 @@
         "text": "<p>A curated collection of exceptional necklaces, pendants, and chains for clients in {{ page.metafields.custom.location.value }}.</p><p>From classic solitaire diamonds to statement gold chains, visit our Chichester showroom to find your perfect piece.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
+        "text_overlapping_image": true,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
         "show_image_mobile": true,
