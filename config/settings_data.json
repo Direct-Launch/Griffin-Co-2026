@@ -777,5 +777,8 @@
       "page_fade_enabled": true,
       "ken_burns_enabled": true
     }
+  },
+  "platform_customizations": {
+    "custom_css": []
   }
 }
