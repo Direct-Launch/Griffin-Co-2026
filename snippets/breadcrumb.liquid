@@ -2,7 +2,7 @@
   Hide breadcrumbs on specific templates. 
   Add or remove template names in the 'unless' statement below.
 {% endcomment %}
-{% unless template.name == 'index' or template.name == 'collection' %}
+{% unless template.name == 'article' or template.name == 'collection' %}
 
 {% comment %}
   Documentation - http://docs.shopify.com/support/your-website/navigation/creating-a-breadcrumb-navigation
@@ -15,7 +15,7 @@
     </a>
   </span>
 
-  {% if template contains 'article' %}
+  {% if template contains 'product' %}
 
     {% if collection.url %}
       <span class="breadcrumb-divider" aria-hidden="true">›</span>
