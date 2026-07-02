@@ -38,7 +38,7 @@
       "type": "hero-image-with-text",
       "name": "Hero - Image with text",
       "settings": {
-        "image": "{{ collection.metafields.custom.desktop_large_image.value }}",
+        "image": "{{ collection.image }}",
         "layout": "right",
         "title": "{{ collection.title }}.",
         "text": "{{ collection.description }}",
