@@ -260,6 +260,31 @@
         "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
+    "template_collections_list_EhCaWF": {
+      "type": "template--collections-list",
+      "name": "Jewellery Set Collections",
+      "settings": {
+        "banner-image-size": "20vh",
+        "parallax": true,
+        "show_options": "selected",
+        "selected_collections": "{{ collection.metafields.custom.jewellery_set_list.value }}",
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "layout": "preview",
+        "items_per_row": 3
+      }
+    },
     "rich_text_gHgdGd": {
       "type": "rich-text",
       "blocks": {
@@ -655,6 +680,7 @@
     "gallery_slideshow_nLQPFD",
     "scrolling_banner_MhBAhg",
     "product-grid",
+    "template_collections_list_EhCaWF",
     "rich_text_gHgdGd",
     "apps_4knj4k",
     "template_product_recently_viewed_BycnaH",
