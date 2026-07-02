@@ -13,20 +13,20 @@
       "type": "hero-image-with-text",
       "name": "Hero - Image with text",
       "settings": {
-        "image": "shopify://shop_images/Rings_16b6bed6-9bcf-4dea-beb7-9f84821eec31.png",
+        "image": "shopify://shop_images/Why_Lab_Diamonds_are_the_Ethical_Future_9a04fee2-a4f7-4dae-a842-27c11d4c973b.jpg",
         "layout": "right",
-        "title": "Rings in {{ page.metafields.custom.location.value }}.",
-        "text": "<p>The premier destination for exceptional rings in {{ page.metafields.custom.location.value }}.</p><p>Explore our curated collections, bespoke design services, and expert craftsmanship right here in the heart of Chichester.</p>",
+        "title": "Lab Diamond Jewellery in {{ page.metafields.custom.location.value }}.",
+        "text": "<p>Discover exquisite, ethically grown lab diamond pieces. Design your dream ring online or book a bespoke consultation in {{ page.metafields.custom.location.value }}.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
+        "text_overlapping_image": true,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
         "show_image_mobile": true,
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
-        "button_link_1": "shopify://collections/rings",
-        "button_label_1": "View Collections",
+        "button_link_1": "shopify://collections/lab-grown-diamond-jewellery",
+        "button_label_1": "Explore Collections",
         "buttons_style_1": "filled",
         "override_button_colors_1": false,
         "button_background_color_1": "#e68819",
@@ -79,6 +79,61 @@
             "body_font_size": 130
           }
         },
+        "text_p8ccfW": {
+          "type": "text",
+          "settings": {
+            "text": "Bespoke Design Available",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_UwPNgQ": {
+          "type": "text",
+          "settings": {
+            "text": "Chemically Identical to Mined Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_Mj7nfA": {
+          "type": "text",
+          "settings": {
+            "text": "Environmentally Conscious",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_nye74R": {
+          "type": "text",
+          "settings": {
+            "text": "IGI & Gia Certified Stones",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_TRfbNc": {
+          "type": "text",
+          "settings": {
+            "text": "Home Visits in {{ page.metafields.custom.location.value }}",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
         "text_Q6pTBK": {
           "type": "text",
           "settings": {
@@ -95,6 +150,11 @@
         "text_wU7jRg",
         "text_ifRMFb",
         "text_UwDBdj",
+        "text_p8ccfW",
+        "text_UwPNgQ",
+        "text_Mj7nfA",
+        "text_nye74R",
+        "text_TRfbNc",
         "text_Q6pTBK"
       ],
       "name": "t:sections.scrolling-banner.name",
@@ -121,7 +181,7 @@
         "heading_VPxYPE": {
           "type": "heading",
           "settings": {
-            "heading": "Serving {{ page.metafields.custom.location.value }} with Exceptional Rings.",
+            "heading": "The Future of Fine Jewellery.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -129,7 +189,7 @@
         "richtext_pHNrDN": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Located on South Street, Griffin & Co offers an unparalleled selection of rings for every occasion. </p><p>Whether you are marking a new chapter with an engagement ring, sealing a promise with a wedding band, or treating yourself to a statement gemstone piece, our <strong>Chichester showroom</strong> is where your journey begins.</p>",
+            "text": "<p>Embrace a modern legacy without compromising on luxury. Lab-grown diamonds are chemically, physically, and optically identical to mined diamonds. They exhibit the exact same breathtaking fire, scintillation, and brilliance, but are created in a controlled environment above ground.</p><p>For our discerning clients in {{ page.metafields.custom.location.value }}, selecting a lab-grown diamond means maximizing your budget, allowing for a larger, higher-clarity centre stone or a more intricate bespoke setting crafted by our master goldsmiths.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -153,10 +213,10 @@
       "type": "featured-collection",
       "name": "t:sections.collection--featured-collection.presets.name",
       "settings": {
-        "title": "Our Newest Rings.",
+        "title": "Our Newest Lab-Diamond Jewellery.",
         "description": "",
         "section_header_alignment": "left",
-        "collection": "rings",
+        "collection": "lab-grown-diamond-jewellery",
         "show_highlight": false,
         "highlight_position": "below_image",
         "highlight_icon": "none",
@@ -192,11 +252,11 @@
         "image_W446Ue": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/DSOC08P_1.jpg",
-            "link": "shopify://collections/engagement-rings",
+            "image": "shopify://shop_images/Lab-Grown_Diamond_Engagement_Rings_3be98f9f-b2ba-4d29-9d8d-84ba062a82e5.png",
+            "link": "shopify://collections/lab-grown-diamond-engagement-rings",
             "button_label": "",
-            "subheading": "Solitaire, Halo, Trilogy & Lab-Grown",
-            "title": "Engagement Rings",
+            "subheading": "Ethical, brilliant centerpieces.",
+            "title": "Lab Diamond Engagement Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -205,11 +265,11 @@
         "image_TqAzw3": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/WR0063Y__q-90.jpg",
-            "link": "shopify://collections/wedding-rings",
+            "image": "shopify://shop_images/Rings_Lab_Diamonds.png",
+            "link": "shopify://collections/lab-grown-diamond-rings",
             "button_label": "",
-            "subheading": "Classic, Diamond Set & Shapes Bands",
-            "title": "Wedding Rings",
+            "subheading": "Stricking statement pieces.",
+            "title": "Lab Diamond Rings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -218,11 +278,11 @@
         "image_UqFNLm": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/b5606.jpg",
-            "link": "shopify://collections/plain-rings",
+            "image": "shopify://shop_images/Neckwear_Lab_Diamonds.png",
+            "link": "shopify://collections/lab-grown-diamond-neckwear",
             "button_label": "",
-            "subheading": "Minimalist bands in Platinum and Gold",
-            "title": "Plain Rings",
+            "subheading": "Radiant floating brilliance.",
+            "title": "Lab Diamond Neckwear",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -231,11 +291,11 @@
         "image_93DFPn": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/wp248_ah.jpg",
-            "link": "shopify://collections/eternity-rings",
+            "image": "shopify://shop_images/Earrings_Lab_Diamonds.png",
+            "link": "shopify://collections/lab-grown-diamond-earrings",
             "button_label": "",
-            "subheading": "The ultimate symbol of enduring love",
-            "title": "Eternity Rings",
+            "subheading": "Captivating everyday sparkle.",
+            "title": "Lab Diamond Earrings",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -244,63 +304,11 @@
         "image_xNpPnQ": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/SL8276_BS__WG_0.jpg",
-            "link": "shopify://collections/cocktail",
+            "image": "shopify://shop_images/Wristwear_Lab_Diamonds.png",
+            "link": "shopify://collections/lab-grown-diamond-wristwear",
             "button_label": "",
-            "subheading": "Bold, colourful designs for evening wear",
-            "title": "Cocktail Rings",
-            "text_color": "#4a4a4a",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_EwB9QE": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/XYR8333_WG_0Platinum.jpg",
-            "link": "shopify://collections/eternity-rings",
-            "button_label": "",
-            "subheading": "Eye-catching designs that stand out",
-            "title": "Statement Rings",
-            "text_color": "#4a4a4a",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_D4zFBT": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SR1055_WG_9CT_YG_0.jpg",
-            "link": "shopify://collections/signet-rings",
-            "button_label": "",
-            "subheading": "Family Crests, Custom Designs or Set with Gemstones",
-            "title": "Signet Rings",
-            "text_color": "#4a4a4a",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_PGgY39": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/BJR0309_WG_18-2_WG_0.jpg",
-            "link": "shopify://collections/diamond-rings",
-            "button_label": "",
-            "subheading": "Brilliance in both ethically mined and lab-grown stones.",
-            "title": "Lab & Natural Diamond",
-            "text_color": "#4a4a4a",
-            "overlay_color": "#242424",
-            "overlay_opacity": 0
-          }
-        },
-        "image_CyyQah": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/SR1122_PKT-YG__YG_0.jpg-69d1f271-7b5c-4eb2-a59b-4176276dd8dc.webp",
-            "link": "shopify://collections/gemstone-earrings",
-            "button_label": "",
-            "subheading": "Sapphires, Rubies, Emeralds & More",
-            "title": "Gemstone Rings",
+            "subheading": "Fluid diamond fire.",
+            "title": "Lab Diamond Wristwear",
             "text_color": "#4a4a4a",
             "overlay_color": "#242424",
             "overlay_opacity": 0
@@ -312,15 +320,11 @@
         "image_TqAzw3",
         "image_UqFNLm",
         "image_93DFPn",
-        "image_xNpPnQ",
-        "image_EwB9QE",
-        "image_D4zFBT",
-        "image_PGgY39",
-        "image_CyyQah"
+        "image_xNpPnQ"
       ],
       "name": "Collections",
       "settings": {
-        "title": "Our Rings Collections.",
+        "title": "Our Lab Diamond Collections.",
         "description": "<p>Handcrafted elegance for every occasion.</p>",
         "section_header_alignment": "left",
         "image_shape": "natural",
