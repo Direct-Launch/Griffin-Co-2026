@@ -19,7 +19,7 @@
         "text": "<p>Experience the pinnacle of bespoke jewellery design from the comfort and privacy of your own home. Our master designers bring the heritage, expertise, and atelier experience of Griffin & Co. directly to you.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
+        "text_overlapping_image": true,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
         "show_image_mobile": true,
