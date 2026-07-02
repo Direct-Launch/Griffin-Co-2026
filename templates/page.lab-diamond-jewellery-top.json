@@ -349,148 +349,6 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_J4Dp7X": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_MjRteG": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
-            "grid_image_size": "square",
-            "heading": "Sterling Silver Rings",
-            "text": "<p>Affordable & Light.</p>",
-            "button_link": "shopify://collections/silver-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_bi4K97": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Yellow_Gold_1ed00eaa-e401-4532-a218-e4b05be70a43.png",
-            "grid_image_size": "square",
-            "heading": "Yellow Gold Rings",
-            "text": "<p>Classic & Warm.</p>",
-            "button_link": "shopify://collections/yellow-gold-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_UaFRzt": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
-            "grid_image_size": "square",
-            "heading": "White Gold Rings",
-            "text": "<p>Bright & Modern.</p>",
-            "button_link": "shopify://collections/white-gold-rings",
-            "button_text": ""
-          }
-        },
-        "image_and_text_bidbYD": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Rose_Gold_ab03a378-5a85-47c6-8f46-27db6fe694fa.png",
-            "grid_image_size": "square",
-            "heading": "Rose Gold Rings",
-            "text": "<p>Romantic & Vintage</p>",
-            "button_link": "shopify://collections/rose-gold-jewellery",
-            "button_text": ""
-          }
-        },
-        "image_and_text_PUWPfc": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Platinum_94bd0acc-6ba7-412a-804b-b034e18eec8f.png",
-            "grid_image_size": "square",
-            "heading": "Platinum Rings",
-            "text": "<p>Naturally White & Durable.</p>",
-            "button_link": "shopify://collections/platinum-rings",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_MjRteG",
-        "image_and_text_bi4K97",
-        "image_and_text_UaFRzt",
-        "image_and_text_bidbYD",
-        "image_and_text_PUWPfc"
-      ],
-      "name": "Metal",
-      "settings": {
-        "title": "Find Rings by Metal Type.",
-        "description": "",
-        "section_header_alignment": "center",
-        "maximum_width": 75,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 5,
-        "vertical_alignment": "center",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "dark"
-      }
-    },
-    "template_product_info_columns_papGY4": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_EhJQ99": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Lab_Grown_Diamond_Engagement_Rings.jpg",
-            "grid_image_size": "wide",
-            "heading": "Women's Rings",
-            "text": "<p>Discover a world of elegance. From delicate diamond solitaires and timeless eternity bands to striking gemstone cocktail rings, our curated ring collection celebrates feminine grace with meticulous craftsmanship.</p>",
-            "button_link": "shopify://collections/womens-rings",
-            "button_text": "Shop Women's Rings"
-          }
-        },
-        "image_and_text_kDH8xb": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/Men_s_Rings.jpg",
-            "grid_image_size": "wide",
-            "heading": "Men's Rings",
-            "text": "<p>Sophisticated style for the modern gentleman. Explore our range of classic wedding bands, custom-engraved signet rings, and distinctive statement pieces, hand-crafted to add a touch of refined distinction to your everyday look.</p>",
-            "button_link": "shopify://collections/mens-rings",
-            "button_text": "Shop Men's Rings"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_EhJQ99",
-        "image_and_text_kDH8xb"
-      ],
-      "name": "Shop by Department",
-      "settings": {
-        "title": "Shop by Department.",
-        "description": "<p>Curated collections for every style.</p>",
-        "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": true,
-        "button_background_color": "#35382e",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 2,
-        "vertical_alignment": "center",
-        "text_alignment": "center",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "image_with_text_overlay_He6F4z": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -532,6 +390,7 @@
         "text_CHnDAB",
         "button_CQf4nf"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "Jewellery Sets",
       "settings": {
@@ -578,6 +437,7 @@
         "heading_wTT9Jr",
         "richtext_wHdiHi"
       ],
+      "disabled": true,
       "name": "Services Title",
       "settings": {
         "section_width": "full-width",
@@ -627,6 +487,7 @@
         "text_advert_chxNe3",
         "text_advert_38Fdtz"
       ],
+      "disabled": true,
       "name": "Services #1",
       "settings": {
         "icon_size": "20px",
@@ -680,6 +541,7 @@
         "text_advert_PPWjYr",
         "text_advert_ebWUWn"
       ],
+      "disabled": true,
       "name": "Services #2",
       "settings": {
         "icon_size": "20px",
@@ -700,7 +562,7 @@
         "text_static_A9Wwff": {
           "type": "text_static",
           "settings": {
-            "text_static": "<p>It's time to create the perfect</p>",
+            "text_static": "<p>It's time to create the perfect Lab</p>",
             "max_width_desktop": 100,
             "max_width_mobile": 100,
             "text_color": "rgba(0,0,0,0)"
@@ -709,7 +571,7 @@
         "text_dynamic_pVKwQM": {
           "type": "text_dynamic",
           "settings": {
-            "text_dynamic": "Engagement Ring., Wedding Band., Plain Ring., Eternity Ring., Cocktail Ring., Statement Ring., Signet Ring., Lab-Diamond Ring., Gemstone Ring.,",
+            "text_dynamic": "Engagement Ring., Eternity Ring., Cocktail Ring., Statement Ring., Signet Ring., Bracelet., Bangle., Necklace., Pendant., Stud Earrings., Drop Earrings.,",
             "animation_timing": 2000,
             "rotation_interval": 5000,
             "text_color": "rgba(0,0,0,0)"
@@ -796,7 +658,7 @@
       "name": "Showroom & Online Builder",
       "settings": {
         "title": "",
-        "description": "<p>We offer three distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
+        "description": "<p>If you haven't found the perfect piece in our collections, our master goldsmiths can forge it for you. We offer three distinct pathways to your bespoke lab diamond creation.</p>",
         "section_header_alignment": "center",
         "section_width": "full",
         "remove_spacing": true,
@@ -824,8 +686,8 @@
       "settings": {
         "image": "shopify://shop_images/IMG_8786.webp",
         "layout": "right",
-        "title": "View Rings From Your Home.",
-        "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting in {{ page.metafields.custom.location.value }}.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches of bespoke rings, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
+        "title": "View & Design Lab Diamonds from Home.",
+        "text": "<p>Choosing a lab-grown diamond is a highly visual and tactile experience. If you are unable to visit our Chichester workshop, Griffin & Co offers a complimentary concierge service bringing the showroom to you in {{ page.metafields.custom.location.value }}.</p><p>We arrive fully equipped with a curated selection of loose lab diamonds, allowing you to compare cuts, colours, and carat weights in your own lighting. We also bring ring sizing tools and extensive design portfolios to ensure your bespoke piece is perfect.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": true,
@@ -834,7 +696,7 @@
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
         "button_link": "shopify://pages/home-visits",
-        "button_label": "Request a Consultation",
+        "button_label": "Schedule {{ page.metafields.custom.location.value }} Visit",
         "buttons_style": "filled",
         "override_button_colors": false,
         "button_background_color": "#e68819",
@@ -854,7 +716,7 @@
             "image": "shopify://shop_images/Initial_Consultation.jpg",
             "grid_image_size": "square",
             "heading": "The Initial Inquiry",
-            "text": "<p>A brief introductory call to understand your vision, requirements, and the scope of the piece or service you require. We listen to your story first.</p>",
+            "text": "<p>Contact us to schedule a convenient time for a private visit in {{ page.metafields.custom.location.value }}.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -865,7 +727,7 @@
             "image": "shopify://shop_images/Private_Consultation.jpg",
             "grid_image_size": "square",
             "heading": "The Private Consultation",
-            "text": "<p>Our designer visits your home with a curated selection of materials and tools to refine the design, specifications, and gemstones in complete privacy.</p>",
+            "text": "<p>We bring diamond samples and discuss your vision in the comfort of your home.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -876,7 +738,7 @@
             "image": "shopify://shop_images/Master_Craftmanship_2.webp",
             "grid_image_size": "square",
             "heading": "Master Craftsmanship",
-            "text": "<p>Your piece is handcrafted in our studio to the highest standards and delivered back to you for a final, perfect fitting and unveiling.</p>",
+            "text": "<p>Your finished piece is securely hand-delivered to you, or shipped via fully insured post.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -889,7 +751,7 @@
       ],
       "name": "The Home Visit Process",
       "settings": {
-        "title": "From Your Home to Our Atelier.",
+        "title": "The Home Visit Process.",
         "description": "<p>A seamless transition from vision to heirloom.</p>",
         "section_header_alignment": "center",
         "maximum_width": 500,
@@ -916,7 +778,7 @@
         "heading_q34xXf": {
           "type": "heading",
           "settings": {
-            "heading": "Rings From OUR INSTAGRAM.",
+            "heading": "Lab Diamonds from our Instagram.",
             "heading--text-size": "h4",
             "heading_bottom_spacing": 20
           }
@@ -924,7 +786,7 @@
         "richtext_XezrDU": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular ring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> to see our latest lab-grown diamond commissions fresh from the workshop.</p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
             "text_size": 100,
             "text_bottom_spacing": 0
           }
@@ -961,7 +823,7 @@
             "link_alignment": "left",
             "link_color": "#000000",
             "background_color": "",
-            "feed_id": "47332",
+            "feed_id": "47448",
             "html_area": ""
           }
         }
@@ -1033,45 +895,45 @@
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How can I commission a bespoke ring design that perfectly captures my unique aesthetic?",
+            "accordion_header": "Are lab-grown diamonds real diamonds?",
             "open_by_default": false,
-            "text": "<p>A commitment ring, engagement band, or statement piece should feel intrinsically 'you.' We guide clients through the initial concepts, working with sketches and moulds to ensure every curve and setting is uniquely designed by hand within our workshop. </p><p>To begin this deeply personal journey toward realising your bespoke vision in ring form, an appointment at our Showroom is essential for any client based in {{ block.settings.page.metafields.custom.location.value }}.</p>",
+            "text": "<p>Yes, absolutely. Lab-grown diamonds share the exact same chemical composition, optical properties, and physical hardness as natural mined diamonds. The only difference is their origin—they are grown in a highly controlled environment rather than extracted from the earth.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Do you provide guidance on choosing the right metal (Platinum vs. Gold) for a ring designed to be worn every day?",
+            "accordion_header": "Do lab diamonds test as real diamonds?",
             "open_by_default": false,
-            "text": "<p>The choice of metal heavily influences both longevity and wearability. Platinum offers exceptional durability while maintaining its lustre, whereas various grades of gold offer unique warmth and colour tones suitable for diverse skin types and tastes. </p><p>Our master goldsmiths are adept at advising on which material possesses the optimal balance of resilience and beauty required for daily life near {{ block.settings.page.metafields.custom.location.value }}. We recommend a private consultation to compare samples before committing to your design.</p>",
+            "text": "<p>Yes. Because they are structurally identical to natural diamonds, they will pass traditional diamond tester tests. They are also graded by the same leading gemological institutes (such as IGI and GIA) using the same 4Cs criteria (Cut, Colour, Clarity, Carat).</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "If I am replacing an older ring, how can you ensure the restoration maintains its original integrity while modernising it?",
+            "accordion_header": "Can I design a bespoke ring using a lab diamond?",
             "open_by_default": false,
-            "text": "<p>We approach jewellery remodelling as an act of conservation and reimagining. Our artisans are meticulous in assessing vintage rings—whether they bear a significant family legacy or simply require structural reinforcement. </p><p>The preservation work takes place right here at our secure Chichester workshop, guaranteeing that the unique history and artisanal detail remain utterly undisturbed while adding modern refinement relevant to your life in {{ block.settings.page.metafields.custom.location.value }}.</p>",
+            "text": "<p>Certainly. Whether you use our 3D Online Studio or book a private consultation, you can select from our vast inventory of certified lab-grown diamonds to serve as the breathtaking centrepiece for your bespoke creation.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What guidance do you offer regarding sizing, especially if I am travelling or changing rings often?",
+            "accordion_header": "Why choose a lab diamond over a mined diamond?",
             "open_by_default": false,
-            "text": "<p>Ring sizing is perhaps the most delicate aspect of bespoke jewellery. Precision is paramount, as a millimetre makes all the difference in fit and comfort. We conduct thorough, measured fittings—which are vastly superior to estimation techniques. </p><p>To guarantee flawless accuracy for your purchase whether you are from {{ block.settings.page.metafields.custom.location.value }} or are passing through Chichester, we strongly advise booking an appointment at our Showroom.</p>",
+            "text": "<p>Many of our clients choose lab diamonds for their exceptional value, allowing them to maximize their budget for a larger or higher-clarity stone. Additionally, they are a completely conflict-free and environmentally conscious choice.</p>",
             "page": ""
           }
         },
         "accordion_BRezAN": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Can my new ring incorporate materials that relate specifically to the history or motifs of West Sussex/Hampshire?",
+            "accordion_header": "Do you offer home visits for lab diamond viewing in {{ block.settings.page.metafields.custom.location.value }}?",
             "open_by_default": false,
-            "text": "<p>Absolutely; your ring can become a wearable piece of local art and natural heritage. We specialise in drawing inspiration from regional iconography—be it subtle botanical details, historical architecture, or raw material sources prevalent near {{ block.settings.page.metafields.custom.location.value }}. </p><p>During a private consultation at our Showroom, we can review examples of work that successfully fuse your personal narrative with meaningful regional artistic motifs.</p>",
+            "text": "<p>Yes, we provide complimentary private home visits in {{ block.settings.page.metafields.custom.location.value }} for bespoke commissions. Our head jeweller will bring a selection of lab-grown diamonds to your home so you can view their brilliance in person before committing to a design.</p>",
             "page": ""
           }
         }
@@ -1085,7 +947,7 @@
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Frequently Asked Questions About Rings in {{ page.metafields.custom.location.value }}.",
+        "section_title": "Lab Diamond FAQs in {{ page.metafields.custom.location.value }}.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
@@ -1153,6 +1015,7 @@
         "text_6UDL77",
         "text_JyiVnm"
       ],
+      "disabled": true,
       "name": "Areas We Cover",
       "settings": {
         "title": "Rings Across the South of England.",
@@ -1175,6 +1038,27 @@
         "section_padding_bottom": 72,
         "colors": "white"
       }
+    },
+    "navigation_banner_tVMnwh": {
+      "type": "navigation-banner",
+      "name": "t:sections.blog--navigation-banner.presets.name",
+      "settings": {
+        "title": "Areas We Cover in {{ page.metafields.custom.service_area_region_name.value }}.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel around {{ page.metafields.custom.location.value }} to provide at home bespoke design consultations and delivery.</p>",
+        "section_header_alignment": "center",
+        "dynamic_menu_handle": "{{ page.metafields.custom.service_areas_menu | metafield_text }}",
+        "banner_linklist": "main-menu",
+        "collection_list": [],
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "nav_background_color": "#35382E",
+        "nav_text_color": "#FFFFFF",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "layout_style": "slider",
+        "navigation_position": "center",
+        "colors": "white"
+      }
     }
   },
   "order": [
@@ -1183,8 +1067,6 @@
     "rich_text_ManT8J",
     "featured_collection_UMtPLc",
     "gallery_slideshow_YDbVni",
-    "template_product_info_columns_J4Dp7X",
-    "template_product_info_columns_papGY4",
     "image_with_text_overlay_He6F4z",
     "rich_text_aFz4dn",
     "text_adverts_with_icon_qyqtQz",
@@ -1197,6 +1079,7 @@
     "1780059503e4e28014",
     "17787619721046fdd6",
     "faq_with_image_m73Xra",
-    "template_product_info_columns_eUEtia"
+    "template_product_info_columns_eUEtia",
+    "navigation_banner_tVMnwh"
   ]
 }
