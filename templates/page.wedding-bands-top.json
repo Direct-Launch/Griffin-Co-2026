@@ -19,7 +19,7 @@
         "text": "<p>At Griffin & Co in Chichester, discover exquisite, handcrafted wedding rings. The perfect circle, a timeless symbol of your lifelong promise. Discover our collections or create a bespoke band to perfectly complement your story.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
-        "text_overlapping_image": true,
+        "text_overlapping_image": false,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
         "show_image_mobile": true,
