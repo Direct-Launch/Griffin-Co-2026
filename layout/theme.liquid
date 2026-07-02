@@ -203,8 +203,8 @@
     {% sections 'header-group' %}
     {% sections 'overlay-group' %}
 
-    {% if settings.enable_breadcrumbs %}
-      {% unless template == 'index' or template == 'cart' or template == 'search' or template == 'blog' %}
+{% if settings.enable_breadcrumbs %}
+      {% unless template == 'index' or template == 'cart' or template == 'search' or template == 'blog' or template.name == 'article' %}
         {% unless template.name == 'collection' or template == 'list-collections' or template.name == 'product' %}
           {{ 'component-breadcrumbs.min.css' | asset_url | stylesheet_tag }}
           <div id="breadcrumbs" class="wrapper-padded wrapper-spacing--h">
