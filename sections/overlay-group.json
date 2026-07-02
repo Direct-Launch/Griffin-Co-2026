@@ -63,12 +63,37 @@
             "link": "shopify://collections/jewellery-sets",
             "button_label": "Shop now"
           }
+        },
+        "offer_M6XGeA": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_9.png",
+            "image_position": "left",
+            "title": "Gifts Under £500",
+            "description": "<p>Find the ideal gift without compromise with Griffin & Co Jewellery's Gifts Under £500 collection.</p>",
+            "discount_code": "",
+            "show_countdown": false,
+            "end_date": "",
+            "end_time": "",
+            "show_timer_labels": true,
+            "timer_expiry_action": "leave_at_zero",
+            "link": "shopify://collections/gifts-under-500",
+            "button_label": "View All"
+          }
+        },
+        "product_DAwDGz": {
+          "type": "product",
+          "settings": {
+            "product": "trillion-pear-amethyst-pendant-earrings-set-9ct-gold"
+          }
         }
       },
       "block_order": [
         "offer-0",
         "offer_4xNYhH",
-        "offer_fAifFK"
+        "offer_fAifFK",
+        "offer_M6XGeA",
+        "product_DAwDGz"
       ],
       "settings": {
         "show_icon": true,
