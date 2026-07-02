@@ -65,9 +65,7 @@
         "related_posts_A4eGJ6",
         "next_previous_WF6Ni8"
       ],
-      "custom_css": [
-        "#breadcrumbs.wrapper-padded {margin: 0; padding-top: 16px; padding-bottom: 16px; display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "show_image": true,
         "height_desktop": "550px",
