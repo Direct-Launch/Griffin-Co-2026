@@ -81,6 +81,22 @@
             "button_label": "View All"
           }
         },
+        "offer_4xPWNb": {
+          "type": "offer",
+          "settings": {
+            "image_position": "above",
+            "title": "Jewellery Offers",
+            "description": "<p>Discover exclusive deals available for a limited time only.</p>",
+            "discount_code": "",
+            "show_countdown": false,
+            "end_date": "",
+            "end_time": "",
+            "show_timer_labels": true,
+            "timer_expiry_action": "leave_at_zero",
+            "link": "shopify://collections/sale",
+            "button_label": "View Discounts"
+          }
+        },
         "product_DAwDGz": {
           "type": "product",
           "settings": {
@@ -93,6 +109,7 @@
         "offer_4xNYhH",
         "offer_fAifFK",
         "offer_M6XGeA",
+        "offer_4xPWNb",
         "product_DAwDGz"
       ],
       "settings": {
