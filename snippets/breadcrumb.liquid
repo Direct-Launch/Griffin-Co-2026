@@ -1,4 +1,9 @@
-<!-- /snippets/breadcrumb.liquid -->
+{% comment %}
+  Hide breadcrumbs on specific templates. 
+  Add or remove template names in the 'unless' statement below.
+{% endcomment %}
+{% unless template.name == 'index' or template.name == 'collection' %}
+
 {% comment %}
   Documentation - http://docs.shopify.com/support/your-website/navigation/creating-a-breadcrumb-navigation
 {% endcomment %}
@@ -76,3 +81,5 @@
 
   {% endif %}
 </nav>
+
+{% endunless %}
