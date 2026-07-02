@@ -1,0 +1,1198 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_image_with_text_bTYMM7": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Rings_16b6bed6-9bcf-4dea-beb7-9f84821eec31.png",
+        "layout": "right",
+        "title": "Rings in {{ page.metafields.custom.location.value }}.",
+        "text": "<p>The premier destination for exceptional rings in {{ page.metafields.custom.location.value }}.</p><p>Explore our curated collections, bespoke design services, and expert craftsmanship right here in the heart of Chichester.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "shopify://collections/rings",
+        "button_label_1": "View Collections",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "shopify://pages/custom-jewellery-builder-online",
+        "button_label_2": "Design Rings Online",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "scrolling_banner_yQGBqH": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_wU7jRg": {
+          "type": "text",
+          "settings": {
+            "text": "Crafted in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_ifRMFb": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_UwDBdj": {
+          "type": "text",
+          "settings": {
+            "text": "Certified Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_Q6pTBK": {
+          "type": "text",
+          "settings": {
+            "text": "30 Days Return",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_wU7jRg",
+        "text_ifRMFb",
+        "text_UwDBdj",
+        "text_Q6pTBK"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
+      }
+    },
+    "rich_text_ManT8J": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VPxYPE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Serving {{ page.metafields.custom.location.value }} with Exceptional Rings.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_pHNrDN": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Located on South Street, Griffin & Co offers an unparalleled selection of rings for every occasion. </p><p>Whether you are marking a new chapter with an engagement ring, sealing a promise with a wedding band, or treating yourself to a statement gemstone piece, our <strong>Chichester showroom</strong> is where your journey begins.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_VPxYPE",
+        "richtext_pHNrDN"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "featured_collection_UMtPLc": {
+      "type": "featured-collection",
+      "name": "t:sections.collection--featured-collection.presets.name",
+      "settings": {
+        "title": "Our Newest Rings.",
+        "description": "",
+        "section_header_alignment": "left",
+        "collection": "rings",
+        "show_highlight": false,
+        "highlight_position": "below_image",
+        "highlight_icon": "none",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "show_view_all": true,
+        "button_position": "above_products",
+        "button_alignment": "right",
+        "buttons_style": "outlined",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "layout_style": "slider",
+        "products_to_show": 15,
+        "grid-desktop": 5,
+        "grid-mobile": "2",
+        "colors": "white"
+      }
+    },
+    "gallery_slideshow_YDbVni": {
+      "type": "gallery-slideshow",
+      "blocks": {
+        "image_W446Ue": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSOC08P_1.jpg",
+            "link": "shopify://collections/engagement-rings",
+            "button_label": "",
+            "subheading": "Solitaire, Halo, Trilogy & Lab-Grown",
+            "title": "Engagement Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TqAzw3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WR0063Y__q-90.jpg",
+            "link": "shopify://collections/wedding-rings",
+            "button_label": "",
+            "subheading": "Classic, Diamond Set & Shapes Bands",
+            "title": "Wedding Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UqFNLm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/b5606.jpg",
+            "link": "shopify://collections/plain-rings",
+            "button_label": "",
+            "subheading": "Minimalist bands in Platinum and Gold",
+            "title": "Plain Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_93DFPn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/wp248_ah.jpg",
+            "link": "shopify://collections/eternity-rings",
+            "button_label": "",
+            "subheading": "The ultimate symbol of enduring love",
+            "title": "Eternity Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xNpPnQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SL8276_BS__WG_0.jpg",
+            "link": "shopify://collections/cocktail",
+            "button_label": "",
+            "subheading": "Bold, colourful designs for evening wear",
+            "title": "Cocktail Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_EwB9QE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/XYR8333_WG_0Platinum.jpg",
+            "link": "shopify://collections/eternity-rings",
+            "button_label": "",
+            "subheading": "Eye-catching designs that stand out",
+            "title": "Statement Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_D4zFBT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SR1055_WG_9CT_YG_0.jpg",
+            "link": "shopify://collections/signet-rings",
+            "button_label": "",
+            "subheading": "Family Crests, Custom Designs or Set with Gemstones",
+            "title": "Signet Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PGgY39": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BJR0309_WG_18-2_WG_0.jpg",
+            "link": "shopify://collections/diamond-rings",
+            "button_label": "",
+            "subheading": "Brilliance in both ethically mined and lab-grown stones.",
+            "title": "Lab & Natural Diamond",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CyyQah": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SR1122_PKT-YG__YG_0.jpg-69d1f271-7b5c-4eb2-a59b-4176276dd8dc.webp",
+            "link": "shopify://collections/gemstone-earrings",
+            "button_label": "",
+            "subheading": "Sapphires, Rubies, Emeralds & More",
+            "title": "Gemstone Rings",
+            "text_color": "#4a4a4a",
+            "overlay_color": "#242424",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_W446Ue",
+        "image_TqAzw3",
+        "image_UqFNLm",
+        "image_93DFPn",
+        "image_xNpPnQ",
+        "image_EwB9QE",
+        "image_D4zFBT",
+        "image_PGgY39",
+        "image_CyyQah"
+      ],
+      "name": "Collections",
+      "settings": {
+        "title": "Our Rings Collections.",
+        "description": "<p>Handcrafted elegance for every occasion.</p>",
+        "section_header_alignment": "left",
+        "image_shape": "natural",
+        "layout_style_desktop": "grid",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "text_position_desktop": "bottom_left",
+        "show_on_hover": false,
+        "layout_style_mobile": "grid",
+        "navigation_mobile": "dots",
+        "images_per_row_mobile": "1",
+        "text_position_mobile": "bottom_left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_width": "full",
+        "remove_spacing": false,
+        "section_padding_top": 72,
+        "section_padding_bottom": 150,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_J4Dp7X": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_MjRteG": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
+            "grid_image_size": "square",
+            "heading": "Sterling Silver Rings",
+            "text": "<p>Affordable & Light.</p>",
+            "button_link": "shopify://collections/silver-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_bi4K97": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Yellow_Gold_1ed00eaa-e401-4532-a218-e4b05be70a43.png",
+            "grid_image_size": "square",
+            "heading": "Yellow Gold Rings",
+            "text": "<p>Classic & Warm.</p>",
+            "button_link": "shopify://collections/yellow-gold-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_UaFRzt": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/White_Gold_65768626-f8f4-484e-9d3e-d6e7e07b262c.png",
+            "grid_image_size": "square",
+            "heading": "White Gold Rings",
+            "text": "<p>Bright & Modern.</p>",
+            "button_link": "shopify://collections/white-gold-rings",
+            "button_text": ""
+          }
+        },
+        "image_and_text_bidbYD": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Rose_Gold_ab03a378-5a85-47c6-8f46-27db6fe694fa.png",
+            "grid_image_size": "square",
+            "heading": "Rose Gold Rings",
+            "text": "<p>Romantic & Vintage</p>",
+            "button_link": "shopify://collections/rose-gold-jewellery",
+            "button_text": ""
+          }
+        },
+        "image_and_text_PUWPfc": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Platinum_94bd0acc-6ba7-412a-804b-b034e18eec8f.png",
+            "grid_image_size": "square",
+            "heading": "Platinum Rings",
+            "text": "<p>Naturally White & Durable.</p>",
+            "button_link": "shopify://collections/platinum-rings",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_MjRteG",
+        "image_and_text_bi4K97",
+        "image_and_text_UaFRzt",
+        "image_and_text_bidbYD",
+        "image_and_text_PUWPfc"
+      ],
+      "name": "Metal",
+      "settings": {
+        "title": "Find Rings by Metal Type.",
+        "description": "",
+        "section_header_alignment": "center",
+        "maximum_width": 75,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 5,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_papGY4": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_EhJQ99": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Lab_Grown_Diamond_Engagement_Rings.jpg",
+            "grid_image_size": "wide",
+            "heading": "Women's Rings",
+            "text": "<p>Discover a world of elegance. From delicate diamond solitaires and timeless eternity bands to striking gemstone cocktail rings, our curated ring collection celebrates feminine grace with meticulous craftsmanship.</p>",
+            "button_link": "shopify://collections/womens-rings",
+            "button_text": "Shop Women's Rings"
+          }
+        },
+        "image_and_text_kDH8xb": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Men_s_Rings.jpg",
+            "grid_image_size": "wide",
+            "heading": "Men's Rings",
+            "text": "<p>Sophisticated style for the modern gentleman. Explore our range of classic wedding bands, custom-engraved signet rings, and distinctive statement pieces, hand-crafted to add a touch of refined distinction to your everyday look.</p>",
+            "button_link": "shopify://collections/mens-rings",
+            "button_text": "Shop Men's Rings"
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_EhJQ99",
+        "image_and_text_kDH8xb"
+      ],
+      "name": "Shop by Department",
+      "settings": {
+        "title": "Shop by Department.",
+        "description": "<p>Curated collections for every style.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "button_background_color": "#35382e",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 2,
+        "vertical_alignment": "center",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_He6F4z": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_AjnWUp": {
+          "type": "heading",
+          "settings": {
+            "title": "Complete Your Look.",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_CHnDAB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Create a harmonious look with our perfectly matched ring sets. From \"Bridal Suites\" where the engagement ring and wedding band are designed to interlock seamlessly, to ring sets featuring matching earrings or pendants.</p>",
+            "font_size_desktop": 130,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_CQf4nf": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://collections/jewellery-sets",
+            "first_button_label": "View Jewellery Sets",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "outlined",
+            "override_button_colors": true,
+            "buttons_background": "#ffffff",
+            "buttons_text": "#302f2f",
+            "buttons_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_AjnWUp",
+        "text_CHnDAB",
+        "button_CQf4nf"
+      ],
+      "custom_css": [],
+      "name": "Jewellery Sets",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Diamond_Jewellery.png",
+        "height_desktop": "750px",
+        "text_position_desktop": "center",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 75,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#2b2b2b",
+        "image_overlay_opacity": 35
+      }
+    },
+    "rich_text_aFz4dn": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_wTT9Jr": {
+          "type": "heading",
+          "settings": {
+            "heading": "Expert Ring Services for {{ page.metafields.custom.location.value }} Clients.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_wHdiHi": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Professional care, bespoke creation, and craftsmanship for your most treasured pieces. Visit us in Chichester</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_wTT9Jr",
+        "richtext_wHdiHi"
+      ],
+      "name": "Services Title",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_qyqtQz": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_3ch9C4": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Bespoke Engagement Rings",
+            "text": "<p>Design a ring as unique as your love story. Our Chichester designers guide you from sketch to sparkle, creating the perfect symbol of your commitment.</p>",
+            "link": "{{ page.metafields.custom.service_area_engagement_rings.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_chxNe3": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Bespoke Wedding Rings",
+            "text": "<p>Handcrafted bands tailored to fit perfectly alongside your engagement ring. Choose your metal, finish, and engraving for a truly personal touch.</p>",
+            "link": "{{ page.metafields.custom.service_area_wedding_bands.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_38Fdtz": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Ring Repairs",
+            "text": "<p>Expert restoration for damaged or worn rings. From claw re-tipping and stone replacement to shank repairs, we restore your jewellery's integrity.</p>",
+            "link": "{{ page.metafields.custom.service_area_repairs.value }}",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_3ch9C4",
+        "text_advert_chxNe3",
+        "text_advert_38Fdtz"
+      ],
+      "name": "Services #1",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_yf3Gzx": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_rtMTRw": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Ring Remodelling",
+            "text": "<p>Breathe new life into heirlooms. We can melt down old gold and reset gemstones to reimagine unworn jewellery into modern treasures.</p>",
+            "link": "{{ page.metafields.custom.service_area_remodelling.value }}",
+            "button_label": ""
+          }
+        },
+        "text_advert_PPWjYr": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Custom Signet Rings",
+            "text": "<p>Create a future heirloom. We offer traditional seal engraving for family crests or deep surface engraving for initials on solid gold or platinum rings.</p>",
+            "link": "shopify://pages/custom-signet-rings-with-family-crests",
+            "button_label": ""
+          }
+        },
+        "text_advert_ebWUWn": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Home Visits in {{ page.metafields.custom.location.value }}",
+            "text": "<p>Personalised service in comfort. Our experts can visit you in {{ page.metafields.custom.location.value }} and surrounding areas for consultations and valuations.</p>",
+            "link": "shopify://pages/home-visits",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_rtMTRw",
+        "text_advert_PPWjYr",
+        "text_advert_ebWUWn"
+      ],
+      "name": "Services #2",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "left",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "rotating_text_WAR4jy": {
+      "type": "rotating-text",
+      "blocks": {
+        "text_static_A9Wwff": {
+          "type": "text_static",
+          "settings": {
+            "text_static": "<p>It's time to create the perfect</p>",
+            "max_width_desktop": 100,
+            "max_width_mobile": 100,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_dynamic_pVKwQM": {
+          "type": "text_dynamic",
+          "settings": {
+            "text_dynamic": "Engagement Ring., Wedding Band., Plain Ring., Eternity Ring., Cocktail Ring., Statement Ring., Signet Ring., Lab-Diamond Ring., Gemstone Ring.,",
+            "animation_timing": 2000,
+            "rotation_interval": 5000,
+            "text_color": "rgba(0,0,0,0)"
+          }
+        }
+      },
+      "block_order": [
+        "text_static_A9Wwff",
+        "text_dynamic_pVKwQM"
+      ],
+      "settings": {
+        "height_desktop": "original",
+        "text_position_desktop": "center",
+        "text_size_desktop": "h2",
+        "height_mobile": "original",
+        "text_position_mobile": "center",
+        "text_size_mobile": "h3-mobile",
+        "section_width": "full",
+        "section_margin_top": 150,
+        "section_margin_bottom": 15,
+        "colors": "white"
+      }
+    },
+    "collage_pjyRCT": {
+      "type": "collage",
+      "blocks": {
+        "image_PRbWhr": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "The Showroom Experience.",
+            "text": "",
+            "url": "shopify://pages/schedule-an-appointment",
+            "button_label": "Meet Our Jewellery Designers",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_w3G84p": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/close-up-of-9ct-white-gold-lab-grown-diamond-nine-stone-ring-fulfily-0.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Online Builder.",
+            "text": "",
+            "url": "/",
+            "button_label": "Design Your Jewellery Online",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#35382e",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_PRbWhr",
+        "image_w3G84p"
+      ],
+      "name": "Showroom & Online Builder",
+      "settings": {
+        "title": "",
+        "description": "<p>We offer three distinct pathways to your perfect piece, ensuring a deeply personal experience tailored to your lifestyle.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "width_1": "2",
+        "height_1": "2",
+        "width_2": "2",
+        "height_2": "2",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
+    },
+    "image_with_text_YkYaKe": {
+      "type": "image-with-text",
+      "name": "The Studio Experience at Home",
+      "settings": {
+        "image": "shopify://shop_images/IMG_8786.webp",
+        "layout": "right",
+        "title": "View Rings From Your Home.",
+        "text": "<h5>Expert Gemstone Curation</h5><p>We bring a curated selection of GIA-certified diamonds and rare gemstones, allowing you to compare fire, brilliance, and colour in your own home lighting in {{ page.metafields.custom.location.value }}.</p><h5>CAD & Design Visuals</h5><p>Our designers arrive with photorealistic 3D renders and hand sketches of bespoke rings, ensuring we can refine every curve and detail of your commission in real-time.</p><h5>Metal & Material Samples</h5><p>Experience the tactile difference between 18ct yellow gold, platinum, and rose gold with our comprehensive sampling kit, ensuring the perfect tone for your piece.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": true,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request a Consultation",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_ALphbN": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_Rz6UPM": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Initial_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "The Initial Inquiry",
+            "text": "<p>A brief introductory call to understand your vision, requirements, and the scope of the piece or service you require. We listen to your story first.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_4i46Y8": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Private_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "The Private Consultation",
+            "text": "<p>Our designer visits your home with a curated selection of materials and tools to refine the design, specifications, and gemstones in complete privacy.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_t8w6Th": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Master_Craftmanship_2.webp",
+            "grid_image_size": "square",
+            "heading": "Master Craftsmanship",
+            "text": "<p>Your piece is handcrafted in our studio to the highest standards and delivered back to you for a final, perfect fitting and unveiling.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_Rz6UPM",
+        "image_and_text_4i46Y8",
+        "image_and_text_t8w6Th"
+      ],
+      "name": "The Home Visit Process",
+      "settings": {
+        "title": "From Your Home to Our Atelier.",
+        "description": "<p>A seamless transition from vision to heirloom.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 3,
+        "vertical_alignment": "top",
+        "text_alignment": "center",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "rich_text_pBdiyA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_q34xXf": {
+          "type": "heading",
+          "settings": {
+            "heading": "Rings From OUR INSTAGRAM.",
+            "heading--text-size": "h4",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_XezrDU": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular ring highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text_size": 100,
+            "text_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_q34xXf",
+        "richtext_XezrDU"
+      ],
+      "name": "Instagram Feed Title",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "1780059503e4e28014": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_nzWHBA": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "47332",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_nzWHBA"
+      ],
+      "name": "Instagram Feed",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
+    },
+    "17787619721046fdd6": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_testimonials_carousel_a43rFx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "show_sample_reviews": false,
+            "reviews_selection": "all",
+            "products": [],
+            "star_rating": "5_star",
+            "max_reviews": 30,
+            "quote_marks_size": "small",
+            "product_name_text_size": "small",
+            "verified_badge_style": "text",
+            "card_height": "extra_tall",
+            "text_size": "extra_small",
+            "stars_size": "small",
+            "arrows_position": "hidden",
+            "max_width": 1300,
+            "corner_styling": "square",
+            "quote_marks_style": "serif",
+            "card_color": "#f8f8f8",
+            "stars_and_quote_marks_color": "#ffdda6",
+            "text_color": "#ffffff",
+            "arrows_color": "#ffffff",
+            "show_border": false,
+            "border_color": "#e8e8e8",
+            "show_drop_shadow": false,
+            "transition_speed": 4,
+            "header_text": "Consultation Experiences.",
+            "show_average_rating": true,
+            "rating_display": "default"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_testimonials_carousel_a43rFx"
+      ],
+      "custom_css": [
+        ".jdgm-star {color: #ffdda6 !important;}",
+        ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
+        "div {background: #004225;}",
+        ".jdgm-title {font-size: 22px; font-family: var(--body-font-stack); overflow: visible; -webkit-line-clamp: 2;}"
+      ],
+      "name": "Reviews",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
+    "faq_with_image_m73Xra": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_GhRGXt": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How can I commission a bespoke ring design that perfectly captures my unique aesthetic?",
+            "open_by_default": false,
+            "text": "<p>A commitment ring, engagement band, or statement piece should feel intrinsically 'you.' We guide clients through the initial concepts, working with sketches and moulds to ensure every curve and setting is uniquely designed by hand within our workshop. </p><p>To begin this deeply personal journey toward realising your bespoke vision in ring form, an appointment at our Showroom is essential for any client based in {{ block.settings.page.metafields.custom.location.value }}.</p>",
+            "page": ""
+          }
+        },
+        "accordion_HmVJLJ": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Do you provide guidance on choosing the right metal (Platinum vs. Gold) for a ring designed to be worn every day?",
+            "open_by_default": false,
+            "text": "<p>The choice of metal heavily influences both longevity and wearability. Platinum offers exceptional durability while maintaining its lustre, whereas various grades of gold offer unique warmth and colour tones suitable for diverse skin types and tastes. </p><p>Our master goldsmiths are adept at advising on which material possesses the optimal balance of resilience and beauty required for daily life near {{ block.settings.page.metafields.custom.location.value }}. We recommend a private consultation to compare samples before committing to your design.</p>",
+            "page": ""
+          }
+        },
+        "accordion_xFhTbU": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "If I am replacing an older ring, how can you ensure the restoration maintains its original integrity while modernising it?",
+            "open_by_default": false,
+            "text": "<p>We approach jewellery remodelling as an act of conservation and reimagining. Our artisans are meticulous in assessing vintage rings—whether they bear a significant family legacy or simply require structural reinforcement. </p><p>The preservation work takes place right here at our secure Chichester workshop, guaranteeing that the unique history and artisanal detail remain utterly undisturbed while adding modern refinement relevant to your life in {{ block.settings.page.metafields.custom.location.value }}.</p>",
+            "page": ""
+          }
+        },
+        "accordion_pxHnfz": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What guidance do you offer regarding sizing, especially if I am travelling or changing rings often?",
+            "open_by_default": false,
+            "text": "<p>Ring sizing is perhaps the most delicate aspect of bespoke jewellery. Precision is paramount, as a millimetre makes all the difference in fit and comfort. We conduct thorough, measured fittings—which are vastly superior to estimation techniques. </p><p>To guarantee flawless accuracy for your purchase whether you are from {{ block.settings.page.metafields.custom.location.value }} or are passing through Chichester, we strongly advise booking an appointment at our Showroom.</p>",
+            "page": ""
+          }
+        },
+        "accordion_BRezAN": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Can my new ring incorporate materials that relate specifically to the history or motifs of West Sussex/Hampshire?",
+            "open_by_default": false,
+            "text": "<p>Absolutely; your ring can become a wearable piece of local art and natural heritage. We specialise in drawing inspiration from regional iconography—be it subtle botanical details, historical architecture, or raw material sources prevalent near {{ block.settings.page.metafields.custom.location.value }}. </p><p>During a private consultation at our Showroom, we can review examples of work that successfully fuse your personal narrative with meaningful regional artistic motifs.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_GhRGXt",
+        "accordion_HmVJLJ",
+        "accordion_xFhTbU",
+        "accordion_pxHnfz",
+        "accordion_BRezAN"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Frequently Asked Questions About Rings in {{ page.metafields.custom.location.value }}.",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/DSC05140_Large_f091f4f7-a5a9-4be9-b227-0a63ff8e3109.jpg",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_eUEtia": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_WGKABc": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/rings-west-sussex\" title=\"Rings in West Sussex\">West Sussex</a></h5><p><a href=\"/pages/rings-arundel\" title=\"Rings in Arundel\">Arundel</a>, <a href=\"/pages/rings-bognor-regis\" title=\"Rings in Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/rings-bosham\" title=\"Rings in Bosham\">Bosham</a>, <a href=\"/pages/rings-burgess-hill\" title=\"Rings in Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/rings-chichester\" title=\"Rings in Chichester\">Chichester</a>, <a href=\"/pages/rings-crawley\" title=\"Rings in Crawley\">Crawley</a>, <a href=\"/pages/rings-east-grinstead\" title=\"Rings in East Grinstead\">East Grinstead</a>, <a href=\"/pages/rings-haywards-heath\" title=\"Rings in Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/rings-horsham\" title=\"Rings in Horsham\">Horsham</a>, <a href=\"/pages/rings-littlehampton\" title=\"Rings in Littlehampton\">Littlehampton</a>, <a href=\"/pages/rings-shoreham-by-sea\" title=\"Rings in Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/rings-worthing\" title=\"Rings in Worthing\">Worthing.</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_imri8x": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/rings-hampshire\" title=\"Rings in Hampshire\">Hampshire</a></h5><p><a href=\"/pages/rings-aldershot\" title=\"Rings in Aldershot\">Aldershot</a>, <a href=\"/pages/rings-andover\" title=\"Rings in Andover\">Andover</a>, <a href=\"/pages/rings-basingstoke\" title=\"Rings in Basingstoke\">Basingstoke</a>, <a href=\"/pages/rings-farnborough\" title=\"Rings in Farnborough\">Farnborough</a>, <a href=\"/pages/rings-gosport\" title=\"Rings in Gosport\">Gosport</a>, <a href=\"/pages/rings-horndean\" title=\"Rings in Horndean\">Horndean</a>, <a href=\"/pages/rings-portsmouth\" title=\"Rings in Portsmouth\">Portsmouth</a>, <a href=\"/pages/rings-southampton\" title=\"Rings in Southampton\">Southampton</a>, <a href=\"/pages/rings-winchester\" title=\"Rings in Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_6UDL77": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/rings-surrey\" title=\"Rings in Surrey\">Surrey</a></h5><p><a href=\"/pages/rings-camberley\" title=\"Camberley\">Camberley</a>, <a href=\"/pages/rings-epsom\" title=\"Epsom\">Epsom</a>, <a href=\"/pages/rings-esher\" title=\"Esher\">Esher</a>, <a href=\"/pages/rings-ewell\" title=\"Ewell\">Ewell</a>, <a href=\"/pages/rings-guildford\" title=\"Guildford\">Guildford</a>, <a href=\"/pages/rings-leatherhead\" title=\"Leatherhead\">Leatherhead</a>, <a href=\"/pages/rings-redhill\" title=\"Redhill\">Redhill</a>, <a href=\"/pages/rings-walton-on-thames\" title=\"Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/rings-weybridge\" title=\"Weybridge\">Weybridge</a>, <a href=\"/pages/rings-woking\" title=\"Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_JyiVnm": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/rings-greater-london\" title=\"Rings in Greater London\">Greater London</a></h5><p><a href=\"/pages/rings-barnet\" title=\"Rings in Barnet\">Barnet</a>, <a href=\"/pages/rings-brent\" title=\"Rings in Brent\">Brent</a>, <a href=\"/pages/rings-bromley\" title=\"Rings in Bromley\">Bromley</a>, <a href=\"/pages/rings-croydon\" title=\"Rings in Croydon\">Croydon</a>, <a href=\"/pages/rings-ealing\" title=\"Rings in Ealing\">Ealing</a>, <a href=\"/pages/rings-enfield\" title=\"Rings in Enfield\">Enfield</a>, <a href=\"/pages/rings-lambeth\" title=\"Rings in Lambeth\">Lambeth</a>, <a href=\"/pages/rings-newham\" title=\"Rings in Newham\">Newham</a>, <a href=\"/pages/rings-hatton-garden\" title=\"Rings in Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/rings-tower-hamlets\" title=\"Rings in Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/rings-wandsworth\" title=\"Rings in Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_WGKABc",
+        "text_imri8x",
+        "text_6UDL77",
+        "text_JyiVnm"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Rings Across the South of England.",
+        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer ring design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "hero_image_with_text_bTYMM7",
+    "scrolling_banner_yQGBqH",
+    "rich_text_ManT8J",
+    "featured_collection_UMtPLc",
+    "gallery_slideshow_YDbVni",
+    "template_product_info_columns_J4Dp7X",
+    "template_product_info_columns_papGY4",
+    "image_with_text_overlay_He6F4z",
+    "rich_text_aFz4dn",
+    "text_adverts_with_icon_qyqtQz",
+    "text_adverts_with_icon_yf3Gzx",
+    "rotating_text_WAR4jy",
+    "collage_pjyRCT",
+    "image_with_text_YkYaKe",
+    "template_product_info_columns_ALphbN",
+    "rich_text_pBdiyA",
+    "1780059503e4e28014",
+    "17787619721046fdd6",
+    "faq_with_image_m73Xra",
+    "template_product_info_columns_eUEtia"
+  ]
+}
