@@ -692,6 +692,60 @@
     },
     "faq_VL9TDj": {
       "type": "faq",
+      "blocks": {
+        "tab_content_exGLQH": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What distinguishes Griffin & Co from traditional fine jewellery retailers?",
+            "open_by_default": false,
+            "text": "<p>The fundamental difference lies in our identity as true makers. </p><p>While many retailers simply source pieces from third parties, we house a fully-equipped workshop on-site in Chichester. </p><p>This means every creation is forged, sculpted, and refined by our own master goldsmiths. </p><p>From the initial sketch to the final polish, your treasured possessions never leave our care—ensuring a level of meticulous precision and security that is rare in the modern industry.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_NjpTqp": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Can I commission a bespoke piece of jewellery if I have a specific vision?",
+            "open_by_default": false,
+            "text": "<p>Indeed. We specialise in bespoke commissions that translate personal narratives into enduring heirlooms. </p><p>To accommodate our clients globally and locally, we offer a Dual Journey: you may step into the role of the designer via our <strong>3D Online Design Studio</strong>—visualising your piece through photorealistic renders—or book a <strong>private consultation</strong> at our Chichester showroom to collaborate directly with a master craftsman at the bench.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_dGp4MN": {
+          "type": "tab_content",
+          "settings": {
+            "question": "What are the ethical standards for the materials used across your collections?",
+            "open_by_default": false,
+            "text": "<p>We believe that true luxury must be responsible. Across all our collections, we use <strong>100% recycled precious metals</strong> and Kimberley Process-certified conflict-free natural diamonds. </p><p>For those seeking a modern, sustainable alternative, we also offer premium lab-grown diamonds. This commitment to conscious sourcing ensures that every piece we create is as ethical as it is exceptional.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_xLfU7L": {
+          "type": "tab_content",
+          "settings": {
+            "question": "Do you offer services to restore or remodel existing family heirlooms?",
+            "open_by_default": false,
+            "text": "<p>Absolutely. We find great passion in breathing new life into sentimental pieces. </p><p>Whether it is a meticulous restoration of a vintage ring or the complete remodelling of a family heirloom into a contemporary silhouette, our on-site workshop ensures the process is handled with absolute precision. </p><p>We invite you to visit our boutique for a complimentary assessment of your piece.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_xwDJyH": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How can I begin the journey of finding or creating the perfect piece of jewellery?",
+            "open_by_default": false,
+            "text": "<p>Depending on your preference, you may choose the path that best suits your lifestyle. </p><p>For a high-touch experience, you can book an in-store consultation at our Chichester showroom or arrange a <strong>Private Home Visit</strong> across London, Surrey, Hampshire, and West Sussex. </p><p>For those who prefer a tech-forward approach, our <strong>3D Online Design Studio</strong> allows you to explore, customise, and refine your vision from anywhere in the world.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "tab_content_exGLQH",
+        "tab_content_NjpTqp",
+        "tab_content_dGp4MN",
+        "tab_content_xLfU7L",
+        "tab_content_xwDJyH"
+      ],
       "name": "t:sections.faq.presets.name",
       "settings": {
         "title": "Frequently asked questions About Fine Jewellery.",
