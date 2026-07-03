@@ -765,7 +765,7 @@
           "name": "Greater London",
           "settings": {
             "heading": "",
-            "text": "{{ collection.metafields.custom.greater_london_links | metafield_tag }}",
+            "text": "<h5><a href=\"/pages/greater-london\" title=\"Greater London\">Greater London</a></h5><p><a href=\"https://griffinfinejewellery.com/pages/battersea\">Battersea</a>, <a href=\"https://griffinfinejewellery.com/pages/barnet\">Barnet, </a><a href=\"https://griffinfinejewellery.com/pages/bromley\">Bromley, </a><a href=\"https://griffinfinejewellery.com/pages/chelsea\">Chelsea, </a><a href=\"https://griffinfinejewellery.com/pages/clapham\">Clapham</a>, <a href=\"https://griffinfinejewellery.com/pages/croydon\">Croydon</a>, <a href=\"https://griffinfinejewellery.com/pages/ealing\">Ealing, </a><a href=\"https://griffinfinejewellery.com/pages/enfield\">Enfield</a>, <a href=\"https://griffinfinejewellery.com/pages/fulham\">Fulham</a>, <a href=\"https://griffinfinejewellery.com/pages/farringdon\">Farringdon</a>, <a href=\"https://griffinfinejewellery.com/pages/greenwich\">Greenwich, </a><a href=\"https://griffinfinejewellery.com/pages/hatton-garden\">Hatton Garden, London</a>, <a href=\"https://griffinfinejewellery.com/pages/kingston\">Kingston, </a><a href=\"https://griffinfinejewellery.com/pages/lambeth\">Lambeth, </a><a href=\"https://griffinfinejewellery.com/pages/newham\">Newham</a> <a href=\"https://griffinfinejewellery.com/pages/tower-hamlets\">Tower Hamlets, </a><a href=\"https://griffinfinejewellery.com/pages/richmond\">Richmond, </a><a href=\"https://griffinfinejewellery.com/pages/wandsworth\">Wandsworth</a></p>",
             "button_link": "",
             "button_text": ""
           }
