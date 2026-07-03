@@ -1037,72 +1037,24 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_eUEtia": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "text_WGKABc": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "text": "<h5><a href=\"/pages/wristwear-west-sussex\" title=\"Wristwear in West Sussex\">West Sussex</a></h5><p><a href=\"/pages/wristwear-arundel\" title=\"Wristwear in Arundel\">Arundel</a>, <a href=\"/pages/wristwear-bognor-regis\" title=\"Wristwear in Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/wristwear-bosham\" title=\"Wristwear in Bosham\">Bosham</a>, <a href=\"/pages/wristwear-burgess-hill\" title=\"Wristwear in Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/wristwear-chichester\" title=\"Wristwear in Chichester\">Chichester</a>, <a href=\"/pages/wristwear-crawley\" title=\"Wristwear in Crawley\">Crawley</a>, <a href=\"/pages/wristwear-east-grinstead\" title=\"Wristwear in East Grinstead\">East Grinstead</a>, <a href=\"/pages/wristwear-haywards-heath\" title=\"Wristwear in Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/wristwear-horsham\" title=\"Wristwear in Horsham\">Horsham</a>, <a href=\"/pages/wristwear-littlehampton\" title=\"Wristwear in Littlehampton\">Littlehampton</a>, <a href=\"/pages/wristwear-shoreham-by-sea\" title=\"Wristwear in Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/wristwear-worthing\" title=\"Wristwear in Worthing\">Worthing</a>.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_imri8x": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "text": "<h5><a href=\"/pages/wristwear-hampshire\" title=\"Wristwear in Hampshire\">Hampshire</a></h5><p><a href=\"/pages/wristwear-aldershot\" title=\"Wristwear in Aldershot\">Aldershot</a>, <a href=\"/pages/wristwear-andover\" title=\"Wristwear in Andover\">Andover</a>, <a href=\"/pages/wristwear-basingstoke\" title=\"Wristwear in Basingstoke\">Basingstoke</a>, <a href=\"/pages/wristwear-farnborough\" title=\"Wristwear in Farnborough\">Farnborough</a>, <a href=\"/pages/wristwear-gosport\" title=\"Wristwear in Gosport\">Gosport</a>, <a href=\"/pages/wristwear-horndean\" title=\"Wristwear in Horndean\">Horndean</a>, <a href=\"/pages/wristwear-portsmouth\" title=\"Wristwear in Portsmouth\">Portsmouth</a>, <a href=\"/pages/wristwear-southampton\" title=\"Wristwear in Southampton\">Southampton</a>, <a href=\"/pages/wristwear-winchester\" title=\"Wristwear in Winchester\">Winchester</a>.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_6UDL77": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "text": "<h5><a href=\"/pages/wristwear-surrey\" title=\"Wristwear in Surrey\">Surrey</a></h5><p><a href=\"/pages/wristwear-camberley\" title=\"Wristwear in Camberley\">Camberley</a>, <a href=\"/pages/wristwear-epsom\" title=\"Wristwear in Epsom\">Epsom</a>, <a href=\"/pages/wristwear-esher\" title=\"Wristwear in Esher\">Esher</a>, <a href=\"/pages/wristwear-ewell\" title=\"Wristwear in Ewell\">Ewell</a>, <a href=\"/pages/wristwear-guildford\" title=\"Wristwear in Guildford\">Guildford</a>, <a href=\"/pages/wristwear-leatherhead\" title=\"Wristwear in Leatherhead\">Leatherhead</a>, <a href=\"/pages/wristwear-redhill\" title=\"Wristwear in Redhill\">Redhill</a>, <a href=\"/pages/wristwear-walton-on-thames\" title=\"Wristwear in Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/wristwear-weybridge\" title=\"Wristwear in Weybridge\">Weybridge</a>, <a href=\"/pages/wristwear-woking\" title=\"Wristwear in Woking\">Woking</a>.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_JyiVnm": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "text": "<h5><a href=\"/pages/wristwear-greater-london\" title=\"Wristwear in Greater London\">Greater London</a></h5><p><a href=\"/pages/wristwear-barnet\" title=\"Wristwear in Barnet\">Barnet</a>, <a href=\"/pages/wristwear-brent\" title=\"Wristwear in Brent\">Brent</a>, <a href=\"/pages/wristwear-bromley\" title=\"Wristwear in Bromley\">Bromley</a>, <a href=\"/pages/wristwear-croydon\" title=\"Wristwear in Croydon\">Croydon</a>, <a href=\"/pages/wristwear-ealing\" title=\"Wristwear in Ealing\">Ealing</a>, <a href=\"/pages/wristwear-enfield\" title=\"Wristwear in Enfield\">Enfield</a>, <a href=\"/pages/wristwear-lambeth\" title=\"Wristwear in Lambeth\">Lambeth</a>, <a href=\"/pages/wristwear-newham\" title=\"Wristwear in Newham\">Newham</a>, <a href=\"/pages/wristwear-hatton-garden\" title=\"Wristwear in Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/wristwear-tower-hamlets\" title=\"Wristwear in Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/wristwear-wandsworth\" title=\"Wristwear in Wandsworth\">Wandsworth</a>.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_WGKABc",
-        "text_imri8x",
-        "text_6UDL77",
-        "text_JyiVnm"
-      ],
-      "name": "Areas We Cover",
+    "navigation_banner_eGc9PU": {
+      "type": "navigation-banner",
+      "name": "t:sections.blog--navigation-banner.presets.name",
       "settings": {
-        "title": "Bracelets Across the South of England.",
-        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer wristwear design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
+        "title": "Areas We Cover in {{ page.metafields.custom.service_area_region_name.value }}.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel around {{ page.metafields.custom.location.value }} to provide at home bespoke design consultations and delivery.</p>",
         "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
+        "dynamic_menu_handle": "{{ page.metafields.custom.service_areas_menu | metafield_text }}",
+        "banner_linklist": "main-menu",
+        "collection_list": [],
         "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
+        "override_button_colors": true,
+        "nav_background_color": "#242424",
+        "nav_text_color": "#FFFFFF",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
+        "layout_style": "slider",
+        "navigation_position": "center",
         "colors": "white"
       }
     }
@@ -1127,6 +1079,6 @@
     "1780059503e4e28014",
     "17787619721046fdd6",
     "faq_with_image_m73Xra",
-    "template_product_info_columns_eUEtia"
+    "navigation_banner_eGc9PU"
   ]
 }
