@@ -94,7 +94,7 @@
     "hover_navigation_desktop": "left-and-right",
     "show_variant_image_for_options": "Metal",
     "popup--enable": true,
-    "popup--test-mode": true,
+    "popup--test-mode": false,
     "pop-up-text-header-text": "Join Our Newsletter for 10% Off",
     "pop-up-text-description-text": "<p>Sign up for regular product & service updates. Benefit from 10% off your first order.</p>",
     "popup--show-newsletter": true,
