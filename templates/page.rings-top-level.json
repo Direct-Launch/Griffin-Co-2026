@@ -1191,7 +1191,7 @@
         "section_padding_bottom": 72,
         "layout_style": "slider",
         "navigation_position": "center",
-        "colors": "white"
+        "colors": "dark"
       }
     }
   },
