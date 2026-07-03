@@ -15,8 +15,8 @@
       "settings": {
         "image": "shopify://shop_images/Showroom_8.webp",
         "layout": "left",
-        "title": "Our Showroom & The Team",
-        "text": "<p><strong>About 64 South Street</strong></p><p>Visit our showroom at 64 South Street to meet our renowned experts and enjoy a private consultation.<br/><br/>Our Boutique & Showroom is open Tuesday to Saturday and by appointment.</p>",
+        "title": "Sign Up To Our Newsletter",
+        "text": "<p>Join our newsletter today to receive a <strong>10% discount code</strong> for your first order, plus expert advice and exclusive previews.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": true,
@@ -69,6 +69,36 @@
         "colors": "accent"
       }
     },
+    "178307803340c1b932": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_UBVxck": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "640899",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_UBVxck"
+      ],
+      "settings": {
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "include_margins": false
+      }
+    },
     "template_product_info_columns_9YTFAr": {
       "type": "template--product--info-columns",
       "blocks": {
@@ -77,8 +107,8 @@
           "settings": {
             "image": "shopify://shop_images/1.svg",
             "grid_image_size": "square",
-            "heading": "Your Vision, Your Rules",
-            "text": "<p>At Griffin & Co, we do things differently. We are not just retailers; we are makers. When you commission a piece with us, you aren't just buying a product—you are collaborating directly with the artisans to create an individual, enduring legacy that tells your story.</p>",
+            "heading": "Exclusive Previews",
+            "text": "<p>Be the first to see our new bespoke collections and limited-edition gemstones before they launch to the public.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -88,8 +118,8 @@
           "settings": {
             "image": "shopify://shop_images/2.svg",
             "grid_image_size": "square",
-            "heading": "Ethical & Responsible",
-            "text": "<p>We believe that the journey of fine jewellery from earth to hand should benefit everyone along the way. From our in-house casting process to our stringent diamond sourcing, we ensure transparency and sustainability in every step of our manufacturing process.</p>",
+            "heading": "Expert Guidance",
+            "text": "<p>Receive guides on jewellery care, diamond selection, and styling tips directly from our expert jewellers.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -99,8 +129,8 @@
           "settings": {
             "image": "shopify://shop_images/3.svg",
             "grid_image_size": "square",
-            "heading": "Inclusive & Welcoming",
-            "text": "<p>Our motto is simple: whoever you are, whoever you love, and whatever your budget, you are welcome at Griffin & Co. Fine jewellery should be accessible to all, and we are here to guide you with complete respect and zero intimidation.</p>",
+            "heading": "Private Events",
+            "text": "<p>Get invitations to our showroom events, cleaning workshops, and seasonal showcases in Chichester.</p>",
             "button_link": "",
             "button_text": ""
           }
@@ -113,8 +143,8 @@
       ],
       "name": "Values Box 1",
       "settings": {
-        "title": "Our Values.",
-        "description": "<p>For years, the Chichester showroom was known as Smith & Ralier, synonymous with quality. Today, Griffin & Co, a proud family-run business, retains traditional personal service with a modern bespoke design approach.</p>",
+        "title": "Membership Privileges.",
+        "description": "<p>More than just a discount. Join a community that values craftsmanship, ethics, and timeless design.</p>",
         "section_header_alignment": "center",
         "maximum_width": 50,
         "override_border_radius": false,
@@ -134,607 +164,71 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_6YhcwR": {
-      "type": "template--product--info-columns",
+    "faq_eHb4k7": {
+      "type": "faq",
       "blocks": {
-        "image_and_text_9dhU9W": {
-          "type": "image_and_text",
+        "tab_content_Uhxth9": {
+          "type": "tab_content",
           "settings": {
-            "image": "shopify://shop_images/4.svg",
-            "grid_image_size": "square",
-            "heading": "Creating Family Legacies",
-            "text": "<p>Fine jewellery should last generations. We build pieces with longevity in mind, using the finest materials and masterful techniques. Whether crafting a new engagement ring or breathing life into unworn heirlooms, we create pieces designed to endure.</p>",
-            "button_link": "",
-            "button_text": ""
+            "question": "How can I find out about future promotions, sales, and special offers?",
+            "open_by_default": false,
+            "text": "<p>The best way to stay informed about all our special offers, sales, and promotions is to visit our website, subscribe to our newsletter, and follow us on our social media channels.</p>",
+            "page": ""
           }
         },
-        "image_and_text_iRmCUj": {
-          "type": "image_and_text",
+        "tab_content_xyXrWT": {
+          "type": "tab_content",
           "settings": {
-            "image": "shopify://shop_images/5.svg",
-            "grid_image_size": "square",
-            "heading": "In-House Expertise",
-            "text": "<p>As a true maker brand, we handle production in-house. Our team consists of GIA-qualified diamond specialists, master goldsmiths, and skilled CAD designers. Your precious items never leave our premises, ensuring security and unparalleled quality control.</p>",
-            "button_link": "",
-            "button_text": ""
+            "question": "Are your promotions the same for online and in-store purchases?",
+            "open_by_default": false,
+            "text": "<p>Not always. Our promotions can differ between our online store and our Chichester showroom. Always check the specific terms of the promotion.</p>",
+            "page": ""
           }
         },
-        "image_and_text_wajHcp": {
-          "type": "image_and_text",
+        "tab_content_ihFMkT": {
+          "type": "tab_content",
           "settings": {
-            "image": "shopify://shop_images/6.svg",
-            "grid_image_size": "square",
-            "heading": "Guiding, Not Selling",
-            "text": "<p>Our role is to educate and guide. Whether you are choosing between platinum and gold, or learning about diamond clarity, we provide honest, transparent advice. We are here to empower your choices in a relaxed, no-pressure environment.</p>",
-            "button_link": "",
-            "button_text": ""
+            "question": "Do you host giveaways or contests?",
+            "open_by_default": false,
+            "text": "<p>Yes, we love to engage with our community and frequently run giveaways, such as our popular Diamond Treasure Hunts. You can find information on all current and past giveaways on our \"Giveaways & Promotions\" blog.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_44U9Rz": {
+          "type": "tab_content",
+          "settings": {
+            "question": "When will I receive my code?",
+            "open_by_default": false,
+            "text": "<p>Your 10% discount code will be emailed to you immediately after you sign up. Please check your junk folder if it doesn't appear within 5 minutes.</p>",
+            "page": ""
+          }
+        },
+        "tab_content_3pyb7Q": {
+          "type": "tab_content",
+          "settings": {
+            "question": "How often will you email me?",
+            "open_by_default": false,
+            "text": "<p>We respect your inbox. We typically send 2-3 emails per month featuring new arrivals, educational guides, and subscriber-only offers.</p>",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "image_and_text_9dhU9W",
-        "image_and_text_iRmCUj",
-        "image_and_text_wajHcp"
+        "tab_content_Uhxth9",
+        "tab_content_xyXrWT",
+        "tab_content_ihFMkT",
+        "tab_content_44U9Rz",
+        "tab_content_3pyb7Q"
       ],
-      "name": "Values Box 2",
+      "name": "t:sections.faq.presets.name",
       "settings": {
-        "title": "",
+        "title": "Frequently asked questions.",
         "description": "",
         "section_header_alignment": "center",
-        "maximum_width": 50,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "none",
-        "columns_per_row": 3,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "consistent",
-        "section_width": "content",
-        "section_padding_top": 0,
-        "section_padding_bottom": 60,
-        "colors": "white"
-      }
-    },
-    "image_with_text_slideshow_WJYkzx": {
-      "type": "image-with-text-slideshow",
-      "blocks": {
-        "image_and_text_BXbJA8": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/IMG_8614-10.jpg",
-            "subheading": "It all begins with",
-            "heading": "Master Craftsmanship",
-            "text": "<p>Our approach begins with the fundamental belief that exceptional jewellery requires exceptional skill. Our team of three expert jewellers brings over 60 years of combined experience to the bench right here in Chichester.</p><p>From the initial design sketches to the final polish, our in-house specialists are proficient in every aspect of the process. We bridge traditional hand-skills with modern CAD technology to deliver absolute perfection.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "",
-            "first_button_label": "",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#e68819",
-            "color_button_text": "#ffffff",
-            "media_position_desktop": "left",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "left",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        },
-        "image_and_text_7ydVyW": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/DSC06231.jpg",
-            "subheading": "Designing and creating",
-            "heading": "Our jewellery",
-            "text": "<p>Because we operate our own fully-equipped workshop on site, we can offer services that many standard retailers cannot. When you bring us a ring for resizing or a complex antique restoration, it is handled directly by the person you speak with. We cut out the middleman to provide transparent timelines, secure handling, and meticulous attention to detail.</p>",
-            "page": "",
-            "slide_link": "",
-            "first_button_link": "",
-            "first_button_label": "",
-            "second_button_link": "",
-            "second_button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "color_button_background": "#e68819",
-            "color_button_text": "#ffffff",
-            "media_position_desktop": "left",
-            "text_position_desktop": "center",
-            "text_alignment_desktop": "left",
-            "media_position_mobile": "top",
-            "text_alignment_mobile": "center",
-            "text_color": "rgba(0,0,0,0)",
-            "background_color": "rgba(0,0,0,0)"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_BXbJA8",
-        "image_and_text_7ydVyW"
-      ],
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
-        "heading_font_size_desktop": "h4",
-        "text_font_size_desktop": 100,
-        "heading_font_size_mobile": "h4-mobile",
-        "text_font_size_mobile": 100,
-        "image_size": "medium",
-        "image_shape": "square",
-        "hover_navigation_desktop": "right",
-        "section_width": "full-width",
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "colors": "accent",
-        "override_navigation_button_colors": true,
-        "button_background_color": "#f1f1ef",
-        "button_text_color": "#50423a"
-      }
-    },
-    "custom_liquid_bkCCWY": {
-      "type": "custom-liquid",
-      "name": "Reviews",
-      "settings": {
-        "title": "Our Customer Reviews.",
-        "description": "",
-        "section_header_alignment": "center",
-        "custom_liquid": "<!-- Start of Judge.me code --> \n  <div class='jdgm-carousel-wrapper'> \n    {% assign jm_metafields = shop.metafields.judgeme %} \n    <div class='jdgm-carousel-title-and-link'> \n      <h4 style=\"text-align: center;\">Rated Excellent</h4>\n      <span class='jdgm-all-reviews-rating-wrapper' href='javascript:void(0)'> \n        <span style='display:block' data-score='{{ jm_metafields.all_reviews_rating }}' class='jdgm-all-reviews-rating' aria-label='{{ jm_metafields.all_reviews_rating }} stars' tabindex='0' role='img'></span> \n\n        <span style='display: block' class='jdgm-carousel-number-of-reviews' data-number-of-reviews='{{ jm_metafields.all_reviews_count }}'> \nfrom {{ shop.metafields.judgeme.all_reviews_count }} reviews </span>\n<br>\n <a href=\"https://griffinfinejewellery.com/pages/reviews\" class=\"dynamic-section-button--sections--27356412215572__map_JBYVn7 btn homepage-featured-box-btn map_section__directions-btn\" target=\"_blank\" data-animate=\"\" data-animate-order=\"5\">\n      \n\n      See All Reviews\n    </a> \n      </span> \n    </div> \n    {{ jm_metafields.featured_carousel }} \n  </div> \n<!-- End of Judge.me code -->\n\n<style>\n.jdgm-line-clamp {\n-webkit-line-clamp: 5 !important;\n}\n</style>",
+        "faq_icon": "plus_minus",
         "section_width": "content",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "1780049542f27a025c": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_testimonials_carousel_TacXFN": {
-          "type": "shopify://apps/judge-me-reviews/blocks/testimonials_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "show_sample_reviews": false,
-            "reviews_selection": "all",
-            "products": [],
-            "star_rating": "5_star",
-            "max_reviews": 30,
-            "quote_marks_size": "small",
-            "product_name_text_size": "small",
-            "verified_badge_style": "text",
-            "card_height": "extra_tall",
-            "text_size": "extra_small",
-            "stars_size": "small",
-            "arrows_position": "sides",
-            "max_width": 1300,
-            "corner_styling": "square",
-            "quote_marks_style": "serif",
-            "card_color": "#f8f8f8",
-            "stars_and_quote_marks_color": "#ffdda6",
-            "text_color": "#ffffff",
-            "arrows_color": "#ffffff",
-            "show_border": false,
-            "border_color": "#e8e8e8",
-            "show_drop_shadow": false,
-            "transition_speed": 5,
-            "header_text": "Client Stories",
-            "show_average_rating": true,
-            "rating_display": "default"
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_testimonials_carousel_TacXFN"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".jdgm-star {color: #ffdda6 !important;}",
-        ".jdgm-widget.jdgm-widget {padding-top: 50px;}",
-        "div {background: #004225;}",
-        ".jdgm-title {font-size: 24px; font-family: var(--body-font-stack);}"
-      ],
-      "settings": {
-        "section_padding_top": 0,
-        "section_padding_bottom": 0,
-        "include_margins": false
-      }
-    },
-    "image_with_text_overlay_bEHqUV": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_K4RFQg": {
-          "type": "heading",
-          "settings": {
-            "title": "From Smith & Ralier to Griffin & Co",
-            "font_size_desktop": "h5",
-            "font_size_mobile": "h4-mobile",
-            "heading_bottom_spacing": 25
-          }
-        },
-        "text_NGUAVW": {
-          "type": "text",
-          "settings": {
-            "text": "<p>For decades, the showroom at this historic Chichester address was known as <strong>Smith & Ralier</strong>, a name synonymous with quality. When we took ownership, our goal was not to rewrite history, but to build upon it.<br/><br/>Today, <strong>Griffin & Co </strong>is a proud family-run business. We have retained the traditional values of personal service and integrity while introducing a modern approach to bespoke design and manufacturing.</p>",
-            "font_size_desktop": 110,
-            "font_size_mobile": 110,
-            "text_bottom_spacing": 0
-          }
-        }
-      },
-      "block_order": [
-        "heading_K4RFQg",
-        "text_NGUAVW"
-      ],
-      "name": "Smith & Ralier to Griffin & Co",
-      "settings": {
-        "image_desktop": "shopify://shop_images/IMG_8786.webp",
-        "height_desktop": "550px",
-        "text_position_desktop": "left",
-        "text_alignment_desktop": "left",
-        "caption_width_desktop": 50,
-        "height_mobile": "100vh",
-        "text_position_mobile": "center",
-        "text_alignment_mobile": "center",
-        "section_link": "",
-        "animation_style": "none",
-        "section_width": "full",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
-        "text_color": "#50423a",
-        "caption_bg_color": "#f1f1ef",
-        "image_overlay_color": "#50423a",
-        "image_overlay_opacity": 0
-      }
-    },
-    "gallery_tMjiKU": {
-      "type": "gallery",
-      "blocks": {
-        "image_AC9reL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_3.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "image_gnxx8p": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_4.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "image_bP9AQP": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_7.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "image_xhYymq": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_8.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "image_AC9reL",
-        "image_gnxx8p",
-        "image_bP9AQP",
-        "image_xhYymq"
-      ],
-      "name": "t:sections.image--gallery.presets.name",
-      "settings": {
-        "title": "The Chichester Showroom.",
-        "description": "<p><strong>We believe selecting fine jewellery is a deeply personal journey.</strong></p><p>Our Chichester showroom provides a relaxed, unpressured atmosphere with consultation areas for dedicated attention from our knowledgeable team.<br/><br/>Take your time to explore our collections and feel the quality of each piece.<br/><br/>We work in partnership with <a href=\"https://ebonyjewellery.com/\">Ebony Jewellers</a></p>",
-        "section_header_alignment": "left",
-        "content-position": "hide",
-        "full-width": false,
-        "grid_image_size": "square",
-        "buttons_style": "filled",
-        "section-width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 16,
-        "remove-spacing": false,
-        "colors": "white"
-      }
-    },
-    "gallery_7XDfme": {
-      "type": "gallery",
-      "blocks": {
-        "image_GWe3Ch": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_10.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "image_G34cz3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_1.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "image_zaP8Dh": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_12.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "image_gKMpP4": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_13.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "image_GWe3Ch",
-        "image_G34cz3",
-        "image_zaP8Dh",
-        "image_gKMpP4"
-      ],
-      "name": "t:sections.image--gallery.presets.name",
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "left",
-        "content-position": "hide",
-        "full-width": false,
-        "grid_image_size": "square",
-        "buttons_style": "filled",
-        "section-width": "content",
-        "section_padding_top": 0,
-        "section_padding_bottom": 16,
-        "remove-spacing": false,
-        "colors": "white"
-      }
-    },
-    "gallery_rx7Tyg": {
-      "type": "gallery",
-      "blocks": {
-        "image_3medAn": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_9.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "image_KDieaa": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_5.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "image_MHccpc": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_11.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        },
-        "image_DKW96X": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Our_Showroom_6.png",
-            "link": "",
-            "subheading": "",
-            "title": "",
-            "overlay-btn-text": "",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_text_color": "#ffffff",
-            "show-gradient-overlay": false,
-            "overlay_color": "#242424",
-            "overlay_opacity": 60,
-            "overlay_font_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "image_3medAn",
-        "image_KDieaa",
-        "image_MHccpc",
-        "image_DKW96X"
-      ],
-      "name": "t:sections.image--gallery.presets.name",
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "left",
-        "content-position": "hide",
-        "full-width": false,
-        "grid_image_size": "square",
-        "buttons_style": "filled",
-        "section-width": "content",
-        "section_padding_top": 0,
-        "section_padding_bottom": 72,
-        "remove-spacing": false,
-        "colors": "white"
-      }
-    },
-    "template_product_info_columns_MtzH7c": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "image_and_text_apcwgN": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/gem.svg",
-            "grid_image_size": "square",
-            "heading": "Sourcing Gemstones",
-            "text": "<p>We pride ourselves on sourcing the most brilliant, ethically sourced diamonds and coloured gemstones. As GIA-qualified specialists, we navigate the global market to find stones that offer true beauty and value.</p><p>We work strictly with suppliers who adhere to the Kimberley Process, ensuring conflict-free origins, and we also offer a stunning selection of high-quality lab-grown diamonds for our environmentally conscious clients.</p>",
-            "button_link": "shopify://pages/bespoke-jewellery-designs",
-            "button_text": "Go to Bespoke Design"
-          }
-        },
-        "image_and_text_4whJQy": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/hammer.svg",
-            "grid_image_size": "square",
-            "heading": "Casting & Metals",
-            "text": "<p>The foundation of fine jewellery lies in the quality of its metal. We work exclusively with high-grade Platinum and 18ct Gold. Our commitment to sustainability means we prioritise the use of 100% recycled precious metals in our bespoke creations.</p><p>Furthermore, our<a href=\"/pages/jewellery-remodelling-service\" title=\"Jewellery Remodelling Service\"> remodelling service</a> allows us to melt down your unworn, sentimental family gold to forge entirely new, modern designs, keeping the history alive while reducing environmental impact.</p>",
-            "button_link": "shopify://pages/jewellery-remodelling-service",
-            "button_text": "Go to Remodelling"
-          }
-        },
-        "image_and_text_UiwdiR": {
-          "type": "image_and_text",
-          "settings": {
-            "image": "shopify://shop_images/sparkles.svg",
-            "grid_image_size": "square",
-            "heading": "Setting, Polishing & Repairs",
-            "text": "<p>All of our centre stone setting, resizing and <a href=\"/blogs/guide-jewellery-repair-service/jewellery-repair-service\" title=\"Jewellery Repair Service Guide\">repairs </a>are done by our trusted gemstone setters.</p><p>Our skilled craftspeople restore damaged, worn, or cherished pieces to their original beauty.<br/><br/>Expert care including ring resizing, claw retipping, cleaning, and chain soldering.</p>",
-            "button_link": "shopify://pages/jewellery-repair-service",
-            "button_text": "Go to Repairs"
-          }
-        }
-      },
-      "block_order": [
-        "image_and_text_apcwgN",
-        "image_and_text_4whJQy",
-        "image_and_text_UiwdiR"
-      ],
-      "name": "Services",
-      "settings": {
-        "title": "Our Expertise.",
-        "description": "",
-        "section_header_alignment": "right",
-        "maximum_width": 50,
-        "override_border_radius": false,
-        "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "above",
-        "columns_per_row": 2,
-        "vertical_alignment": "center",
-        "text_alignment": "left",
-        "text_alignment_mobile": "left",
-        "slider_height_mobile": "consistent",
-        "section_width": "full",
-        "section_padding_top": 30,
-        "section_padding_bottom": 60,
         "colors": "white"
       }
     }
@@ -742,15 +236,8 @@
   "order": [
     "hero_image_with_text_WhYVdG",
     "image_with_text_a9zBUW",
+    "178307803340c1b932",
     "template_product_info_columns_9YTFAr",
-    "template_product_info_columns_6YhcwR",
-    "image_with_text_slideshow_WJYkzx",
-    "custom_liquid_bkCCWY",
-    "1780049542f27a025c",
-    "image_with_text_overlay_bEHqUV",
-    "gallery_tMjiKU",
-    "gallery_7XDfme",
-    "gallery_rx7Tyg",
-    "template_product_info_columns_MtzH7c"
+    "faq_eHb4k7"
   ]
 }
