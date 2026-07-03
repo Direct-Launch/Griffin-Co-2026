@@ -1183,6 +1183,7 @@
         "text_6UDL77",
         "text_JyiVnm"
       ],
+      "disabled": true,
       "name": "Areas We Cover",
       "settings": {
         "title": "Engagement Rings Across the South of England",
@@ -1203,6 +1204,27 @@
         "section_width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "navigation_banner_p4YKpa": {
+      "type": "navigation-banner",
+      "name": "t:sections.blog--navigation-banner.presets.name",
+      "settings": {
+        "title": "Areas We Cover in {{ page.metafields.custom.service_area_region_name.value }}.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel around {{ page.metafields.custom.location.value }} to provide at home bespoke design consultations and delivery.</p>",
+        "section_header_alignment": "center",
+        "dynamic_menu_handle": "{{ page.metafields.custom.service_areas_menu | metafield_text }}",
+        "banner_linklist": "main-menu",
+        "collection_list": [],
+        "buttons_style": "underlined",
+        "override_button_colors": true,
+        "nav_background_color": "#242424",
+        "nav_text_color": "#FFFFFF",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "layout_style": "slider",
+        "navigation_position": "center",
         "colors": "white"
       }
     }
@@ -1226,6 +1248,7 @@
     "blog_posts_BVWqKG",
     "collage_cpYDQ9",
     "faq_with_image_m73Xra",
-    "template_product_info_columns_eUEtia"
+    "template_product_info_columns_eUEtia",
+    "navigation_banner_p4YKpa"
   ]
 }
