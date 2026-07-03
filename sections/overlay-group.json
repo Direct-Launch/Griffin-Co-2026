@@ -124,35 +124,9 @@
         ],
         "buttons_style": "filled"
       }
-    },
-    "video_popup_7NUUqh": {
-      "type": "video-popup",
-      "disabled": true,
-      "settings": {
-        "url": "",
-        "video_alt_text": "",
-        "shape": "circle",
-        "size": "medium",
-        "expanded_video_shape": "circle",
-        "expanded_video_size": "medium",
-        "enable_test_mode": false,
-        "link": "/",
-        "button_label": "Learn more about us",
-        "color_scheme": "dark",
-        "override_button_colors": true,
-        "button_background_color": "#f9f9fb",
-        "button_text_color": "#242424",
-        "show_on": "all_pages",
-        "show_on_exit_intent": false,
-        "show_after": 5,
-        "frequency": 30,
-        "disable_for_account_holders": true,
-        "desktop_position": "bottom_left"
-      }
     }
   },
   "order": [
-    "offers-drawer",
-    "video_popup_7NUUqh"
+    "offers-drawer"
   ]
 }
