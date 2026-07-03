@@ -19,7 +19,7 @@
         "text": "<p><strong>Customer Testimonials</strong></p><p>At Griffin & Co., we are dedicated to providing a memorable and enjoyable shopping experience.<br/></p><p>We value your feedback and are committed to ensuring your complete satisfaction.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
+        "text_overlapping_image": true,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
         "show_image_mobile": true,
@@ -78,7 +78,8 @@
             "arrows_color": "#000000",
             "transition_speed": 5,
             "header_text": "",
-            "show_average_rating": false
+            "show_average_rating": false,
+            "rating_display": "default"
           }
         }
       },
@@ -282,7 +283,8 @@
             "show_drop_shadow": false,
             "transition_speed": 5,
             "header_text": "Client Stories.",
-            "show_average_rating": true
+            "show_average_rating": true,
+            "rating_display": "default"
           }
         }
       },
@@ -430,12 +432,19 @@
             "mobile_position": "md-max-align-bottom md-max-justify-right",
             "heading_size_mobile": "h4-mobile",
             "heading": "",
+            "text": "Add a description to your image here.",
             "url": "",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
             "text_color": "#ffffff",
             "overlay_color": "rgba(0,0,0,0)"
           }
