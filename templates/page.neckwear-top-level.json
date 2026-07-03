@@ -19,7 +19,7 @@
         "text": "<p>A curated collection of exceptional necklaces, pendants, and chains for clients in {{ page.metafields.custom.location.value }}.</p><p>From classic solitaire diamonds to statement gold chains, visit our Chichester showroom to find your perfect piece.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
+        "text_overlapping_image": true,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
         "show_image_mobile": true,
@@ -1037,73 +1037,25 @@
         "colors": "white"
       }
     },
-    "template_product_info_columns_eUEtia": {
-      "type": "template--product--info-columns",
-      "blocks": {
-        "text_WGKABc": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "text": "<h5><a href=\"/pages/neckwear-west-sussex\" title=\"Neckwear in West Sussex\">West Sussex</a></h5><p><a href=\"/pages/neckwear-arundel\" title=\"Neckwear in Arundel\">Arundel</a>, <a href=\"/pages/neckwear-bognor-regis\" title=\"Neckwear in Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/neckwear-bosham\" title=\"Neckwear in Bosham\">Bosham</a>, <a href=\"/pages/neckwear-burgess-hill\" title=\"Neckwear in Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/neckwear-chichester\" title=\"Neckwear in Chichester\">Chichester</a>, <a href=\"/pages/neckwear-crawley\" title=\"Neckwear in Crawley\">Crawley</a>, <a href=\"/pages/neckwear-east-grinstead\" title=\"Neckwear in East Grinstead\">East Grinstead</a>, <a href=\"/pages/neckwear-haywards-heath\" title=\"Neckwear in Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/neckwear-horsham\" title=\"Neckwear in Horsham\">Horsham</a>, <a href=\"/pages/neckwear-littlehampton\" title=\"Neckwear in Littlehampton\">Littlehampton</a>, <a href=\"/pages/neckwear-shoreham-by-sea\" title=\"Neckwear in Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/neckwear-worthing\" title=\"Neckwear in Worthing\">Worthing</a></p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_imri8x": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "text": "<h5><a href=\"/pages/neckwear-hampshire\" title=\"Neckwear in Hampshire\">Hampshire</a></h5><p><a href=\"/pages/neckwear-aldershot\" title=\"Neckwear in Aldershot\">Aldershot</a>, <a href=\"/pages/neckwear-andover\" title=\"Neckwear in Andover\">Andover</a>, <a href=\"/pages/neckwear-basingstoke\" title=\"Neckwear in Basingstoke\">Basingstoke</a>, <a href=\"/pages/neckwear-farnborough\" title=\"Neckwear in Farnborough\">Farnborough</a>, <a href=\"/pages/neckwear-gosport\" title=\"Neckwear in Gosport\">Gosport</a>, <a href=\"/pages/neckwear-horndean\" title=\"Neckwear in Horndean\">Horndean</a>, <a href=\"/pages/neckwear-portsmouth\" title=\"Neckwear in Portsmouth\">Portsmouth</a>, <a href=\"/pages/neckwear-southampton\" title=\"Neckwear in Southampton\">Southampton</a>, <a href=\"/pages/neckwear-winchester\" title=\"Neckwear in Winchester\">Winchester</a>.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_6UDL77": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "text": "<h5><a href=\"/pages/surrey\" title=\"Surrey\">Surrey</a></h5><p><a href=\"/pages/camberley\" title=\"Camberley\">Camberley</a>, <a href=\"/pages/epsom\" title=\"Epsom\">Epsom</a>, <a href=\"/pages/esher\" title=\"Esher\">Esher</a>, <a href=\"/pages/ewell\" title=\"Ewell\">Ewell</a>, <a href=\"/pages/guildford\" title=\"Guildford\">Guildford</a>, <a href=\"/pages/leatherhead\" title=\"Leatherhead\">Leatherhead</a>, <a href=\"/pages/redhill\" title=\"Redhill\">Redhill</a>, <a href=\"/pages/walton-on-thames\" title=\"Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/weybridge\" title=\"Weybridge\">Weybridge</a>, <a href=\"/pages/woking\" title=\"Woking\">Woking</a>.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        },
-        "text_JyiVnm": {
-          "type": "text",
-          "settings": {
-            "heading": "",
-            "text": "<h5><a href=\"/pages/neckwear-greater-london\" title=\"Neckwear in Greater London\">Greater London</a></h5><p><a href=\"/pages/neckwear-barnet\" title=\"Neckwear in Barnet\">Barnet</a>, <a href=\"/pages/neckwear-brent\" title=\"Neckwear in Brent\">Brent</a>, <a href=\"/pages/neckwear-bromley\" title=\"Neckwear in Bromley\">Bromley</a>, <a href=\"/pages/neckwear-croydon\" title=\"Neckwear in Croydon\">Croydon</a>, <a href=\"/pages/neckwear-ealing\" title=\"Neckwear in Ealing\">Ealing</a>, <a href=\"/pages/neckwear-enfield\" title=\"Neckwear in Enfield\">Enfield</a>, <a href=\"/pages/neckwear-lambeth\" title=\"Neckwear in Lambeth\">Lambeth</a>, <a href=\"/pages/neckwear-newham\" title=\"Neckwear in Newham\">Newham</a>, <a href=\"/pages/neckwear-hatton-garden\" title=\"Neckwear in Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/neckwear-tower-hamlets\" title=\"Neckwear in Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/neckwear-wandsworth\" title=\"Neckwear in Wandsworth\">Wandsworth</a>.</p>",
-            "button_link": "",
-            "button_text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_WGKABc",
-        "text_imri8x",
-        "text_6UDL77",
-        "text_JyiVnm"
-      ],
-      "name": "Areas We Cover",
+    "navigation_banner_i8TNU7": {
+      "type": "navigation-banner",
+      "name": "t:sections.blog--navigation-banner.presets.name",
       "settings": {
-        "title": "Bracelets Across the South of England.",
-        "description": "<p>At Griffin & Co Fine Jewellers in Chichester, we offer wristwear design services and a curated collection to couples across the South of England and beyond. Our showroom is in Chichester, but we regularly work with clients in many towns and cities.</p>",
+        "title": "Areas We Cover in {{ page.metafields.custom.service_area_region_name.value }}.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel around {{ page.metafields.custom.location.value }} to provide at home bespoke design consultations and delivery.</p>",
         "section_header_alignment": "center",
-        "maximum_width": 500,
-        "override_border_radius": false,
+        "dynamic_menu_handle": "{{ page.metafields.custom.service_areas_menu | metafield_text }}",
+        "banner_linklist": "main-menu",
+        "collection_list": [],
         "buttons_style": "underlined",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "hover_navigation_desktop": "left-and-right",
-        "columns_per_row": 4,
-        "vertical_alignment": "top",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "slider_height_mobile": "adaptive",
-        "section_width": "full",
+        "override_button_colors": true,
+        "nav_background_color": "#242424",
+        "nav_text_color": "#FFFFFF",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
-        "colors": "white"
+        "layout_style": "slider",
+        "navigation_position": "center",
+        "colors": "dark"
       }
     }
   },
@@ -1127,6 +1079,6 @@
     "1780059503e4e28014",
     "17787619721046fdd6",
     "faq_with_image_m73Xra",
-    "template_product_info_columns_eUEtia"
+    "navigation_banner_i8TNU7"
   ]
 }
