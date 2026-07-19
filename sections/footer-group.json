@@ -15,7 +15,7 @@
       "type": "map",
       "name": "t:sections.store-information--map.presets.name",
       "settings": {
-        "map_address": "Griffin & Co Fine Jewellery",
+        "map_address": "64 South Street Chichester PO19 1EE",
         "api_key": "AIzaSyD9xQJ59dnwGxTb_snAHPkZqa_ZfDKdYCQ",
         "background_image": "shopify://shop_images/Footer_Banner_2.png",
         "layout": "left",
