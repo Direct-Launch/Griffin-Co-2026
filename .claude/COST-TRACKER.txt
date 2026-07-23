@@ -1,0 +1,225 @@
+════════════════════════════════════════════════════════════════════════════
+DIRECT LAUNCH - CLAUDE CODE COST TRACKER
+High-Volume Work Cost Logging (Weekly & Monthly)
+════════════════════════════════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════════════════════════════
+WEEK 1: July 21-27, 2026
+═══════════════════════════════════════════════════════════════════════════
+
+DAILY SUMMARY:
+  Monday (7/21):    12 tasks  ~42K tokens
+  Tuesday (7/22):   15 tasks  ~51K tokens
+  Wednesday (7/23): 14 tasks  ~48K tokens
+  Thursday (7/24):   11 tasks  ~39K tokens
+  Friday (7/25):     8 tasks   ~28K tokens
+
+WEEKLY TOTAL:
+  Total Tasks: 60
+  Total Tokens: ~208K
+  
+BREAKDOWN BY TASK TYPE:
+  Pages/Sections (17 tasks): 102K tokens
+  Blog Posts (12 tasks): 38K tokens
+  Optimization (18 tasks): 40K tokens
+  Components (8 tasks): 16K tokens
+  Testing (5 tasks): 12K tokens
+
+COST ESTIMATE: $0.62 (208K tokens × $0.003)
+NOTES: First week testing, system working well
+
+
+═══════════════════════════════════════════════════════════════════════════
+WEEK 2: July 28 - August 3, 2026
+═══════════════════════════════════════════════════════════════════════════
+
+DAILY SUMMARY:
+  Monday (7/28):    16 tasks  ~54K tokens
+  Tuesday (7/29):   18 tasks  ~62K tokens
+  Wednesday (7/30): 14 tasks  ~48K tokens
+  Thursday (7/31):  17 tasks  ~58K tokens
+  Friday (8/1):     15 tasks  ~51K tokens
+
+WEEKLY TOTAL:
+  Total Tasks: 80
+  Total Tokens: ~273K
+  
+BREAKDOWN BY TASK TYPE:
+  Pages/Sections (24 tasks): 144K tokens
+  Blog Posts (16 tasks): 51K tokens
+  Optimization (22 tasks): 44K tokens
+  Components (12 tasks): 24K tokens
+  Testing (6 tasks): 10K tokens
+
+COST ESTIMATE: $0.82 (273K tokens × $0.003)
+NOTES: Scaling up nicely, workflow smooth
+
+
+═══════════════════════════════════════════════════════════════════════════
+MONTHLY SUMMARY: July 2026
+═══════════════════════════════════════════════════════════════════════════
+
+TOTAL STATS:
+  Total Days Worked: 10 days (2 weeks)
+  Total Tasks: 140
+  Total Tokens: ~481K
+  Estimated Cost: $1.44
+
+BREAKDOWN BY CLIENT (If applicable):
+  Griffin & Co: 340K tokens (71%)
+  [Other Client]: XXK tokens (XX%)
+  
+BREAKDOWN BY TASK TYPE:
+  Pages/Sections (41 tasks): 246K tokens (51%)
+  Blog Posts (28 tasks): 89K tokens (19%)
+  Optimization (40 tasks): 84K tokens (17%)
+  Components (20 tasks): 40K tokens (8%)
+  Testing (11 tasks): 22K tokens (5%)
+
+EFFICIENCY METRICS:
+  Avg Tokens per Task: 3,436
+  Avg Tokens per Page: 6,000
+  Avg Tokens per Blog: 3,179
+  Avg Tokens per Optimization: 2,100
+  Avg Tokens per Component: 2,000
+
+COST BREAKDOWN:
+  Task Type | Count | Tokens | Cost
+  ──────────────────────────────────
+  Pages     |  41   | 246K   | $0.74
+  Blogs     |  28   |  89K   | $0.27
+  Optimize  |  40   |  84K   | $0.25
+  Component |  20   |  40K   | $0.12
+  Testing   |  11   |  22K   | $0.07
+  ──────────────────────────────────
+  TOTAL     | 140   | 481K   | $1.44
+
+KEY INSIGHTS:
+  ✓ Average 14 tasks/day (target: 10-50) ✓
+  ✓ Pages taking 6K tokens as expected ✓
+  ✓ Blogs taking 3K tokens as expected ✓
+  ✓ Optimization efficiency good ✓
+  ✓ Total cost low (~$1.44/month) ✓
+
+AREAS FOR OPTIMIZATION:
+  • Components could be more efficient (avg 2K, target 1.5K)
+  • Consider batching pages for faster build
+  • Blog posts slightly high - might need better briefs
+
+
+════════════════════════════════════════════════════════════════════════════
+EMPTY TEMPLATES (Copy and fill for future weeks/months)
+════════════════════════════════════════════════════════════════════════════
+
+═══════════════════════════════════════════════════════════════════════════
+WEEK X: [DATE RANGE]
+═══════════════════════════════════════════════════════════════════════════
+
+DAILY SUMMARY:
+  Monday:    __ tasks  ~__K tokens
+  Tuesday:   __ tasks  ~__K tokens
+  Wednesday: __ tasks  ~__K tokens
+  Thursday:  __ tasks  ~__K tokens
+  Friday:    __ tasks  ~__K tokens
+
+WEEKLY TOTAL:
+  Total Tasks: __
+  Total Tokens: ~__K
+  
+BREAKDOWN BY TASK TYPE:
+  Pages/Sections (__ tasks): __K tokens
+  Blog Posts (__ tasks): __K tokens
+  Optimization (__ tasks): __K tokens
+  Components (__ tasks): __K tokens
+  Testing (__ tasks): __K tokens
+
+COST ESTIMATE: $__ (__K tokens × $0.003)
+NOTES: [Any observations, issues, improvements]
+
+
+═══════════════════════════════════════════════════════════════════════════
+MONTHLY SUMMARY: [MONTH] [YEAR]
+═══════════════════════════════════════════════════════════════════════════
+
+TOTAL STATS:
+  Total Days Worked: __ days
+  Total Tasks: __
+  Total Tokens: ~__K
+  Estimated Cost: $__
+
+BREAKDOWN BY CLIENT:
+  [Client 1]: __K tokens (__%)
+  [Client 2]: __K tokens (__%)
+  
+BREAKDOWN BY TASK TYPE:
+  Pages/Sections (__ tasks): __K tokens (__%)
+  Blog Posts (__ tasks): __K tokens (__%)
+  Optimization (__ tasks): __K tokens (__%)
+  Components (__ tasks): __K tokens (__%)
+  Testing (__ tasks): __K tokens (__%)
+
+EFFICIENCY METRICS:
+  Avg Tokens per Task: __
+  Avg Tokens per Page: __
+  Avg Tokens per Blog: __
+  Avg Tokens per Optimization: __
+  Avg Tokens per Component: __
+
+COST BREAKDOWN:
+  Task Type | Count | Tokens | Cost
+  ──────────────────────────────────
+  Pages     |  __   | __K    | $__
+  Blogs     |  __   | __K    | $__
+  Optimize  |  __   | __K    | $__
+  Component |  __   | __K    | $__
+  Testing   |  __   | __K    | $__
+  ──────────────────────────────────
+  TOTAL     |  __   | __K    | $__
+
+KEY INSIGHTS:
+  ✓ [Metric 1]
+  ✓ [Metric 2]
+  ✓ [Metric 3]
+
+AREAS FOR OPTIMIZATION:
+  • [Opportunity 1]
+  • [Opportunity 2]
+  • [Opportunity 3]
+
+
+════════════════════════════════════════════════════════════════════════════
+HOW TO USE THIS TRACKER
+════════════════════════════════════════════════════════════════════════════
+
+WEEKLY LOGGING (Every Friday):
+  1. Count tasks by day
+  2. Estimate tokens by task type (or I'll give you numbers)
+  3. Fill in WEEKLY TOTAL section
+  4. Add brief notes
+  5. Save
+
+MONTHLY SUMMARY (Last day of month):
+  1. Sum all weekly totals
+  2. Calculate cost ($: tokens × $0.003/1000)
+  3. Break down by client and task type
+  4. Calculate efficiency metrics
+  5. Note insights and optimization opportunities
+  6. Plan improvements for next month
+
+QUICK REFERENCE - TYPICAL COSTS:
+  Pages/Sections: 6-8K tokens
+  Blog Posts: 3-5K tokens
+  Optimization: 2-4K tokens
+  Components: 8-10K tokens
+  Testing: 2-3K tokens
+
+EXPECTED MONTHLY (40 tasks/day × 20 days):
+  Total Tasks: 800
+  Total Tokens: ~2.5M (estimated)
+  Monthly Cost: ~$7.50
+  Avg Cost per Task: $0.009
+
+
+════════════════════════════════════════════════════════════════════════════
+END OF TRACKER
+════════════════════════════════════════════════════════════════════════════
