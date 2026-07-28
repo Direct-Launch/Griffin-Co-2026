@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(./.claude/scripts/load-skills.sh *)",
+      "mcp__claude_ai_ClickUp__clickup_search",
+      "mcp__claude_ai_ClickUp__clickup_get_task",
+      "mcp__claude_ai_ClickUp__clickup_update_task",
+      "mcp__claude_ai_Shopify__get-shop-info",
+      "mcp__claude_ai_Shopify__graphql_query"
+    ]
+  }
+}
