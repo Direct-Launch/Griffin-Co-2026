@@ -5,6 +5,25 @@
 
 {% paginate collection.products by display-total-collection-products-total %}
 
+  {%- comment -%}
+    Shopify's native "Date, new to old/old to new" sort uses product created_at,
+    not the date it was actually published to Online Store — so drafts uploaded
+    early and published later sort out of order. Re-sort by published_at instead.
+    Note: this only re-sorts within the current paginated page (collection.products
+    above is already sliced by the paginate tag), so it can show gaps on catalogues
+    over ~1000 products. Griffin & Co is well under that; re-check if it grows.
+  {%- endcomment -%}
+  {%- liquid
+    assign collection_sort_by = collection.sort_by | default: collection.default_sort_by
+    if collection_sort_by == 'created-descending'
+      assign collection_products = collection.products | sort: 'published_at' | reverse
+    elsif collection_sort_by == 'created-ascending'
+      assign collection_products = collection.products | sort: 'published_at'
+    else
+      assign collection_products = collection.products
+    endif
+  -%}
+
   <style>
     /* Minimalist Layout Adjustments */
     #CollectionProductGrid .product-grid--wrapper {
@@ -147,7 +166,7 @@
           id="template--collection"
         >
           {% assign promo_insertion_index = desktop_products_per_row | times: 2 %}
-          {% for product in collection.products %}
+          {% for product in collection_products %}
             
             {% if section.settings.show_promo_block and forloop.index0 == promo_insertion_index %}
               <div class="grid__item {{ promo_grid_item_width }} show-on-scroll">

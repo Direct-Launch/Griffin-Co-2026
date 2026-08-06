@@ -44,6 +44,41 @@
   {% if page_description %}
     <meta name="description" content="{{ page_description | escape }}">
   {% endif %}
+  {% if template == 'index' %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "JewelryStore",
+      "name": "Griffin & Co Fine Jewellery",
+      "url": "https://griffinfinejewellery.com",
+      "telephone": "+441243380024",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "64 South Street",
+        "addressLocality": "Chichester",
+        "addressRegion": "West Sussex",
+        "postalCode": "PO19 1EE",
+        "addressCountry": "GB"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+          "opens": "09:30",
+          "closes": "17:00"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/people/Griffin-Co-Fine-Jewellery/61571935884352/",
+        "https://www.instagram.com/griffinandcofinejewellery/",
+        "https://uk.pinterest.com/griffinandcofinejewellery/",
+        "https://www.youtube.com/@GriffinCoFineJewellery",
+        "https://www.linkedin.com/company/griffin-co-fine-jewellery",
+        "https://www.tiktok.com/@griffincofinejewellery"
+      ]
+    }
+    </script>
+  {% endif %}
 
   <!-- Helpers ================================================== -->
   {% render 'social-meta-tags' %}
