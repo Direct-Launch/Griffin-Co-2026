@@ -1092,7 +1092,7 @@
             "heading": "Our Chichester Showroom",
             "heading_size": "h5",
             "heading_size_mobile": "h4-mobile",
-            "text": "Nestled in the historic heart of Chichester, we are a team of passionate jewellers dedicated to the art of fine craftsmanship. Whether you are searching for the perfect diamond, looking to breathe new life into an heirloom, or simply treating yourself, we offer a warm, unhurried experience tailored entirely to you.",
+            "text": "Nestled in the historic heart of Chichester, we are a team of passionate jewellers dedicated to the art of fine craftsmanship. Whether you are searching for the perfect diamond, looking to breathe new life into an heirloom, or simply treating yourself, we offer a warm, unhurried experience tailored entirely to you. Prefer to stay local? Our Home Visits service brings the same experience to you anywhere across West Sussex, Surrey, and Hampshire.",
             "url": "shopify://pages/our-showroom",
             "button_label": "Learn About Us",
             "buttons_style": "outlined",
@@ -1667,7 +1667,7 @@
           "settings": {
             "accordion_header": "What sets Griffin & Co Fine Jewellery apart?",
             "open_by_default": false,
-            "text": "<p>At Griffin & Co, we are defined by our commitment to three core principles: <strong>personal service, exceptional quality, and timeless design.</strong> Unlike other high-street jewellers, we offer a truly bespoke experience.</p><p>Our experts guide you through every step, from the initial idea to the final piece, ensuring your jewellery is a perfect reflection of your story.</p>",
+            "text": "<p>At Griffin & Co, we are defined by our commitment to three core principles: <strong>personal service, exceptional quality, and timeless design.</strong> Unlike other high-street jewellers, we offer a truly bespoke experience.</p><p>Our experts guide you through every step, from the initial idea to the final piece, ensuring your jewellery is a perfect reflection of your story.</p>",
             "page": ""
           }
         },
@@ -1694,7 +1694,7 @@
           "settings": {
             "accordion_header": "What payment methods do you accept?",
             "open_by_default": false,
-            "text": "<p>We accept all major credit cards, PayPal, Apple Pay, and Google Pay for your convenience as well as cash.</p><p><strong>Finance Options:</strong> We've partnered with ClearPay to help you spread the cost of your purchase. </p>",
+            "text": "<p>We accept all major credit cards, PayPal, Apple Pay, and Google Pay for your convenience as well as cash.</p><p><strong>Finance Options:</strong> We've partnered with ClearPay to help you spread the cost of your purchase. </p>",
             "page": ""
           }
         }
