@@ -27,30 +27,35 @@
 
 <footer
   class="footer-main {{ section.settings.color_scheme }} flex-full color-scheme--{{ section.settings.color_scheme }} site-footer{% if template contains 'product' %}{% if settings.related_products_enable %}{% else %} product-sticker-stop{% endif %}{% endif %} footer-alignment--{{ section.settings.alignment }} footer-alignment-mobile--{{ section.settings.alignment_mobile }}"
-  data-wetheme-section-type="footer-main" data-wetheme-section-id="{{ section.id }}"
+  data-wetheme-section-type="footer-main"
+  data-wetheme-section-id="{{ section.id }}"
 >
-  <div 
+  <div
     class="footer-main--inner wrapper-spacing--h"
     style="grid-template-columns: repeat({{ section.blocks.size }}, 1fr);"
   >
     {% for block in section.blocks %}
       {% case block.type %}
         {% when 'social' %}
-
-          <div class="social-media-footer{% if forloop.first %} border-none padding-none{% endif %}" {{ block.shopify_attributes }}>
-            {% unless block.settings.social_title == "" %}
-              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">{{ block.settings.social_title | escape }}</div>
+          <div
+            class="social-media-footer{% if forloop.first %} border-none padding-none{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {% unless block.settings.social_title == '' %}
+              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
+                {{ block.settings.social_title | escape }}
+              </div>
             {% endunless %}
             {% render 'social-icons' %}
           </div>
 
-
-          {% when 'menu' %}
-
-            {% assign menu = linklists[block.settings.footer_linklist] %}
-            <div class="links-footer{% if forloop.first %} border-none padding-none{% endif %}" {{ block.shopify_attributes }}>
-              
-              {% capture menu_list_html %}
+        {% when 'menu' %}
+          {% assign menu = linklists[block.settings.footer_linklist] %}
+          <div
+            class="links-footer{% if forloop.first %} border-none padding-none{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {% capture menu_list_html %}
                 {% if menu.links.size > 0 %}
                   <ul class="footer-content nav-link-animated">
                     {% for link in menu.links %}
@@ -73,53 +78,62 @@
                 {% endif %}
               {% endcapture %}
 
-              <!-- Desktop View -->
-              <div class="medium-down--hide">
-                {% unless block.settings.menu_title == "" %}
-                  <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">{{ block.settings.menu_title | escape }}</div>
-                {% endunless %}
-                {{ menu_list_html }}
-              </div>
+            <!-- Desktop View -->
+            <div class="medium-down--hide">
+              {% unless block.settings.menu_title == '' %}
+                <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
+                  {{ block.settings.menu_title | escape }}
+                </div>
+              {% endunless %}
+              {{ menu_list_html }}
+            </div>
 
-              <!-- Mobile View (Accordion) -->
-              <div class="large--hide">
-                {% if block.settings.menu_title != "" %}
-                  <details class="mobile-footer-accordion">
-                    <summary class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
-                      {{ block.settings.menu_title | escape }}
-                      <span class="footer-accordion-icon">
-                        {% render 'theme-icon', icon: 'chevron_down' %}
-                      </span>
-                    </summary>
-                    <div class="mobile-footer-accordion-content" style="padding-top: 16px; padding-bottom: 8px;">
-                      {{ menu_list_html }}
-                    </div>
-                  </details>
-                {% else %}
-                  <div class="mobile-footer-accordion-content">
+            <!-- Mobile View (Accordion) -->
+            <div class="large--hide">
+              {% if block.settings.menu_title != '' %}
+                <details class="mobile-footer-accordion">
+                  <summary class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
+                    {{ block.settings.menu_title | escape }}
+                    <span class="footer-accordion-icon">
+                      {% render 'theme-icon', icon: 'chevron_down' %}
+                    </span>
+                  </summary>
+                  <div class="mobile-footer-accordion-content" style="padding-top: 16px; padding-bottom: 8px;">
                     {{ menu_list_html }}
                   </div>
-                {% endif %}
+                </details>
+              {% else %}
+                <div class="mobile-footer-accordion-content">
+                  {{ menu_list_html }}
+                </div>
+              {% endif %}
+            </div>
+          </div>
+
+        {% when 'text' %}
+          <div
+            class="content-footer{% if forloop.first %} border-none padding-none{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {% unless block.settings.title == '' %}
+              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
+                {{ block.settings.title | escape }}
               </div>
-
-            </div>
-
-          {% when 'text' %}
-
-            <div class="content-footer{% if forloop.first %} border-none padding-none{% endif %}" {{ block.shopify_attributes }}>
-              {% unless block.settings.title == "" %}
-                <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">{{ block.settings.title | escape }}</div>
-              {% endunless %}
-              {% unless block.settings.richtext == "" %}
-                <div class="rte footer-article text-link-animated richtext-block">{{ block.settings.richtext }}</div>
-              {% endunless %}
-            </div>
+            {% endunless %}
+            {% unless block.settings.richtext == '' %}
+              <div class="rte footer-article text-link-animated richtext-block">{{ block.settings.richtext }}</div>
+            {% endunless %}
+          </div>
 
         {% when 'follow_on_shop' %}
-
-          <div class="content-footer{% if forloop.first %} border-none padding-none{% endif %}" {{ block.shopify_attributes }}>
-            {% unless block.settings.title == "" %}
-              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">{{ block.settings.title | escape }}</div>
+          <div
+            class="content-footer{% if forloop.first %} border-none padding-none{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {% unless block.settings.title == '' %}
+              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
+                {{ block.settings.title | escape }}
+              </div>
             {% endunless %}
             {% if shop.features.follow_on_shop? %}
               {{ shop | login_button: action: 'follow' }}
@@ -127,20 +141,29 @@
           </div>
 
         {% when 'image' %}
-
-          <div class="image-footer{% if forloop.first %} border-none padding-none{% endif %}" {{ block.shopify_attributes }}>
+          <div
+            class="image-footer{% if forloop.first %} border-none padding-none{% endif %}"
+            {{ block.shopify_attributes }}
+          >
             {% if block.settings.image != blank %}
               {%- assign img_url = block.settings.image | image_url: width: 600 -%}
             {% else %}
               {%- assign img_url = '' -%}
             {% endif %}
 
-            {% unless block.settings.title == "" %}
-              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">{{ block.settings.title }}</div>
+            {% unless block.settings.title == '' %}
+              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
+                {{ block.settings.title }}
+              </div>
             {% endunless %}
 
             {% if block.settings.link != blank %}
-              <a href="{{ block.settings.link }}" {% unless block.settings.override_border_radius %}class="block-radius-clip"{% endunless %}>
+              <a
+                href="{{ block.settings.link }}"
+                {% unless block.settings.override_border_radius %}
+                  class="block-radius-clip"
+                {% endunless %}
+              >
             {% elsif img_url != blank %}
               <div class="image-bar__item">
             {% else %}
@@ -173,15 +196,21 @@
           </div>
 
         {% when 'newsletter' %}
-
-          <div class="newsletter-footer{% if forloop.first %} border-none padding-none{% endif %}" {{ block.shopify_attributes }}>
-            {% unless block.settings.newsletter_title == "" %}
-              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">{{ block.settings.newsletter_title | escape }}</div>
+          <div
+            class="newsletter-footer{% if forloop.first %} border-none padding-none{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {% unless block.settings.newsletter_title == '' %}
+              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
+                {{ block.settings.newsletter_title | escape }}
+              </div>
             {% endunless %}
 
             <div class="newsletter-footer--wrapper">
               {% if block.settings.footer_newsletter_description != empty %}
-                <div class="rte footer-article text-link-animated richtext-block">{{ block.settings.footer_newsletter_description }}</div>
+                <div class="rte footer-article text-link-animated richtext-block">
+                  {{ block.settings.footer_newsletter_description }}
+                </div>
               {% endif %}
               {% form 'customer', id: 'newsletter-footer_form' %}
                 {{ form.errors | default_errors }}
@@ -189,7 +218,9 @@
                 {% unless form.posted_successfully? %}
                   {% if customer and customer.email == form.email %}
                     <div class="errors">
-                      <span role="alert" class="error">{{ 'general.newsletter_form_section.already_subscribed' | t }}</span>
+                      <span role="alert" class="error">
+                        {{- 'general.newsletter_form_section.already_subscribed' | t -}}
+                      </span>
                     </div>
                   {% endif %}
                 {% endunless %}
@@ -207,7 +238,7 @@
                         assign button_classes = 'btn--underlined'
                     endcase
                   %}
-                  
+
                   {% if block.settings.override_button_colors %}
                     {% render 'button-color-overrides',
                       id: block.id,
@@ -217,9 +248,26 @@
                     %}
                   {% endif %}
                   <div class="input-group{% if block.settings.buttons_style == 'underlined' %} text-link-animated{% endif %}">
-                    <input type="email" value="{% if customer %}{{ customer.email }}{% endif %}" placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}" name="contact[email]" id="FooterEmail" class="input-group-field footer-email-input" aria-label="{{ 'general.newsletter_form.newsletter_email' | t }}" pattern=".+@.+\..+" title="{{ 'general.forms.email_must_be_formatted_as_an_email' | t }}">
+                    <input
+                      type="email"
+                      value="{% if customer %}{{ customer.email }}{% endif %}"
+                      placeholder="{{ 'general.newsletter_form.newsletter_email' | t }}"
+                      name="contact[email]"
+                      id="FooterEmail"
+                      class="input-group-field footer-email-input"
+                      aria-label="{{ 'general.newsletter_form.newsletter_email' | t }}"
+                      pattern=".+@.+\..+"
+                      title="{{ 'general.forms.email_must_be_formatted_as_an_email' | t }}"
+                    >
                     <input type="hidden" name="contact[tags]" value="newsletter">
-                    <button type="submit" class="{{ button_classes }} footer-email-submit dynamic-section-button--{{ block.id }}" name="subscribe" id="FooterSubscribe">{{ 'general.newsletter_form.submit' | t }}</button>
+                    <button
+                      type="submit"
+                      class="{{ button_classes }} footer-email-submit dynamic-section-button--{{ block.id }}"
+                      name="subscribe"
+                      id="FooterSubscribe"
+                    >
+                      {{ 'general.newsletter_form.submit' | t }}
+                    </button>
                   </div>
                 {% endif %}
               {% endform %}
@@ -227,8 +275,20 @@
           </div>
 
         {% when 'brand_information' %}
+          <div
+            class="content-footer{% if forloop.first %} border-none padding-none{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {% unless block.settings.title == '' %}
+              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">
+                {{ block.settings.title | escape }}
+              </div>
+            {% endunless %}
 
-          <div class="content-footer{% if forloop.first %} border-none padding-none{% endif %}" {{ block.shopify_attributes }}>
+            {% unless block.settings.richtext == blank %}
+              <div class="rte footer-article text-link-animated richtext-block">{{ block.settings.richtext }}</div>
+            {% endunless %}
+
             {% if block.settings.image != blank %}
               {%- assign brand_img_url = block.settings.image | image_url: width: 600 -%}
             {% else %}
@@ -248,14 +308,6 @@
                 {% endif %}
               </div>
             {% endif %}
-
-            {% unless block.settings.title == "" %}
-              <div class="footer-header {{ section.settings.heading_font_size }} {{ section.settings.heading_font_size_mobile }}">{{ block.settings.title | escape }}</div>
-            {% endunless %}
-
-            {% unless block.settings.richtext == blank %}
-              <div class="rte footer-article text-link-animated richtext-block">{{ block.settings.richtext }}</div>
-            {% endunless %}
           </div>
       {% endcase %}
     {% endfor %}
