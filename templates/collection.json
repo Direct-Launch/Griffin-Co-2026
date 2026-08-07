@@ -14,7 +14,7 @@
       "type": "collection-header",
       "settings": {
         "show_breadcrumbs": true,
-        "show_title": true,
+        "show_title": false,
         "show_description": false,
         "show_image_desktop": false,
         "min_height_desktop": "original",
@@ -26,12 +26,154 @@
         "enable_parallax": true,
         "enable_fade": true,
         "section_width": "full",
-        "section_margin_top": 0,
-        "section_margin_bottom": 0,
+        "section_margin_top": 60,
+        "section_margin_bottom": 10,
         "colors": "white",
         "caption_bg_color": "rgba(0,0,0,0)",
         "image_overlay_color": "#242424",
         "image_overlay_opacity": 26
+      }
+    },
+    "hero_image_with_text_JgpHQd": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "{{ collection.image }}",
+        "layout": "right",
+        "title": "{{ collection.title }}.",
+        "text": "<p>{{ collection.description }}</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h2",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h2-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "{{ collection.metafields.custom.button_link.value }}",
+        "button_label_1": "{{ collection.metafields.custom.button_text.value }}",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "",
+        "button_label_2": "",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "scrolling_banner_NdkyBY": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_YVWM9d": {
+          "type": "text",
+          "settings": {
+            "text": "Repaired in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_zjzcG4": {
+          "type": "text",
+          "settings": {
+            "text": "Bespoke 3D Design Studio",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h4-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_GMiMb7": {
+          "type": "text",
+          "settings": {
+            "text": "Private Home Visits",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_DznWet": {
+          "type": "text",
+          "settings": {
+            "text": "Crafted in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_xw9nPg": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_F7GTLw": {
+          "type": "text",
+          "settings": {
+            "text": "Certified Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_YeKAAU": {
+          "type": "text",
+          "settings": {
+            "text": "30 Days Return",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_YVWM9d",
+        "text_zjzcG4",
+        "text_GMiMb7",
+        "text_DznWet",
+        "text_xw9nPg",
+        "text_F7GTLw",
+        "text_YeKAAU"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
       }
     },
     "product-grid": {
@@ -41,7 +183,7 @@
         "desktop-products-per-row": 4,
         "mobile-products-per-row": "1",
         "pagination_options": "pagination_default",
-        "desktop_position": "sidebar",
+        "desktop_position": "topbar",
         "enable_sorting": true,
         "enable_filtering": true,
         "enable_collection_title": false,
@@ -59,46 +201,373 @@
         "highlight_show_border": true,
         "highlight_collapsible_tab": true,
         "highlight_open_close_icon": "plus_minus",
-        "highlight_button_borders": false
+        "highlight_button_borders": false,
+        "show_promo_block": true,
+        "promo_image": "shopify://shop_images/Bespoke_Experience.jpg",
+        "promo_subtitle": "Create Your Own",
+        "promo_heading": "Ready to design your own bespoke jewellery?",
+        "promo_button_text": "Book Consultation",
+        "promo_text": "<p>Looking for bespoke fine jewellery? Our team of expert designers and gemmologists are here to help bring your vision to life. Contact us for personalised guidance and custom creations.</p>",
+        "promo_button_link": "shopify://pages/bespoke-jewellery-designs"
       }
     },
-    "rich_text_6VeUNi": {
+    "template_collections_list_NDTLLn": {
+      "type": "template--collections-list",
+      "name": "Jewellery Set Collections",
+      "settings": {
+        "banner-image-size": "20vh",
+        "parallax": true,
+        "show_options": "selected",
+        "selected_collections": "{{ collection.metafields.custom.jewellery_set_list.value }}",
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "layout": "preview",
+        "items_per_row": 3
+      }
+    },
+    "rich_text_dEg8cr": {
       "type": "rich-text",
       "blocks": {
-        "heading_wnQMWW": {
+        "heading_t4Fej9": {
           "type": "heading",
           "settings": {
-            "heading": "More about the collection...",
-            "heading--text-size": "h5",
+            "heading": "SHOP FOR JEWELLERY FROM OUR INSTAGRAM.",
+            "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
         },
-        "richtext_NxtGdn": {
+        "richtext_Vgtjmr": {
           "type": "richtext",
           "settings": {
-            "text": "{{ collection.description }}",
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular jewellery highlights. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
             "text_size": 100,
-            "text_bottom_spacing": 20
+            "text_bottom_spacing": 0
           }
         }
       },
       "block_order": [
-        "heading_wnQMWW",
-        "richtext_NxtGdn"
+        "heading_t4Fej9",
+        "richtext_Vgtjmr"
       ],
+      "name": "Instagram Rich Text",
       "settings": {
-        "section_width": "full-width",
-        "text_alignment_desktop": "left",
-        "text_alignment_mobile": "left",
-        "section_padding_top": 60,
-        "section_padding_bottom": 30,
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
         "colors": "white"
+      }
+    },
+    "apps_aiMcnD": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_99AMMY": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "{{ collection.metafields.custom.instagram_feed.value }}",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_99AMMY"
+      ],
+      "name": "Instagram Feed",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
+    },
+    "template_product_recently_viewed_KFJayR": {
+      "type": "template--product--recently-viewed",
+      "name": "t:sections.template--product--recently-viewed.presets.name",
+      "settings": {
+        "title": "Recently viewed products.",
+        "description": "",
+        "section_header_alignment": "center",
+        "layout_style": "slider",
+        "products_to_show": 8,
+        "grid-desktop": 4,
+        "grid-mobile": "2",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "show_highlight": false,
+        "highlight_position": "bottom",
+        "highlight_icon": "heart",
+        "highlight_heading": "Why we love it",
+        "highlight_reference": "",
+        "highlight_text_color": "rgba(0,0,0,0)",
+        "highlight_background_color": "rgba(0,0,0,0)",
+        "highlight_alignment": "left",
+        "highlight_font_size": "medium",
+        "highlight_show_border": true,
+        "highlight_collapsible_tab": true,
+        "highlight_open_close_icon": "plus_minus",
+        "highlight_button_borders": false,
+        "colors": "white",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff"
+      }
+    },
+    "template_product_info_columns_4VB6gk": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_jCxaDE": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>The Consultation</h6><p>We start by understanding you. We'll discuss your vision for gemstones, metals, and design preferences, then craft jewellery that's uniquely yours. With a clear direction in mind, our design process begins.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_hPw3wD": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Diamond_Set_Rings_-_Mobile_43d70b02-4792-4c23-86a0-7bf63dbf99d6.png",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>Exploring Designs</h6><p>It’s time to delve into your jewellery design details! You can view our existing rings in person, online, or via the online builder. Once your stone and setting details are decided, we will start sourcing your unique gemstones!</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_FfL9hB": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/SR1506.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>Create and Refine Design</h6><p>It’s time for the details. We’ve found your dream stones, and now our dedicated CAD designer is ready to create a 3D rendered image of your jewellery. We can fine tune the design, adding details, and changing your claw style until it’s perfect!</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_LL4KkE": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/heating-metal-ring.jpg",
+            "grid_image_size": "square",
+            "heading": "",
+            "text": "<h6>The Crafting Process</h6><p>Your stunning jewellery is cast, hand set, and finished by our skilled UK based jewellers. We meticulously check every detail is perfect, add any personalisation you've chosen, and then your ring is carefully prepared for its journey to you.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_jCxaDE",
+        "image_and_text_hPw3wD",
+        "image_and_text_FfL9hB",
+        "image_and_text_LL4KkE"
+      ],
+      "name": "Bespoke Process",
+      "settings": {
+        "title": "Our Bespoke Process.",
+        "description": "<p>Let's make your dream jewellery together.</p>",
+        "section_header_alignment": "left",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_rCNRYR": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_f4AJqQ": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready For The Next Step?",
+            "font_size_desktop": "h6",
+            "font_size_mobile": "h6-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "heading_7hMK7r": {
+          "type": "heading",
+          "settings": {
+            "title": "Schedule an in-store or at home consultation",
+            "font_size_desktop": "h3",
+            "font_size_mobile": "h4-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_PeYdHD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One-off jewellery made especially for you. Book an in-store or at home appointment to browse all of our Jewellery, Diamonds and Gemstones.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        },
+        "button_iybTDq": {
+          "type": "button",
+          "settings": {
+            "first_button_link": "shopify://pages/schedule-an-appointment",
+            "first_button_label": "Book an Appointment",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "buttons_background": "#e68819",
+            "buttons_text": "#ffffff",
+            "buttons_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_f4AJqQ",
+        "heading_7hMK7r",
+        "text_PeYdHD",
+        "button_iybTDq"
+      ],
+      "name": "Book an Appointment CTA",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Interior_1.webp",
+        "height_desktop": "550px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "center",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "center",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#242424",
+        "caption_bg_color": "#ffffff",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 30
+      }
+    },
+    "template_product_info_columns_Qd7imq": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_aBQtAR": {
+          "type": "text",
+          "name": "West Sussex",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/west-sussex\" title=\"Jewellery in West Sussex\">West Sussex</a></h5><p><a href=\"/pages/arundel\" title=\"Jewellery in Arundel\">Arundel</a>, <a href=\"/pages/bognor-regis\" title=\"Jewellery in Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/bosham\" title=\"Jewellery in Bosham\">Bosham</a>, <a href=\"/pages/burgess-hill\" title=\"Jewellery in Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/chichester\" title=\"Jewellery in Chichester\">Chichester</a>, <a href=\"/pages/crawley\" title=\"Jewellery in Crawley\">Crawley</a>, <a href=\"/pages/east-grinstead\" title=\"Jewellery in East Grinstead\">East Grinstead</a>, <a href=\"/pages/haywards-heath\" title=\"Jewellery in Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/horsham\" title=\"Jewellery in Horsham\">Horsham</a>, <a href=\"/pages/littlehampton\" title=\"Jewellery in Littlehampton\">Littlehampton</a>, <a href=\"/pages/shoreham-by-sea\" title=\"Jewellery in Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/worthing\" title=\"Jewellery in Worthing\">Worthing</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_VbHeDm": {
+          "type": "text",
+          "name": "Hampshire",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/hampshire\" title=\"Jewellery in Hampshire\">Hampshire</a></h5><p><a href=\"/pages/aldershot\" title=\"Jewellery in Aldershot\">Aldershot</a>, <a href=\"/pages/andover\" title=\"Jewellery in Andover\">Andover</a>, <a href=\"/pages/basingstoke\" title=\"Jewellery in Basingstoke\">Basingstoke</a>, <a href=\"/pages/farnborough\" title=\"Jewellery in Farnborough\">Farnborough</a>, <a href=\"/pages/gosport\" title=\"Jewellery in Gosport\">Gosport</a>, <a href=\"/pages/horndean\" title=\"Jewellery in Horndean\">Horndean</a>, <a href=\"/pages/portsmouth\" title=\"Jewellery in Portsmouth\">Portsmouth</a>, <a href=\"/pages/southampton\" title=\"Jewellery in Southampton\">Southampton</a>, <a href=\"/pages/winchester\" title=\"Jewellery in Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_cX9fpP": {
+          "type": "text",
+          "name": "Surrey",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/surrey\" title=\"Jewellery in Surrey\">Surrey</a></h5><p><a href=\"/pages/camberley\" title=\"Jewellery in Camberley\">Camberley</a>, <a href=\"/pages/epsom\" title=\"Jewellery in Epsom\">Epsom</a>, <a href=\"/pages/esher\" title=\"Jewellery in Esher\">Esher</a>, <a href=\"/pages/ewell\" title=\"Jewellery in Ewell\">Ewell</a>, <a href=\"/pages/guildford\" title=\"Jewellery in Guildford\">Guildford</a>, <a href=\"/pages/leatherhead\" title=\"Jewellery in Leatherhead\">Leatherhead</a>, <a href=\"/pages/redhill\" title=\"Jewellery in Redhill\">Redhill</a>, <a href=\"/pages/walton-on-thames\" title=\"Jewellery in Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/weybridge\" title=\"Jewellery in Weybridge\">Weybridge</a>, <a href=\"/pages/woking\" title=\"Jewellery in Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_zcDWBH": {
+          "type": "text",
+          "name": "Greater London",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/greater-london\" title=\"Greater London\">Greater London</a></h5><p><a href=\"https://griffinfinejewellery.com/pages/battersea\">Battersea</a>, <a href=\"https://griffinfinejewellery.com/pages/barnet\">Barnet, </a><a href=\"https://griffinfinejewellery.com/pages/bromley\">Bromley, </a><a href=\"https://griffinfinejewellery.com/pages/chelsea\">Chelsea, </a><a href=\"https://griffinfinejewellery.com/pages/clapham\">Clapham</a>, <a href=\"https://griffinfinejewellery.com/pages/croydon\">Croydon</a>, <a href=\"https://griffinfinejewellery.com/pages/ealing\">Ealing, </a><a href=\"https://griffinfinejewellery.com/pages/enfield\">Enfield</a>, <a href=\"https://griffinfinejewellery.com/pages/fulham\">Fulham</a>, <a href=\"https://griffinfinejewellery.com/pages/farringdon\">Farringdon</a>, <a href=\"https://griffinfinejewellery.com/pages/greenwich\">Greenwich, </a><a href=\"https://griffinfinejewellery.com/pages/hatton-garden\">Hatton Garden, London</a>, <a href=\"https://griffinfinejewellery.com/pages/kingston\">Kingston, </a><a href=\"https://griffinfinejewellery.com/pages/lambeth\">Lambeth, </a><a href=\"https://griffinfinejewellery.com/pages/newham\">Newham</a> <a href=\"https://griffinfinejewellery.com/pages/tower-hamlets\">Tower Hamlets, </a><a href=\"https://griffinfinejewellery.com/pages/richmond\">Richmond, </a><a href=\"https://griffinfinejewellery.com/pages/wandsworth\">Wandsworth</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_aBQtAR",
+        "text_VbHeDm",
+        "text_cX9fpP",
+        "text_zcDWBH"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Areas We Cover for Private Home Visits.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England for at home jewellery display presentation, consultations and delivery.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
       }
     }
   },
   "order": [
     "collection-header-spotlight",
+    "hero_image_with_text_JgpHQd",
+    "scrolling_banner_NdkyBY",
     "product-grid",
-    "rich_text_6VeUNi"
+    "template_collections_list_NDTLLn",
+    "rich_text_dEg8cr",
+    "apps_aiMcnD",
+    "template_product_recently_viewed_KFJayR",
+    "template_product_info_columns_4VB6gk",
+    "image_with_text_overlay_rCNRYR",
+    "template_product_info_columns_Qd7imq"
   ]
 }
