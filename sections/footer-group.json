@@ -158,6 +158,7 @@
         "brand_information_TBwk3n": {
           "type": "brand_information",
           "settings": {
+            "image": "shopify://shop_images/NAJ_member_logo.png",
             "image_width": 200,
             "link": "",
             "title": "Griffin & Co Jewellery",
