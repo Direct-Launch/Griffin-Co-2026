@@ -11,9 +11,6 @@
   "sections": {
     "main": {
       "type": "faq-knowledge-base",
-      "settings": {
-        "heading": "Frequently Asked Questions"
-      },
       "blocks": {
         "q001": {
           "type": "question",
@@ -458,7 +455,10 @@
         "q047",
         "q048",
         "q049"
-      ]
+      ],
+      "settings": {
+        "heading": "Frequently Asked Questions."
+      }
     }
   },
   "order": [
