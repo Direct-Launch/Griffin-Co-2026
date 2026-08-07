@@ -4,23 +4,31 @@
   (product.metafields.judgeme.review_widget_data). Emitted ONLY when a product has at least
   one real review — Google requires reviewCount > 0, and an empty/fabricated rating is worse
   than none.
-  DATA CHECK 2026-08-07 (debug: currently forced on to verify parsing — see TEMP-DEBUG below):
-  sampled 8 live products spanning publish dates back to Dec 2024 — all show 0 accumulated
-  Judge.me reviews, metafield last synced 2026-08-06 (same timestamp on every product, i.e.
-  a full fresh sync, not gradual accumulation). This contradicts the Product SEO Audit
-  (2026-08-06)'s assumption that reviews already existed — flagging as an open discrepancy,
-  not silently resolving it. The "52+ reviews" homepage copy is Google Business Profile
-  reviews (a different entity, already schema'd on the homepage), not Shopify product reviews.
+  DATA CHECK 2026-08-07 (verified via debug render, then removed): sampled 8 live products
+  spanning publish dates back to Dec 2024 — all show 0 accumulated Judge.me reviews,
+  metafield last synced 2026-08-06 (identical timestamp across every product — a full fresh
+  sync, not gradual accumulation). This contradicts the Product SEO Audit (2026-08-06)'s
+  assumption that reviews already existed — flagged as an open discrepancy, not silently
+  resolved. The "52+ reviews" homepage copy is Google Business Profile reviews (a different
+  entity, already schema'd on the homepage JewelryStore block), not Shopify product reviews.
+  Net effect: this fix currently renders for 0 live products but is correctly wired for when
+  real reviews land — no manual follow-up needed once Judge.me accumulates reviews.
   Added 2026-08-07.
 {%- endcomment -%}
 {%- if template contains 'product' -%}
   {%- assign review_data = product.metafields.judgeme.review_widget_data.value -%}
-  {%- comment -%} TEMP-DEBUG: forcing render regardless of review count, to verify the metafield parses correctly given every sampled product currently has 0 reviews. Will be reverted to the real `review_data.number_of_reviews > 0` guard before this is considered done. {%- endcomment -%}
-  {%- if review_data -%}
-  <script type="application/ld+json" id="schema-product-rating-debug">
+  {%- if review_data.number_of_reviews > 0 -%}
+  <script type="application/ld+json">
   {
-    "DEBUG_number_of_reviews": {{ review_data.number_of_reviews | json }},
-    "DEBUG_average_rating": {{ review_data.average_rating | json }}
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": {{ product.title | json }},
+    "sku": {{ product.selected_or_first_available_variant.sku | json }},
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": {{ review_data.average_rating | json }},
+      "reviewCount": {{ review_data.number_of_reviews | json }}
+    }
   }
   </script>
   {%- endif -%}
