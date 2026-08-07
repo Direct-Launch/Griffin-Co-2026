@@ -11,6 +11,9 @@
   "sections": {
     "main": {
       "type": "faq-knowledge-base",
+      "settings": {
+        "heading": "Frequently Asked Questions"
+      },
       "blocks": {
         "q001": {
           "type": "question",
@@ -23,7 +26,7 @@
         "q002": {
           "type": "question",
           "settings": {
-            "question": "Are lab-grown diamonds \"\"real\"\" diamonds?",
+            "question": "Are lab-grown diamonds \"real\" diamonds?",
             "answer": "<p>Yes, they are authentic. They have the exact same chemical composition, crystal structure, and optical properties as a mined diamond and cannot be distinguished by the naked eye.</p>",
             "category": "Lab-Grown Diamonds"
           }
@@ -47,20 +50,12 @@
         "q005": {
           "type": "question",
           "settings": {
-            "question": "What is a lab-grown diamond?",
-            "answer": "<p>Lab-grown diamonds are 100% real diamonds that are physically, chemically, and optically identical to a diamond mined from the earth, created through technology that replicates natural formation in a controlled laboratory.</p>",
-            "category": "Lab-Grown Diamonds"
-          }
-        },
-        "q006": {
-          "type": "question",
-          "settings": {
             "question": "How do lab-grown diamonds differ from mined diamonds?",
             "answer": "<p>Mined diamonds form over billions of years deep in Earth's mantle, while lab-grown versions are created in laboratories by placing a diamond seed in a chamber where carbon atoms layer upon it.</p>",
             "category": "Lab-Grown Diamonds"
           }
         },
-        "q007": {
+        "q006": {
           "type": "question",
           "settings": {
             "question": "Why are people choosing lab-grown diamonds?",
@@ -68,7 +63,7 @@
             "category": "Lab-Grown Diamonds"
           }
         },
-        "q008": {
+        "q007": {
           "type": "question",
           "settings": {
             "question": "Are lab-grown diamonds fake?",
@@ -76,7 +71,7 @@
             "category": "Lab-Grown Diamonds"
           }
         },
-        "q009": {
+        "q008": {
           "type": "question",
           "settings": {
             "question": "What is bespoke engagement ring design?",
@@ -84,7 +79,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q010": {
+        "q009": {
           "type": "question",
           "settings": {
             "question": "How does a bespoke ring reflect your personal story?",
@@ -92,7 +87,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q011": {
+        "q010": {
           "type": "question",
           "settings": {
             "question": "What are the benefits of custom rings over ready-made options?",
@@ -100,7 +95,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q012": {
+        "q011": {
           "type": "question",
           "settings": {
             "question": "How does ethical sourcing influence bespoke design?",
@@ -108,7 +103,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q013": {
+        "q012": {
           "type": "question",
           "settings": {
             "question": "What happens during the initial consultation?",
@@ -116,7 +111,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q014": {
+        "q013": {
           "type": "question",
           "settings": {
             "question": "What tools are used in the design conceptualization stage?",
@@ -124,7 +119,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q015": {
+        "q014": {
           "type": "question",
           "settings": {
             "question": "What are the diamond 4Cs?",
@@ -132,7 +127,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q016": {
+        "q015": {
           "type": "question",
           "settings": {
             "question": "What is the difference between lab-grown and natural diamonds?",
@@ -140,7 +135,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q017": {
+        "q016": {
           "type": "question",
           "settings": {
             "question": "Which diamond shapes are most popular?",
@@ -148,7 +143,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q018": {
+        "q017": {
           "type": "question",
           "settings": {
             "question": "What are popular 2025 engagement ring trends?",
@@ -156,7 +151,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q019": {
+        "q018": {
           "type": "question",
           "settings": {
             "question": "What factors influence custom ring pricing?",
@@ -164,7 +159,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q020": {
+        "q019": {
           "type": "question",
           "settings": {
             "question": "How long does the bespoke process take?",
@@ -172,7 +167,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q021": {
+        "q020": {
           "type": "question",
           "settings": {
             "question": "Where can you find bespoke services in the UK?",
@@ -180,7 +175,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q022": {
+        "q021": {
           "type": "question",
           "settings": {
             "question": "How do you book a consultation?",
@@ -188,7 +183,7 @@
             "category": "Bespoke Engagement Rings"
           }
         },
-        "q023": {
+        "q022": {
           "type": "question",
           "settings": {
             "question": "What jewellery repair services does Griffin Fine Jewellery offer?",
@@ -196,7 +191,7 @@
             "category": "Jewellery Repair"
           }
         },
-        "q024": {
+        "q023": {
           "type": "question",
           "settings": {
             "question": "What is the typical cost for ring resizing in the UK?",
@@ -204,7 +199,7 @@
             "category": "Jewellery Repair"
           }
         },
-        "q025": {
+        "q024": {
           "type": "question",
           "settings": {
             "question": "How long does ring resizing take?",
@@ -212,7 +207,7 @@
             "category": "Jewellery Repair"
           }
         },
-        "q026": {
+        "q025": {
           "type": "question",
           "settings": {
             "question": "Are there rings that cannot be resized?",
@@ -220,7 +215,7 @@
             "category": "Jewellery Repair"
           }
         },
-        "q027": {
+        "q026": {
           "type": "question",
           "settings": {
             "question": "What is rhodium plating and when is it needed?",
@@ -228,7 +223,7 @@
             "category": "Jewellery Repair"
           }
         },
-        "q028": {
+        "q027": {
           "type": "question",
           "settings": {
             "question": "How long do typical jewellery repairs take?",
@@ -236,7 +231,7 @@
             "category": "Jewellery Repair"
           }
         },
-        "q029": {
+        "q028": {
           "type": "question",
           "settings": {
             "question": "Is it worthwhile to repair vintage jewellery?",
@@ -244,7 +239,7 @@
             "category": "Jewellery Repair"
           }
         },
-        "q030": {
+        "q029": {
           "type": "question",
           "settings": {
             "question": "How can customers schedule a repair consultation?",
@@ -252,7 +247,7 @@
             "category": "Jewellery Repair"
           }
         },
-        "q031": {
+        "q030": {
           "type": "question",
           "settings": {
             "question": "Why is getting the right ring fit important?",
@@ -260,7 +255,7 @@
             "category": "Jewellery Sizing"
           }
         },
-        "q032": {
+        "q031": {
           "type": "question",
           "settings": {
             "question": "What's the most accurate method for finding ring size?",
@@ -268,7 +263,7 @@
             "category": "Jewellery Sizing"
           }
         },
-        "q033": {
+        "q032": {
           "type": "question",
           "settings": {
             "question": "What should I do if I don't have an existing ring to measure?",
@@ -276,7 +271,7 @@
             "category": "Jewellery Sizing"
           }
         },
-        "q034": {
+        "q033": {
           "type": "question",
           "settings": {
             "question": "When is the best time to measure my ring size?",
@@ -284,7 +279,7 @@
             "category": "Jewellery Sizing"
           }
         },
-        "q035": {
+        "q034": {
           "type": "question",
           "settings": {
             "question": "Should I size up for wide-band rings?",
@@ -292,7 +287,7 @@
             "category": "Jewellery Sizing"
           }
         },
-        "q036": {
+        "q035": {
           "type": "question",
           "settings": {
             "question": "What's a common ring size if I'm buying a gift?",
@@ -300,7 +295,7 @@
             "category": "Jewellery Sizing"
           }
         },
-        "q037": {
+        "q036": {
           "type": "question",
           "settings": {
             "question": "What is ethical jewellery sourcing?",
@@ -308,7 +303,7 @@
             "category": "Ethical Sourcing"
           }
         },
-        "q038": {
+        "q037": {
           "type": "question",
           "settings": {
             "question": "How does ethical sourcing protect human rights and the environment?",
@@ -316,7 +311,7 @@
             "category": "Ethical Sourcing"
           }
         },
-        "q039": {
+        "q038": {
           "type": "question",
           "settings": {
             "question": "What are the differences between ethical and sustainable jewellery?",
@@ -324,7 +319,7 @@
             "category": "Ethical Sourcing"
           }
         },
-        "q040": {
+        "q039": {
           "type": "question",
           "settings": {
             "question": "How does Griffin and Co commit to ethical sourcing?",
@@ -332,7 +327,7 @@
             "category": "Ethical Sourcing"
           }
         },
-        "q041": {
+        "q040": {
           "type": "question",
           "settings": {
             "question": "What is recycled gold and how does it reduce environmental impact?",
@@ -340,7 +335,7 @@
             "category": "Ethical Sourcing"
           }
         },
-        "q042": {
+        "q041": {
           "type": "question",
           "settings": {
             "question": "What does Fairmined certification mean for artisanal miners?",
@@ -348,7 +343,7 @@
             "category": "Ethical Sourcing"
           }
         },
-        "q043": {
+        "q042": {
           "type": "question",
           "settings": {
             "question": "What is the Kimberley Process?",
@@ -356,7 +351,7 @@
             "category": "Ethical Sourcing"
           }
         },
-        "q044": {
+        "q043": {
           "type": "question",
           "settings": {
             "question": "What are lab-grown diamonds?",
@@ -364,7 +359,7 @@
             "category": "Ethical Sourcing"
           }
         },
-        "q045": {
+        "q044": {
           "type": "question",
           "settings": {
             "question": "How can customers make informed ethical jewellery choices?",
@@ -372,7 +367,7 @@
             "category": "Ethical Sourcing"
           }
         },
-        "q046": {
+        "q045": {
           "type": "question",
           "settings": {
             "question": "How do you clean jewellery at home safely?",
@@ -380,7 +375,7 @@
             "category": "Jewellery Care"
           }
         },
-        "q047": {
+        "q046": {
           "type": "question",
           "settings": {
             "question": "What is the best way to store fine jewellery?",
@@ -388,7 +383,7 @@
             "category": "Jewellery Care"
           }
         },
-        "q048": {
+        "q047": {
           "type": "question",
           "settings": {
             "question": "How can you prevent silver jewellery from tarnishing?",
@@ -396,7 +391,7 @@
             "category": "Jewellery Care"
           }
         },
-        "q049": {
+        "q048": {
           "type": "question",
           "settings": {
             "question": "Can you use ultrasonic cleaners on all jewellery?",
@@ -404,7 +399,7 @@
             "category": "Jewellery Care"
           }
         },
-        "q050": {
+        "q049": {
           "type": "question",
           "settings": {
             "question": "How often should you clean your jewellery?",
@@ -462,109 +457,11 @@
         "q046",
         "q047",
         "q048",
-        "q049",
-        "q050"
-      ],
-      "settings": {
-        "heading": "Frequently Asked Questions."
-      }
-    },
-    "custom_liquid_M9GHPA": {
-      "type": "custom-liquid",
-      "name": "Reviews",
-      "settings": {
-        "title": "Our Customer Reviews.",
-        "description": "",
-        "section_header_alignment": "center",
-        "custom_liquid": "<!-- Start of Judge.me code --> \n  <div class='jdgm-carousel-wrapper'> \n    {% assign jm_metafields = shop.metafields.judgeme %} \n    <div class='jdgm-carousel-title-and-link'> \n      <h4 style=\"text-align: center;\">Rated Excellent</h4>\n      <span class='jdgm-all-reviews-rating-wrapper' href='javascript:void(0)'> \n        <span style='display:block' data-score='{{ jm_metafields.all_reviews_rating }}' class='jdgm-all-reviews-rating' aria-label='{{ jm_metafields.all_reviews_rating }} stars' tabindex='0' role='img'></span> \n\n        <span style='display: block' class='jdgm-carousel-number-of-reviews' data-number-of-reviews='{{ jm_metafields.all_reviews_count }}'> \nfrom {{ shop.metafields.judgeme.all_reviews_count }} reviews </span>\n<br>\n <a href=\"https://griffinfinejewellery.com/pages/reviews\" class=\"dynamic-section-button--sections--27356412215572__map_JBYVn7 btn homepage-featured-box-btn map_section__directions-btn\" target=\"_blank\" data-animate=\"\" data-animate-order=\"5\">\n      \n\n      See All Reviews\n    </a> \n      </span> \n    </div> \n    {{ jm_metafields.featured_carousel }} \n  </div> \n<!-- End of Judge.me code -->\n\n<style>\n.jdgm-line-clamp {\n-webkit-line-clamp: 5 !important;\n}\n</style>",
-        "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 0,
-        "colors": "white"
-      }
-    },
-    "collage_XdnbL6": {
-      "type": "collage",
-      "blocks": {
-        "image_wR7dXD": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
-            "desktop_position": "md-min-align-bottom md-min-justify-right",
-            "heading_size": "h5",
-            "mobile_position": "md-max-align-bottom md-max-justify-right",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "",
-            "text": "",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0)"
-          }
-        },
-        "text_t4H3AD": {
-          "type": "text",
-          "settings": {
-            "heading": "Book an Appointment",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "There are so many ways to work with us. We've created a Design Your Own tool so you can create your own ring on our website.  <br><br>\n\nAnd if you can't see what you're looking for, you can work with us in-person at our showroom or at your home to create a bespoke ring.",
-            "url": "shopify://pages/schedule-an-appointment",
-            "button_label": "Schedule an Appointment Now",
-            "buttons_style": "underlined",
-            "override_button_colors": true,
-            "button_background_color": "#ffffff",
-            "button_color": "#ffffff",
-            "desktop_position": "md-min-align-center md-min-justify-center",
-            "text_alignment": "left",
-            "background_color": "#004225",
-            "text_color": "#ffffff"
-          }
-        }
-      },
-      "block_order": [
-        "image_wR7dXD",
-        "text_t4H3AD"
-      ],
-      "name": "Book an Appointment",
-      "settings": {
-        "title": "",
-        "description": "",
-        "section_header_alignment": "center",
-        "section_width": "content",
-        "remove_spacing": true,
-        "block_alignment": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "width_1": "2",
-        "height_1": "3",
-        "width_2": "2",
-        "height_2": "3",
-        "width_3": "3",
-        "height_3": "3",
-        "width_4": "2",
-        "height_4": "2",
-        "width_5": "2",
-        "height_5": "2",
-        "width_6": "1",
-        "height_6": "4",
-        "color_scheme": "white"
-      }
+        "q049"
+      ]
     }
   },
   "order": [
-    "main",
-    "collage_XdnbL6",
-    "custom_liquid_M9GHPA"
+    "main"
   ]
 }
