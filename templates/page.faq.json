@@ -468,9 +468,103 @@
       "settings": {
         "heading": "Frequently Asked Questions."
       }
+    },
+    "custom_liquid_M9GHPA": {
+      "type": "custom-liquid",
+      "name": "Reviews",
+      "settings": {
+        "title": "Our Customer Reviews.",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<!-- Start of Judge.me code --> \n  <div class='jdgm-carousel-wrapper'> \n    {% assign jm_metafields = shop.metafields.judgeme %} \n    <div class='jdgm-carousel-title-and-link'> \n      <h4 style=\"text-align: center;\">Rated Excellent</h4>\n      <span class='jdgm-all-reviews-rating-wrapper' href='javascript:void(0)'> \n        <span style='display:block' data-score='{{ jm_metafields.all_reviews_rating }}' class='jdgm-all-reviews-rating' aria-label='{{ jm_metafields.all_reviews_rating }} stars' tabindex='0' role='img'></span> \n\n        <span style='display: block' class='jdgm-carousel-number-of-reviews' data-number-of-reviews='{{ jm_metafields.all_reviews_count }}'> \nfrom {{ shop.metafields.judgeme.all_reviews_count }} reviews </span>\n<br>\n <a href=\"https://griffinfinejewellery.com/pages/reviews\" class=\"dynamic-section-button--sections--27356412215572__map_JBYVn7 btn homepage-featured-box-btn map_section__directions-btn\" target=\"_blank\" data-animate=\"\" data-animate-order=\"5\">\n      \n\n      See All Reviews\n    </a> \n      </span> \n    </div> \n    {{ jm_metafields.featured_carousel }} \n  </div> \n<!-- End of Judge.me code -->\n\n<style>\n.jdgm-line-clamp {\n-webkit-line-clamp: 5 !important;\n}\n</style>",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "collage_XdnbL6": {
+      "type": "collage",
+      "blocks": {
+        "image_wR7dXD": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Book_your_Appointment_63cdebe2-09d4-40ea-b5be-a105587b01a2.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "heading_size": "h5",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
+          }
+        },
+        "text_t4H3AD": {
+          "type": "text",
+          "settings": {
+            "heading": "Book an Appointment",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "There are so many ways to work with us. We've created a Design Your Own tool so you can create your own ring on our website.  <br><br>\n\nAnd if you can't see what you're looking for, you can work with us in-person at our showroom or at your home to create a bespoke ring.",
+            "url": "shopify://pages/schedule-an-appointment",
+            "button_label": "Schedule an Appointment Now",
+            "buttons_style": "underlined",
+            "override_button_colors": true,
+            "button_background_color": "#ffffff",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "text_alignment": "left",
+            "background_color": "#004225",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "image_wR7dXD",
+        "text_t4H3AD"
+      ],
+      "name": "Book an Appointment",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "section_width": "content",
+        "remove_spacing": true,
+        "block_alignment": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "width_1": "2",
+        "height_1": "3",
+        "width_2": "2",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "white"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "collage_XdnbL6",
+    "custom_liquid_M9GHPA"
   ]
 }
