@@ -1598,9 +1598,9 @@
         "label": "t:settings_schema.Search.settings.predictive_search_products_heading.label"
       },
       {
-        "type": "product_list",
-        "id": "predictive_search_products",
-        "label": "t:all.Products"
+        "type": "collection",
+        "id": "predictive_search_collection",
+        "label": "t:all.Collection"
       }
     ]
   },
