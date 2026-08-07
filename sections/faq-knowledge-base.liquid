@@ -1,0 +1,132 @@
+{{ 'section-faq.min.css' | asset_url | stylesheet_tag }}
+
+{% liquid
+  assign categories = "Lab-Grown Diamonds,Bespoke Engagement Rings,Jewellery Repair,Jewellery Sizing,Ethical Sourcing,Jewellery Care" | split: ","
+%}
+
+<section
+  class="wrapper-spacing--v wrapper-spacing--h color-scheme--white"
+  data-wetheme-section-type="faq-knowledge-base"
+  data-wetheme-section-id="{{ section.id }}"
+>
+  <div class="width--content wrapper-spacing--v--content wrapper-spacing--h--content faq-kb">
+    <h1 class="faq-kb-heading">{{ section.settings.heading }}</h1>
+
+    <nav class="faq-kb-nav" aria-label="FAQ categories">
+      <ul>
+        {% for category in categories %}
+          <li><a href="#faq-cat-{{ category | handleize }}">{{ category }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    {% for category in categories %}
+      <div class="faq-kb-category">
+        <h2 id="faq-cat-{{ category | handleize }}" class="faq-kb-category-title">{{ category }}</h2>
+        <div>
+          {% for block in section.blocks %}
+            {% if block.settings.category == category %}
+              {% assign content = block.settings.answer %}
+              {% unless content == blank %}
+                <div class="accordion-content" {{ block.shopify_attributes }}>
+                  {% render 'collapsible-tab',
+                    icon: 'none',
+                    custom_icon: false,
+                    heading: block.settings.question,
+                    content: content,
+                    open_close_icon: 'plus_minus',
+                    open_by_default: false,
+                    block_id: block.id
+                  %}
+                </div>
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {% for block in section.blocks %}
+            {
+              "@type": "Question",
+              "name": {{ block.settings.question | json }},
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": {{ block.settings.answer | strip_html | strip_newlines | json }}
+              }
+            }{% unless forloop.last %},{% endunless %}
+          {% endfor %}
+        ]
+      }
+    </script>
+  </div>
+</section>
+
+<style>
+  .faq-kb-heading {
+    text-align: center;
+    color: var(--text-color);
+    margin-bottom: 2rem;
+  }
+  .faq-kb-nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 3rem;
+  }
+  .faq-kb-nav a {
+    color: var(--link-color);
+    text-decoration: underline;
+  }
+  .faq-kb-category {
+    margin-bottom: 3rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 1.5rem;
+  }
+  .faq-kb-category-title {
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    scroll-margin-top: 2rem;
+  }
+</style>
+
+{% schema %}
+{
+  "name": "FAQ Knowledge Base",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Frequently Asked Questions" }
+  ],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "settings": [
+        { "type": "text", "id": "question", "label": "Question" },
+        { "type": "richtext", "id": "answer", "label": "Answer" },
+        {
+          "type": "select",
+          "id": "category",
+          "label": "Category",
+          "options": [
+            { "value": "Lab-Grown Diamonds", "label": "Lab-Grown Diamonds" },
+            { "value": "Bespoke Engagement Rings", "label": "Bespoke Engagement Rings" },
+            { "value": "Jewellery Repair", "label": "Jewellery Repair" },
+            { "value": "Jewellery Sizing", "label": "Jewellery Sizing" },
+            { "value": "Ethical Sourcing", "label": "Ethical Sourcing" },
+            { "value": "Jewellery Care", "label": "Jewellery Care" }
+          ]
+        }
+      ]
+    }
+  ],
+  "max_blocks": 50
+}
+{% endschema %}
