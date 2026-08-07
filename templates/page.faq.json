@@ -1,0 +1,476 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "faq-knowledge-base",
+      "settings": {
+        "heading": "Frequently Asked Questions"
+      },
+      "blocks": {
+        "q001": {
+          "type": "question",
+          "settings": {
+            "question": "What is a lab-grown diamond?",
+            "answer": "<p>A lab-grown diamond is a real diamond created in a highly controlled, state-of-the-art laboratory using advanced technology that replicates Earth's natural diamond formation conditions.</p>",
+            "category": "Lab-Grown Diamonds"
+          }
+        },
+        "q002": {
+          "type": "question",
+          "settings": {
+            "question": "Are lab-grown diamonds \"\"real\"\" diamonds?",
+            "answer": "<p>Yes, they are authentic. They have the exact same chemical composition, crystal structure, and optical properties as a mined diamond and cannot be distinguished by the naked eye.</p>",
+            "category": "Lab-Grown Diamonds"
+          }
+        },
+        "q003": {
+          "type": "question",
+          "settings": {
+            "question": "What are the main benefits of choosing a lab-grown diamond?",
+            "answer": "<p>Two primary advantages: exceptional value (typically costs significantly less than mined diamonds) and complete traceability, making them an ethical, sustainable choice without environmental or humanitarian concerns.</p>",
+            "category": "Lab-Grown Diamonds"
+          }
+        },
+        "q004": {
+          "type": "question",
+          "settings": {
+            "question": "Are lab-grown diamonds graded the same way as mined diamonds?",
+            "answer": "<p>Yes, lab-grown diamonds receive independent certification from leading gemological labs using identical standards based on The 4 Cs (Cut, Colour, Clarity, and Carat).</p>",
+            "category": "Lab-Grown Diamonds"
+          }
+        },
+        "q005": {
+          "type": "question",
+          "settings": {
+            "question": "What is a lab-grown diamond?",
+            "answer": "<p>Lab-grown diamonds are 100% real diamonds that are physically, chemically, and optically identical to a diamond mined from the earth, created through technology that replicates natural formation in a controlled laboratory.</p>",
+            "category": "Lab-Grown Diamonds"
+          }
+        },
+        "q006": {
+          "type": "question",
+          "settings": {
+            "question": "How do lab-grown diamonds differ from mined diamonds?",
+            "answer": "<p>Mined diamonds form over billions of years deep in Earth's mantle, while lab-grown versions are created in laboratories by placing a diamond seed in a chamber where carbon atoms layer upon it.</p>",
+            "category": "Lab-Grown Diamonds"
+          }
+        },
+        "q007": {
+          "type": "question",
+          "settings": {
+            "question": "Why are people choosing lab-grown diamonds?",
+            "answer": "<p>They offer remarkable value for larger or higher-quality stones, provide ethical peace of mind as conflict-free options, and receive the same independent grading as mined diamonds using the 4 Cs.</p>",
+            "category": "Lab-Grown Diamonds"
+          }
+        },
+        "q008": {
+          "type": "question",
+          "settings": {
+            "question": "Are lab-grown diamonds fake?",
+            "answer": "<p>No—they are authentic diamonds with the same hardness and sparkle as mined diamonds, not imitations like cubic zirconia.</p>",
+            "category": "Lab-Grown Diamonds"
+          }
+        },
+        "q009": {
+          "type": "question",
+          "settings": {
+            "question": "What is bespoke engagement ring design?",
+            "answer": "<p>The collaborative process where you and skilled jewellers tailor every component—from centre stone to band finish—to create a singular symbol of commitment.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q010": {
+          "type": "question",
+          "settings": {
+            "question": "How does a bespoke ring reflect your personal story?",
+            "answer": "<p>By incorporating meaningful elements such as childhood gemstones, shared memories, or personalized engravings that transform the ring into a wearable narrative.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q011": {
+          "type": "question",
+          "settings": {
+            "question": "What are the benefits of custom rings over ready-made options?",
+            "answer": "<p>They offer unmatched individuality, superior quality control, emotional connection, transparency in sourcing, and heirloom durability.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q012": {
+          "type": "question",
+          "settings": {
+            "question": "How does ethical sourcing influence bespoke design?",
+            "answer": "<p>It guarantees conflict-free diamonds and responsibly sourced gemstones and metals, allowing couples to celebrate their values.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q013": {
+          "type": "question",
+          "settings": {
+            "question": "What happens during the initial consultation?",
+            "answer": "<p>Designers discuss style preferences, gemstone choices, metal preferences, timeline expectations, budget range, and personal stories to incorporate.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q014": {
+          "type": "question",
+          "settings": {
+            "question": "What tools are used in the design conceptualization stage?",
+            "answer": "<p>Hand-drawn sketches, CAD software, and 3D renderings help visualize shapes, dimensions, and photorealistic previews.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q015": {
+          "type": "question",
+          "settings": {
+            "question": "What are the diamond 4Cs?",
+            "answer": "<p>Cut, colour, clarity, and carat weight—characteristics that define optical performance and value.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q016": {
+          "type": "question",
+          "settings": {
+            "question": "What is the difference between lab-grown and natural diamonds?",
+            "answer": "<p>Lab diamonds cost 20-40% less with lower environmental impact; natural diamonds typically retain higher resale value.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q017": {
+          "type": "question",
+          "settings": {
+            "question": "Which diamond shapes are most popular?",
+            "answer": "<p>Round Brilliant, Oval, Emerald Cut, Pear, Cushion, and Marquise cuts offer various aesthetic and symbolic qualities.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q018": {
+          "type": "question",
+          "settings": {
+            "question": "What are popular 2025 engagement ring trends?",
+            "answer": "<p>Chunky bands, mixed metals, bezel settings, coloured centre stones, and asymmetrical designs lead current styling.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q019": {
+          "type": "question",
+          "settings": {
+            "question": "What factors influence custom ring pricing?",
+            "answer": "<p>Design complexity, stone quality, metal selection, and craftsmanship level significantly impact the final cost.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q020": {
+          "type": "question",
+          "settings": {
+            "question": "How long does the bespoke process take?",
+            "answer": "<p>Typically 6-12 weeks from initial consultation through final delivery and inspection.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q021": {
+          "type": "question",
+          "settings": {
+            "question": "Where can you find bespoke services in the UK?",
+            "answer": "<p>London's Hatton Garden is renowned for specialist artisans offering direct access to premier diamond markets and master craftsmanship.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q022": {
+          "type": "question",
+          "settings": {
+            "question": "How do you book a consultation?",
+            "answer": "<p>Research portfolios, prepare inspiration images, contact the jeweller, confirm budget and timeline, then attend an in-studio appointment.</p>",
+            "category": "Bespoke Engagement Rings"
+          }
+        },
+        "q023": {
+          "type": "question",
+          "settings": {
+            "question": "What jewellery repair services does Griffin Fine Jewellery offer?",
+            "answer": "<p>Ring Resizing and Band Reinforcement, Claw and Setting Restoration, Chain and Clasp Mending, diamond replacement, pearl restringing, professional cleaning, rhodium plating, and antique restoration.</p>",
+            "category": "Jewellery Repair"
+          }
+        },
+        "q024": {
+          "type": "question",
+          "settings": {
+            "question": "What is the typical cost for ring resizing in the UK?",
+            "answer": "<p>Standard gold or silver rings cost £45-£85, while platinum rings commence from £120, depending on metal type and design complexity.</p>",
+            "category": "Jewellery Repair"
+          }
+        },
+        "q025": {
+          "type": "question",
+          "settings": {
+            "question": "How long does ring resizing take?",
+            "answer": "<p>Most standard ring resizing is completed within 1–2 weeks; more complex projects involving gemstones or platinum may require up to 3 weeks.</p>",
+            "category": "Jewellery Repair"
+          }
+        },
+        "q026": {
+          "type": "question",
+          "settings": {
+            "question": "Are there rings that cannot be resized?",
+            "answer": "<p>Certain designs, such as those with tension-set stones or fully encrusted eternity bands, can present unique structural challenges, though alternatives like ring guards are available.</p>",
+            "category": "Jewellery Repair"
+          }
+        },
+        "q027": {
+          "type": "question",
+          "settings": {
+            "question": "What is rhodium plating and when is it needed?",
+            "answer": "<p>This involves applying a reflective rhodium layer to white gold or silver surfaces to restore brightness when the original finish has dulled or yellowed.</p>",
+            "category": "Jewellery Repair"
+          }
+        },
+        "q028": {
+          "type": "question",
+          "settings": {
+            "question": "How long do typical jewellery repairs take?",
+            "answer": "<p>Routine cleaning takes 5–7 days; basic resizing requires 7–14 days; intricate bespoke restoration may extend to 4–6 weeks.</p>",
+            "category": "Jewellery Repair"
+          }
+        },
+        "q029": {
+          "type": "question",
+          "settings": {
+            "question": "Is it worthwhile to repair vintage jewellery?",
+            "answer": "<p>Yes, expert repair often enhances both sentimental and monetary value while promoting sustainability and preserving pieces for future generations.</p>",
+            "category": "Jewellery Repair"
+          }
+        },
+        "q030": {
+          "type": "question",
+          "settings": {
+            "question": "How can customers schedule a repair consultation?",
+            "answer": "<p>Contact the Chichester showroom directly by phone, email, or visit in person for complimentary, flexible appointment scheduling.</p>",
+            "category": "Jewellery Repair"
+          }
+        },
+        "q031": {
+          "type": "question",
+          "settings": {
+            "question": "Why is getting the right ring fit important?",
+            "answer": "<p>A well-fitting ring should slide over your knuckle with a small amount of resistance and sit snugly at the base of your finger to prevent spinning or slipping off.</p>",
+            "category": "Jewellery Sizing"
+          }
+        },
+        "q032": {
+          "type": "question",
+          "settings": {
+            "question": "What's the most accurate method for finding ring size?",
+            "answer": "<p>The Existing Ring test is most accurate—measure the inside diameter in millimeters of a ring that fits the intended finger perfectly.</p>",
+            "category": "Jewellery Sizing"
+          }
+        },
+        "q033": {
+          "type": "question",
+          "settings": {
+            "question": "What should I do if I don't have an existing ring to measure?",
+            "answer": "<p>Use the paper or string method by wrapping material around your finger base, marking where ends overlap, then measuring the circumference.</p>",
+            "category": "Jewellery Sizing"
+          }
+        },
+        "q034": {
+          "type": "question",
+          "settings": {
+            "question": "When is the best time to measure my ring size?",
+            "answer": "<p>Fingers are smallest in the morning and when you're cold but measuring at day's end when hands are warm is recommended for accuracy.</p>",
+            "category": "Jewellery Sizing"
+          }
+        },
+        "q035": {
+          "type": "question",
+          "settings": {
+            "question": "Should I size up for wide-band rings?",
+            "answer": "<p>Yes, the guide recommends choosing one size larger than your standard fit for chunky or wide-band designs.</p>",
+            "category": "Jewellery Sizing"
+          }
+        },
+        "q036": {
+          "type": "question",
+          "settings": {
+            "question": "What's a common ring size if I'm buying a gift?",
+            "answer": "<p>Most common sizes are M to N for women and T to U for men.</p>",
+            "category": "Jewellery Sizing"
+          }
+        },
+        "q037": {
+          "type": "question",
+          "settings": {
+            "question": "What is ethical jewellery sourcing?",
+            "answer": "<p>Obtaining materials through practices that respect fair labour, protect ecosystems, and guarantee transparency across the supply chain, thereby promoting social justice and reducing ecological harm.</p>",
+            "category": "Ethical Sourcing"
+          }
+        },
+        "q038": {
+          "type": "question",
+          "settings": {
+            "question": "How does ethical sourcing protect human rights and the environment?",
+            "answer": "<p>It enforces fair wages, prevents child labour, reduces carbon emissions, minimises deforestation and water pollution, and ensures community investment in local infrastructure.</p>",
+            "category": "Ethical Sourcing"
+          }
+        },
+        "q039": {
+          "type": "question",
+          "settings": {
+            "question": "What are the differences between ethical and sustainable jewellery?",
+            "answer": "<p>Ethical sourcing centres on human welfare and social equity, while sustainable sourcing emphasises ecological balance and resource longevity.</p>",
+            "category": "Ethical Sourcing"
+          }
+        },
+        "q040": {
+          "type": "question",
+          "settings": {
+            "question": "How does Griffin and Co commit to ethical sourcing?",
+            "answer": "<p>The company traces materials from origin to finished piece, partners with certified suppliers, and uses recycled, Fairmined or Fairtrade certified metals exclusively.</p>",
+            "category": "Ethical Sourcing"
+          }
+        },
+        "q041": {
+          "type": "question",
+          "settings": {
+            "question": "What is recycled gold and how does it reduce environmental impact?",
+            "answer": "<p>Recycled gold comes from existing jewellery and electronic waste that is melted and purified, eliminating new mine tailings and reducing energy use by approximately 30%.</p>",
+            "category": "Ethical Sourcing"
+          }
+        },
+        "q042": {
+          "type": "question",
+          "settings": {
+            "question": "What does Fairmined certification mean for artisanal miners?",
+            "answer": "<p>It verifies safe working conditions, environmental protection, fair pay, equipment upgrades, community development funding, and stable market access.</p>",
+            "category": "Ethical Sourcing"
+          }
+        },
+        "q043": {
+          "type": "question",
+          "settings": {
+            "question": "What is the Kimberley Process?",
+            "answer": "<p>A certification scheme preventing rough diamonds from funding armed groups by mandating government-issued certificates guaranteeing origin and implementing border seizure measures.</p>",
+            "category": "Ethical Sourcing"
+          }
+        },
+        "q044": {
+          "type": "question",
+          "settings": {
+            "question": "What are lab-grown diamonds?",
+            "answer": "<p>Diamonds created in controlled laboratory environments with lower water and land use compared to mined alternatives, offering zero risk of funding conflict.</p>",
+            "category": "Ethical Sourcing"
+          }
+        },
+        "q045": {
+          "type": "question",
+          "settings": {
+            "question": "How can customers make informed ethical jewellery choices?",
+            "answer": "<p>Understand material provenance, verify certification schemes, research brand partnerships, and prioritise customisation using certified materials.</p>",
+            "category": "Ethical Sourcing"
+          }
+        },
+        "q046": {
+          "type": "question",
+          "settings": {
+            "question": "How do you clean jewellery at home safely?",
+            "answer": "<p>Soaking pieces in a warm solution of mild dish soap and water for two to three minutes, gently brushing with a soft toothbrush, rinsing thoroughly, and drying on a lint-free cloth.</p>",
+            "category": "Jewellery Care"
+          }
+        },
+        "q047": {
+          "type": "question",
+          "settings": {
+            "question": "What is the best way to store fine jewellery?",
+            "answer": "<p>Individual soft pouches or fabric-lined boxes, kept away from direct sunlight and humidity to prevent scratches, tangling, and tarnish.</p>",
+            "category": "Jewellery Care"
+          }
+        },
+        "q048": {
+          "type": "question",
+          "settings": {
+            "question": "How can you prevent silver jewellery from tarnishing?",
+            "answer": "<p>Store in airtight bags with anti-tarnish strips, use silica gel packets, and regularly clean with a silver polishing cloth to remove surface compounds.</p>",
+            "category": "Jewellery Care"
+          }
+        },
+        "q049": {
+          "type": "question",
+          "settings": {
+            "question": "Can you use ultrasonic cleaners on all jewellery?",
+            "answer": "<p>No. Avoid ultrasonic cleaners on delicate gemstones like pearls, opals, and fracture-filled emeralds, or pieces with glued settings.</p>",
+            "category": "Jewellery Care"
+          }
+        },
+        "q050": {
+          "type": "question",
+          "settings": {
+            "question": "How often should you clean your jewellery?",
+            "answer": "<p>Clean frequently worn rings and earrings every two to four weeks and perform a monthly inspection of all pieces.</p>",
+            "category": "Jewellery Care"
+          }
+        }
+      },
+      "block_order": [
+        "q001",
+        "q002",
+        "q003",
+        "q004",
+        "q005",
+        "q006",
+        "q007",
+        "q008",
+        "q009",
+        "q010",
+        "q011",
+        "q012",
+        "q013",
+        "q014",
+        "q015",
+        "q016",
+        "q017",
+        "q018",
+        "q019",
+        "q020",
+        "q021",
+        "q022",
+        "q023",
+        "q024",
+        "q025",
+        "q026",
+        "q027",
+        "q028",
+        "q029",
+        "q030",
+        "q031",
+        "q032",
+        "q033",
+        "q034",
+        "q035",
+        "q036",
+        "q037",
+        "q038",
+        "q039",
+        "q040",
+        "q041",
+        "q042",
+        "q043",
+        "q044",
+        "q045",
+        "q046",
+        "q047",
+        "q048",
+        "q049",
+        "q050"
+      ]
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
