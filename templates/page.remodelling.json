@@ -46,10 +46,10 @@
     "scrolling_banner_yQGBqH": {
       "type": "scrolling-banner",
       "blocks": {
-        "text_wU7jRg": {
+        "text_yQGBqH_repaired_in_the_uk": {
           "type": "text",
           "settings": {
-            "text": "Crafted in the UK",
+            "text": "Repaired in the UK",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -57,7 +57,7 @@
             "body_font_size": 130
           }
         },
-        "text_ifRMFb": {
+        "text_yQGBqH_ethically_sourced": {
           "type": "text",
           "settings": {
             "text": "Ethically Sourced",
@@ -68,7 +68,7 @@
             "body_font_size": 130
           }
         },
-        "text_UwDBdj": {
+        "text_yQGBqH_certified_diamonds": {
           "type": "text",
           "settings": {
             "text": "Certified Diamonds",
@@ -79,10 +79,10 @@
             "body_font_size": 130
           }
         },
-        "text_Q6pTBK": {
+        "text_yQGBqH_redesign_family_heirloom": {
           "type": "text",
           "settings": {
-            "text": "30 Days Return",
+            "text": "Redesign Family Heirlooms",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -90,10 +90,10 @@
             "body_font_size": 130
           }
         },
-        "text_GDC8qi": {
+        "text_yQGBqH_private_home_visits": {
           "type": "text",
           "settings": {
-            "text": "Ethically Sourced",
+            "text": "Private Home Visits",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -103,11 +103,11 @@
         }
       },
       "block_order": [
-        "text_wU7jRg",
-        "text_ifRMFb",
-        "text_UwDBdj",
-        "text_Q6pTBK",
-        "text_GDC8qi"
+        "text_yQGBqH_repaired_in_the_uk",
+        "text_yQGBqH_ethically_sourced",
+        "text_yQGBqH_certified_diamonds",
+        "text_yQGBqH_redesign_family_heirloom",
+        "text_yQGBqH_private_home_visits"
       ],
       "name": "t:sections.scrolling-banner.name",
       "settings": {
