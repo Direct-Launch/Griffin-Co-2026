@@ -80,6 +80,12 @@
     </script>
   {% endif %}
 
+  {% render 'schema-breadcrumbs' %}
+  {% render 'schema-collection' %}
+  {% render 'schema-product-offer' %}
+  {% render 'schema-article' %}
+  {% render 'schema-product-rating' %}
+
   <!-- Helpers ================================================== -->
   {% render 'social-meta-tags' %}
   <link rel="canonical" href="{{ canonical_url }}"/>
@@ -226,12 +232,12 @@
   <div id="QuizOverlay" class="quiz-overlay"></div>
   <div id="QuizModal" class="quiz-modal width--modal"></div>
 
-  <div 
-    id="PageContainer" 
-    data-editor-open="{{ request.design_mode }}" 
-    data-cart-action="{{ settings.add_to_cart_action }}" 
-    data-cart-type="{{ settings.cart_type }}" 
-    data-language-url="{{ localization.language.root_url }}" 
+  <div
+    id="PageContainer"
+    data-editor-open="{{ request.design_mode }}"
+    data-cart-action="{{ settings.add_to_cart_action }}"
+    data-cart-type="{{ settings.cart_type }}"
+    data-language-url="{{ localization.language.root_url }}"
     data-show-currency-code="{{ settings.show_currency_code }}"
     data-currency-code="{{ 1299 | money_with_currency | split: ' ' | last }}"
   >

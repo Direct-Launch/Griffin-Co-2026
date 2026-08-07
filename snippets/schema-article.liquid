@@ -1,0 +1,45 @@
+{%- comment -%}
+  JSON-LD BlogPosting for blog article pages — closes the gap flagged in
+  SEO/3. On-Page Optimisations/Schema Fix/Schema Audit - 2026-08-07.md (0% coverage,
+  not previously flagged anywhere in the vault before that audit).
+  Added 2026-08-07.
+{%- endcomment -%}
+{%- if template.name == 'article' -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": {{ article.title | json }},
+    "url": {{ shop.url | append: article.url | json }},
+    {%- if article.published_at %}
+    "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+    {%- endif %}
+    {%- if article.updated_at %}
+    "dateModified": {{ article.updated_at | date: '%Y-%m-%dT%H:%M:%SZ' | json }},
+    {%- endif %}
+    {%- if article.excerpt != blank %}
+    "description": {{ article.excerpt | strip_html | truncate: 300 | json }},
+    {%- elsif article.content != blank %}
+    "description": {{ article.content | strip_html | truncate: 300 | json }},
+    {%- endif %}
+    {%- if article.image %}
+    "image": {{ article.image | image_url: width: 1920 | prepend: 'https:' | json }},
+    {%- endif %}
+    {%- if article.author != blank %}
+    "author": {
+      "@type": "Person",
+      "name": {{ article.author | json }}
+    },
+    {%- endif %}
+    "publisher": {
+      "@type": "Organization",
+      "name": {{ shop.name | json }},
+      "url": {{ shop.url | json }}
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": {{ shop.url | append: article.url | json }}
+    }
+  }
+  </script>
+{%- endif -%}

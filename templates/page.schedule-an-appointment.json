@@ -46,10 +46,10 @@
     "scrolling_banner_yQGBqH": {
       "type": "scrolling-banner",
       "blocks": {
-        "text_wU7jRg": {
+        "text_yQGBqH_meet_us_in_chichester": {
           "type": "text",
           "settings": {
-            "text": "Crafted in the UK",
+            "text": "Meet Us in Chichester",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -57,7 +57,7 @@
             "body_font_size": 130
           }
         },
-        "text_ifRMFb": {
+        "text_yQGBqH_ethically_sourced": {
           "type": "text",
           "settings": {
             "text": "Ethically Sourced",
@@ -68,7 +68,7 @@
             "body_font_size": 130
           }
         },
-        "text_UwDBdj": {
+        "text_yQGBqH_certified_diamonds": {
           "type": "text",
           "settings": {
             "text": "Certified Diamonds",
@@ -79,10 +79,10 @@
             "body_font_size": 130
           }
         },
-        "text_Q6pTBK": {
+        "text_yQGBqH_no_obligation_consultati": {
           "type": "text",
           "settings": {
-            "text": "30 Days Return",
+            "text": "No-Obligation Consultation",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -90,10 +90,10 @@
             "body_font_size": 130
           }
         },
-        "text_GDC8qi": {
+        "text_yQGBqH_private_home_visits_avai": {
           "type": "text",
           "settings": {
-            "text": "Ethically Sourced",
+            "text": "Private Home Visits Available",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -103,11 +103,11 @@
         }
       },
       "block_order": [
-        "text_wU7jRg",
-        "text_ifRMFb",
-        "text_UwDBdj",
-        "text_Q6pTBK",
-        "text_GDC8qi"
+        "text_yQGBqH_meet_us_in_chichester",
+        "text_yQGBqH_ethically_sourced",
+        "text_yQGBqH_certified_diamonds",
+        "text_yQGBqH_no_obligation_consultati",
+        "text_yQGBqH_private_home_visits_avai"
       ],
       "name": "t:sections.scrolling-banner.name",
       "settings": {

@@ -1,0 +1,71 @@
+{%- comment -%}
+  Supplementary Product/Offer JSON-LD — adds hasMerchantReturnPolicy + shippingDetails to
+  offers, which the theme's native `{{ product | structured_data }}` block (rendered from
+  sections/template--product.liquid, left untouched here) does not include. GSC's Merchant
+  listings report flagged both as missing on 2026-08-07.
+  This is a second, independent, fully-valid Product node alongside the theme's native one —
+  a standard pattern used by most Shopify JSON-LD/SEO apps — rather than hand-editing the
+  native ~6000-line section (settings schema dwarfs the actual template code; a full-file
+  rewrite for a two-field change is unnecessary risk for this file).
+  ponytail: two Product declarations on one page rather than one merged block — the ceiling
+  is cosmetic duplication, not a validation conflict (each is independently valid structured
+  data). Consolidate into the native block if theme edits ever move to a git-based repo with
+  surgical diffs instead of the whole-file Admin API.
+  Added 2026-08-07 — see SEO/3. On-Page Optimisations/Schema Audit - 2026-08-07.md in the vault.
+{%- endcomment -%}
+{%- if template contains 'product' -%}
+  {%- assign schema_variant = product.selected_or_first_available_variant -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": {{ product.title | json }},
+    "description": {{ product.description | strip_html | json }},
+    "sku": {{ schema_variant.sku | json }},
+    "url": {{ shop.url | append: product.url | json }},
+    {%- if product.featured_image %}
+    "image": {{ product.featured_image | image_url: width: 1920 | prepend: 'https:' | json }},
+    {%- endif %}
+    "offers": {
+      "@type": "Offer",
+      "url": {{ shop.url | append: schema_variant.url | json }},
+      "priceCurrency": "GBP",
+      "price": {{ schema_variant.price | money_without_currency | remove: ',' | json }},
+      "availability": "{% if schema_variant.available %}https://schema.org/InStock{% else %}https://schema.org/OutOfStock{% endif %}",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "GB",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 30,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "12.99",
+          "currency": "GBP"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "GB"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 5,
+            "maxValue": 7
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 1
+          }
+        }
+      }
+    }
+  }
+  </script>
+{%- endif -%}

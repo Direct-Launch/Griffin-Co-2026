@@ -153,10 +153,43 @@
         "colors": "white"
       }
     },
-    "scrolling_banner_MhBAhg": {
+    "scrolling_banner_wgYHL9": {
       "type": "scrolling-banner",
       "blocks": {
-        "text_M9QJeT": {
+        "text_yaVNLi": {
+          "type": "text",
+          "settings": {
+            "text": "Repaired in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_UYEdPW": {
+          "type": "text",
+          "settings": {
+            "text": "Bespoke 3D Design Studio",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h4-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_CE7Bgk": {
+          "type": "text",
+          "settings": {
+            "text": "Private Home Visits",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 100
+          }
+        },
+        "text_tGbVg8": {
           "type": "text",
           "settings": {
             "text": "Crafted in the UK",
@@ -167,7 +200,7 @@
             "body_font_size": 130
           }
         },
-        "text_H9ALjF": {
+        "text_XRqVeb": {
           "type": "text",
           "settings": {
             "text": "Ethically Sourced",
@@ -178,7 +211,7 @@
             "body_font_size": 130
           }
         },
-        "text_Wkz7MR": {
+        "text_YTKJji": {
           "type": "text",
           "settings": {
             "text": "Certified Diamonds",
@@ -189,7 +222,7 @@
             "body_font_size": 130
           }
         },
-        "text_axMHHF": {
+        "text_BxQUAz": {
           "type": "text",
           "settings": {
             "text": "30 Days Return",
@@ -202,10 +235,13 @@
         }
       },
       "block_order": [
-        "text_M9QJeT",
-        "text_H9ALjF",
-        "text_Wkz7MR",
-        "text_axMHHF"
+        "text_yaVNLi",
+        "text_UYEdPW",
+        "text_CE7Bgk",
+        "text_tGbVg8",
+        "text_XRqVeb",
+        "text_YTKJji",
+        "text_BxQUAz"
       ],
       "name": "t:sections.scrolling-banner.name",
       "settings": {
@@ -588,6 +624,7 @@
         "tab_content_VzhDNF",
         "tab_content_fik7U3"
       ],
+      "disabled": true,
       "name": "t:sections.faq.presets.name",
       "settings": {
         "title": "Frequently asked questions About {{ collection.title }}.",
@@ -678,7 +715,7 @@
     "collection-header-spotlight",
     "hero_image_with_text_agV3Up",
     "gallery_slideshow_nLQPFD",
-    "scrolling_banner_MhBAhg",
+    "scrolling_banner_wgYHL9",
     "product-grid",
     "template_collections_list_EhCaWF",
     "rich_text_gHgdGd",

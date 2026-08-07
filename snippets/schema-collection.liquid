@@ -1,0 +1,31 @@
+{%- comment -%}
+  JSON-LD CollectionPage + ItemList for collection pages. Closes the gap flagged in
+  SEO/3. On-Page Optimisations/Page Update Plans/Lab-Grown Diamond Collection - Content Update Plan.md
+  (extended site-wide here rather than per-collection). Capped at 24 products (first page of the
+  grid) to keep the payload small — this is a discovery signal, not a full product feed.
+  Added 2026-08-07 — see SEO/3. On-Page Optimisations/Schema Audit - 2026-08-07.md in the vault.
+{%- endcomment -%}
+{%- if template contains 'collection' and collection.handle -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": {{ collection.title | json }},
+    "description": {{ collection.description | strip_html | truncate: 300 | json }},
+    "url": {{ shop.url | append: collection.url | json }},
+    "mainEntity": {
+      "@type": "ItemList",
+      "numberOfItems": {{ collection.products_count | json }},
+      "itemListElement": [
+        {%- for product in collection.products limit: 24 -%}
+        {
+          "@type": "ListItem",
+          "position": {{ forloop.index }},
+          "url": {{ shop.url | append: product.url | json }}
+        }{%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor -%}
+      ]
+    }
+  }
+  </script>
+{%- endif -%}

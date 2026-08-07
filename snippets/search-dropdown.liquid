@@ -56,7 +56,7 @@
         assign has_menu_content = true
       endif
 
-      if settings.predictive_search_products_heading != blank or settings.predictive_search_products != blank
+      if settings.predictive_search_products_heading != blank or settings.predictive_search_collection != blank
         assign has_products_content = true
       endif
     -%}
@@ -84,9 +84,9 @@
               {% if settings.predictive_search_products_heading != blank %}
                 <p class="predictive-search__title h5">{{ settings.predictive_search_products_heading }}</p>
               {% endif %}
-              {% if settings.predictive_search_products != blank %}
+              {% if settings.predictive_search_collection != blank %}
                 <div class="predictive-search__grid predictive-search__grid--products">
-                  {% for empty_state_product in settings.predictive_search_products %}
+                  {% for empty_state_product in settings.predictive_search_collection.products limit: 4 %}
                     <div class="predictive-search__grid-item" data-animate data-animate-order="{{ forloop.index }}">
                       {% render 'grid-view-item', product: empty_state_product, is_search_result: true, enable_badges: settings.show_badges, grid_count_desktop: 4, grid_count_mobile: 2 %}
                     </div>
