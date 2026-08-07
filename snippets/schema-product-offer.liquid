@@ -24,7 +24,7 @@
     "sku": {{ schema_variant.sku | json }},
     "url": {{ shop.url | append: product.url | json }},
     {%- if product.featured_image %}
-    "image": {{ product.featured_image | image_url: width: 1920 | json }},
+    "image": {{ product.featured_image | image_url: width: 1920 | prepend: 'https:' | json }},
     {%- endif %}
     "offers": {
       "@type": "Offer",
