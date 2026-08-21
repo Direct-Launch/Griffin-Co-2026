@@ -209,6 +209,75 @@
         "colors": "white"
       }
     },
+    "rich_text_eJaxcJ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_6cLpVK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Recent Bespoke Commissions From OUR INSTAGRAM.",
+            "heading--text-size": "h4",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_tpXmCV": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular bespoke portfolio updates. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_6cLpVK",
+        "richtext_tpXmCV"
+      ],
+      "name": "Portfolio Rich Text",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "apps_QEYcrN": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_rnwmmg": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 0,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "46833",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_rnwmmg"
+      ],
+      "custom_css": [
+        ".instafeed-shopify {background-color: #f8f8f8;}"
+      ],
+      "name": "Instagram Feed",
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": false
+      }
+    },
     "image_with_text_overlay_WgzhKg": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -269,40 +338,6 @@
         "caption_bg_color": "rgba(0,0,0,0)",
         "image_overlay_color": "#242424",
         "image_overlay_opacity": 25
-      }
-    },
-    "rich_text_eJaxcJ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6cLpVK": {
-          "type": "heading",
-          "settings": {
-            "heading": "Recent Bespoke Commissions From OUR INSTAGRAM.",
-            "heading--text-size": "h4",
-            "heading_bottom_spacing": 20
-          }
-        },
-        "richtext_tpXmCV": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>Follow Us on @<a href=\"https://www.instagram.com/griffinandcofinejewellery/#\">griffinandcofinejewellery</a> for regular bespoke portfolio updates. </p><p><strong>Click on posts to view more information about the pieces.</strong></p>",
-            "text_size": 100,
-            "text_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "heading_6cLpVK",
-        "richtext_tpXmCV"
-      ],
-      "name": "Portfolio Rich Text",
-      "settings": {
-        "section_width": "full-width",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "dark"
       }
     },
     "image_with_text_slideshow_TmyLyE": {
@@ -599,6 +634,7 @@
     "template_product_info_columns_RzYKwq",
     "custom_liquid_AaFVmN",
     "rich_text_eJaxcJ",
+    "apps_QEYcrN",
     "image_with_text_overlay_WgzhKg",
     "image_with_text_slideshow_TmyLyE",
     "17787619721046fdd6",
