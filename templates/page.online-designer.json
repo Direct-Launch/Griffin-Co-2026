@@ -278,6 +278,31 @@
         "include_margins": false
       }
     },
+    "rich_text_jdrqX3": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_VWQhRJ": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Inspired by these creations? Our designers can bring your unique vision to life, just as we have for hundreds of happy couples.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "richtext_VWQhRJ"
+      ],
+      "name": "Portfolio Footer",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
     "image_with_text_overlay_WgzhKg": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -635,6 +660,7 @@
     "custom_liquid_AaFVmN",
     "rich_text_eJaxcJ",
     "apps_QEYcrN",
+    "rich_text_jdrqX3",
     "image_with_text_overlay_WgzhKg",
     "image_with_text_slideshow_TmyLyE",
     "17787619721046fdd6",
