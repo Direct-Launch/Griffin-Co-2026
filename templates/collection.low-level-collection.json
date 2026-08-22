@@ -12,9 +12,7 @@
   "sections": {
     "hero_image_with_text_agV3Up": {
       "type": "hero-image-with-text",
-      "custom_css": [
-        ".collection-wrapper {background-color: #F9F1E9;}"
-      ],
+      "custom_css": [],
       "name": "Hero - Image with text",
       "settings": {
         "image": "{{ collection.image }}",
@@ -715,8 +713,8 @@
     }
   },
   "order": [
-    "hero_image_with_text_agV3Up",
     "collection-header-spotlight",
+    "hero_image_with_text_agV3Up",
     "gallery_slideshow_nLQPFD",
     "scrolling_banner_wgYHL9",
     "product-grid",
