@@ -1403,7 +1403,7 @@
         },
         "overlay_header_collection_exclude": {
           "label": "Exclude collection templates",
-          "info": "Comma-separated list of collection template suffixes to exclude, e.g. low-level-collection. Leave blank to enable on all collection templates."
+          "info": "Comma-separated list of collection template suffixes to exclude, e.g. low-level-collection. Use \"default\" for the base collection template. Leave blank to enable on all collection templates."
         },
         "overlay_header_list_collection": {
           "label": "Enable on collections list"
