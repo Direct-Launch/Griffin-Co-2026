@@ -17,7 +17,14 @@ Testing Cypress integration
 
 {% assign collection-overlay = false %}
 {% if section.settings.overlay_header_collection and template.name == 'collection' %}
+  {% assign excluded_collection_templates = section.settings.overlay_header_collection_exclude | split: ',' %}
   {% assign collection-overlay = true %}
+  {% for excluded_template in excluded_collection_templates %}
+    {% assign excluded_template_trimmed = excluded_template | strip %}
+    {% if template.suffix == excluded_template_trimmed %}
+      {% assign collection-overlay = false %}
+    {% endif %}
+  {% endfor %}
 {% endif %}
 
 {% assign list-collection-overlay = false %}
@@ -1202,6 +1209,14 @@ Testing Cypress integration
       "id": "overlay_header_collection",
       "label": "t:sections.header.settings.overlay_header_collection.label",
       "default": false
+    },
+    {
+      "type": "text",
+      "id": "overlay_header_collection_exclude",
+      "label": "t:sections.header.settings.overlay_header_collection_exclude.label",
+      "info": "t:sections.header.settings.overlay_header_collection_exclude.info",
+      "default": "low-level-collection",
+      "visible_if": "{{ section.settings.overlay_header_collection }}"
     },
     {
       "type": "checkbox",
