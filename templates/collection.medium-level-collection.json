@@ -27,8 +27,8 @@
         "content_position_mobile": "center",
         "enable_parallax": false,
         "enable_fade": true,
-        "section_width": "content",
-        "section_margin_top": 10,
+        "section_width": "full",
+        "section_margin_top": 0,
         "section_margin_bottom": 10,
         "colors": "light",
         "caption_bg_color": "#F9F1E9",
@@ -38,6 +38,7 @@
     },
     "hero_image_with_text_y6wMXR": {
       "type": "hero-image-with-text",
+      "disabled": true,
       "name": "Hero - Image with text",
       "settings": {
         "image": "{{ collection.metafields.custom.desktop_large_image.value }}",
