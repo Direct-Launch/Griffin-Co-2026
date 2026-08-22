@@ -18,7 +18,7 @@
           "type": "offer",
           "settings": {
             "image_position": "left",
-            "title": "10% off fine jewellery",
+            "title": "10% off Your Order",
             "description": "<p>Join our newsletter today and receive a special <strong>10% discount code </strong>for your next purchase.</p>",
             "discount_code": "",
             "show_countdown": false,
