@@ -30,7 +30,7 @@
         "show_image_mobile": true,
         "image_mobile": "{{ collection.metafields.custom.mobile_large_image.value }}",
         "min_height_mobile": "original",
-        "content_position_mobile": "bottom_center",
+        "content_position_mobile": "below_image",
         "enable_parallax": false,
         "enable_fade": true,
         "section_width": "full",
