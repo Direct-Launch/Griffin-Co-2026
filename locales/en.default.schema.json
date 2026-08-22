@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "settings_schema": {
     "Colors": {
@@ -1400,6 +1409,10 @@
         },
         "overlay_header_collection": {
           "label": "Enable on collection"
+        },
+        "overlay_header_collection_exclude": {
+          "label": "Exclude collection templates",
+          "info": "Comma-separated list of collection template suffixes to exclude, e.g. low-level-collection. Use \"default\" for the base collection template. Leave blank to enable on all collection templates."
         },
         "overlay_header_list_collection": {
           "label": "Enable on collections list"

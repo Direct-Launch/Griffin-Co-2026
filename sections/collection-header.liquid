@@ -40,12 +40,12 @@
   style="--margin-section-top: {{ section.settings.section_margin_top }}px; --margin-section-bottom: {{ section.settings.section_margin_bottom }}px;"
 >
   <div
-    class="width--{{ section_width }} collection-header collection-header--{{ section.id }} color-scheme--{{ section.settings.colors }} show-on-scroll{% if section_width == 'content' %} block-radius{% endif %}"
+    class="width--{{ section_width }} collection-header collection-header--{{ section.id }} color-scheme--{{ section.settings.colors }} show-on-scroll{% if section_width == 'content' %} block-radius{% endif %}{% if section.settings.content_position_mobile == 'below_image' %} collection-header--mobile-stacked{% endif %}"
     style="--caption-width-desktop: {{ section.settings.caption_width_desktop }}%;"
   >
     {% comment %} Text content {% endcomment %}
 
-    {% if section.settings.show_breadcrumbs or section.settings.show_title or section.settings.show_description %}
+    {% if section.settings.show_breadcrumbs or section.settings.show_title or section.settings.show_description or section.settings.button_label != blank %}
       {% assign animation_order = 1 %}
       <div class="collection-header__text-content{% unless section_width == 'full' %}{% unless background_matches %} wrapper-spacing--v--content wrapper-spacing--h--content{% endunless %}{% else %} wrapper-spacing--v--content wrapper-spacing--h{% endunless %}">
         <div class="collection-header__text-content--inner collection-header__text--position-desktop-{{ section.settings.content_position }} collection-header__text--position-mobile-{{ section.settings.content_position_mobile }}{% if section_width == 'full' %} width--content{% endif %}">
@@ -75,7 +75,7 @@
 
                 {% if section.settings.show_title %}
                   <div class="collection-header__title" data-animate data-animate-order="{{ animation_order }}">
-                    <h3 class="collection-header__text-item">{{ collection.title }}</h3>
+                    <h3 class="collection-header__text-item homepage-sections--title h2">{{ collection.title }}</h3>
                   </div>
                   {% assign animation_order = animation_order | plus: 1 %}
                 {% endif %}
@@ -84,6 +84,32 @@
                   <div class="collection-header__description" data-animate data-animate-order="{{ animation_order }}">
                     <div class="collection-header__text-item text-link-animated">{{ collection.description }}</div>
                   </div>
+                  {% assign animation_order = animation_order | plus: 1 %}
+                {% endif %}
+
+                {% if section.settings.button_label != blank %}
+                  {% if section.settings.override_button_colors %}
+                    {% render 'button-color-overrides',
+                      id: section.id,
+                      style: section.settings.buttons_style,
+                      text_color: section.settings.button_text_color,
+                      background_color: section.settings.button_background_color
+                    %}
+                  {% endif %}
+
+                  {% capture button_attr %}
+                    data-animate
+                    data-animate-order="{{ animation_order }}"
+                  {% endcapture %}
+
+                  {% render 'dynamic-section-button',
+                    id: section.id,
+                    link: section.settings.button_link,
+                    label: section.settings.button_label,
+                    style: section.settings.buttons_style,
+                    div_classes: 'collection-header__button clearfix',
+                    attributes: button_attr
+                  %}
                 {% endif %}
               </div>
             {% if section.settings.enable_fade %}
@@ -195,6 +221,62 @@
       "id": "show_description",
       "label": "t:sections.collection-header.settings.show_description",
       "default": true
+    },
+    {
+      "type": "header",
+      "content": "t:all.Button"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "t:all.Button_link"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "t:all.Button_label"
+    },
+    {
+      "type": "select",
+      "id": "buttons_style",
+      "label": "t:all.button_style",
+      "default": "filled",
+      "options": [
+        {
+          "value": "filled",
+          "label": "t:all.Filled"
+        },
+        {
+          "value": "outlined",
+          "label": "t:all.Outlined"
+        },
+        {
+          "value": "underlined",
+          "label": "t:all.underlined"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "override_button_colors",
+      "label": "t:all.Button_color_override",
+      "default": false,
+      "info": "t:all.Button_color_override_info"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "t:all.Primary_color",
+      "default": "#E68819",
+      "visible_if": "{{ section.settings.override_button_colors }}"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "t:all.Secondary_color",
+      "default": "#ffffff",
+      "info": "t:all.Secondary_button_color_info",
+      "visible_if": "{{ section.settings.override_button_colors }}"
     },
     {
       "type": "header",
@@ -382,6 +464,10 @@
         {
           "value": "bottom_right",
           "label": "t:all.Bottom_right"
+        },
+        {
+          "value": "below_image",
+          "label": "t:all.Below_image"
         }
       ],
       "default": "center"

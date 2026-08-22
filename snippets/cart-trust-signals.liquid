@@ -1,0 +1,32 @@
+{%- comment -%}
+  Cart trust signals — reassurance row for the cart drawer and cart page.
+  Brand-verified content (vault):
+    - 30-day returns ............................ Policies/Refund Policy
+    - Free insured UK delivery over £100 ........ Policies/Shipping Policy (Royal Mail Special Delivery)
+    - NAJ member (National Association of Jewellers, NAJ-75150) .. Brand Files/Links & Resources
+    - Secure checkout
+  ponytail: content hardcoded — brand-stable; edit here if a policy changes.
+{%- endcomment -%}
+<style>
+  .cart-trust{display:flex;flex-wrap:wrap;gap:.6rem 1rem;margin:1rem 0 0;padding-top:1rem;border-top:1px solid rgba(0,0,0,.12);list-style:none}
+  .cart-trust__item{display:flex;align-items:center;gap:.5rem;flex:1 1 44%;font-size:.78rem;line-height:1.25}
+  .cart-trust__item svg{flex:none;width:18px;height:18px;stroke:currentColor}
+</style>
+<ul class="cart-trust" role="list">
+  <li class="cart-trust__item">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><rect x="4" y="10" width="16" height="10" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg>
+    <span>Secure checkout</span>
+  </li>
+  <li class="cart-trust__item">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M3 7h11v9H3z"/><path d="M14 10h4l3 3v3h-7z"/><circle cx="7" cy="18" r="1.6"/><circle cx="17.5" cy="18" r="1.6"/></svg>
+    <span>Free insured UK delivery over £100</span>
+  </li>
+  <li class="cart-trust__item">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M4 8h11a5 5 0 0 1 0 10H9"/><path d="M7 5 4 8l3 3"/></svg>
+    <span>30-day returns</span>
+  </li>
+  <li class="cart-trust__item">
+    <svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" aria-hidden="true"><path d="M12 3l7 3v5c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9.5 12l1.8 1.8L15 10"/></svg>
+    <span>NAJ member jeweller</span>
+  </li>
+</ul>

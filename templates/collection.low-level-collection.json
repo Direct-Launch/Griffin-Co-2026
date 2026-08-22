@@ -16,6 +16,12 @@
         "show_breadcrumbs": true,
         "show_title": false,
         "show_description": false,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
         "show_image_desktop": false,
         "min_height_desktop": "original",
         "content_position": "left",
@@ -36,6 +42,7 @@
     },
     "hero_image_with_text_agV3Up": {
       "type": "hero-image-with-text",
+      "custom_css": [],
       "name": "Hero - Image with text",
       "settings": {
         "image": "{{ collection.image }}",
