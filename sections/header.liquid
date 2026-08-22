@@ -21,7 +21,14 @@ Testing Cypress integration
   {% assign collection-overlay = true %}
   {% for excluded_template in excluded_collection_templates %}
     {% assign excluded_template_trimmed = excluded_template | strip %}
-    {% if template.suffix == excluded_template_trimmed or (excluded_template_trimmed == 'default' and template.suffix == blank) %}
+    {% assign is_excluded_match = false %}
+    {% if template.suffix == excluded_template_trimmed %}
+      {% assign is_excluded_match = true %}
+    {% endif %}
+    {% if excluded_template_trimmed == 'default' and template.suffix == blank %}
+      {% assign is_excluded_match = true %}
+    {% endif %}
+    {% if is_excluded_match %}
       {% assign collection-overlay = false %}
     {% endif %}
   {% endfor %}
