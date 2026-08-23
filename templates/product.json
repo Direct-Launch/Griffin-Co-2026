@@ -129,12 +129,13 @@
         },
         "text_field_wXcYFb": {
           "type": "text_field",
+          "name": "Customize - Engraving",
           "settings": {
             "title": "{{ product.metafields.custom.engravable.value }}",
-            "text_field_hint": "",
+            "text_field_hint": "Tell us what you'd like engraved, including font, style, and design preferences. Use quotation marks for text — for example: \"Message to be engraved\"",
             "text_field_required": false,
-            "text_field_size": "single",
-            "text_field_character_limit": "20",
+            "text_field_size": "multi",
+            "text_field_character_limit": "200",
             "block_position": "first_column",
             "margin_bottom": 20
           }
