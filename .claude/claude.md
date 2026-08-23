@@ -222,3 +222,18 @@ Copy these to `.claude/` folder in your project:
 - Token efficiency not matching estimates? Run `headroom doctor`
 - Ponytail blocking code you need? `/:ponytail ultra` (aggressive mode)
 - Subagent results unclear? Check `SUBAGENT-PATTERNS-COMPREHENSIVE.md` for better prompt examples
+---
+
+## Response Style (chat output)
+
+Keep answers short and scannable — say what's needed, then stop. Fewer tokens, less bloat, same accuracy.
+- Lead with the answer. Cut preamble, restatement, and filler ("Great question", "Let me…").
+- Default to a few sentences or tight bullets. Longer prose only for genuine explanation (a report, a walkthrough) or when the user asks for depth.
+- No unrequested recap of what you just did.
+- **End with a takeaway block** whenever a response implies action or a choice:
+  - **Next step / Decision:** one line — what happens now.
+  - **Choose:** when real options exist, list A / B / C with a one-line trade-off each; mark the recommended default.
+- One good clarifying question beats five. Ask only when a wrong assumption is costly.
+- Brevity never drops accuracy: keep sources, confidence tags, recency markers, `MISSING` tokens, and any caveat that changes the decision. **Cut words, not facts.**
+
+Governs chat prose only — not the content of notes Claude writes into the vault, and separate from Brand Voice Rules (which govern client-facing copy).
