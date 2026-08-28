@@ -788,7 +788,7 @@
         "section_header_alignment": "center",
         "layout_style": "slider",
         "products_to_show": 30,
-        "grid-desktop": 5,
+        "grid-desktop": 4,
         "grid-mobile": "2",
         "section_padding_top": 30,
         "section_padding_bottom": 60,
