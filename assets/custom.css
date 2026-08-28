@@ -1,1 +1,30 @@
 /* Place any CSS overrides in this file. */
+
+/* ---------------------------------------------------------------
+   Mobile image-weight fix - added 2026-08-28 (Direct Launch)
+
+   The image-with-text-overlay section emits a CSS background-image
+   for its MOBILE variant at width=2000. CSS backgrounds cannot use
+   srcset, so phones download the full 2000px asset.
+
+   Measured on /pages/custom-jewellery-builder-online (mobile):
+     Interior_1.webp width=2000 = 324,192 bytes
+     Interior_1.webp width=400  =  33,748 bytes
+
+   Shopify already serves these as WebP (Content-Type: image/webp,
+   vary: Accept). Only the requested DIMENSIONS were wrong.
+
+   Remove this block if the section Liquid is corrected to be
+   mobile-first (small image in the base rule, larger in min-width).
+   The ?v= cache-busting values below must match the live assets;
+   re-check them if either image is replaced.
+   --------------------------------------------------------------- */
+@media (max-width: 749px) {
+  [class*="image_with_text_overlay"] .image-with-text-overlay__mobile-image--cropped .image-with-text-overlay__cropped-image .parallax-child {
+    background-image: url('//griffinfinejewellery.com/cdn/shop/files/Interior_1.webp?v=1778866810&width=750') !important;
+  }
+
+  [class*="__map_"] .img {
+    background-image: url('//griffinfinejewellery.com/cdn/shop/files/Footer_Banner_2.png?v=1768934697&width=750') !important;
+  }
+}
