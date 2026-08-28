@@ -1,0 +1,33 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "custom_liquid_builder": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}"
+      ],
+      "name": "Builder",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<style>.jc-embed{width:100%;min-height:1200px;border:0;display:block}</style><iframe class='jc-embed' src='https://griffinfinejewellery.jewellerycreator.net/' title='Jewellery design studio' loading='eager'></iframe>",
+        "section_width": "full-width",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_builder"
+  ]
+}
