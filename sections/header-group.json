@@ -280,7 +280,7 @@
             "mega-menu": "Bespoke",
             "show_mega_menu_links_desktop": false,
             "show_mega_menu_links_mobile": true,
-            "show_mega_menu_promos_mobile": false,
+            "show_mega_menu_promos_mobile": true,
             "mega_image_1": "shopify://shop_images/Engagement_Rings_17.webp",
             "image_1_aspect_ratio": "square",
             "mega_image_link_1": "shopify://pages/engagement-rings",
