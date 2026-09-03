@@ -568,6 +568,40 @@
         "colors": "white"
       }
     },
+    "rich_text_valuations_2026": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_valuations": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jewellery Insurance Valuations.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_valuations": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>When a piece has been remodelled, its value changes — and an old valuation no longer reflects what it would cost to replace. Insurers need an accurate, current figure, and an out-of-date certificate can leave a treasured piece underinsured.</p><p>We provide written insurance valuations for jewellery we remodel, and for pieces brought to us specifically for valuation. Each assessment is carried out in our Chichester workshop and covers materials, gemstones, craftsmanship and current replacement cost — the figure your insurer needs, rather than a resale estimate. <strong>Valuations are £25 per item.</strong></p><p>If we have remodelled your piece, we already know exactly what went into it, which makes the valuation more accurate than one produced by someone seeing it for the first time.</p><p><a href=\"#booking\" title=\"Book a valuation consultation\">Book a valuation consultation</a> — or call <a href=\"tel:01243380024\">01243 380024</a>.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_valuations",
+        "richtext_valuations"
+      ],
+      "name": "Insurance Valuations",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "image_with_text_overlay_WgzhKg": {
       "type": "image-with-text-overlay",
       "blocks": {
@@ -844,6 +878,42 @@
             "text": "<p>Absolutely! At Griffin & Co Fine Jewellery in Chichester, we specialise in jewellery remodelling. <strong>Bring in your unworn or inherited pieces, and our expert designers will work closely with you to understand your vision.</strong></p><p>We can melt down precious metals, repurpose gemstones, and combine elements to create a bespoke piece of jewellery that you'll love and cherish.</p>",
             "page": ""
           }
+        },
+        "accordion_valuation_needed": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Do I need a new valuation after remodelling?",
+            "open_by_default": false,
+            "text": "<p>Yes. Remodelling changes materials, stones and workmanship, so the pre-existing valuation no longer describes the piece your insurer is covering.</p>",
+            "page": ""
+          }
+        },
+        "accordion_valuation_vs_resale": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What is the difference between an insurance valuation and a resale value?",
+            "open_by_default": false,
+            "text": "<p>An insurance valuation is the cost to <strong>replace</strong> the piece new; resale is what it would fetch second-hand. Insurance valuations are typically higher, and are the figure your policy should be based on.</p>",
+            "page": ""
+          }
+        },
+        "accordion_valuation_other_pieces": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Can you value jewellery you didn’t make?",
+            "open_by_default": false,
+            "text": "<p>Yes. We value pieces regardless of where they were made or bought — you don’t need to have had work done with us.</p>",
+            "page": ""
+          }
+        },
+        "accordion_valuation_cost": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How much does an insurance valuation cost?",
+            "open_by_default": false,
+            "text": "<p><strong>Valuations are £25 per item.</strong> If we have remodelled the piece ourselves, the assessment is more accurate because we already know exactly what went into it.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -851,7 +921,11 @@
         "accordion_GhRGXt",
         "accordion_HmVJLJ",
         "accordion_xFhTbU",
-        "accordion_pxHnfz"
+        "accordion_pxHnfz",
+        "accordion_valuation_needed",
+        "accordion_valuation_vs_resale",
+        "accordion_valuation_other_pieces",
+        "accordion_valuation_cost"
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
@@ -987,6 +1061,7 @@
     "image_with_text_9qj8zz",
     "image_with_text_hLfxzA",
     "image_with_text_BHEfXp",
+    "rich_text_valuations_2026",
     "image_with_text_overlay_WgzhKg",
     "custom_liquid_QYT6dR",
     "custom_liquid_AaFVmN",
