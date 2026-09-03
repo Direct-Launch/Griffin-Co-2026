@@ -211,6 +211,14 @@
             "text_color": "#242424"
           }
         },
+        "custom_liquid_najBadge": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"naj-member-badge\">\n  <a href=\"https://naj.co.uk/find-a-jeweller/detail/Griffin-Co-Fine-Jewellery/179113\" target=\"_blank\" rel=\"noopener\" aria-label=\"Griffin & Co Fine Jewellery is a member of the National Association of Jewellers - view our profile\">\n    <img src=\"{{ 'NAJ_member_logo.png' | file_url }}\" alt=\"Member of the National Association of Jewellers\" width=\"374\" height=\"211\" loading=\"lazy\">\n  </a>\n  <p>Crafted and sold by a member of the <strong>National Association of Jewellers</strong> - the UK trade's mark of quality.<br><span>Member No. NAJ-75150</span></p>\n</div>\n<style>\n.naj-member-badge{display:flex;align-items:center;gap:14px;margin:4px 0 0;}\n.naj-member-badge img{display:block;width:104px;height:auto;}\n.naj-member-badge p{margin:0;font-size:13px;line-height:1.45;color:#242424;}\n.naj-member-badge p span{color:#5a5a5a;}\n@media (max-width:480px){.naj-member-badge{gap:10px}.naj-member-badge img{width:88px}}\n</style>",
+            "block_position": "first_column",
+            "margin_bottom": 30
+          }
+        },
         "social_sharing_JYE6UX": {
           "type": "social_sharing",
           "disabled": true,
@@ -237,6 +245,7 @@
         "button_Nzbmiz",
         "custom_liquid_z7wFPR",
         "text_with_icon_group_HhwmrA",
+        "custom_liquid_najBadge",
         "social_sharing_JYE6UX"
       ],
       "custom_css": [
