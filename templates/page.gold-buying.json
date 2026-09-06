@@ -534,6 +534,7 @@
       "block_order": [
         "heading_WQjyr4"
       ],
+      "disabled": true,
       "name": "t:sections.text--rich-text.presets.name",
       "settings": {
         "section_width": "content",
@@ -542,6 +543,77 @@
         "section_padding_top": 72,
         "section_padding_bottom": 0,
         "colors": "white"
+      }
+    },
+    "collage_np8TMd": {
+      "type": "collage",
+      "blocks": {
+        "text_kAmAfe": {
+          "type": "text",
+          "settings": {
+            "heading": "Sell Your Gold",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "A fair, transparent valuation and a simple, same-day sale. Ideal for broken, unworn or inherited pieces you no longer need.",
+            "url": "#book",
+            "button_label": "Book a Valuation",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#E68819",
+            "button_color": "#FFFFFF",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "text_alignment": "center",
+            "background_color": "#FFFFFF",
+            "text_color": "#232323"
+          }
+        },
+        "text_yHDx7w": {
+          "type": "text",
+          "settings": {
+            "heading": "Remodel It Instead",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Keep the gold and the sentiment — reworked into something you'll wear again. Old rings, chains and heirlooms, reimagined at our bench.",
+            "url": "shopify://pages/jewellery-remodelling-service",
+            "button_label": "Explore Remodelling",
+            "buttons_style": "filled",
+            "override_button_colors": true,
+            "button_background_color": "#FFDDA6",
+            "button_color": "#232323",
+            "desktop_position": "md-min-align-center md-min-justify-center",
+            "text_alignment": "center",
+            "background_color": "#004225",
+            "text_color": "#FFFFFF"
+          }
+        }
+      },
+      "block_order": [
+        "text_kAmAfe",
+        "text_yHDx7w"
+      ],
+      "name": "Sell it or Remodel?",
+      "settings": {
+        "title": "Sell It, or Give It New Life?",
+        "description": "<p>Not every piece has to be parted with. If yours carries memories, there may be a better answer — and we'll help you decide, with no pressure either way.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "width_1": "2",
+        "height_1": "3",
+        "width_2": "2",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "light"
       }
     },
     "template_product_info_columns_Wh9x3c": {
@@ -616,72 +688,8 @@
         "text_alignment_mobile": "left",
         "slider_height_mobile": "adaptive",
         "section_width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "text_adverts_with_icon_HCrbWX": {
-      "type": "text-adverts-with-icon",
-      "blocks": {
-        "text_advert_gRejgA": {
-          "type": "text-advert",
-          "settings": {
-            "icon": "price-tag",
-            "title": "Seen & Weighed in Front of You",
-            "text": "<p>Your gold never leaves your sight. We test and weigh every piece while you watch, and explain exactly how we reach the figure.</p>",
-            "link": "",
-            "button_label": ""
-          }
-        },
-        "text_advert_FQjV7n": {
-          "type": "text-advert",
-          "settings": {
-            "icon": "price-tag",
-            "title": "Seen & Weighed in Front of You",
-            "text": "<p>Your gold never leaves your sight. We test and weigh every piece while you watch, and explain exactly how we reach the figure.</p>",
-            "link": "",
-            "button_label": ""
-          }
-        },
-        "text_advert_dkznPc": {
-          "type": "text-advert",
-          "settings": {
-            "icon": "star",
-            "title": "A Fair, Transparent Offer",
-            "text": "<p>We tell you what we see and what it's worth — clearly, and with no obligation to accept. Sleep on it if you'd like.</p>",
-            "link": "",
-            "button_label": ""
-          }
-        },
-        "text_advert_ntABeB": {
-          "type": "text-advert",
-          "settings": {
-            "icon": "store",
-            "title": "Seven Days, By Appointment",
-            "text": "<p>Book a time that suits you, any day of the week. Your appointment is yours alone — private, and never rushed.</p>",
-            "link": "",
-            "button_label": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_advert_gRejgA",
-        "text_advert_FQjV7n",
-        "text_advert_dkznPc",
-        "text_advert_ntABeB"
-      ],
-      "name": "Benefits",
-      "settings": {
-        "icon_size": "20px",
-        "show_dividers": true,
-        "text_alignment": "center",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
         "colors": "white"
       }
     },
@@ -861,6 +869,95 @@
         "section_padding_top": 36,
         "section_padding_bottom": 72,
         "colors": "white"
+      }
+    },
+    "rich_text_nqnwXh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gfPbbM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sell with Confidence.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_gfPbbM"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 36,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_hQje6M": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_dVaPkm": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Fully Insured",
+            "text": "<p>Your pieces are covered from the moment they're in our care.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_WQXbek": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "ID & Proper Records",
+            "text": "<p>Every purchase is documented — bring photo ID to complete a sale.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_mMqwUD": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "No Obligation",
+            "text": "<p>Our offer is yours to consider. Walk away any time, no pressure.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_WQMWmP": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Free Testing",
+            "text": "<p>We'll test and weigh in front of you at no charge — even if you don't sell.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_dVaPkm",
+        "text_advert_WQXbek",
+        "text_advert_mMqwUD",
+        "text_advert_WQMWmP"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 0,
+        "section_padding_bottom": 72,
+        "colors": "dark"
       }
     },
     "blog_posts_aa3fqb": {
@@ -1115,12 +1212,14 @@
     "image_with_text_BHEfXp",
     "rich_text_valuations_2026",
     "rich_text_gYqfrE",
+    "collage_np8TMd",
     "template_product_info_columns_Wh9x3c",
-    "text_adverts_with_icon_HCrbWX",
     "image_with_text_overlay_WgzhKg",
     "custom_liquid_QYT6dR",
     "custom_liquid_AaFVmN",
     "social_proof_AbnBmM",
+    "rich_text_nqnwXh",
+    "text_adverts_with_icon_hQje6M",
     "blog_posts_aa3fqb",
     "faq_with_image_m73Xra",
     "image_with_text_whWceW",
