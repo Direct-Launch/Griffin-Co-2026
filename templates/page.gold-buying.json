@@ -1,0 +1,1074 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_image_with_text_XbtaRH": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Our_Remodelling_Process_5c357d70-5ecf-432f-84a2-76348c31d8cf.png",
+        "layout": "left",
+        "title": "Jewellery Remodelling Service.",
+        "text": "<p>Let us transform your treasured jewellery into a new piece that reflects your personality. Choose Griffin & Co to experience true craftsmanship and a dedicated, personalised remodelling service.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": true,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "#booking",
+        "button_label_1": "Book Consultation",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "shopify://pages/contact",
+        "button_label_2": "Visit Us",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "scrolling_banner_yQGBqH": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_yQGBqH_repaired_in_the_uk": {
+          "type": "text",
+          "settings": {
+            "text": "Repaired in the UK",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_yQGBqH_ethically_sourced": {
+          "type": "text",
+          "settings": {
+            "text": "Ethically Sourced",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_yQGBqH_certified_diamonds": {
+          "type": "text",
+          "settings": {
+            "text": "Certified Diamonds",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_yQGBqH_redesign_family_heirloom": {
+          "type": "text",
+          "settings": {
+            "text": "Redesign Family Heirlooms",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_yQGBqH_private_home_visits": {
+          "type": "text",
+          "settings": {
+            "text": "Private Home Visits",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_yQGBqH_repaired_in_the_uk",
+        "text_yQGBqH_ethically_sourced",
+        "text_yQGBqH_certified_diamonds",
+        "text_yQGBqH_redesign_family_heirloom",
+        "text_yQGBqH_private_home_visits"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
+      }
+    },
+    "rich_text_7pAWMD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zWwUDm": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Dedicated, Personalised Service.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_Gbedat": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Let us transform your treasured jewellery into a new piece that reflects your personality. Choose Griffin & Co to experience true craftsmanship and unlock the hidden potential of your heirlooms.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWwUDm",
+        "richtext_Gbedat"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "text_adverts_with_icon_KeGJzE": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_DKweKN": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "crown",
+            "title": "Expert Craftsmanship",
+            "text": "<p>Decades of goldsmithing experience applied to carefully dismantling, melting, and reconstructing your treasured pieces.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_xC3bzY": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "star",
+            "title": "Quality Materials",
+            "text": "<p>We assess and purify your existing gold and seamlessly integrate ethically sourced new metals or stones if required.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_VnCp3A": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "heart",
+            "title": "Personalised Service",
+            "text": "<p>A collaborative journey in our Chichester studio, keeping you involved from the initial sketches to the final polish.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_DKweKN",
+        "text_advert_xC3bzY",
+        "text_advert_VnCp3A"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 0,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_YjGKin": {
+      "type": "image-with-text",
+      "name": "Why Choose Us?",
+      "settings": {
+        "image": "shopify://shop_images/Sketch_2.jpg",
+        "layout": "right",
+        "title": "Why Choose Us for Jewellery Remodelling in Chichester?",
+        "text": "<p>Our skilled jewellers in Chichester expertly craft exquisite jewellery, blending traditional techniques with modern technology for exceptional quality.</p><p><strong>Committed to ethically sourced materials and sustainable practices, we offer clear and upfront pricing, ensuring great value for your investment.</strong></p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "#booking",
+        "button_label": "Discuss Your Idea With Us",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "collage_4RdPRz": {
+      "type": "collage",
+      "blocks": {
+        "image_wXVQPk": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG-20220131-WA0004.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Modernise an Antique Piece",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_bEkYcD": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Stack_1.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Combine Multiple Pieces",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_bXfa66": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG_7448_1__1.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Repurpose Broken Jewellery",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_Pwt3XJ": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Wedding_Bands_aeef232d-97d4-416b-bfd6-3db7ed3a3cf5.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-center",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Create an Engagement Ring",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        },
+        "image_PFbPyN": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/IMG_7862_1__2.jpg",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "heading_size": "h4",
+            "mobile_image": "shopify://shop_images/IMG_7862_1__2_fdfde132-5059-4e99-8fdf-16b7d348e43e.jpg",
+            "mobile_position": "md-max-align-bottom md-max-justify-left",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Simply Update a Setting",
+            "text": "",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#242424"
+          }
+        }
+      },
+      "block_order": [
+        "image_wXVQPk",
+        "image_bEkYcD",
+        "image_bXfa66",
+        "image_Pwt3XJ",
+        "image_PFbPyN"
+      ],
+      "name": "t:sections.collage-builder.presets.name",
+      "settings": {
+        "title": "Unlock Your Jewellery's Potential.",
+        "description": "",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "width_1": "3",
+        "height_1": "3",
+        "width_2": "3",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "3",
+        "height_4": "3",
+        "width_5": "1.5",
+        "height_5": "3",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "dark"
+      }
+    },
+    "rich_text_gYqfrE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WQjyr4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Remodelling Process.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_WQjyr4"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "image_with_text_3M9UWp": {
+      "type": "image-with-text",
+      "name": "1. Initial Consultation",
+      "settings": {
+        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
+        "layout": "left",
+        "title": "1. Initial Consultation",
+        "text": "<p>The journey begins with a consultation where we sit down with you to discuss your vision for your jewellery in our showroom in Chichester. We'll listen carefully to your ideas, preferences, and any sentimental value attached to the piece.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h4",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h4-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_EgFKgk": {
+      "type": "image-with-text",
+      "name": "2. Design Development",
+      "settings": {
+        "image": "shopify://shop_images/Step_1_-_Consultation.png",
+        "layout": "right",
+        "title": "2. Design Development",
+        "text": "<p>Once we understand your vision, our designers will create sketches and renderings to bring your ideas to life. This allows you to visualise the final product and make adjustments before we begin crafting.</p>",
+        "text_alignment": "right",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h4",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h4-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_9qj8zz": {
+      "type": "image-with-text",
+      "name": "3. Material Assessment",
+      "settings": {
+        "image": "shopify://shop_images/holding-gemstones-with-tweezers.jpg",
+        "layout": "left",
+        "title": "3. Material Assessment",
+        "text": "<p>We carefully assess the existing materials in your jewellery, such as gemstones and metals. This helps us determine the best way to repurpose them and ensure the integrity of the piece before melting anything down.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h4",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h4-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_hLfxzA": {
+      "type": "image-with-text",
+      "name": "4. Craftsmanship & Creation",
+      "settings": {
+        "image": "shopify://shop_images/Step_2_-_Choose_Stones___Metals.png",
+        "layout": "right",
+        "title": "4. Craftsmanship & Creation",
+        "text": "<p>Our skilled craftsmen meticulously craft your new jewellery using traditional techniques combined with modern technology in our in-house workshop. We pay close attention to every detail to ensure that your piece is of the highest quality.</p>",
+        "text_alignment": "right",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h4",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h4-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_BHEfXp": {
+      "type": "image-with-text",
+      "name": "5. Final Inspection & Polish",
+      "settings": {
+        "image": "shopify://shop_images/Step_5_-_Finished_Product.jpg",
+        "layout": "left",
+        "title": "5. Final Inspection & Polish",
+        "text": "<p>Before your remodelled jewellery is ready for you, we conduct a thorough final inspection to ensure that it meets our exacting standards. We then polish the piece to perfection, bringing out its brilliance and luster.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h4",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h4-mobile",
+        "mobile-text-size": 100,
+        "button_link": "",
+        "button_label": "",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "rich_text_valuations_2026": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_valuations": {
+          "type": "heading",
+          "settings": {
+            "heading": "Jewellery Insurance Valuations.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_valuations": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>When a piece has been remodelled, its value changes — and an old valuation no longer reflects what it would cost to replace. Insurers need an accurate, current figure, and an out-of-date certificate can leave a treasured piece underinsured.</p><p>We provide written insurance valuations for jewellery we remodel, and for pieces brought to us specifically for valuation. Each assessment is carried out in our Chichester workshop and covers materials, gemstones, craftsmanship and current replacement cost — the figure your insurer needs, rather than a resale estimate. <strong>Valuations are £25 per item.</strong></p><p>If we have remodelled your piece, we already know exactly what went into it, which makes the valuation more accurate than one produced by someone seeing it for the first time.</p><p><a href=\"#booking\" title=\"Book a valuation consultation\">Book a valuation consultation</a> — or call <a href=\"tel:01243380024\">01243 380024</a>.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_valuations",
+        "richtext_valuations"
+      ],
+      "name": "Insurance Valuations",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "left",
+        "text_alignment_mobile": "left",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_WgzhKg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_yLdRKf": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready to Reimagine Your Jewellery?",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_Fhkz9G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Visit our showroom in Chichester or book your consultation today.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_yLdRKf",
+        "text_Fhkz9G"
+      ],
+      "name": "CTA Banner",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Book_your_Appointment.jpg",
+        "height_desktop": "650px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "left",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "left",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 25
+      }
+    },
+    "custom_liquid_QYT6dR": {
+      "type": "custom-liquid",
+      "name": "Anchor",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<a id=\"booking\"></a>",
+        "section_width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "custom_liquid_AaFVmN": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}",
+        "@media only screen and (max-width: 768px) {iframe {/* Replace 'iframe' with your specific class if you used one */ height: 1800px !important; /* Brute-forces the iframe to be taller than the content */ max-height: none !important; }}"
+      ],
+      "name": "Booking Form",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/remodelling-service?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "section_width": "full-width",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "social_proof_AbnBmM": {
+      "type": "social-proof",
+      "blocks": {
+        "text_review_ELAGqe": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070306__1766070305474-celeste__huge.jpg",
+            "review_title": "\"My fiancée is over the moon with her ring!\"",
+            "review_text": "<p>Cannot thank the team at Griffin & Co enough, they helped me design the most beautiful bespoke engagement ring for my fiancée!</p><p>They made the whole process so enjoyable and unique to me.</p>",
+            "author": "Celeste",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "18-12-2025"
+          }
+        },
+        "text_review_yzViaz": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1768495195__1768495191976-unnamed__huge.jpg",
+            "review_title": "\"I couldn’t be happier with my experience.\"",
+            "review_text": "<p>Cian and the whole team were fantastic from start to finish. We were never rushed and were given plenty of time to consider our options. </p><p>After some thought, we asked Cian to design a ring for us, and the result is absolutely amazing. Would highly recommend</p>",
+            "author": "Bobby",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "9-1-2026"
+          }
+        },
+        "text_review_6UhwaK": {
+          "type": "text_review",
+          "settings": {
+            "review_title": "\"Lovely shopping experience today.\"",
+            "review_text": "<p>Great service and very happy with purchase. Would recommend.</p>",
+            "author": "Kevin",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "10-04-2026"
+          }
+        },
+        "text_review_KLTMhJ": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070332__1766070330520-mcmatt__huge.jpg",
+            "review_title": "\"Purchased a bracelet from Griffin & Co. as a gift, great quality and looks amazing\"",
+            "review_text": "<p>Cannot thank the team at Griffin & Co enough, they helped me design the most beautiful bespoke engagement ring for my fiancée!</p><p>They made the whole process so enjoyable and unique to me.</p>",
+            "author": "McMatt",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "15-12-2025"
+          }
+        },
+        "text_review_qfgQib": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070257__1766070251766-lauren__original_668a97dc-9b6b-417f-b31c-caa0a77114b6.avif",
+            "review_title": "\"I returned to Griffin after having such a wonderful experience previously, and once again they truly exceeded my expectations.\"",
+            "review_text": "<p>This time, I brought in some very sentimental pieces of jewellery to be remodelled, and the team couldn’t have been more attentive and professional. </p><p>They took the time to listen carefully to my ideas, offered helpful guidance, and perfectly brought my design to life. The finished piece is absolutely stunning and holds so much meaning to me. I wouldn’t hesitate to recommend them to anyone looking for exceptional service and craftsmanship.</p>",
+            "author": "Lauren",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "29-9-2025"
+          }
+        },
+        "text_review_mpdipj": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070286__1766070284569-unnamed1__original.jpg",
+            "review_title": "\"Thanks guys I love it.\"",
+            "review_text": "<p>2 old rings made into a beautiful original ring.</p>",
+            "author": "Sally",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "27-7-2026"
+          }
+        }
+      },
+      "block_order": [
+        "text_review_ELAGqe",
+        "text_review_yzViaz",
+        "text_review_6UhwaK",
+        "text_review_KLTMhJ",
+        "text_review_qfgQib",
+        "text_review_mpdipj"
+      ],
+      "custom_css": [
+        ".text-review-block .review-title {font-size: var(--h6-size);}"
+      ],
+      "name": "Reviews",
+      "settings": {
+        "rating_image": "shopify://shop_images/google-business.png",
+        "image_max_width": 120,
+        "additional_text": "Rated 5 stars by 100s of Clients in Chichester & Beyond",
+        "title": "Luxury That Speaks for Itself.",
+        "description": "<p>Each piece we create tells a story—of beauty, elegance, and trust. But don't just take our word for it. Discover how our timeless craftsmanship has left a lasting impression on jewellery lovers around the world. </p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
+        "scroller_position": "right",
+        "section_padding_top": 36,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "blog_posts_aa3fqb": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_QWVaqf": {
+          "type": "blog",
+          "settings": {
+            "blog": "guide-bespoke-jewellery-design-service"
+          }
+        }
+      },
+      "block_order": [
+        "blog_QWVaqf"
+      ],
+      "name": "t:sections.blog-posts.name",
+      "settings": {
+        "title": "Guide to Jewellery Remodelling & Designs.",
+        "description": "<p>Read our expert insights on selecting diamonds, choosing metals, and understanding the design process.</p>",
+        "section_header_alignment": "left",
+        "media_source": "metafields",
+        "custom_media_ratio": "square",
+        "show_image": true,
+        "image_shape": "natural",
+        "post_limit": 4,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": true,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "accent"
+      }
+    },
+    "faq_with_image_m73Xra": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_Jg8nTk": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What is the first step if I'm interested in remodelling my jewellery with Griffin & Co in Chichester?",
+            "open_by_default": false,
+            "text": "<p>The first step is to get in touch with us! You can either visit our Griffin & Co Fine Jewellery showroom in Chichester with your pieces, or contact us by phone or email to schedule a consultation. </p><p>During this initial meeting, we'll discuss your ideas, examine your jewellery, and answer any further questions you may have. We look forward to helping you transform your treasured pieces into something new and beautiful.</p>",
+            "page": ""
+          }
+        },
+        "accordion_GhRGXt": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What types of changes can be made during jewellery remodelling?",
+            "open_by_default": false,
+            "text": "<p>The possibilities are vast! We can undertake a wide range of transformations in our workshop, including:</p><ul><li><strong>Melting and recasting: </strong>Transforming old gold or platinum into a new design.</li><li><strong>Repurposing gemstones: </strong>Setting existing diamonds and coloured stones into a new setting.</li><li><strong>Combining pieces: </strong>Blending elements from multiple items into a single, unique creation.</li><li><strong>Updating styles: </strong>Modernising outdated designs to reflect current trends.</li><li>✦<strong>Adding or removing elements: </strong>Incorporating new stones or metal details, or simplifying existing pieces.</li><li>✦<strong>Changing metal types: </strong>For example, transforming yellow gold into white gold or platinum via plating or resetting.</li></ul><p><em>Just share your ideas with us, and we'll discuss the best approach to achieve your desired outcome.</em></p>",
+            "page": ""
+          }
+        },
+        "accordion_HmVJLJ": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How long does the jewellery remodelling process typically take?",
+            "open_by_default": false,
+            "text": "<p>The timeframe for jewellery remodelling can vary depending on the complexity of the design and the work involved. After our initial consultation and once the design is finalised, we will provide you with a more accurate estimate.</p><p><strong>Generally, you can expect the process to take anywhere from a few weeks to a couple of months.</strong> We pride ourselves on meticulous craftsmanship and will ensure your new piece is perfect before it leaves our Chichester workshop</p>",
+            "page": ""
+          }
+        },
+        "accordion_xFhTbU": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How much does jewellery remodelling cost at Griffin & Co?",
+            "open_by_default": false,
+            "text": "<p>The cost of remodelling is unique to each project and depends on several factors, including the amount of metal and gemstones involved, the complexity of the new design, and the labour required.</p><p><strong>We offer a no-obligation consultation where we can assess your existing jewellery and discuss your ideas.</strong> Following this, we will provide you with a detailed quote outlining all costs involved, ensuring complete transparency.</p>",
+            "page": ""
+          }
+        },
+        "accordion_pxHnfz": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "I have some old pieces of jewellery that I no longer wear. Can Griffin & Co help me create something new with them?",
+            "open_by_default": false,
+            "text": "<p>Absolutely! At Griffin & Co Fine Jewellery in Chichester, we specialise in jewellery remodelling. <strong>Bring in your unworn or inherited pieces, and our expert designers will work closely with you to understand your vision.</strong></p><p>We can melt down precious metals, repurpose gemstones, and combine elements to create a bespoke piece of jewellery that you'll love and cherish.</p>",
+            "page": ""
+          }
+        },
+        "accordion_valuation_needed": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Do I need a new valuation after remodelling?",
+            "open_by_default": false,
+            "text": "<p>Yes. Remodelling changes materials, stones and workmanship, so the pre-existing valuation no longer describes the piece your insurer is covering.</p>",
+            "page": ""
+          }
+        },
+        "accordion_valuation_vs_resale": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What is the difference between an insurance valuation and a resale value?",
+            "open_by_default": false,
+            "text": "<p>An insurance valuation is the cost to <strong>replace</strong> the piece new; resale is what it would fetch second-hand. Insurance valuations are typically higher, and are the figure your policy should be based on.</p>",
+            "page": ""
+          }
+        },
+        "accordion_valuation_other_pieces": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Can you value jewellery you didn’t make?",
+            "open_by_default": false,
+            "text": "<p>Yes. We value pieces regardless of where they were made or bought — you don’t need to have had work done with us.</p>",
+            "page": ""
+          }
+        },
+        "accordion_valuation_cost": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How much does an insurance valuation cost?",
+            "open_by_default": false,
+            "text": "<p><strong>Valuations are £25 per item.</strong> If we have remodelled the piece ourselves, the assessment is more accurate because we already know exactly what went into it.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_Jg8nTk",
+        "accordion_GhRGXt",
+        "accordion_HmVJLJ",
+        "accordion_xFhTbU",
+        "accordion_pxHnfz",
+        "accordion_valuation_needed",
+        "accordion_valuation_vs_resale",
+        "accordion_valuation_other_pieces",
+        "accordion_valuation_cost"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Learn More about our Remodelling Services.",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/DSC05140_Large_f091f4f7-a5a9-4be9-b227-0a63ff8e3109.jpg",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "colors": "white"
+      }
+    },
+    "image_with_text_whWceW": {
+      "type": "image-with-text",
+      "name": "Private Home Visits",
+      "settings": {
+        "image": "shopify://shop_images/Home_Visits.png",
+        "layout": "left",
+        "title": "Remodelling Consultations in Your Home.",
+        "text": "<p>While our Chichester showroom is the heart of our design process, we understand that some clients prefer the security and comfort of their own environment.</p><p>For remodelling commissions, we offer a <strong>Private Home Visit</strong> service throughout West Sussex & the South. Our lead designer will visit you to discuss your ideas and evaluate your existing jewellery.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request Home Visit",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_BDCMFY": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_qzjDUe": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/west-sussex\" title=\"West Sussex\">West Sussex</a></h5><p><a href=\"/pages/arundel\" title=\"Arundel\">Arundel</a>, <a href=\"/pages/bognor-regis\" title=\"Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/bosham\" title=\"Bosham\">Bosham</a>, <a href=\"/pages/burgess-hill\" title=\"Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/chichester\" title=\"Chichester\">Chichester</a>, <a href=\"/pages/crawley\" title=\"Crawley\">Crawley</a>, <a href=\"/pages/east-grinstead\" title=\"East Grinstead\">East Grinstead</a>, <a href=\"/pages/haywards-heath\" title=\"Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/horsham\" title=\"Horsham\">Horsham</a>, <a href=\"/pages/littlehampton\" title=\"Littlehampton\">Littlehampton</a>, <a href=\"/pages/shoreham-by-sea\" title=\"Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/worthing\" title=\"Worthing\">Worthing.</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_heEzmT": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/hampshire\" title=\"Hampshire\">Hampshire</a></h5><p><a href=\"/pages/aldershot\" title=\"Aldershot\">Aldershot</a>, <a href=\"/pages/andover\" title=\"Andover\">Andover</a>, <a href=\"/pages/basingstoke\" title=\"Basingstoke\">Basingstoke</a>, <a href=\"/pages/farnborough\" title=\"Farnborough\">Farnborough</a>, <a href=\"/pages/gosport\" title=\"Gosport\">Gosport</a>, <a href=\"/pages/horndean\" title=\"Horndean\">Horndean</a>, <a href=\"/pages/portsmouth\" title=\"Portsmouth\">Portsmouth</a>, <a href=\"/pages/southampton\" title=\"Southampton\">Southampton</a>, <a href=\"/pages/winchester\" title=\"Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_NEkHEM": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/surrey\" title=\"Surrey\">Surrey</a></h5><p><a href=\"/pages/camberley\" title=\"Camberley\">Camberley</a>, <a href=\"/pages/epsom\" title=\"Epsom\">Epsom</a>, <a href=\"/pages/esher\" title=\"Esher\">Esher</a>, <a href=\"/pages/ewell\" title=\"Ewell\">Ewell</a>, <a href=\"/pages/guildford\" title=\"Guildford\">Guildford</a>, <a href=\"/pages/leatherhead\" title=\"Leatherhead\">Leatherhead</a>, <a href=\"/pages/redhill\" title=\"Redhill\">Redhill</a>, <a href=\"/pages/walton-on-thames\" title=\"Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/weybridge\" title=\"Weybridge\">Weybridge</a>, <a href=\"/pages/woking\" title=\"Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_iTtUac": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/greater-london\" title=\"Greater London\">Greater London</a></h5><p><a href=\"/pages/barnet\" title=\"Barnet\">Barnet</a>, <a href=\"/pages/brent\" title=\"Brent\">Brent</a>, <a href=\"/pages/bromley\" title=\"Bromley\">Bromley</a>, <a href=\"/pages/croydon\" title=\"Croydon\">Croydon</a>, <a href=\"/pages/ealing\" title=\"Ealing\">Ealing</a>, <a href=\"/pages/enfield\" title=\"Enfield\">Enfield</a>, <a href=\"/pages/lambeth\" title=\"Lambeth\">Lambeth</a>, <a href=\"/pages/newham\" title=\"Newham\">Newham</a>, <a href=\"/pages/hatton-garden\" title=\"Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/tower-hamlets\" title=\"Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/wandsworth\" title=\"Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_qzjDUe",
+        "text_heEzmT",
+        "text_NEkHEM",
+        "text_iTtUac"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Areas We Cover in West Sussex.",
+        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England to provide remodelling design consultations and delivery.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    }
+  },
+  "order": [
+    "hero_image_with_text_XbtaRH",
+    "scrolling_banner_yQGBqH",
+    "rich_text_7pAWMD",
+    "text_adverts_with_icon_KeGJzE",
+    "image_with_text_YjGKin",
+    "collage_4RdPRz",
+    "rich_text_gYqfrE",
+    "image_with_text_3M9UWp",
+    "image_with_text_EgFKgk",
+    "image_with_text_9qj8zz",
+    "image_with_text_hLfxzA",
+    "image_with_text_BHEfXp",
+    "rich_text_valuations_2026",
+    "image_with_text_overlay_WgzhKg",
+    "custom_liquid_QYT6dR",
+    "custom_liquid_AaFVmN",
+    "social_proof_AbnBmM",
+    "blog_posts_aa3fqb",
+    "faq_with_image_m73Xra",
+    "image_with_text_whWceW",
+    "template_product_info_columns_BDCMFY"
+  ]
+}
