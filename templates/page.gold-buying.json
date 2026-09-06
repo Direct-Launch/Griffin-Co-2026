@@ -15,7 +15,7 @@
       "settings": {
         "image": "shopify://shop_images/IMG_8775_5d65cf32-33c2-433c-b534-ca779ee41595.webp",
         "layout": "left",
-        "title": "Sell Your Gold, the Considered Way.",
+        "title": "Sell Your Gold in Chichester.",
         "text": "<p>Bring your unworn gold to a jeweller who'll treat you like family. A fair, transparent valuation in our Chichester showroom — by appointment, seven days a week.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
@@ -133,7 +133,7 @@
         "heading_zWwUDm": {
           "type": "heading",
           "settings": {
-            "heading": "Worth More Than It's Doing Unworn.",
+            "heading": "A Considered Way to Sell.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -244,149 +244,113 @@
     "collage_4RdPRz": {
       "type": "collage",
       "blocks": {
-        "image_wXVQPk": {
-          "type": "image",
+        "text_a8gGdj": {
+          "type": "text",
           "settings": {
-            "desktop_image": "shopify://shop_images/IMG-20220131-WA0004.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-left",
+            "heading": "Gold Jewellery",
             "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-left",
             "heading_size_mobile": "h4-mobile",
-            "heading": "Modernise an Antique Piece",
-            "text": "",
+            "text": "Rings & wedding bands, chains & necklaces, bracelets & bangles, earrings, pendants, brooches, charms and cufflinks. Complete or broken, tangled, snapped or missing stones — none of that matters to us.",
             "url": "",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_bEkYcD": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Stack_1.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-left",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-left",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "Combine Multiple Pieces",
-            "text": "",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_bXfa66": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/IMG_7448_1__1.jpg",
-            "desktop_position": "md-min-align-bottom md-min-justify-right",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-left",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "Repurpose Broken Jewellery",
-            "text": "",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_Pwt3XJ": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/Wedding_Bands_aeef232d-97d4-416b-bfd6-3db7ed3a3cf5.png",
-            "desktop_position": "md-min-align-bottom md-min-justify-center",
-            "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-left",
-            "heading_size_mobile": "h4-mobile",
-            "heading": "Create an Engagement Ring",
-            "text": "",
-            "url": "",
-            "button_label": "",
-            "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
-          }
-        },
-        "image_PFbPyN": {
-          "type": "image",
-          "settings": {
-            "desktop_image": "shopify://shop_images/IMG_7862_1__2.jpg",
             "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#F9F1E9",
+            "text_color": "#232323"
+          }
+        },
+        "text_F3N3Pt": {
+          "type": "text",
+          "settings": {
+            "heading": "Every Carat",
             "heading_size": "h4",
-            "mobile_image": "shopify://shop_images/IMG_7862_1__2_fdfde132-5059-4e99-8fdf-16b7d348e43e.jpg",
-            "mobile_position": "md-max-align-bottom md-max-justify-left",
             "heading_size_mobile": "h4-mobile",
-            "heading": "Simply Update a Setting",
-            "text": "",
+            "text": "9ct, 14ct, 18ct, 22ct and 24ct. Hallmarked or unmarked — if you're not sure what you have, we'll test it for you, free and with no obligation.",
             "url": "",
             "button_label": "",
             "buttons_style": "filled",
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
-            "url_2": "",
-            "button_label_2": "",
-            "buttons_style_2": "outlined",
-            "override_button_colors_2": false,
-            "button_background_color_2": "#e68819",
-            "button_color_2": "#ffffff",
-            "text_color": "#ffffff",
-            "overlay_color": "#242424"
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#F9F1E9",
+            "text_color": "#232323"
+          }
+        },
+        "text_TcaUF7": {
+          "type": "text",
+          "settings": {
+            "heading": "Coins & Bullion",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Full and half sovereigns, Krugerrands, Britannias, gold bars and other investment coins.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#F9F1E9",
+            "text_color": "#232323"
+          }
+        },
+        "text_VAgT8M": {
+          "type": "text",
+          "settings": {
+            "heading": "Inherited & Unworn",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Estate jewellery, gifts that were never quite to your taste, and older designs that have had their day. Happy to look through a whole collection with you.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#F9F1E9",
+            "text_color": "#232323"
+          }
+        },
+        "text_78Aypr": {
+          "type": "text",
+          "settings": {
+            "heading": "Not Sure It's Gold?",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Bring it in anyway. We'll test it while you wait and tell you honestly what you have — there's never a charge to find out.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#004225",
+            "text_color": "#FFFFFF"
           }
         }
       },
       "block_order": [
-        "image_wXVQPk",
-        "image_bEkYcD",
-        "image_bXfa66",
-        "image_Pwt3XJ",
-        "image_PFbPyN"
+        "text_a8gGdj",
+        "text_F3N3Pt",
+        "text_TcaUF7",
+        "text_VAgT8M",
+        "text_78Aypr"
       ],
       "name": "t:sections.collage-builder.presets.name",
       "settings": {
-        "title": "Unlock Your Jewellery's Potential.",
-        "description": "",
+        "title": "What We Buy.",
+        "description": "<p>Whole or broken, hallmarked or not, a single earring or a whole box — bring it in and we'll take a proper look.</p>",
         "section_header_alignment": "center",
         "section_width": "full",
         "remove_spacing": false,
@@ -394,18 +358,18 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "width_1": "3",
-        "height_1": "3",
+        "height_1": "4",
         "width_2": "3",
-        "height_2": "3",
+        "height_2": "4",
         "width_3": "3",
-        "height_3": "3",
+        "height_3": "4",
         "width_4": "3",
-        "height_4": "3",
+        "height_4": "4",
         "width_5": "1.5",
-        "height_5": "3",
+        "height_5": "4",
         "width_6": "1",
-        "height_6": "4",
-        "color_scheme": "dark"
+        "height_6": "6",
+        "color_scheme": "white"
       }
     },
     "rich_text_gYqfrE": {
@@ -608,7 +572,7 @@
         "heading_yLdRKf": {
           "type": "heading",
           "settings": {
-            "title": "Ready to Reimagine Your Jewellery?",
+            "title": "Ready to Find Out What Your Gold Is Worth?",
             "font_size_desktop": "h2",
             "font_size_mobile": "h2-mobile",
             "heading_bottom_spacing": 25
@@ -617,7 +581,7 @@
         "text_Fhkz9G": {
           "type": "text",
           "settings": {
-            "text": "<p>Visit our showroom in Chichester or book your consultation today.</p>",
+            "text": "<p>Book a private appointment at our Chichester showroom — any day of the week.</p>",
             "font_size_desktop": 100,
             "font_size_mobile": 100,
             "text_bottom_spacing": 20
@@ -793,6 +757,7 @@
       "block_order": [
         "blog_QWVaqf"
       ],
+      "disabled": true,
       "name": "t:sections.blog-posts.name",
       "settings": {
         "title": "Guide to Jewellery Remodelling & Designs.",
@@ -837,81 +802,54 @@
         "accordion_Jg8nTk": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What is the first step if I'm interested in remodelling my jewellery with Griffin & Co in Chichester?",
+            "accordion_header": "How much is my gold worth?",
             "open_by_default": false,
-            "text": "<p>The first step is to get in touch with us! You can either visit our Griffin & Co Fine Jewellery showroom in Chichester with your pieces, or contact us by phone or email to schedule a consultation. </p><p>During this initial meeting, we'll discuss your ideas, examine your jewellery, and answer any further questions you may have. We look forward to helping you transform your treasured pieces into something new and beautiful.</p>",
+            "text": "<p>It depends on the carat (9ct, 18ct, 22ct), the weight, and the condition of each piece. We weigh and test everything in front of you and explain exactly how we reach our offer, so there are no surprises.</p>",
             "page": ""
           }
         },
         "accordion_GhRGXt": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "What types of changes can be made during jewellery remodelling?",
+            "accordion_header": "Do I need an appointment?",
             "open_by_default": false,
-            "text": "<p>The possibilities are vast! We can undertake a wide range of transformations in our workshop, including:</p><ul><li><strong>Melting and recasting: </strong>Transforming old gold or platinum into a new design.</li><li><strong>Repurposing gemstones: </strong>Setting existing diamonds and coloured stones into a new setting.</li><li><strong>Combining pieces: </strong>Blending elements from multiple items into a single, unique creation.</li><li><strong>Updating styles: </strong>Modernising outdated designs to reflect current trends.</li><li>✦<strong>Adding or removing elements: </strong>Incorporating new stones or metal details, or simplifying existing pieces.</li><li>✦<strong>Changing metal types: </strong>For example, transforming yellow gold into white gold or platinum via plating or resetting.</li></ul><p><em>Just share your ideas with us, and we'll discuss the best approach to achieve your desired outcome.</em></p>",
+            "text": "<p>Yes — our gold buying service is by appointment only, seven days a week. This means you get a private, unhurried slot with a jeweller rather than waiting at a counter.</p>",
             "page": ""
           }
         },
         "accordion_HmVJLJ": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How long does the jewellery remodelling process typically take?",
+            "accordion_header": "What kinds of gold do you buy?",
             "open_by_default": false,
-            "text": "<p>The timeframe for jewellery remodelling can vary depending on the complexity of the design and the work involved. After our initial consultation and once the design is finalised, we will provide you with a more accurate estimate.</p><p><strong>Generally, you can expect the process to take anywhere from a few weeks to a couple of months.</strong> We pride ourselves on meticulous craftsmanship and will ensure your new piece is perfect before it leaves our Chichester workshop</p>",
+            "text": "<p>Gold jewellery of most kinds — rings, chains, bracelets, earrings and pendants, in 9ct, 18ct or 22ct — plus gold coins and bullion. Broken, single or inherited pieces are all welcome.</p>",
             "page": ""
           }
         },
         "accordion_xFhTbU": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "How much does jewellery remodelling cost at Griffin & Co?",
+            "accordion_header": "Do I have to sell on the day?",
             "open_by_default": false,
-            "text": "<p>The cost of remodelling is unique to each project and depends on several factors, including the amount of metal and gemstones involved, the complexity of the new design, and the labour required.</p><p><strong>We offer a no-obligation consultation where we can assess your existing jewellery and discuss your ideas.</strong> Following this, we will provide you with a detailed quote outlining all costs involved, ensuring complete transparency.</p>",
+            "text": "<p>Not at all. Our offer comes with no obligation. You're welcome to take time to think it over, and there's never any pressure to accept.</p>",
             "page": ""
           }
         },
         "accordion_pxHnfz": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "I have some old pieces of jewellery that I no longer wear. Can Griffin & Co help me create something new with them?",
+            "accordion_header": "What should I bring?",
             "open_by_default": false,
-            "text": "<p>Absolutely! At Griffin & Co Fine Jewellery in Chichester, we specialise in jewellery remodelling. <strong>Bring in your unworn or inherited pieces, and our expert designers will work closely with you to understand your vision.</strong></p><p>We can melt down precious metals, repurpose gemstones, and combine elements to create a bespoke piece of jewellery that you'll love and cherish.</p>",
+            "text": "<p>Bring your gold and a form of photo ID. We keep proper records for every purchase, so ID is required to complete a sale.</p>",
             "page": ""
           }
         },
         "accordion_valuation_needed": {
           "type": "accordion",
           "settings": {
-            "accordion_header": "Do I need a new valuation after remodelling?",
+            "accordion_header": "Could I remodel my gold instead of selling it?",
             "open_by_default": false,
-            "text": "<p>Yes. Remodelling changes materials, stones and workmanship, so the pre-existing valuation no longer describes the piece your insurer is covering.</p>",
-            "page": ""
-          }
-        },
-        "accordion_valuation_vs_resale": {
-          "type": "accordion",
-          "settings": {
-            "accordion_header": "What is the difference between an insurance valuation and a resale value?",
-            "open_by_default": false,
-            "text": "<p>An insurance valuation is the cost to <strong>replace</strong> the piece new; resale is what it would fetch second-hand. Insurance valuations are typically higher, and are the figure your policy should be based on.</p>",
-            "page": ""
-          }
-        },
-        "accordion_valuation_other_pieces": {
-          "type": "accordion",
-          "settings": {
-            "accordion_header": "Can you value jewellery you didn’t make?",
-            "open_by_default": false,
-            "text": "<p>Yes. We value pieces regardless of where they were made or bought — you don’t need to have had work done with us.</p>",
-            "page": ""
-          }
-        },
-        "accordion_valuation_cost": {
-          "type": "accordion",
-          "settings": {
-            "accordion_header": "How much does an insurance valuation cost?",
-            "open_by_default": false,
-            "text": "<p><strong>Valuations are £25 per item.</strong> If we have remodelled the piece ourselves, the assessment is more accurate because we already know exactly what went into it.</p>",
+            "text": "<p>Often, yes — and it can be the more rewarding choice. If your piece is sentimental, ask us about our <a href=\"/pages/jewellery-remodelling-service\" title=\"Jewellery Remodelling Service\">remodelling </a>service and we'll talk you through the options.</p>",
             "page": ""
           }
         }
@@ -922,14 +860,11 @@
         "accordion_HmVJLJ",
         "accordion_xFhTbU",
         "accordion_pxHnfz",
-        "accordion_valuation_needed",
-        "accordion_valuation_vs_resale",
-        "accordion_valuation_other_pieces",
-        "accordion_valuation_cost"
+        "accordion_valuation_needed"
       ],
       "name": "t:sections.faq-with-image.presets.name",
       "settings": {
-        "section_title": "Learn More about our Remodelling Services.",
+        "section_title": "Common Questions About Selling Gold.",
         "section_description": "",
         "section_header_alignment": "left",
         "faq_icon": "caret",
@@ -957,8 +892,8 @@
       "settings": {
         "image": "shopify://shop_images/Home_Visits.png",
         "layout": "left",
-        "title": "Remodelling Consultations in Your Home.",
-        "text": "<p>While our Chichester showroom is the heart of our design process, we understand that some clients prefer the security and comfort of their own environment.</p><p>For remodelling commissions, we offer a <strong>Private Home Visit</strong> service throughout West Sussex & the South. Our lead designer will visit you to discuss your ideas and evaluate your existing jewellery.</p>",
+        "title": "Private Valuations in Your Home.",
+        "text": "<p>While our Chichester showroom is the heart of what we do, we understand some clients — particularly with larger collections or estate pieces — prefer the security and comfort of their own home.</p><p>For significant collections, we offer a <strong>Private Home Visit</strong> across West Sussex and the South. Our jeweller will visit you to assess your gold and talk you through a valuation, in confidence.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "text_overlapping_image": false,
@@ -1027,7 +962,7 @@
       "name": "Areas We Cover",
       "settings": {
         "title": "Areas We Cover in West Sussex.",
-        "description": "<p>For our Private Home Visit service, our master jewellers travel across the South of England to provide remodelling design consultations and delivery.</p>",
+        "description": "<p>Book a private appointment at our Chichester showroom — any day of the week.</p>",
         "section_header_alignment": "center",
         "maximum_width": 500,
         "override_border_radius": false,
