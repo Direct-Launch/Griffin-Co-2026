@@ -15,8 +15,8 @@
       "settings": {
         "image": "shopify://shop_images/IMG_8775_5d65cf32-33c2-433c-b534-ca779ee41595.webp",
         "layout": "left",
-        "title": "Jewellery Remodelling Service.",
-        "text": "<p>Let us transform your treasured jewellery into a new piece that reflects your personality. Choose Griffin & Co to experience true craftsmanship and a dedicated, personalised remodelling service.</p>",
+        "title": "Sell Your Gold, the Considered Way.",
+        "text": "<p>Bring your unworn gold to a jeweller who'll treat you like family. A fair, transparent valuation in our Chichester showroom — by appointment, seven days a week.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "center",
         "text_overlapping_image": true,
@@ -49,7 +49,7 @@
         "text_yQGBqH_repaired_in_the_uk": {
           "type": "text",
           "settings": {
-            "text": "Repaired in the UK",
+            "text": "Chichester Showroom",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -60,7 +60,7 @@
         "text_yQGBqH_ethically_sourced": {
           "type": "text",
           "settings": {
-            "text": "Ethically Sourced",
+            "text": "Seven Days a Week",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -71,7 +71,7 @@
         "text_yQGBqH_certified_diamonds": {
           "type": "text",
           "settings": {
-            "text": "Certified Diamonds",
+            "text": "By Appointment",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -82,7 +82,7 @@
         "text_yQGBqH_redesign_family_heirloom": {
           "type": "text",
           "settings": {
-            "text": "Redesign Family Heirlooms",
+            "text": "Fully Insured",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -93,7 +93,7 @@
         "text_yQGBqH_private_home_visits": {
           "type": "text",
           "settings": {
-            "text": "Private Home Visits",
+            "text": "Trusted Local Jeweller",
             "font": "heading",
             "style": "fill",
             "font_size_desktop": "h5",
@@ -133,7 +133,7 @@
         "heading_zWwUDm": {
           "type": "heading",
           "settings": {
-            "heading": "A Dedicated, Personalised Service.",
+            "heading": "Worth More Than It's Doing Unworn.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -141,7 +141,7 @@
         "richtext_Gbedat": {
           "type": "richtext",
           "settings": {
-            "text": "<p>Let us transform your treasured jewellery into a new piece that reflects your personality. Choose Griffin & Co to experience true craftsmanship and unlock the hidden potential of your heirlooms.</p>",
+            "text": "<p>That drawer of odd earrings, the broken chain, the ring that no longer suits you — it's worth more than it's doing sitting unworn. We'll weigh it, talk you through what it's worth, and make you a fair offer, face to face.</p><p>No queues, no pressure, no back-of-the-shop counter. Just an unhurried conversation with a jeweller who knows gold and knows Chichester.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -167,9 +167,9 @@
         "text_advert_DKweKN": {
           "type": "text-advert",
           "settings": {
-            "icon": "crown",
-            "title": "Expert Craftsmanship",
-            "text": "<p>Decades of goldsmithing experience applied to carefully dismantling, melting, and reconstructing your treasured pieces.</p>",
+            "icon": "price-tag",
+            "title": "Seen & Weighed in Front of You",
+            "text": "<p>Your gold never leaves your sight. We test and weigh every piece while you watch, and explain exactly how we reach the figure.</p>",
             "link": "",
             "button_label": ""
           }
@@ -178,8 +178,8 @@
           "type": "text-advert",
           "settings": {
             "icon": "star",
-            "title": "Quality Materials",
-            "text": "<p>We assess and purify your existing gold and seamlessly integrate ethically sourced new metals or stones if required.</p>",
+            "title": "A Fair, Transparent Offer",
+            "text": "<p>We tell you what we see and what it's worth — clearly, and with no obligation to accept. Sleep on it if you'd like.</p>",
             "link": "",
             "button_label": ""
           }
@@ -187,9 +187,9 @@
         "text_advert_VnCp3A": {
           "type": "text-advert",
           "settings": {
-            "icon": "heart",
-            "title": "Personalised Service",
-            "text": "<p>A collaborative journey in our Chichester studio, keeping you involved from the initial sketches to the final polish.</p>",
+            "icon": "store",
+            "title": "Seven Days, By Appointment",
+            "text": "<p>Book a time that suits you, any day of the week. Your appointment is yours alone — private, and never rushed.</p>",
             "link": "",
             "button_label": ""
           }
@@ -218,10 +218,10 @@
       "type": "image-with-text",
       "name": "Why Choose Us?",
       "settings": {
-        "image": "shopify://shop_images/Sketch_2.jpg",
-        "layout": "right",
-        "title": "Why Choose Us for Jewellery Remodelling in Chichester?",
-        "text": "<p>Our skilled jewellers in Chichester expertly craft exquisite jewellery, blending traditional techniques with modern technology for exceptional quality.</p><p><strong>Committed to ethically sourced materials and sustainable practices, we offer clear and upfront pricing, ensuring great value for your investment.</strong></p>",
+        "image": "shopify://shop_images/DSC06168.jpg",
+        "layout": "left",
+        "title": "Not a Pawnbroker. A Family Jeweller.",
+        "text": "<p>We're not a postal service or a counter with a queue. We're a family fine jeweller on South Street, and much of the gold we're offered finds a second life in our workshop — remade into something someone else will treasure.</p><p>That matters. It means we value your gold as <strong>craftspeople</strong>, not just by the gram — and you're dealing with people who'll still be here, on the same street, long after the transaction is done.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
         "text_overlapping_image": false,
@@ -230,11 +230,11 @@
         "mobile-heading-size": "h3-mobile",
         "mobile-text-size": 100,
         "button_link": "#booking",
-        "button_label": "Discuss Your Idea With Us",
+        "button_label": "Book a Valuation Appointment",
         "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
+        "override_button_colors": true,
+        "button_background_color": "#FFDDA6",
+        "button_text_color": "#232323",
         "section-width": "full",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
