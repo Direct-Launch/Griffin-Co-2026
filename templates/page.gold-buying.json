@@ -372,60 +372,9 @@
         "color_scheme": "white"
       }
     },
-    "rich_text_gYqfrE": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_WQjyr4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Remodelling Process.",
-            "heading--text-size": "h3",
-            "heading_bottom_spacing": 0
-          }
-        }
-      },
-      "block_order": [
-        "heading_WQjyr4"
-      ],
-      "name": "t:sections.text--rich-text.presets.name",
-      "settings": {
-        "section_width": "content",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 0,
-        "colors": "white"
-      }
-    },
-    "image_with_text_3M9UWp": {
-      "type": "image-with-text",
-      "name": "1. Initial Consultation",
-      "settings": {
-        "image": "shopify://shop_images/Step_1_-_Consultation.jpg",
-        "layout": "left",
-        "title": "1. Initial Consultation",
-        "text": "<p>The journey begins with a consultation where we sit down with you to discuss your vision for your jewellery in our showroom in Chichester. We'll listen carefully to your ideas, preferences, and any sentimental value attached to the piece.</p>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h4",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h4-mobile",
-        "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
     "image_with_text_EgFKgk": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "2. Design Development",
       "settings": {
         "image": "shopify://shop_images/Step_1_-_Consultation.png",
@@ -453,6 +402,7 @@
     },
     "image_with_text_9qj8zz": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "3. Material Assessment",
       "settings": {
         "image": "shopify://shop_images/holding-gemstones-with-tweezers.jpg",
@@ -480,6 +430,7 @@
     },
     "image_with_text_hLfxzA": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "4. Craftsmanship & Creation",
       "settings": {
         "image": "shopify://shop_images/Step_2_-_Choose_Stones___Metals.png",
@@ -507,6 +458,7 @@
     },
     "image_with_text_BHEfXp": {
       "type": "image-with-text",
+      "disabled": true,
       "name": "5. Final Inspection & Polish",
       "settings": {
         "image": "shopify://shop_images/Step_5_-_Finished_Product.jpg",
@@ -556,11 +508,178 @@
         "heading_valuations",
         "richtext_valuations"
       ],
+      "disabled": true,
       "name": "Insurance Valuations",
       "settings": {
         "section_width": "content",
         "text_alignment_desktop": "left",
         "text_alignment_mobile": "left",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "rich_text_gYqfrE": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WQjyr4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Selling in Four Easy Steps.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_WQjyr4"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "template_product_info_columns_Wh9x3c": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_8Defwq": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Griffin_Desk.jpg",
+            "grid_image_size": "square",
+            "heading": "Book",
+            "text": "<p>Choose any day of the week and tell us roughly what you're bringing, so we set aside the right time.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_tmCF9K": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/AE4A6794_Large_61f12875-9dfd-47a1-af99-68e2d4838088.jpg",
+            "grid_image_size": "square",
+            "heading": "Assess Together",
+            "text": "<p>We test and weigh each piece in front of you and explain what affects its value.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_9Qac3d": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/DSC06211.jpg",
+            "grid_image_size": "square",
+            "heading": "A Clear Offer",
+            "text": "<p>A fair, transparent offer on the spot — with no obligation to accept. Sleep on it if you'd like.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_jJyBUz": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_3.png",
+            "grid_image_size": "square",
+            "heading": "Settled Simply",
+            "text": "<p>If you're happy, we settle there and then. Bring photo ID, as we keep proper records for every purchase.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_8Defwq",
+        "image_and_text_tmCF9K",
+        "image_and_text_9Qac3d",
+        "image_and_text_jJyBUz"
+      ],
+      "name": "How It Works",
+      "settings": {
+        "title": "How Our Repair Service Works.",
+        "description": "<p>Jewellery Repair Process</p>",
+        "section_header_alignment": "left",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "text_adverts_with_icon_HCrbWX": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_gRejgA": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "price-tag",
+            "title": "Seen & Weighed in Front of You",
+            "text": "<p>Your gold never leaves your sight. We test and weigh every piece while you watch, and explain exactly how we reach the figure.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_FQjV7n": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "price-tag",
+            "title": "Seen & Weighed in Front of You",
+            "text": "<p>Your gold never leaves your sight. We test and weigh every piece while you watch, and explain exactly how we reach the figure.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_dkznPc": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "star",
+            "title": "A Fair, Transparent Offer",
+            "text": "<p>We tell you what we see and what it's worth — clearly, and with no obligation to accept. Sleep on it if you'd like.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_ntABeB": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "store",
+            "title": "Seven Days, By Appointment",
+            "text": "<p>Book a time that suits you, any day of the week. Your appointment is yours alone — private, and never rushed.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_gRejgA",
+        "text_advert_FQjV7n",
+        "text_advert_dkznPc",
+        "text_advert_ntABeB"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "white"
@@ -990,13 +1109,14 @@
     "text_adverts_with_icon_KeGJzE",
     "image_with_text_YjGKin",
     "collage_4RdPRz",
-    "rich_text_gYqfrE",
-    "image_with_text_3M9UWp",
     "image_with_text_EgFKgk",
     "image_with_text_9qj8zz",
     "image_with_text_hLfxzA",
     "image_with_text_BHEfXp",
     "rich_text_valuations_2026",
+    "rich_text_gYqfrE",
+    "template_product_info_columns_Wh9x3c",
+    "text_adverts_with_icon_HCrbWX",
     "image_with_text_overlay_WgzhKg",
     "custom_liquid_QYT6dR",
     "custom_liquid_AaFVmN",
