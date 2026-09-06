@@ -600,8 +600,8 @@
       ],
       "name": "How It Works",
       "settings": {
-        "title": "How Our Repair Service Works.",
-        "description": "<p>Jewellery Repair Process</p>",
+        "title": "Selling in Four Easy Steps.",
+        "description": "",
         "section_header_alignment": "left",
         "maximum_width": 500,
         "override_border_radius": false,
