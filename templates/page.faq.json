@@ -937,6 +937,89 @@
         "show_nav": false
       }
     },
+    "main3": {
+      "type": "faq-knowledge-base",
+      "blocks": {
+        "q093": {
+          "type": "question",
+          "settings": {
+            "question": "How much is my gold worth?",
+            "answer": "<p>It depends on three things: the carat (9ct, 18ct, 22ct and so on), the weight, and the condition of each piece. We weigh and test everything in front of you on calibrated scales, and explain exactly how we reach our figure, so the offer never comes as a surprise. If you'd like an idea before you visit, <a href=\"https://appointments.griffinandcofinejewellery.co.uk/sell-your-gold\">book an appointment</a> and bring your pieces in — testing is always free and with no obligation.</p>",
+            "category": "Selling Your Gold"
+          }
+        },
+        "q094": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need an appointment to sell my gold?",
+            "answer": "<p>Yes — our gold buying service is by appointment only, seven days a week. Booking a slot means you get a private, unhurried conversation with a jeweller rather than waiting at a counter, and we can set aside the right amount of time for what you're bringing. You can <a href=\"https://appointments.griffinandcofinejewellery.co.uk/sell-your-gold\">book your appointment here</a>, any day of the week.</p>",
+            "category": "Selling Your Gold"
+          }
+        },
+        "q095": {
+          "type": "question",
+          "settings": {
+            "question": "What kinds of gold do you buy?",
+            "answer": "<p>If it's gold, we'd like to see it. We buy gold jewellery of most kinds — rings, wedding bands, chains, bracelets, earrings, pendants, brooches and cufflinks — whether it's complete, broken, tangled or missing stones. We also buy gold coins and bullion, and welcome inherited or unworn pieces you no longer reach for. See our full <a href=\"https://griffinfinejewellery.com/pages/sell-your-gold\">sell your gold</a> page for everything we take.</p>",
+            "category": "Selling Your Gold"
+          }
+        },
+        "q096": {
+          "type": "question",
+          "settings": {
+            "question": "Do you buy gold coins and bullion?",
+            "answer": "<p>Yes. We buy full and half sovereigns, Krugerrands, Britannias, gold bars and other investment coins, alongside gold jewellery. As with everything, we weigh and assess each item in front of you and make a fair, transparent offer with no obligation. Bring your coins to a <a href=\"https://appointments.griffinandcofinejewellery.co.uk/sell-your-gold\">private appointment</a> and we'll talk you through what they're worth.</p>",
+            "category": "Selling Your Gold"
+          }
+        },
+        "q097": {
+          "type": "question",
+          "settings": {
+            "question": "How do you work out the value of my gold?",
+            "answer": "<p>We look at three things together, with you watching the whole way: the carat or purity of the metal, the weight on calibrated scales, and the condition and form of the piece. If anything is unmarked and you're not sure what you have, we'll test it for you, free of charge. Because much of the gold we buy finds a second life at our Chichester workbench, we value it as craftspeople — not simply by the gram.</p>",
+            "category": "Selling Your Gold"
+          }
+        },
+        "q098": {
+          "type": "question",
+          "settings": {
+            "question": "Do I have to sell on the day?",
+            "answer": "<p>Not at all. Our offer comes with absolutely no obligation, so you're welcome to take time to think it over and there's never any pressure to accept. We'd far rather you felt completely comfortable, even if that means sleeping on it. If you decide to go ahead later, simply <a href=\"https://appointments.griffinandcofinejewellery.co.uk/sell-your-gold\">book another appointment</a> whenever suits you.</p>",
+            "category": "Selling Your Gold"
+          }
+        },
+        "q099": {
+          "type": "question",
+          "settings": {
+            "question": "What do I need to bring to sell my gold?",
+            "answer": "<p>Just your gold and a form of photo ID. We keep proper records for every purchase, so a valid photo ID is required to complete a sale — it's a routine part of buying gold responsibly. Beyond that, there's nothing to prepare: bring whatever you have, whole or broken, and we'll take a proper look.</p>",
+            "category": "Selling Your Gold"
+          }
+        },
+        "q100": {
+          "type": "question",
+          "settings": {
+            "question": "Should I sell my gold or have it remodelled?",
+            "answer": "<p>Sometimes selling is exactly right — especially for broken, unworn or inherited pieces you no longer need. But if a piece carries memories, there may be a more rewarding option: keeping the gold and reworking it into something you'll wear again. Ask us about our <a href=\"https://griffinfinejewellery.com/pages/jewellery-remodelling-service\">remodelling service</a> and we'll help you decide what's right for you, with no pressure either way.</p>",
+            "category": "Selling Your Gold"
+          }
+        }
+      },
+      "block_order": [
+        "q093",
+        "q094",
+        "q095",
+        "q096",
+        "q097",
+        "q098",
+        "q099",
+        "q100"
+      ],
+      "settings": {
+        "heading": "",
+        "show_nav": false
+      }
+    },
     "custom_liquid_TmMQyB": {
       "type": "custom-liquid",
       "name": "Reviews",
@@ -956,6 +1039,7 @@
     "main",
     "collage_eYMUzW",
     "main2",
+    "main3",
     "custom_liquid_TmMQyB"
   ]
 }
