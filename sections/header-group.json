@@ -350,7 +350,7 @@
           "settings": {
             "mega-menu": "Services",
             "show_mega_menu_links_desktop": false,
-            "show_mega_menu_links_mobile": true,
+            "show_mega_menu_links_mobile": false,
             "show_mega_menu_promos_mobile": true,
             "mega_image_1": "shopify://shop_images/Bespoke_Experience.jpg",
             "image_1_aspect_ratio": "square",
