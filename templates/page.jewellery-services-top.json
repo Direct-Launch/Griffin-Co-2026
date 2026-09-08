@@ -322,7 +322,7 @@
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
-            "url_2": "",
+            "url_2": "shopify://pages/sell-your-gold",
             "button_label_2": "View Service",
             "buttons_style_2": "outlined",
             "override_button_colors_2": true,
