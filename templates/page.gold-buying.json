@@ -1,0 +1,1120 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_image_with_text_XbtaRH": {
+      "type": "hero-image-with-text",
+      "name": "Hero - Image with text",
+      "settings": {
+        "image": "shopify://shop_images/IMG_8775_5d65cf32-33c2-433c-b534-ca779ee41595.webp",
+        "layout": "left",
+        "title": "Sell Your Gold in Chichester.",
+        "text": "<p>Bring your unworn gold to a jeweller who'll treat you like family. A fair, transparent valuation in our Chichester showroom — by appointment, seven days a week.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": true,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "show_image_mobile": true,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link_1": "#booking",
+        "button_label_1": "Book Consultation",
+        "buttons_style_1": "filled",
+        "override_button_colors_1": false,
+        "button_background_color_1": "#e68819",
+        "button_text_color_1": "#ffffff",
+        "button_link_2": "shopify://pages/contact",
+        "button_label_2": "Visit Us",
+        "buttons_style_2": "outlined",
+        "override_button_colors_2": false,
+        "button_background_color_2": "#e68819",
+        "button_text_color_2": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "light"
+      }
+    },
+    "scrolling_banner_yQGBqH": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_yQGBqH_repaired_in_the_uk": {
+          "type": "text",
+          "settings": {
+            "text": "Chichester Showroom",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_yQGBqH_ethically_sourced": {
+          "type": "text",
+          "settings": {
+            "text": "Seven Days a Week",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_yQGBqH_certified_diamonds": {
+          "type": "text",
+          "settings": {
+            "text": "By Appointment",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_yQGBqH_redesign_family_heirloom": {
+          "type": "text",
+          "settings": {
+            "text": "Fully Insured",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_jcArDq": {
+          "type": "text",
+          "settings": {
+            "text": "No Obligation",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_daBp7L": {
+          "type": "text",
+          "settings": {
+            "text": "Free Gold Testing",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_yQGBqH_private_home_visits": {
+          "type": "text",
+          "settings": {
+            "text": "Trusted Local Jeweller",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        }
+      },
+      "block_order": [
+        "text_yQGBqH_repaired_in_the_uk",
+        "text_yQGBqH_ethically_sourced",
+        "text_yQGBqH_certified_diamonds",
+        "text_yQGBqH_redesign_family_heirloom",
+        "text_jcArDq",
+        "text_daBp7L",
+        "text_yQGBqH_private_home_visits"
+      ],
+      "name": "t:sections.scrolling-banner.name",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "show_fade": true,
+        "borders": false,
+        "animation_direction": "normal",
+        "animation_speed": 60,
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "space_between_blocks_desktop": 80,
+        "space_between_blocks_mobile": 20,
+        "rotate": "0",
+        "override_border_radius": false,
+        "color_scheme": "white"
+      }
+    },
+    "rich_text_7pAWMD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_zWwUDm": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Decides What Your Gold Is Worth.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        },
+        "richtext_Gbedat": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>Three things, and we talk you through all of them at your appointment — so the offer never comes as a surprise.</p>",
+            "text_size": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_zWwUDm",
+        "richtext_Gbedat"
+      ],
+      "name": "What Decides What Your Gold Is Worth.",
+      "settings": {
+        "section_width": "content",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "text_adverts_with_icon_KeGJzE": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_DKweKN": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Carat",
+            "text": "<p>The purity of the gold — 9ct, 14ct, 18ct, 22ct or 24ct. The higher the carat, the more pure gold it contains. Unmarked? We'll test it, free.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_xC3bzY": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Weight",
+            "text": "<p>We weigh every piece on calibrated scales while you watch, separating carats so each is valued correctly.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_VnCp3A": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Condition & Form",
+            "text": "<p>Whether it's wearable jewellery, a coin, or broken and scrap — and whether any stones or craftsmanship add value beyond the metal.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_DKweKN",
+        "text_advert_xC3bzY",
+        "text_advert_VnCp3A"
+      ],
+      "name": "Carat, Weight & Condition",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 0,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "image_with_text_YjGKin": {
+      "type": "image-with-text",
+      "name": "Why Choose Us?",
+      "settings": {
+        "image": "shopify://shop_images/DSC06168.jpg",
+        "video": "shopify://files/videos/Gold Buying Video (1).mp4",
+        "video_url": "",
+        "video_alt_text": "",
+        "layout": "left",
+        "title": "Not a Pawnbroker. A Family Jeweller.",
+        "text": "<p>We're not a postal service or a counter with a queue. We're a family fine jeweller on South Street, and much of the gold we're offered finds a second life in our workshop — remade into something someone else will treasure.</p><p>That matters. It means we value your gold as <strong>craftspeople</strong>, not just by the gram — and you're dealing with people who'll still be here, on the same street, long after the transaction is done.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "#booking",
+        "button_label": "Book a Valuation Appointment",
+        "buttons_style": "filled",
+        "override_button_colors": true,
+        "button_background_color": "#ffdda6",
+        "button_text_color": "#232323",
+        "section-width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 150,
+        "colors": "white"
+      }
+    },
+    "rich_text_EnTFwy": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_JkYkQR": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>When you sell your gold to Griffin & Co, you're selling it to <em>jewellers</em> — people who weigh it in front of you, explain every figure, and often give it a second life at the bench.</p>",
+            "text_size": 200,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "richtext_JkYkQR"
+      ],
+      "name": "Not a cash-for-gold shop",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "colors": "dark"
+      }
+    },
+    "collage_4RdPRz": {
+      "type": "collage",
+      "blocks": {
+        "text_a8gGdj": {
+          "type": "text",
+          "settings": {
+            "heading": "Gold Jewellery",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Rings & wedding bands, chains & necklaces, bracelets & bangles, earrings, pendants, brooches, charms and cufflinks. Complete or broken, tangled, snapped or missing stones — none of that matters to us.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#f9f1e9",
+            "text_color": "#232323"
+          }
+        },
+        "text_F3N3Pt": {
+          "type": "text",
+          "settings": {
+            "heading": "Every Carat",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "9ct, 14ct, 18ct, 22ct and 24ct. Hallmarked or unmarked — if you're not sure what you have, we'll test it for you, free and with no obligation.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#f9f1e9",
+            "text_color": "#232323"
+          }
+        },
+        "text_TcaUF7": {
+          "type": "text",
+          "settings": {
+            "heading": "Coins & Bullion",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Full and half sovereigns, Krugerrands, Britannias, gold bars and other investment coins.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#f9f1e9",
+            "text_color": "#232323"
+          }
+        },
+        "text_VAgT8M": {
+          "type": "text",
+          "settings": {
+            "heading": "Inherited & Unworn",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Estate jewellery, gifts that were never quite to your taste, and older designs that have had their day. Happy to look through a whole collection with you.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#f9f1e9",
+            "text_color": "#232323"
+          }
+        },
+        "text_78Aypr": {
+          "type": "text",
+          "settings": {
+            "heading": "Not Sure It's Gold?",
+            "heading_size": "h4",
+            "heading_size_mobile": "h4-mobile",
+            "text": "Bring it in anyway. We'll test it while you wait and tell you honestly what you have — there's never a charge to find out.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "desktop_position": "md-min-align-top md-min-justify-left",
+            "text_alignment": "left",
+            "background_color": "#004225",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "text_a8gGdj",
+        "text_F3N3Pt",
+        "text_TcaUF7",
+        "text_VAgT8M",
+        "text_78Aypr"
+      ],
+      "name": "t:sections.collage-builder.presets.name",
+      "settings": {
+        "title": "What We Buy.",
+        "description": "<p>Whole or broken, hallmarked or not, a single earring or a whole box — bring it in and we'll take a proper look.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 150,
+        "section_padding_bottom": 72,
+        "width_1": "3",
+        "height_1": "4",
+        "width_2": "3",
+        "height_2": "4",
+        "width_3": "3",
+        "height_3": "4",
+        "width_4": "3",
+        "height_4": "4",
+        "width_5": "1.5",
+        "height_5": "4",
+        "width_6": "1",
+        "height_6": "6",
+        "color_scheme": "white"
+      }
+    },
+    "collage_np8TMd": {
+      "type": "collage",
+      "blocks": {
+        "image_cgkC3y": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/DSC06168.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "heading_size": "h4",
+            "mobile_image": "shopify://shop_images/DSC06211.jpg",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Sell Your Gold",
+            "text": "A fair, transparent valuation and a simple, same-day sale. Ideal for broken, unworn or inherited pieces you no longer need.",
+            "url": "#book",
+            "button_label": "Book a Valuation",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
+          }
+        },
+        "image_yz9Tba": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Our_Remodelling_Process.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "heading_size": "h4",
+            "mobile_image": "shopify://shop_images/Our_Remodelling_Process_5d0e02da-fab9-4bd6-9633-5c1bf2bf6308.png",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Remodel It Instead",
+            "text": "Keep the gold and the sentiment — reworked into something you'll wear again. Old rings, chains and heirlooms, reimagined at our bench.",
+            "url": "shopify://pages/jewellery-remodelling-service",
+            "button_label": "Explore Remodelling",
+            "buttons_style": "filled",
+            "override_button_colors": true,
+            "button_background_color": "#FFDDA6",
+            "button_color": "#232323",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#232323"
+          }
+        }
+      },
+      "block_order": [
+        "image_cgkC3y",
+        "image_yz9Tba"
+      ],
+      "name": "Sell it or Remodel?",
+      "settings": {
+        "title": "Sell It, or Give It New Life?",
+        "description": "<p>Not every piece has to be parted with. If yours carries memories, there may be a better answer — and we'll help you decide, with no pressure either way.</p>",
+        "section_header_alignment": "center",
+        "section_width": "full",
+        "remove_spacing": false,
+        "block_alignment": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "width_1": "2",
+        "height_1": "3",
+        "width_2": "2",
+        "height_2": "3",
+        "width_3": "3",
+        "height_3": "3",
+        "width_4": "2",
+        "height_4": "2",
+        "width_5": "2",
+        "height_5": "2",
+        "width_6": "1",
+        "height_6": "4",
+        "color_scheme": "light"
+      }
+    },
+    "template_product_info_columns_Wh9x3c": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "image_and_text_8Defwq": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Griffin_Desk.jpg",
+            "grid_image_size": "square",
+            "heading": "Book",
+            "text": "<p>Choose any day of the week and tell us roughly what you're bringing, so we set aside the right time.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_tmCF9K": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/AE4A6794_Large_61f12875-9dfd-47a1-af99-68e2d4838088.jpg",
+            "grid_image_size": "square",
+            "heading": "Assess Together",
+            "text": "<p>We test and weigh each piece in front of you and explain what affects its value.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_9Qac3d": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/DSC06211.jpg",
+            "grid_image_size": "square",
+            "heading": "A Clear Offer",
+            "text": "<p>A fair, transparent offer on the spot — with no obligation to accept. Sleep on it if you'd like.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "image_and_text_jJyBUz": {
+          "type": "image_and_text",
+          "settings": {
+            "image": "shopify://shop_images/Our_Showroom_3.png",
+            "grid_image_size": "square",
+            "heading": "Settled Simply",
+            "text": "<p>If you're happy, we settle there and then. Bring photo ID, as we keep proper records for every purchase.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_and_text_8Defwq",
+        "image_and_text_tmCF9K",
+        "image_and_text_9Qac3d",
+        "image_and_text_jJyBUz"
+      ],
+      "name": "How It Works",
+      "settings": {
+        "title": "Selling in Four Easy Steps.",
+        "description": "",
+        "section_header_alignment": "left",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "slider_height_mobile": "adaptive",
+        "section_width": "content",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "colors": "white"
+      }
+    },
+    "image_with_text_overlay_WgzhKg": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_yLdRKf": {
+          "type": "heading",
+          "settings": {
+            "title": "Ready to Find Out What Your Gold Is Worth?",
+            "font_size_desktop": "h2",
+            "font_size_mobile": "h2-mobile",
+            "heading_bottom_spacing": 25
+          }
+        },
+        "text_Fhkz9G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Book a private appointment at our Chichester showroom — any day of the week.</p>",
+            "font_size_desktop": 100,
+            "font_size_mobile": 100,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_yLdRKf",
+        "text_Fhkz9G"
+      ],
+      "name": "CTA Banner",
+      "settings": {
+        "image_desktop": "shopify://shop_images/Book_your_Appointment.jpg",
+        "height_desktop": "650px",
+        "text_position_desktop": "left",
+        "text_alignment_desktop": "left",
+        "caption_width_desktop": 50,
+        "height_mobile": "500px",
+        "text_position_mobile": "center",
+        "text_alignment_mobile": "left",
+        "section_link": "",
+        "animation_style": "parallax",
+        "section_width": "full",
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "text_color": "#ffffff",
+        "caption_bg_color": "rgba(0,0,0,0)",
+        "image_overlay_color": "#242424",
+        "image_overlay_opacity": 25
+      }
+    },
+    "custom_liquid_QYT6dR": {
+      "type": "custom-liquid",
+      "name": "Anchor",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<a id=\"booking\"></a>",
+        "section_width": "content",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "white"
+      }
+    },
+    "custom_liquid_AaFVmN": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".wrapper-spacing--h {padding-left: 0px; padding-right: 0px;}",
+        "@media only screen and (max-width: 768px) {iframe {/* Replace 'iframe' with your specific class if you used one */ height: 1800px !important; /* Brute-forces the iframe to be taller than the content */ max-height: none !important; }}"
+      ],
+      "name": "Booking Form",
+      "settings": {
+        "title": "",
+        "description": "",
+        "section_header_alignment": "center",
+        "custom_liquid": "<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery/remodelling-service?is_widget=1&view=compact&specific-meeting-type=1\" style=\"width:100%; height:1200px;\" frameBorder=\"0\" scrolling=\"yes\"></iframe>",
+        "section_width": "full-width",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "social_proof_AbnBmM": {
+      "type": "social-proof",
+      "blocks": {
+        "text_review_ELAGqe": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070306__1766070305474-celeste__huge.jpg",
+            "review_title": "\"My fiancée is over the moon with her ring!\"",
+            "review_text": "<p>Cannot thank the team at Griffin & Co enough, they helped me design the most beautiful bespoke engagement ring for my fiancée!</p><p>They made the whole process so enjoyable and unique to me.</p>",
+            "author": "Celeste",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "18-12-2025"
+          }
+        },
+        "text_review_yzViaz": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1768495195__1768495191976-unnamed__huge.jpg",
+            "review_title": "\"I couldn’t be happier with my experience.\"",
+            "review_text": "<p>Cian and the whole team were fantastic from start to finish. We were never rushed and were given plenty of time to consider our options. </p><p>After some thought, we asked Cian to design a ring for us, and the result is absolutely amazing. Would highly recommend</p>",
+            "author": "Bobby",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "9-1-2026"
+          }
+        },
+        "text_review_6UhwaK": {
+          "type": "text_review",
+          "settings": {
+            "review_title": "\"Lovely shopping experience today.\"",
+            "review_text": "<p>Great service and very happy with purchase. Would recommend.</p>",
+            "author": "Kevin",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "10-04-2026"
+          }
+        },
+        "text_review_KLTMhJ": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070332__1766070330520-mcmatt__huge.jpg",
+            "review_title": "\"Purchased a bracelet from Griffin & Co. as a gift, great quality and looks amazing\"",
+            "review_text": "<p>Cannot thank the team at Griffin & Co enough, they helped me design the most beautiful bespoke engagement ring for my fiancée!</p><p>They made the whole process so enjoyable and unique to me.</p>",
+            "author": "McMatt",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "15-12-2025"
+          }
+        },
+        "text_review_qfgQib": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070257__1766070251766-lauren__original_668a97dc-9b6b-417f-b31c-caa0a77114b6.avif",
+            "review_title": "\"I returned to Griffin after having such a wonderful experience previously, and once again they truly exceeded my expectations.\"",
+            "review_text": "<p>This time, I brought in some very sentimental pieces of jewellery to be remodelled, and the team couldn’t have been more attentive and professional. </p><p>They took the time to listen carefully to my ideas, offered helpful guidance, and perfectly brought my design to life. The finished piece is absolutely stunning and holds so much meaning to me. I wouldn’t hesitate to recommend them to anyone looking for exceptional service and craftsmanship.</p>",
+            "author": "Lauren",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "29-9-2025"
+          }
+        },
+        "text_review_mpdipj": {
+          "type": "text_review",
+          "settings": {
+            "image": "shopify://shop_images/1766070286__1766070284569-unnamed1__original.jpg",
+            "review_title": "\"Thanks guys I love it.\"",
+            "review_text": "<p>2 old rings made into a beautiful original ring.</p>",
+            "author": "Sally",
+            "verified": true,
+            "verified_color": "#004225",
+            "date": "27-7-2026"
+          }
+        }
+      },
+      "block_order": [
+        "text_review_ELAGqe",
+        "text_review_yzViaz",
+        "text_review_6UhwaK",
+        "text_review_KLTMhJ",
+        "text_review_qfgQib",
+        "text_review_mpdipj"
+      ],
+      "custom_css": [
+        ".text-review-block .review-title {font-size: var(--h6-size);}"
+      ],
+      "name": "Reviews",
+      "settings": {
+        "rating_image": "shopify://shop_images/google-business.png",
+        "image_max_width": 120,
+        "additional_text": "Rated 5 stars by 100s of Clients in Chichester & Beyond",
+        "title": "Trusted Across Chichester & Beyond.",
+        "description": "<p>Each piece we create tells a story—of beauty, elegance, and trust. But don't just take our word for it. Discover how our timeless craftsmanship has left a lasting impression on jewellery lovers around the world. </p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
+        "scroller_position": "right",
+        "section_padding_top": 36,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
+    "rich_text_nqnwXh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gfPbbM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sell with Confidence.",
+            "heading--text-size": "h3",
+            "heading_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "heading_gfPbbM"
+      ],
+      "name": "t:sections.text--rich-text.presets.name",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 72,
+        "section_padding_bottom": 36,
+        "colors": "dark"
+      }
+    },
+    "text_adverts_with_icon_hQje6M": {
+      "type": "text-adverts-with-icon",
+      "blocks": {
+        "text_advert_dVaPkm": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Fully Insured",
+            "text": "<p>Your pieces are covered from the moment they're in our care.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_WQXbek": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "ID & Proper Records",
+            "text": "<p>Every purchase is documented — bring photo ID to complete a sale.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_mMqwUD": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "No Obligation",
+            "text": "<p>Our offer is yours to consider. Walk away any time, no pressure.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        },
+        "text_advert_WQMWmP": {
+          "type": "text-advert",
+          "settings": {
+            "icon": "none",
+            "title": "Free Testing",
+            "text": "<p>We'll test and weigh in front of you at no charge — even if you don't sell.</p>",
+            "link": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_advert_dVaPkm",
+        "text_advert_WQXbek",
+        "text_advert_mMqwUD",
+        "text_advert_WQMWmP"
+      ],
+      "name": "Benefits",
+      "settings": {
+        "icon_size": "20px",
+        "show_dividers": true,
+        "text_alignment": "center",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section_padding_top": 0,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    },
+    "blog_posts_aa3fqb": {
+      "type": "blog-posts",
+      "blocks": {
+        "blog_QWVaqf": {
+          "type": "blog",
+          "settings": {
+            "blog": "guide-bespoke-jewellery-design-service"
+          }
+        }
+      },
+      "block_order": [
+        "blog_QWVaqf"
+      ],
+      "disabled": true,
+      "name": "t:sections.blog-posts.name",
+      "settings": {
+        "title": "Guide to Jewellery Remodelling & Designs.",
+        "description": "<p>Read our expert insights on selecting diamonds, choosing metals, and understanding the design process.</p>",
+        "section_header_alignment": "left",
+        "media_source": "metafields",
+        "custom_media_ratio": "square",
+        "show_image": true,
+        "image_shape": "natural",
+        "post_limit": 4,
+        "show_tags": false,
+        "blog_show_date": true,
+        "show_author": true,
+        "show_reading_time": true,
+        "show_comment_count": false,
+        "show_excerpt": true,
+        "show_read_more": true,
+        "heading_font": "heading",
+        "heading_font_size": "h5",
+        "heading_font_size_mobile": "h4-mobile",
+        "body_font_size": 200,
+        "alignment": "left",
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "layout_style_desktop": "slider",
+        "hover_navigation_desktop": "left-and-right",
+        "peek_desktop": true,
+        "images_per_row_desktop": 3,
+        "layout_style_mobile": "slider",
+        "navigation_mobile": "dots",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "accent"
+      }
+    },
+    "faq_with_image_m73Xra": {
+      "type": "faq-with-image",
+      "blocks": {
+        "accordion_Jg8nTk": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "How much is my gold worth?",
+            "open_by_default": false,
+            "text": "<p>It depends on the carat (9ct, 18ct, 22ct), the weight, and the condition of each piece. We weigh and test everything in front of you and explain exactly how we reach our offer, so there are no surprises.</p>",
+            "page": ""
+          }
+        },
+        "accordion_GhRGXt": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Do I need an appointment?",
+            "open_by_default": false,
+            "text": "<p>Yes — our gold buying service is by appointment only, seven days a week. This means you get a private, unhurried slot with a jeweller rather than waiting at a counter.</p>",
+            "page": ""
+          }
+        },
+        "accordion_HmVJLJ": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What kinds of gold do you buy?",
+            "open_by_default": false,
+            "text": "<p>Gold jewellery of most kinds — rings, chains, bracelets, earrings and pendants, in 9ct, 18ct or 22ct — plus gold coins and bullion. Broken, single or inherited pieces are all welcome.</p>",
+            "page": ""
+          }
+        },
+        "accordion_xFhTbU": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Do I have to sell on the day?",
+            "open_by_default": false,
+            "text": "<p>Not at all. Our offer comes with no obligation. You're welcome to take time to think it over, and there's never any pressure to accept.</p>",
+            "page": ""
+          }
+        },
+        "accordion_pxHnfz": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "What should I bring?",
+            "open_by_default": false,
+            "text": "<p>Bring your gold and a form of photo ID. We keep proper records for every purchase, so ID is required to complete a sale.</p>",
+            "page": ""
+          }
+        },
+        "accordion_valuation_needed": {
+          "type": "accordion",
+          "settings": {
+            "accordion_header": "Could I remodel my gold instead of selling it?",
+            "open_by_default": false,
+            "text": "<p>Often, yes — and it can be the more rewarding choice. If your piece is sentimental, ask us about our <a href=\"/pages/jewellery-remodelling-service\" title=\"Jewellery Remodelling Service\">remodelling </a>service and we'll talk you through the options.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "accordion_Jg8nTk",
+        "accordion_GhRGXt",
+        "accordion_HmVJLJ",
+        "accordion_xFhTbU",
+        "accordion_pxHnfz",
+        "accordion_valuation_needed"
+      ],
+      "name": "t:sections.faq-with-image.presets.name",
+      "settings": {
+        "section_title": "Common Questions About Selling Gold.",
+        "section_description": "",
+        "section_header_alignment": "left",
+        "faq_icon": "caret",
+        "accordion_image": "shopify://shop_images/DSC05140_Large_f091f4f7-a5a9-4be9-b227-0a63ff8e3109.jpg",
+        "image_max_width": 600,
+        "title": "",
+        "text": "",
+        "link": "",
+        "button_text": "",
+        "image_position_desktop": "right",
+        "image_position_mobile": "top",
+        "section_width": "full-width",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "image--background-color": "rgba(0,0,0,0)",
+        "image--text-color": "#333333",
+        "button_background_color": "#242424",
+        "button_text_color": "#ffffff",
+        "colors": "white"
+      }
+    },
+    "image_with_text_whWceW": {
+      "type": "image-with-text",
+      "name": "Private Home Visits",
+      "settings": {
+        "image": "shopify://shop_images/Home_Visits.png",
+        "video_url": "",
+        "video_alt_text": "",
+        "layout": "left",
+        "title": "Selling Gold Near You.",
+        "text": "<p>While our Chichester showroom is the heart of what we do, we understand some clients — particularly with larger collections or estate pieces — prefer the security and comfort of their own home.</p><p>For significant collections, we offer a <strong>Private Home Visit</strong> across West Sussex and the South. Our jeweller will visit you to assess your gold and talk you through a valuation, in confidence.</p>",
+        "text_alignment": "left",
+        "text_alignment_mobile": "left",
+        "text_overlapping_image": false,
+        "desktop-heading-size": "h3",
+        "desktop-text-size": 100,
+        "mobile-heading-size": "h3-mobile",
+        "mobile-text-size": 100,
+        "button_link": "shopify://pages/home-visits",
+        "button_label": "Request Home Visit",
+        "buttons_style": "filled",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "section-width": "full",
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "colors": "dark"
+      }
+    },
+    "template_product_info_columns_BDCMFY": {
+      "type": "template--product--info-columns",
+      "blocks": {
+        "text_qzjDUe": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/west-sussex\" title=\"West Sussex\">West Sussex</a></h5><p><a href=\"/pages/arundel\" title=\"Arundel\">Arundel</a>, <a href=\"/pages/bognor-regis\" title=\"Bognor Regis\">Bognor Regis</a>, <a href=\"/pages/bosham\" title=\"Bosham\">Bosham</a>, <a href=\"/pages/burgess-hill\" title=\"Burgess Hill\">Burgess Hill</a>, <a href=\"/pages/chichester\" title=\"Chichester\">Chichester</a>, <a href=\"/pages/crawley\" title=\"Crawley\">Crawley</a>, <a href=\"/pages/east-grinstead\" title=\"East Grinstead\">East Grinstead</a>, <a href=\"/pages/haywards-heath\" title=\"Haywards Heath\">Haywards Heath</a>, <a href=\"/pages/horsham\" title=\"Horsham\">Horsham</a>, <a href=\"/pages/littlehampton\" title=\"Littlehampton\">Littlehampton</a>, <a href=\"/pages/shoreham-by-sea\" title=\"Shoreham-by-Sea\">Shoreham-by-Sea</a>, <a href=\"/pages/worthing\" title=\"Worthing\">Worthing.</a></p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_heEzmT": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/hampshire\" title=\"Hampshire\">Hampshire</a></h5><p><a href=\"/pages/aldershot\" title=\"Aldershot\">Aldershot</a>, <a href=\"/pages/andover\" title=\"Andover\">Andover</a>, <a href=\"/pages/basingstoke\" title=\"Basingstoke\">Basingstoke</a>, <a href=\"/pages/farnborough\" title=\"Farnborough\">Farnborough</a>, <a href=\"/pages/gosport\" title=\"Gosport\">Gosport</a>, <a href=\"/pages/horndean\" title=\"Horndean\">Horndean</a>, <a href=\"/pages/portsmouth\" title=\"Portsmouth\">Portsmouth</a>, <a href=\"/pages/southampton\" title=\"Southampton\">Southampton</a>, <a href=\"/pages/winchester\" title=\"Winchester\">Winchester</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_NEkHEM": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/surrey\" title=\"Surrey\">Surrey</a></h5><p><a href=\"/pages/camberley\" title=\"Camberley\">Camberley</a>, <a href=\"/pages/epsom\" title=\"Epsom\">Epsom</a>, <a href=\"/pages/esher\" title=\"Esher\">Esher</a>, <a href=\"/pages/ewell\" title=\"Ewell\">Ewell</a>, <a href=\"/pages/guildford\" title=\"Guildford\">Guildford</a>, <a href=\"/pages/leatherhead\" title=\"Leatherhead\">Leatherhead</a>, <a href=\"/pages/redhill\" title=\"Redhill\">Redhill</a>, <a href=\"/pages/walton-on-thames\" title=\"Walton-on-Thames\">Walton-On-Thames</a>, <a href=\"/pages/weybridge\" title=\"Weybridge\">Weybridge</a>, <a href=\"/pages/woking\" title=\"Woking\">Woking</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        },
+        "text_iTtUac": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "text": "<h5><a href=\"/pages/greater-london\" title=\"Greater London\">Greater London</a></h5><p><a href=\"/pages/barnet\" title=\"Barnet\">Barnet</a>, <a href=\"/pages/brent\" title=\"Brent\">Brent</a>, <a href=\"/pages/bromley\" title=\"Bromley\">Bromley</a>, <a href=\"/pages/croydon\" title=\"Croydon\">Croydon</a>, <a href=\"/pages/ealing\" title=\"Ealing\">Ealing</a>, <a href=\"/pages/enfield\" title=\"Enfield\">Enfield</a>, <a href=\"/pages/lambeth\" title=\"Lambeth\">Lambeth</a>, <a href=\"/pages/newham\" title=\"Newham\">Newham</a>, <a href=\"/pages/hatton-garden\" title=\"Hatton Garden, London\">Hatton Garden</a>, <a href=\"/pages/tower-hamlets\" title=\"Tower Hamlets\">Tower Hamlets</a>, <a href=\"/pages/wandsworth\" title=\"Wandsworth\">Wandsworth</a>.</p>",
+            "button_link": "",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_qzjDUe",
+        "text_heEzmT",
+        "text_NEkHEM",
+        "text_iTtUac"
+      ],
+      "name": "Areas We Cover",
+      "settings": {
+        "title": "Areas We Cover in West Sussex.",
+        "description": "<p>Book a private appointment at our Chichester showroom — any day of the week.</p>",
+        "section_header_alignment": "center",
+        "maximum_width": 500,
+        "override_border_radius": false,
+        "buttons_style": "underlined",
+        "override_button_colors": false,
+        "button_background_color": "#e68819",
+        "button_text_color": "#ffffff",
+        "hover_navigation_desktop": "left-and-right",
+        "columns_per_row": 4,
+        "vertical_alignment": "top",
+        "text_alignment": "left",
+        "text_alignment_mobile": "center",
+        "slider_height_mobile": "adaptive",
+        "section_width": "full",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "dark"
+      }
+    }
+  },
+  "order": [
+    "hero_image_with_text_XbtaRH",
+    "scrolling_banner_yQGBqH",
+    "rich_text_7pAWMD",
+    "text_adverts_with_icon_KeGJzE",
+    "image_with_text_YjGKin",
+    "rich_text_EnTFwy",
+    "collage_4RdPRz",
+    "collage_np8TMd",
+    "template_product_info_columns_Wh9x3c",
+    "image_with_text_overlay_WgzhKg",
+    "custom_liquid_QYT6dR",
+    "custom_liquid_AaFVmN",
+    "social_proof_AbnBmM",
+    "rich_text_nqnwXh",
+    "text_adverts_with_icon_hQje6M",
+    "blog_posts_aa3fqb",
+    "faq_with_image_m73Xra",
+    "image_with_text_whWceW",
+    "template_product_info_columns_BDCMFY"
+  ]
+}

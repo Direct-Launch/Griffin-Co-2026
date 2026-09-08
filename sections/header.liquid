@@ -489,7 +489,7 @@ Testing Cypress integration
                     {% assign block = current_mega_block %}
                     
                     {% assign has_any_promo = false %}
-                    {% for i in (1..5) %}
+                    {% for i in (1..6) %}
                       {% assign mega_image_key = 'mega_image_' | append: i %}
                       {% assign show_promo_key = 'show_promo_' | append: i | append: '_in_mobile_drawer' %}
                       {% if block.settings[mega_image_key] != blank and block.settings[show_promo_key] %}
@@ -504,7 +504,7 @@ Testing Cypress integration
                         </p>
                       </li>
                     {% else %}
-                      {% for i in (1..5) %}
+                      {% for i in (1..6) %}
                         {% assign mega_image_key = 'mega_image_' | append: i %}
                         {% assign show_promo_key = 'show_promo_' | append: i | append: '_in_mobile_drawer' %}
                         
@@ -630,7 +630,7 @@ Testing Cypress integration
                       {% assign block = current_mega_block %}
                       
                       {% assign has_any_promo = false %}
-                      {% for i in (1..5) %}
+                      {% for i in (1..6) %}
                         {% assign mega_image_key = 'mega_image_' | append: i %}
                         {% assign show_promo_key = 'show_promo_' | append: i | append: '_in_mobile_drawer' %}
                         {% if block.settings[mega_image_key] != blank and block.settings[show_promo_key] %}
@@ -645,7 +645,7 @@ Testing Cypress integration
                           </p>
                         </li>
                       {% else %}
-                        {% for i in (1..5) %}
+                        {% for i in (1..6) %}
                           {% assign mega_image_key = 'mega_image_' | append: i %}
                           {% assign show_promo_key = 'show_promo_' | append: i | append: '_in_mobile_drawer' %}
                           
@@ -1976,6 +1976,61 @@ Testing Cypress integration
           "label": "t:all.Text",
           "default": "#FFFFFF",
           "visible_if": "{{ block.settings.overlay_text_on_image_promo_5 }}"
+        },
+        {
+          "type": "header",
+          "content": "Promotion 6"
+        },
+        {
+          "type": "image_picker",
+          "id": "mega_image_6",
+          "label": "t:all.Image"
+        },
+        {
+          "type": "select",
+          "id": "image_6_aspect_ratio",
+          "label": "t:all.Shape",
+          "default": "square",
+          "options": [
+            { "value": "natural", "label": "t:all.Original" },
+            { "value": "square", "label": "t:all.Square" },
+            { "value": "tall", "label": "t:all.Tall" },
+            { "value": "wide", "label": "t:all.Wide" }
+          ]
+        },
+        {
+          "type": "url",
+          "id": "mega_image_link_6",
+          "label": "t:all.Link"
+        },
+        {
+          "type": "text",
+          "id": "mega_image_header_6",
+          "label": "t:all.Heading"
+        },
+        {
+          "type": "text",
+          "id": "mega_image_subheader_6",
+          "label": "t:all.Subheading"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_promo_6_in_mobile_drawer",
+          "label": "Show in Mobile Drawer",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "overlay_text_on_image_promo_6",
+          "label": "t:all.Overlay_text_on_image",
+          "default": true
+        },
+        {
+          "type": "color",
+          "id": "overlay_text_color_promo_6",
+          "label": "t:all.Text",
+          "default": "#FFFFFF",
+          "visible_if": "{{ block.settings.overlay_text_on_image_promo_6 }}"
         }
       ]
     },
