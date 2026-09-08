@@ -424,12 +424,15 @@
     "collage_np8TMd": {
       "type": "collage",
       "blocks": {
-        "text_kAmAfe": {
-          "type": "text",
+        "image_cgkC3y": {
+          "type": "image",
           "settings": {
-            "heading": "Sell Your Gold",
+            "desktop_image": "shopify://shop_images/DSC06168.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
             "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
             "heading_size_mobile": "h4-mobile",
+            "heading": "Sell Your Gold",
             "text": "A fair, transparent valuation and a simple, same-day sale. Ideal for broken, unworn or inherited pieces you no longer need.",
             "url": "#book",
             "button_label": "Book a Valuation",
@@ -437,33 +440,17 @@
             "override_button_colors": false,
             "button_background_color": "#e68819",
             "button_color": "#ffffff",
-            "desktop_position": "md-min-align-center md-min-justify-center",
-            "text_alignment": "center",
-            "background_color": "#ffffff",
-            "text_color": "#232323"
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
           }
         },
-        "text_yHDx7w": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "heading": "Remodel It Instead",
-            "heading_size": "h4",
-            "heading_size_mobile": "h4-mobile",
-            "text": "Keep the gold and the sentiment — reworked into something you'll wear again. Old rings, chains and heirlooms, reimagined at our bench.",
-            "url": "shopify://pages/jewellery-remodelling-service",
-            "button_label": "Explore Remodelling",
-            "buttons_style": "filled",
-            "override_button_colors": true,
-            "button_background_color": "#ffdda6",
-            "button_color": "#232323",
-            "desktop_position": "md-min-align-center md-min-justify-center",
-            "text_alignment": "center",
-            "background_color": "#004225",
-            "text_color": "#ffffff"
-          }
-        },
-        "image_cgkC3y": {
+        "image_yz9Tba": {
           "type": "image",
           "settings": {
             "desktop_image": "shopify://shop_images/Our_Remodelling_Process.png",
@@ -491,9 +478,8 @@
         }
       },
       "block_order": [
-        "text_kAmAfe",
-        "text_yHDx7w",
-        "image_cgkC3y"
+        "image_cgkC3y",
+        "image_yz9Tba"
       ],
       "name": "Sell it or Remodel?",
       "settings": {
