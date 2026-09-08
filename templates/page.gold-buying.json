@@ -90,6 +90,28 @@
             "body_font_size": 130
           }
         },
+        "text_jcArDq": {
+          "type": "text",
+          "settings": {
+            "text": "No Obligation",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
+        "text_daBp7L": {
+          "type": "text",
+          "settings": {
+            "text": "Free Gold Testing",
+            "font": "heading",
+            "style": "fill",
+            "font_size_desktop": "h5",
+            "font_size_mobile": "h5-mobile",
+            "body_font_size": 130
+          }
+        },
         "text_yQGBqH_private_home_visits": {
           "type": "text",
           "settings": {
@@ -107,6 +129,8 @@
         "text_yQGBqH_ethically_sourced",
         "text_yQGBqH_certified_diamonds",
         "text_yQGBqH_redesign_family_heirloom",
+        "text_jcArDq",
+        "text_daBp7L",
         "text_yQGBqH_private_home_visits"
       ],
       "name": "t:sections.scrolling-banner.name",
@@ -133,7 +157,7 @@
         "heading_zWwUDm": {
           "type": "heading",
           "settings": {
-            "heading": "A Considered Way to Sell.",
+            "heading": "What Decides What Your Gold Is Worth.",
             "heading--text-size": "h3",
             "heading_bottom_spacing": 20
           }
@@ -141,7 +165,7 @@
         "richtext_Gbedat": {
           "type": "richtext",
           "settings": {
-            "text": "<p>That drawer of odd earrings, the broken chain, the ring that no longer suits you — it's worth more than it's doing sitting unworn. We'll weigh it, talk you through what it's worth, and make you a fair offer, face to face.</p><p>No queues, no pressure, no back-of-the-shop counter. Just an unhurried conversation with a jeweller who knows gold and knows Chichester.</p>",
+            "text": "<p>Three things, and we talk you through all of them at your appointment — so the offer never comes as a surprise.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -151,7 +175,7 @@
         "heading_zWwUDm",
         "richtext_Gbedat"
       ],
-      "name": "t:sections.text--rich-text.presets.name",
+      "name": "What Decides What Your Gold Is Worth.",
       "settings": {
         "section_width": "content",
         "text_alignment_desktop": "center",
@@ -167,9 +191,9 @@
         "text_advert_DKweKN": {
           "type": "text-advert",
           "settings": {
-            "icon": "price-tag",
-            "title": "Seen & Weighed in Front of You",
-            "text": "<p>Your gold never leaves your sight. We test and weigh every piece while you watch, and explain exactly how we reach the figure.</p>",
+            "icon": "none",
+            "title": "Carat",
+            "text": "<p>The purity of the gold — 9ct, 14ct, 18ct, 22ct or 24ct. The higher the carat, the more pure gold it contains. Unmarked? We'll test it, free.</p>",
             "link": "",
             "button_label": ""
           }
@@ -177,9 +201,9 @@
         "text_advert_xC3bzY": {
           "type": "text-advert",
           "settings": {
-            "icon": "star",
-            "title": "A Fair, Transparent Offer",
-            "text": "<p>We tell you what we see and what it's worth — clearly, and with no obligation to accept. Sleep on it if you'd like.</p>",
+            "icon": "none",
+            "title": "Weight",
+            "text": "<p>We weigh every piece on calibrated scales while you watch, separating carats so each is valued correctly.</p>",
             "link": "",
             "button_label": ""
           }
@@ -187,9 +211,9 @@
         "text_advert_VnCp3A": {
           "type": "text-advert",
           "settings": {
-            "icon": "store",
-            "title": "Seven Days, By Appointment",
-            "text": "<p>Book a time that suits you, any day of the week. Your appointment is yours alone — private, and never rushed.</p>",
+            "icon": "none",
+            "title": "Condition & Form",
+            "text": "<p>Whether it's wearable jewellery, a coin, or broken and scrap — and whether any stones or craftsmanship add value beyond the metal.</p>",
             "link": "",
             "button_label": ""
           }
@@ -200,7 +224,7 @@
         "text_advert_xC3bzY",
         "text_advert_VnCp3A"
       ],
-      "name": "Benefits",
+      "name": "Carat, Weight & Condition",
       "settings": {
         "icon_size": "20px",
         "show_dividers": true,
@@ -233,12 +257,37 @@
         "button_label": "Book a Valuation Appointment",
         "buttons_style": "filled",
         "override_button_colors": true,
-        "button_background_color": "#FFDDA6",
+        "button_background_color": "#ffdda6",
         "button_text_color": "#232323",
         "section-width": "full",
         "section_padding_top": 72,
-        "section_padding_bottom": 72,
+        "section_padding_bottom": 150,
         "colors": "white"
+      }
+    },
+    "rich_text_EnTFwy": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_JkYkQR": {
+          "type": "richtext",
+          "settings": {
+            "text": "<p>When you sell your gold to Griffin & Co, you're selling it to <em>jewellers</em> — people who weigh it in front of you, explain every figure, and often give it a second life at the bench.</p>",
+            "text_size": 200,
+            "text_bottom_spacing": 20
+          }
+        }
+      },
+      "block_order": [
+        "richtext_JkYkQR"
+      ],
+      "name": "Not a cash-for-gold shop",
+      "settings": {
+        "section_width": "full-width",
+        "text_alignment_desktop": "center",
+        "text_alignment_mobile": "center",
+        "section_padding_top": 150,
+        "section_padding_bottom": 150,
+        "colors": "dark"
       }
     },
     "collage_4RdPRz": {
@@ -259,7 +308,7 @@
             "button_color": "#ffffff",
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "left",
-            "background_color": "#F9F1E9",
+            "background_color": "#f9f1e9",
             "text_color": "#232323"
           }
         },
@@ -278,7 +327,7 @@
             "button_color": "#ffffff",
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "left",
-            "background_color": "#F9F1E9",
+            "background_color": "#f9f1e9",
             "text_color": "#232323"
           }
         },
@@ -297,7 +346,7 @@
             "button_color": "#ffffff",
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "left",
-            "background_color": "#F9F1E9",
+            "background_color": "#f9f1e9",
             "text_color": "#232323"
           }
         },
@@ -316,7 +365,7 @@
             "button_color": "#ffffff",
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "left",
-            "background_color": "#F9F1E9",
+            "background_color": "#f9f1e9",
             "text_color": "#232323"
           }
         },
@@ -336,7 +385,7 @@
             "desktop_position": "md-min-align-top md-min-justify-left",
             "text_alignment": "left",
             "background_color": "#004225",
-            "text_color": "#FFFFFF"
+            "text_color": "#ffffff"
           }
         }
       },
@@ -355,7 +404,7 @@
         "section_width": "full",
         "remove_spacing": false,
         "block_alignment": "center",
-        "section_padding_top": 72,
+        "section_padding_top": 150,
         "section_padding_bottom": 72,
         "width_1": "3",
         "height_1": "4",
@@ -372,179 +421,6 @@
         "color_scheme": "white"
       }
     },
-    "image_with_text_EgFKgk": {
-      "type": "image-with-text",
-      "disabled": true,
-      "name": "2. Design Development",
-      "settings": {
-        "image": "shopify://shop_images/Step_1_-_Consultation.png",
-        "layout": "right",
-        "title": "2. Design Development",
-        "text": "<p>Once we understand your vision, our designers will create sketches and renderings to bring your ideas to life. This allows you to visualise the final product and make adjustments before we begin crafting.</p>",
-        "text_alignment": "right",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h4",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h4-mobile",
-        "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "image_with_text_9qj8zz": {
-      "type": "image-with-text",
-      "disabled": true,
-      "name": "3. Material Assessment",
-      "settings": {
-        "image": "shopify://shop_images/holding-gemstones-with-tweezers.jpg",
-        "layout": "left",
-        "title": "3. Material Assessment",
-        "text": "<p>We carefully assess the existing materials in your jewellery, such as gemstones and metals. This helps us determine the best way to repurpose them and ensure the integrity of the piece before melting anything down.</p>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h4",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h4-mobile",
-        "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "image_with_text_hLfxzA": {
-      "type": "image-with-text",
-      "disabled": true,
-      "name": "4. Craftsmanship & Creation",
-      "settings": {
-        "image": "shopify://shop_images/Step_2_-_Choose_Stones___Metals.png",
-        "layout": "right",
-        "title": "4. Craftsmanship & Creation",
-        "text": "<p>Our skilled craftsmen meticulously craft your new jewellery using traditional techniques combined with modern technology in our in-house workshop. We pay close attention to every detail to ensure that your piece is of the highest quality.</p>",
-        "text_alignment": "right",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h4",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h4-mobile",
-        "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "image_with_text_BHEfXp": {
-      "type": "image-with-text",
-      "disabled": true,
-      "name": "5. Final Inspection & Polish",
-      "settings": {
-        "image": "shopify://shop_images/Step_5_-_Finished_Product.jpg",
-        "layout": "left",
-        "title": "5. Final Inspection & Polish",
-        "text": "<p>Before your remodelled jewellery is ready for you, we conduct a thorough final inspection to ensure that it meets our exacting standards. We then polish the piece to perfection, bringing out its brilliance and luster.</p>",
-        "text_alignment": "left",
-        "text_alignment_mobile": "center",
-        "text_overlapping_image": false,
-        "desktop-heading-size": "h4",
-        "desktop-text-size": 100,
-        "mobile-heading-size": "h4-mobile",
-        "mobile-text-size": 100,
-        "button_link": "",
-        "button_label": "",
-        "buttons_style": "filled",
-        "override_button_colors": false,
-        "button_background_color": "#e68819",
-        "button_text_color": "#ffffff",
-        "section-width": "content",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "rich_text_valuations_2026": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_valuations": {
-          "type": "heading",
-          "settings": {
-            "heading": "Jewellery Insurance Valuations.",
-            "heading--text-size": "h3",
-            "heading_bottom_spacing": 20
-          }
-        },
-        "richtext_valuations": {
-          "type": "richtext",
-          "settings": {
-            "text": "<p>When a piece has been remodelled, its value changes — and an old valuation no longer reflects what it would cost to replace. Insurers need an accurate, current figure, and an out-of-date certificate can leave a treasured piece underinsured.</p><p>We provide written insurance valuations for jewellery we remodel, and for pieces brought to us specifically for valuation. Each assessment is carried out in our Chichester workshop and covers materials, gemstones, craftsmanship and current replacement cost — the figure your insurer needs, rather than a resale estimate. <strong>Valuations are £25 per item.</strong></p><p>If we have remodelled your piece, we already know exactly what went into it, which makes the valuation more accurate than one produced by someone seeing it for the first time.</p><p><a href=\"#booking\" title=\"Book a valuation consultation\">Book a valuation consultation</a> — or call <a href=\"tel:01243380024\">01243 380024</a>.</p>",
-            "text_size": 100,
-            "text_bottom_spacing": 20
-          }
-        }
-      },
-      "block_order": [
-        "heading_valuations",
-        "richtext_valuations"
-      ],
-      "disabled": true,
-      "name": "Insurance Valuations",
-      "settings": {
-        "section_width": "content",
-        "text_alignment_desktop": "left",
-        "text_alignment_mobile": "left",
-        "section_padding_top": 72,
-        "section_padding_bottom": 72,
-        "colors": "white"
-      }
-    },
-    "rich_text_gYqfrE": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_WQjyr4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Selling in Four Easy Steps.",
-            "heading--text-size": "h3",
-            "heading_bottom_spacing": 0
-          }
-        }
-      },
-      "block_order": [
-        "heading_WQjyr4"
-      ],
-      "disabled": true,
-      "name": "t:sections.text--rich-text.presets.name",
-      "settings": {
-        "section_width": "content",
-        "text_alignment_desktop": "center",
-        "text_alignment_mobile": "center",
-        "section_padding_top": 72,
-        "section_padding_bottom": 0,
-        "colors": "white"
-      }
-    },
     "collage_np8TMd": {
       "type": "collage",
       "blocks": {
@@ -559,16 +435,17 @@
             "button_label": "Book a Valuation",
             "buttons_style": "filled",
             "override_button_colors": false,
-            "button_background_color": "#E68819",
-            "button_color": "#FFFFFF",
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
             "desktop_position": "md-min-align-center md-min-justify-center",
             "text_alignment": "center",
-            "background_color": "#FFFFFF",
+            "background_color": "#ffffff",
             "text_color": "#232323"
           }
         },
         "text_yHDx7w": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "heading": "Remodel It Instead",
             "heading_size": "h4",
@@ -578,18 +455,45 @@
             "button_label": "Explore Remodelling",
             "buttons_style": "filled",
             "override_button_colors": true,
-            "button_background_color": "#FFDDA6",
+            "button_background_color": "#ffdda6",
             "button_color": "#232323",
             "desktop_position": "md-min-align-center md-min-justify-center",
             "text_alignment": "center",
             "background_color": "#004225",
-            "text_color": "#FFFFFF"
+            "text_color": "#ffffff"
+          }
+        },
+        "image_cgkC3y": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/Our_Remodelling_Process.png",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "heading_size": "h4",
+            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Remodel It Instead",
+            "text": "Keep the gold and the sentiment — reworked into something you'll wear again. Old rings, chains and heirlooms, reimagined at our bench.",
+            "url": "shopify://pages/jewellery-remodelling-service",
+            "button_label": "Explore Remodelling",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": false,
+            "button_background_color_2": "#e68819",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "rgba(0,0,0,0)"
           }
         }
       },
       "block_order": [
         "text_kAmAfe",
-        "text_yHDx7w"
+        "text_yHDx7w",
+        "image_cgkC3y"
       ],
       "name": "Sell it or Remodel?",
       "settings": {
@@ -863,7 +767,7 @@
         "rating_image": "shopify://shop_images/google-business.png",
         "image_max_width": 120,
         "additional_text": "Rated 5 stars by 100s of Clients in Chichester & Beyond",
-        "title": "Luxury That Speaks for Itself.",
+        "title": "Trusted Across Chichester & Beyond.",
         "description": "<p>Each piece we create tells a story—of beauty, elegance, and trust. But don't just take our word for it. Discover how our timeless craftsmanship has left a lasting impression on jewellery lovers around the world. </p><p></p><p><a href=\"/pages/reviews\" title=\"Our Customer Reviews\">View All Reviews</a></p>",
         "scroller_position": "right",
         "section_padding_top": 36,
@@ -1108,7 +1012,7 @@
       "settings": {
         "image": "shopify://shop_images/Home_Visits.png",
         "layout": "left",
-        "title": "Private Valuations in Your Home.",
+        "title": "Selling Gold Near You.",
         "text": "<p>While our Chichester showroom is the heart of what we do, we understand some clients — particularly with larger collections or estate pieces — prefer the security and comfort of their own home.</p><p>For significant collections, we offer a <strong>Private Home Visit</strong> across West Sussex and the South. Our jeweller will visit you to assess your gold and talk you through a valuation, in confidence.</p>",
         "text_alignment": "left",
         "text_alignment_mobile": "left",
@@ -1205,13 +1109,8 @@
     "rich_text_7pAWMD",
     "text_adverts_with_icon_KeGJzE",
     "image_with_text_YjGKin",
+    "rich_text_EnTFwy",
     "collage_4RdPRz",
-    "image_with_text_EgFKgk",
-    "image_with_text_9qj8zz",
-    "image_with_text_hLfxzA",
-    "image_with_text_BHEfXp",
-    "rich_text_valuations_2026",
-    "rich_text_gYqfrE",
     "collage_np8TMd",
     "template_product_info_columns_Wh9x3c",
     "image_with_text_overlay_WgzhKg",
