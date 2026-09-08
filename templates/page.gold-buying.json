@@ -243,11 +243,14 @@
       "name": "Why Choose Us?",
       "settings": {
         "image": "shopify://shop_images/DSC06168.jpg",
+        "video": "shopify://files/videos/Gold Buying Video (1).mp4",
+        "video_url": "",
+        "video_alt_text": "",
         "layout": "left",
         "title": "Not a Pawnbroker. A Family Jeweller.",
         "text": "<p>We're not a postal service or a counter with a queue. We're a family fine jeweller on South Street, and much of the gold we're offered finds a second life in our workshop — remade into something someone else will treasure.</p><p>That matters. It means we value your gold as <strong>craftspeople</strong>, not just by the gram — and you're dealing with people who'll still be here, on the same street, long after the transaction is done.</p>",
         "text_alignment": "left",
-        "text_alignment_mobile": "left",
+        "text_alignment_mobile": "center",
         "text_overlapping_image": false,
         "desktop-heading-size": "h3",
         "desktop-text-size": 100,
@@ -430,7 +433,8 @@
             "desktop_image": "shopify://shop_images/DSC06168.jpg",
             "desktop_position": "md-min-align-bottom md-min-justify-right",
             "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "mobile_image": "shopify://shop_images/DSC06211.jpg",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
             "heading": "Sell Your Gold",
             "text": "A fair, transparent valuation and a simple, same-day sale. Ideal for broken, unworn or inherited pieces you no longer need.",
@@ -447,7 +451,7 @@
             "button_background_color_2": "#e68819",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0)"
+            "overlay_color": "#000000"
           }
         },
         "image_yz9Tba": {
@@ -456,16 +460,17 @@
             "desktop_image": "shopify://shop_images/Our_Remodelling_Process.png",
             "desktop_position": "md-min-align-bottom md-min-justify-right",
             "heading_size": "h4",
-            "mobile_position": "md-max-align-bottom md-max-justify-right",
+            "mobile_image": "shopify://shop_images/Our_Remodelling_Process_5d0e02da-fab9-4bd6-9633-5c1bf2bf6308.png",
+            "mobile_position": "md-max-align-bottom md-max-justify-center",
             "heading_size_mobile": "h4-mobile",
             "heading": "Remodel It Instead",
             "text": "Keep the gold and the sentiment — reworked into something you'll wear again. Old rings, chains and heirlooms, reimagined at our bench.",
             "url": "shopify://pages/jewellery-remodelling-service",
             "button_label": "Explore Remodelling",
             "buttons_style": "filled",
-            "override_button_colors": false,
-            "button_background_color": "#e68819",
-            "button_color": "#ffffff",
+            "override_button_colors": true,
+            "button_background_color": "#FFDDA6",
+            "button_color": "#232323",
             "url_2": "",
             "button_label_2": "",
             "buttons_style_2": "outlined",
@@ -473,7 +478,7 @@
             "button_background_color_2": "#e68819",
             "button_color_2": "#ffffff",
             "text_color": "#ffffff",
-            "overlay_color": "rgba(0,0,0,0)"
+            "overlay_color": "#232323"
           }
         }
       },
@@ -997,6 +1002,8 @@
       "name": "Private Home Visits",
       "settings": {
         "image": "shopify://shop_images/Home_Visits.png",
+        "video_url": "",
+        "video_alt_text": "",
         "layout": "left",
         "title": "Selling Gold Near You.",
         "text": "<p>While our Chichester showroom is the heart of what we do, we understand some clients — particularly with larger collections or estate pieces — prefer the security and comfort of their own home.</p><p>For significant collections, we offer a <strong>Private Home Visit</strong> across West Sussex and the South. Our jeweller will visit you to assess your gold and talk you through a valuation, in confidence.</p>",

@@ -304,13 +304,41 @@
             "text_color": "#ffffff",
             "overlay_color": "#35382e"
           }
+        },
+        "image_G38gVf": {
+          "type": "image",
+          "settings": {
+            "desktop_image": "shopify://shop_images/DSC06211.jpg",
+            "desktop_position": "md-min-align-bottom md-min-justify-right",
+            "heading_size": "h4",
+            "mobile_image": "shopify://shop_images/DSC06211.jpg",
+            "mobile_position": "md-max-align-center md-max-justify-center",
+            "heading_size_mobile": "h4-mobile",
+            "heading": "Sell Your Gold",
+            "text": "A fair, transparent valuation and a simple, same-day sale. Ideal for broken, unworn or inherited pieces you no longer need.",
+            "url": "",
+            "button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button_background_color": "#e68819",
+            "button_color": "#ffffff",
+            "url_2": "",
+            "button_label_2": "View Service",
+            "buttons_style_2": "outlined",
+            "override_button_colors_2": true,
+            "button_background_color_2": "#ffffff",
+            "button_color_2": "#ffffff",
+            "text_color": "#ffffff",
+            "overlay_color": "#000000"
+          }
         }
       },
       "block_order": [
         "image_CN9gfQ",
         "image_ATakGr",
         "image_6nNK9t",
-        "image_EAJRdU"
+        "image_EAJRdU",
+        "image_G38gVf"
       ],
       "name": "t:sections.collage-builder.presets.name",
       "settings": {
@@ -331,7 +359,7 @@
         "width_4": "2",
         "height_4": "3",
         "width_5": "1",
-        "height_5": "2",
+        "height_5": "3",
         "width_6": "1",
         "height_6": "4",
         "color_scheme": "dark"
@@ -342,6 +370,8 @@
       "name": "Private Home Visits",
       "settings": {
         "image": "shopify://shop_images/Home_Visits.png",
+        "video_url": "",
+        "video_alt_text": "",
         "layout": "left",
         "title": "Private Home Visits.",
         "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Our master goldsmiths can travel to your home or office across West Sussex, Surrey, Hampshire, and Greater London. We arrive fully equipped with diamond samples, ring sizing tools, and design portfolios to conduct a full consultation or valuation in total privacy.</p>",
