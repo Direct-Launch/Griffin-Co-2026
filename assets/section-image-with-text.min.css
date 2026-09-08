@@ -226,3 +226,30 @@
         display: flex;
     }
 }
+
+/* --- Video media fills the same frame as the image --- */
+.image-with-text-wrapper .img--video {
+    container-type: size;
+}
+.image-with-text-wrapper .img--video deferred-media {
+    height: 100%;
+}
+.image-with-text-wrapper .img--video deferred-media video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: none;
+    object-fit: cover;
+}
+/* iframes ignore object-fit, so oversize and centre-crop instead */
+.image-with-text-wrapper .img--video deferred-media iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: max(100cqw, 100cqh * 16 / 9);
+    height: max(100cqh, 100cqw * 9 / 16);
+    max-width: none;
+}

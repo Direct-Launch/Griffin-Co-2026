@@ -35,10 +35,40 @@
   style="--padding-section-top: {{ section.settings.section_padding_top }}px; --padding-section-bottom: {{ section.settings.section_padding_bottom }}px;"
 >
 
+  {% liquid
+    assign video = null
+    if section.settings.video != blank
+      assign video = section.settings.video
+    elsif section.settings.video_url != blank
+      assign video = section.settings.video_url
+    endif
+  %}
+
   {% capture image_layout %}
     <div class="grid__item homepage-content--image homepage-content--{{ section.id }}{% if section.settings.text_overlapping_image %} overlapping-text{% else %} medium--one-half large--one-half{% endif %}{% if settings.animations_enabled %} kb-enabled{% endif %}{% if section_width == 'content' %} block-radius{% endif %}">
       <div>
-        {% if section.settings.image != blank %}
+        {% if video %}
+          <safe-load-scripts class="hidden">
+            <script src="{{ 'component-deferred-media.js' | asset_url }}" defer="defer" type="module" data-flow-load-key="deferred-media"></script>
+          </safe-load-scripts>
+
+          <div id="image-with-text--{{ section.id }}" class="img img--video">
+            {% render 'deferred-media',
+              delayed_media: video,
+              section_id: section.id,
+              enable_video_loop: true,
+              enable_autoplay: true,
+              mute: true,
+              show_controls: false,
+              aspect_ratio: 'original',
+              media_type: 'grid',
+              video_alt_text: section.settings.video_alt_text,
+              remove_media_padding: true,
+              is_background_media: true,
+              is_product_media: false
+            %}
+          </div>
+        {% elsif section.settings.image != blank %}
           <div id="image-with-text--{{ section.id }}" class="img">
             {% render 'responsive-image', image: section.settings.image, sizes: '100vw', allow_stretch: true %}
           </div>
@@ -140,6 +170,35 @@
       "id": "image",
       "label": "t:all.Image",
       "info": "t:sections.image--image-with-text.settings.image.info"
+    },
+    {
+      "type": "header",
+      "content": "t:all.Video"
+    },
+    {
+      "type": "paragraph",
+      "content": "Optional. A video replaces the image and plays automatically — muted, looped, no controls."
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "t:all.Shopify_hosted_video"
+    },
+    {
+      "type": "video_url",
+      "id": "video_url",
+      "label": "t:all.Video_URL",
+      "info": "t:all.Embedded_video_info",
+      "accept": [
+        "youtube",
+        "vimeo"
+      ]
+    },
+    {
+      "type": "text",
+      "id": "video_alt_text",
+      "label": "t:all.Video_alt_text",
+      "info": "t:all.Video_alt_text_info"
     },
     {
       "type": "radio",
