@@ -1121,6 +1121,13 @@
       },
       {
         "type": "checkbox",
+        "id": "popup--show-on-mobile",
+        "label": "Show on mobile",
+        "info": "Uncheck to hide the pop-up on screens under 769px wide.",
+        "default": true
+      },
+      {
+        "type": "checkbox",
         "id": "popup--test-mode",
         "label": "t:settings_schema.Popup.settings.popup--test-mode.label",
         "info": "t:settings_schema.Popup.settings.popup--test-mode.info",

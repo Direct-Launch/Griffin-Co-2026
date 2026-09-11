@@ -13,6 +13,15 @@
 {% endif %}
 
 {% if settings.popup--enable or settings.popup--test-mode %}
+  {% unless settings.popup--show-on-mobile %}
+    <style>
+      /* Matches the 769px mobile breakpoint used by Popup.js */
+      @media (max-width: 768px) {
+        #popup { display: none !important; }
+      }
+    </style>
+  {% endunless %}
+
   {% liquid
     case settings.newsletter_popup_color_scheme
       when 'white'
