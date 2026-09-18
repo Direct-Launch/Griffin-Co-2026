@@ -95,7 +95,7 @@
 {% endcapture %}
 
 {% unless disable_link %}
-  <a href="{{ price_product.url | within: collection }}" data-product-id="{{ price_product.id }}" tabindex="-1">
+  <a href="{{ price_product.url }}" data-product-id="{{ price_product.id }}" tabindex="-1">
 {% endunless %}
   {% comment %} On sale {% endcomment %}
   <div class="product-price--sale{% unless on_sale %} hidden{% endunless %}">
