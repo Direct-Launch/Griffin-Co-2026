@@ -20,6 +20,7 @@
         },
         "related_posts_A4eGJ6": {
           "type": "related_posts",
+          "disabled": true,
           "settings": {
             "title": "Related posts",
             "description": "",
@@ -52,6 +53,7 @@
         },
         "next_previous_WF6Ni8": {
           "type": "next_previous",
+          "disabled": true,
           "settings": {
             "show_date": true,
             "show_author": false,
@@ -103,6 +105,37 @@
         "show_social_icons": true
       }
     },
+    "178972124693f0ae20": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_rbrnM4": {
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "title": "Find Clues on Instragram",
+            "title_color": "",
+            "title_size_v2": 0,
+            "alignment": "center",
+            "instafeed_margin_top": 0,
+            "instafeed_margin_bottom": 50,
+            "instafeed_margin_sides": 0,
+            "show_instagram_link": false,
+            "link_alignment": "left",
+            "link_color": "#000000",
+            "background_color": "",
+            "feed_id": "48705",
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_rbrnM4"
+      ],
+      "settings": {
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "include_margins": true
+      }
+    },
     "9d393ac7-9597-4549-8ebb-968e14caed7a": {
       "type": "rich-text",
       "blocks": {
@@ -143,6 +176,7 @@
   },
   "order": [
     "main",
+    "178972124693f0ae20",
     "9d393ac7-9597-4549-8ebb-968e14caed7a"
   ]
 }
