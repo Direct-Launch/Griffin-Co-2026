@@ -11,11 +11,11 @@
 
 {% capture quick_view_link %}
   {% if link_type == 'desktop' %}
-    <a aria-label="{{ 'products.general.view_options_for_product' | t: product: quick_view_product.title }}" data-modal-button class="quick-add-icon-btn{% if button_override_class %} {{ button_override_class }}{% endif %}" tabindex="0" href="{{ quick_view_product.url | within: collection }}" data-product-card-link>{% render 'theme-icon', icon: 'shopping-cart-plus', iconSize: 20 %}</a>
+    <a aria-label="{{ 'products.general.view_options_for_product' | t: product: quick_view_product.title }}" data-modal-button class="quick-add-icon-btn{% if button_override_class %} {{ button_override_class }}{% endif %}" tabindex="0" href="{{ quick_view_product.url }}" data-product-card-link>{% render 'theme-icon', icon: 'shopping-cart-plus', iconSize: 20 %}</a>
   {% elsif link_type == 'mobile' %}
-    <a aria-label="{{ 'products.general.view_options_for_product' | t: product: quick_view_product.title }}" data-modal-button class="quick-add-icon-btn{% if button_override_class %} {{ button_override_class }}{% endif %}" tabindex="0" href="{{ quick_view_product.url | within: collection }}" data-product-card-link>{% render 'theme-icon', icon: 'shopping-cart-plus', iconSize: 20 %}</a>
+    <a aria-label="{{ 'products.general.view_options_for_product' | t: product: quick_view_product.title }}" data-modal-button class="quick-add-icon-btn{% if button_override_class %} {{ button_override_class }}{% endif %}" tabindex="0" href="{{ quick_view_product.url }}" data-product-card-link>{% render 'theme-icon', icon: 'shopping-cart-plus', iconSize: 20 %}</a>
   {% else %}
-    <a aria-label="{{ 'products.general.view_options_for_product' | t: product: quick_view_product.title }}" data-modal-button class="quick-add-icon-btn{% if button_override_class %} {{ button_override_class }}{% endif %}" data-product-card-link tabindex="0" href="{{ quick_view_product.url | within: collection }}">{% render 'theme-icon', icon: 'shopping-cart-plus', iconSize: 20 %}</a>
+    <a aria-label="{{ 'products.general.view_options_for_product' | t: product: quick_view_product.title }}" data-modal-button class="quick-add-icon-btn{% if button_override_class %} {{ button_override_class }}{% endif %}" data-product-card-link tabindex="0" href="{{ quick_view_product.url }}">{% render 'theme-icon', icon: 'shopping-cart-plus', iconSize: 20 %}</a>
   {% endif %}
 {% endcapture %}
 
