@@ -26,7 +26,7 @@
             "end_date": "18-09-2026",
             "end_time": "17:00:00",
             "show_timer_labels": true,
-            "timer_expiry_action": "leave_at_zero",
+            "timer_expiry_action": "hide_offer",
             "link": "shopify://blogs/giveaways/gemstone-treasure-hunt-18-september-2026",
             "button_label": "How to Take Part"
           }
