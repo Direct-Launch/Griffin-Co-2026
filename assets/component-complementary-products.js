@@ -794,9 +794,9 @@ class ProductCrossSell extends lit_element_s {
       }
 
       .price {
-        font-family: var(--header-font-stack);
-        font-weight: var(--header-font-weight);
-        font-style: var(--header-font-style);
+        font-family: var(--body-font-stack);
+        font-weight: var(--body-font-weight);
+        font-style: var(--body-font-style);
         text-transform: var(--heading-font-case);
       }
 
