@@ -38,13 +38,27 @@
 
   <!-- Title and description ================================================== -->
   <title>
-    {{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+    {%- capture seo_title -%}{{ page_title }}{% if current_tags %}{% assign meta_tags = current_tags | join: ', ' %} &ndash; {{ 'general.meta.tags' | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ 'general.meta.page' | t: page: current_page }}{% endif %}{%- endcapture -%}
+    {%- assign seo_title = seo_title | strip -%}
+    {%- assign brand_len = shop.name.size | plus: 3 -%}
+    {%- assign max_base = 60 | minus: brand_len -%}
+    {%- if seo_title contains shop.name -%}{{ seo_title }}
+    {%- elsif seo_title.size <= max_base -%}{{ seo_title }} &ndash; {{ shop.name }}
+    {%- else -%}{{ seo_title }}{%- endif -%}
   </title>
   
 {%- if template == 'blog' and current_tags -%}<meta name="robots" content="noindex, follow">{%- endif -%}
 
-  {% if page_description %}
-    <meta name="description" content="{{ page_description | escape }}">
+  {%- liquid
+    assign meta_desc = page_description
+    if template == 'list-collections'
+      assign meta_desc = 'Browse every Griffin & Co collection: engagement rings, wedding bands, earrings, neckwear and wristwear, hand-finished in Chichester.'
+    elsif template == 'search'
+      assign meta_desc = 'Search the Griffin & Co collection of fine jewellery, from engagement rings and wedding bands to earrings, pendants and bracelets.'
+    endif
+  -%}
+  {% if meta_desc %}
+    <meta name="description" content="{{ meta_desc | escape }}">
   {% endif %}
   {% if template == 'index' %}
     <script type="application/ld+json">
