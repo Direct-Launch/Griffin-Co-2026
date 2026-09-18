@@ -16,6 +16,7 @@
       "blocks": {
         "announcement_JWgHyH": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "announcement_text": "<a href=\"/blogs/giveaways/gemstone-treasure-hunt-18-september-2026\" title=\"Gemstone Treasure Hunt in Chichester | 18th of September\">Gemstone Treasure Hunt — live today until 5pm.</a>"
@@ -23,7 +24,6 @@
         },
         "announcement_3B6WFW": {
           "type": "announcement",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "announcement_text": "<a href=\"/pages/schedule-an-appointment\" title=\"Schedule an Appointment\">Book a Private Consultation Today</a>"

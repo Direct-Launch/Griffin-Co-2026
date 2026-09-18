@@ -16,6 +16,7 @@
       "blocks": {
         "offer_BVtK4A": {
           "type": "offer",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/GemstoneTreasureHunt.jpg",
             "image_position": "above",
