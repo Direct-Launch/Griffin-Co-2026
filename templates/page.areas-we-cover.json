@@ -53,6 +53,15 @@
         "background_color": "#004225"
       }
     },
+    "local_area_intro": {
+      "type": "local-area-intro",
+      "settings": {
+        "heading": "",
+        "section_padding_top": 72,
+        "section_padding_bottom": 72,
+        "colors": "white"
+      }
+    },
     "scrolling_banner_yQGBqH": {
       "type": "scrolling-banner",
       "blocks": {
@@ -175,7 +184,7 @@
         "richtext_Gbedat": {
           "type": "richtext",
           "settings": {
-            "text": "<p>If you are a resident of {{ page.metafields.custom.location.value }}seeking a jeweller that offers more than just retail, Griffin & Co provides a dedicated master workshop experience. </p><p>For decades, we have crafted enduring legacies, from bespoke engagement rings to the meticulous restoration of family heirlooms.</p>",
+            "text": "<p>If you are a resident of {{ page.metafields.custom.location.value }} seeking a jeweller that offers more than just retail, Griffin & Co provides a dedicated master workshop experience. </p><p>For decades, we have crafted enduring legacies, from bespoke engagement rings to the meticulous restoration of family heirlooms.</p>",
             "text_size": 100,
             "text_bottom_spacing": 20
           }
@@ -1112,6 +1121,8 @@
       "name": "Private Home Visits",
       "settings": {
         "image": "shopify://shop_images/Home_Visits.png",
+        "video_url": "",
+        "video_alt_text": "",
         "layout": "left",
         "title": "Private Home Visits in {{ page.metafields.custom.location.value }}.",
         "text": "<p>We understand that your schedule is busy, or perhaps you require absolute discretion when dealing with high-value items or surprise engagements. That is why Griffin & Co brings the showroom to you.</p><p>Time is precious. If you cannot make it to our showroom, our master goldsmiths can travel to your home in {{ page.metafields.custom.location.value }}to discuss bespoke designs, remodelling, or to securely collect items for repair.</p>",
@@ -1736,12 +1747,6 @@
         "section_padding_top": 72,
         "section_padding_bottom": 72,
         "colors": "dark"
-      }
-    },
-    "local_area_intro": {
-      "type": "local-area-intro",
-      "settings": {
-        "heading": ""
       }
     }
   },
