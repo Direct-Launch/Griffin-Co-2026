@@ -14,6 +14,23 @@
     "offers-drawer": {
       "type": "offers-drawer",
       "blocks": {
+        "offer_BVtK4A": {
+          "type": "offer",
+          "settings": {
+            "image": "shopify://shop_images/GemstoneTreasureHunt.jpg",
+            "image_position": "above",
+            "title": "Gemstone Treasure Hunt",
+            "description": "<p>We have hidden a cubic zirconia somewhere in Chichester city centre. Follow three clues, bring it to our South Street store by 5pm, and choose your own 0.50ct gemstone.</p>",
+            "discount_code": "",
+            "show_countdown": true,
+            "end_date": "09-18-2026",
+            "end_time": "17:00:00",
+            "show_timer_labels": true,
+            "timer_expiry_action": "hide_offer",
+            "link": "shopify://blogs/giveaways/gemstone-treasure-hunt-18-september-2026",
+            "button_label": "How to Take Part"
+          }
+        },
         "offer-0": {
           "type": "offer",
           "settings": {
@@ -105,6 +122,7 @@
         }
       },
       "block_order": [
+        "offer_BVtK4A",
         "offer-0",
         "offer_4xNYhH",
         "offer_fAifFK",

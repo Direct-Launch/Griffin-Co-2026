@@ -14,8 +14,16 @@
     "announcement_bar_iVMDpe": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_JWgHyH": {
+          "type": "announcement",
+          "settings": {
+            "icon": "none",
+            "announcement_text": "<a href=\"/blogs/giveaways/gemstone-treasure-hunt-18-september-2026\" title=\"Gemstone Treasure Hunt in Chichester | 18th of September\">Gemstone Treasure Hunt — live today until 5pm. Three clues, one hidden stone, one winner.</a>"
+          }
+        },
         "announcement_3B6WFW": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "announcement_text": "<a href=\"/pages/schedule-an-appointment\" title=\"Schedule an Appointment\">Book a Private Consultation Today</a>"
@@ -23,10 +31,11 @@
         }
       },
       "block_order": [
+        "announcement_JWgHyH",
         "announcement_3B6WFW"
       ],
       "settings": {
-        "auto_scroll_speed": 0.1,
+        "auto_scroll_speed": 0.8,
         "background_color": "#f7e7ce",
         "text_color": "#35382e"
       }
