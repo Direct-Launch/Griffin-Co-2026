@@ -1737,10 +1737,17 @@
         "section_padding_bottom": 72,
         "colors": "dark"
       }
+    },
+    "local_area_intro": {
+      "type": "local-area-intro",
+      "settings": {
+        "heading": ""
+      }
     }
   },
   "order": [
     "hero_slideshow_4btAGz",
+    "local_area_intro",
     "scrolling_banner_yQGBqH",
     "rich_text_7pAWMD",
     "rotating_text_aqXJCW",
