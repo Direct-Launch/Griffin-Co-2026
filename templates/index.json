@@ -12,6 +12,31 @@
     "hero_slideshow_EYLHTY": {
       "type": "hero-slideshow",
       "blocks": {
+        "image_RHdyEc": {
+          "type": "image",
+          "settings": {
+            "title": "The Gemstone Treasure Hunt",
+            "text": "One cubic zirconia, hidden somewhere in Chichester. Three clues today. Bring it to us by 5pm and choose your gemstone.",
+            "first_button_link": "",
+            "first_button_label": "How to Take Part",
+            "second_button_link": "",
+            "second_button_label": "",
+            "buttons_style": "filled",
+            "override_button_colors": false,
+            "button-background": "#e68819",
+            "button-text": "#ffffff",
+            "image": "shopify://shop_images/SnapInsta.to_814453013_17950116747290142_6080428229824559526_n.jpg",
+            "text_position": "center_left",
+            "desktop-caption-heading-size": "h1",
+            "desktop-caption-body-text-size": 100,
+            "mobile_text_position": "center_left",
+            "mobile-caption-heading-size": "h2-mobile",
+            "mobile-caption-body-text-size": 100,
+            "caption-text": "#ffffff",
+            "image_overlay": "#000000",
+            "image_overlay_opacity": 45
+          }
+        },
         "image_dQmyck": {
           "type": "image",
           "settings": {
@@ -39,6 +64,7 @@
         }
       },
       "block_order": [
+        "image_RHdyEc",
         "image_dQmyck"
       ],
       "name": "Hero - Slideshow",
