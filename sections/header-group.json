@@ -550,7 +550,7 @@
             "show_mega_menu_links_desktop": true,
             "show_mega_menu_links_mobile": true,
             "blog_taxonomy_source": "both",
-            "blog_taxonomy_menu": "",
+            "blog_taxonomy_menu": "blog-menu",
             "blog_taxonomy_heading": "Browse by topic",
             "blog_taxonomy_limit": 8,
             "blog_taxonomy_show_mobile": true,
