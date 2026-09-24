@@ -542,7 +542,7 @@
             "blog_show_date": true,
             "blog_show_excerpt": false,
             "blog_columns_desktop": "auto",
-            "blog_card_width_mobile": 65,
+            "blog_card_width_mobile": 90,
             "links_menu": "about-us-menu",
             "links_heading": "",
             "links_columns": "2",
