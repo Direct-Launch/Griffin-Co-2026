@@ -4,6 +4,7 @@ Testing Cypress integration
 
 {{ 'component-mobile-menu.min.css' | asset_url | stylesheet_tag: preload: true }}
 {{ 'component-mega-menu-blog.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'component-mega-menu-blog.js' | asset_url }}" defer></script>
 
 {% assign overlay_opacity = 100 | minus: section.settings.overlay_opacity %}
 {% assign overlay_bg_color = 'rgba(' | append: settings.header-transparent-background.rgba | append: ')' %}
@@ -2116,8 +2117,9 @@ Testing Cypress integration
           "type": "range",
           "id": "blog_post_count",
           "label": "Posts to show",
+          "info": "With the scrolling layout, posts beyond the visible columns are reached by scrolling.",
           "min": 1,
-          "max": 8,
+          "max": 12,
           "step": 1,
           "default": 3
         },
@@ -2196,10 +2198,26 @@ Testing Cypress integration
         },
         {
           "type": "select",
+          "id": "blog_desktop_layout",
+          "label": "Desktop layout",
+          "default": "carousel",
+          "options": [
+            {
+              "value": "carousel",
+              "label": "Scrolling row"
+            },
+            {
+              "value": "grid",
+              "label": "Grid"
+            }
+          ]
+        },
+        {
+          "type": "select",
           "id": "blog_columns_desktop",
           "label": "Post columns on desktop",
           "default": "auto",
-          "info": "\"Auto\" gives one column per post. A fixed number wraps the posts onto more rows.",
+          "info": "Scrolling row: how many posts are visible at once (Auto = 3). Grid: Auto gives one column per post; a number wraps posts onto more rows.",
           "options": [
             {
               "value": "auto",

@@ -328,7 +328,23 @@
 {% else %}
 
   {%- liquid
-    if columns_desktop == 'auto'
+    assign desktop_layout = block.settings.blog_desktop_layout | default: 'grid'
+    assign is_carousel = false
+    if desktop_layout == 'carousel'
+      assign is_carousel = true
+    endif
+
+    if is_carousel
+      if columns_desktop == 'auto'
+        assign grid_columns = 3
+      else
+        assign grid_columns = columns_desktop | plus: 0
+      endif
+      assign has_overflow = false
+      if rendered > grid_columns
+        assign has_overflow = true
+      endif
+    elsif columns_desktop == 'auto'
       assign grid_columns = rendered | at_least: 1
     else
       assign grid_columns = columns_desktop | plus: 0
@@ -357,7 +373,7 @@
   {% endstyle %}
 
   <div
-    class="mega-menu-block mega-menu-blog{% if hide_links %} mega-menu-blog--no-links{% endif %}{% if has_posts == blank and has_taxonomy == blank %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}"
+    class="mega-menu-block mega-menu-blog{% if is_carousel %} mega-menu-blog--carousel{% endif %}{% if hide_links %} mega-menu-blog--no-links{% endif %}{% if has_posts == blank and has_taxonomy == blank %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}"
     data-mega-menu-block-id="{{ block.id }}"
     {{ block.shopify_attributes }}
   >
@@ -398,20 +414,36 @@
     {% if has_posts != blank or has_taxonomy != blank %}
       <div class="mega-menu-blog__posts">
         {% if has_posts != blank %}
-          {% if heading != blank or view_all_label != blank %}
+          {% if heading != blank or view_all_label != blank or has_overflow %}
             <div class="mega-menu-blog__posts-header">
               {% if heading != blank %}
                 <p class="h4 mega-menu-blog__heading">{{ heading | escape }}</p>
               {% endif %}
-              {% if view_all_label != blank and view_all_link != blank %}
-                <div class="mega-menu-blog__view-all text-link-animated">
-                  <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
-                </div>
-              {% endif %}
+              <div class="mega-menu-blog__posts-actions">
+                {% if view_all_label != blank and view_all_link != blank %}
+                  <div class="mega-menu-blog__view-all text-link-animated">
+                    <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
+                  </div>
+                {% endif %}
+                {% if has_overflow %}
+                  <div class="mega-menu-blog__arrows">
+                    <button type="button" class="mega-menu-blog__arrow" data-mega-menu-blog-prev aria-controls="MegaMenuBlog-{{ block.id }}" aria-label="Previous posts" disabled>
+                      {% render 'theme-icon', icon: 'chevron_left', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                    </button>
+                    <button type="button" class="mega-menu-blog__arrow" data-mega-menu-blog-next aria-controls="MegaMenuBlog-{{ block.id }}" aria-label="Next posts">
+                      {% render 'theme-icon', icon: 'chevron_right', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                    </button>
+                  </div>
+                {% endif %}
+              </div>
             </div>
           {% endif %}
 
-          <div class="mega-menu-blog__grid">
+          <div
+            class="mega-menu-blog__grid"
+            id="MegaMenuBlog-{{ block.id }}"
+            {% if is_carousel %}data-mega-menu-blog-track tabindex="0" role="region" aria-label="{{ heading | default: 'Blog posts' | escape }}"{% endif %}
+          >
             {{ post_cards }}
           </div>
         {% endif %}

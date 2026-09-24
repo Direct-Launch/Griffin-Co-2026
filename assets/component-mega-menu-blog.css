@@ -262,3 +262,90 @@
 .mega-menu-blog__mobile .mega-menu-blog__pills {
   display: flex;
 }
+
+/* Desktop scrolling row: shows --mm-blog-grid-columns posts at once and
+   scrolls sideways to the older ones, with a visible scrollbar and arrows. */
+.mega-menu-blog__posts-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.mega-menu-blog__arrows {
+  display: flex;
+  gap: 6px;
+}
+
+.mega-menu-blog__arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid color-mix(in srgb, var(--nav-text-color) 30%, transparent);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--nav-text-color);
+  cursor: pointer;
+  transition: border-color 0.2s ease, background-color 0.2s ease, opacity 0.2s ease;
+}
+
+.mega-menu-blog__arrow:hover:not(:disabled),
+.mega-menu-blog__arrow:focus-visible {
+  border-color: var(--nav-text-color);
+  background: color-mix(in srgb, var(--nav-text-color) 8%, transparent);
+}
+
+.mega-menu-blog__arrow:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.mega-menu-blog__arrow svg {
+  width: 14px;
+  height: 14px;
+}
+
+.mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  padding-bottom: 14px;
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--nav-text-color) 35%, transparent) color-mix(in srgb, var(--nav-text-color) 8%, transparent);
+}
+
+.mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid::-webkit-scrollbar-track {
+  background: color-mix(in srgb, var(--nav-text-color) 8%, transparent);
+  border-radius: 3px;
+}
+
+.mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid::-webkit-scrollbar-thumb {
+  background: color-mix(in srgb, var(--nav-text-color) 35%, transparent);
+  border-radius: 3px;
+}
+
+.mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid > .mega-menu-blog__item {
+  flex: 0 0 calc((100% - (var(--mm-blog-grid-columns, 3) - 1) * 24px) / var(--mm-blog-grid-columns, 3));
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.mega-menu-blog__grid[data-mega-menu-blog-track]:focus-visible {
+  outline: 2px solid var(--nav-text-color);
+  outline-offset: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid {
+    scroll-behavior: auto;
+  }
+}
