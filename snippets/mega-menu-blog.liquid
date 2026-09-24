@@ -301,23 +301,31 @@
 
   {% if has_posts != blank or has_taxonomy != blank %}
     <li class="mobile-nav__item mega-menu-blog__mobile">
-      {% if heading != blank and has_posts != blank %}
-        <p class="h5 mega-menu-blog__heading">{{ heading | escape }}</p>
-      {% endif %}
-
       {% if has_posts != blank %}
+        {% assign show_view_all = false %}
+        {% if view_all_label != blank and view_all_link != blank %}
+          {% assign show_view_all = true %}
+        {% endif %}
+
+        {% if heading != blank or show_view_all %}
+          <div class="mega-menu-blog__mobile-header">
+            {% if heading != blank %}
+              <p class="h5 mega-menu-blog__heading">{{ heading | escape }}</p>
+            {% endif %}
+            {% if show_view_all %}
+              <div class="mega-menu-blog__view-all text-link-animated">
+                <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+
         <div
           class="mega-menu-blog__scroller"
           data-post-count="{{ rendered }}"
           style="--mm-blog-card-basis: {{ mobile_card_width }}%;"
         >
           {{ post_cards }}
-        </div>
-      {% endif %}
-
-      {% if view_all_label != blank and view_all_link != blank and has_posts != blank %}
-        <div class="mega-menu-blog__view-all text-link-animated">
-          <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
         </div>
       {% endif %}
 

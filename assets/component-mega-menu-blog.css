@@ -107,10 +107,6 @@
   list-style: none;
 }
 
-.mega-menu-blog__mobile .mega-menu-blog__heading {
-  margin-bottom: 12px;
-}
-
 .mega-menu-blog__scroller {
   display: flex;
   gap: 16px;
@@ -118,8 +114,44 @@
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
-  scrollbar-width: thin;
   padding-bottom: 12px;
+}
+
+.mega-menu-blog__scroller::-webkit-scrollbar {
+  height: 2px;
+}
+
+.mega-menu-blog__scroller::-webkit-scrollbar-track {
+  background-color: var(--menu-drawer-text-color-transparent10);
+}
+
+.mega-menu-blog__scroller::-webkit-scrollbar-thumb {
+  border-radius: 32px;
+  background-color: var(--menu-drawer-text-color-transparent30);
+}
+
+/* Mobile: "View all" sits beside the heading, smaller */
+.mega-menu-blog__mobile-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 12px;
+}
+
+.mega-menu-blog__mobile .mega-menu-blog__mobile-header .mega-menu-blog__heading {
+  margin: 0;
+}
+
+.mega-menu-blog__mobile .mega-menu-blog__mobile-header .mega-menu-blog__view-all {
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.mega-menu-blog__mobile .mega-menu-blog__mobile-header .mega-menu-blog__view-all a {
+  display: inline;
+  font-size: 13px;
+  line-height: 1.4;
 }
 
 .mega-menu-blog__scroller .mega-menu-blog__item {
@@ -131,10 +163,6 @@
 .mega-menu-blog__scroller[data-post-count='1'] .mega-menu-blog__item {
   flex-basis: 100%;
   max-width: 100%;
-}
-
-.mega-menu-blog__mobile .mega-menu-blog__view-all {
-  margin-top: 4px;
 }
 
 /* Browse row — blogs and/or article tags below the posts */
@@ -315,22 +343,20 @@
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   padding-bottom: 14px;
-  scrollbar-width: thin;
-  scrollbar-color: color-mix(in srgb, var(--nav-text-color) 35%, transparent) color-mix(in srgb, var(--nav-text-color) 8%, transparent);
 }
 
 .mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid::-webkit-scrollbar {
-  height: 6px;
+  height: 3px;
 }
 
 .mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid::-webkit-scrollbar-track {
-  background: color-mix(in srgb, var(--nav-text-color) 8%, transparent);
-  border-radius: 3px;
+  background-color: var(--nav-text-color-transparent10);
+  border-radius: 32px;
 }
 
 .mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid::-webkit-scrollbar-thumb {
-  background: color-mix(in srgb, var(--nav-text-color) 35%, transparent);
-  border-radius: 3px;
+  background-color: var(--nav-text-color-transparent30);
+  border-radius: 32px;
 }
 
 .mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid > .mega-menu-blog__item {
@@ -347,5 +373,22 @@
 @media (prefers-reduced-motion: reduce) {
   .mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid {
     scroll-behavior: auto;
+  }
+}
+
+/* Scrollbars match the theme's own (mega menu dropdown / drawer): 3px/2px
+   bar, rounded thumb, text colour at 10% track / 30% thumb, styled via
+   ::-webkit-scrollbar above. Chrome 121+ ignores those pseudo-elements when
+   the standard scrollbar-* properties are set, so the standard ones are
+   given only to browsers without ::-webkit-scrollbar (Firefox). */
+@supports not selector(::-webkit-scrollbar) {
+  .mega-menu-wrapper .mega-menu-blog.mega-menu-blog--carousel .mega-menu-blog__grid {
+    scrollbar-width: thin;
+    scrollbar-color: var(--nav-text-color-transparent30) var(--nav-text-color-transparent10);
+  }
+
+  .mega-menu-blog__scroller {
+    scrollbar-width: thin;
+    scrollbar-color: var(--menu-drawer-text-color-transparent30) var(--menu-drawer-text-color-transparent10);
   }
 }
