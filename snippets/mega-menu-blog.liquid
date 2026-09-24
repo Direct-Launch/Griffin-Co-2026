@@ -216,10 +216,28 @@
 {%- capture taxonomy_pills -%}
   {%- if show_taxonomy -%}
     {%- if taxonomy_source == 'menu' or taxonomy_source == 'both' -%}
-      {%- for menu_link in taxonomy_menu.links limit: taxonomy_limit -%}
-        <a class="mega-menu-blog__pill mega-menu-blog__pill--menu custom-badge badge{% if menu_link.active %} is-active{% endif %}" href="{{ menu_link.url }}">
-          {{- menu_link.title | escape -}}
-        </a>
+      {%- comment -%}
+        Top-level items with children (e.g. "Guides" > each guide blog) are
+        replaced by their children; items without children render as-is.
+      {%- endcomment -%}
+      {%- assign menu_shown = 0 -%}
+      {%- for menu_link in taxonomy_menu.links -%}
+        {%- if menu_link.links.size > 0 -%}
+          {%- for child_link in menu_link.links -%}
+            {%- if menu_shown >= taxonomy_limit -%}
+              {%- break -%}
+            {%- endif -%}
+            <a class="mega-menu-blog__pill mega-menu-blog__pill--menu{% if child_link.active %} is-active{% endif %}" href="{{ child_link.url }}">
+              {{- child_link.title | escape -}}
+            </a>
+            {%- assign menu_shown = menu_shown | plus: 1 -%}
+          {%- endfor -%}
+        {%- elsif menu_shown < taxonomy_limit -%}
+          <a class="mega-menu-blog__pill mega-menu-blog__pill--menu{% if menu_link.active %} is-active{% endif %}" href="{{ menu_link.url }}">
+            {{- menu_link.title | escape -}}
+          </a>
+          {%- assign menu_shown = menu_shown | plus: 1 -%}
+        {%- endif -%}
       {%- endfor -%}
     {%- endif -%}
 
@@ -237,7 +255,7 @@
             {%- if tags_shown >= taxonomy_limit -%}
               {%- break -%}
             {%- endif -%}
-            <a class="mega-menu-blog__pill mega-menu-blog__pill--tag custom-badge badge" href="{{ tag_blog.url }}/tagged/{{ blog_tag | handle }}">
+            <a class="mega-menu-blog__pill mega-menu-blog__pill--tag" href="{{ tag_blog.url }}/tagged/{{ blog_tag | handle }}">
               {{- blog_tag | escape -}}
             </a>
             {%- assign tags_shown = tags_shown | plus: 1 -%}
