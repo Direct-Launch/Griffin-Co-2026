@@ -2104,31 +2104,6 @@ Testing Cypress integration
           ]
         },
         {
-          "type": "select",
-          "id": "blog_columns_desktop",
-          "label": "Columns on desktop",
-          "default": "auto",
-          "info": "\"Auto\" gives one column per post. A fixed number wraps the posts onto more rows.",
-          "options": [
-            { "value": "auto", "label": "Auto" },
-            { "value": "1", "label": "1" },
-            { "value": "2", "label": "2" },
-            { "value": "3", "label": "3" },
-            { "value": "4", "label": "4" }
-          ]
-        },
-        {
-          "type": "range",
-          "id": "blog_card_width_mobile",
-          "label": "Card width on mobile",
-          "min": 40,
-          "max": 100,
-          "step": 5,
-          "unit": "t:all.percentage",
-          "default": 62,
-          "info": "How much of the drawer one card fills. Below 100% the next card peeks in."
-        },
-        {
           "type": "checkbox",
           "id": "blog_show_date",
           "label": "Show date",
@@ -2151,54 +2126,6 @@ Testing Cypress integration
           "id": "blog_view_all_link",
           "label": "\"View all\" link",
           "info": "Leave empty to link to the selected blog."
-        },
-        {
-          "type": "header",
-          "content": "Browse row",
-          "info": "An optional row of links below the posts."
-        },
-        {
-          "type": "select",
-          "id": "blog_taxonomy_source",
-          "label": "Show",
-          "default": "none",
-          "options": [
-            { "value": "none", "label": "Nothing" },
-            { "value": "tags", "label": "Article tags" },
-            { "value": "blogs", "label": "Blogs" },
-            { "value": "both", "label": "Blogs and article tags" }
-          ]
-        },
-        {
-          "type": "text",
-          "id": "blog_taxonomy_heading",
-          "label": "Row heading",
-          "default": "Browse by topic",
-          "visible_if": "{{ block.settings.blog_taxonomy_source != 'none' }}"
-        },
-        {
-          "type": "range",
-          "id": "blog_taxonomy_limit",
-          "label": "Maximum links per group",
-          "min": 1,
-          "max": 16,
-          "step": 1,
-          "default": 8,
-          "visible_if": "{{ block.settings.blog_taxonomy_source != 'none' }}"
-        },
-        {
-          "type": "checkbox",
-          "id": "blog_taxonomy_hide_current",
-          "label": "Hide the blog the posts come from",
-          "default": true,
-          "visible_if": "{{ block.settings.blog_taxonomy_source == 'blogs' or block.settings.blog_taxonomy_source == 'both' }}"
-        },
-        {
-          "type": "checkbox",
-          "id": "blog_taxonomy_show_mobile",
-          "label": "Show in Mobile Menu",
-          "default": true,
-          "visible_if": "{{ block.settings.blog_taxonomy_source != 'none' }}"
         },
         {
           "type": "header",
