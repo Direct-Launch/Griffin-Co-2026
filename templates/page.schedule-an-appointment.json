@@ -133,7 +133,7 @@
         "html_BVWMWX": {
           "type": "html",
           "settings": {
-            "code": "<style>.event-list .event-list-item { border-radius: 0px !important;}</style>\n<iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery?is_widget=1&amp;view=compact\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>",
+            "code": "<style>.event-list .event-list-item { border-radius: 0px !important;}</style>\n<div id=\"sm-embed\" data-src=\"https://app.simplymeet.me/griffin-co-fine-jewellery?is_widget=1&amp;view=compact\"></div>\n<noscript>\n  <iframe src=\"https://app.simplymeet.me/griffin-co-fine-jewellery?is_widget=1&amp;view=compact\" style=\"width:100%; height:1200px;\" frameborder=\"0\" scrolling=\"yes\"></iframe>\n</noscript>\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-S6ZG29QZG9\"></script>\n<script>\n(function () {\n  var rendered = false;\n  function render(gl) {\n    if (rendered) return;                       // render-once guard\n    rendered = true;\n    var el = document.getElementById('sm-embed');\n    if (!el) return;\n    var url = el.dataset.src;\n    if (gl) url += (url.indexOf('?') < 0 ? '?' : '&') + '_gl=' + gl;  // raw append, NOT encodeURIComponent\n    var f = document.createElement('iframe');\n    f.src = url;\n    f.style.width = '100%';\n    f.style.height = '1200px';\n    f.setAttribute('frameborder', '0');\n    f.setAttribute('scrolling', 'yes');\n    el.appendChild(f);\n  }\n  var timer = setTimeout(function () { render(null); }, 1500);  // GA blocked/denied -> render undecorated\n  try {\n    window.dataLayer = window.dataLayer || [];\n    function gtag(){ dataLayer.push(arguments); }\n    gtag('js', new Date());\n    gtag('config', 'G-S6ZG29QZG9', {\n      send_page_view: false,\n      linker: { domains: ['simplymeet.me'] }\n    });\n    gtag('get', 'G-S6ZG29QZG9', 'client_id', function () {\n      var gl = window.google_tag_data\n            && window.google_tag_data.glBridge\n            && window.google_tag_data.glBridge.generate({ _ga: 1 });\n      clearTimeout(timer);\n      render(gl || null);\n    });\n  } catch (e) {\n    clearTimeout(timer);\n    render(null);\n  }\n})();\n</script>",
             "width": "100%",
             "margin_bottom": 0
           }
@@ -328,6 +328,9 @@
             "show_sample_reviews": false,
             "reviews_selection": "all",
             "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
             "star_rating": "5_star",
             "max_reviews": 30,
             "quote_marks_size": "small",
