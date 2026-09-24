@@ -1,0 +1,130 @@
+/* Mega menu — blog posts
+   Desktop: optional links column + post grid, inside the standard mega menu panel.
+   Mobile: horizontal scroll carousel inside the nav drawer.
+
+   Selectors are scoped under .mega-menu-wrapper to out-specify the shared
+   .mega-menu-block / .mega-menu--links rules in theme.min.css. */
+
+.mega-menu-wrapper .mega-menu-block.mega-menu-blog {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 40px;
+  width: 100%;
+}
+
+.mega-menu-wrapper .mega-menu-block.mega-menu-blog.mega-menu-blog--no-links {
+  grid-template-columns: 1fr;
+}
+
+.mega-menu-wrapper .mega-menu-blog .mega-menu-blog__links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  column-gap: 20px;
+  row-gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mega-menu-wrapper .mega-menu-blog .mega-menu-blog__links .menu-link {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.mega-menu-wrapper .mega-menu-blog .mega-menu-blog__links .menu-link li {
+  margin-bottom: 12px;
+}
+
+.mega-menu-blog__posts-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.mega-menu-blog__heading {
+  margin: 0;
+}
+
+.mega-menu-blog__view-all {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+.mega-menu-wrapper .mega-menu-blog .mega-menu-blog__grid {
+  display: grid;
+  gap: 24px;
+  width: 100%;
+}
+
+.mega-menu-blog__item .blog-post-card__title {
+  margin-bottom: 0;
+}
+
+.mega-menu-blog__item .blog-post-card__excerpt {
+  margin-top: 8px;
+}
+
+/* Match the staggered entrance the theme's JS gives .dropdown-submenu, without
+   depending on it — the cards are visible by default and only animate on open. */
+.site-nav__dropdown.mega-menu-dropdown.show .mega-menu-blog__grid .mega-menu-blog__item {
+  animation: fade-in-up 0.3s ease forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .site-nav__dropdown.mega-menu-dropdown.show .mega-menu-blog__grid .mega-menu-blog__item {
+    animation: none;
+  }
+}
+
+/* Mobile drawer carousel */
+.mobile-nav__item.mega-menu-blog__mobile {
+  display: block;
+  padding: 16px 0 4px;
+  list-style: none;
+}
+
+.mega-menu-blog__mobile .mega-menu-blog__heading {
+  margin-bottom: 12px;
+}
+
+.mega-menu-blog__scroller {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding-bottom: 12px;
+}
+
+.mega-menu-blog__scroller .mega-menu-blog__item {
+  flex: 0 0 62%;
+  max-width: 62%;
+  scroll-snap-align: start;
+}
+
+.mega-menu-blog__scroller[data-post-count='1'] .mega-menu-blog__item {
+  flex-basis: 100%;
+  max-width: 100%;
+}
+
+.mega-menu-blog__mobile .mega-menu-blog__view-all {
+  margin-top: 4px;
+}
+
+@media screen and (min-width: 480px) {
+  .mega-menu-blog__scroller .mega-menu-blog__item {
+    flex-basis: 45%;
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .mega-menu-wrapper .mega-menu-block.mega-menu-blog {
+    grid-template-columns: 1fr;
+  }
+}

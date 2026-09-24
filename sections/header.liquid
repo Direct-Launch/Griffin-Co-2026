@@ -3,12 +3,18 @@ Testing Cypress integration
 {% endcomment %}
 
 {{ 'component-mobile-menu.min.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-mega-menu-blog.css' | asset_url | stylesheet_tag }}
 
 {% assign overlay_opacity = 100 | minus: section.settings.overlay_opacity %}
 {% assign overlay_bg_color = 'rgba(' | append: settings.header-transparent-background.rgba | append: ')' %}
 {% assign opaque_color = 'color-mix(in srgb, ' | append: overlay_bg_color | append: ', transparent ' | append: overlay_opacity | append: '%)' %}
 {% assign overlay = false %}
-{% assign mega_menu_block = section.blocks | where: 'type', 'content' | first %}
+{% liquid
+  assign mega_menu_block = section.blocks | where: 'type', 'content' | first
+  if mega_menu_block == blank
+    assign mega_menu_block = section.blocks | where: 'type', 'blog_content' | first
+  endif
+%}
 
 {% assign homepage-overlay = false %}
 {% if section.settings.overlay_header_homepage and template == 'index' %}
@@ -370,7 +376,7 @@ Testing Cypress integration
             assign current_mega_block = blank
  
             for block in section.blocks
-              if block.type == 'content'
+              if block.type == 'content' or block.type == 'blog_content'
                 assign block-title = block.settings.mega-menu | strip | downcase
                 if block-title == link-title
                   assign is-mega-menu = true
@@ -380,12 +386,21 @@ Testing Cypress integration
               endif
             endfor
 
+            assign is-blog-mega-menu = false
+            if is-mega-menu and current_mega_block.type == 'blog_content'
+              assign is-blog-mega-menu = true
+            endif
+
             assign show_mobile_links = true
             assign show_mobile_promos = false
 
             if is-mega-menu
               assign show_mobile_links = current_mega_block.settings.show_mega_menu_links_mobile
               assign show_mobile_promos = current_mega_block.settings.show_mega_menu_promos_mobile
+            endif
+
+            if is-blog-mega-menu
+              assign show_mobile_promos = false
             endif
           %}
           
@@ -597,6 +612,9 @@ Testing Cypress integration
                     {% endif %}
                   </div>
                 {% endif %}
+                {% if is-blog-mega-menu %}
+                  {% render 'mega-menu-blog', mega_menu_block: current_mega_block, link: link, context: 'mobile' %}
+                {% endif %}
               </ul>
             </li>
           {% else %}
@@ -737,6 +755,9 @@ Testing Cypress integration
                         {% endfor %}
                       {% endif %}
                     </div>
+                  {% endif %}
+                  {% if is-blog-mega-menu %}
+                    {% render 'mega-menu-blog', mega_menu_block: current_mega_block, link: link, context: 'mobile' %}
                   {% endif %}
                 </ul>
               {% else %}
@@ -2031,6 +2052,125 @@ Testing Cypress integration
           "label": "t:all.Text",
           "default": "#FFFFFF",
           "visible_if": "{{ block.settings.overlay_text_on_image_promo_6 }}"
+        }
+      ]
+    },
+    {
+      "type": "blog_content",
+      "name": "Mega Menu - Blog Posts",
+      "settings": [
+        {
+          "id": "mega-menu",
+          "type": "text",
+          "label": "t:all.Menu_item",
+          "info": "t:sections.header.blocks.content.settings.mega-menu.info"
+        },
+        {
+          "type": "header",
+          "content": "Blog posts"
+        },
+        {
+          "type": "text",
+          "id": "blog_heading",
+          "label": "Heading",
+          "default": "Latest posts"
+        },
+        {
+          "type": "blog",
+          "id": "blog",
+          "label": "Blog",
+          "info": "Posts are pulled from this blog, newest first."
+        },
+        {
+          "type": "range",
+          "id": "blog_post_count",
+          "label": "Posts to show",
+          "min": 1,
+          "max": 4,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "select",
+          "id": "blog_image_shape",
+          "label": "t:all.Shape",
+          "default": "wide",
+          "options": [
+            { "value": "original", "label": "t:all.Original" },
+            { "value": "square", "label": "t:all.Square" },
+            { "value": "tall", "label": "t:all.Tall" },
+            { "value": "wide", "label": "t:all.Wide" },
+            { "value": "circle", "label": "t:all.Circle" }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "blog_show_date",
+          "label": "Show date",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "blog_show_excerpt",
+          "label": "Show excerpt",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "blog_view_all_label",
+          "label": "\"View all\" label",
+          "default": "View all"
+        },
+        {
+          "type": "url",
+          "id": "blog_view_all_link",
+          "label": "\"View all\" link",
+          "info": "Leave empty to link to the selected blog."
+        },
+        {
+          "type": "header",
+          "content": "Pinned posts",
+          "info": "Optional. Pinned posts fill the first slots; any remaining slots use the newest posts from the blog above."
+        },
+        {
+          "type": "article",
+          "id": "blog_article_1",
+          "label": "Post 1"
+        },
+        {
+          "type": "article",
+          "id": "blog_article_2",
+          "label": "Post 2"
+        },
+        {
+          "type": "article",
+          "id": "blog_article_3",
+          "label": "Post 3"
+        },
+        {
+          "type": "article",
+          "id": "blog_article_4",
+          "label": "Post 4"
+        },
+        {
+          "type": "header",
+          "content": "Desktop Settings"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mega_menu_links_desktop",
+          "label": "Show Level 2/3 links in Desktop Menu",
+          "default": true
+        },
+        {
+          "type": "header",
+          "content": "Mobile Settings"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mega_menu_links_mobile",
+          "label": "Show Level 2/3 links in Mobile Menu",
+          "default": true
         }
       ]
     },

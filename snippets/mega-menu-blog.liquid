@@ -1,0 +1,214 @@
+{% comment %}
+  Renders a blog-post mega menu for a top-level navigation link.
+
+  Accepts:
+    - mega_menu_block: the header "Mega Menu - Blog Posts" block object (required)
+    - link: the navigation link object (required)
+    - context: 'desktop' (default) or 'mobile'
+
+  Usage:
+    {% render 'mega-menu-blog', mega_menu_block: block, link: link, context: 'desktop' %}
+{% endcomment %}
+
+{% liquid
+  assign block = mega_menu_block
+
+  if context == blank
+    assign context = 'desktop'
+  endif
+
+  assign posts_limit = block.settings.blog_post_count | default: 3
+
+  comment
+    Pinned articles take the first slots; remaining slots are filled with the
+    most recent posts from the selected blog, skipping any already pinned.
+  endcomment
+  assign pinned_list = ''
+  for i in (1..4)
+    assign pinned_key = 'blog_article_' | append: i
+    assign pinned_article = block.settings[pinned_key]
+    if pinned_article != blank
+      assign pinned_list = pinned_list | append: pinned_article.handle | append: ','
+    endif
+  endfor
+  assign pinned_handles = pinned_list | split: ','
+
+  assign selected_blog = blogs[block.settings.blog]
+
+  if context == 'mobile'
+    assign show_links = block.settings.show_mega_menu_links_mobile
+  else
+    assign show_links = block.settings.show_mega_menu_links_desktop
+  endif
+
+  assign hide_links = false
+  if link.links.size == 0 or show_links == false
+    assign hide_links = true
+  endif
+
+  assign image_shape = block.settings.blog_image_shape | default: 'wide'
+  assign show_date = block.settings.blog_show_date
+  assign show_excerpt = block.settings.blog_show_excerpt
+
+  assign heading = block.settings.blog_heading
+  assign view_all_label = block.settings.blog_view_all_label
+  assign view_all_link = block.settings.blog_view_all_link
+  if view_all_link == blank and selected_blog != blank
+    assign view_all_link = selected_blog.url
+  endif
+%}
+
+{%- capture post_cards -%}
+  {%- assign rendered = 0 -%}
+
+  {%- for i in (1..4) -%}
+    {%- assign pinned_key = 'blog_article_' | append: i -%}
+    {%- assign pinned_article = block.settings[pinned_key] -%}
+    {%- if pinned_article != blank and rendered < posts_limit -%}
+      <div class="mega-menu-blog__item">
+        {%- render 'blog-post-card',
+          post: pinned_article,
+          show_image: true,
+          show_date: show_date,
+          show_excerpt: show_excerpt,
+          image_shape: image_shape,
+          alignment: 'left',
+          heading_font_size: 'h6',
+          heading_font_size_mobile: 'h5-mobile'
+        -%}
+      </div>
+      {%- assign rendered = rendered | plus: 1 -%}
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if selected_blog != blank -%}
+    {%- for article in selected_blog.articles limit: 12 -%}
+      {%- if rendered >= posts_limit -%}
+        {%- break -%}
+      {%- endif -%}
+      {%- unless pinned_handles contains article.handle -%}
+        <div class="mega-menu-blog__item">
+          {%- render 'blog-post-card',
+            post: article,
+            show_image: true,
+            show_date: show_date,
+            show_excerpt: show_excerpt,
+            image_shape: image_shape,
+            alignment: 'left',
+            heading_font_size: 'h6',
+            heading_font_size_mobile: 'h5-mobile'
+          -%}
+        </div>
+        {%- assign rendered = rendered | plus: 1 -%}
+      {%- endunless -%}
+    {%- endfor -%}
+  {%- endif -%}
+
+  {%- if rendered == 0 and request.design_mode -%}
+    {%- for i in (1..posts_limit) -%}
+      <div class="mega-menu-blog__item">
+        {%- render 'blog-post-card',
+          show_image: true,
+          show_date: show_date,
+          show_excerpt: show_excerpt,
+          image_shape: image_shape,
+          alignment: 'left',
+          heading_font_size: 'h6',
+          heading_font_size_mobile: 'h5-mobile'
+        -%}
+      </div>
+      {%- assign rendered = rendered | plus: 1 -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- assign has_posts = post_cards | strip -%}
+
+{% if context == 'mobile' %}
+
+  {% if has_posts != blank %}
+    <li class="mobile-nav__item mega-menu-blog__mobile">
+      {% if heading != blank %}
+        <p class="h5 mega-menu-blog__heading">{{ heading | escape }}</p>
+      {% endif %}
+
+      <div class="mega-menu-blog__scroller" data-post-count="{{ rendered }}">
+        {{ post_cards }}
+      </div>
+
+      {% if view_all_label != blank and view_all_link != blank %}
+        <div class="mega-menu-blog__view-all text-link-animated">
+          <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
+        </div>
+      {% endif %}
+    </li>
+  {% endif %}
+
+{% else %}
+
+  {% style %}
+    [data-mega-menu-block-id="{{ block.id }}"] .mega-menu-blog__grid {
+      grid-template-columns: repeat({{ rendered | at_least: 1 }}, minmax(0, 1fr));
+    }
+  {% endstyle %}
+
+  <div
+    class="mega-menu-block mega-menu-blog{% if hide_links %} mega-menu-blog--no-links{% endif %}{% if has_posts == blank %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}"
+    data-mega-menu-block-id="{{ block.id }}"
+    {{ block.shopify_attributes }}
+  >
+    {% if hide_links == false %}
+      <div class="mega-menu--links mega-menu-blog__links">
+        {% for sub_link in link.links %}
+          <li class="dropdown-submenu nav-link-animated--custom" aria-haspopup="true">
+            <div class="inner">
+              <div class="mega-menu-link-wrapper">
+                <p class="h4 mega-menu-link--title">
+                  <a class="animated-link--item" href="{{ sub_link.url }}">{{ sub_link.title | escape }}</a>
+                </p>
+              </div>
+
+              {% if sub_link.links.size > 0 %}
+                <ul class="menu-link">
+                  {% for sub_sub_link in sub_link.links %}
+                    <li>
+                      <div class="mega-menu-link-wrapper">
+                        <a class="animated-link--item" href="{{ sub_sub_link.url }}">{{ sub_sub_link.title | escape }}</a>
+                      </div>
+                    </li>
+                  {% endfor %}
+                </ul>
+              {% endif %}
+            </div>
+          </li>
+        {% endfor %}
+      </div>
+    {% endif %}
+
+    {% if has_posts != blank %}
+      <div class="mega-menu-blog__posts">
+        {% if heading != blank or view_all_label != blank %}
+          <div class="mega-menu-blog__posts-header">
+            {% if heading != blank %}
+              <p class="h4 mega-menu-blog__heading">{{ heading | escape }}</p>
+            {% endif %}
+            {% if view_all_label != blank and view_all_link != blank %}
+              <div class="mega-menu-blog__view-all text-link-animated">
+                <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
+              </div>
+            {% endif %}
+          </div>
+        {% endif %}
+
+        <div class="mega-menu-blog__grid">
+          {{ post_cards }}
+        </div>
+      </div>
+    {% elsif hide_links %}
+      <p class="mega-menu--empty" {% unless request.design_mode %}style="visibility:hidden;"{% endunless %}>
+        {{ 'layout.header.mega_menu_empty' | t }}
+      </p>
+    {% endif %}
+  </div>
+
+{% endif %}
