@@ -50,6 +50,28 @@
   assign show_date = block.settings.blog_show_date
   assign show_excerpt = block.settings.blog_show_excerpt
 
+  comment
+    Column count. 'auto' gives one column per post (up to the post count);
+    a fixed number lets the posts wrap onto multiple rows.
+  endcomment
+  assign columns_desktop = block.settings.blog_columns_desktop | default: 'auto'
+  assign mobile_card_width = block.settings.blog_card_width_mobile | default: 62
+
+  comment
+    Browse row: the store's other blogs and/or the selected blog's article tags.
+  endcomment
+  assign taxonomy_source = block.settings.blog_taxonomy_source | default: 'none'
+  assign taxonomy_heading = block.settings.blog_taxonomy_heading
+  assign taxonomy_limit = block.settings.blog_taxonomy_limit | default: 8
+
+  assign show_taxonomy = true
+  if taxonomy_source == 'none'
+    assign show_taxonomy = false
+  endif
+  if context == 'mobile' and block.settings.blog_taxonomy_show_mobile == false
+    assign show_taxonomy = false
+  endif
+
   assign heading = block.settings.blog_heading
   assign view_all_label = block.settings.blog_view_all_label
   assign view_all_link = block.settings.blog_view_all_link
@@ -124,21 +146,73 @@
 
 {%- assign has_posts = post_cards | strip -%}
 
+{%- capture taxonomy_pills -%}
+  {%- if show_taxonomy -%}
+    {%- assign pills_shown = 0 -%}
+
+    {%- if taxonomy_source == 'blogs' or taxonomy_source == 'both' -%}
+      {%- for store_blog in blogs -%}
+        {%- if pills_shown >= taxonomy_limit -%}
+          {%- break -%}
+        {%- endif -%}
+        {%- unless block.settings.blog_taxonomy_hide_current and store_blog.handle == selected_blog.handle -%}
+          <a class="mega-menu-blog__pill mega-menu-blog__pill--blog custom-badge badge" href="{{ store_blog.url }}">
+            {{- store_blog.title | escape -}}
+          </a>
+          {%- assign pills_shown = pills_shown | plus: 1 -%}
+        {%- endunless -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if taxonomy_source == 'tags' or taxonomy_source == 'both' -%}
+      {%- if selected_blog != blank -%}
+        {%- assign tags_shown = 0 -%}
+        {%- for blog_tag in selected_blog.all_tags -%}
+          {%- if tags_shown >= taxonomy_limit -%}
+            {%- break -%}
+          {%- endif -%}
+          <a class="mega-menu-blog__pill mega-menu-blog__pill--tag custom-badge badge" href="{{ selected_blog.url }}/tagged/{{ blog_tag | handle }}">
+            {{- blog_tag | escape -}}
+          </a>
+          {%- assign tags_shown = tags_shown | plus: 1 -%}
+        {%- endfor -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- assign has_taxonomy = taxonomy_pills | strip -%}
+
 {% if context == 'mobile' %}
 
-  {% if has_posts != blank %}
+  {% if has_posts != blank or has_taxonomy != blank %}
     <li class="mobile-nav__item mega-menu-blog__mobile">
-      {% if heading != blank %}
+      {% if heading != blank and has_posts != blank %}
         <p class="h5 mega-menu-blog__heading">{{ heading | escape }}</p>
       {% endif %}
 
-      <div class="mega-menu-blog__scroller" data-post-count="{{ rendered }}">
-        {{ post_cards }}
-      </div>
+      {% if has_posts != blank %}
+        <div
+          class="mega-menu-blog__scroller"
+          data-post-count="{{ rendered }}"
+          style="--mm-blog-card-basis: {{ mobile_card_width }}%;"
+        >
+          {{ post_cards }}
+        </div>
+      {% endif %}
 
-      {% if view_all_label != blank and view_all_link != blank %}
+      {% if view_all_label != blank and view_all_link != blank and has_posts != blank %}
         <div class="mega-menu-blog__view-all text-link-animated">
           <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
+        </div>
+      {% endif %}
+
+      {% if has_taxonomy != blank %}
+        <div class="mega-menu-blog__taxonomy">
+          {% if taxonomy_heading != blank %}
+            <p class="mega-menu-blog__taxonomy-heading">{{ taxonomy_heading | escape }}</p>
+          {% endif %}
+          <div class="mega-menu-blog__pills">{{ taxonomy_pills }}</div>
         </div>
       {% endif %}
     </li>
@@ -146,14 +220,26 @@
 
 {% else %}
 
+  {%- liquid
+    if columns_desktop == 'auto'
+      assign grid_columns = rendered | at_least: 1
+    else
+      assign grid_columns = columns_desktop | plus: 0
+      if grid_columns > rendered and rendered > 0
+        assign grid_columns = rendered
+      endif
+      assign grid_columns = grid_columns | at_least: 1
+    endif
+  -%}
+
   {% style %}
     [data-mega-menu-block-id="{{ block.id }}"] .mega-menu-blog__grid {
-      grid-template-columns: repeat({{ rendered | at_least: 1 }}, minmax(0, 1fr));
+      grid-template-columns: repeat({{ grid_columns }}, minmax(0, 1fr));
     }
   {% endstyle %}
 
   <div
-    class="mega-menu-block mega-menu-blog{% if hide_links %} mega-menu-blog--no-links{% endif %}{% if has_posts == blank %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}"
+    class="mega-menu-block mega-menu-blog{% if hide_links %} mega-menu-blog--no-links{% endif %}{% if has_posts == blank and has_taxonomy == blank %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}"
     data-mega-menu-block-id="{{ block.id }}"
     {{ block.shopify_attributes }}
   >
@@ -185,24 +271,37 @@
       </div>
     {% endif %}
 
-    {% if has_posts != blank %}
+    {% if has_posts != blank or has_taxonomy != blank %}
       <div class="mega-menu-blog__posts">
-        {% if heading != blank or view_all_label != blank %}
-          <div class="mega-menu-blog__posts-header">
-            {% if heading != blank %}
-              <p class="h4 mega-menu-blog__heading">{{ heading | escape }}</p>
-            {% endif %}
-            {% if view_all_label != blank and view_all_link != blank %}
-              <div class="mega-menu-blog__view-all text-link-animated">
-                <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
-              </div>
-            {% endif %}
+        {% if has_posts != blank %}
+          {% if heading != blank or view_all_label != blank %}
+            <div class="mega-menu-blog__posts-header">
+              {% if heading != blank %}
+                <p class="h4 mega-menu-blog__heading">{{ heading | escape }}</p>
+              {% endif %}
+              {% if view_all_label != blank and view_all_link != blank %}
+                <div class="mega-menu-blog__view-all text-link-animated">
+                  <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
+                </div>
+              {% endif %}
+            </div>
+          {% endif %}
+        {% endif %}
+
+        {% if has_posts != blank %}
+          <div class="mega-menu-blog__grid">
+            {{ post_cards }}
           </div>
         {% endif %}
 
-        <div class="mega-menu-blog__grid">
-          {{ post_cards }}
-        </div>
+        {% if has_taxonomy != blank %}
+          <div class="mega-menu-blog__taxonomy">
+            {% if taxonomy_heading != blank %}
+              <p class="mega-menu-blog__taxonomy-heading">{{ taxonomy_heading | escape }}</p>
+            {% endif %}
+            <div class="mega-menu-blog__pills">{{ taxonomy_pills }}</div>
+          </div>
+        {% endif %}
       </div>
     {% elsif hide_links %}
       <p class="mega-menu--empty" {% unless request.design_mode %}style="visibility:hidden;"{% endunless %}>

@@ -102,8 +102,8 @@
 }
 
 .mega-menu-blog__scroller .mega-menu-blog__item {
-  flex: 0 0 62%;
-  max-width: 62%;
+  flex: 0 0 var(--mm-blog-card-basis, 62%);
+  max-width: var(--mm-blog-card-basis, 62%);
   scroll-snap-align: start;
 }
 
@@ -116,10 +116,55 @@
   margin-top: 4px;
 }
 
+/* Browse row — blogs and/or article tags below the posts */
+.mega-menu-blog__taxonomy {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(var(--color-border-rgb, 0, 0, 0), 0.12);
+}
+
+.mega-menu-blog__taxonomy-heading {
+  margin: 0 0 10px;
+  font-size: 0.8125em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+.mega-menu-blog__pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.mega-menu-blog__pill {
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.mega-menu-blog__pill:hover,
+.mega-menu-blog__pill:focus-visible {
+  opacity: 0.7;
+}
+
+/* On mobile the pills scroll rather than wrap, so the drawer stays short. */
+.mega-menu-blog__mobile .mega-menu-blog__pills {
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+  padding-bottom: 8px;
+}
+
+.mega-menu-blog__mobile .mega-menu-blog__pill {
+  flex: 0 0 auto;
+}
+
 @media screen and (min-width: 480px) {
   .mega-menu-blog__scroller .mega-menu-blog__item {
-    flex-basis: 45%;
-    max-width: 45%;
+    flex-basis: calc(var(--mm-blog-card-basis, 62%) * 0.72);
+    max-width: calc(var(--mm-blog-card-basis, 62%) * 0.72);
   }
 }
 
