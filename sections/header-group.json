@@ -549,7 +549,7 @@
             "links_width": "balanced",
             "show_mega_menu_links_desktop": true,
             "show_mega_menu_links_mobile": true,
-            "blog_taxonomy_source": "menu",
+            "blog_taxonomy_source": "none",
             "blog_taxonomy_menu": "blog-menu",
             "blog_taxonomy_heading": "Browse by topic",
             "blog_taxonomy_limit": 8,
