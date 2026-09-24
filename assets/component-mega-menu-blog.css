@@ -7,7 +7,7 @@
 
 .mega-menu-wrapper .mega-menu-block.mega-menu-blog {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: var(--mm-blog-panel-columns, 1fr 2fr);
   gap: 40px;
   width: 100%;
 }
@@ -18,7 +18,7 @@
 
 .mega-menu-wrapper .mega-menu-blog .mega-menu-blog__links {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--mm-blog-links-columns, 2), minmax(0, 1fr));
   column-gap: 20px;
   row-gap: 40px;
   list-style: none;
@@ -55,6 +55,7 @@
 
 .mega-menu-wrapper .mega-menu-blog .mega-menu-blog__grid {
   display: grid;
+  grid-template-columns: repeat(var(--mm-blog-grid-columns, 3), minmax(0, 1fr));
   gap: 24px;
   width: 100%;
 }
@@ -67,6 +68,27 @@
   margin-top: 8px;
 }
 
+.mega-menu-blog__links-heading {
+  margin: 0 0 16px;
+  font-size: 0.8125em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
+
+/* Tag badge over the card image: keep it to one compact badge */
+.mega-menu-blog__item .blog-post-card__tags-over-image .blog-post-card__tags {
+  flex-wrap: nowrap;
+}
+
+.mega-menu-blog__item .blog-post-card__tag {
+  font-size: 0.75em;
+}
+
+.mega-menu-blog__pill.is-active {
+  opacity: 0.6;
+}
+
 /* Match the staggered entrance the theme's JS gives .dropdown-submenu, without
    depending on it — the cards are visible by default and only animate on open. */
 .site-nav__dropdown.mega-menu-dropdown.show .mega-menu-blog__grid .mega-menu-blog__item {
@@ -77,6 +99,17 @@
   .site-nav__dropdown.mega-menu-dropdown.show .mega-menu-blog__grid .mega-menu-blog__item {
     animation: none;
   }
+}
+
+/* Mobile drawer: links from a chosen menu */
+.mega-menu-blog__mobile-sublinks {
+  list-style: none;
+  margin: 0 0 8px;
+  padding-left: 16px;
+}
+
+.mega-menu-blog__mobile-sublinks .mobile-nav__link {
+  opacity: 0.8;
 }
 
 /* Mobile drawer carousel */

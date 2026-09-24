@@ -14,12 +14,17 @@
     alignment: section.settings.alignment,
     show_author: section.settings.show_author_name,
     show_tags: section.settings.show_tags,
+    tags_limit: 1, (optional — max tags shown; default all)
     show_reading_time: section.settings.show_reading_time,
     show_comment_count: section.settings.show_comment_count
   %}
 {% endcomment %}
 
 {%- liquid
+  if tags_limit == blank
+    assign tags_limit = 50
+  endif
+
   if post == blank
 
     assign tags_size = 2
@@ -70,15 +75,15 @@
 {% if show_tags and tags_size > 0 %}
   {% capture post_tags %}
     <div class="blog-post-card__tags">
-      {% for tag in post_tags_list %}
+      {% for tag in post_tags_list limit: tags_limit %}
         {%- liquid
           assign tag_handle = tag | handle
-          if blog.url
-            assign tags_url = blog.url | append: '/tagged/' | append: tag_handle
-          elsif post != blank and post.url
-            assign post_url_parts = post.url | split: '/'
-            assign blog_url = '/' | append: post_url_parts[1] | append: '/' | append: post_url_parts[2]
+          if post != blank and post.url
+            assign post_handle_suffix = '/' | append: post.handle
+            assign blog_url = post.url | remove_last: post_handle_suffix
             assign tags_url = blog_url | append: '/tagged/' | append: tag_handle
+          elsif blog.url
+            assign tags_url = blog.url | append: '/tagged/' | append: tag_handle
           else
             assign tags_url = '#'
           endif
