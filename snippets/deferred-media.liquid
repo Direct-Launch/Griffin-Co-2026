@@ -236,7 +236,20 @@
           %}
           <div data-media-wrapper class="{% if media_wrapper_classes %}{{ media_wrapper_classes }}{% endif %} {{ ratio_class }}">
             {{ 'plyr.min.css' | asset_url | stylesheet_tag }}
-            {{ delayed_media | media_tag: image_size: "2048x", class: video_class, autoplay: true, loop: enable_video_loop, controls: show_controls, muted: muted, preload: "none", title: alt_text }}
+            {%- comment -%} DL 2026-09-25: media_tag emits a fallback poster <img> with no alt. Add one (empty for decorative background video). {%- endcomment -%}
+            {%- capture video_media_tag -%}{{ delayed_media | media_tag: image_size: "2048x", class: video_class, autoplay: true, loop: enable_video_loop, controls: show_controls, muted: muted, preload: "none", title: alt_text }}{%- endcapture -%}
+            {%- liquid
+              assign poster_alt = alt_text
+              if is_background_media
+                assign poster_alt = ''
+              endif
+              assign poster_img_open = '<img alt="' | append: poster_alt | append: '" '
+            -%}
+            {%- if video_media_tag contains '<img ' and video_media_tag contains ' alt=' -%}
+              {{ video_media_tag }}
+            {%- else -%}
+              {{ video_media_tag | replace: '<img ', poster_img_open }}
+            {%- endif %}
             {% comment %} Loading icon {% endcomment %}
             <div class="hidden" data-media-loading-icon>
               {% render 'theme-icon', icon: 'circle-notch', iconClasses: 'spin js fa-2x', iconSize: '1.6em' %}
