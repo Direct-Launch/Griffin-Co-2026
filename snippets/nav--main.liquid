@@ -10,11 +10,14 @@
 
     {% if mega_menu %}
       {% for block in section.blocks %}
-        {% if block.type == 'content' or block.type == 'blog_content' %}
+        {% if block.type == 'content' or block.type == 'blog_content' or block.type == 'product_content' %}
           {% assign block-title = block.settings.mega-menu | strip | downcase %}
           {% if block-title == link-title %}
-            {% assign is-mega-menu = true %}
-            {% assign mega-menu-block = block %}
+            {% comment %} Blog/product mega menus take precedence over a standard one for the same item {% endcomment %}
+            {% if is-mega-menu == false or block.type != 'content' %}
+              {% assign is-mega-menu = true %}
+              {% assign mega-menu-block = block %}
+            {% endif %}
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -48,6 +51,8 @@
           <div class="container">
             {% if mega-menu-block.type == 'blog_content' %}
               {% render 'mega-menu-blog', mega_menu_block: mega-menu-block, link: link, context: 'desktop' %}
+            {% elsif mega-menu-block.type == 'product_content' %}
+              {% render 'mega-menu-products', mega_menu_block: mega-menu-block, link: link, context: 'desktop' %}
             {% else %}
               {% render 'mega-menu', mega_menu_block: mega-menu-block, link: link %}
             {% endif %}
@@ -107,11 +112,14 @@
 
     {% if mega_menu %}
       {% for block in section.blocks %}
-        {% if block.type == 'content' or block.type == 'blog_content' %}
+        {% if block.type == 'content' or block.type == 'blog_content' or block.type == 'product_content' %}
           {% assign block-title = block.settings.mega-menu | strip | downcase %}
           {% if block-title == link-title %}
-            {% assign is-mega-menu = true %}
-            {% assign mega-menu-block = block %}
+            {% comment %} Blog/product mega menus take precedence over a standard one for the same item {% endcomment %}
+            {% if is-mega-menu == false or block.type != 'content' %}
+              {% assign is-mega-menu = true %}
+              {% assign mega-menu-block = block %}
+            {% endif %}
           {% endif %}
         {% endif %}
       {% endfor %}
@@ -131,6 +139,8 @@
           <div class="container">
             {% if mega-menu-block.type == 'blog_content' %}
               {% render 'mega-menu-blog', mega_menu_block: mega-menu-block, link: link, context: 'desktop' %}
+            {% elsif mega-menu-block.type == 'product_content' %}
+              {% render 'mega-menu-products', mega_menu_block: mega-menu-block, link: link, context: 'desktop' %}
             {% else %}
               {% render 'mega-menu', mega_menu_block: mega-menu-block, link: link %}
             {% endif %}

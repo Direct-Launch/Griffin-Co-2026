@@ -21,25 +21,93 @@
   assign post_source = block.settings.blog_source | default: 'newest'
 
   comment
-    Blogs to pull from. `blogs` can't be iterated, so the merchant picks up to
-    three; their articles are merged and sorted newest first.
+    Blogs to pull from, as a ",handle,handle," list.
+    - Chosen blogs (the three pickers) always count.
+    - Scope "all" adds every blog Liquid can find: the store's blogs (if the
+      `blogs` object can be looped - harmless if not) plus any blog linked
+      in the main menu or in this block's menus, up to three levels deep.
+    Their articles are merged and sorted newest first.
   endcomment
-  assign blog_pool = '' | split: ','
-  assign blogs_used = 0
-  assign single_blog = blank
+  assign blog_scope = block.settings.blog_scope | default: 'all'
+  assign blog_handles = ','
+
   for i in (1..3)
     if i == 1
       assign blog_key = 'blog'
     else
       assign blog_key = 'blog_' | append: i
     endif
-    assign source_blog = blogs[block.settings[blog_key]]
+    assign picked_handle = block.settings[blog_key]
+    if picked_handle != blank
+      assign handle_token = ',' | append: picked_handle | append: ','
+      unless blog_handles contains handle_token
+        assign blog_handles = blog_handles | append: picked_handle | append: ','
+      endunless
+    endif
+  endfor
+
+  if blog_scope == 'all'
+    for store_blog in blogs
+      assign handle_token = ',' | append: store_blog.handle | append: ','
+      unless blog_handles contains handle_token
+        assign blog_handles = blog_handles | append: store_blog.handle | append: ','
+      endunless
+    endfor
+
+    for i in (1..3)
+      case i
+        when 1
+          assign scan_menu = linklists[section.settings.main_linklist]
+        when 2
+          assign scan_menu = block.settings.blog_taxonomy_menu
+        else
+          assign scan_menu = block.settings.links_menu
+      endcase
+      for link_1 in scan_menu.links
+        if link_1.type == 'blog_link'
+          assign handle_token = ',' | append: link_1.object.handle | append: ','
+          unless blog_handles contains handle_token
+            assign blog_handles = blog_handles | append: link_1.object.handle | append: ','
+          endunless
+        endif
+        for link_2 in link_1.links
+          if link_2.type == 'blog_link'
+            assign handle_token = ',' | append: link_2.object.handle | append: ','
+            unless blog_handles contains handle_token
+              assign blog_handles = blog_handles | append: link_2.object.handle | append: ','
+            endunless
+          endif
+          for link_3 in link_2.links
+            if link_3.type == 'blog_link'
+              assign handle_token = ',' | append: link_3.object.handle | append: ','
+              unless blog_handles contains handle_token
+                assign blog_handles = blog_handles | append: link_3.object.handle | append: ','
+              endunless
+            endif
+          endfor
+        endfor
+      endfor
+    endfor
+  endif
+
+  assign blog_pool = '' | split: ','
+  assign blogs_used = 0
+  assign single_blog = blank
+  assign handle_list = blog_handles | split: ','
+  for blog_handle in handle_list
+    if blog_handle == blank
+      continue
+    endif
+    assign source_blog = blogs[blog_handle]
     if source_blog != blank and source_blog.articles_count > 0
       assign blog_pool = blog_pool | concat: source_blog.articles
       assign blogs_used = blogs_used | plus: 1
-      assign single_blog = source_blog
+      if single_blog == blank
+        assign single_blog = source_blog
+      endif
     endif
   endfor
+
   assign selected_blog = blogs[block.settings.blog]
   if selected_blog == blank
     assign selected_blog = single_blog
@@ -383,6 +451,7 @@
   <div
     class="mega-menu-block mega-menu-blog{% if is_carousel %} mega-menu-blog--carousel{% endif %}{% if hide_links %} mega-menu-blog--no-links{% endif %}{% if has_posts == blank and has_taxonomy == blank %} no--content{% if request.design_mode %} no--content-design-mode{% endif %}{% endif %}"
     data-mega-menu-block-id="{{ block.id }}"
+    data-blog-sources="{{ blogs_used }}"
     {{ block.shopify_attributes }}
   >
     {% if hide_links == false %}

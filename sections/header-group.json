@@ -414,6 +414,7 @@
         "content_qFcwEJ": {
           "type": "content",
           "name": "Jewellery - Mega menu",
+          "disabled": true,
           "settings": {
             "mega-menu": "Jewellery",
             "show_mega_menu_links_desktop": true,
@@ -530,6 +531,7 @@
           "settings": {
             "mega-menu": "About",
             "blog_source": "newest",
+            "blog_scope": "all",
             "blog": "jewellery-guides",
             "blog_2": "guide-gemstone-cuts",
             "blog_3": "giveaways",
@@ -541,6 +543,7 @@
             "blog_show_tag": true,
             "blog_show_date": true,
             "blog_show_excerpt": false,
+            "blog_desktop_layout": "carousel",
             "blog_columns_desktop": "auto",
             "blog_card_width_mobile": 90,
             "links_menu": "about-us-menu",
@@ -558,6 +561,26 @@
             "blog_article_2": "",
             "blog_article_3": "",
             "blog_article_4": ""
+          }
+        },
+        "product_content_jewellery": {
+          "type": "product_content",
+          "settings": {
+            "mega-menu": "Jewellery",
+            "product_collection": "sale",
+            "product_count": 16,
+            "product_hide_sold_out": true,
+            "product_show_price": true,
+            "product_show_badges": true,
+            "product_heading": "Featured Jewellery",
+            "product_view_all_label": "View all",
+            "product_view_all_link": "shopify://collections/sale",
+            "product_panel_width": "balanced",
+            "product_visible_desktop": "3",
+            "product_card_width_mobile": 55,
+            "show_mega_menu_links_desktop": true,
+            "show_mega_menu_links_mobile": true,
+            "product_show_mobile": true
           }
         }
       },
@@ -590,7 +613,8 @@
         "content_qFcwEJ",
         "menu_icon_4NC83M",
         "content_z9ENGN",
-        "blog_content_wCjL3K"
+        "blog_content_wCjL3K",
+        "product_content_jewellery"
       ],
       "settings": {
         "sticky_header": true,
