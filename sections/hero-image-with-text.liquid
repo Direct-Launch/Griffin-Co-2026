@@ -40,7 +40,17 @@
       <div>
         {% if section.settings.image != blank %}
           <div id="image-with-text--{{ section.id }}" class="img">
-            {% render 'responsive-image', image: section.settings.image, sizes: '100vw', allow_stretch: true %}
+            {%- comment -%} First section on the page is the LCP element: load it eagerly at high priority (mobile LCP fix, 2026-09-25). {%- endcomment -%}
+            {%- liquid
+              if section.index == 1
+                assign hero_loading = 'eager'
+                assign hero_props = 'fetchpriority="high"'
+              else
+                assign hero_loading = 'lazy'
+                assign hero_props = ''
+              endif
+            -%}
+            {% render 'responsive-image', image: section.settings.image, sizes: '100vw', allow_stretch: true, loading: hero_loading, props: hero_props %}
           </div>
         {% else %}
           <div id="image-with-text--{{ section.id }}" class="placeholder-background img">
