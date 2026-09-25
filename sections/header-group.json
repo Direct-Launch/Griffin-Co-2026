@@ -474,6 +474,7 @@
         "content_z9ENGN": {
           "type": "content",
           "name": "About - Mega menu",
+          "disabled": true,
           "settings": {
             "mega-menu": "About",
             "show_mega_menu_links_desktop": true,
@@ -523,6 +524,41 @@
             "overlay_text_on_image_promo_6": true,
             "overlay_text_color_promo_6": "#ffffff"
           }
+        },
+        "blog_content_wCjL3K": {
+          "type": "blog_content",
+          "settings": {
+            "mega-menu": "About",
+            "blog_source": "newest",
+            "blog": "jewellery-guides",
+            "blog_2": "guide-gemstone-cuts",
+            "blog_3": "giveaways",
+            "blog_post_count": 6,
+            "blog_heading": "Latest posts",
+            "blog_view_all_label": "View all",
+            "blog_view_all_link": "shopify://pages/fine-jewellery-blog-guides",
+            "blog_image_shape": "wide",
+            "blog_show_tag": true,
+            "blog_show_date": true,
+            "blog_show_excerpt": false,
+            "blog_columns_desktop": "auto",
+            "blog_card_width_mobile": 90,
+            "links_menu": "about-us-menu",
+            "links_heading": "",
+            "links_columns": "2",
+            "links_width": "balanced",
+            "show_mega_menu_links_desktop": true,
+            "show_mega_menu_links_mobile": true,
+            "blog_taxonomy_source": "none",
+            "blog_taxonomy_menu": "blog-menu",
+            "blog_taxonomy_heading": "Browse by topic",
+            "blog_taxonomy_limit": 8,
+            "blog_taxonomy_show_mobile": true,
+            "blog_article_1": "",
+            "blog_article_2": "",
+            "blog_article_3": "",
+            "blog_article_4": ""
+          }
         }
       },
       "block_order": [
@@ -553,7 +589,8 @@
         "content_Y6HWL9",
         "content_qFcwEJ",
         "menu_icon_4NC83M",
-        "content_z9ENGN"
+        "content_z9ENGN",
+        "blog_content_wCjL3K"
       ],
       "settings": {
         "sticky_header": true,

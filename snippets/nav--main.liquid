@@ -10,10 +10,12 @@
 
     {% if mega_menu %}
       {% for block in section.blocks %}
-        {% assign block-title = block.settings.mega-menu | strip | downcase %}
-        {% if block-title == link-title %}
-          {% assign is-mega-menu = true %}
-          {% assign mega-menu-block = block %}
+        {% if block.type == 'content' or block.type == 'blog_content' %}
+          {% assign block-title = block.settings.mega-menu | strip | downcase %}
+          {% if block-title == link-title %}
+            {% assign is-mega-menu = true %}
+            {% assign mega-menu-block = block %}
+          {% endif %}
         {% endif %}
       {% endfor %}
     {% endif %}
@@ -44,7 +46,11 @@
         {% if is-mega-menu %}
 
           <div class="container">
-            {% render 'mega-menu', mega_menu_block: mega-menu-block, link: link %}
+            {% if mega-menu-block.type == 'blog_content' %}
+              {% render 'mega-menu-blog', mega_menu_block: mega-menu-block, link: link, context: 'desktop' %}
+            {% else %}
+              {% render 'mega-menu', mega_menu_block: mega-menu-block, link: link %}
+            {% endif %}
           </div>
 
         {% else %}
@@ -101,10 +107,12 @@
 
     {% if mega_menu %}
       {% for block in section.blocks %}
-        {% assign block-title = block.settings.mega-menu | strip | downcase %}
-        {% if block-title == link-title %}
-          {% assign is-mega-menu = true %}
-          {% assign mega-menu-block = block %}
+        {% if block.type == 'content' or block.type == 'blog_content' %}
+          {% assign block-title = block.settings.mega-menu | strip | downcase %}
+          {% if block-title == link-title %}
+            {% assign is-mega-menu = true %}
+            {% assign mega-menu-block = block %}
+          {% endif %}
         {% endif %}
       {% endfor %}
     {% endif %}
@@ -121,7 +129,11 @@
       {% if is-mega-menu %}
         <ul id="mega-menu-dropdown-{{ link.handle }}" class="site-nav__dropdown{% unless is-mega-menu %} standard-dropdown{% else %} mega-menu-dropdown{% endunless %}{% if request.design_mode %} theme-editor-active{% endif %}">
           <div class="container">
-            {% render 'mega-menu', mega_menu_block: mega-menu-block, link: link %}
+            {% if mega-menu-block.type == 'blog_content' %}
+              {% render 'mega-menu-blog', mega_menu_block: mega-menu-block, link: link, context: 'desktop' %}
+            {% else %}
+              {% render 'mega-menu', mega_menu_block: mega-menu-block, link: link %}
+            {% endif %}
           </div>
         </ul>
       {% endif %}

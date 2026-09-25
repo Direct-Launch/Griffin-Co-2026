@@ -69,7 +69,13 @@
   {% endif %}
 
     {% comment %} Section title and description {% endcomment %}
-    {% render 'dynamic-section-header', section_title: section.settings.title, section_description: section.settings.description, alignment: section.settings.section_header_alignment %}
+    {%- liquid
+      assign section_title_tag = 'h3'
+      if section.settings.title_as_h1
+        assign section_title_tag = 'h1'
+      endif
+    -%}
+    {% render 'dynamic-section-header', section_title: section.settings.title, section_description: section.settings.description, alignment: section.settings.section_header_alignment, title_tag: section_title_tag %}
 
     <div class="info-cols__slider-wrapper" data-grid-slider-wrapper>
 
@@ -313,6 +319,13 @@
       "id": "title",
       "label": "t:all.Heading",
       "default": "Info columns"
+    },
+    {
+      "type": "checkbox",
+      "id": "title_as_h1",
+      "label": "Use heading as the page H1",
+      "info": "Tick only on the first section of a page that has no other H1.",
+      "default": false
     },
     {
       "type": "richtext",

@@ -296,7 +296,7 @@
         "image_and_text_4k3yBx"
       ],
       "custom_css": [
-        ".image-with-text-slideshow {margin-top: -250px;}"
+        ".image-with-text-slideshow {margin-top: -0px;}"
       ],
       "name": "Services",
       "settings": {
@@ -328,6 +328,9 @@
             "show_sample_reviews": false,
             "reviews_selection": "all",
             "products": [],
+            "filter_pinned": false,
+            "filter_featured": false,
+            "filter_custom_tags": "",
             "star_rating": "5_star",
             "max_reviews": 30,
             "quote_marks_size": "small",

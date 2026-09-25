@@ -3,12 +3,19 @@ Testing Cypress integration
 {% endcomment %}
 
 {{ 'component-mobile-menu.min.css' | asset_url | stylesheet_tag: preload: true }}
+{{ 'component-mega-menu-blog.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'component-mega-menu-blog.js' | asset_url }}" defer></script>
 
 {% assign overlay_opacity = 100 | minus: section.settings.overlay_opacity %}
 {% assign overlay_bg_color = 'rgba(' | append: settings.header-transparent-background.rgba | append: ')' %}
 {% assign opaque_color = 'color-mix(in srgb, ' | append: overlay_bg_color | append: ', transparent ' | append: overlay_opacity | append: '%)' %}
 {% assign overlay = false %}
-{% assign mega_menu_block = section.blocks | where: 'type', 'content' | first %}
+{% liquid
+  assign mega_menu_block = section.blocks | where: 'type', 'content' | first
+  if mega_menu_block == blank
+    assign mega_menu_block = section.blocks | where: 'type', 'blog_content' | first
+  endif
+%}
 
 {% assign homepage-overlay = false %}
 {% if section.settings.overlay_header_homepage and template == 'index' %}
@@ -370,7 +377,7 @@ Testing Cypress integration
             assign current_mega_block = blank
  
             for block in section.blocks
-              if block.type == 'content'
+              if block.type == 'content' or block.type == 'blog_content'
                 assign block-title = block.settings.mega-menu | strip | downcase
                 if block-title == link-title
                   assign is-mega-menu = true
@@ -380,12 +387,28 @@ Testing Cypress integration
               endif
             endfor
 
+            assign is-blog-mega-menu = false
+            if is-mega-menu and current_mega_block.type == 'blog_content'
+              assign is-blog-mega-menu = true
+            endif
+
             assign show_mobile_links = true
             assign show_mobile_promos = false
 
             if is-mega-menu
               assign show_mobile_links = current_mega_block.settings.show_mega_menu_links_mobile
               assign show_mobile_promos = current_mega_block.settings.show_mega_menu_promos_mobile
+            endif
+
+            if is-blog-mega-menu
+              assign show_mobile_promos = false
+              comment
+                A chosen links menu replaces this item's own links; the blog
+                snippet renders it instead.
+              endcomment
+              if current_mega_block.settings.links_menu != blank
+                assign show_mobile_links = false
+              endif
             endif
           %}
           
@@ -597,6 +620,9 @@ Testing Cypress integration
                     {% endif %}
                   </div>
                 {% endif %}
+                {% if is-blog-mega-menu %}
+                  {% render 'mega-menu-blog', mega_menu_block: current_mega_block, link: link, context: 'mobile' %}
+                {% endif %}
               </ul>
             </li>
           {% else %}
@@ -737,6 +763,9 @@ Testing Cypress integration
                         {% endfor %}
                       {% endif %}
                     </div>
+                  {% endif %}
+                  {% if is-blog-mega-menu %}
+                    {% render 'mega-menu-blog', mega_menu_block: current_mega_block, link: link, context: 'mobile' %}
                   {% endif %}
                 </ul>
               {% else %}
@@ -2031,6 +2060,349 @@ Testing Cypress integration
           "label": "t:all.Text",
           "default": "#FFFFFF",
           "visible_if": "{{ block.settings.overlay_text_on_image_promo_6 }}"
+        }
+      ]
+    },
+    {
+      "type": "blog_content",
+      "name": "Mega Menu - Blog Posts",
+      "settings": [
+        {
+          "id": "mega-menu",
+          "type": "text",
+          "label": "t:all.Menu_item",
+          "info": "t:sections.header.blocks.content.settings.mega-menu.info"
+        },
+        {
+          "type": "header",
+          "content": "Posts"
+        },
+        {
+          "type": "select",
+          "id": "blog_source",
+          "label": "Show",
+          "default": "newest",
+          "options": [
+            {
+              "value": "newest",
+              "label": "Newest posts"
+            },
+            {
+              "value": "pinned_first",
+              "label": "Pinned posts, then newest"
+            },
+            {
+              "value": "pinned",
+              "label": "Pinned posts only"
+            }
+          ]
+        },
+        {
+          "type": "blog",
+          "id": "blog",
+          "label": "Blog"
+        },
+        {
+          "type": "blog",
+          "id": "blog_2",
+          "label": "Also include posts from",
+          "info": "Optional. Posts from all chosen blogs are merged, newest first."
+        },
+        {
+          "type": "blog",
+          "id": "blog_3",
+          "label": "Also include posts from"
+        },
+        {
+          "type": "range",
+          "id": "blog_post_count",
+          "label": "Posts to show",
+          "info": "With the scrolling layout, posts beyond the visible columns are reached by scrolling.",
+          "min": 1,
+          "max": 12,
+          "step": 1,
+          "default": 3
+        },
+        {
+          "type": "text",
+          "id": "blog_heading",
+          "label": "Heading",
+          "default": "Latest posts"
+        },
+        {
+          "type": "text",
+          "id": "blog_view_all_label",
+          "label": "\"View all\" label",
+          "default": "View all"
+        },
+        {
+          "type": "url",
+          "id": "blog_view_all_link",
+          "label": "\"View all\" link",
+          "info": "Leave empty to link to the first blog."
+        },
+        {
+          "type": "header",
+          "content": "Post cards"
+        },
+        {
+          "type": "select",
+          "id": "blog_image_shape",
+          "label": "t:all.Shape",
+          "default": "wide",
+          "options": [
+            {
+              "value": "original",
+              "label": "t:all.Original"
+            },
+            {
+              "value": "square",
+              "label": "t:all.Square"
+            },
+            {
+              "value": "tall",
+              "label": "t:all.Tall"
+            },
+            {
+              "value": "wide",
+              "label": "t:all.Wide"
+            },
+            {
+              "value": "circle",
+              "label": "t:all.Circle"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "blog_show_tag",
+          "label": "Show a tag on the image",
+          "default": true,
+          "info": "Shows the post's first tag."
+        },
+        {
+          "type": "checkbox",
+          "id": "blog_show_date",
+          "label": "Show date",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "blog_show_excerpt",
+          "label": "Show excerpt",
+          "default": false
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "blog_desktop_layout",
+          "label": "Desktop layout",
+          "default": "carousel",
+          "options": [
+            {
+              "value": "carousel",
+              "label": "Scrolling row"
+            },
+            {
+              "value": "grid",
+              "label": "Grid"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "blog_columns_desktop",
+          "label": "Post columns on desktop",
+          "default": "auto",
+          "info": "Scrolling row: how many posts are visible at once (Auto = 3). Grid: Auto gives one column per post; a number wraps posts onto more rows.",
+          "options": [
+            {
+              "value": "auto",
+              "label": "Auto"
+            },
+            {
+              "value": "1",
+              "label": "1"
+            },
+            {
+              "value": "2",
+              "label": "2"
+            },
+            {
+              "value": "3",
+              "label": "3"
+            },
+            {
+              "value": "4",
+              "label": "4"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "blog_card_width_mobile",
+          "label": "Card width on mobile",
+          "min": 40,
+          "max": 100,
+          "step": 5,
+          "unit": "%",
+          "default": 65,
+          "info": "Below 100% the next card peeks in."
+        },
+        {
+          "type": "header",
+          "content": "Menu links"
+        },
+        {
+          "type": "link_list",
+          "id": "links_menu",
+          "label": "Menu",
+          "info": "Optional. Replaces this menu item's own level 2/3 links."
+        },
+        {
+          "type": "text",
+          "id": "links_heading",
+          "label": "Heading"
+        },
+        {
+          "type": "select",
+          "id": "links_columns",
+          "label": "Link columns",
+          "default": "2",
+          "options": [
+            {
+              "value": "1",
+              "label": "1"
+            },
+            {
+              "value": "2",
+              "label": "2"
+            },
+            {
+              "value": "3",
+              "label": "3"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "links_width",
+          "label": "Links area width",
+          "default": "balanced",
+          "options": [
+            {
+              "value": "narrow",
+              "label": "Narrow"
+            },
+            {
+              "value": "balanced",
+              "label": "Balanced"
+            },
+            {
+              "value": "wide",
+              "label": "Wide"
+            }
+          ]
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mega_menu_links_desktop",
+          "label": "Show links in Desktop Menu",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mega_menu_links_mobile",
+          "label": "Show links in Mobile Menu",
+          "default": true
+        },
+        {
+          "type": "header",
+          "content": "Blog navigation",
+          "info": "A row of links below the posts."
+        },
+        {
+          "type": "select",
+          "id": "blog_taxonomy_source",
+          "label": "Show",
+          "default": "both",
+          "options": [
+            {
+              "value": "none",
+              "label": "Nothing"
+            },
+            {
+              "value": "menu",
+              "label": "Blog types (from a menu)"
+            },
+            {
+              "value": "tags",
+              "label": "Article tags"
+            },
+            {
+              "value": "both",
+              "label": "Blog types and article tags"
+            }
+          ]
+        },
+        {
+          "type": "link_list",
+          "id": "blog_taxonomy_menu",
+          "label": "Blog types menu",
+          "info": "Create a menu in Online Store > Navigation containing links to your blogs or blog categories.",
+          "visible_if": "{{ block.settings.blog_taxonomy_source == 'menu' or block.settings.blog_taxonomy_source == 'both' }}"
+        },
+        {
+          "type": "text",
+          "id": "blog_taxonomy_heading",
+          "label": "Heading",
+          "default": "Browse by topic",
+          "visible_if": "{{ block.settings.blog_taxonomy_source != 'none' }}"
+        },
+        {
+          "type": "range",
+          "id": "blog_taxonomy_limit",
+          "label": "Maximum links per group",
+          "min": 1,
+          "max": 16,
+          "step": 1,
+          "default": 8,
+          "visible_if": "{{ block.settings.blog_taxonomy_source != 'none' }}"
+        },
+        {
+          "type": "checkbox",
+          "id": "blog_taxonomy_show_mobile",
+          "label": "Show in Mobile Menu",
+          "default": true,
+          "visible_if": "{{ block.settings.blog_taxonomy_source != 'none' }}"
+        },
+        {
+          "type": "header",
+          "content": "Pinned posts",
+          "info": "Used when \"Show\" under Posts includes pinned posts."
+        },
+        {
+          "type": "article",
+          "id": "blog_article_1",
+          "label": "Post 1"
+        },
+        {
+          "type": "article",
+          "id": "blog_article_2",
+          "label": "Post 2"
+        },
+        {
+          "type": "article",
+          "id": "blog_article_3",
+          "label": "Post 3"
+        },
+        {
+          "type": "article",
+          "id": "blog_article_4",
+          "label": "Post 4"
         }
       ]
     },
