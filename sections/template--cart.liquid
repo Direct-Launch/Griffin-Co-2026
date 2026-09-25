@@ -19,7 +19,7 @@
 
     {% if cart.item_count > 0 %}
       <div class="template-title--wrapper show-on-scroll">
-        <h3 class="page--title template-title" data-animate data-animate-order="1" style="text-align: {{ settings.template_heading_alignment }};">{{ 'cart.general.title' | t }}</h3>
+        <h1 class="page--title template-title h3" data-animate data-animate-order="1" style="text-align: {{ settings.template_heading_alignment }};">{{ 'cart.general.title' | t }}</h1>
       </div>
 
       <cart-items data-section-id="template--cart">
@@ -367,7 +367,7 @@
 
     {% else %}
       <div class="template-title--wrapper show-on-scroll">
-        <h3 class="page--title template-title" data-animate data-animate-order="1" style="text-align: {{ settings.template_heading_alignment }};">{{ 'cart.general.title' | t }}</h3>
+        <h1 class="page--title template-title h3" data-animate data-animate-order="1" style="text-align: {{ settings.template_heading_alignment }};">{{ 'cart.general.title' | t }}</h1>
       </div>
 
       {% liquid 

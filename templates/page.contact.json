@@ -65,6 +65,7 @@
       ],
       "name": "Contact Options",
       "settings": {
+        "title_as_h1": true,
         "title": "Get in touch.",
         "description": "<p>How to contact us</p>",
         "section_header_alignment": "center",

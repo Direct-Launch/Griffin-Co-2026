@@ -1782,12 +1782,12 @@
           <div class="template-title--wrapper">
             {% if search.performed %}
               {% if search.results_count == 0 %}
-                <h3 class="page--title template-title" style="text-align: {{ settings.template_heading_alignment }};">{{ 'general.search.no_results_html' | t: terms: search.terms }}</h3>
+                <h1 class="page--title template-title h3" style="text-align: {{ settings.template_heading_alignment }};">{{ 'general.search.no_results_html' | t: terms: search.terms }}</h1>
               {% else %}
-                <h3 class="page--title template-title" style="text-align: {{ settings.template_heading_alignment }};">{{ 'general.search.results_for_html' | t: terms: search.terms }}</h3>
+                <h1 class="page--title template-title h3" style="text-align: {{ settings.template_heading_alignment }};">{{ 'general.search.results_for_html' | t: terms: search.terms }}</h1>
               {% endif %}
             {% else %}
-              <h3 class="page--title template-title" style="text-align: {{ settings.template_heading_alignment }};">{{ 'general.search.title' | t }}</h3>
+              <h1 class="page--title template-title h3" style="text-align: {{ settings.template_heading_alignment }};">{{ 'general.search.title' | t }}</h1>
             {% endif %}
           </div>
 
