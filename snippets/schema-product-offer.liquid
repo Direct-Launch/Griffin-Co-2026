@@ -22,6 +22,9 @@
     "name": {{ product.title | json }},
     "description": {{ product.description | strip_html | json }},
     "sku": {{ schema_variant.sku | json }},
+    {%- if product.vendor != blank %}
+    "brand": { "@type": "Brand", "name": {{ product.vendor | json }} },
+    {%- endif %}
     "url": {{ shop.url | append: product.url | json }},
     {%- if product.featured_image %}
     "image": {{ product.featured_image | image_url: width: 1920 | prepend: 'https:' | json }},

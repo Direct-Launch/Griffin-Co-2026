@@ -65,12 +65,23 @@
     {
       "@context": "https://schema.org",
       "@type": "JewelryStore",
+      "@id": "https://griffinfinejewellery.com/#localbusiness",
       "name": "Griffin & Co Fine Jewellery",
       "legalName": "Griffin & Co Jewellery Ltd",
       "url": "https://griffinfinejewellery.com",
       "telephone": "+441243380024",
       "email": "contact@griffinfinejewellery.com",
       "vatID": "496450849",
+      {%- if page_image %}
+      "image": {{ page_image | image_url: width: 1200 | prepend: 'https:' | json }},
+      {%- endif %}
+      "currenciesAccepted": "GBP",
+      "areaServed": [
+        { "@type": "AdministrativeArea", "name": "West Sussex" },
+        { "@type": "AdministrativeArea", "name": "Hampshire" },
+        { "@type": "AdministrativeArea", "name": "Surrey" },
+        { "@type": "AdministrativeArea", "name": "Greater London" }
+      ],
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "64 South Street",
