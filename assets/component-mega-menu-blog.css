@@ -392,3 +392,179 @@
     scrollbar-color: var(--menu-drawer-text-color-transparent30) var(--menu-drawer-text-color-transparent10);
   }
 }
+
+/* ---------------------------------------------------------------------------
+   Mega Menu - Products: product slider in place of the promotion banner.
+   Arrows reuse .mega-menu-blog__arrow; scrollbars follow the theme pattern.
+--------------------------------------------------------------------------- */
+.mega-menu-wrapper .mega-menu-block .mega-menu--promos.mega-menu--promos-slider {
+  display: block;
+  min-width: 0;
+}
+
+.mm-products {
+  min-width: 0;
+  width: 100%;
+}
+
+.mm-products__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.mm-products__heading {
+  margin: 0;
+}
+
+.mm-products__actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-shrink: 0;
+}
+
+.mm-products__view-all {
+  white-space: nowrap;
+}
+
+.mm-products__track {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  padding-bottom: 14px;
+}
+
+.mm-products__track::-webkit-scrollbar {
+  height: 3px;
+}
+
+.mm-products__track::-webkit-scrollbar-track {
+  background-color: var(--nav-text-color-transparent10);
+  border-radius: 32px;
+}
+
+.mm-products__track::-webkit-scrollbar-thumb {
+  background-color: var(--nav-text-color-transparent30);
+  border-radius: 32px;
+}
+
+.mm-products--desktop .mm-products__item {
+  flex: 0 0 calc((100% - (var(--mm-products-visible, 2) - 1) * 16px) / var(--mm-products-visible, 2));
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.mm-products__track:focus-visible {
+  outline: 2px solid var(--nav-text-color);
+  outline-offset: 4px;
+}
+
+.mm-products__image {
+  display: block;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+.mm-products__image img,
+.mm-products__image svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mm-products .mm-products__title {
+  margin: 0 0 4px;
+  font-size: 14px;
+  line-height: 1.35;
+}
+
+.mm-products .mm-products__title a {
+  display: -webkit-box !important;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+
+.mm-products__price {
+  font-size: 13px;
+}
+
+/* Mobile drawer */
+.mobile-nav__item.mm-products__mobile {
+  display: block;
+  padding: 16px 0 4px;
+  list-style: none;
+}
+
+.mm-products__mobile .mm-products,
+.mm-products__mobile .mm-products__track {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.mm-products__mobile .mm-products__track {
+  display: flex;
+  padding-bottom: 12px;
+}
+
+.mm-products__mobile .mm-products__track::-webkit-scrollbar {
+  height: 2px;
+}
+
+.mm-products__mobile .mm-products__track::-webkit-scrollbar-track {
+  background-color: var(--menu-drawer-text-color-transparent10);
+  border-radius: 0;
+}
+
+.mm-products__mobile .mm-products__track::-webkit-scrollbar-thumb {
+  background-color: var(--menu-drawer-text-color-transparent30);
+}
+
+.mm-products--mobile .mm-products__item {
+  flex: 0 0 var(--mm-products-card-basis, 55%);
+  max-width: var(--mm-products-card-basis, 55%);
+  scroll-snap-align: start;
+}
+
+.mm-products__mobile .mm-products__header {
+  margin-bottom: 12px;
+}
+
+.mm-products__mobile .mm-products__view-all a {
+  display: inline;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.mm-products__mobile a.mm-products__image {
+  display: block;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  .mm-products__track {
+    scrollbar-width: thin;
+    scrollbar-color: var(--nav-text-color-transparent30) var(--nav-text-color-transparent10);
+  }
+
+  .mm-products__mobile .mm-products__track {
+    scrollbar-color: var(--menu-drawer-text-color-transparent30) var(--menu-drawer-text-color-transparent10);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .mm-products__track {
+    scroll-behavior: auto;
+  }
+}

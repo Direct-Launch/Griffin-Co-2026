@@ -2,6 +2,9 @@
   Accepts:
     - mega_menu_block: The mega menu block object (required)
     - link: The navigation link object (required)
+    - slider_html: Optional markup shown in the promotions area instead of the
+      promo images (used by the "Mega Menu - Products" block)
+    - panel_columns: Optional grid-template-columns override for links vs promos
 
   Usage:
     {% render 'mega-menu', mega_menu_block: mega-menu-block, link: link %}
@@ -30,6 +33,12 @@
     assign promo_count = promo_count | plus: 1
   endif
 
+  assign has_slider = false
+  if slider_html != blank
+    assign has_slider = true
+    assign promo_count = 1
+  endif
+
   assign show_desktop_links = block.settings.show_mega_menu_links_desktop
   if show_desktop_links == nil
     assign show_desktop_links = true
@@ -56,6 +65,10 @@
     endif
   elsif hide_links and promo_count > 0
     assign block_grid_cols = '1fr'
+  endif
+
+  if panel_columns != blank and hide_links == false
+    assign block_grid_cols = panel_columns
   endif
 %}
 
@@ -185,7 +198,11 @@
     </div>
   {% endif %}
 
-  {% if promo_count > 0 %}
+  {% if has_slider %}
+    <div class="mega-menu--promos mega-menu--promos-slider">
+      {{ slider_html }}
+    </div>
+  {% elsif promo_count > 0 %}
     <div class="mega-menu--promos">
       {% for i in (1..6) %}
         {% assign mega_image_key = 'mega_image_' | append: i %}

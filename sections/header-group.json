@@ -559,6 +559,25 @@
             "blog_article_3": "",
             "blog_article_4": ""
           }
+        },
+        "product_content_jewellery": {
+          "type": "product_content",
+          "settings": {
+            "mega-menu": "Jewellery",
+            "product_collection": "new-additions",
+            "product_count": 8,
+            "product_hide_sold_out": false,
+            "product_show_price": true,
+            "product_heading": "New additions",
+            "product_view_all_label": "View all",
+            "product_view_all_link": "",
+            "product_panel_width": "narrow",
+            "product_visible_desktop": "2",
+            "product_card_width_mobile": 55,
+            "show_mega_menu_links_desktop": true,
+            "show_mega_menu_links_mobile": true,
+            "product_show_mobile": true
+          }
         }
       },
       "block_order": [
@@ -590,7 +609,8 @@
         "content_qFcwEJ",
         "menu_icon_4NC83M",
         "content_z9ENGN",
-        "blog_content_wCjL3K"
+        "blog_content_wCjL3K",
+        "product_content_jewellery"
       ],
       "settings": {
         "sticky_header": true,

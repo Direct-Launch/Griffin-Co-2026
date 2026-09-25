@@ -1,4 +1,4 @@
-/* Blog mega menu: previous/next arrows for the desktop scrolling row.
+/* Mega menu sliders (blog posts, products): previous/next arrows.
    Delegated from document, so it works however many menus render and needs
    no init after the (hidden-until-hover) dropdown opens. */
 (function () {
@@ -11,7 +11,7 @@
   }
 
   function updateArrows(track) {
-    var root = track.closest('.mega-menu-blog');
+    var root = track.closest('[data-mm-slider-root], .mega-menu-blog');
     if (!root) return;
     var max = track.scrollWidth - track.clientWidth - 1;
     var prev = root.querySelector('[data-mega-menu-blog-prev]');
@@ -26,7 +26,7 @@
     var track = trackFor(button);
     if (!track) return;
     event.preventDefault();
-    var item = track.querySelector('.mega-menu-blog__item');
+    var item = track.querySelector(track.getAttribute('data-item-selector') || '.mega-menu-blog__item');
     var gap = parseFloat(getComputedStyle(track).columnGap) || 0;
     var step = item ? item.getBoundingClientRect().width + gap : track.clientWidth;
     var direction = button.hasAttribute('data-mega-menu-blog-prev') ? -1 : 1;
@@ -51,7 +51,7 @@
     initAll();
   }
   document.addEventListener('mouseover', function (event) {
-    var root = event.target.closest && event.target.closest('.mega-menu-blog--carousel');
+    var root = event.target.closest && event.target.closest('[data-mm-slider-root], .mega-menu-blog--carousel');
     if (root) {
       var track = root.querySelector('[data-mega-menu-blog-track]');
       if (track) updateArrows(track);

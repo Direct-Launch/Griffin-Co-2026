@@ -1,0 +1,138 @@
+{% comment %}
+  Renders the "Mega Menu - Products" block: the menu item's links (via the
+  standard mega-menu snippet, so layout and link icons match other mega menus)
+  with a product slider where the promotion banner would be.
+
+  Accepts:
+    - mega_menu_block: the header "Mega Menu - Products" block (required)
+    - link: the navigation link object (required)
+    - context: 'desktop' (default) or 'mobile'
+{% endcomment %}
+
+{% liquid
+  assign block = mega_menu_block
+  if context == blank
+    assign context = 'desktop'
+  endif
+
+  comment
+    Source collection. New Additions (tag "_badge: New Addition") and
+    All Jewellery are both sorted newest first in Shopify, so the collection's
+    own order is used. Liquid reads at most the first 50 products.
+  endcomment
+  assign source_collection = block.settings.product_collection
+  if source_collection == blank
+    assign source_collection = collections.all
+  endif
+
+  assign product_limit = block.settings.product_count | default: 8
+  assign visible_desktop = block.settings.product_visible_desktop | default: '2' | plus: 0
+  assign mobile_card_width = block.settings.product_card_width_mobile | default: 55
+  assign heading = block.settings.product_heading
+  assign view_all_label = block.settings.product_view_all_label
+  assign view_all_link = block.settings.product_view_all_link
+  if view_all_link == blank
+    assign view_all_link = source_collection.url
+  endif
+
+  case block.settings.product_panel_width
+    when 'balanced'
+      assign panel_columns = '1fr 1fr'
+    when 'wide'
+      assign panel_columns = '1fr 2fr'
+    else
+      assign panel_columns = '2fr 1fr'
+  endcase
+
+  assign slider_id = 'MegaMenuProducts-' | append: block.id | append: '-' | append: context
+%}
+
+{%- capture product_cards -%}
+  {%- assign rendered = 0 -%}
+  {%- for card_product in source_collection.products limit: product_limit -%}
+    {%- if card_product.available == false and block.settings.product_hide_sold_out -%}
+      {%- continue -%}
+    {%- endif -%}
+    <div class="mm-products__item">
+      <a class="mm-products__image block-radius-clip{% unless settings.product-grid == 'natural' %} aspect-ratio aspect-ratio--{{ settings.product-grid }}{% endunless %}" href="{{ card_product.url }}" tabindex="-1" aria-hidden="true">
+        {%- if card_product.featured_media -%}
+          {{ card_product.featured_media | image_url: width: 600 | image_tag: loading: 'lazy', widths: '300, 450, 600', sizes: '(min-width: 1025px) 300px, 60vw', class: 'theme-img' }}
+        {%- else -%}
+          {{ 'product-1' | placeholder_svg_tag: 'icon icon--placeholder' }}
+        {%- endif -%}
+      </a>
+      <p class="mm-products__title"><a href="{{ card_product.url }}">{{ card_product.title | escape }}</a></p>
+      {%- if block.settings.product_show_price -%}
+        <div class="mm-products__price">
+          {%- render 'product-grid-item-price', price_product: card_product -%}
+        </div>
+      {%- endif -%}
+    </div>
+    {%- assign rendered = rendered | plus: 1 -%}
+  {%- endfor -%}
+
+  {%- if rendered == 0 and request.design_mode -%}
+    {%- for i in (1..3) -%}
+      <div class="mm-products__item">
+        <div class="mm-products__image aspect-ratio aspect-ratio--square">{{ 'product-1' | placeholder_svg_tag: 'icon icon--placeholder' }}</div>
+        <p class="mm-products__title">{{ 'general.onboarding.product_title' | t }}</p>
+      </div>
+      {%- assign rendered = rendered | plus: 1 -%}
+    {%- endfor -%}
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- assign has_products = product_cards | strip -%}
+
+{%- liquid
+  if context == 'mobile'
+    assign has_overflow = false
+  elsif rendered > visible_desktop
+    assign has_overflow = true
+  else
+    assign has_overflow = false
+  endif
+-%}
+
+{%- capture slider_html -%}
+  {%- if has_products != blank -%}
+    <div class="mm-products mm-products--{{ context }}" data-mm-slider-root style="--mm-products-visible: {{ visible_desktop }}; --mm-products-card-basis: {{ mobile_card_width }}%;">
+      {%- if heading != blank or view_all_label != blank or has_overflow -%}
+        <div class="mm-products__header">
+          {%- if heading != blank -%}
+            <p class="{% if context == 'mobile' %}h5{% else %}h4{% endif %} mm-products__heading">{{ heading | escape }}</p>
+          {%- endif -%}
+          <div class="mm-products__actions">
+            {%- if view_all_label != blank and view_all_link != blank -%}
+              <div class="mm-products__view-all text-link-animated">
+                <a href="{{ view_all_link }}">{{ view_all_label | escape }}</a>
+              </div>
+            {%- endif -%}
+            {%- if has_overflow -%}
+              <div class="mega-menu-blog__arrows">
+                <button type="button" class="mega-menu-blog__arrow" data-mega-menu-blog-prev aria-controls="{{ slider_id }}" aria-label="Previous products" disabled>
+                  {% render 'theme-icon', icon: 'chevron_left', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                </button>
+                <button type="button" class="mega-menu-blog__arrow" data-mega-menu-blog-next aria-controls="{{ slider_id }}" aria-label="Next products">
+                  {% render 'theme-icon', icon: 'chevron_right', iconSize: 16, iconAttributes: 'aria-hidden="true"' %}
+                </button>
+              </div>
+            {%- endif -%}
+          </div>
+        </div>
+      {%- endif -%}
+
+      <div class="mm-products__track" id="{{ slider_id }}" data-mega-menu-blog-track data-item-selector=".mm-products__item" data-post-count="{{ rendered }}" tabindex="0" role="region" aria-label="{{ heading | default: 'Products' | escape }}">
+        {{ product_cards }}
+      </div>
+    </div>
+  {%- endif -%}
+{%- endcapture -%}
+
+{% if context == 'mobile' %}
+  {% if has_products != blank and block.settings.product_show_mobile %}
+    <li class="mobile-nav__item mm-products__mobile">{{ slider_html }}</li>
+  {% endif %}
+{% else %}
+  {% render 'mega-menu', mega_menu_block: block, link: link, slider_html: slider_html, panel_columns: panel_columns %}
+{% endif %}

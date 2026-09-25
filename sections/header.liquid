@@ -15,6 +15,9 @@ Testing Cypress integration
   if mega_menu_block == blank
     assign mega_menu_block = section.blocks | where: 'type', 'blog_content' | first
   endif
+  if mega_menu_block == blank
+    assign mega_menu_block = section.blocks | where: 'type', 'product_content' | first
+  endif
 %}
 
 {% assign homepage-overlay = false %}
@@ -377,19 +380,28 @@ Testing Cypress integration
             assign current_mega_block = blank
  
             for block in section.blocks
-              if block.type == 'content' or block.type == 'blog_content'
+              if block.type == 'content' or block.type == 'blog_content' or block.type == 'product_content'
                 assign block-title = block.settings.mega-menu | strip | downcase
                 if block-title == link-title
-                  assign is-mega-menu = true
-                  assign current_mega_block = block
-                  break
+                  comment
+                    Blog/product mega menus take precedence over a standard one
+                    for the same item (matches the desktop nav).
+                  endcomment
+                  if is-mega-menu == false or block.type != 'content'
+                    assign is-mega-menu = true
+                    assign current_mega_block = block
+                  endif
                 endif
               endif
             endfor
 
             assign is-blog-mega-menu = false
+            assign is-product-mega-menu = false
             if is-mega-menu and current_mega_block.type == 'blog_content'
               assign is-blog-mega-menu = true
+            endif
+            if is-mega-menu and current_mega_block.type == 'product_content'
+              assign is-product-mega-menu = true
             endif
 
             assign show_mobile_links = true
@@ -398,6 +410,10 @@ Testing Cypress integration
             if is-mega-menu
               assign show_mobile_links = current_mega_block.settings.show_mega_menu_links_mobile
               assign show_mobile_promos = current_mega_block.settings.show_mega_menu_promos_mobile
+            endif
+
+            if is-product-mega-menu
+              assign show_mobile_promos = false
             endif
 
             if is-blog-mega-menu
@@ -623,6 +639,9 @@ Testing Cypress integration
                 {% if is-blog-mega-menu %}
                   {% render 'mega-menu-blog', mega_menu_block: current_mega_block, link: link, context: 'mobile' %}
                 {% endif %}
+                {% if is-product-mega-menu %}
+                  {% render 'mega-menu-products', mega_menu_block: current_mega_block, link: link, context: 'mobile' %}
+                {% endif %}
               </ul>
             </li>
           {% else %}
@@ -766,6 +785,9 @@ Testing Cypress integration
                   {% endif %}
                   {% if is-blog-mega-menu %}
                     {% render 'mega-menu-blog', mega_menu_block: current_mega_block, link: link, context: 'mobile' %}
+                  {% endif %}
+                  {% if is-product-mega-menu %}
+                    {% render 'mega-menu-products', mega_menu_block: current_mega_block, link: link, context: 'mobile' %}
                   {% endif %}
                 </ul>
               {% else %}
@@ -2098,15 +2120,33 @@ Testing Cypress integration
           ]
         },
         {
+          "type": "select",
+          "id": "blog_scope",
+          "label": "Blogs",
+          "default": "all",
+          "info": "All blogs: every blog in the store that Liquid can reach, plus any blog linked in your main menu or the menus below.",
+          "options": [
+            {
+              "value": "all",
+              "label": "All blogs"
+            },
+            {
+              "value": "chosen",
+              "label": "Only the blogs chosen below"
+            }
+          ]
+        },
+        {
           "type": "blog",
           "id": "blog",
-          "label": "Blog"
+          "label": "Blog",
+          "info": "Also used for the \"View all\" link and article tags."
         },
         {
           "type": "blog",
           "id": "blog_2",
           "label": "Also include posts from",
-          "info": "Optional. Posts from all chosen blogs are merged, newest first."
+          "info": "Optional extra blogs. Always included."
         },
         {
           "type": "blog",
@@ -2403,6 +2443,152 @@ Testing Cypress integration
           "type": "article",
           "id": "blog_article_4",
           "label": "Post 4"
+        }
+      ]
+    },
+    {
+      "type": "product_content",
+      "name": "Mega Menu - Products",
+      "settings": [
+        {
+          "id": "mega-menu",
+          "type": "text",
+          "label": "t:all.Menu_item",
+          "info": "t:sections.header.blocks.content.settings.mega-menu.info"
+        },
+        {
+          "type": "header",
+          "content": "Products",
+          "info": "Shown where the promotion banner would be. Takes priority over a standard mega menu for the same menu item."
+        },
+        {
+          "type": "collection",
+          "id": "product_collection",
+          "label": "Collection",
+          "info": "Products show in the collection's own sort order. \"New Additions\" (tagged _badge: New Addition) and \"All Jewellery\" are both sorted newest first. Leave empty for All Jewellery."
+        },
+        {
+          "type": "range",
+          "id": "product_count",
+          "label": "Products to show",
+          "min": 2,
+          "max": 16,
+          "step": 1,
+          "default": 8
+        },
+        {
+          "type": "checkbox",
+          "id": "product_hide_sold_out",
+          "label": "Hide sold out products",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "product_show_price",
+          "label": "Show price",
+          "default": true
+        },
+        {
+          "type": "text",
+          "id": "product_heading",
+          "label": "Heading",
+          "default": "New additions"
+        },
+        {
+          "type": "text",
+          "id": "product_view_all_label",
+          "label": "\"View all\" label",
+          "default": "View all"
+        },
+        {
+          "type": "url",
+          "id": "product_view_all_link",
+          "label": "\"View all\" link",
+          "info": "Leave empty to link to the collection."
+        },
+        {
+          "type": "header",
+          "content": "Layout"
+        },
+        {
+          "type": "select",
+          "id": "product_panel_width",
+          "label": "Slider width",
+          "default": "narrow",
+          "options": [
+            {
+              "value": "narrow",
+              "label": "Narrow (like a promotion banner)"
+            },
+            {
+              "value": "balanced",
+              "label": "Half"
+            },
+            {
+              "value": "wide",
+              "label": "Wide"
+            }
+          ]
+        },
+        {
+          "type": "select",
+          "id": "product_visible_desktop",
+          "label": "Products visible on desktop",
+          "default": "2",
+          "options": [
+            {
+              "value": "1",
+              "label": "1"
+            },
+            {
+              "value": "2",
+              "label": "2"
+            },
+            {
+              "value": "3",
+              "label": "3"
+            },
+            {
+              "value": "4",
+              "label": "4"
+            }
+          ]
+        },
+        {
+          "type": "range",
+          "id": "product_card_width_mobile",
+          "label": "Card width on mobile",
+          "min": 40,
+          "max": 100,
+          "step": 5,
+          "unit": "%",
+          "default": 55
+        },
+        {
+          "type": "header",
+          "content": "Desktop Settings"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mega_menu_links_desktop",
+          "label": "Show Level 2/3 links in Desktop Menu",
+          "default": true
+        },
+        {
+          "type": "header",
+          "content": "Mobile Settings"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_mega_menu_links_mobile",
+          "label": "Show Level 2/3 links in Mobile Menu",
+          "default": true
+        },
+        {
+          "type": "checkbox",
+          "id": "product_show_mobile",
+          "label": "Show products in Mobile Menu",
+          "default": true
         }
       ]
     },
