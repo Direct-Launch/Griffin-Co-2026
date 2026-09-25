@@ -171,7 +171,7 @@
       },
       "1070798744400380459": {
         "type": "shopify://apps/ai-sitemap-llms-txt-generator/blocks/app-embed-block/2105d460-5607-4f97-b103-65025e857edd",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       },
       "2567389343055140935": {
