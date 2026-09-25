@@ -126,7 +126,17 @@
             {% endif %}
 
             {% if block.settings.link_image != blank %}
-              {{ block.settings.link_image | image_url: width: 2000 | image_tag: alt: block.settings.link_image.alt, class: 'visual-nav-img theme-img' }}
+              {%- comment -%} DL 2026-09-25: fall back to the link text when the image has no alt (sub-collection images come from metafields and mostly have none). {%- endcomment -%}
+              {%- liquid
+                assign nav_img_alt = block.settings.link_image.alt
+                if nav_img_alt == blank
+                  assign nav_img_alt = block.settings.link_text | strip_html | strip
+                endif
+                if nav_img_alt == blank and block.settings.link_url != blank
+                  assign nav_img_alt = block.settings.link_url | split: '/' | last | replace: '-', ' ' | capitalize
+                endif
+              -%}
+              {{ block.settings.link_image | image_url: width: 2000 | image_tag: alt: nav_img_alt, class: 'visual-nav-img theme-img' }}
             {% else %}
               {% capture current %}{% cycle 1, 2, 3, 4, 5, 6 %}{% endcapture %}
               {{ 'collection-' | append: current | placeholder_svg_tag: 'icon icon--placeholder block-radius' }}
