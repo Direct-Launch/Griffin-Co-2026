@@ -568,3 +568,23 @@
     scroll-behavior: auto;
   }
 }
+
+/* Product badges: same markup/classes as the product grid, positioned over
+   the image by the theme's --badge-* variables. */
+.mm-products__media {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.mm-products__media .mm-products__image {
+  margin-bottom: 0;
+}
+
+.mm-products__media .badge {
+  color: var(--badge-font-color) !important;
+  max-width: calc(100% - 16px);
+  font-size: 11px;
+  line-height: 13px;
+  padding: 5px 10px;
+  pointer-events: none;
+}

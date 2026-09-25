@@ -47,6 +47,14 @@
   assign slider_id = 'MegaMenuProducts-' | append: block.id | append: '-' | append: context
 %}
 
+{%- liquid
+  assign show_badges = false
+  if settings.show_badges and block.settings.product_show_badges != false
+    assign show_badges = true
+  endif
+  assign preorder_string = 'products.product.preorder' | t | downcase
+-%}
+
 {%- capture product_cards -%}
   {%- assign rendered = 0 -%}
   {%- for card_product in source_collection.products limit: product_limit -%}
@@ -54,13 +62,46 @@
       {%- continue -%}
     {%- endif -%}
     <div class="mm-products__item">
-      <a class="mm-products__image block-radius-clip{% unless settings.product-grid == 'natural' %} aspect-ratio aspect-ratio--{{ settings.product-grid }}{% endunless %}" href="{{ card_product.url }}" tabindex="-1" aria-hidden="true">
-        {%- if card_product.featured_media -%}
-          {{ card_product.featured_media | image_url: width: 600 | image_tag: loading: 'lazy', widths: '300, 450, 600', sizes: '(min-width: 1025px) 300px, 60vw', class: 'theme-img' }}
-        {%- else -%}
-          {{ 'product-1' | placeholder_svg_tag: 'icon icon--placeholder' }}
+      <div class="mm-products__media">
+        <a class="mm-products__image block-radius-clip{% unless settings.product-grid == 'natural' %} aspect-ratio aspect-ratio--{{ settings.product-grid }}{% endunless %}" href="{{ card_product.url }}" tabindex="-1" aria-hidden="true">
+          {%- if card_product.featured_media -%}
+            {{ card_product.featured_media | image_url: width: 600 | image_tag: loading: 'lazy', widths: '300, 450, 600', sizes: '(min-width: 1025px) 300px, 60vw', class: 'theme-img' }}
+          {%- else -%}
+            {{ 'product-1' | placeholder_svg_tag: 'icon icon--placeholder' }}
+          {%- endif -%}
+        </a>
+
+        {%- comment -%}
+          Same badge rules as the theme's product grid (grid-view-item):
+          preorder > custom "_badge:" tag > sale; sold out when unavailable.
+        {%- endcomment -%}
+        {%- if show_badges -%}
+          {%- liquid
+            assign preorder_product = false
+            assign custom_badge = nil
+            if card_product.available
+              for tag in card_product.tags
+                assign lowercase_tag = tag | downcase
+                if lowercase_tag contains preorder_string
+                  assign preorder_product = true
+                endif
+                if preorder_product == false and tag contains '_badge:'
+                  assign custom_badge = tag | remove: '_badge:'
+                endif
+              endfor
+              if preorder_product
+                render 'badge', badge: 'preorder', preorder_badge: preorder_string
+              elsif custom_badge
+                render 'badge', badge: 'custom', custom_badge: custom_badge
+              else
+                render 'badge', badge: 'sale', badge_product: card_product
+              endif
+            else
+              render 'badge', badge: 'sold-out'
+            endif
+          -%}
         {%- endif -%}
-      </a>
+      </div>
       <p class="mm-products__title"><a href="{{ card_product.url }}">{{ card_product.title | escape }}</a></p>
       {%- if block.settings.product_show_price -%}
         <div class="mm-products__price">
