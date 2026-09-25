@@ -46,6 +46,8 @@
     {%- elsif seo_title.size <= max_base -%}{{ seo_title }} &ndash; {{ shop.name }}
     {%- else -%}{{ seo_title }}{%- endif -%}
   </title>
+  
+{%- if template == 'blog' and current_tags -%}<meta name="robots" content="noindex, follow">{%- endif -%}
 
   {%- liquid
     assign meta_desc = page_description
